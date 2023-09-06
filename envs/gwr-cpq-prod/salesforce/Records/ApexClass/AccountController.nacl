@@ -1,0 +1,6 @@
+salesforce.ApexClass AccountController {
+  apiVersion = 58
+  status = "Active"
+  fullName = "AccountController"
+  content = file("salesforce/Records/ApexClass/AccountController.cls")
+}
