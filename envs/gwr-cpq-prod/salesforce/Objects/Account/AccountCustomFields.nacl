@@ -21,15 +21,7 @@ type salesforce.Account {
     updateable = true
     queryable = true
   }
-  salesforce.Checkbox CPQ2_Prd__c {
-    apiName = "Account.CPQ2_Prd__c"
-    defaultValue = false
-    externalId = false
-    label = "CPQ2 Prd"
-    createable = true
-    updateable = true
-    queryable = true
-  }
+  
   salesforce.Picklist CustomerPriority__c {
     apiName = "Account.CustomerPriority__c"
     externalId = false
@@ -453,6 +445,26 @@ type salesforce.Account {
   salesforce.Text gwr_Status2__c {
     apiName = "Account.gwr_Status2__c"
     description = "asd,fjknasdkljfalksdjfakljsdfkljadsf"
+    externalId = false
+    label = "_gwr_Status"
+    length = 100
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Checkbox CPQ1_Dev__c {
+    apiName = "Account.CPQ1_Dev__c"
+    defaultValue = false
+    externalId = false
+    label = "CPQ1 Dev"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text gwr_Status__c {
+    apiName = "Account.gwr_Status__c"
     externalId = false
     label = "_gwr_Status"
     length = 100

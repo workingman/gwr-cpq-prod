@@ -45,7 +45,15 @@ salesforce.Layout Account_Account_Layout@bs {
             },
             {
               behavior = "Edit"
-              field = salesforce.Account.field.CPQ2_Prd__c
+              field = salesforce.Account.field.GWR_Assigned__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.gwr_Status__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.CPQ1_Dev__c
             },
           ]
         },
