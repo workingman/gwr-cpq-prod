@@ -1,0 +1,18 @@
+salesforce.ApexClass SBQQ__LineEditorLookupCallout {
+  apiVersion = 51
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQ__LineEditorLookupCallout"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__LineEditorLookupCallout.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

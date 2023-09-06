@@ -94,7 +94,7 @@ type salesforce.Product2 {
     externalId = false
     inlineHelpText = "Determines how often this product will be invoiced."
     label = "Billing Frequency"
-    valueSetName = "SBQQ__BillingFrequency"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__BillingFrequency
     restricted = true
     createable = true
     updateable = true
@@ -112,7 +112,7 @@ type salesforce.Product2 {
     externalId = false
     inlineHelpText = "The billing type that defines when the billing occurs. Billing in advance lets you bill your customers for products or services before you provide them; Billing in arrears lets you bill your customers after the products or services are provided."
     label = "Billing Type"
-    valueSetName = "SBQQ__BillingType"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__BillingType
     restricted = true
     createable = true
     updateable = true
@@ -155,7 +155,7 @@ type salesforce.Product2 {
     externalId = false
     inlineHelpText = "The type of the product charge."
     label = "Charge Type"
-    valueSetName = "SBQQ__ChargeType"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__ChargeType
     restricted = true
     createable = true
     updateable = true
@@ -449,7 +449,7 @@ type salesforce.Product2 {
       isOptional = false
     }
     referenceTo = [
-      "SBQQ__DiscountSchedule__c",
+      salesforce.SBQQ__DiscountSchedule__c,
     ]
     relationshipLabel = "Products (Cost Schedule)"
     relationshipName = "Products1"
@@ -603,7 +603,7 @@ type salesforce.Product2 {
     inlineHelpText = "Specify discount category for this product."
     label = "Discount Category"
     referenceTo = [
-      "SBQQ__DiscountCategory__c",
+      salesforce.SBQQ__DiscountCategory__c,
     ]
     relationshipLabel = "Products"
     relationshipName = "Products"
@@ -636,7 +636,7 @@ type salesforce.Product2 {
       isOptional = false
     }
     referenceTo = [
-      "SBQQ__DiscountSchedule__c",
+      salesforce.SBQQ__DiscountSchedule__c,
     ]
     relationshipLabel = "Quantity Discounted Products"
     relationshipName = "Products"
@@ -1025,7 +1025,7 @@ type salesforce.Product2 {
     inlineHelpText = "Pricing guidance for use with this product."
     label = "Pricing Guidance"
     referenceTo = [
-      "SBQQ__PricingGuidance__c",
+      salesforce.SBQQ__PricingGuidance__c,
     ]
     relationshipLabel = "Products"
     relationshipName = "Products"
@@ -1506,7 +1506,7 @@ type salesforce.Product2 {
       isOptional = false
     }
     referenceTo = [
-      "SBQQ__DiscountSchedule__c",
+      salesforce.SBQQ__DiscountSchedule__c,
     ]
     relationshipLabel = "Term Discounted Products"
     relationshipName = "TermDiscountedProducts"

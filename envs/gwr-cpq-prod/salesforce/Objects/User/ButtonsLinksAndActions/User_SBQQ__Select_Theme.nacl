@@ -10,7 +10,7 @@ salesforce.WebLink User_SBQQ__Select_Theme {
   linkType = "page"
   masterLabel = "Select Theme"
   openType = "newWindow"
-  page = "SBQQ__ThemeLookup"
+  page = salesforce.ApexPage.instance.SBQQ__ThemeLookup
   position = "none"
   protected = false
   showsLocation = false

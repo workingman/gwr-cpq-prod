@@ -1,0 +1,18 @@
+salesforce.ApexClass SBQQ__QueueableJobCheckerExt {
+  apiVersion = 51
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQ__QueueableJobCheckerExt"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__QueueableJobCheckerExt.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

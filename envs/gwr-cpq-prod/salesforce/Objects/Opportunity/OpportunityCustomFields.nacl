@@ -180,7 +180,7 @@ type salesforce.Opportunity {
       isOptional = false
     }
     referenceTo = [
-      "SBQQ__Quote__c",
+      salesforce.SBQQ__Quote__c,
     ]
     relationshipLabel = "Opportunities"
     relationshipName = "PrimaryOpportunities"

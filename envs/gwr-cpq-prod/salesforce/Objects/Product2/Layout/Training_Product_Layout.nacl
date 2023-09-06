@@ -536,7 +536,7 @@ salesforce.Layout Product2_Training_Product_Layout@bss {
         "SBQQ__Category__c",
         "SBQQ__OptionSelectionMethod__c",
       ]
-      relatedList = "SBQQ__ProductFeature__c.SBQQ__ConfiguredSKU__c"
+      relatedList = salesforce.SBQQ__ProductFeature__c.field.SBQQ__ConfiguredSKU__c
       sortField = "SBQQ__Number__c"
       sortOrder = "Asc"
     },
@@ -551,7 +551,7 @@ salesforce.Layout Product2_Training_Product_Layout@bss {
         "SBQQ__QuantityEditable__c",
         "SBQQ__Type__c",
       ]
-      relatedList = "SBQQ__ProductOption__c.SBQQ__ConfiguredSKU__c"
+      relatedList = salesforce.SBQQ__ProductOption__c.field.SBQQ__ConfiguredSKU__c
       sortField = "NAME"
       sortOrder = "Asc"
     },
@@ -565,7 +565,7 @@ salesforce.Layout Product2_Training_Product_Layout@bss {
         "SBQQ__CheckPriorPurchases__c",
         "SBQQ__OptionConstraintGroup__c",
       ]
-      relatedList = "SBQQ__OptionConstraint__c.SBQQ__ConfiguredSKU__c"
+      relatedList = salesforce.SBQQ__OptionConstraint__c.field.SBQQ__ConfiguredSKU__c
     },
     {
       fields = [
@@ -577,7 +577,7 @@ salesforce.Layout Product2_Training_Product_Layout@bss {
         "SBQQ__Position__c",
         "RECORDTYPE",
       ]
-      relatedList = "SBQQ__ConfigurationAttribute__c.SBQQ__Product__c"
+      relatedList = salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__Product__c
     },
     {
       fields = [
@@ -586,7 +586,7 @@ salesforce.Layout Product2_Training_Product_Layout@bss {
         "SBQQ__ProductRule__c",
         "SBQQ__Active__c",
       ]
-      relatedList = "SBQQ__ConfigurationRule__c.SBQQ__Product__c"
+      relatedList = salesforce.SBQQ__ConfigurationRule__c.field.SBQQ__Product__c
     },
     {
       relatedList = "RelatedStandardPriceList"
@@ -602,7 +602,7 @@ salesforce.Layout Product2_Training_Product_Layout@bss {
         "SBQQ__UpperBound__c",
         "SBQQ__Price__c",
       ]
-      relatedList = "SBQQ__BlockPrice__c.SBQQ__Product__c"
+      relatedList = salesforce.SBQQ__BlockPrice__c.field.SBQQ__Product__c
     },
     {
       fields = [
@@ -612,7 +612,7 @@ salesforce.Layout Product2_Training_Product_Layout@bss {
         "SBQQ__NonDiscountable__c",
         "SBQQ__UnitPrice__c",
       ]
-      relatedList = "SBQQ__Dimension__c.SBQQ__Product__c"
+      relatedList = salesforce.SBQQ__Dimension__c.field.SBQQ__Product__c
     },
     {
       relatedList = "RelatedPricebookEntryList"
@@ -623,13 +623,13 @@ salesforce.Layout Product2_Training_Product_Layout@bss {
         "SBQQ__Active__c",
         "SBQQ__UnitCost__c",
       ]
-      relatedList = "SBQQ__Cost__c.SBQQ__Product__c"
+      relatedList = salesforce.SBQQ__Cost__c.field.SBQQ__Product__c
     },
     {
       fields = [
         "NAME",
       ]
-      relatedList = "SBQQ__RelatedContent__c.SBQQ__Product__c"
+      relatedList = salesforce.SBQQ__RelatedContent__c.field.SBQQ__Product__c
     },
   ]
   showEmailCheckbox = false

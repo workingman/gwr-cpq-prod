@@ -1,0 +1,11 @@
+salesforce.SharingRules SBQQ__Dimension__c {
+  fullName = "SBQQ__Dimension__c"
+  _parent = [
+    salesforce.SBQQ__Dimension__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

@@ -1,0 +1,50 @@
+salesforce.GlobalValueSet SBQQ__BillingFrequency {
+  fullName = "SBQQ__BillingFrequency"
+  customValue = [
+    {
+      fullName = "Monthly"
+      default = false
+      label = "Monthly"
+    },
+    {
+      fullName = "Quarterly"
+      default = false
+      label = "Quarterly"
+    },
+    {
+      fullName = "Semiannual"
+      default = false
+      label = "Semiannual"
+    },
+    {
+      fullName = "Annual"
+      default = false
+      label = "Annual"
+    },
+    {
+      fullName = "Invoice Plan"
+      default = false
+      label = "Invoice Plan"
+    },
+    {
+      fullName = "One Time"
+      default = false
+      isActive = false
+      label = "One Time"
+    },
+    {
+      fullName = "Usage"
+      default = false
+      isActive = false
+      label = "Usage"
+    },
+  ]
+  description = "The billing frequency."
+  masterLabel = "Billing Frequency"
+  sorted = false
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

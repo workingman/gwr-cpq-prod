@@ -13,35 +13,35 @@ salesforce.Layout SBQQ__ProductOption__c_Training_Product_Option_Layout@uuuubsss
           layoutItems = [
             {
               behavior = "Required"
-              field = "SBQQ__OptionalSKU__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__OptionalSKU__c
             },
             {
               behavior = "Required"
-              field = "SBQQ__Number__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__Number__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__Selected__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__Selected__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__Required__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__Required__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__Quantity__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__Quantity__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__QuantityEditable__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__QuantityEditable__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__MinQuantity__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__MinQuantity__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__MaxQuantity__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__MaxQuantity__c
             },
           ]
         },
@@ -49,26 +49,26 @@ salesforce.Layout SBQQ__ProductOption__c_Training_Product_Option_Layout@uuuubsss
           layoutItems = [
             {
               behavior = "Readonly"
-              field = "Name"
+              field = salesforce.SBQQ__ProductOption__c.field.Name
             },
             {
               behavior = "Required"
-              field = "SBQQ__ConfiguredSKU__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__ConfiguredSKU__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__Feature__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__Feature__c
             },
             {
               emptySpace = true
             },
             {
               behavior = "Edit"
-              field = "SBQQ__Type__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__Type__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__QuoteLineVisibility__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__QuoteLineVisibility__c
             },
           ]
         },
@@ -85,23 +85,23 @@ salesforce.Layout SBQQ__ProductOption__c_Training_Product_Option_Layout@uuuubsss
           layoutItems = [
             {
               behavior = "Edit"
-              field = "SBQQ__Bundled__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__Bundled__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__UnitPrice__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__UnitPrice__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__Discount__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__Discount__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__DiscountAmount__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__DiscountAmount__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__DiscountSchedule__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__DiscountSchedule__c
             },
           ]
         },
@@ -109,19 +109,19 @@ salesforce.Layout SBQQ__ProductOption__c_Training_Product_Option_Layout@uuuubsss
           layoutItems = [
             {
               behavior = "Edit"
-              field = "SBQQ__SubscriptionScope__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__SubscriptionScope__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__DiscountedByPackage__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__DiscountedByPackage__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__UpliftedByPackage__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__UpliftedByPackage__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__DefaultPricingTable__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__DefaultPricingTable__c
             },
           ]
         },
@@ -138,19 +138,19 @@ salesforce.Layout SBQQ__ProductOption__c_Training_Product_Option_Layout@uuuubsss
           layoutItems = [
             {
               behavior = "Edit"
-              field = "SBQQ__ComponentCode__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__ComponentCode__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__ComponentDescription__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__ComponentDescription__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__System__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__System__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__RenewalProductOption__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__RenewalProductOption__c
             },
           ]
         },
@@ -158,19 +158,19 @@ salesforce.Layout SBQQ__ProductOption__c_Training_Product_Option_Layout@uuuubsss
           layoutItems = [
             {
               behavior = "Edit"
-              field = "SBQQ__ComponentCodePosition__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__ComponentCodePosition__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__ComponentDescriptionPosition__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__ComponentDescriptionPosition__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__AppliedImmediately__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__AppliedImmediately__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__AppliedImmediatelyContext__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__AppliedImmediatelyContext__c
             },
           ]
         },
@@ -187,11 +187,11 @@ salesforce.Layout SBQQ__ProductOption__c_Training_Product_Option_Layout@uuuubsss
           layoutItems = [
             {
               behavior = "Readonly"
-              field = "SBQQ__ProductCode__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__ProductCode__c
             },
             {
               behavior = "Readonly"
-              field = "SBQQ__ProductName__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__ProductName__c
             },
           ]
         },
@@ -199,7 +199,7 @@ salesforce.Layout SBQQ__ProductOption__c_Training_Product_Option_Layout@uuuubsss
           layoutItems = [
             {
               behavior = "Readonly"
-              field = "SBQQ__ProductDescription__c"
+              field = salesforce.SBQQ__ProductOption__c.field.SBQQ__ProductDescription__c
             },
           ]
         },
@@ -216,7 +216,7 @@ salesforce.Layout SBQQ__ProductOption__c_Training_Product_Option_Layout@uuuubsss
           layoutItems = [
             {
               behavior = "Readonly"
-              field = "CreatedById"
+              field = salesforce.SBQQ__ProductOption__c.field.CreatedById
             },
           ]
         },
@@ -224,7 +224,7 @@ salesforce.Layout SBQQ__ProductOption__c_Training_Product_Option_Layout@uuuubsss
           layoutItems = [
             {
               behavior = "Readonly"
-              field = "LastModifiedById"
+              field = salesforce.SBQQ__ProductOption__c.field.LastModifiedById
             },
           ]
         },
@@ -246,7 +246,7 @@ salesforce.Layout SBQQ__ProductOption__c_Training_Product_Option_Layout@uuuubsss
         "SBQQ__AttributeSet__c",
         "SBQQ__Sequence__c",
       ]
-      relatedList = "SBQQ__ProductAttributeSet__c.SBQQ__ProductOption__c"
+      relatedList = salesforce.SBQQ__ProductAttributeSet__c.field.SBQQ__ProductOption__c
       sortField = "SBQQ__Sequence__c"
       sortOrder = "Asc"
     },
@@ -263,4 +263,7 @@ salesforce.Layout SBQQ__ProductOption__c_Training_Product_Option_Layout@uuuubsss
     summaryLayoutStyle = "Default"
   }
   fullName = "SBQQ__ProductOption__c-Training Product Option Layout"
+  _parent = [
+    salesforce.SBQQ__ProductOption__c,
+  ]
 }

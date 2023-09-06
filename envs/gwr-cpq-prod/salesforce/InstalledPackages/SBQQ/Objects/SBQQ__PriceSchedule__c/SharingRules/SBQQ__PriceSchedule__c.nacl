@@ -1,0 +1,11 @@
+salesforce.SharingRules SBQQ__PriceSchedule__c {
+  fullName = "SBQQ__PriceSchedule__c"
+  _parent = [
+    salesforce.SBQQ__PriceSchedule__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

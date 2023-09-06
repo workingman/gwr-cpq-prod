@@ -7,7 +7,7 @@ salesforce.WebLink Contract_SBQQ__Amend {
   linkType = "page"
   masterLabel = "Amend"
   openType = "sidebar"
-  page = "SBQQ__AmendContract"
+  page = salesforce.ApexPage.instance.SBQQ__AmendContract
   protected = false
   _parent = [
     salesforce.Contract,

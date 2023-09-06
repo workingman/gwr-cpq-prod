@@ -1,0 +1,11 @@
+salesforce.SharingRules SBQQ__SearchIndex__c {
+  fullName = "SBQQ__SearchIndex__c"
+  _parent = [
+    salesforce.SBQQ__SearchIndex__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

@@ -1,0 +1,11 @@
+salesforce.SharingRules SBQQ__TemplateContent__c {
+  fullName = "SBQQ__TemplateContent__c"
+  _parent = [
+    salesforce.SBQQ__TemplateContent__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

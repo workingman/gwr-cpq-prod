@@ -7,7 +7,7 @@ salesforce.WebLink Account_SBQQ__Renew_Assets {
   linkType = "page"
   masterLabel = "Renew Assets"
   openType = "sidebar"
-  page = "SBQQ__AssetSelector"
+  page = salesforce.ApexPage.instance.SBQQ__AssetSelector
   protected = false
   _parent = [
     salesforce.Account,

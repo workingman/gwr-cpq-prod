@@ -381,7 +381,7 @@ type salesforce.Contract {
     inlineHelpText = "Quote from which this Contract was created."
     label = "Quote"
     referenceTo = [
-      "SBQQ__Quote__c",
+      salesforce.SBQQ__Quote__c,
     ]
     relationshipLabel = "Contracts"
     relationshipName = "Contracts"

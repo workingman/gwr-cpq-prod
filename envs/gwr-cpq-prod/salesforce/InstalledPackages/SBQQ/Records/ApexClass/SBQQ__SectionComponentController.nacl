@@ -1,0 +1,18 @@
+salesforce.ApexClass SBQQ__SectionComponentController {
+  apiVersion = 51
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQ__SectionComponentController"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__SectionComponentController.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

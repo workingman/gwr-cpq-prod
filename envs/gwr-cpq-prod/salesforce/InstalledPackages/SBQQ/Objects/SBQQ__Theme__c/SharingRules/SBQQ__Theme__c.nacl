@@ -1,0 +1,11 @@
+salesforce.SharingRules SBQQ__Theme__c {
+  fullName = "SBQQ__Theme__c"
+  _parent = [
+    salesforce.SBQQ__Theme__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

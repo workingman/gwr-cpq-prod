@@ -6,7 +6,7 @@ salesforce.WebLink Order_SBQQ__EditOrderProducts {
   linkType = "page"
   masterLabel = "Edit Order Products"
   openType = "noSidebar"
-  page = "SBQQ__OrderLineSelector"
+  page = salesforce.ApexPage.instance.SBQQ__OrderLineSelector
   protected = false
   _parent = [
     salesforce.Order,

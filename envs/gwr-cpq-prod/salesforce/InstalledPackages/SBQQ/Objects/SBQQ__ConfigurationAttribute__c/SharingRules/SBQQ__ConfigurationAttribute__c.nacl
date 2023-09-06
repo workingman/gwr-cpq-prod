@@ -1,0 +1,11 @@
+salesforce.SharingRules SBQQ__ConfigurationAttribute__c {
+  fullName = "SBQQ__ConfigurationAttribute__c"
+  _parent = [
+    salesforce.SBQQ__ConfigurationAttribute__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

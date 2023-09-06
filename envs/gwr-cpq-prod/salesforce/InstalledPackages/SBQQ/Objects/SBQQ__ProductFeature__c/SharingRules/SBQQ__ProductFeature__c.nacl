@@ -1,0 +1,11 @@
+salesforce.SharingRules SBQQ__ProductFeature__c {
+  fullName = "SBQQ__ProductFeature__c"
+  _parent = [
+    salesforce.SBQQ__ProductFeature__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

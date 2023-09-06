@@ -58,4 +58,7 @@ salesforce.LightningPage Training_Discount_Schedule_Page {
   }
   type = "RecordPage"
   fullName = "Training_Discount_Schedule_Page"
+  _parent = [
+    salesforce.SBQQ__DiscountSchedule__c,
+  ]
 }

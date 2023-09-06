@@ -16,23 +16,23 @@ salesforce.Layout SBQQ__PriceRule__c_Training_Price_Rule_Layout@uuuubsss {
           layoutItems = [
             {
               behavior = "Required"
-              field = "Name"
+              field = salesforce.SBQQ__PriceRule__c.field.Name
             },
             {
               behavior = "Required"
-              field = "SBQQ__TargetObject__c"
+              field = salesforce.SBQQ__PriceRule__c.field.SBQQ__TargetObject__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__EvaluationEvent__c"
+              field = salesforce.SBQQ__PriceRule__c.field.SBQQ__EvaluationEvent__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__ConfiguratorEvaluationEvent__c"
+              field = salesforce.SBQQ__PriceRule__c.field.SBQQ__ConfiguratorEvaluationEvent__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__EvaluationOrder__c"
+              field = salesforce.SBQQ__PriceRule__c.field.SBQQ__EvaluationOrder__c
             },
           ]
         },
@@ -40,23 +40,23 @@ salesforce.Layout SBQQ__PriceRule__c_Training_Price_Rule_Layout@uuuubsss {
           layoutItems = [
             {
               behavior = "Edit"
-              field = "SBQQ__Active__c"
+              field = salesforce.SBQQ__PriceRule__c.field.SBQQ__Active__c
             },
             {
               behavior = "Required"
-              field = "SBQQ__ConditionsMet__c"
+              field = salesforce.SBQQ__PriceRule__c.field.SBQQ__ConditionsMet__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__AdvancedCondition__c"
+              field = salesforce.SBQQ__PriceRule__c.field.SBQQ__AdvancedCondition__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__Product__c"
+              field = salesforce.SBQQ__PriceRule__c.field.SBQQ__Product__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__LookupObject__c"
+              field = salesforce.SBQQ__PriceRule__c.field.SBQQ__LookupObject__c
             },
           ]
         },
@@ -73,7 +73,7 @@ salesforce.Layout SBQQ__PriceRule__c_Training_Price_Rule_Layout@uuuubsss {
           layoutItems = [
             {
               behavior = "Readonly"
-              field = "CreatedById"
+              field = salesforce.SBQQ__PriceRule__c.field.CreatedById
             },
           ]
         },
@@ -81,7 +81,7 @@ salesforce.Layout SBQQ__PriceRule__c_Training_Price_Rule_Layout@uuuubsss {
           layoutItems = [
             {
               behavior = "Readonly"
-              field = "LastModifiedById"
+              field = salesforce.SBQQ__PriceRule__c.field.LastModifiedById
             },
           ]
         },
@@ -218,7 +218,7 @@ salesforce.Layout SBQQ__PriceRule__c_Training_Price_Rule_Layout@uuuubsss {
         "SBQQ__Value__c",
         "SBQQ__FilterVariable__c",
       ]
-      relatedList = "SBQQ__PriceCondition__c.SBQQ__Rule__c"
+      relatedList = salesforce.SBQQ__PriceCondition__c.field.SBQQ__Rule__c
     },
     {
       fields = [
@@ -231,7 +231,7 @@ salesforce.Layout SBQQ__PriceRule__c_Training_Price_Rule_Layout@uuuubsss {
         "SBQQ__SourceVariable__c",
         "SBQQ__SourceLookupField__c",
       ]
-      relatedList = "SBQQ__PriceAction__c.SBQQ__Rule__c"
+      relatedList = salesforce.SBQQ__PriceAction__c.field.SBQQ__Rule__c
     },
     {
       fields = [
@@ -243,7 +243,7 @@ salesforce.Layout SBQQ__PriceRule__c_Training_Price_Rule_Layout@uuuubsss {
         "SBQQ__Operator__c",
         "SBQQ__LookupField__c",
       ]
-      relatedList = "SBQQ__LookupQuery__c.SBQQ__PriceRule2__c"
+      relatedList = salesforce.SBQQ__LookupQuery__c.field.SBQQ__PriceRule2__c
     },
   ]
   showEmailCheckbox = false
@@ -258,4 +258,7 @@ salesforce.Layout SBQQ__PriceRule__c_Training_Price_Rule_Layout@uuuubsss {
     summaryLayoutStyle = "Default"
   }
   fullName = "SBQQ__PriceRule__c-Training Price Rule Layout"
+  _parent = [
+    salesforce.SBQQ__PriceRule__c,
+  ]
 }

@@ -24,7 +24,7 @@ type salesforce.Asset {
     externalId = false
     inlineHelpText = "Defines the billing frequency."
     label = "Billing Frequency"
-    valueSetName = "SBQQ__BillingFrequency"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__BillingFrequency
     restricted = true
     createable = true
     updateable = true
@@ -42,7 +42,7 @@ type salesforce.Asset {
     externalId = false
     inlineHelpText = "The billing type that defines when the billing occurs. Billing in advance lets you bill your customers for products or services before you provide them; Billing in arrears lets you bill your customers after the products or services are provided."
     label = "Billing Type"
-    valueSetName = "SBQQ__BillingType"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__BillingType
     restricted = true
     createable = true
     updateable = true
@@ -113,7 +113,7 @@ type salesforce.Asset {
     externalId = false
     inlineHelpText = "The type of the product charge.  This is a system field that is derived from the associated product."
     label = "Charge Type"
-    valueSetName = "SBQQ__ChargeType"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__ChargeType
     restricted = true
     createable = true
     updateable = true
@@ -195,7 +195,7 @@ type salesforce.Asset {
     inlineHelpText = "Subscription that currently covers this asset. Automatically populated if one and only one subscription covers this asset. Renewals will overwrite with new subscription."
     label = "Current Subscription"
     referenceTo = [
-      "SBQQ__Subscription__c",
+      salesforce.SBQQ__Subscription__c,
     ]
     relationshipLabel = "Covered Assets"
     relationshipName = "CoveredAssets"
@@ -271,7 +271,7 @@ type salesforce.Asset {
     inlineHelpText = "Specify discounts in terms of % or Amt to be discounted off the product's price using quantity purchased or term. Set quantity/term ranges in tiers of different discount %. Discount is applied to List Price & resulting total is stored in the Regular Price"
     label = "Discount Schedule"
     referenceTo = [
-      "SBQQ__DiscountSchedule__c",
+      salesforce.SBQQ__DiscountSchedule__c,
     ]
     relationshipLabel = "Assets"
     relationshipName = "Assets"
@@ -363,7 +363,7 @@ type salesforce.Asset {
     externalId = false
     label = "Latest Quote Line"
     referenceTo = [
-      "SBQQ__QuoteLine__c",
+      salesforce.SBQQ__QuoteLine__c,
     ]
     relationshipLabel = "Assets (Latest Quote Line)"
     relationshipName = "Assets1"
@@ -639,7 +639,7 @@ type salesforce.Asset {
     externalId = false
     label = "Price Dimension"
     referenceTo = [
-      "SBQQ__Dimension__c",
+      salesforce.SBQQ__Dimension__c,
     ]
     relationshipLabel = "Assets"
     relationshipName = "Assets"
@@ -706,7 +706,7 @@ type salesforce.Asset {
     inlineHelpText = "Product option that generated this line (if any)."
     label = "Product Option"
     referenceTo = [
-      "SBQQ__ProductOption__c",
+      salesforce.SBQQ__ProductOption__c,
     ]
     relationshipLabel = "Assets"
     relationshipName = "Assets"
@@ -727,7 +727,7 @@ type salesforce.Asset {
     externalId = false
     label = "Quote Line"
     referenceTo = [
-      "SBQQ__QuoteLine__c",
+      salesforce.SBQQ__QuoteLine__c,
     ]
     relationshipLabel = "Assets"
     relationshipName = "Assets"
@@ -845,7 +845,7 @@ type salesforce.Asset {
     inlineHelpText = "The parent Subscription. If populated, this Asset is a child in a bundle."
     label = "Required By Subscription"
     referenceTo = [
-      "SBQQ__Subscription__c",
+      salesforce.SBQQ__Subscription__c,
     ]
     relationshipLabel = "Assets (Required By Subscription)"
     relationshipName = "ChildAssets"
@@ -995,7 +995,7 @@ type salesforce.Asset {
     externalId = false
     label = "Subscription Quote Line"
     referenceTo = [
-      "SBQQ__QuoteLine__c",
+      salesforce.SBQQ__QuoteLine__c,
     ]
     relationshipLabel = "Assets (Quote Line)"
     relationshipName = "Asset"
@@ -1051,7 +1051,7 @@ type salesforce.Asset {
     inlineHelpText = "Schedule for discounts based on subscription term. Setting this to \"Group\" applies the discount rate for the group term, while setting it to \"Quote\" applies the discount rate for the entire quote term, regardless of the different terms in your groups."
     label = "Term Discount Schedule"
     referenceTo = [
-      "SBQQ__DiscountSchedule__c",
+      salesforce.SBQQ__DiscountSchedule__c,
     ]
     relationshipLabel = "Assets (Term Discouned)"
     relationshipName = "TermDiscountedAssets"

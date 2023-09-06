@@ -1,0 +1,164 @@
+salesforce.Layout SBQQ__UsageRateCard__c_SBQQ__Usage_Rate_Card_Layout@uuuubuusss {
+  customButtons = [
+    "SBQQ__CloneWithRelated",
+  ]
+  excludeButtons = [
+    "ChangeOwnerOne",
+    "ChangeRecordType",
+    "Share",
+    "Submit",
+  ]
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = salesforce.SBQQ__UsageRateCard__c.field.Name
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__UsageRateCard__c.field.SBQQ__Description__c
+            },
+            {
+              emptySpace = true
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__UsageRateCard__c.field.SBQQ__Type__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__UsageRateCard__c.field.SBQQ__BillingFrequency__c
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__UsageRateCard__c.field.SBQQ__TemplateRateCard__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__UsageRateCard__c.field.SBQQ__OriginalUsageRateCard__c
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = true
+      detailHeading = true
+      editHeading = true
+      label = "Associations"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__UsageRateCard__c.field.SBQQ__QuoteLine__c
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__UsageRateCard__c.field.SBQQ__Subscription__c
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "System Information"
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Custom Links"
+      style = "CustomLinks"
+    },
+  ]
+  platformActionList = {
+    actionListContext = "Record"
+    platformActionListItems = [
+      {
+        actionName = "FeedItem.TextPost"
+        actionType = "QuickAction"
+        sortOrder = 0
+      },
+      {
+        actionName = "Clone"
+        actionType = "StandardButton"
+        sortOrder = 1
+      },
+      {
+        actionName = "SBQQ__CloneWithRelated"
+        actionType = "CustomButton"
+        sortOrder = 2
+      },
+      {
+        actionName = "Edit"
+        actionType = "StandardButton"
+        sortOrder = 3
+      },
+      {
+        actionName = "Delete"
+        actionType = "StandardButton"
+        sortOrder = 4
+      },
+    ]
+  }
+  relatedLists = [
+    {
+      fields = [
+        "SBQQ__Product__c",
+      ]
+      relatedList = salesforce.SBQQ__UsageRateCardAssignment__c.field.SBQQ__UsageRateCard__c
+    },
+    {
+      fields = [
+        "NAME",
+        "SBQQ__UsagePriceMethod__c",
+        "SBQQ__LowerBound__c",
+        "SBQQ__UpperBound__c",
+        "SBQQ__Price__c",
+      ]
+      relatedList = salesforce.SBQQ__UsageRate__c.field.SBQQ__UsageRateCard__c
+    },
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = false
+  showInteractionLogPanel = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  summaryLayout = {
+    masterLabel = "00hA000000b9qOu"
+    sizeX = 4
+    sizeY = 0
+    summaryLayoutStyle = "Default"
+  }
+  fullName = "SBQQ__UsageRateCard__c-SBQQ__Usage Rate Card Layout"
+  _parent = [
+    salesforce.SBQQ__UsageRateCard__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

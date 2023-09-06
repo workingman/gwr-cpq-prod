@@ -6,7 +6,7 @@ salesforce.WebLink Opportunity_SBQQ__CreateOrder {
   linkType = "page"
   masterLabel = "Create Order"
   openType = "noSidebar"
-  page = "SBQQ__GenerateOrder"
+  page = salesforce.ApexPage.instance.SBQQ__GenerateOrder
   protected = false
   _parent = [
     salesforce.Opportunity,

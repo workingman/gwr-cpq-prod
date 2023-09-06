@@ -1,0 +1,20 @@
+salesforce.WebLink SBQQ__UsageRateCard__c_SBQQ__CloneWithRelatedClassic {
+  fullName = "SBQQ__UsageRateCard__c.SBQQ__CloneWithRelatedClassic"
+  availability = "online"
+  description = "Clones this usage rate card with related child records."
+  displayType = "button"
+  encodingKey = "UTF-8"
+  linkType = "url"
+  masterLabel = "Clone with Related"
+  openType = "replace"
+  protected = false
+  url = "{!URLFOR($Action.SBQQ__UsageRateCard__c.Clone, SBQQ__UsageRateCard__c.Id, [retURL=$Site.Prefix & '/' & SBQQ__UsageRateCard__c.Id,saveURL=$Site.Prefix & '/apex/SBQQ__CloneUsageRateCardRelated?id=' & SBQQ__UsageRateCard__c.Id])}"
+  _parent = [
+    salesforce.SBQQ__UsageRateCard__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

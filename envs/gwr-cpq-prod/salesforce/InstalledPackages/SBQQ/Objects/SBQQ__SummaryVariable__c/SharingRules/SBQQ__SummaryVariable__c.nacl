@@ -1,0 +1,11 @@
+salesforce.SharingRules SBQQ__SummaryVariable__c {
+  fullName = "SBQQ__SummaryVariable__c"
+  _parent = [
+    salesforce.SBQQ__SummaryVariable__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

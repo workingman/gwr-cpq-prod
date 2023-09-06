@@ -94,7 +94,7 @@ type salesforce.OrderItem {
     externalId = false
     inlineHelpText = "Defines the billing frequency."
     label = "Billing Frequency"
-    valueSetName = "SBQQ__BillingFrequency"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__BillingFrequency
     restricted = true
     createable = true
     updateable = true
@@ -115,7 +115,7 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     externalId = false
     inlineHelpText = "The billing type that defines when the billing occurs."
     label = "Billing Type"
-    valueSetName = "SBQQ__BillingType"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__BillingType
     restricted = true
     createable = true
     updateable = true
@@ -135,7 +135,7 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     inlineHelpText = "The block price that is applied to this order product at order creation time."
     label = "Block Price"
     referenceTo = [
-      "SBQQ__BlockPrice__c",
+      salesforce.SBQQ__BlockPrice__c,
     ]
     relationshipLabel = "Order Products"
     relationshipName = "OrderProducts"
@@ -155,7 +155,7 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     externalId = false
     inlineHelpText = "Indicates whether bookings are included."
     label = "Bookings Indicator"
-    valueSetName = "SBQQ__BookingsIndicator"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__BookingsIndicator
     restricted = true
     createable = true
     updateable = true
@@ -195,7 +195,7 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     externalId = false
     inlineHelpText = "The type of the product charge."
     label = "Charge Type"
-    valueSetName = "SBQQ__ChargeType"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__ChargeType
     restricted = true
     createable = true
     updateable = true
@@ -213,7 +213,7 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     externalId = false
     inlineHelpText = "The contract action where this order product is resulted from."
     label = "Contract Action"
-    valueSetName = "SBQQ__ContractAction"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__ContractAction
     restricted = true
     createable = true
     updateable = true
@@ -354,7 +354,7 @@ Term length of the subscription, which only applies if the product is a subscrip
     inlineHelpText = "Discount schedule applied to this order product."
     label = "Discount Schedule"
     referenceTo = [
-      "SBQQ__DiscountSchedule__c",
+      salesforce.SBQQ__DiscountSchedule__c,
     ]
     relationshipLabel = "Order Products"
     relationshipName = "OrderProducts"
@@ -425,7 +425,7 @@ Term length of the subscription, which only applies if the product is a subscrip
     inlineHelpText = "References the price dimension applied to this order product."
     label = "Price Dimension"
     referenceTo = [
-      "SBQQ__Dimension__c",
+      salesforce.SBQQ__Dimension__c,
     ]
     relationshipLabel = "Order Products"
     relationshipName = "OrderProducts"
@@ -447,7 +447,7 @@ Term length of the subscription, which only applies if the product is a subscrip
     inlineHelpText = "Price schedule applied to this order product."
     label = "Price Schedule"
     referenceTo = [
-      "SBQQ__PriceSchedule__c",
+      salesforce.SBQQ__PriceSchedule__c,
     ]
     relationshipLabel = "Order Products"
     relationshipName = "OrderProducts"
@@ -512,7 +512,7 @@ Term length of the subscription, which only applies if the product is a subscrip
     externalId = false
     inlineHelpText = "Set the order item's product subscription type."
     label = "Product Subscription Type"
-    valueSetName = "SBQQ__SubscriptionType"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__SubscriptionType
     restricted = true
     createable = true
     updateable = true
@@ -551,7 +551,7 @@ Term length of the subscription, which only applies if the product is a subscrip
     inlineHelpText = "The quote line where this order product is created from."
     label = "Quote Line"
     referenceTo = [
-      "SBQQ__QuoteLine__c",
+      salesforce.SBQQ__QuoteLine__c,
     ]
     relationshipLabel = "Order Products"
     relationshipName = "OrderProducts"
@@ -708,7 +708,7 @@ Term length of the subscription, which only applies if the product is a subscrip
     externalId = false
     inlineHelpText = "Indicates the current state of the order product. It is defaulted to Draft when an order is created."
     label = "Activation Status"
-    valueSetName = "SBQQ__OrderProductStatus"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__OrderProductStatus
     restricted = true
     createable = true
     updateable = true
@@ -726,7 +726,7 @@ Term length of the subscription, which only applies if the product is a subscrip
     externalId = false
     inlineHelpText = "Indicates how the subscription price is calculated. If this is blank, the line items is not a subscription product."
     label = "Subscription Pricing"
-    valueSetName = "SBQQ__SubscriptionPricing"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__SubscriptionPricing
     restricted = true
     createable = true
     updateable = true
@@ -761,7 +761,7 @@ Term length of the subscription, which only applies if the product is a subscrip
     externalId = false
     inlineHelpText = "Indicates the subscription type to determine contract's pricing."
     label = "Subscription Type"
-    valueSetName = "SBQQ__SubscriptionType"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__SubscriptionType
     restricted = true
     fieldDependency = {
       controllingField = "SBQQ__ProductSubscriptionType__c"
@@ -806,7 +806,7 @@ Term length of the subscription, which only applies if the product is a subscrip
     inlineHelpText = "Subscription created from this order product"
     label = "Subscription"
     referenceTo = [
-      "SBQQ__Subscription__c",
+      salesforce.SBQQ__Subscription__c,
     ]
     relationshipLabel = "Order Products"
     relationshipName = "SubscriptionOrderProducts"
@@ -865,7 +865,7 @@ Term length of the subscription, which only applies if the product is a subscrip
     inlineHelpText = "Term Discount Schedule applied to this order product."
     label = "Term Discount Schedule"
     referenceTo = [
-      "SBQQ__DiscountSchedule__c",
+      salesforce.SBQQ__DiscountSchedule__c,
     ]
     relationshipLabel = "Order Products (Term Discount Schedule)"
     relationshipName = "TermedOrderProducts"
@@ -921,7 +921,7 @@ Term length of the subscription, which only applies if the product is a subscrip
     inlineHelpText = "Subscription being upgraded by this quote line. When the quote is contracted this subscription will have its Terminated Date field populated."
     label = "Upgraded Subscription"
     referenceTo = [
-      "SBQQ__Subscription__c",
+      salesforce.SBQQ__Subscription__c,
     ]
     relationshipLabel = "Upgraded Order Products"
     relationshipName = "OrderProducts"

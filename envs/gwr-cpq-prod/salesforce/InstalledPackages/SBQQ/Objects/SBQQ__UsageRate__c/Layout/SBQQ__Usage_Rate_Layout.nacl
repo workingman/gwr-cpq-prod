@@ -1,0 +1,161 @@
+salesforce.Layout SBQQ__UsageRate__c_SBQQ__Usage_Rate_Layout@uuuubuuss {
+  excludeButtons = [
+    "Submit",
+  ]
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.SBQQ__UsageRate__c.field.Name
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__UsageRate__c.field.SBQQ__Description__c
+            },
+            {
+              emptySpace = true
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__UsageRate__c.field.SBQQ__UsageProcessingOrder__c
+            },
+            {
+              behavior = "Required"
+              field = salesforce.SBQQ__UsageRate__c.field.SBQQ__UsagePriceMethod__c
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = salesforce.SBQQ__UsageRate__c.field.SBQQ__UsageRateCard__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__UsageRate__c.field.SBQQ__PriceBook__c
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = true
+      detailHeading = true
+      editHeading = true
+      label = "Tier Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__UsageRate__c.field.SBQQ__LowerBound__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__UsageRate__c.field.SBQQ__UpperBound__c
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__UsageRate__c.field.SBQQ__Price__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__UsageRate__c.field.SBQQ__PriceType__c
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.SBQQ__UsageRate__c.field.CreatedById
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.SBQQ__UsageRate__c.field.LastModifiedById
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Custom Links"
+      style = "CustomLinks"
+    },
+  ]
+  platformActionList = {
+    actionListContext = "Record"
+    platformActionListItems = [
+      {
+        actionName = "FeedItem.TextPost"
+        actionType = "QuickAction"
+        sortOrder = 0
+      },
+      {
+        actionName = "Delete"
+        actionType = "StandardButton"
+        sortOrder = 1
+      },
+      {
+        actionName = "Edit"
+        actionType = "StandardButton"
+        sortOrder = 2
+      },
+      {
+        actionName = "Clone"
+        actionType = "StandardButton"
+        sortOrder = 3
+      },
+    ]
+  }
+  showEmailCheckbox = false
+  showHighlightsPanel = false
+  showInteractionLogPanel = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  summaryLayout = {
+    masterLabel = "00hA000000b9qOz"
+    sizeX = 4
+    sizeY = 0
+    summaryLayoutStyle = "Default"
+  }
+  fullName = "SBQQ__UsageRate__c-SBQQ__Usage Rate Layout"
+  _parent = [
+    salesforce.SBQQ__UsageRate__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

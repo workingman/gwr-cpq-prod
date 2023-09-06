@@ -1,0 +1,18 @@
+salesforce.QuickAction Opportunity_SBQQ__CreateOrderLightning@vuu {
+  fullName = "Opportunity.SBQQ__CreateOrderLightning"
+  description = "Create a new order from a quote."
+  height = 150
+  label = "Create Order"
+  lightningComponent = salesforce.AuraDefinitionBundle.instance.SBQQ__createOrder
+  optionsCreateFeedItem = false
+  type = "LightningComponent"
+  width = -100
+  _parent = [
+    salesforce.Opportunity,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

@@ -6,7 +6,7 @@ salesforce.WebLink Account_SBQQ__Amend_Assets {
   linkType = "page"
   masterLabel = "Amend Assets"
   openType = "sidebar"
-  page = "SBQQ__AssetSelectorAmend"
+  page = salesforce.ApexPage.instance.SBQQ__AssetSelectorAmend
   protected = false
   _parent = [
     salesforce.Account,

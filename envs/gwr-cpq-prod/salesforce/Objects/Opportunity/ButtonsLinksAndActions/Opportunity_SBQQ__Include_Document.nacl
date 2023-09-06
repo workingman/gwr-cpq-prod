@@ -7,7 +7,7 @@ salesforce.WebLink Opportunity_SBQQ__Include_Document {
   linkType = "page"
   masterLabel = "Include Document"
   openType = "sidebar"
-  page = "SBQQ__NewOpportunityRelatedContent"
+  page = salesforce.ApexPage.instance.SBQQ__NewOpportunityRelatedContent
   protected = false
   _parent = [
     salesforce.Opportunity,

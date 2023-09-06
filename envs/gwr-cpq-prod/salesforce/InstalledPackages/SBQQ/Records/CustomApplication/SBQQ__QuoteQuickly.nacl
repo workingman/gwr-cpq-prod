@@ -1,0 +1,41 @@
+salesforce.CustomApplication SBQQ__QuoteQuickly {
+  defaultLandingTab = "standard-home"
+  description = "Salesforce CPQ simplifies configuration and ensures pricing and quoting accuracy. Sales reps reduce errors, improve productivity, and close more deals without ever leaving the Sales Cloud."
+  formFactors = [
+    "Large",
+  ]
+  isNavAutoTempTabsDisabled = false
+  isNavPersonalizationDisabled = false
+  isNavTabPersistenceDisabled = false
+  label = "Salesforce CPQ"
+  logo = "SBQQ__Salesforce_CPQ_Assets/SBQQ__Salesforce_CPQ_Logo.png"
+  tabs = [
+    "standard-Account",
+    "standard-Opportunity",
+    salesforce.CustomTab.instance.SBQQ__Quote__c,
+    "standard-Order",
+    "standard-Product2",
+    salesforce.CustomTab.instance.SBQQ__ProductRule__c,
+    salesforce.CustomTab.instance.SBQQ__PriceRule__c,
+    salesforce.CustomTab.instance.SBQQ__SummaryVariable__c,
+    salesforce.CustomTab.instance.SBQQ__DiscountSchedule__c,
+    salesforce.CustomTab.instance.SBQQ__ConfigurationAttribute__c,
+    salesforce.CustomTab.instance.SBQQ__AttributeSet__c,
+    salesforce.CustomTab.instance.SBQQ__QuoteTemplate__c,
+    salesforce.CustomTab.instance.SBQQ__TemplateContent__c,
+    salesforce.CustomTab.instance.SBQQ__QuoteTerm__c,
+    salesforce.CustomTab.instance.SBQQ__Localization__c,
+    "standard-Document",
+    salesforce.CustomTab.instance.SBQQ__SearchFilter__c,
+    salesforce.CustomTab.instance.SBQQ__CustomAction__c,
+    salesforce.CustomTab.instance.SBQQ__QuoteProcess__c,
+    salesforce.CustomTab.instance.OutletLocale__c,
+    salesforce.CustomTab.instance.IndustryPrice__c,
+  ]
+  fullName = "SBQQ__QuoteQuickly"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

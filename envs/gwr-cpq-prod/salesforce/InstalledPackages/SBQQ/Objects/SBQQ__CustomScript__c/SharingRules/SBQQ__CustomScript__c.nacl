@@ -1,0 +1,11 @@
+salesforce.SharingRules SBQQ__CustomScript__c {
+  fullName = "SBQQ__CustomScript__c"
+  _parent = [
+    salesforce.SBQQ__CustomScript__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

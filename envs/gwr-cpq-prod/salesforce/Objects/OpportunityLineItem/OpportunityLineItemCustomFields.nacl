@@ -25,7 +25,7 @@ type salesforce.OpportunityLineItem {
     externalId = false
     label = "Quote Line"
     referenceTo = [
-      "SBQQ__QuoteLine__c",
+      salesforce.SBQQ__QuoteLine__c,
     ]
     relationshipLabel = "Opportunity Product"
     relationshipName = "OpportunityProducts"
@@ -45,7 +45,7 @@ type salesforce.OpportunityLineItem {
     externalId = false
     inlineHelpText = "Indicates the subscription type to determine contract's pricing."
     label = "Subscription Type"
-    valueSetName = "SBQQ__SubscriptionType"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__SubscriptionType
     restricted = true
     createable = true
     updateable = true

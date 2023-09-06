@@ -1,0 +1,16 @@
+salesforce.AuraDefinitionBundle SBQQ__CPQPanel {
+  apiVersion = 40
+  description = "CPQPanel"
+  fullName = "SBQQ__CPQPanel"
+  type = "Component"
+  controllerContent = "(hidden)"
+  markup = "(hidden)"
+  designContent = "(hidden)"
+  styleContent = "(hidden)"
+  helperContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

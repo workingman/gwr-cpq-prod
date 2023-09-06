@@ -13,15 +13,15 @@ salesforce.Layout SBQQ__PriceAction__c_Training_Price_Action_Layout@uuuubsss {
           layoutItems = [
             {
               behavior = "Readonly"
-              field = "Name"
+              field = salesforce.SBQQ__PriceAction__c.field.Name
             },
             {
               behavior = "Required"
-              field = "SBQQ__TargetObject__c"
+              field = salesforce.SBQQ__PriceAction__c.field.SBQQ__TargetObject__c
             },
             {
               behavior = "Required"
-              field = "SBQQ__Field__c"
+              field = salesforce.SBQQ__PriceAction__c.field.SBQQ__Field__c
             },
           ]
         },
@@ -29,11 +29,11 @@ salesforce.Layout SBQQ__PriceAction__c_Training_Price_Action_Layout@uuuubsss {
           layoutItems = [
             {
               behavior = "Required"
-              field = "SBQQ__Rule__c"
+              field = salesforce.SBQQ__PriceAction__c.field.SBQQ__Rule__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__Order__c"
+              field = salesforce.SBQQ__PriceAction__c.field.SBQQ__Order__c
             },
           ]
         },
@@ -50,23 +50,23 @@ salesforce.Layout SBQQ__PriceAction__c_Training_Price_Action_Layout@uuuubsss {
           layoutItems = [
             {
               behavior = "Edit"
-              field = "SBQQ__Value__c"
+              field = salesforce.SBQQ__PriceAction__c.field.SBQQ__Value__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__ValueField__c"
+              field = salesforce.SBQQ__PriceAction__c.field.SBQQ__ValueField__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__SourceVariable__c"
+              field = salesforce.SBQQ__PriceAction__c.field.SBQQ__SourceVariable__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__Formula__c"
+              field = salesforce.SBQQ__PriceAction__c.field.SBQQ__Formula__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__SourceLookupField__c"
+              field = salesforce.SBQQ__PriceAction__c.field.SBQQ__SourceLookupField__c
             },
           ]
         },
@@ -85,7 +85,7 @@ salesforce.Layout SBQQ__PriceAction__c_Training_Price_Action_Layout@uuuubsss {
           layoutItems = [
             {
               behavior = "Readonly"
-              field = "CreatedById"
+              field = salesforce.SBQQ__PriceAction__c.field.CreatedById
             },
           ]
         },
@@ -93,7 +93,7 @@ salesforce.Layout SBQQ__PriceAction__c_Training_Price_Action_Layout@uuuubsss {
           layoutItems = [
             {
               behavior = "Readonly"
-              field = "LastModifiedById"
+              field = salesforce.SBQQ__PriceAction__c.field.LastModifiedById
             },
           ]
         },
@@ -120,4 +120,7 @@ salesforce.Layout SBQQ__PriceAction__c_Training_Price_Action_Layout@uuuubsss {
     summaryLayoutStyle = "Default"
   }
   fullName = "SBQQ__PriceAction__c-Training Price Action Layout"
+  _parent = [
+    salesforce.SBQQ__PriceAction__c,
+  ]
 }

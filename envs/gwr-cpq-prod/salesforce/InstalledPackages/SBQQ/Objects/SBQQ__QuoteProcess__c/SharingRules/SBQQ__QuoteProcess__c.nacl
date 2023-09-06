@@ -1,0 +1,11 @@
+salesforce.SharingRules SBQQ__QuoteProcess__c {
+  fullName = "SBQQ__QuoteProcess__c"
+  _parent = [
+    salesforce.SBQQ__QuoteProcess__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

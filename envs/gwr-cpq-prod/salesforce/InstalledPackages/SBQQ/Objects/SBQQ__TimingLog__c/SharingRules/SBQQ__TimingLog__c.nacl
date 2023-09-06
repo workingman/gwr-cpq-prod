@@ -1,0 +1,11 @@
+salesforce.SharingRules SBQQ__TimingLog__c {
+  fullName = "SBQQ__TimingLog__c"
+  _parent = [
+    salesforce.SBQQ__TimingLog__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

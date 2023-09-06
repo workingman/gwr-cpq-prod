@@ -6,7 +6,7 @@ salesforce.WebLink Contract_SBQQ__RenewContracts {
   linkType = "page"
   masterLabel = "Renew Contracts"
   openType = "sidebar"
-  page = "SBQQ__RenewContracts"
+  page = salesforce.ApexPage.instance.SBQQ__RenewContracts
   protected = false
   requireRowSelection = true
   _parent = [

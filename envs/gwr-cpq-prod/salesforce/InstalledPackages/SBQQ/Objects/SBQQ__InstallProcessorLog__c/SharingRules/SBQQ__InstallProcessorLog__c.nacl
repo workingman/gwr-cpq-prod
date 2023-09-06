@@ -1,0 +1,11 @@
+salesforce.SharingRules SBQQ__InstallProcessorLog__c {
+  fullName = "SBQQ__InstallProcessorLog__c"
+  _parent = [
+    salesforce.SBQQ__InstallProcessorLog__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

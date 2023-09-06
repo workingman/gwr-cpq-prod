@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c a078c00000jjDFUAA2 {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.01t8c00000MGiLDAA1
+  SBQQ__UnitCost__c = 5
+  _alias = "COST-000043"
+}

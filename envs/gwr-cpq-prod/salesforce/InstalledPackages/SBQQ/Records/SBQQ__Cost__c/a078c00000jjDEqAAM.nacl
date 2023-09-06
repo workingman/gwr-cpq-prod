@@ -1,0 +1,5 @@
+salesforce.SBQQ__Cost__c a078c00000jjDEqAAM {
+  SBQQ__Active__c = true
+  SBQQ__UnitCost__c = 1200
+  _alias = "COST-000003"
+}

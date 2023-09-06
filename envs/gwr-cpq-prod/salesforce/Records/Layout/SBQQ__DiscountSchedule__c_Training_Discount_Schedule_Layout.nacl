@@ -16,19 +16,19 @@ salesforce.Layout SBQQ__DiscountSchedule__c_Training_Discount_Schedule_Layout@uu
           layoutItems = [
             {
               behavior = "Required"
-              field = "Name"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.Name
             },
             {
               behavior = "Required"
-              field = "SBQQ__Type__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__Type__c
             },
             {
               behavior = "Required"
-              field = "SBQQ__DiscountUnit__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__DiscountUnit__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__Description__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__Description__c
             },
           ]
         },
@@ -36,19 +36,19 @@ salesforce.Layout SBQQ__DiscountSchedule__c_Training_Discount_Schedule_Layout@uu
           layoutItems = [
             {
               behavior = "Edit"
-              field = "SBQQ__AggregationScope__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__AggregationScope__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__CrossProducts__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__CrossProducts__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__CrossOrders__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__CrossOrders__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__IncludeBundledProducts__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__IncludeBundledProducts__c
             },
           ]
         },
@@ -65,31 +65,31 @@ salesforce.Layout SBQQ__DiscountSchedule__c_Training_Discount_Schedule_Layout@uu
           layoutItems = [
             {
               behavior = "Edit"
-              field = "SBQQ__OverrideBehavior__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__OverrideBehavior__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__UserDefined__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__UserDefined__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__UsePriceForAmount__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__UsePriceForAmount__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__Account__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__Account__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__Quote__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__Quote__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__QuoteLine__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__QuoteLine__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__OriginalDiscountSchedule__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__OriginalDiscountSchedule__c
             },
           ]
         },
@@ -97,30 +97,30 @@ salesforce.Layout SBQQ__DiscountSchedule__c_Training_Discount_Schedule_Layout@uu
           layoutItems = [
             {
               behavior = "Edit"
-              field = "SBQQ__ConstraintField__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__ConstraintField__c
             },
             {
               emptySpace = true
             },
             {
               behavior = "Edit"
-              field = "SBQQ__PriceScale__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__PriceScale__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__QuoteLineQuantityField__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__QuoteLineQuantityField__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__ExcludedPricebookIds__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__ExcludedPricebookIds__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__Product__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__Product__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__Pricebook__c"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__Pricebook__c
             },
           ]
         },
@@ -137,11 +137,11 @@ salesforce.Layout SBQQ__DiscountSchedule__c_Training_Discount_Schedule_Layout@uu
           layoutItems = [
             {
               behavior = "Readonly"
-              field = "CreatedById"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.CreatedById
             },
             {
               behavior = "Edit"
-              field = "OwnerId"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.OwnerId
             },
           ]
         },
@@ -149,7 +149,7 @@ salesforce.Layout SBQQ__DiscountSchedule__c_Training_Discount_Schedule_Layout@uu
           layoutItems = [
             {
               behavior = "Readonly"
-              field = "LastModifiedById"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.LastModifiedById
             },
           ]
         },
@@ -298,7 +298,7 @@ salesforce.Layout SBQQ__DiscountSchedule__c_Training_Discount_Schedule_Layout@uu
         "SBQQ__Discount__c",
         "SBQQ__DiscountAmount__c",
       ]
-      relatedList = "SBQQ__DiscountTier__c.SBQQ__Schedule__c"
+      relatedList = salesforce.SBQQ__DiscountTier__c.field.SBQQ__Schedule__c
       sortField = "SBQQ__Number__c"
       sortOrder = "Asc"
     },
@@ -329,7 +329,7 @@ salesforce.Layout SBQQ__DiscountSchedule__c_Training_Discount_Schedule_Layout@uu
         "SBQQ__MinOptionCount__c",
         "SBQQ__MaxOptionCount__c",
       ]
-      relatedList = "SBQQ__ProductFeature__c.SBQQ__DiscountSchedule__c"
+      relatedList = salesforce.SBQQ__ProductFeature__c.field.SBQQ__DiscountSchedule__c
     },
     {
       excludeButtons = [
@@ -343,7 +343,7 @@ salesforce.Layout SBQQ__DiscountSchedule__c_Training_Discount_Schedule_Layout@uu
         "SBQQ__Feature__c",
         "SBQQ__Type__c",
       ]
-      relatedList = "SBQQ__ProductOption__c.SBQQ__DiscountSchedule__c"
+      relatedList = salesforce.SBQQ__ProductOption__c.field.SBQQ__DiscountSchedule__c
     },
     {
       fields = [
@@ -351,7 +351,7 @@ salesforce.Layout SBQQ__DiscountSchedule__c_Training_Discount_Schedule_Layout@uu
         "SBQQ__Product__c",
         "SBQQ__Type__c",
       ]
-      relatedList = "SBQQ__Dimension__c.SBQQ__DiscountSchedule__c"
+      relatedList = salesforce.SBQQ__Dimension__c.field.SBQQ__DiscountSchedule__c
     },
     {
       fields = [
@@ -359,7 +359,7 @@ salesforce.Layout SBQQ__DiscountSchedule__c_Training_Discount_Schedule_Layout@uu
         "SBQQ__Product__c",
         "SBQQ__Type__c",
       ]
-      relatedList = "SBQQ__Dimension__c.SBQQ__TermDiscountSchedule__c"
+      relatedList = salesforce.SBQQ__Dimension__c.field.SBQQ__TermDiscountSchedule__c
     },
     {
       fields = [
@@ -382,4 +382,7 @@ salesforce.Layout SBQQ__DiscountSchedule__c_Training_Discount_Schedule_Layout@uu
     summaryLayoutStyle = "Default"
   }
   fullName = "SBQQ__DiscountSchedule__c-Training Discount Schedule Layout"
+  _parent = [
+    salesforce.SBQQ__DiscountSchedule__c,
+  ]
 }

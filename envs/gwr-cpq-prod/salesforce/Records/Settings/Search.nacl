@@ -387,475 +387,475 @@ salesforce.SearchSettings {
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__AttributeSet__c"
+        name = salesforce.SBQQ__AttributeSet__c
         resultsPerPageCount = 25
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__AttributeValue__c"
+        name = salesforce.SBQQ__AttributeValue__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__BlockPrice__c"
+        name = salesforce.SBQQ__BlockPrice__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__ColumnMetadata__c"
+        name = salesforce.SBQQ__ColumnMetadata__c
         resultsPerPageCount = 25
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__ConfigurationAttribute__c"
+        name = salesforce.SBQQ__ConfigurationAttribute__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__ConfigurationRule__c"
+        name = salesforce.SBQQ__ConfigurationRule__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__ContractedPrice__c"
+        name = salesforce.SBQQ__ContractedPrice__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__Cost__c"
+        name = salesforce.SBQQ__Cost__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__CustomActionCondition__c"
+        name = salesforce.SBQQ__CustomActionCondition__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__CustomAction__c"
+        name = salesforce.SBQQ__CustomAction__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__CustomScript__c"
+        name = salesforce.SBQQ__CustomScript__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__Dimension__c"
+        name = salesforce.SBQQ__Dimension__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__DiscountCategory__c"
+        name = salesforce.SBQQ__DiscountCategory__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__DiscountSchedule__c"
+        name = salesforce.SBQQ__DiscountSchedule__c
         resultsPerPageCount = 25
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__DiscountTier__c"
+        name = salesforce.SBQQ__DiscountTier__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__ErrorCondition__c"
+        name = salesforce.SBQQ__ErrorCondition__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__FavoriteProduct__c"
+        name = salesforce.SBQQ__FavoriteProduct__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__FavoriteShare__c"
+        name = salesforce.SBQQ__FavoriteShare__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__Favorite__c"
+        name = salesforce.SBQQ__Favorite__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__FieldSetMetadata__c"
+        name = salesforce.SBQQ__FieldSetMetadata__c
         resultsPerPageCount = 25
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__ImportColumn__c"
+        name = salesforce.SBQQ__ImportColumn__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__ImportFormat__c"
+        name = salesforce.SBQQ__ImportFormat__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__InstallProcessorLog__c"
+        name = salesforce.SBQQ__InstallProcessorLog__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__LineColumn__c"
+        name = salesforce.SBQQ__LineColumn__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__Localization__c"
+        name = salesforce.SBQQ__Localization__c
         resultsPerPageCount = 25
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__LookupData__c"
+        name = salesforce.SBQQ__LookupData__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__LookupQuery__c"
+        name = salesforce.SBQQ__LookupQuery__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__OptionConstraint__c"
+        name = salesforce.SBQQ__OptionConstraint__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__OrderItemConsumptionRate__c"
+        name = salesforce.SBQQ__OrderItemConsumptionRate__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__OrderItemConsumptionSchedule__c"
+        name = salesforce.SBQQ__OrderItemConsumptionSchedule__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__PriceAction__c"
+        name = salesforce.SBQQ__PriceAction__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__PriceCondition__c"
+        name = salesforce.SBQQ__PriceCondition__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__PriceRule__c"
+        name = salesforce.SBQQ__PriceRule__c
         resultsPerPageCount = 25
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__PriceSchedule__c"
+        name = salesforce.SBQQ__PriceSchedule__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__PriceTier__c"
+        name = salesforce.SBQQ__PriceTier__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__PricingGuidanceTier__c"
+        name = salesforce.SBQQ__PricingGuidanceTier__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__PricingGuidance__c"
+        name = salesforce.SBQQ__PricingGuidance__c
         resultsPerPageCount = 25
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__ProcessInputCondition__c"
+        name = salesforce.SBQQ__ProcessInputCondition__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__ProcessInputValue__c"
+        name = salesforce.SBQQ__ProcessInputValue__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__ProcessInput__c"
+        name = salesforce.SBQQ__ProcessInput__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__ProductAction__c"
+        name = salesforce.SBQQ__ProductAction__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__ProductAttributeSet__c"
+        name = salesforce.SBQQ__ProductAttributeSet__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__ProductAttribute__c"
+        name = salesforce.SBQQ__ProductAttribute__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__ProductFeature__c"
+        name = salesforce.SBQQ__ProductFeature__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__ProductOption__c"
+        name = salesforce.SBQQ__ProductOption__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__ProductRule__c"
+        name = salesforce.SBQQ__ProductRule__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__QuoteDocument__c"
+        name = salesforce.SBQQ__QuoteDocument__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__QuoteLineConsumptionRate__c"
+        name = salesforce.SBQQ__QuoteLineConsumptionRate__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__QuoteLineConsumptionSchedule__c"
+        name = salesforce.SBQQ__QuoteLineConsumptionSchedule__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__QuoteLineGroup__c"
+        name = salesforce.SBQQ__QuoteLineGroup__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__QuoteLinePricingGuidance__c"
+        name = salesforce.SBQQ__QuoteLinePricingGuidance__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__QuoteLine__c"
+        name = salesforce.SBQQ__QuoteLine__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__QuoteProcess__c"
+        name = salesforce.SBQQ__QuoteProcess__c
         resultsPerPageCount = 25
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__QuoteTemplate__c"
+        name = salesforce.SBQQ__QuoteTemplate__c
         resultsPerPageCount = 25
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__QuoteTerm__c"
+        name = salesforce.SBQQ__QuoteTerm__c
         resultsPerPageCount = 25
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__Quote__c"
+        name = salesforce.SBQQ__Quote__c
         resultsPerPageCount = 25
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__RecordJob__c"
+        name = salesforce.SBQQ__RecordJob__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__RelatedContent__c"
+        name = salesforce.SBQQ__RelatedContent__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__SearchFilter__c"
+        name = salesforce.SBQQ__SearchFilter__c
         resultsPerPageCount = 25
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__SearchIndex__c"
+        name = salesforce.SBQQ__SearchIndex__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__SolutionGroup__c"
+        name = salesforce.SBQQ__SolutionGroup__c
         resultsPerPageCount = 25
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__SubscribedAsset__c"
+        name = salesforce.SBQQ__SubscribedAsset__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__SubscribedQuoteLine__c"
+        name = salesforce.SBQQ__SubscribedQuoteLine__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__SubscriptionConsumptionRate__c"
+        name = salesforce.SBQQ__SubscriptionConsumptionRate__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__SubscriptionConsumptionSchedule__c"
+        name = salesforce.SBQQ__SubscriptionConsumptionSchedule__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__Subscription__c"
+        name = salesforce.SBQQ__Subscription__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__SummaryVariable__c"
+        name = salesforce.SBQQ__SummaryVariable__c
         resultsPerPageCount = 25
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__TaxExemptionCertificate__c"
+        name = salesforce.SBQQ__TaxExemptionCertificate__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__TemplateContent__c"
+        name = salesforce.SBQQ__TemplateContent__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__TemplateSection__c"
+        name = salesforce.SBQQ__TemplateSection__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__TermCondition__c"
+        name = salesforce.SBQQ__TermCondition__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__Theme__c"
+        name = salesforce.SBQQ__Theme__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__TimingLog__c"
+        name = salesforce.SBQQ__TimingLog__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__UpgradeSource__c"
+        name = salesforce.SBQQ__UpgradeSource__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__UsageRateCardAssignment__c"
+        name = salesforce.SBQQ__UsageRateCardAssignment__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__UsageRateCard__c"
+        name = salesforce.SBQQ__UsageRateCard__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__UsageRate__c"
+        name = salesforce.SBQQ__UsageRate__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__WebQuoteLine__c"
+        name = salesforce.SBQQ__WebQuoteLine__c
         resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
-        name = "SBQQ__WebQuote__c"
+        name = salesforce.SBQQ__WebQuote__c
         resultsPerPageCount = 25
       },
       {

@@ -13,23 +13,23 @@ salesforce.Layout SBQQ__ConfigurationAttribute__c_Training_Configuration_Attribu
           layoutItems = [
             {
               behavior = "Required"
-              field = "SBQQ__Product__c"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__Product__c
             },
             {
               behavior = "Required"
-              field = "Name"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.Name
             },
             {
               behavior = "Required"
-              field = "SBQQ__TargetField__c"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__TargetField__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__Required__c"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__Required__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__ApplyToProductOptions__c"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__ApplyToProductOptions__c
             },
           ]
         },
@@ -37,23 +37,23 @@ salesforce.Layout SBQQ__ConfigurationAttribute__c_Training_Configuration_Attribu
           layoutItems = [
             {
               behavior = "Required"
-              field = "SBQQ__DisplayOrder__c"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__DisplayOrder__c
             },
             {
               behavior = "Required"
-              field = "SBQQ__ColumnOrder__c"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__ColumnOrder__c
             },
             {
               behavior = "Required"
-              field = "SBQQ__Position__c"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__Position__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__Feature__c"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__Feature__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__Hidden__c"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__Hidden__c
             },
           ]
         },
@@ -70,15 +70,15 @@ salesforce.Layout SBQQ__ConfigurationAttribute__c_Training_Configuration_Attribu
           layoutItems = [
             {
               behavior = "Edit"
-              field = "SBQQ__DefaultObject__c"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__DefaultObject__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__DefaultField__c"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__DefaultField__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__AutoSelect__c"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__AutoSelect__c
             },
           ]
         },
@@ -86,15 +86,15 @@ salesforce.Layout SBQQ__ConfigurationAttribute__c_Training_Configuration_Attribu
           layoutItems = [
             {
               behavior = "Edit"
-              field = "SBQQ__ShownValues__c"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__ShownValues__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__HiddenValues__c"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__HiddenValues__c
             },
             {
               behavior = "Edit"
-              field = "SBQQ__AppliedImmediately__c"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__AppliedImmediately__c
             },
           ]
         },
@@ -111,7 +111,7 @@ salesforce.Layout SBQQ__ConfigurationAttribute__c_Training_Configuration_Attribu
           layoutItems = [
             {
               behavior = "Readonly"
-              field = "CreatedById"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.CreatedById
             },
           ]
         },
@@ -119,7 +119,7 @@ salesforce.Layout SBQQ__ConfigurationAttribute__c_Training_Configuration_Attribu
           layoutItems = [
             {
               behavior = "Readonly"
-              field = "LastModifiedById"
+              field = salesforce.SBQQ__ConfigurationAttribute__c.field.LastModifiedById
             },
           ]
         },
@@ -146,4 +146,7 @@ salesforce.Layout SBQQ__ConfigurationAttribute__c_Training_Configuration_Attribu
     summaryLayoutStyle = "Default"
   }
   fullName = "SBQQ__ConfigurationAttribute__c-Training Configuration Attribute Layout"
+  _parent = [
+    salesforce.SBQQ__ConfigurationAttribute__c,
+  ]
 }

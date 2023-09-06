@@ -464,7 +464,7 @@ salesforce.Layout Account_Training_Account_Layout@bss {
         "SBQQ__Status__c",
         "CREATEDBY_USER",
       ]
-      relatedList = "SBQQ__Quote__c.SBQQ__Account__c"
+      relatedList = salesforce.SBQQ__Quote__c.field.SBQQ__Account__c
     },
     {
       customButtons = [
@@ -490,7 +490,7 @@ salesforce.Layout Account_Training_Account_Layout@bss {
         "SBQQ__EffectiveDate__c",
         "SBQQ__ExpirationDate__c",
       ]
-      relatedList = "SBQQ__ContractedPrice__c.SBQQ__Account__c"
+      relatedList = salesforce.SBQQ__ContractedPrice__c.field.SBQQ__Account__c
     },
     {
       fields = [
@@ -516,7 +516,7 @@ salesforce.Layout Account_Training_Account_Layout@bss {
         "SBQQ__RenewedDate__c",
         "SBQQ__TerminatedDate__c",
       ]
-      relatedList = "SBQQ__Subscription__c.SBQQ__Account__c"
+      relatedList = salesforce.SBQQ__Subscription__c.field.SBQQ__Account__c
     },
     {
       fields = [

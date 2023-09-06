@@ -1,0 +1,11 @@
+salesforce.SharingRules SBQQ__LookupData__c {
+  fullName = "SBQQ__LookupData__c"
+  _parent = [
+    salesforce.SBQQ__LookupData__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

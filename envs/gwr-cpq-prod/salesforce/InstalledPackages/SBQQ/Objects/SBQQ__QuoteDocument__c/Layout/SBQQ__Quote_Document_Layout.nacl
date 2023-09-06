@@ -1,0 +1,273 @@
+salesforce.Layout SBQQ__QuoteDocument__c_SBQQ__Quote_Document_Layout@uuuubuuss {
+  customButtons = [
+    "SBQQ__View",
+    "SBQQ__Email",
+  ]
+  excludeButtons = [
+    "Submit",
+  ]
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = salesforce.SBQQ__QuoteDocument__c.field.Name
+            },
+            {
+              behavior = "Required"
+              field = salesforce.SBQQ__QuoteDocument__c.field.SBQQ__Quote__c
+            },
+            {
+              behavior = "Required"
+              field = salesforce.SBQQ__QuoteDocument__c.field.SBQQ__Version__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__QuoteDocument__c.field.SBQQ__ListAmount__c
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.SBQQ__QuoteDocument__c.field.SBQQ__ElectronicSignature__c
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.SBQQ__QuoteDocument__c.field.SBQQ__Opportunity__c
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.SBQQ__QuoteDocument__c.field.SBQQ__Template__c
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.SBQQ__QuoteDocument__c.field.SBQQ__OutputFormat__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__QuoteDocument__c.field.SBQQ__NetAmount__c
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.SBQQ__QuoteDocument__c.field.SBQQ__SignatureStatus__c
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.SBQQ__QuoteDocument__c.field.CreatedById
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.SBQQ__QuoteDocument__c.field.SBQQ__ViewRecordId__c
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.SBQQ__QuoteDocument__c.field.LastModifiedById
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.SBQQ__QuoteDocument__c.field.SBQQ__DocumentId__c
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Custom Links"
+      style = "CustomLinks"
+    },
+  ]
+  platformActionList = {
+    actionListContext = "Record"
+    platformActionListItems = [
+      {
+        actionName = "SBQQ__View"
+        actionType = "CustomButton"
+        sortOrder = 0
+      },
+      {
+        actionName = "SBQQ__Email"
+        actionType = "CustomButton"
+        sortOrder = 1
+      },
+      {
+        actionName = "FeedItem.TextPost"
+        actionType = "QuickAction"
+        sortOrder = 2
+      },
+      {
+        actionName = "FeedItem.ContentPost"
+        actionType = "QuickAction"
+        sortOrder = 3
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewEvent
+        actionType = "QuickAction"
+        sortOrder = 4
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewTask
+        actionType = "QuickAction"
+        sortOrder = 5
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewContact
+        actionType = "QuickAction"
+        sortOrder = 6
+      },
+      {
+        actionName = salesforce.QuickAction.instance.LogACall
+        actionType = "QuickAction"
+        sortOrder = 7
+      },
+      {
+        actionName = salesforce.QuickAction.instance.SendEmail
+        actionType = "QuickAction"
+        sortOrder = 8
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewCase
+        actionType = "QuickAction"
+        sortOrder = 9
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewLead
+        actionType = "QuickAction"
+        sortOrder = 10
+      },
+      {
+        actionName = "FeedItem.LinkPost"
+        actionType = "QuickAction"
+        sortOrder = 11
+      },
+      {
+        actionName = "FeedItem.PollPost"
+        actionType = "QuickAction"
+        sortOrder = 12
+      },
+      {
+        actionName = "FeedItem.QuestionPost"
+        actionType = "QuickAction"
+        sortOrder = 13
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewOpportunity
+        actionType = "QuickAction"
+        sortOrder = 14
+      },
+      {
+        actionName = "Clone"
+        actionType = "StandardButton"
+        sortOrder = 15
+      },
+      {
+        actionName = "ChangeOwnerOne"
+        actionType = "StandardButton"
+        sortOrder = 16
+      },
+      {
+        actionName = "Delete"
+        actionType = "StandardButton"
+        sortOrder = 17
+      },
+      {
+        actionName = "ChangeRecordType"
+        actionType = "StandardButton"
+        sortOrder = 18
+      },
+      {
+        actionName = "IsotopeSubscription"
+        actionType = "StandardButton"
+        sortOrder = 19
+      },
+      {
+        actionName = "Submit"
+        actionType = "StandardButton"
+        sortOrder = 20
+      },
+      {
+        actionName = "PrintableView"
+        actionType = "StandardButton"
+        sortOrder = 21
+      },
+      {
+        actionName = "Edit"
+        actionType = "StandardButton"
+        sortOrder = 22
+      },
+    ]
+  }
+  relatedLists = [
+    {
+      fields = [
+        "TASK.SUBJECT",
+        "TASK.WHO_NAME",
+        "ACTIVITY.TASK",
+        "TASK.DUE_DATE",
+        "TASK.STATUS",
+        "TASK.PRIORITY",
+        "CORE.USERS.FULL_NAME",
+      ]
+      relatedList = "RelatedActivityList"
+    },
+    {
+      fields = [
+        "TASK.SUBJECT",
+        "TASK.WHO_NAME",
+        "ACTIVITY.TASK",
+        "TASK.DUE_DATE",
+        "CORE.USERS.FULL_NAME",
+        "TASK.LAST_UPDATE",
+      ]
+      relatedList = "RelatedHistoryList"
+    },
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = true
+  showInteractionLogPanel = true
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  summaryLayout = {
+    masterLabel = "00h3A00000Foow8"
+    sizeX = 4
+    sizeY = 0
+    summaryLayoutStyle = "Default"
+  }
+  fullName = "SBQQ__QuoteDocument__c-SBQQ__Quote Document Layout"
+  _parent = [
+    salesforce.SBQQ__QuoteDocument__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

@@ -100,6 +100,12 @@ type salesforce.WorkStep {
         default = false
       },
       {
+        fullName = "_NewQuipDocument"
+        isActive = true
+        label = "New Document"
+        default = false
+      },
+      {
         fullName = "NewEvent"
         isActive = true
         label = "New Event"

@@ -70,7 +70,7 @@ salesforce.AppMenu AppSwitcher {
       type = "ConnectedApp"
     },
     {
-      name = "SBQQ__QuoteQuickly"
+      name = salesforce.CustomApplication.instance.SBQQ__QuoteQuickly
       type = "CustomApplication"
     },
     {

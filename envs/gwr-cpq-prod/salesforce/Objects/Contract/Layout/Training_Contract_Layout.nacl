@@ -448,7 +448,7 @@ salesforce.Layout Contract_Training_Contract_Layout@bss {
         "SBQQ__RenewedDate__c",
         "SBQQ__TerminatedDate__c",
       ]
-      relatedList = "SBQQ__Subscription__c.SBQQ__Contract__c"
+      relatedList = salesforce.SBQQ__Subscription__c.field.SBQQ__Contract__c
     },
     {
       fields = [
@@ -458,7 +458,7 @@ salesforce.Layout Contract_Training_Contract_Layout@bss {
         "CREATEDBY_USER",
         "SBQQ__Primary__c",
       ]
-      relatedList = "SBQQ__Quote__c.SBQQ__MasterContract__c"
+      relatedList = salesforce.SBQQ__Quote__c.field.SBQQ__MasterContract__c
     },
     {
       fields = [
@@ -489,7 +489,7 @@ salesforce.Layout Contract_Training_Contract_Layout@bss {
         "SBQQ__EffectiveDate__c",
         "SBQQ__ExpirationDate__c",
       ]
-      relatedList = "SBQQ__ContractedPrice__c.SBQQ__Contract__c"
+      relatedList = salesforce.SBQQ__ContractedPrice__c.field.SBQQ__Contract__c
     },
     {
       fields = [

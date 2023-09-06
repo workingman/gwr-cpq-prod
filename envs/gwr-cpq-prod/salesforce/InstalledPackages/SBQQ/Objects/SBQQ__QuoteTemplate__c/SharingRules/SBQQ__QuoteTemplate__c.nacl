@@ -1,0 +1,11 @@
+salesforce.SharingRules SBQQ__QuoteTemplate__c {
+  fullName = "SBQQ__QuoteTemplate__c"
+  _parent = [
+    salesforce.SBQQ__QuoteTemplate__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}

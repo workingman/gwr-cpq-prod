@@ -58,4 +58,7 @@ salesforce.LightningPage Training_Product_Rule_Page {
   }
   type = "RecordPage"
   fullName = "Training_Product_Rule_Page"
+  _parent = [
+    salesforce.SBQQ__ProductRule__c,
+  ]
 }

@@ -7,7 +7,7 @@ salesforce.WebLink Opportunity_SBQQ__Amend_Contract {
   linkType = "page"
   masterLabel = "Amend Contract"
   openType = "sidebar"
-  page = "SBQQ__SelectContractOpp"
+  page = salesforce.ApexPage.instance.SBQQ__SelectContractOpp
   protected = false
   _parent = [
     salesforce.Opportunity,

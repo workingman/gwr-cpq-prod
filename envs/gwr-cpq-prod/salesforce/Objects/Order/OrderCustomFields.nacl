@@ -23,7 +23,7 @@ type salesforce.Order {
     externalId = false
     inlineHelpText = "\"By Subscription End Date\" creates a separate Contract for each unique Subscription End Date, containing only those Subscriptions. \"Single Contract\" creates one Contract containing all Subscriptions, regardless of their End Dates."
     label = "Contracting Method"
-    valueSetName = "SBQQ__ContractingMethod"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__ContractingMethod
     restricted = true
     createable = true
     updateable = true
@@ -61,7 +61,7 @@ type salesforce.Order {
     externalId = false
     inlineHelpText = "The payment term for this order."
     label = "Payment Term"
-    valueSetName = "SBQQ__PaymentTerm"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__PaymentTerm
     restricted = true
     createable = true
     updateable = true
@@ -98,7 +98,7 @@ type salesforce.Order {
     externalId = false
     inlineHelpText = "Indicates the order price calculation job status.  It is set by the system."
     label = "Price Calculation Status"
-    valueSetName = "SBQQ__JobStatus"
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__JobStatus
     restricted = true
     createable = true
     updateable = true
@@ -118,7 +118,7 @@ type salesforce.Order {
     inlineHelpText = "The quote where the order is created from."
     label = "Quote"
     referenceTo = [
-      "SBQQ__Quote__c",
+      salesforce.SBQQ__Quote__c,
     ]
     relationshipLabel = "Orders"
     relationshipName = "Orders"

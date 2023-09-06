@@ -1,0 +1,86 @@
+salesforce.Layout SBQQ__UsageRateCardAssignment__c_SBQQ__Usage_Rate_Card_Assignment_Layout@uuuubuussss {
+  excludeButtons = [
+    "Submit",
+  ]
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.SBQQ__UsageRateCardAssignment__c.field.Name
+            },
+            {
+              behavior = "Required"
+              field = salesforce.SBQQ__UsageRateCardAssignment__c.field.SBQQ__UsageRateCard__c
+            },
+            {
+              behavior = "Required"
+              field = salesforce.SBQQ__UsageRateCardAssignment__c.field.SBQQ__Product__c
+            },
+          ]
+        },
+        {
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.SBQQ__UsageRateCardAssignment__c.field.CreatedById
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.SBQQ__UsageRateCardAssignment__c.field.LastModifiedById
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Custom Links"
+      style = "CustomLinks"
+    },
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = false
+  showInteractionLogPanel = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  summaryLayout = {
+    masterLabel = "00hA000000b9qP4"
+    sizeX = 4
+    sizeY = 0
+    summaryLayoutStyle = "Default"
+  }
+  fullName = "SBQQ__UsageRateCardAssignment__c-SBQQ__Usage Rate Card Assignment Layout"
+  _parent = [
+    salesforce.SBQQ__UsageRateCardAssignment__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+}
