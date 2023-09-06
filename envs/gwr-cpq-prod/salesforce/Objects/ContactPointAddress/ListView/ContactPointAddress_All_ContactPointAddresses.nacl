@@ -1,0 +1,8 @@
+salesforce.ListView ContactPointAddress_All_ContactPointAddresses {
+  fullName = "ContactPointAddress.All_ContactPointAddresses"
+  filterScope = "Everything"
+  label = "All Contact Point Addresses"
+  _parent = [
+    salesforce.ContactPointAddress,
+  ]
+}

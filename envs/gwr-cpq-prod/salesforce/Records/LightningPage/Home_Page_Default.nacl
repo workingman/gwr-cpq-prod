@@ -1,0 +1,47 @@
+salesforce.LightningPage Home_Page_Default {
+  flexiPageRegions = [
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentName = "home:heroChart"
+            identifier = "home_heroChart"
+          }
+        },
+      ]
+      mode = "Replace"
+      name = "top"
+      type = "Region"
+    },
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentName = "home:recentRecordContainer"
+            identifier = "home_recentRecordContainer"
+          }
+        },
+      ]
+      mode = "Replace"
+      name = "sidebar"
+      type = "Region"
+    },
+    {
+      mode = "Replace"
+      name = "bottomLeft"
+      type = "Region"
+    },
+    {
+      mode = "Replace"
+      name = "bottomRight"
+      type = "Region"
+    },
+  ]
+  masterLabel = "Home Page Default"
+  parentFlexiPage = "home__desktopDefault"
+  template = {
+    name = "home:desktopTemplate"
+  }
+  type = "HomePage"
+  fullName = "Home_Page_Default"
+}

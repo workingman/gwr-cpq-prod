@@ -1,0 +1,12 @@
+salesforce.ListView Case_Main_queue_Case {
+  fullName = "Case.Main_queue_Case"
+  filterScope = "Queue"
+  label = "Main queue"
+  queue = salesforce.Queue.instance.Main_queue
+  sharedTo = {
+    allInternalUsers = ""
+  }
+  _parent = [
+    salesforce.Case,
+  ]
+}

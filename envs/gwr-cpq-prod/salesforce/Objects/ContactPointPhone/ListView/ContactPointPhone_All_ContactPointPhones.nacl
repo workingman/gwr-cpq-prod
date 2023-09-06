@@ -1,0 +1,8 @@
+salesforce.ListView ContactPointPhone_All_ContactPointPhones {
+  fullName = "ContactPointPhone.All_ContactPointPhones"
+  filterScope = "Everything"
+  label = "All Contact Point Phones"
+  _parent = [
+    salesforce.ContactPointPhone,
+  ]
+}

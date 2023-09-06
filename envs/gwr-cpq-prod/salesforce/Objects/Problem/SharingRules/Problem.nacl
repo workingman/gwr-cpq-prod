@@ -1,0 +1,6 @@
+salesforce.SharingRules Problem {
+  fullName = "Problem"
+  _parent = [
+    salesforce.Problem,
+  ]
+}

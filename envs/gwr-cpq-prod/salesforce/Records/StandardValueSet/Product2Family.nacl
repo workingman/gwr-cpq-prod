@@ -1,0 +1,41 @@
+salesforce.StandardValueSet Product2Family {
+  fullName = "Product2Family"
+  sorted = false
+  standardValue = [
+    {
+      fullName = "None"
+      default = false
+      label = "None"
+    },
+    {
+      fullName = "Hardware"
+      default = false
+      label = "Hardware"
+    },
+    {
+      fullName = "Software"
+      default = false
+      label = "Software"
+    },
+    {
+      fullName = "Service"
+      default = false
+      label = "Service"
+    },
+    {
+      fullName = "Support"
+      default = false
+      label = "Support"
+    },
+    {
+      fullName = "Consumable"
+      default = false
+      label = "Consumable"
+    },
+    {
+      fullName = "Miscellaneous"
+      default = false
+      label = "Miscellaneous"
+    },
+  ]
+}

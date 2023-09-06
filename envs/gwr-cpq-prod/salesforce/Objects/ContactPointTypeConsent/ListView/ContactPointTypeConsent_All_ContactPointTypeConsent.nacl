@@ -1,0 +1,8 @@
+salesforce.ListView ContactPointTypeConsent_All_ContactPointTypeConsent {
+  fullName = "ContactPointTypeConsent.All_ContactPointTypeConsent"
+  filterScope = "Everything"
+  label = "__MISSING LABEL__ PropertyFile - val ContactPointTypeConsent_AllContactPointTypeConsent not found in section FilterNames"
+  _parent = [
+    salesforce.ContactPointTypeConsent,
+  ]
+}

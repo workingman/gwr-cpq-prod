@@ -1,0 +1,6 @@
+salesforce.SharingRules IndustryPrice__c {
+  fullName = "IndustryPrice__c"
+  _parent = [
+    salesforce.IndustryPrice__c,
+  ]
+}

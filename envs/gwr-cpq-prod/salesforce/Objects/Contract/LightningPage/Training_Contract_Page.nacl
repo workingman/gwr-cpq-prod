@@ -1,0 +1,142 @@
+salesforce.LightningPage Training_Contract_Page {
+  flexiPageRegions = [
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentInstanceProperties = [
+              {
+                name = "collapsed"
+                value = "false"
+              },
+              {
+                name = "numVisibleActions"
+                value = "4"
+              },
+            ]
+            componentName = "force:highlightsPanel"
+            identifier = "force_highlightsPanel"
+          }
+        },
+      ]
+      name = "header"
+      type = "Region"
+    },
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentInstanceProperties = [
+              {
+                name = "relatedListComponentOverride"
+                value = "NONE"
+              },
+            ]
+            componentName = "force:relatedListContainer"
+            identifier = "force_relatedListContainer"
+          }
+        },
+      ]
+      name = "Facet-406322f0-0fa0-439c-b7b4-c8946f52a53c"
+      type = "Facet"
+    },
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentInstanceProperties = [
+              {
+                name = "active"
+                value = "true"
+              },
+              {
+                name = "body"
+                value = "Facet-08d80161-ba94-43f9-96b7-4c35453a2eb3"
+              },
+              {
+                name = "title"
+                value = "Standard.Tab.detail"
+              },
+            ]
+            componentName = "flexipage:tab"
+            identifier = "detailTab"
+          }
+        },
+        {
+          componentInstance = {
+            componentInstanceProperties = [
+              {
+                name = "active"
+                value = "false"
+              },
+              {
+                name = "body"
+                value = "Facet-406322f0-0fa0-439c-b7b4-c8946f52a53c"
+              },
+              {
+                name = "title"
+                value = "Standard.Tab.relatedLists"
+              },
+            ]
+            componentName = "flexipage:tab"
+            identifier = "relatedListsTab"
+          }
+        },
+      ]
+      name = "Facet-5b60ebd2-5b04-43ba-b7df-d2423960eaaf"
+      type = "Facet"
+    },
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentInstanceProperties = [
+              {
+                name = "tabs"
+                value = "Facet-5b60ebd2-5b04-43ba-b7df-d2423960eaaf"
+              },
+            ]
+            componentName = "flexipage:tabset"
+            identifier = "flexipage_tabset"
+          }
+        },
+      ]
+      name = "main"
+      type = "Region"
+    },
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentName = "force:detailPanel"
+            identifier = "force_detailPanel"
+          }
+        },
+      ]
+      name = "Facet-08d80161-ba94-43f9-96b7-4c35453a2eb3"
+      type = "Facet"
+    },
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentName = "force:relatedListQuickLinksContainer"
+            identifier = "force_relatedListQuickLinksContainer"
+          }
+        },
+      ]
+      name = "sidebar"
+      type = "Region"
+    },
+  ]
+  masterLabel = "Training Contract Page"
+  sobjectType = "Contract"
+  template = {
+    name = "flexipage:recordHomeTemplateDesktop"
+  }
+  type = "RecordPage"
+  fullName = "Training_Contract_Page"
+  _parent = [
+    salesforce.Contract,
+  ]
+}

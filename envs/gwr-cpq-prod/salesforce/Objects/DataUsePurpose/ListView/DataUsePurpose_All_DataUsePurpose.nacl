@@ -1,0 +1,8 @@
+salesforce.ListView DataUsePurpose_All_DataUsePurpose {
+  fullName = "DataUsePurpose.All_DataUsePurpose"
+  filterScope = "Everything"
+  label = "__MISSING LABEL__ PropertyFile - val DataUsePurpose_AllDataUsePurpose not found in section FilterNames"
+  _parent = [
+    salesforce.DataUsePurpose,
+  ]
+}

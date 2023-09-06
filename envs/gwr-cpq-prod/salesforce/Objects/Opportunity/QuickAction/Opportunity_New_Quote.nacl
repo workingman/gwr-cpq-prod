@@ -1,0 +1,45 @@
+salesforce.QuickAction Opportunity_New_Quote@vu {
+  fullName = "Opportunity.New_Quote"
+  description = "Create a new CPQ quote"
+  optionsCreateFeedItem = false
+  quickActionLayout = {
+    layoutSectionStyle = "TwoColumnsLeftToRight"
+    quickActionLayoutColumns = [
+      {
+        quickActionLayoutItems = [
+          {
+            emptySpace = false
+            field = "SBQQ__Primary__c"
+            uiBehavior = "Edit"
+          },
+          {
+            emptySpace = false
+            field = "SBQQ__StartDate__c"
+            uiBehavior = "Edit"
+          },
+        ]
+      },
+      {
+        quickActionLayoutItems = [
+          {
+            emptySpace = false
+            field = "SBQQ__SubscriptionTerm__c"
+            uiBehavior = "Edit"
+          },
+          {
+            emptySpace = false
+            field = "SBQQ__EndDate__c"
+            uiBehavior = "Edit"
+          },
+        ]
+      },
+    ]
+  }
+  standardLabel = "New"
+  targetObject = "SBQQ__Quote__c"
+  targetParentField = "SBQQ__Opportunity2__c"
+  type = "Create"
+  _parent = [
+    salesforce.Opportunity,
+  ]
+}

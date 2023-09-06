@@ -1,0 +1,85 @@
+salesforce.Layout IndustryPrice__c_Industry_Price_Layout@uubss {
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.IndustryPrice__c.field.Name
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.IndustryPrice__c.field.IPIndustry__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.IndustryPrice__c.field.IPProduct__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.IndustryPrice__c.field.IPSLA__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.IndustryPrice__c.field.IPPrice__c
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.IndustryPrice__c.field.OwnerId
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.IndustryPrice__c.field.CreatedById
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.IndustryPrice__c.field.LastModifiedById
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      style = "CustomLinks"
+    },
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = false
+  showInteractionLogPanel = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  fullName = "IndustryPrice__c-Industry Price Layout"
+  _parent = [
+    salesforce.IndustryPrice__c,
+  ]
+}

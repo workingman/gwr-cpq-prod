@@ -1,0 +1,187 @@
+salesforce.LightningPage Account_Record_Page {
+  flexiPageRegions = [
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentInstanceProperties = [
+              {
+                name = "collapsed"
+                value = "false"
+              },
+              {
+                name = "numVisibleActions"
+                value = "4"
+              },
+            ]
+            componentName = "force:highlightsPanel"
+            identifier = "force_highlightsPanel"
+          }
+        },
+      ]
+      mode = "Replace"
+      name = "header"
+      type = "Region"
+    },
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentInstanceProperties = [
+              {
+                name = "active"
+                value = "true"
+              },
+              {
+                name = "body"
+                value = "Facet-5daf2ba2-15fc-464b-8657-8f87e6f0ae61"
+              },
+              {
+                name = "title"
+                value = "Standard.Tab.detail"
+              },
+            ]
+            componentName = "flexipage:tab"
+            identifier = "detailTab"
+          }
+        },
+        {
+          componentInstance = {
+            componentInstanceProperties = [
+              {
+                name = "active"
+                value = "false"
+              },
+              {
+                name = "body"
+                value = "relatedTabContent"
+              },
+              {
+                name = "title"
+                value = "Standard.Tab.relatedLists"
+              },
+            ]
+            componentName = "flexipage:tab"
+            identifier = "relatedListsTab"
+          }
+        },
+        {
+          componentInstance = {
+            componentInstanceProperties = [
+              {
+                name = "active"
+                value = "false"
+              },
+              {
+                name = "body"
+                value = "newsTabContent"
+              },
+              {
+                name = "title"
+                value = "Standard.Tab.news"
+              },
+            ]
+            componentName = "flexipage:tab"
+            identifier = "newsTab"
+          }
+        },
+      ]
+      mode = "Replace"
+      name = "maintabs"
+      type = "Facet"
+    },
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentInstanceProperties = [
+              {
+                name = "tabs"
+                value = "maintabs"
+              },
+            ]
+            componentName = "flexipage:tabset"
+            identifier = "flexipage_tabset"
+          }
+        },
+      ]
+      mode = "Replace"
+      name = "main"
+      type = "Region"
+    },
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentName = "force:detailPanel"
+            identifier = "force_detailPanel"
+          }
+        },
+      ]
+      name = "Facet-5daf2ba2-15fc-464b-8657-8f87e6f0ae61"
+      type = "Facet"
+    },
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentName = "cooper:companyInsightTeaserCard"
+            identifier = "cooper_companyInsightTeaserCard"
+          }
+        },
+        {
+          componentInstance = {
+            componentName = "runtime_sales_merge:mergeCandidatesPreviewCard"
+            identifier = "runtime_sales_merge_mergeCandidatesPreviewCard"
+          }
+        },
+        {
+          componentInstance = {
+            componentName = "force:relatedListContainer"
+            identifier = "force_relatedListContainer"
+          }
+        },
+      ]
+      mode = "Replace"
+      name = "relatedTabContent"
+      type = "Facet"
+    },
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentName = "runtime_sales_social:socialPanel"
+            identifier = "runtime_sales_social_socialPanel"
+          }
+        },
+      ]
+      mode = "Replace"
+      name = "newsTabContent"
+      type = "Facet"
+    },
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentName = "force:relatedListQuickLinksContainer"
+            identifier = "force_relatedListQuickLinksContainer"
+          }
+        },
+      ]
+      mode = "Replace"
+      name = "sidebar"
+      type = "Region"
+    },
+  ]
+  masterLabel = "Account Record Page"
+  parentFlexiPage = "sfa__Account_rec_L"
+  sobjectType = "Account"
+  template = {
+    name = "flexipage:recordHomeTemplateDesktop"
+  }
+  type = "RecordPage"
+  fullName = "Account_Record_Page"
+  _parent = [
+    salesforce.Account,
+  ]
+}

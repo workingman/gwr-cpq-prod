@@ -1,0 +1,8 @@
+salesforce.ListView DataUseLegalBasis_All_DataUseLegalBasis {
+  fullName = "DataUseLegalBasis.All_DataUseLegalBasis"
+  filterScope = "Everything"
+  label = "__MISSING LABEL__ PropertyFile - val DataUseLegalBasis_AllDataUseLegalBasis not found in section FilterNames"
+  _parent = [
+    salesforce.DataUseLegalBasis,
+  ]
+}

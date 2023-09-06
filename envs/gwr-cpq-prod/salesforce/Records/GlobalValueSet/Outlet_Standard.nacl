@@ -1,0 +1,32 @@
+salesforce.GlobalValueSet Outlet_Standard {
+  fullName = "Outlet_Standard"
+  customValue = [
+    {
+      fullName = "TypeA"
+      default = true
+      label = "Type A (North America)"
+    },
+    {
+      fullName = "TypeC"
+      default = false
+      label = "Type C (Europe)"
+    },
+    {
+      fullName = "TypeG"
+      default = false
+      label = "Type G (UK/Ireland)"
+    },
+    {
+      fullName = "TypeI"
+      default = false
+      label = "Type I (Australia/New Zealand)"
+    },
+    {
+      fullName = "TypeL"
+      default = false
+      label = "Type L (Italy)"
+    },
+  ]
+  masterLabel = "Outlet Standard"
+  sorted = false
+}

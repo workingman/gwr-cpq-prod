@@ -1,0 +1,261 @@
+salesforce.Layout SBQQ__PriceRule__c_Training_Price_Rule_Layout@uuuubsss {
+  customButtons = [
+    "SBQQ__CloneWithRelated",
+  ]
+  excludeButtons = [
+    "Submit",
+  ]
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = "Name"
+            },
+            {
+              behavior = "Required"
+              field = "SBQQ__TargetObject__c"
+            },
+            {
+              behavior = "Edit"
+              field = "SBQQ__EvaluationEvent__c"
+            },
+            {
+              behavior = "Edit"
+              field = "SBQQ__ConfiguratorEvaluationEvent__c"
+            },
+            {
+              behavior = "Edit"
+              field = "SBQQ__EvaluationOrder__c"
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = "SBQQ__Active__c"
+            },
+            {
+              behavior = "Required"
+              field = "SBQQ__ConditionsMet__c"
+            },
+            {
+              behavior = "Edit"
+              field = "SBQQ__AdvancedCondition__c"
+            },
+            {
+              behavior = "Edit"
+              field = "SBQQ__Product__c"
+            },
+            {
+              behavior = "Edit"
+              field = "SBQQ__LookupObject__c"
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = "CreatedById"
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = "LastModifiedById"
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Custom Links"
+      style = "CustomLinks"
+    },
+  ]
+  platformActionList = {
+    actionListContext = "Record"
+    platformActionListItems = [
+      {
+        actionName = "Edit"
+        actionType = "StandardButton"
+        sortOrder = 0
+      },
+      {
+        actionName = "SBQQ__CloneWithRelated"
+        actionType = "CustomButton"
+        sortOrder = 1
+      },
+      {
+        actionName = "FeedItem.TextPost"
+        actionType = "QuickAction"
+        sortOrder = 2
+      },
+      {
+        actionName = "FeedItem.ContentPost"
+        actionType = "QuickAction"
+        sortOrder = 3
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewEvent
+        actionType = "QuickAction"
+        sortOrder = 4
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewTask
+        actionType = "QuickAction"
+        sortOrder = 5
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewContact
+        actionType = "QuickAction"
+        sortOrder = 6
+      },
+      {
+        actionName = salesforce.QuickAction.instance.LogACall
+        actionType = "QuickAction"
+        sortOrder = 7
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewOpportunity
+        actionType = "QuickAction"
+        sortOrder = 8
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewCase
+        actionType = "QuickAction"
+        sortOrder = 9
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewLead
+        actionType = "QuickAction"
+        sortOrder = 10
+      },
+      {
+        actionName = "FeedItem.LinkPost"
+        actionType = "QuickAction"
+        sortOrder = 11
+      },
+      {
+        actionName = "FeedItem.PollPost"
+        actionType = "QuickAction"
+        sortOrder = 12
+      },
+      {
+        actionName = "FeedItem.QuestionPost"
+        actionType = "QuickAction"
+        sortOrder = 13
+      },
+      {
+        actionName = salesforce.QuickAction.instance.SendEmail
+        actionType = "QuickAction"
+        sortOrder = 14
+      },
+      {
+        actionName = "ChangeOwnerOne"
+        actionType = "StandardButton"
+        sortOrder = 15
+      },
+      {
+        actionName = "Submit"
+        actionType = "StandardButton"
+        sortOrder = 16
+      },
+      {
+        actionName = "ChangeRecordType"
+        actionType = "StandardButton"
+        sortOrder = 17
+      },
+      {
+        actionName = "Clone"
+        actionType = "StandardButton"
+        sortOrder = 18
+      },
+      {
+        actionName = "Share"
+        actionType = "StandardButton"
+        sortOrder = 19
+      },
+      {
+        actionName = "Delete"
+        actionType = "StandardButton"
+        sortOrder = 20
+      },
+    ]
+  }
+  relatedLists = [
+    {
+      fields = [
+        "NAME",
+        "SBQQ__Index__c",
+        "SBQQ__Object__c",
+        "SBQQ__Field__c",
+        "SBQQ__TestedVariable__c",
+        "SBQQ__Operator__c",
+        "SBQQ__Value__c",
+        "SBQQ__FilterVariable__c",
+      ]
+      relatedList = "SBQQ__PriceCondition__c.SBQQ__Rule__c"
+    },
+    {
+      fields = [
+        "NAME",
+        "SBQQ__Order__c",
+        "SBQQ__TargetObject__c",
+        "SBQQ__Field__c",
+        "SBQQ__Value__c",
+        "SBQQ__ValueField__c",
+        "SBQQ__SourceVariable__c",
+        "SBQQ__SourceLookupField__c",
+      ]
+      relatedList = "SBQQ__PriceAction__c.SBQQ__Rule__c"
+    },
+    {
+      fields = [
+        "NAME",
+        "SBQQ__MatchType__c",
+        "SBQQ__TestedObject__c",
+        "SBQQ__TestedField__c",
+        "SBQQ__TestedValue__c",
+        "SBQQ__Operator__c",
+        "SBQQ__LookupField__c",
+      ]
+      relatedList = "SBQQ__LookupQuery__c.SBQQ__PriceRule2__c"
+    },
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = false
+  showInteractionLogPanel = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  summaryLayout = {
+    masterLabel = "00h1H00000awFjk"
+    sizeX = 4
+    sizeY = 0
+    summaryLayoutStyle = "Default"
+  }
+  fullName = "SBQQ__PriceRule__c-Training Price Rule Layout"
+}

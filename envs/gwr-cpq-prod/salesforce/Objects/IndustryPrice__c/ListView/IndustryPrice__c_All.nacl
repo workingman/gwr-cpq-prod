@@ -1,0 +1,15 @@
+salesforce.ListView IndustryPrice__c_All {
+  fullName = "IndustryPrice__c.All"
+  columns = [
+    "NAME",
+    "IPIndustry__c",
+    "IPProduct__c",
+    "IPSLA__c",
+    "IPPrice__c",
+  ]
+  filterScope = "Everything"
+  label = "All"
+  _parent = [
+    salesforce.IndustryPrice__c,
+  ]
+}

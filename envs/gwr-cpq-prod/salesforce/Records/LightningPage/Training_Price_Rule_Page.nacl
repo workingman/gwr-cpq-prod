@@ -1,0 +1,61 @@
+salesforce.LightningPage Training_Price_Rule_Page {
+  flexiPageRegions = [
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentInstanceProperties = [
+              {
+                name = "collapsed"
+                value = "false"
+              },
+              {
+                name = "numVisibleActions"
+                value = "3"
+              },
+            ]
+            componentName = "force:highlightsPanel"
+            identifier = "force_highlightsPanel"
+          }
+        },
+      ]
+      name = "header"
+      type = "Region"
+    },
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentName = "force:detailPanel"
+            identifier = "force_detailPanel"
+          }
+        },
+        {
+          componentInstance = {
+            componentInstanceProperties = [
+              {
+                name = "relatedListComponentOverride"
+                value = "NONE"
+              },
+            ]
+            componentName = "force:relatedListContainer"
+            identifier = "force_relatedListContainer"
+          }
+        },
+      ]
+      name = "main"
+      type = "Region"
+    },
+    {
+      name = "sidebar"
+      type = "Region"
+    },
+  ]
+  masterLabel = "Training Price Rule Page"
+  sobjectType = "SBQQ__PriceRule__c"
+  template = {
+    name = "flexipage:recordHomeTemplateDesktop"
+  }
+  type = "RecordPage"
+  fullName = "Training_Price_Rule_Page"
+}

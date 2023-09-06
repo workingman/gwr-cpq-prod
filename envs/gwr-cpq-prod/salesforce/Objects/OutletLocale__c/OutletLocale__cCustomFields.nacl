@@ -1,0 +1,102 @@
+type salesforce.OutletLocale__c {
+  salesforce.Text OLCountry__c {
+    apiName = "OutletLocale__c.OLCountry__c"
+    externalId = false
+    label = "OLCountry"
+    length = 100
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Lookup OLProduct__c {
+    apiName = "OutletLocale__c.OLProduct__c"
+    deleteConstraint = "SetNull"
+    externalId = false
+    label = "OLProduct"
+    referenceTo = [
+      salesforce.Product2,
+    ]
+    relationshipLabel = "Outlet Locales"
+    relationshipName = "Outlet_Locales"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox OLRequired__c {
+    apiName = "OutletLocale__c.OLRequired__c"
+    defaultValue = false
+    externalId = false
+    label = "OLRequired"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Picklist OLType__c {
+    apiName = "OutletLocale__c.OLType__c"
+    externalId = false
+    label = "OLType"
+    trackTrending = false
+    valueSet = [
+      {
+        fullName = "Add"
+        default = false
+        label = "Add"
+      },
+      {
+        fullName = "Remove"
+        default = false
+        label = "Remove"
+      },
+      {
+        fullName = "Enable"
+        default = false
+        label = "Enable"
+      },
+      {
+        fullName = "Disable"
+        default = false
+        label = "Disable"
+      },
+      {
+        fullName = "Enable & Add"
+        default = false
+        label = "Enable & Add"
+      },
+      {
+        fullName = "Disable & Remove"
+        default = false
+        label = "Disable & Remove"
+      },
+      {
+        fullName = "Show"
+        default = false
+        label = "Show"
+      },
+      {
+        fullName = "Hide"
+        default = false
+        label = "Hide"
+      },
+      {
+        fullName = "Show & Add"
+        default = false
+        label = "Show & Add"
+      },
+      {
+        fullName = "Hide & Remove"
+        default = false
+        label = "Hide & Remove"
+      },
+    ]
+    sorted = false
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
+}

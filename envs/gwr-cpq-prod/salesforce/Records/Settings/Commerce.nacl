@@ -1,0 +1,4 @@
+salesforce.CommerceSettings {
+  fullName = "Commerce"
+  commerceEnabled = "false"
+}

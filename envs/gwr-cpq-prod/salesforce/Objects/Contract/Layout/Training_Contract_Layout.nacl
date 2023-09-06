@@ -1,0 +1,552 @@
+salesforce.Layout Contract_Training_Contract_Layout@bss {
+  customButtons = [
+    "SBQQ__Amend",
+  ]
+  excludeButtons = [
+    "Submit",
+  ]
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Contract Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.OwnerId
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.Contract.field.ContractNumber
+            },
+            {
+              behavior = "Required"
+              field = salesforce.Contract.field.AccountId
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.CustomerSignedId
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.CustomerSignedTitle
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.CustomerSignedDate
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.Pricebook2Id
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = salesforce.Contract.field.Status
+            },
+            {
+              behavior = "Required"
+              field = salesforce.Contract.field.StartDate
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.Contract.field.EndDate
+            },
+            {
+              behavior = "Required"
+              field = salesforce.Contract.field.ContractTerm
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.OwnerExpirationNotice
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.CompanySignedId
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.CompanySignedDate
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = true
+      detailHeading = true
+      editHeading = true
+      label = "Salesforce CPQ General Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__Opportunity__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__Quote__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__Order__c
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.Contract.field.SBQQ__OpportunityPricebookId__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__SubscriptionQuantitiesCombined__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__AmendmentRenewalBehavior__c
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = true
+      detailHeading = true
+      editHeading = true
+      label = "Salesforce CPQ Renewal Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__RenewalForecast__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__RenewalOpportunityStage__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__RenewalOpportunity__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__RenewalOwner__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__DefaultRenewalContactRoles__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__DefaultRenewalPartners__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__RenewalQuoted__c
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__RenewalPricebookId__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__RenewalOpportunityRecordTypeId__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__RenewalTerm__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__RenewalUpliftRate__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__MDQRenewalBehavior__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__PreserveBundleStructureUponRenewals__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__MasterContract__c
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = true
+      detailHeading = true
+      editHeading = true
+      label = "Salesforce CPQ Amendment Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__AmendmentStartDate__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__AmendmentOpportunityStage__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__AmendmentOwner__c
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__AmendmentPricebookId__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__AmendmentOpportunityRecordTypeId__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SBQQ__DisableAmendmentCoTerm__c
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Address Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.BillingAddress
+            },
+          ]
+        },
+        {
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.Contract.field.ActivatedById
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.Contract.field.CreatedById
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.Contract.field.ActivatedDate
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.Contract.field.LastModifiedById
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Description Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.SpecialTerms
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Contract.field.Description
+            },
+          ]
+        },
+      ]
+      style = "OneColumn"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Custom Links"
+      style = "CustomLinks"
+    },
+  ]
+  platformActionList = {
+    actionListContext = "Record"
+    platformActionListItems = [
+      {
+        actionName = "Edit"
+        actionType = "StandardButton"
+        sortOrder = 0
+      },
+      {
+        actionName = "Activate"
+        actionType = "StandardButton"
+        sortOrder = 1
+      },
+      {
+        actionName = "SBQQ__Amend"
+        actionType = "CustomButton"
+        sortOrder = 2
+      },
+      {
+        actionName = "FeedItem.TextPost"
+        actionType = "QuickAction"
+        sortOrder = 3
+      },
+      {
+        actionName = "FeedItem.ContentPost"
+        actionType = "QuickAction"
+        sortOrder = 4
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewEvent
+        actionType = "QuickAction"
+        sortOrder = 5
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewTask
+        actionType = "QuickAction"
+        sortOrder = 6
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewContact
+        actionType = "QuickAction"
+        sortOrder = 7
+      },
+      {
+        actionName = salesforce.QuickAction.instance.LogACall
+        actionType = "QuickAction"
+        sortOrder = 8
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewOpportunity
+        actionType = "QuickAction"
+        sortOrder = 9
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewCase
+        actionType = "QuickAction"
+        sortOrder = 10
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewLead
+        actionType = "QuickAction"
+        sortOrder = 11
+      },
+      {
+        actionName = "FeedItem.LinkPost"
+        actionType = "QuickAction"
+        sortOrder = 12
+      },
+      {
+        actionName = "FeedItem.PollPost"
+        actionType = "QuickAction"
+        sortOrder = 13
+      },
+      {
+        actionName = "FeedItem.QuestionPost"
+        actionType = "QuickAction"
+        sortOrder = 14
+      },
+      {
+        actionName = salesforce.QuickAction.instance.SendEmail
+        actionType = "QuickAction"
+        sortOrder = 15
+      },
+      {
+        actionName = "ChangeRecordType"
+        actionType = "StandardButton"
+        sortOrder = 16
+      },
+      {
+        actionName = "Delete"
+        actionType = "StandardButton"
+        sortOrder = 17
+      },
+      {
+        actionName = "ChangeOwnerOne"
+        actionType = "StandardButton"
+        sortOrder = 18
+      },
+      {
+        actionName = "Clone"
+        actionType = "StandardButton"
+        sortOrder = 19
+      },
+      {
+        actionName = "Submit"
+        actionType = "StandardButton"
+        sortOrder = 20
+      },
+    ]
+  }
+  relatedContent = {
+    relatedContentItems = [
+      {
+        layoutItem = {
+          behavior = "Readonly"
+          field = salesforce.Contract.field.AccountId
+        }
+      },
+    ]
+  }
+  relatedLists = [
+    {
+      fields = [
+        "NAME",
+        "SBQQ__Product__c",
+        "SBQQ__Quantity__c",
+        "SBQQ__ListPrice__c",
+        "SBQQ__StartDate__c",
+        "SBQQ__EndDate__c",
+        "SBQQ__ProrateMultiplier__c",
+        "SBQQ__RenewedDate__c",
+        "SBQQ__TerminatedDate__c",
+      ]
+      relatedList = "SBQQ__Subscription__c.SBQQ__Contract__c"
+    },
+    {
+      fields = [
+        "NAME",
+        "SBQQ__NetAmount__c",
+        "SBQQ__Status__c",
+        "CREATEDBY_USER",
+        "SBQQ__Primary__c",
+      ]
+      relatedList = "SBQQ__Quote__c.SBQQ__MasterContract__c"
+    },
+    {
+      fields = [
+        "OPPORTUNITY.NAME",
+        "ACCOUNT.NAME",
+        "OPPORTUNITY.AMOUNT",
+        "OPPORTUNITY.CLOSE_DATE",
+      ]
+      relatedList = salesforce.Opportunity.field.SBQQ__RenewedContract__c
+    },
+    {
+      fields = [
+        "OPPORTUNITY.NAME",
+        "ACCOUNT.NAME",
+        "OPPORTUNITY.AMOUNT",
+        "OPPORTUNITY.CLOSE_DATE",
+      ]
+      relatedList = salesforce.Opportunity.field.SBQQ__AmendedContract__c
+    },
+    {
+      fields = [
+        "NAME",
+        "SBQQ__Product__c",
+        "SBQQ__FilterField__c",
+        "SBQQ__FilterValue__c",
+        "SBQQ__Price__c",
+        "SBQQ__Discount__c",
+        "SBQQ__EffectiveDate__c",
+        "SBQQ__ExpirationDate__c",
+      ]
+      relatedList = "SBQQ__ContractedPrice__c.SBQQ__Contract__c"
+    },
+    {
+      fields = [
+        "ORDERS.ORDER_NUMBER",
+        "ORDERS.STATUS",
+        "ORDERS.EFFECTIVE_DATE",
+        "CONTRACT.CONTRACT_NUMBER",
+        "ORDERS.TOTAL_AMOUNT",
+      ]
+      relatedList = "RelatedOrderList"
+    },
+    {
+      relatedList = "RelatedEntityHistoryList"
+    },
+    {
+      fields = [
+        "TASK.SUBJECT",
+        "TASK.WHO_NAME",
+        "ACTIVITY.TASK",
+        "TASK.DUE_DATE",
+        "TASK.STATUS",
+        "TASK.PRIORITY",
+        "CORE.USERS.FULL_NAME",
+      ]
+      relatedList = "RelatedActivityList"
+    },
+    {
+      fields = [
+        "TASK.SUBJECT",
+        "TASK.WHO_NAME",
+        "ACTIVITY.TASK",
+        "TASK.DUE_DATE",
+        "CORE.USERS.FULL_NAME",
+        "TASK.LAST_UPDATE",
+      ]
+      relatedList = "RelatedHistoryList"
+    },
+    {
+      relatedList = "RelatedNoteList"
+    },
+  ]
+  relatedObjects = [
+    "AccountId",
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = false
+  showInteractionLogPanel = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  summaryLayout = {
+    masterLabel = "00h1H00000avA2v"
+    sizeX = 4
+    sizeY = 0
+    summaryLayoutStyle = "Default"
+  }
+  fullName = "Contract-Training Contract Layout"
+  _parent = [
+    salesforce.Contract,
+  ]
+}

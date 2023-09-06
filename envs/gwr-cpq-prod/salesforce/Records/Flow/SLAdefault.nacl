@@ -1,0 +1,63 @@
+salesforce.Flow SLAdefault {
+  fullName = "SLAdefault"
+  apiVersion = 58
+  description = "Set SLA default value"
+  environments = "Default"
+  interviewLabel = "SLAdefault {!$Flow.CurrentDateTime}"
+  label = "SLAdefault"
+  processMetadataValues = [
+    {
+      name = "BuilderType"
+      value = {
+        stringValue = "LightningFlowBuilder"
+      }
+    },
+    {
+      name = "CanvasMode"
+      value = {
+        stringValue = "AUTO_LAYOUT_CANVAS"
+      }
+    },
+    {
+      name = "OriginBuilderType"
+      value = {
+        stringValue = "LightningFlowBuilder"
+      }
+    },
+  ]
+  processType = "AutoLaunchedFlow"
+  recordUpdates = [
+    {
+      description = "set SLA default value"
+      name = "UpdateSLA"
+      label = "UpdateSLA"
+      locationX = 176
+      locationY = 323
+      inputAssignments = [
+        {
+          field = "SLA__c"
+          value = {
+            stringValue = "Bronze"
+          }
+        },
+      ]
+      inputReference = "$Record"
+    },
+  ]
+  start = {
+    locationX = 50
+    locationY = 0
+    connector = {
+      targetReference = "UpdateSLA"
+    }
+    object = salesforce.Account
+    recordTriggerType = "Create"
+    triggerType = "RecordAfterSave"
+  }
+  status = "Draft"
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account.field.SLA__c
+    },
+  ]
+}

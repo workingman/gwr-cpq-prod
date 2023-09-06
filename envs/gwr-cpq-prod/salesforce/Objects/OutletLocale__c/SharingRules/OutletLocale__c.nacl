@@ -1,0 +1,6 @@
+salesforce.SharingRules OutletLocale__c {
+  fullName = "OutletLocale__c"
+  _parent = [
+    salesforce.OutletLocale__c,
+  ]
+}

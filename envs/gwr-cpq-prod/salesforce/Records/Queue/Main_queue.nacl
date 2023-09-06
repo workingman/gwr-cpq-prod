@@ -1,0 +1,13 @@
+salesforce.Queue Main_queue {
+  fullName = "Main_queue"
+  doesSendEmailToMembers = false
+  name = "Main queue"
+  queueSobject = [
+    {
+      sobjectType = "Case"
+    },
+    {
+      sobjectType = "Lead"
+    },
+  ]
+}

@@ -1,0 +1,149 @@
+salesforce.Layout SBQQ__ConfigurationAttribute__c_Training_Configuration_Attribute_Layout@uuuubsss {
+  excludeButtons = [
+    "Submit",
+  ]
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = "SBQQ__Product__c"
+            },
+            {
+              behavior = "Required"
+              field = "Name"
+            },
+            {
+              behavior = "Required"
+              field = "SBQQ__TargetField__c"
+            },
+            {
+              behavior = "Edit"
+              field = "SBQQ__Required__c"
+            },
+            {
+              behavior = "Edit"
+              field = "SBQQ__ApplyToProductOptions__c"
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = "SBQQ__DisplayOrder__c"
+            },
+            {
+              behavior = "Required"
+              field = "SBQQ__ColumnOrder__c"
+            },
+            {
+              behavior = "Required"
+              field = "SBQQ__Position__c"
+            },
+            {
+              behavior = "Edit"
+              field = "SBQQ__Feature__c"
+            },
+            {
+              behavior = "Edit"
+              field = "SBQQ__Hidden__c"
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = true
+      detailHeading = true
+      editHeading = true
+      label = "Advanced"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = "SBQQ__DefaultObject__c"
+            },
+            {
+              behavior = "Edit"
+              field = "SBQQ__DefaultField__c"
+            },
+            {
+              behavior = "Edit"
+              field = "SBQQ__AutoSelect__c"
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = "SBQQ__ShownValues__c"
+            },
+            {
+              behavior = "Edit"
+              field = "SBQQ__HiddenValues__c"
+            },
+            {
+              behavior = "Edit"
+              field = "SBQQ__AppliedImmediately__c"
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = "CreatedById"
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = "LastModifiedById"
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Custom Links"
+      style = "CustomLinks"
+    },
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = false
+  showInteractionLogPanel = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  summaryLayout = {
+    masterLabel = "00h1H00000awG1M"
+    sizeX = 4
+    sizeY = 0
+    summaryLayoutStyle = "Default"
+  }
+  fullName = "SBQQ__ConfigurationAttribute__c-Training Configuration Attribute Layout"
+}

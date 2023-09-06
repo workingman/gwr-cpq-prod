@@ -1,0 +1,85 @@
+salesforce.Layout OutletLocale__c_Outlet_Locale_Layout@uubss {
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.OutletLocale__c.field.Name
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.OutletLocale__c.field.OLCountry__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.OutletLocale__c.field.OLProduct__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.OutletLocale__c.field.OLType__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.OutletLocale__c.field.OLRequired__c
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.OutletLocale__c.field.OwnerId
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.OutletLocale__c.field.CreatedById
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.OutletLocale__c.field.LastModifiedById
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      style = "CustomLinks"
+    },
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = false
+  showInteractionLogPanel = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  fullName = "OutletLocale__c-Outlet Locale Layout"
+  _parent = [
+    salesforce.OutletLocale__c,
+  ]
+}

@@ -1,0 +1,8 @@
+salesforce.CustomTab IndustryPrice__c {
+  fullName = "IndustryPrice__c"
+  customObject = true
+  motif = "Custom24: Building"
+  _parent = [
+    salesforce.IndustryPrice__c,
+  ]
+}
