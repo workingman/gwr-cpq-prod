@@ -1,0 +1,10 @@
+salesforce.SBQQ__PriceRule__c GWR_Price_Rule1@s {
+  SBQQ__Active__c = true
+  SBQQ__ConditionsMet__c = "Any"
+  SBQQ__ConfiguratorEvaluationEvent__c = "Save"
+  SBQQ__EvaluationEvent__c = "On Calculate"
+  SBQQ__Product__c = salesforce.Product2.instance.GWR_Gadget_20221103___GWR_G_20221103___Hardware@ssuuubbuuu
+  SBQQ__TargetObject__c = "Configurator"
+  Name = "GWR Price Rule1"
+  _alias = "GWR Price Rule1"
+}

@@ -1,0 +1,10 @@
+salesforce.SBQQ__ProductRule__c GWR_Product_Rule_2@s {
+  SBQQ__Active__c = false
+  SBQQ__ConditionsMet__c = "Any"
+  SBQQ__ErrorMessage__c = "Validation message"
+  SBQQ__EvaluationEvent__c = "Save"
+  SBQQ__Scope__c = "Product"
+  SBQQ__Type__c = "Validation"
+  Name = "GWR Product Rule 2"
+  _alias = "GWR Product Rule 2"
+}
