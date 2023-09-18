@@ -3,4 +3,5 @@ salesforce.ApexClass gwr_class2 {
   status = "Active"
   fullName = "gwr_class2"
   content = file("salesforce/Records/ApexClass/gwr_class2.cls")
+  
 }
