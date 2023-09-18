@@ -3,4 +3,5 @@ salesforce.SharingRules Asset {
   _parent = [
     salesforce.Asset,
   ]
+  _alias = "Asset"
 }

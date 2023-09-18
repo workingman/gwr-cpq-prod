@@ -12,4 +12,5 @@ salesforce.ListView Lead_MyUnreadLeads {
   _parent = [
     salesforce.Lead,
   ]
+  _alias = "My Unread Leads"
 }

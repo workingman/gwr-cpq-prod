@@ -51,4 +51,5 @@ salesforce.Layout Customer_Customer_Layout@bs {
   _parent = [
     salesforce.Customer,
   ]
+  _alias = "Customer-Customer Layout"
 }

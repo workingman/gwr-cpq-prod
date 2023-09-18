@@ -133,4 +133,5 @@ type salesforce.FlowOrchestrationInstance {
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
   externalSharingModel = "Private"
+  _alias = "Orchestration Run"
 }

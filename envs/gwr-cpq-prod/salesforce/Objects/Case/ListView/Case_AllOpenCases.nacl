@@ -12,4 +12,5 @@ salesforce.ListView Case_AllOpenCases {
   _parent = [
     salesforce.Case,
   ]
+  _alias = "All Open Cases"
 }

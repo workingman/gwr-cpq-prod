@@ -17,4 +17,5 @@ salesforce.ListView Opportunity_Won {
   _parent = [
     salesforce.Opportunity,
   ]
+  _alias = "Won"
 }

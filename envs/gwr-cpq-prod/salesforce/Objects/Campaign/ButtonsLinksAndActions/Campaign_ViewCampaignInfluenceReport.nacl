@@ -20,4 +20,5 @@ salesforce.WebLink Campaign_ViewCampaignInfluenceReport {
   _parent = [
     salesforce.Campaign,
   ]
+  _alias = "Campaign.ViewCampaignInfluenceReport"
 }

@@ -184,4 +184,5 @@ salesforce.LightningPage Account_Record_Page {
   _parent = [
     salesforce.Account,
   ]
+  _alias = "Account_Record_Page"
 }

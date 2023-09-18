@@ -134,4 +134,5 @@ salesforce.Layout ApiAnomalyEventStore_API_Anomaly_Event_Store_Layout@bssss {
   _parent = [
     salesforce.ApiAnomalyEventStore,
   ]
+  _alias = "ApiAnomalyEventStore-API Anomaly Event Store Layout"
 }

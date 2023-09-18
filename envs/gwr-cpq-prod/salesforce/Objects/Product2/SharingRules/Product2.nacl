@@ -3,4 +3,5 @@ salesforce.SharingRules Product2 {
   _parent = [
     salesforce.Product2,
   ]
+  _alias = "Product2"
 }

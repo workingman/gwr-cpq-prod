@@ -203,4 +203,5 @@ type salesforce.AuthorizationFormDataUse {
       "LastModifiedBy",
     ]
   }
+  _alias = "Authorization Form Data Use"
 }

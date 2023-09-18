@@ -189,4 +189,5 @@ type salesforce.ChangeRequestRelatedItem {
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "Change Request Related Item"
 }

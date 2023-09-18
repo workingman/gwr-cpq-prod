@@ -68,4 +68,5 @@ salesforce.Layout ProductConsumptionSchedule_Product_Consumption_Schedule_Layout
   _parent = [
     salesforce.ProductConsumptionSchedule,
   ]
+  _alias = "ProductConsumptionSchedule-Product Consumption Schedule Layout"
 }

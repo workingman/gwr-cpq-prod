@@ -243,4 +243,5 @@ type salesforce.QuickText {
       "IsInsertable",
     ]
   }
+  _alias = "Quick Text"
 }

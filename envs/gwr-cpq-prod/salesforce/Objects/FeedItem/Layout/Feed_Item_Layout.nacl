@@ -11,4 +11,5 @@ salesforce.Layout FeedItem_Feed_Item_Layout@bss {
   _parent = [
     salesforce.FeedItem,
   ]
+  _alias = "FeedItem-Feed Item Layout"
 }

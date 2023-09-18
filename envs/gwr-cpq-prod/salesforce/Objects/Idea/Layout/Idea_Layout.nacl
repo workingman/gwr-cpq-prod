@@ -29,4 +29,5 @@ salesforce.Layout Idea_Idea_Layout@bs {
   _parent = [
     salesforce.Idea,
   ]
+  _alias = "Idea-Idea Layout"
 }

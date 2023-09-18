@@ -201,4 +201,5 @@ type salesforce.Seller {
       "SalesAmount",
     ]
   }
+  _alias = "Seller"
 }

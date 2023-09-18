@@ -230,4 +230,5 @@ salesforce.Layout Refund_Refund_Layout@bs {
   _parent = [
     salesforce.Refund,
   ]
+  _alias = "Refund-Refund Layout"
 }

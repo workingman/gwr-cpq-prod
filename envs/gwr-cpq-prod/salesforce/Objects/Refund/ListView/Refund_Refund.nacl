@@ -5,4 +5,5 @@ salesforce.ListView Refund_Refund {
   _parent = [
     salesforce.Refund,
   ]
+  _alias = "All"
 }

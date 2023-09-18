@@ -60,4 +60,5 @@ type salesforce.MacroInstruction {
   label = "Macro Instruction"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "Macro Instruction"
 }

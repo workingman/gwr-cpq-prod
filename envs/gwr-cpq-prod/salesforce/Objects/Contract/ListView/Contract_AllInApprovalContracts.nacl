@@ -12,4 +12,5 @@ salesforce.ListView Contract_AllInApprovalContracts {
   _parent = [
     salesforce.Contract,
   ]
+  _alias = "All In Approval Contracts"
 }

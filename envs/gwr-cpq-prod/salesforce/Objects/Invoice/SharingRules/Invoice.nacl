@@ -3,4 +3,5 @@ salesforce.SharingRules Invoice {
   _parent = [
     salesforce.Invoice,
   ]
+  _alias = "Invoice"
 }

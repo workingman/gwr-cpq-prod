@@ -15,4 +15,5 @@ salesforce.ListView Lead_ViewCustom1 {
   _parent = [
     salesforce.Lead,
   ]
+  _alias = "View - Custom 1"
 }

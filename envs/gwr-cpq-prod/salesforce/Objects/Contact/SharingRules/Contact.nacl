@@ -3,4 +3,5 @@ salesforce.SharingRules Contact {
   _parent = [
     salesforce.Contact,
   ]
+  _alias = "Contact"
 }

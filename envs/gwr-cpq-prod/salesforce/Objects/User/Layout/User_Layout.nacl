@@ -39,4 +39,5 @@ salesforce.Layout User_User_Layout@bs {
   _parent = [
     salesforce.User,
   ]
+  _alias = "User-User Layout"
 }

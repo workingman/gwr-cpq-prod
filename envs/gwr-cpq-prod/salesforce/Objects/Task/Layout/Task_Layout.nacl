@@ -231,4 +231,5 @@ salesforce.Layout Task_Task_Layout@bs {
   _parent = [
     salesforce.Task,
   ]
+  _alias = "Task-Task Layout"
 }

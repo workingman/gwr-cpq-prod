@@ -60,4 +60,5 @@ type salesforce.ExchangeUserMapping {
   label = "ExchangeUserMapping"
   enableFeeds = false
   externalSharingModel = "Private"
+  _alias = "ExchangeUserMapping"
 }

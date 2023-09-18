@@ -33,4 +33,5 @@ salesforce.ListView Task_TodaysTasks {
   _parent = [
     salesforce.Task,
   ]
+  _alias = "ENCODED:{!FilterNames.z_TodaysTasks}"
 }

@@ -181,4 +181,5 @@ type salesforce.AssetActionSource {
     lookupPhoneDialogsAdditionalFields = "AssetAction"
     searchResultsAdditionalFields = "AssetAction"
   }
+  _alias = "Asset Action Source"
 }

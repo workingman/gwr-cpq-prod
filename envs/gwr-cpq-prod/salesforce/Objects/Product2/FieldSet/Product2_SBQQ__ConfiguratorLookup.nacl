@@ -34,4 +34,5 @@ salesforce.FieldSet Product2_SBQQ__ConfiguratorLookup {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Configurator Lookup (SBQQ)"
 }

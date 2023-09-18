@@ -60,4 +60,5 @@ type salesforce.PaymentMethod {
   label = "Payment Method"
   enableFeeds = false
   externalSharingModel = "ReadWrite"
+  _alias = "Payment Method"
 }

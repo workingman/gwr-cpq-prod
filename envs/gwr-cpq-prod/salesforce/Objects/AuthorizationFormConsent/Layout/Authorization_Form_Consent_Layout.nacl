@@ -72,4 +72,5 @@ salesforce.Layout AuthorizationFormConsent_Authorization_Form_Consent_Layout@bss
   _parent = [
     salesforce.AuthorizationFormConsent,
   ]
+  _alias = "AuthorizationFormConsent-Authorization Form Consent Layout"
 }

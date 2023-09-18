@@ -59,4 +59,5 @@ type salesforce.TopicAssignment {
   metadataType = "CustomObject"
   label = "Topic Assignment"
   enableFeeds = false
+  _alias = "Topic Assignment"
 }

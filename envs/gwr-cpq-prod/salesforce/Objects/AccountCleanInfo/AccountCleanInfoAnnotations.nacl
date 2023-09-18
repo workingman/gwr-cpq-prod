@@ -60,4 +60,5 @@ type salesforce.AccountCleanInfo {
   label = "Account Clean Info"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "Account Clean Info"
 }

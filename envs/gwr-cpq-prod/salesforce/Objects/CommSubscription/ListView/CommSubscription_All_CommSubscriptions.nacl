@@ -5,4 +5,5 @@ salesforce.ListView CommSubscription_All_CommSubscriptions {
   _parent = [
     salesforce.CommSubscription,
   ]
+  _alias = "All Communication Subscriptions"
 }

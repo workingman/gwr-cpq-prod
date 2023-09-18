@@ -170,4 +170,5 @@ salesforce.Layout RefundLinePayment_Refund_Line_Payment_Layout@bsss {
   _parent = [
     salesforce.RefundLinePayment,
   ]
+  _alias = "RefundLinePayment-Refund Line Payment Layout"
 }

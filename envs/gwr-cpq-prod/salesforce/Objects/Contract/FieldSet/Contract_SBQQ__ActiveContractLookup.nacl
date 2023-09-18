@@ -44,4 +44,5 @@ salesforce.FieldSet Contract_SBQQ__ActiveContractLookup {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Active Contract Lookup (SBQQ)"
 }

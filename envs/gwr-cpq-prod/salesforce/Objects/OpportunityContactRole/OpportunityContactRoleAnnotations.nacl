@@ -132,4 +132,5 @@ type salesforce.OpportunityContactRole {
   ]
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
+  _alias = "Opportunity Contact Role"
 }

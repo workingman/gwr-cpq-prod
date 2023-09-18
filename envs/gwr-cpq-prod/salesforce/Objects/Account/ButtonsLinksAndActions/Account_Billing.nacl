@@ -19,4 +19,5 @@ salesforce.WebLink Account_Billing {
   _parent = [
     salesforce.Account,
   ]
+  _alias = "Account.Billing"
 }

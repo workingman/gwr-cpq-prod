@@ -5,4 +5,5 @@ salesforce.ListView Product2_AllProducts {
   _parent = [
     salesforce.Product2,
   ]
+  _alias = "All Products"
 }

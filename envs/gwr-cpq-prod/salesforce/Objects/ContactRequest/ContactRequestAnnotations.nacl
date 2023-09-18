@@ -189,4 +189,5 @@ type salesforce.ContactRequest {
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
   externalSharingModel = "Private"
+  _alias = "Contact Request"
 }

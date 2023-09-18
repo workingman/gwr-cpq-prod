@@ -3,4 +3,5 @@ salesforce.SharingRules QuickTextUsage {
   _parent = [
     salesforce.QuickTextUsage,
   ]
+  _alias = "QuickTextUsage"
 }

@@ -5,4 +5,5 @@ salesforce.ListView Payment_Payment {
   _parent = [
     salesforce.Payment,
   ]
+  _alias = "All"
 }

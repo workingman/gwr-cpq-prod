@@ -3,4 +3,5 @@ salesforce.SharingRules ContactRequest {
   _parent = [
     salesforce.ContactRequest,
   ]
+  _alias = "ContactRequest"
 }

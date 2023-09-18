@@ -159,4 +159,5 @@ type salesforce.ContractLineItem {
   }
   historyTrackedFields = {
   }
+  _alias = "Contract Line Item"
 }

@@ -12,4 +12,5 @@ salesforce.ListView Contact_NewThisWeek {
   _parent = [
     salesforce.Contact,
   ]
+  _alias = "New This Week"
 }

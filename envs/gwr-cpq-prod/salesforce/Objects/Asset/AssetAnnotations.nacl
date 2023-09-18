@@ -197,4 +197,5 @@ type salesforce.Asset {
   }
   historyTrackedFields = {
   }
+  _alias = "Asset"
 }

@@ -12,4 +12,5 @@ salesforce.ListView Lead_AllOpenLeads {
   _parent = [
     salesforce.Lead,
   ]
+  _alias = "All Open Leads"
 }

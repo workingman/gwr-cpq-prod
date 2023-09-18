@@ -247,4 +247,5 @@ type salesforce.Opportunity {
       reference = salesforce.LightningPage.instance.Opportunity_Record_Page
     },
   ]
+  _alias = "Opportunity"
 }

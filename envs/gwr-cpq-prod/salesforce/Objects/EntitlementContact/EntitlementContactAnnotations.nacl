@@ -133,4 +133,5 @@ type salesforce.EntitlementContact {
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "Entitlement Contact"
 }

@@ -5,4 +5,5 @@ salesforce.ListView ConsumptionSchedule_My_ConsumptionSchedules {
   _parent = [
     salesforce.ConsumptionSchedule,
   ]
+  _alias = "My Consumption Schedules"
 }

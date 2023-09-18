@@ -5,4 +5,5 @@ salesforce.ListView AuthorizationFormText_All_AuthorizationFormTexts {
   _parent = [
     salesforce.AuthorizationFormText,
   ]
+  _alias = "All Authorization Form Text"
 }

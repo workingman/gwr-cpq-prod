@@ -3,4 +3,5 @@ salesforce.SharingRules ContactPointConsent {
   _parent = [
     salesforce.ContactPointConsent,
   ]
+  _alias = "ContactPointConsent"
 }

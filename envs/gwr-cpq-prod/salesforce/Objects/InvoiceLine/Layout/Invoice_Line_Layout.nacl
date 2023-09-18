@@ -191,4 +191,5 @@ salesforce.Layout InvoiceLine_Invoice_Line_Layout@bss {
   _parent = [
     salesforce.InvoiceLine,
   ]
+  _alias = "InvoiceLine-Invoice Line Layout"
 }

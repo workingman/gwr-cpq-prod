@@ -5,4 +5,5 @@ salesforce.ListView ContactPointAddress_All_ContactPointAddresses {
   _parent = [
     salesforce.ContactPointAddress,
   ]
+  _alias = "All Contact Point Addresses"
 }

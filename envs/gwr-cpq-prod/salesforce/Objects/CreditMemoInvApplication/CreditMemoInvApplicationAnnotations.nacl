@@ -155,4 +155,5 @@ type salesforce.CreditMemoInvApplication {
       "UnappliedDate",
     ]
   }
+  _alias = "Credit Memo Invoice Application"
 }

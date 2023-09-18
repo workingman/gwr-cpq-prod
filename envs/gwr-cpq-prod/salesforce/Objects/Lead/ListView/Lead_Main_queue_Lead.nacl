@@ -9,4 +9,5 @@ salesforce.ListView Lead_Main_queue_Lead {
   _parent = [
     salesforce.Lead,
   ]
+  _alias = "Main queue"
 }

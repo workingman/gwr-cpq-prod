@@ -47,4 +47,5 @@ salesforce.Layout BusinessBrand_Business_Brand_Layout@bss {
   _parent = [
     salesforce.BusinessBrand,
   ]
+  _alias = "BusinessBrand-Business Brand Layout"
 }

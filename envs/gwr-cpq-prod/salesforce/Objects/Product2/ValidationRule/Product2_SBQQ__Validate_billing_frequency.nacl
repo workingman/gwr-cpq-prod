@@ -13,4 +13,5 @@ salesforce.ValidationRule Product2_SBQQ__Validate_billing_frequency {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Product2.SBQQ__Validate_billing_frequency"
 }

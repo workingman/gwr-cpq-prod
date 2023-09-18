@@ -5,4 +5,5 @@ salesforce.ListView Asset_AllAssets {
   _parent = [
     salesforce.Asset,
   ]
+  _alias = "All Assets"
 }

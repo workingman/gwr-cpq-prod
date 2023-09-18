@@ -17,4 +17,5 @@ OR(
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "OrderItem.SBQQ__Validate_billing_type"
 }

@@ -3,4 +3,5 @@ salesforce.SharingRules User {
   _parent = [
     salesforce.User,
   ]
+  _alias = "User"
 }

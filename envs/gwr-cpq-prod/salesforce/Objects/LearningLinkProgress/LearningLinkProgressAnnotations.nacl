@@ -60,4 +60,5 @@ type salesforce.LearningLinkProgress {
   label = "LearningLinkProgress"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "LearningLinkProgress"
 }

@@ -3,4 +3,5 @@ salesforce.SharingRules WorkPlan {
   _parent = [
     salesforce.WorkPlan,
   ]
+  _alias = "WorkPlan"
 }

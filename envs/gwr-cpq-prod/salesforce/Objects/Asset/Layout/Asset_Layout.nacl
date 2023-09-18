@@ -180,4 +180,5 @@ salesforce.Layout Asset_Asset_Layout@bs {
   _parent = [
     salesforce.Asset,
   ]
+  _alias = "Asset-Asset Layout"
 }

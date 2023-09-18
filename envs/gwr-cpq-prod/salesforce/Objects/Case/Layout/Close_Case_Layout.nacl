@@ -36,4 +36,5 @@ salesforce.Layout CaseClose_Close_Case_Layout@bss {
   _parent = [
     salesforce.Case,
   ]
+  _alias = "CaseClose-Close Case Layout"
 }

@@ -17,4 +17,5 @@ salesforce.WebLink Contract_SBQQ__RenewContracts {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Contract.SBQQ__RenewContracts"
 }

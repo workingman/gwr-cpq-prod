@@ -80,4 +80,5 @@ salesforce.Layout CaseMilestone_Case_Milestone_Layout@bss {
   _parent = [
     salesforce.CaseMilestone,
   ]
+  _alias = "CaseMilestone-Case Milestone Layout"
 }

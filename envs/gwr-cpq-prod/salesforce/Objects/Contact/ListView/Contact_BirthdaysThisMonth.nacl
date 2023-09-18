@@ -12,4 +12,5 @@ salesforce.ListView Contact_BirthdaysThisMonth {
   _parent = [
     salesforce.Contact,
   ]
+  _alias = "Birthdays This Month"
 }

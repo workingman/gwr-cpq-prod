@@ -88,4 +88,5 @@ salesforce.Layout ConsumptionRate_Consumption_Rate_Layout@bss {
   _parent = [
     salesforce.ConsumptionRate,
   ]
+  _alias = "ConsumptionRate-Consumption Rate Layout"
 }

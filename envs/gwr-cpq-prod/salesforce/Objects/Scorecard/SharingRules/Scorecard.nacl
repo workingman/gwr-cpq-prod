@@ -3,4 +3,5 @@ salesforce.SharingRules Scorecard {
   _parent = [
     salesforce.Scorecard,
   ]
+  _alias = "Scorecard"
 }

@@ -55,4 +55,5 @@ salesforce.Layout SocialPersona_Social_Persona_Layout@bss {
   _parent = [
     salesforce.SocialPersona,
   ]
+  _alias = "SocialPersona-Social Persona Layout"
 }

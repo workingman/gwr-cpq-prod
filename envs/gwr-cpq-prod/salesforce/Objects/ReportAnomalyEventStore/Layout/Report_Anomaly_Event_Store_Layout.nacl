@@ -112,4 +112,5 @@ salesforce.Layout ReportAnomalyEventStore_Report_Anomaly_Event_Store_Layout@bsss
   _parent = [
     salesforce.ReportAnomalyEventStore,
   ]
+  _alias = "ReportAnomalyEventStore-Report Anomaly Event Store Layout"
 }

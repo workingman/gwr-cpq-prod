@@ -195,4 +195,5 @@ type salesforce.Recommendation {
     lookupPhoneDialogsAdditionalFields = "Description"
     searchResultsAdditionalFields = "Description"
   }
+  _alias = "Recommendation"
 }

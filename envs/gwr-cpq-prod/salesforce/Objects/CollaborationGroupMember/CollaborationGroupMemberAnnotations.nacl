@@ -75,4 +75,5 @@ type salesforce.CollaborationGroupMember {
     },
   ]
   enableFeeds = false
+  _alias = "Group Member"
 }

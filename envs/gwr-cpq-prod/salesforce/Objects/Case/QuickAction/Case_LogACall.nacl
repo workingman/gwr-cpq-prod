@@ -54,4 +54,5 @@ salesforce.QuickAction Case_LogACall@v {
   _parent = [
     salesforce.Case,
   ]
+  _alias = "Case.LogACall"
 }

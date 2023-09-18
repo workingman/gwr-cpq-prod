@@ -156,4 +156,5 @@ salesforce.Layout Individual_Individual_Layout@bs {
   _parent = [
     salesforce.Individual,
   ]
+  _alias = "Individual-Individual Layout"
 }

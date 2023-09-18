@@ -189,4 +189,5 @@ type salesforce.StreamingChannel {
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
   externalSharingModel = "Private"
+  _alias = "Streaming Channel"
 }

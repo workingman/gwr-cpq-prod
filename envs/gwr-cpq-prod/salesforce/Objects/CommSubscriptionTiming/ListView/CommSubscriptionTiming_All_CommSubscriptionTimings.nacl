@@ -5,4 +5,5 @@ salesforce.ListView CommSubscriptionTiming_All_CommSubscriptionTimings {
   _parent = [
     salesforce.CommSubscriptionTiming,
   ]
+  _alias = "All Communication Subscription Timings"
 }

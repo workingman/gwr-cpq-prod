@@ -5,4 +5,5 @@ salesforce.ListView Case_MyCases {
   _parent = [
     salesforce.Case,
   ]
+  _alias = "My Cases"
 }

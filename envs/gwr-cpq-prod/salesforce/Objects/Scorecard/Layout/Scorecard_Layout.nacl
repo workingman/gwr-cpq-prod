@@ -49,4 +49,5 @@ salesforce.Layout Scorecard_Scorecard_Layout@bs {
   _parent = [
     salesforce.Scorecard,
   ]
+  _alias = "Scorecard-Scorecard Layout"
 }

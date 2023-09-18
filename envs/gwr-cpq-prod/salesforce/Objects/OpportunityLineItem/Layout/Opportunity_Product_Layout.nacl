@@ -111,4 +111,5 @@ salesforce.Layout OpportunityLineItem_Opportunity_Product_Layout@bss {
   _parent = [
     salesforce.OpportunityLineItem,
   ]
+  _alias = "OpportunityLineItem-Opportunity Product Layout"
 }

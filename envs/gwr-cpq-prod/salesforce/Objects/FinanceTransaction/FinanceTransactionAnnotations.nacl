@@ -209,4 +209,5 @@ type salesforce.FinanceTransaction {
       "ImpactAmount",
     ]
   }
+  _alias = "Finance Transaction"
 }

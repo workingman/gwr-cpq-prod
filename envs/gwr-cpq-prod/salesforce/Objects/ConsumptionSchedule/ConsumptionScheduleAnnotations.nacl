@@ -191,4 +191,5 @@ type salesforce.ConsumptionSchedule {
   externalSharingModel = "Private"
   searchLayouts = {
   }
+  _alias = "Consumption Schedule"
 }

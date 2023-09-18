@@ -3,4 +3,5 @@ salesforce.SharingRules QuickText {
   _parent = [
     salesforce.QuickText,
   ]
+  _alias = "QuickText"
 }

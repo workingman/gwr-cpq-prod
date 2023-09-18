@@ -193,4 +193,5 @@ type salesforce.Customer {
     customTabListAdditionalFields = "TotalLifeTimeValue"
     searchResultsAdditionalFields = "TotalLifeTimeValue"
   }
+  _alias = "Customer"
 }

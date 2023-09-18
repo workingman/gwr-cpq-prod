@@ -60,4 +60,5 @@ type salesforce.ExpressionFilterCriteria {
   label = "ExpressionFilterCriteria"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "ExpressionFilterCriteria"
 }

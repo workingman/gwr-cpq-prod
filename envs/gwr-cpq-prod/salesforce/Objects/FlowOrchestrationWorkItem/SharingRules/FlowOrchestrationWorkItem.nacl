@@ -3,4 +3,5 @@ salesforce.SharingRules FlowOrchestrationWorkItem {
   _parent = [
     salesforce.FlowOrchestrationWorkItem,
   ]
+  _alias = "FlowOrchestrationWorkItem"
 }

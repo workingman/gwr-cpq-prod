@@ -60,4 +60,5 @@ type salesforce.AssistantProgress {
   label = "AssistantProgress"
   enableFeeds = false
   externalSharingModel = "Private"
+  _alias = "AssistantProgress"
 }

@@ -193,4 +193,5 @@ type salesforce.EngagementChannelType {
     customTabListAdditionalFields = "ContactPointType"
     searchResultsAdditionalFields = "ContactPointType"
   }
+  _alias = "Engagement Channel Type"
 }

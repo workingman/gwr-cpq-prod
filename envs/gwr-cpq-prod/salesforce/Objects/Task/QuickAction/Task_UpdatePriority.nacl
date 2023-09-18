@@ -22,4 +22,5 @@ salesforce.QuickAction Task_UpdatePriority@v {
   _parent = [
     salesforce.Task,
   ]
+  _alias = "Task.UpdatePriority"
 }

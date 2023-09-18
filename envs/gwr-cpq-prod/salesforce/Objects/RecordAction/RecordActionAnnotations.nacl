@@ -60,4 +60,5 @@ type salesforce.RecordAction {
   label = "RecordAction"
   enableFeeds = false
   externalSharingModel = "ReadWrite"
+  _alias = "RecordAction"
 }

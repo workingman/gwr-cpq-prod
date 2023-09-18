@@ -207,4 +207,5 @@ salesforce.Layout FinanceBalanceSnapshot_Finance_Balance_Snapshot_Layout@bsss {
   _parent = [
     salesforce.FinanceBalanceSnapshot,
   ]
+  _alias = "FinanceBalanceSnapshot-Finance Balance Snapshot Layout"
 }

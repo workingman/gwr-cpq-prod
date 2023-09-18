@@ -47,4 +47,5 @@ salesforce.QuickAction Opportunity_New_Quote@vu {
       reference = salesforce.SBQQ__Quote__c.field.SBQQ__Opportunity2__c
     },
   ]
+  _alias = "Opportunity.New_Quote"
 }

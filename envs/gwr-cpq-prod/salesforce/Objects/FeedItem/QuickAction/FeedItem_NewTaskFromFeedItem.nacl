@@ -49,4 +49,5 @@ salesforce.QuickAction FeedItem_NewTaskFromFeedItem@v {
   _parent = [
     salesforce.FeedItem,
   ]
+  _alias = "FeedItem.NewTaskFromFeedItem"
 }

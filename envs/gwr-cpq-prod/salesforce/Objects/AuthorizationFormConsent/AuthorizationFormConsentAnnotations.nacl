@@ -209,4 +209,5 @@ type salesforce.AuthorizationFormConsent {
       "LastModifiedBy",
     ]
   }
+  _alias = "Authorization Form Consent"
 }

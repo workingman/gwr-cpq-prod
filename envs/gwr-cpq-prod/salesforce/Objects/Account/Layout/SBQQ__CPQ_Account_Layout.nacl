@@ -379,4 +379,5 @@ salesforce.Layout Account_SBQQ__CPQ_Account_Layout@buuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Account-SBQQ__CPQ Account Layout"
 }

@@ -5,4 +5,5 @@ salesforce.ListView FlowOrchestrationWorkItem_All_Work_Items {
   _parent = [
     salesforce.FlowOrchestrationWorkItem,
   ]
+  _alias = "All Work Items"
 }

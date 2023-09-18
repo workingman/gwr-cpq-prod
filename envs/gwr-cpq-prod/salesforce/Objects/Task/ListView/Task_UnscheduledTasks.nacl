@@ -32,4 +32,5 @@ salesforce.ListView Task_UnscheduledTasks {
   _parent = [
     salesforce.Task,
   ]
+  _alias = "ENCODED:{!FilterNames.Task_UnscheduledTasks}"
 }

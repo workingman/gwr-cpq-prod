@@ -16,4 +16,5 @@ salesforce.WebLink Order_SBQQ__EditOrderProducts {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Order.SBQQ__EditOrderProducts"
 }

@@ -438,4 +438,5 @@ salesforce.Layout Contact_Contact__28Support_29_Layout@bspps {
   _parent = [
     salesforce.Contact,
   ]
+  _alias = "Contact-Contact %28Support%29 Layout"
 }

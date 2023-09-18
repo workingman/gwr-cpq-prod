@@ -23,4 +23,5 @@ salesforce.ListView Idea_Ideas_Last_7_Days {
   _parent = [
     salesforce.Idea,
   ]
+  _alias = "Last 7 Days"
 }

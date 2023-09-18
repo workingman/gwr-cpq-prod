@@ -189,4 +189,5 @@ type salesforce.AssociatedLocation {
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "Associated Location"
 }

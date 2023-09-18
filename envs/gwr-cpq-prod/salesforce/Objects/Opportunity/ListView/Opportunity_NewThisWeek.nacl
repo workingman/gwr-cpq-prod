@@ -12,4 +12,5 @@ salesforce.ListView Opportunity_NewThisWeek {
   _parent = [
     salesforce.Opportunity,
   ]
+  _alias = "New This Week"
 }

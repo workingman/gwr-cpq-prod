@@ -16,4 +16,5 @@ salesforce.ListView Task_DelegatedTasks {
   _parent = [
     salesforce.Task,
   ]
+  _alias = "ENCODED:{!FilterNames.Task_DelegatedTasks}"
 }

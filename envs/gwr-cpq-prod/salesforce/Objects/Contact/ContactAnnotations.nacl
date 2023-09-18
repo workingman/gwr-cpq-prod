@@ -425,4 +425,5 @@ type salesforce.Contact {
     Name = salesforce.Contact.field.Name
     OwnerId = salesforce.Contact.field.OwnerId
   }
+  _alias = "Contact"
 }

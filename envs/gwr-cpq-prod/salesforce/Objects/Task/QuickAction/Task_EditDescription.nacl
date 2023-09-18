@@ -22,4 +22,5 @@ salesforce.QuickAction Task_EditDescription@v {
   _parent = [
     salesforce.Task,
   ]
+  _alias = "Task.EditDescription"
 }

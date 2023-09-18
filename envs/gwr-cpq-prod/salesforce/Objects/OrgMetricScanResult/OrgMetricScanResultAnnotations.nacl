@@ -188,4 +188,5 @@ type salesforce.OrgMetricScanResult {
   ]
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "Org Metric Scan Result"
 }

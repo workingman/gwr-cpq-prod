@@ -203,4 +203,5 @@ type salesforce.AssetRelationship {
       "RelatedAsset",
     ]
   }
+  _alias = "Asset Relationship"
 }

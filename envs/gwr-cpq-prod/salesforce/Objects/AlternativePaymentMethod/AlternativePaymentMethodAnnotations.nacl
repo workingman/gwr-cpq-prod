@@ -175,4 +175,5 @@ type salesforce.AlternativePaymentMethod {
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
   externalSharingModel = "Private"
+  _alias = "Alternative Payment Method"
 }

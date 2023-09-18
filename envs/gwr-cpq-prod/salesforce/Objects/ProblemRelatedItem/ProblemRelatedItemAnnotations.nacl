@@ -189,4 +189,5 @@ type salesforce.ProblemRelatedItem {
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "Problem Related Item"
 }

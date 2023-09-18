@@ -52,4 +52,5 @@ salesforce.Layout QuickText_Quick_Text_Layout@bss {
   _parent = [
     salesforce.QuickText,
   ]
+  _alias = "QuickText-Quick Text Layout"
 }

@@ -5,4 +5,5 @@ salesforce.ListView User_AllUsers {
   _parent = [
     salesforce.User,
   ]
+  _alias = "All Users"
 }

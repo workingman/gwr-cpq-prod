@@ -17,4 +17,5 @@ salesforce.ListView Opportunity_ClosingThisMonth {
   _parent = [
     salesforce.Opportunity,
   ]
+  _alias = "Closing This Month"
 }

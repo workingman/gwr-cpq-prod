@@ -80,4 +80,5 @@ salesforce.Layout EntityMilestone_Object_Milestone_Layout@bss {
   _parent = [
     salesforce.EntityMilestone,
   ]
+  _alias = "EntityMilestone-Object Milestone Layout"
 }

@@ -60,4 +60,5 @@ type salesforce.OrgDeleteRequest {
   label = "Org Delete Request"
   enableFeeds = false
   externalSharingModel = "Private"
+  _alias = "Org Delete Request"
 }

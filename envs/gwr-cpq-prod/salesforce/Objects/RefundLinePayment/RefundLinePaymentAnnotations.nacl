@@ -161,4 +161,5 @@ type salesforce.RefundLinePayment {
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "Refund Line Payment"
 }

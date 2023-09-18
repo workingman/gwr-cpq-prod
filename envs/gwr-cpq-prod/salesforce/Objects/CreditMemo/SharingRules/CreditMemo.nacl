@@ -3,4 +3,5 @@ salesforce.SharingRules CreditMemo {
   _parent = [
     salesforce.CreditMemo,
   ]
+  _alias = "CreditMemo"
 }

@@ -187,4 +187,5 @@ salesforce.LightningPage Opportunity_Record_Page {
   _parent = [
     salesforce.Opportunity,
   ]
+  _alias = "Opportunity_Record_Page"
 }

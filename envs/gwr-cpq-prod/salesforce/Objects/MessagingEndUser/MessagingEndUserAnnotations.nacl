@@ -193,4 +193,5 @@ type salesforce.MessagingEndUser {
       "MessagingConsentStatus",
     ]
   }
+  _alias = "Messaging User"
 }

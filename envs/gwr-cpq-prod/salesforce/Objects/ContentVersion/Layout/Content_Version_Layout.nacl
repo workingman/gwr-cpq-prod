@@ -46,4 +46,5 @@ salesforce.Layout ContentVersion_Content_Version_Layout@bss {
   _parent = [
     salesforce.ContentVersion,
   ]
+  _alias = "ContentVersion-Content Version Layout"
 }

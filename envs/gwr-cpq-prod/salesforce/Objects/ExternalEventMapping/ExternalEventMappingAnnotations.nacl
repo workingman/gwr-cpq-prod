@@ -60,4 +60,5 @@ type salesforce.ExternalEventMapping {
   label = "External Event Mapping"
   enableFeeds = false
   externalSharingModel = "Private"
+  _alias = "External Event Mapping"
 }

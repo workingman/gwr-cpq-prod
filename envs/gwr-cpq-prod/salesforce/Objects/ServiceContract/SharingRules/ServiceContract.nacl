@@ -3,4 +3,5 @@ salesforce.SharingRules ServiceContract {
   _parent = [
     salesforce.ServiceContract,
   ]
+  _alias = "ServiceContract"
 }

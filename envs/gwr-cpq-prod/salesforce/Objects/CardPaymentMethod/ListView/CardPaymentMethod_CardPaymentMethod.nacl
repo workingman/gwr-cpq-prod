@@ -5,4 +5,5 @@ salesforce.ListView CardPaymentMethod_CardPaymentMethod {
   _parent = [
     salesforce.CardPaymentMethod,
   ]
+  _alias = "All"
 }

@@ -180,4 +180,5 @@ salesforce.Layout PaymentAuthAdjustment_Payment_Authorization_Adjustment_Layout@
   _parent = [
     salesforce.PaymentAuthAdjustment,
   ]
+  _alias = "PaymentAuthAdjustment-Payment Authorization Adjustment Layout"
 }

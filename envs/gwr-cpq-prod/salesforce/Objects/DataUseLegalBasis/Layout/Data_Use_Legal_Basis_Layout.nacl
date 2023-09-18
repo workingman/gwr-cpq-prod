@@ -59,4 +59,5 @@ salesforce.Layout DataUseLegalBasis_Data_Use_Legal_Basis_Layout@bssss {
   _parent = [
     salesforce.DataUseLegalBasis,
   ]
+  _alias = "DataUseLegalBasis-Data Use Legal Basis Layout"
 }

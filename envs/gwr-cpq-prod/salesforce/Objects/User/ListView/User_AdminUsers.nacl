@@ -12,4 +12,5 @@ salesforce.ListView User_AdminUsers {
   _parent = [
     salesforce.User,
   ]
+  _alias = "Admin Users"
 }

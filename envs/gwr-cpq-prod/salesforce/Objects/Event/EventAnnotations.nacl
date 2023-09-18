@@ -223,4 +223,5 @@ type salesforce.Event {
   }
   historyTrackedFields = {
   }
+  _alias = "Event"
 }

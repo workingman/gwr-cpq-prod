@@ -139,4 +139,5 @@ salesforce.LightningPage Training_Product_Page {
   _parent = [
     salesforce.Product2,
   ]
+  _alias = "Training_Product_Page"
 }

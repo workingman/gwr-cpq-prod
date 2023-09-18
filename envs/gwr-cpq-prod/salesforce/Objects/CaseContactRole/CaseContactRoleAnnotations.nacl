@@ -118,4 +118,5 @@ type salesforce.CaseContactRole {
   ]
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
+  _alias = "Case Contact Role"
 }

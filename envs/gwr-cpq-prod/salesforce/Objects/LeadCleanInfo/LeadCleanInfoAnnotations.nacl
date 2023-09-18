@@ -60,4 +60,5 @@ type salesforce.LeadCleanInfo {
   label = "Lead Clean Info"
   enableFeeds = false
   externalSharingModel = "ReadWrite"
+  _alias = "Lead Clean Info"
 }

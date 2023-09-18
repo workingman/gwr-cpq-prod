@@ -234,4 +234,5 @@ type salesforce.WorkOrder {
   }
   historyTrackedFields = {
   }
+  _alias = "Work Order"
 }

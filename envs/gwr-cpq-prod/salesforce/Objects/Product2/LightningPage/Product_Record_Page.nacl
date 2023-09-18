@@ -124,4 +124,5 @@ salesforce.LightningPage Product_Record_Page {
   _parent = [
     salesforce.Product2,
   ]
+  _alias = "Product_Record_Page"
 }

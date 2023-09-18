@@ -12,4 +12,5 @@ salesforce.ListView Account_NewLastWeek {
   _parent = [
     salesforce.Account,
   ]
+  _alias = "New Last Week"
 }

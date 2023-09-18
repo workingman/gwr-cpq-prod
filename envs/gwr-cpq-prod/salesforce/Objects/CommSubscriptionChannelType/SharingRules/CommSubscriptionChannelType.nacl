@@ -3,4 +3,5 @@ salesforce.SharingRules CommSubscriptionChannelType {
   _parent = [
     salesforce.CommSubscriptionChannelType,
   ]
+  _alias = "CommSubscriptionChannelType"
 }

@@ -192,4 +192,5 @@ salesforce.Layout PaymentAuthorization_Payment_Authorization_Layout@bss {
   _parent = [
     salesforce.PaymentAuthorization,
   ]
+  _alias = "PaymentAuthorization-Payment Authorization Layout"
 }

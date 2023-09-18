@@ -12,4 +12,5 @@ salesforce.ListView ServiceContract_All_ServiceContracts {
   _parent = [
     salesforce.ServiceContract,
   ]
+  _alias = "All Service Contracts"
 }

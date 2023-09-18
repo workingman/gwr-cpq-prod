@@ -82,4 +82,5 @@ salesforce.Layout IndustryPrice__c_Industry_Price_Layout@uubss {
   _parent = [
     salesforce.IndustryPrice__c,
   ]
+  _alias = "IndustryPrice__c-Industry Price Layout"
 }

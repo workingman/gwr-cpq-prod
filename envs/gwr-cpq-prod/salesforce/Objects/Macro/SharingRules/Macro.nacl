@@ -3,4 +3,5 @@ salesforce.SharingRules Macro {
   _parent = [
     salesforce.Macro,
   ]
+  _alias = "Macro"
 }

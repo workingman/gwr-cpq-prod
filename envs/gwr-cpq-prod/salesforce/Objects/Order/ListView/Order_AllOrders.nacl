@@ -5,4 +5,5 @@ salesforce.ListView Order_AllOrders {
   _parent = [
     salesforce.Order,
   ]
+  _alias = "All Orders"
 }

@@ -150,4 +150,5 @@ salesforce.Layout EmailMessage_Email_Message_Layout@bss {
   _parent = [
     salesforce.EmailMessage,
   ]
+  _alias = "EmailMessage-Email Message Layout"
 }

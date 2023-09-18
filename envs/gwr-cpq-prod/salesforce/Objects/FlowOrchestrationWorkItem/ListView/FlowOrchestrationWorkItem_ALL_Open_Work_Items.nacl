@@ -12,4 +12,5 @@ salesforce.ListView FlowOrchestrationWorkItem_ALL_Open_Work_Items {
   _parent = [
     salesforce.FlowOrchestrationWorkItem,
   ]
+  _alias = "All Open Work Items"
 }

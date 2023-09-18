@@ -60,4 +60,5 @@ type salesforce.QuickTextUsage {
   label = "Quick Text Usage"
   enableFeeds = false
   externalSharingModel = "Private"
+  _alias = "Quick Text Usage"
 }

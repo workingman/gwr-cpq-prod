@@ -3,4 +3,5 @@ salesforce.SharingRules Image {
   _parent = [
     salesforce.Image,
   ]
+  _alias = "Image"
 }

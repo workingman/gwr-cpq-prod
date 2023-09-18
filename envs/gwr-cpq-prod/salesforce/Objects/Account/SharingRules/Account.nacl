@@ -3,4 +3,5 @@ salesforce.SharingRules Account {
   _parent = [
     salesforce.Account,
   ]
+  _alias = "Account"
 }

@@ -189,4 +189,5 @@ type salesforce.LocationGroupAssignment {
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "Location Group Assignment"
 }

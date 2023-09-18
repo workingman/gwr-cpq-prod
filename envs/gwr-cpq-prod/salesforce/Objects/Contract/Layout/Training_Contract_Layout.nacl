@@ -549,4 +549,5 @@ salesforce.Layout Contract_Training_Contract_Layout@bss {
   _parent = [
     salesforce.Contract,
   ]
+  _alias = "Contract-Training Contract Layout"
 }

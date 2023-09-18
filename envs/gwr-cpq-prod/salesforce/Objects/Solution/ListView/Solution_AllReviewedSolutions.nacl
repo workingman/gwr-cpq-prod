@@ -12,4 +12,5 @@ salesforce.ListView Solution_AllReviewedSolutions {
   _parent = [
     salesforce.Solution,
   ]
+  _alias = "All Reviewed Solutions"
 }

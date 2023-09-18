@@ -5,4 +5,5 @@ salesforce.ListView Individual_All_Individuals {
   _parent = [
     salesforce.Individual,
   ]
+  _alias = "All Individuals"
 }

@@ -12,4 +12,5 @@ salesforce.ListView Order_AllActivatedOrders {
   _parent = [
     salesforce.Order,
   ]
+  _alias = "All Activated Orders"
 }

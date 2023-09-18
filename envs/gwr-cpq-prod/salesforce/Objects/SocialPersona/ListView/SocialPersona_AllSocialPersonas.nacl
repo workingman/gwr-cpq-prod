@@ -10,4 +10,5 @@ salesforce.ListView SocialPersona_AllSocialPersonas {
   _parent = [
     salesforce.SocialPersona,
   ]
+  _alias = "All social personas"
 }

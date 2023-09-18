@@ -529,4 +529,5 @@ salesforce.Layout Opportunity_Training_Opportunity_Layout@bss {
       reference = salesforce.ApexPage.instance.SBQQ__OpportunitySave
     },
   ]
+  _alias = "Opportunity-Training Opportunity Layout"
 }

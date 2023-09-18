@@ -12,4 +12,5 @@ salesforce.ListView Entitlement_All_Entitlements {
   _parent = [
     salesforce.Entitlement,
   ]
+  _alias = "All Entitlements"
 }

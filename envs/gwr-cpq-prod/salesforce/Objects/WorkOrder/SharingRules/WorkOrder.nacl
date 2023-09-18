@@ -3,4 +3,5 @@ salesforce.SharingRules WorkOrder {
   _parent = [
     salesforce.WorkOrder,
   ]
+  _alias = "WorkOrder"
 }

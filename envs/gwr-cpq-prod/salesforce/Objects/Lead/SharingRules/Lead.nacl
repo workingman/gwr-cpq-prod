@@ -3,4 +3,5 @@ salesforce.SharingRules Lead {
   _parent = [
     salesforce.Lead,
   ]
+  _alias = "Lead"
 }

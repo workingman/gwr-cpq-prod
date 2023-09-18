@@ -217,4 +217,5 @@ type salesforce.Pricebook2 {
   }
   historyTrackedFields = {
   }
+  _alias = "Price Book"
 }

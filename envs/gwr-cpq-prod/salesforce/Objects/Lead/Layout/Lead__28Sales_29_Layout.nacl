@@ -419,4 +419,5 @@ salesforce.Layout Lead_Lead__28Sales_29_Layout@bspps {
   _parent = [
     salesforce.Lead,
   ]
+  _alias = "Lead-Lead %28Sales%29 Layout"
 }

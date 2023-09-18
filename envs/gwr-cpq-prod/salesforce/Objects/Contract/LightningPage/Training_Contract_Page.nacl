@@ -139,4 +139,5 @@ salesforce.LightningPage Training_Contract_Page {
   _parent = [
     salesforce.Contract,
   ]
+  _alias = "Training_Contract_Page"
 }

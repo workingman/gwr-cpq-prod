@@ -96,4 +96,5 @@ salesforce.Layout UserProvisioningRequest_User_Provisioning_Request_Layout@bsss 
   _parent = [
     salesforce.UserProvisioningRequest,
   ]
+  _alias = "UserProvisioningRequest-User Provisioning Request Layout"
 }

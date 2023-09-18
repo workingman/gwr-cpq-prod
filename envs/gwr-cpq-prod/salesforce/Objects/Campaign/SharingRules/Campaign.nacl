@@ -3,4 +3,5 @@ salesforce.SharingRules Campaign {
   _parent = [
     salesforce.Campaign,
   ]
+  _alias = "Campaign"
 }

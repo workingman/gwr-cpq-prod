@@ -70,4 +70,5 @@ salesforce.DuplicateRule Lead_Standard_Lead_Duplicate_Rule@vuuu {
   _parent = [
     salesforce.Lead,
   ]
+  _alias = "Lead.Standard_Lead_Duplicate_Rule"
 }

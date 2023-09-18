@@ -225,4 +225,5 @@ type salesforce.Macro {
       "LastModifiedBy",
     ]
   }
+  _alias = "Macro"
 }

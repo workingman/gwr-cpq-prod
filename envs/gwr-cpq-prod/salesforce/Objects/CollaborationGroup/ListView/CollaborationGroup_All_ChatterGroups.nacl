@@ -12,4 +12,5 @@ salesforce.ListView CollaborationGroup_All_ChatterGroups {
   _parent = [
     salesforce.CollaborationGroup,
   ]
+  _alias = "Active Groups"
 }

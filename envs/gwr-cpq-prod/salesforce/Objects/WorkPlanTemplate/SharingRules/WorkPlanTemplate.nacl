@@ -3,4 +3,5 @@ salesforce.SharingRules WorkPlanTemplate {
   _parent = [
     salesforce.WorkPlanTemplate,
   ]
+  _alias = "WorkPlanTemplate"
 }

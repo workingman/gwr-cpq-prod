@@ -603,4 +603,5 @@ salesforce.Layout Account_Training_Account_Layout@bss {
   _parent = [
     salesforce.Account,
   ]
+  _alias = "Account-Training Account Layout"
 }

@@ -162,4 +162,5 @@ type salesforce.OrderItem {
   enableFeeds = false
   historyTrackedFields = {
   }
+  _alias = "Order Product"
 }

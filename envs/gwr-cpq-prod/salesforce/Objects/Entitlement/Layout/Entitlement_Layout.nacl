@@ -146,4 +146,5 @@ salesforce.Layout Entitlement_Entitlement_Layout@bs {
   _parent = [
     salesforce.Entitlement,
   ]
+  _alias = "Entitlement-Entitlement Layout"
 }

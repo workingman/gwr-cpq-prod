@@ -79,4 +79,5 @@ salesforce.Layout ProcessException_Process_Exception_Layout@bss {
   _parent = [
     salesforce.ProcessException,
   ]
+  _alias = "ProcessException-Process Exception Layout"
 }

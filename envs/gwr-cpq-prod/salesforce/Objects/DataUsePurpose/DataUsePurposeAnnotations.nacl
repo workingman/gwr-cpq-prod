@@ -205,4 +205,5 @@ type salesforce.DataUsePurpose {
       "LastModifiedBy",
     ]
   }
+  _alias = "Data Use Purpose"
 }

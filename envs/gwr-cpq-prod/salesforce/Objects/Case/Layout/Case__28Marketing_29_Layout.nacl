@@ -401,4 +401,5 @@ salesforce.Layout Case_Case__28Marketing_29_Layout@bspps {
   _parent = [
     salesforce.Case,
   ]
+  _alias = "Case-Case %28Marketing%29 Layout"
 }

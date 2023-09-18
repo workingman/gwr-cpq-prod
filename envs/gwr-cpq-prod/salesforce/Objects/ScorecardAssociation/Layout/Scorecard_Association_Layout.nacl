@@ -38,4 +38,5 @@ salesforce.Layout ScorecardAssociation_Scorecard_Association_Layout@bss {
   _parent = [
     salesforce.ScorecardAssociation,
   ]
+  _alias = "ScorecardAssociation-Scorecard Association Layout"
 }

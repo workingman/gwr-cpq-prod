@@ -11,4 +11,5 @@ salesforce.ListView LegalEntity_mine {
   _parent = [
     salesforce.LegalEntity,
   ]
+  _alias = "My Legal Entities"
 }

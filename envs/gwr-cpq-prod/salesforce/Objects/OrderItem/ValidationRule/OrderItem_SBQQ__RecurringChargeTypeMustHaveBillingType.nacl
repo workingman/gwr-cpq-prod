@@ -13,4 +13,5 @@ salesforce.ValidationRule OrderItem_SBQQ__RecurringChargeTypeMustHaveBillingType
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "OrderItem.SBQQ__RecurringChargeTypeMustHaveBillingType"
 }

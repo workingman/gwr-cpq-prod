@@ -5,4 +5,5 @@ salesforce.ListView FlowOrchestrationInstance_All_Orchestration_Instances {
   _parent = [
     salesforce.FlowOrchestrationInstance,
   ]
+  _alias = "All Orchestration Runs"
 }

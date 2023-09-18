@@ -3,4 +3,5 @@ salesforce.SharingRules Individual {
   _parent = [
     salesforce.Individual,
   ]
+  _alias = "Individual"
 }

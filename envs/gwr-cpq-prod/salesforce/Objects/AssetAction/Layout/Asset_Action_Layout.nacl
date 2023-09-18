@@ -129,4 +129,5 @@ salesforce.Layout AssetAction_Asset_Action_Layout@bss {
   _parent = [
     salesforce.AssetAction,
   ]
+  _alias = "AssetAction-Asset Action Layout"
 }

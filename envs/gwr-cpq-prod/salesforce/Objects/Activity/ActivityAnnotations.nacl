@@ -182,4 +182,5 @@ type salesforce.Activity {
       "CORE.USERS.ALIAS",
     ]
   }
+  _alias = "Activity"
 }

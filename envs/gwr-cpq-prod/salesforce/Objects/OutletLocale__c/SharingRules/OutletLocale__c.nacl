@@ -3,4 +3,5 @@ salesforce.SharingRules OutletLocale__c {
   _parent = [
     salesforce.OutletLocale__c,
   ]
+  _alias = "OutletLocale__c"
 }

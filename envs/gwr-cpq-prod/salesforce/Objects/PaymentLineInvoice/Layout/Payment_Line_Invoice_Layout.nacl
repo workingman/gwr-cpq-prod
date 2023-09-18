@@ -162,4 +162,5 @@ salesforce.Layout PaymentLineInvoice_Payment_Line_Invoice_Layout@bsss {
   _parent = [
     salesforce.PaymentLineInvoice,
   ]
+  _alias = "PaymentLineInvoice-Payment Line Invoice Layout"
 }

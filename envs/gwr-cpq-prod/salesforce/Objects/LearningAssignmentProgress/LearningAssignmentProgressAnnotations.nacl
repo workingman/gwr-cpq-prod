@@ -60,4 +60,5 @@ type salesforce.LearningAssignmentProgress {
   label = "LearningAssignmentProgress"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "LearningAssignmentProgress"
 }

@@ -175,4 +175,5 @@ type salesforce.PaymentAuthAdjustment {
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "Payment Authorization Adjustment"
 }

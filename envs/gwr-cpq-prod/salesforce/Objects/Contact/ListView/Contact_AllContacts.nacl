@@ -5,4 +5,5 @@ salesforce.ListView Contact_AllContacts {
   _parent = [
     salesforce.Contact,
   ]
+  _alias = "All Contacts"
 }

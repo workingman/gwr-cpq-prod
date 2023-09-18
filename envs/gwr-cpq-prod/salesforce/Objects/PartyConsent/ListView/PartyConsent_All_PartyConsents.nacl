@@ -5,4 +5,5 @@ salesforce.ListView PartyConsent_All_PartyConsents {
   _parent = [
     salesforce.PartyConsent,
   ]
+  _alias = "All Party Consents"
 }

@@ -351,4 +351,5 @@ type salesforce.Lead {
     OwnerId = salesforce.Lead.field.OwnerId
     Status = salesforce.Lead.field.Status
   }
+  _alias = "Lead"
 }

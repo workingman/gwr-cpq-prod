@@ -5,4 +5,5 @@ salesforce.ListView Recommendation_All_Recommendations {
   _parent = [
     salesforce.Recommendation,
   ]
+  _alias = "All Recommendations"
 }

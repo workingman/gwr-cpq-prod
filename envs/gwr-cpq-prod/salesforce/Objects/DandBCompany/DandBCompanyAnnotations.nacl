@@ -161,4 +161,5 @@ type salesforce.DandBCompany {
       "URL",
     ]
   }
+  _alias = "D&B Company"
 }

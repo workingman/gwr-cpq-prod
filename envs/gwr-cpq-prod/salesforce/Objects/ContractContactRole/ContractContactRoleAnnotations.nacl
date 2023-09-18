@@ -132,4 +132,5 @@ type salesforce.ContractContactRole {
   ]
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
+  _alias = "Contract Contact Role"
 }

@@ -207,4 +207,5 @@ type salesforce.CommSubscriptionConsent {
       "ConsentCapturedSource",
     ]
   }
+  _alias = "Communication Subscription Consent"
 }

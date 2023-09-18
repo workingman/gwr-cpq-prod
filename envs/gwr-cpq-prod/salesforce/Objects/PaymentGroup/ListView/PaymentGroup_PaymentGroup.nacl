@@ -5,4 +5,5 @@ salesforce.ListView PaymentGroup_PaymentGroup {
   _parent = [
     salesforce.PaymentGroup,
   ]
+  _alias = "All"
 }

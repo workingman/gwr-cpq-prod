@@ -205,4 +205,5 @@ type salesforce.AuthorizationForm {
       "LastModifiedBy",
     ]
   }
+  _alias = "Authorization Form"
 }

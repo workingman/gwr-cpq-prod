@@ -3,4 +3,5 @@ salesforce.SharingRules ProcessException {
   _parent = [
     salesforce.ProcessException,
   ]
+  _alias = "ProcessException"
 }

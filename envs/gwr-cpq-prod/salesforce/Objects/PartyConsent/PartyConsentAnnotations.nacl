@@ -213,4 +213,5 @@ type salesforce.PartyConsent {
       "LastModifiedBy",
     ]
   }
+  _alias = "Party Consent"
 }

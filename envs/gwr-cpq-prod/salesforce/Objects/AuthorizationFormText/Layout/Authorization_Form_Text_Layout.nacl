@@ -72,4 +72,5 @@ salesforce.Layout AuthorizationFormText_Authorization_Form_Text_Layout@bsss {
   _parent = [
     salesforce.AuthorizationFormText,
   ]
+  _alias = "AuthorizationFormText-Authorization Form Text Layout"
 }

@@ -15,4 +15,5 @@ salesforce.QuickAction Opportunity_SBQQ__CreateOrderLightning@vuu {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Create Order (SBQQ)"
 }

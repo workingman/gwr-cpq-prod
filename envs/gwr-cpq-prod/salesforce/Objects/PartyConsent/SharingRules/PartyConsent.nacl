@@ -3,4 +3,5 @@ salesforce.SharingRules PartyConsent {
   _parent = [
     salesforce.PartyConsent,
   ]
+  _alias = "PartyConsent"
 }

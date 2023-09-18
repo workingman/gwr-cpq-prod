@@ -24,4 +24,5 @@ salesforce.WebLink Opportunity_DeliveryStatus {
       reference = salesforce.Opportunity.field.TrackingNumber__c
     },
   ]
+  _alias = "Opportunity.DeliveryStatus"
 }

@@ -214,4 +214,5 @@ type salesforce.WorkStepTemplate {
   topicsForObjects = {
     enableTopics = false
   }
+  _alias = "Work Step Template"
 }

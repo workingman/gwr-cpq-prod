@@ -12,4 +12,5 @@ salesforce.ListView FinanceTransaction_mine {
   _parent = [
     salesforce.FinanceTransaction,
   ]
+  _alias = "My Finance Transactions"
 }

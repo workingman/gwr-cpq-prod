@@ -5,4 +5,5 @@ salesforce.ListView AssetActionSource_AssetActionSource {
   _parent = [
     salesforce.AssetActionSource,
   ]
+  _alias = "All"
 }

@@ -234,4 +234,5 @@ salesforce.Layout CardPaymentMethod_Card_Payment_Method_Layout@bsss {
   _parent = [
     salesforce.CardPaymentMethod,
   ]
+  _alias = "CardPaymentMethod-Card Payment Method Layout"
 }

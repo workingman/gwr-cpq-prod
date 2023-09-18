@@ -3,4 +3,5 @@ salesforce.SharingRules FinanceBalanceSnapshot {
   _parent = [
     salesforce.FinanceBalanceSnapshot,
   ]
+  _alias = "FinanceBalanceSnapshot"
 }

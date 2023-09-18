@@ -3,4 +3,5 @@ salesforce.SharingRules LegalEntity {
   _parent = [
     salesforce.LegalEntity,
   ]
+  _alias = "LegalEntity"
 }

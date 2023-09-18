@@ -3,4 +3,5 @@ salesforce.SharingRules Location {
   _parent = [
     salesforce.Location,
   ]
+  _alias = "Location"
 }

@@ -154,4 +154,5 @@ type salesforce.CreditMemoLine {
       "LineAmount",
     ]
   }
+  _alias = "Credit Memo Line"
 }

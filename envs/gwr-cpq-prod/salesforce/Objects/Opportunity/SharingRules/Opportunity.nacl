@@ -3,4 +3,5 @@ salesforce.SharingRules Opportunity {
   _parent = [
     salesforce.Opportunity,
   ]
+  _alias = "Opportunity"
 }

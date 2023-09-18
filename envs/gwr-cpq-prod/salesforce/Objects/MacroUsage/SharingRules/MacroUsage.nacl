@@ -3,4 +3,5 @@ salesforce.SharingRules MacroUsage {
   _parent = [
     salesforce.MacroUsage,
   ]
+  _alias = "MacroUsage"
 }

@@ -155,4 +155,5 @@ salesforce.Layout WorkOrderLineItem_Work_Order_Line_Item_Layout@bssss {
   _parent = [
     salesforce.WorkOrderLineItem,
   ]
+  _alias = "WorkOrderLineItem-Work Order Line Item Layout"
 }

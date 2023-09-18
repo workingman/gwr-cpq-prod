@@ -12,4 +12,5 @@ salesforce.ListView Campaign_MyActiveCampaigns {
   _parent = [
     salesforce.Campaign,
   ]
+  _alias = "My Active Campaigns"
 }

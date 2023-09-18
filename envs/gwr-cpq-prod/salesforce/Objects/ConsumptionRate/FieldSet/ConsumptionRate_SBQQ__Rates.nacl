@@ -42,4 +42,5 @@ salesforce.FieldSet ConsumptionRate_SBQQ__Rates {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Rates (SBQQ)"
 }

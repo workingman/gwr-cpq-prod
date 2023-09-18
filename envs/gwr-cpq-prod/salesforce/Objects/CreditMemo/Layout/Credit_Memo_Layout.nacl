@@ -135,4 +135,5 @@ salesforce.Layout CreditMemo_Credit_Memo_Layout@bss {
   _parent = [
     salesforce.CreditMemo,
   ]
+  _alias = "CreditMemo-Credit Memo Layout"
 }

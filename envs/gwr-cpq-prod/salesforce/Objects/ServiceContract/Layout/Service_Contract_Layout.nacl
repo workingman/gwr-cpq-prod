@@ -190,4 +190,5 @@ salesforce.Layout ServiceContract_Service_Contract_Layout@bss {
   _parent = [
     salesforce.ServiceContract,
   ]
+  _alias = "ServiceContract-Service Contract Layout"
 }

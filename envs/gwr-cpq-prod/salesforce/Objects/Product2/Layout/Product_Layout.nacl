@@ -102,4 +102,5 @@ salesforce.Layout Product2_Product_Layout@bs {
   _parent = [
     salesforce.Product2,
   ]
+  _alias = "Product2-Product Layout"
 }

@@ -199,4 +199,5 @@ type salesforce.MessagingSession {
       "EndTime",
     ]
   }
+  _alias = "Messaging Session"
 }

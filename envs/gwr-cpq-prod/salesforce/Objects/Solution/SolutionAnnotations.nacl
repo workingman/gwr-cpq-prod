@@ -222,4 +222,5 @@ type salesforce.Solution {
     SolutionNote = salesforce.Solution.field.SolutionNote
     Status = salesforce.Solution.field.Status
   }
+  _alias = "Solution"
 }

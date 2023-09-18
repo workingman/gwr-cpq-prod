@@ -3,4 +3,5 @@ salesforce.SharingRules PromptError {
   _parent = [
     salesforce.PromptError,
   ]
+  _alias = "PromptError"
 }

@@ -5,4 +5,5 @@ salesforce.ListView ContactPointPhone_All_ContactPointPhones {
   _parent = [
     salesforce.ContactPointPhone,
   ]
+  _alias = "All Contact Point Phones"
 }

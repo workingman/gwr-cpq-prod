@@ -60,4 +60,5 @@ type salesforce.ContactCleanInfo {
   label = "Contact Clean Info"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "Contact Clean Info"
 }

@@ -16,4 +16,5 @@ salesforce.ListView CreditMemo_mine {
   _parent = [
     salesforce.CreditMemo,
   ]
+  _alias = "My Credit Memos"
 }

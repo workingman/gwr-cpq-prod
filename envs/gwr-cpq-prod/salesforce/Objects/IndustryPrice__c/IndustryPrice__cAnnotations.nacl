@@ -263,4 +263,5 @@ type salesforce.IndustryPrice__c {
   topicsForObjects = {
     enableTopics = false
   }
+  _alias = "Industry Price"
 }

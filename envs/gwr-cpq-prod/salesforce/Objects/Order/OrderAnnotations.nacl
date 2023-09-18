@@ -305,4 +305,5 @@ type salesforce.Order {
     TotalAmount = salesforce.Order.field.TotalAmount
     Type = salesforce.Order.field.Type
   }
+  _alias = "Order"
 }

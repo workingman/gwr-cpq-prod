@@ -190,4 +190,5 @@ type salesforce.CollaborationGroup {
   enableFeeds = true
   feedHistoryTrackedFields = {
   }
+  _alias = "Group"
 }

@@ -3,4 +3,5 @@ salesforce.SharingRules StreamActivityAccess {
   _parent = [
     salesforce.StreamActivityAccess,
   ]
+  _alias = "StreamActivityAccess"
 }

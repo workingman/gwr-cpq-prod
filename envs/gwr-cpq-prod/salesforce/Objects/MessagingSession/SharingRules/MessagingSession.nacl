@@ -3,4 +3,5 @@ salesforce.SharingRules MessagingSession {
   _parent = [
     salesforce.MessagingSession,
   ]
+  _alias = "MessagingSession"
 }

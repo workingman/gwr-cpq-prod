@@ -60,4 +60,5 @@ type salesforce.MacroAction {
   label = "MacroAction"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "MacroAction"
 }

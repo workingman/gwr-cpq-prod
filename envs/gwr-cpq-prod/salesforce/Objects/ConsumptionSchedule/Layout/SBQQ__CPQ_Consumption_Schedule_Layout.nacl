@@ -123,4 +123,5 @@ salesforce.Layout ConsumptionSchedule_SBQQ__CPQ_Consumption_Schedule_Layout@buus
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "ConsumptionSchedule-SBQQ__CPQ Consumption Schedule Layout"
 }

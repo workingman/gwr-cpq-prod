@@ -446,4 +446,5 @@ salesforce.Layout Contract_SBQQ__CPQ_Contract_Layout@buuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Contract-SBQQ__CPQ Contract Layout"
 }

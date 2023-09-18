@@ -3,4 +3,5 @@ salesforce.SharingRules DataUsePurpose {
   _parent = [
     salesforce.DataUsePurpose,
   ]
+  _alias = "DataUsePurpose"
 }

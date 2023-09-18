@@ -21,4 +21,5 @@ salesforce.ListView Event_MyRecentEvents {
   _parent = [
     salesforce.Event,
   ]
+  _alias = "My Recent Events"
 }

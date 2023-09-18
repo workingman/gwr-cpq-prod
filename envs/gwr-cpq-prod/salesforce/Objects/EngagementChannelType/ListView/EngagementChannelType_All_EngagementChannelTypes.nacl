@@ -5,4 +5,5 @@ salesforce.ListView EngagementChannelType_All_EngagementChannelTypes {
   _parent = [
     salesforce.EngagementChannelType,
   ]
+  _alias = "All Engagement Channel Types"
 }

@@ -205,4 +205,5 @@ type salesforce.ContactPointEmail {
       "Parent",
     ]
   }
+  _alias = "Contact Point Email"
 }

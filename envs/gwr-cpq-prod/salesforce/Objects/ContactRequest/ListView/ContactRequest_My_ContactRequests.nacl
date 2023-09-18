@@ -5,4 +5,5 @@ salesforce.ListView ContactRequest_My_ContactRequests {
   _parent = [
     salesforce.ContactRequest,
   ]
+  _alias = "My Contact Requests"
 }

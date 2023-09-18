@@ -193,4 +193,5 @@ type salesforce.CommSubscription {
     customTabListAdditionalFields = "DataUsePurpose"
     searchResultsAdditionalFields = "DataUsePurpose"
   }
+  _alias = "Communication Subscription"
 }

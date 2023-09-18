@@ -88,4 +88,5 @@ salesforce.Layout ContactPointTypeConsent_Contact_Point_Type_Consent_Layout@bsss
   _parent = [
     salesforce.ContactPointTypeConsent,
   ]
+  _alias = "ContactPointTypeConsent-Contact Point Type Consent Layout"
 }

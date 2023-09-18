@@ -60,4 +60,5 @@ type salesforce.MacroUsage {
   label = "Macro Usage"
   enableFeeds = false
   externalSharingModel = "Private"
+  _alias = "Macro Usage"
 }

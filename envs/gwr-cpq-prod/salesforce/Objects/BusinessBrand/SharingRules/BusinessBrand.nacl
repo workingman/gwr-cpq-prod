@@ -3,4 +3,5 @@ salesforce.SharingRules BusinessBrand {
   _parent = [
     salesforce.BusinessBrand,
   ]
+  _alias = "BusinessBrand"
 }

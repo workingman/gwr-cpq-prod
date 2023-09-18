@@ -307,4 +307,5 @@ type salesforce.Case {
     OwnerId = salesforce.Case.field.OwnerId
     Priority = salesforce.Case.field.Priority
   }
+  _alias = "Case"
 }

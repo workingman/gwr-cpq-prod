@@ -59,4 +59,5 @@ type salesforce.ChatterActivity {
   metadataType = "CustomObject"
   label = "Chatter Activity"
   enableFeeds = false
+  _alias = "Chatter Activity"
 }

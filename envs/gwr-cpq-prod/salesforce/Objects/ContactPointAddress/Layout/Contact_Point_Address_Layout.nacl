@@ -55,4 +55,5 @@ salesforce.Layout ContactPointAddress_Contact_Point_Address_Layout@bsss {
   _parent = [
     salesforce.ContactPointAddress,
   ]
+  _alias = "ContactPointAddress-Contact Point Address Layout"
 }

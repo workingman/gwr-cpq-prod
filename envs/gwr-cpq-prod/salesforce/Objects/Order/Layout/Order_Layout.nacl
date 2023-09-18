@@ -182,4 +182,5 @@ salesforce.Layout Order_Order_Layout@bs {
   _parent = [
     salesforce.Order,
   ]
+  _alias = "Order-Order Layout"
 }

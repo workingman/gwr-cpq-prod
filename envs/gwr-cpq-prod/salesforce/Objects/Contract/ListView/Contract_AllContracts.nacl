@@ -5,4 +5,5 @@ salesforce.ListView Contract_AllContracts {
   _parent = [
     salesforce.Contract,
   ]
+  _alias = "All Contracts"
 }

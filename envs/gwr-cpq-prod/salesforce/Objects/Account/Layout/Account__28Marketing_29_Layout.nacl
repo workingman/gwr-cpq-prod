@@ -512,4 +512,5 @@ salesforce.Layout Account_Account__28Marketing_29_Layout@bspps {
   _parent = [
     salesforce.Account,
   ]
+  _alias = "Account-Account %28Marketing%29 Layout"
 }

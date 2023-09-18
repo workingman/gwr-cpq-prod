@@ -137,4 +137,5 @@ salesforce.Layout CampaignMember_Campaign_Member_Page_Layout@bsss {
   _parent = [
     salesforce.CampaignMember,
   ]
+  _alias = "CampaignMember-Campaign Member Page Layout"
 }

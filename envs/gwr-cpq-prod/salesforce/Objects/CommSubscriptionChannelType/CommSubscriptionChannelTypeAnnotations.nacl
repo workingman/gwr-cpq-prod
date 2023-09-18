@@ -199,4 +199,5 @@ type salesforce.CommSubscriptionChannelType {
       "EngagementChannelType",
     ]
   }
+  _alias = "Communication Subscription Channel Type"
 }

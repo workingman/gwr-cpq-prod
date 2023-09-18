@@ -80,4 +80,5 @@ salesforce.Layout AssetRelationship_Asset_Relationship_Layout@bss {
   _parent = [
     salesforce.AssetRelationship,
   ]
+  _alias = "AssetRelationship-Asset Relationship Layout"
 }

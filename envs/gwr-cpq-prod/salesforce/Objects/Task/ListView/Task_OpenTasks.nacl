@@ -33,4 +33,5 @@ salesforce.ListView Task_OpenTasks {
   _parent = [
     salesforce.Task,
   ]
+  _alias = "ENCODED:{!FilterNames.Task_OpenTasks}"
 }

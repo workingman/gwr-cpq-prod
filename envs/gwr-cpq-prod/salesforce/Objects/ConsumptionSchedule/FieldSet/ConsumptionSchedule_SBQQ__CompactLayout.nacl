@@ -47,4 +47,5 @@ salesforce.FieldSet ConsumptionSchedule_SBQQ__CompactLayout {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Compact Layout (SBQQ)"
 }

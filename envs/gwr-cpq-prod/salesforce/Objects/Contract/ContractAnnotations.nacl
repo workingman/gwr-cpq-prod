@@ -288,4 +288,5 @@ type salesforce.Contract {
       reference = salesforce.LightningPage.instance.Training_Contract_Page
     },
   ]
+  _alias = "Contract"
 }

@@ -3,4 +3,5 @@ salesforce.SharingRules Case {
   _parent = [
     salesforce.Case,
   ]
+  _alias = "Case"
 }

@@ -96,4 +96,5 @@ salesforce.Layout AssetStatePeriod_Asset_State_Period_Layout@bsss {
   _parent = [
     salesforce.AssetStatePeriod,
   ]
+  _alias = "AssetStatePeriod-Asset State Period Layout"
 }

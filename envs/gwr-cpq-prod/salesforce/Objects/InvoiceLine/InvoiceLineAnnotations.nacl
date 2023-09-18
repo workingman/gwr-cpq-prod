@@ -126,4 +126,5 @@ type salesforce.InvoiceLine {
       "LineAmount",
     ]
   }
+  _alias = "Invoice Line"
 }

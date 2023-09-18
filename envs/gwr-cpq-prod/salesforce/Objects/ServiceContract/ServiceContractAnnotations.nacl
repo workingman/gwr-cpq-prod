@@ -209,4 +209,5 @@ type salesforce.ServiceContract {
   }
   historyTrackedFields = {
   }
+  _alias = "Service Contract"
 }

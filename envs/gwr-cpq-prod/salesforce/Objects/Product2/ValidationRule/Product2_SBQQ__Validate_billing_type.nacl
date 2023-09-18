@@ -17,4 +17,5 @@ AND(ISPICKVAL(SBQQ__ChargeType__c, 'Usage'), NOT(ISPICKVAL(SBQQ__BillingType__c,
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Product2.SBQQ__Validate_billing_type"
 }

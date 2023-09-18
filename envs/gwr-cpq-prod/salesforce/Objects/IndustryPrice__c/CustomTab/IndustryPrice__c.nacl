@@ -5,4 +5,5 @@ salesforce.CustomTab IndustryPrice__c {
   _parent = [
     salesforce.IndustryPrice__c,
   ]
+  _alias = "IndustryPrice__c"
 }

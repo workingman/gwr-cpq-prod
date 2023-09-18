@@ -3,4 +3,5 @@ salesforce.SharingRules ChangeRequest {
   _parent = [
     salesforce.ChangeRequest,
   ]
+  _alias = "ChangeRequest"
 }

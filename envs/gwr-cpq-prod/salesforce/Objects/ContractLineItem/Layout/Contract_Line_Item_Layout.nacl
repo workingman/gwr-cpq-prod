@@ -145,4 +145,5 @@ salesforce.Layout ContractLineItem_Contract_Line_Item_Layout@bsss {
   _parent = [
     salesforce.ContractLineItem,
   ]
+  _alias = "ContractLineItem-Contract Line Item Layout"
 }

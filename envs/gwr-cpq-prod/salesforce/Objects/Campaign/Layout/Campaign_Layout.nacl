@@ -413,4 +413,5 @@ salesforce.Layout Campaign_Campaign_Layout@bs {
   _parent = [
     salesforce.Campaign,
   ]
+  _alias = "Campaign-Campaign Layout"
 }

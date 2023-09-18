@@ -3,4 +3,5 @@ salesforce.SharingRules FlowOrchestrationInstance {
   _parent = [
     salesforce.FlowOrchestrationInstance,
   ]
+  _alias = "FlowOrchestrationInstance"
 }

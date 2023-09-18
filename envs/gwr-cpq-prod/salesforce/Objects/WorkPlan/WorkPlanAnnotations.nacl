@@ -214,4 +214,5 @@ type salesforce.WorkPlan {
   topicsForObjects = {
     enableTopics = false
   }
+  _alias = "Work Plan"
 }

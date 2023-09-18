@@ -63,4 +63,5 @@ salesforce.Layout DataUsePurpose_Data_Use_Purpose_Layout@bsss {
   _parent = [
     salesforce.DataUsePurpose,
   ]
+  _alias = "DataUsePurpose-Data Use Purpose Layout"
 }

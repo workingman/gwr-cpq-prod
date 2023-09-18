@@ -339,4 +339,5 @@ salesforce.Layout OrderItem_SBQQ__CPQ_Order_Product_Layout@buusss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "OrderItem-SBQQ__CPQ Order Product Layout"
 }

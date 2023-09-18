@@ -181,4 +181,5 @@ type salesforce.Task {
   }
   historyTrackedFields = {
   }
+  _alias = "Task"
 }

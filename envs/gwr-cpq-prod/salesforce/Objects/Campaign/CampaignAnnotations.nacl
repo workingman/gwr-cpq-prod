@@ -242,4 +242,5 @@ type salesforce.Campaign {
   }
   historyTrackedFields = {
   }
+  _alias = "Campaign"
 }

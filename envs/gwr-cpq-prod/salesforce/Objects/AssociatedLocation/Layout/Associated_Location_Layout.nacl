@@ -80,4 +80,5 @@ salesforce.Layout AssociatedLocation_Associated_Location_Layout@bss {
   _parent = [
     salesforce.AssociatedLocation,
   ]
+  _alias = "AssociatedLocation-Associated Location Layout"
 }

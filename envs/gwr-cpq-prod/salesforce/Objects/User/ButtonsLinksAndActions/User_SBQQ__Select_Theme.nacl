@@ -23,4 +23,5 @@ salesforce.WebLink User_SBQQ__Select_Theme {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "User.SBQQ__Select_Theme"
 }

@@ -12,4 +12,5 @@ salesforce.ListView Opportunity_Private {
   _parent = [
     salesforce.Opportunity,
   ]
+  _alias = "Private"
 }

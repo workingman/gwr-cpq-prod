@@ -3,4 +3,5 @@ salesforce.SharingRules Problem {
   _parent = [
     salesforce.Problem,
   ]
+  _alias = "Problem"
 }

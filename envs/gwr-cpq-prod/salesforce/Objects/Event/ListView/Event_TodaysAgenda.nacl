@@ -26,4 +26,5 @@ salesforce.ListView Event_TodaysAgenda {
   _parent = [
     salesforce.Event,
   ]
+  _alias = "Today's Agenda"
 }

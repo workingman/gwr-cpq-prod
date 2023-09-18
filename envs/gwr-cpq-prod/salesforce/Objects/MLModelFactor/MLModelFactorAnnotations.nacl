@@ -60,4 +60,5 @@ type salesforce.MLModelFactor {
   label = "ML Model Factor"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "ML Model Factor"
 }

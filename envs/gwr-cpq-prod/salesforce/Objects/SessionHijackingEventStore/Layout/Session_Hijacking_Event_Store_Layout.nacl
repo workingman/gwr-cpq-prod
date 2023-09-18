@@ -150,4 +150,5 @@ salesforce.Layout SessionHijackingEventStore_Session_Hijacking_Event_Store_Layou
   _parent = [
     salesforce.SessionHijackingEventStore,
   ]
+  _alias = "SessionHijackingEventStore-Session Hijacking Event Store Layout"
 }

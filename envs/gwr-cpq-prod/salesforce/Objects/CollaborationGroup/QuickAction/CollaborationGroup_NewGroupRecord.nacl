@@ -29,4 +29,5 @@ salesforce.QuickAction CollaborationGroup_NewGroupRecord@v {
   _parent = [
     salesforce.CollaborationGroup,
   ]
+  _alias = "CollaborationGroup.NewGroupRecord"
 }

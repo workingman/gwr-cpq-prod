@@ -82,4 +82,5 @@ salesforce.Layout OutletLocale__c_Outlet_Locale_Layout@uubss {
   _parent = [
     salesforce.OutletLocale__c,
   ]
+  _alias = "OutletLocale__c-Outlet Locale Layout"
 }

@@ -5,4 +5,5 @@ salesforce.ListView PaymentAuthorization_PaymentAuthorization {
   _parent = [
     salesforce.PaymentAuthorization,
   ]
+  _alias = "All"
 }

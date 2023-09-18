@@ -59,4 +59,5 @@ salesforce.Layout ContactPointEmail_Contact_Point_Email_Layout@bsss {
   _parent = [
     salesforce.ContactPointEmail,
   ]
+  _alias = "ContactPointEmail-Contact Point Email Layout"
 }

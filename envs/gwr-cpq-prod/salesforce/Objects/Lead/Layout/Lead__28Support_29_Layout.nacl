@@ -396,4 +396,5 @@ salesforce.Layout Lead_Lead__28Support_29_Layout@bspps {
   _parent = [
     salesforce.Lead,
   ]
+  _alias = "Lead-Lead %28Support%29 Layout"
 }

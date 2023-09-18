@@ -160,4 +160,5 @@ type salesforce.CaseMilestone {
   ]
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
+  _alias = "Case Milestone"
 }

@@ -61,4 +61,5 @@ type salesforce.Site {
   enableFeeds = true
   feedHistoryTrackedFields = {
   }
+  _alias = "Site"
 }

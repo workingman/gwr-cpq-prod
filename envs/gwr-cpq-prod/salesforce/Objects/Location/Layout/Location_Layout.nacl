@@ -104,4 +104,5 @@ salesforce.Layout Location_Location_Layout@bs {
   _parent = [
     salesforce.Location,
   ]
+  _alias = "Location-Location Layout"
 }

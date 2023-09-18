@@ -5,4 +5,5 @@ salesforce.ListView PaymentGateway_PaymentGateway {
   _parent = [
     salesforce.PaymentGateway,
   ]
+  _alias = "All"
 }

@@ -12,4 +12,5 @@ salesforce.ListView User_ActiveUsers {
   _parent = [
     salesforce.User,
   ]
+  _alias = "Active Users"
 }

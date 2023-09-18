@@ -263,4 +263,5 @@ type salesforce.OutletLocale__c {
   topicsForObjects = {
     enableTopics = false
   }
+  _alias = "Outlet Locale"
 }

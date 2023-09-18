@@ -5,4 +5,5 @@ salesforce.ListView AlternativePaymentMethod_AlternativePaymentMethod {
   _parent = [
     salesforce.AlternativePaymentMethod,
   ]
+  _alias = "All"
 }

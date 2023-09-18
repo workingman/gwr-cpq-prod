@@ -22,4 +22,5 @@ salesforce.QuickAction Task_UpdateStatus_1@vu {
   _parent = [
     salesforce.Task,
   ]
+  _alias = "Task.UpdateStatus_1"
 }

@@ -188,4 +188,5 @@ type salesforce.CampaignMember {
   ]
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
+  _alias = "Campaign Member"
 }

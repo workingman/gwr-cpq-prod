@@ -204,4 +204,5 @@ type salesforce.Incident {
   topicsForObjects = {
     enableTopics = false
   }
+  _alias = "Incident"
 }

@@ -203,4 +203,5 @@ type salesforce.DataUseLegalBasis {
       "LastModifiedBy",
     ]
   }
+  _alias = "Data Use Legal Basis"
 }

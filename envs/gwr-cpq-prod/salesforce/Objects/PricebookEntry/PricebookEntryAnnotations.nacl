@@ -171,4 +171,5 @@ type salesforce.PricebookEntry {
   }
   historyTrackedFields = {
   }
+  _alias = "Price Book Entry"
 }

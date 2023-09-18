@@ -414,4 +414,5 @@ salesforce.Layout Case_Case_Layout@bs {
   _parent = [
     salesforce.Case,
   ]
+  _alias = "Case-Case Layout"
 }

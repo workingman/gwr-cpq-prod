@@ -60,4 +60,5 @@ type salesforce.MLModel {
   label = "ML Model"
   enableFeeds = false
   externalSharingModel = "ReadWrite"
+  _alias = "ML Model"
 }

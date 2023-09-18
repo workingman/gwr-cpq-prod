@@ -99,4 +99,5 @@ salesforce.FieldSet Product2_SBQQ__SearchResults {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Search Results (SBQQ)"
 }

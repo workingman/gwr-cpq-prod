@@ -209,4 +209,5 @@ type salesforce.ContactPointConsent {
       "LastModifiedBy",
     ]
   }
+  _alias = "Contact Point Consent"
 }

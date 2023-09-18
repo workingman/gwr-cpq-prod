@@ -166,4 +166,5 @@ type salesforce.SocialPersona {
     customTabListAdditionalFields = "Provider"
     searchResultsAdditionalFields = "Provider"
   }
+  _alias = "SocialPersona"
 }

@@ -217,4 +217,5 @@ salesforce.Layout Contract_Contract_Layout@bs {
   _parent = [
     salesforce.Contract,
   ]
+  _alias = "Contract-Contract Layout"
 }

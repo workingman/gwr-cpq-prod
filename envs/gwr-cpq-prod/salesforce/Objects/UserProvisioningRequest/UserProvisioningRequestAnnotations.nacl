@@ -81,4 +81,5 @@ type salesforce.UserProvisioningRequest {
       "LastModifiedBy",
     ]
   }
+  _alias = "User Provisioning Request"
 }

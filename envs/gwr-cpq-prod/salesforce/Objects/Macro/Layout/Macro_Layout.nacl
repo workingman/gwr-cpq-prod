@@ -52,4 +52,5 @@ salesforce.Layout Macro_Macro_Layout@bs {
   _parent = [
     salesforce.Macro,
   ]
+  _alias = "Macro-Macro Layout"
 }

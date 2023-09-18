@@ -223,4 +223,5 @@ type salesforce.ProcessException {
       "Owner",
     ]
   }
+  _alias = "Process Exception"
 }

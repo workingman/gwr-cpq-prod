@@ -221,4 +221,5 @@ type salesforce.Individual {
   }
   historyTrackedFields = {
   }
+  _alias = "Individual"
 }

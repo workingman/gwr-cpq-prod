@@ -23,4 +23,5 @@ salesforce.ListView Task_RecurringTasks {
   _parent = [
     salesforce.Task,
   ]
+  _alias = "ENCODED:{!FilterNames.Task_RecurringTasks}"
 }

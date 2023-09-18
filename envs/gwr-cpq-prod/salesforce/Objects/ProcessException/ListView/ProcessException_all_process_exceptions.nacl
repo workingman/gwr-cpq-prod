@@ -5,4 +5,5 @@ salesforce.ListView ProcessException_all_process_exceptions {
   _parent = [
     salesforce.ProcessException,
   ]
+  _alias = "All Process Exceptions"
 }

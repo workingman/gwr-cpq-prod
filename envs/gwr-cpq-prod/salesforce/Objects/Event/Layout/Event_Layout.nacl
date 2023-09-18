@@ -171,4 +171,5 @@ salesforce.Layout Event_Event_Layout@bs {
   _parent = [
     salesforce.Event,
   ]
+  _alias = "Event-Event Layout"
 }

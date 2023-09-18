@@ -5,4 +5,5 @@ salesforce.ListView Activity_MyActivities {
   _parent = [
     salesforce.Activity,
   ]
+  _alias = "My Activities"
 }

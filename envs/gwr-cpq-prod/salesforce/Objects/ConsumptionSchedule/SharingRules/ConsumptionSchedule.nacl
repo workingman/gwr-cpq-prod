@@ -3,4 +3,5 @@ salesforce.SharingRules ConsumptionSchedule {
   _parent = [
     salesforce.ConsumptionSchedule,
   ]
+  _alias = "ConsumptionSchedule"
 }

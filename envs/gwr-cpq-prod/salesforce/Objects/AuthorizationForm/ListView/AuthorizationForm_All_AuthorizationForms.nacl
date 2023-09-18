@@ -5,4 +5,5 @@ salesforce.ListView AuthorizationForm_All_AuthorizationForms {
   _parent = [
     salesforce.AuthorizationForm,
   ]
+  _alias = "All Authorization Forms"
 }

@@ -3,4 +3,5 @@ salesforce.SharingRules FinanceTransaction {
   _parent = [
     salesforce.FinanceTransaction,
   ]
+  _alias = "FinanceTransaction"
 }

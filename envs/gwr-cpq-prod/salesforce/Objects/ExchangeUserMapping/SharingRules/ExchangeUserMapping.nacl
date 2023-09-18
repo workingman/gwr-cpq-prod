@@ -3,4 +3,5 @@ salesforce.SharingRules ExchangeUserMapping {
   _parent = [
     salesforce.ExchangeUserMapping,
   ]
+  _alias = "ExchangeUserMapping"
 }

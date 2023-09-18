@@ -13,4 +13,5 @@ salesforce.ValidationRule Product2_SBQQ__Term_schedule_requires_subscription {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Product2.SBQQ__Term_schedule_requires_subscription"
 }

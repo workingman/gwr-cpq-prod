@@ -512,4 +512,5 @@ salesforce.Layout Account_Account_Layout@bs {
   _parent = [
     salesforce.Account,
   ]
+  _alias = "Account-Account Layout"
 }

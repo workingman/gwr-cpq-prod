@@ -22,4 +22,5 @@ salesforce.QuickAction Task_Defer@v {
   _parent = [
     salesforce.Task,
   ]
+  _alias = "Task.Defer"
 }

@@ -5,4 +5,5 @@ salesforce.ListView Account_MyAccounts {
   _parent = [
     salesforce.Account,
   ]
+  _alias = "My Accounts"
 }

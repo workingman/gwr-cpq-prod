@@ -238,4 +238,5 @@ type salesforce.Product2 {
       reference = salesforce.LightningPage.instance.Training_Product_Page
     },
   ]
+  _alias = "Product"
 }

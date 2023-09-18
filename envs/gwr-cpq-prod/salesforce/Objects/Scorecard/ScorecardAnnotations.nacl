@@ -189,4 +189,5 @@ type salesforce.Scorecard {
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
   externalSharingModel = "Private"
+  _alias = "Scorecard"
 }

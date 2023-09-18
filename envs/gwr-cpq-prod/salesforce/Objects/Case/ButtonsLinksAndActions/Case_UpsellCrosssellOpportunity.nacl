@@ -19,4 +19,5 @@ salesforce.WebLink Case_UpsellCrosssellOpportunity {
   _parent = [
     salesforce.Case,
   ]
+  _alias = "Case.UpsellCrosssellOpportunity"
 }

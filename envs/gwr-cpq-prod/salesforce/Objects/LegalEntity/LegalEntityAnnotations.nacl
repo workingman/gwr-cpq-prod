@@ -207,4 +207,5 @@ type salesforce.LegalEntity {
       "LastModifiedBy",
     ]
   }
+  _alias = "Legal Entity"
 }

@@ -281,4 +281,5 @@ type salesforce.User {
   feedHistoryTrackedFields = {
     ManagerId = salesforce.User.field.ManagerId
   }
+  _alias = "User"
 }

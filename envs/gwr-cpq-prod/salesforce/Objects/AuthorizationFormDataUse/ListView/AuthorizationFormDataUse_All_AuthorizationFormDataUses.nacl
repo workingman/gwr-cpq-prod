@@ -5,4 +5,5 @@ salesforce.ListView AuthorizationFormDataUse_All_AuthorizationFormDataUses {
   _parent = [
     salesforce.AuthorizationFormDataUse,
   ]
+  _alias = "All Authorization Form Data Uses"
 }

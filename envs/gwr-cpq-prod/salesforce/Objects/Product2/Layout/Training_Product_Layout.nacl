@@ -647,4 +647,5 @@ salesforce.Layout Product2_Training_Product_Layout@bss {
   _parent = [
     salesforce.Product2,
   ]
+  _alias = "Product2-Training Product Layout"
 }

@@ -199,4 +199,5 @@ type salesforce.CreditMemo {
       "CreditDate",
     ]
   }
+  _alias = "Credit Memo"
 }

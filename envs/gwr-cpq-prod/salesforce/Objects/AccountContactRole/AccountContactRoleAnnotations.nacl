@@ -60,4 +60,5 @@ type salesforce.AccountContactRole {
   label = "Account Contact Role"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "Account Contact Role"
 }

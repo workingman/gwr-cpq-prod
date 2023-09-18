@@ -12,4 +12,5 @@ salesforce.ListView Lead_TodaysLeads {
   _parent = [
     salesforce.Lead,
   ]
+  _alias = "Today's Leads"
 }

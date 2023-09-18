@@ -330,4 +330,5 @@ type salesforce.Account {
       reference = salesforce.LightningPage.instance.Account_Record_Page
     },
   ]
+  _alias = "Account"
 }

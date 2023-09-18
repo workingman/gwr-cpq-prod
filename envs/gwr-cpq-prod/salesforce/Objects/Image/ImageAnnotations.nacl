@@ -199,4 +199,5 @@ type salesforce.Image {
       "LastModifiedDate",
     ]
   }
+  _alias = "Image"
 }

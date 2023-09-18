@@ -175,4 +175,5 @@ type salesforce.EmailMessage {
       "MessageDate",
     ]
   }
+  _alias = "Email Message"
 }

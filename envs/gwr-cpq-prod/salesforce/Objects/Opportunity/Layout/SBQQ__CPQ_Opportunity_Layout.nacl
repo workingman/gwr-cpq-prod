@@ -318,4 +318,5 @@ salesforce.Layout Opportunity_SBQQ__CPQ_Opportunity_Layout@buuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Opportunity-SBQQ__CPQ Opportunity Layout"
 }

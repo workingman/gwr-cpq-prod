@@ -60,4 +60,5 @@ type salesforce.PromptAction {
   label = "Prompt Action"
   enableFeeds = false
   externalSharingModel = "Private"
+  _alias = "Prompt Action"
 }

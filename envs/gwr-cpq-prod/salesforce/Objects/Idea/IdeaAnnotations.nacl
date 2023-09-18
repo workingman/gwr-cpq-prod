@@ -151,4 +151,5 @@ type salesforce.Idea {
       "IDEA.CREATED_DATE",
     ]
   }
+  _alias = "Idea"
 }

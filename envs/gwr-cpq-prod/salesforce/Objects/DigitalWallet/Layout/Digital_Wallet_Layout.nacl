@@ -166,4 +166,5 @@ salesforce.Layout DigitalWallet_Digital_Wallet_Layout@bss {
   _parent = [
     salesforce.DigitalWallet,
   ]
+  _alias = "DigitalWallet-Digital Wallet Layout"
 }

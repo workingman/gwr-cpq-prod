@@ -17,4 +17,5 @@ salesforce.ListView Activity_UpcomingEvents {
   _parent = [
     salesforce.Activity,
   ]
+  _alias = "Upcoming Events"
 }

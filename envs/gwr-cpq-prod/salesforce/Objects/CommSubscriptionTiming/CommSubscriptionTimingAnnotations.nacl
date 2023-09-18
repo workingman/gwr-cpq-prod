@@ -205,4 +205,5 @@ type salesforce.CommSubscriptionTiming {
       "PreferredTimeZone",
     ]
   }
+  _alias = "Communication Subscription Timing"
 }

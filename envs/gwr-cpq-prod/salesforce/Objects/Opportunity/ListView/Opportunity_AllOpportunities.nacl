@@ -5,4 +5,5 @@ salesforce.ListView Opportunity_AllOpportunities {
   _parent = [
     salesforce.Opportunity,
   ]
+  _alias = "All Opportunities"
 }

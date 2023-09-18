@@ -119,4 +119,5 @@ salesforce.Layout Solution_Solution_Layout@bs {
   _parent = [
     salesforce.Solution,
   ]
+  _alias = "Solution-Solution Layout"
 }

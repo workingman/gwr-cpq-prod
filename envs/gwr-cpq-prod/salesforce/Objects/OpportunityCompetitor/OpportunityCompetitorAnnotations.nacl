@@ -145,4 +145,5 @@ type salesforce.OpportunityCompetitor {
     },
   ]
   enableFeeds = false
+  _alias = "Opportunity: Competitor"
 }

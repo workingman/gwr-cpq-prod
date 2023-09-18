@@ -67,4 +67,5 @@ salesforce.Layout Pricebook2_Price_Book_Layout@bss {
   _parent = [
     salesforce.Pricebook2,
   ]
+  _alias = "Pricebook2-Price Book Layout"
 }

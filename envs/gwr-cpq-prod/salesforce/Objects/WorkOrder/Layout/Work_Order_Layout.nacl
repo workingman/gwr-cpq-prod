@@ -199,4 +199,5 @@ salesforce.Layout WorkOrder_Work_Order_Layout@bss {
   _parent = [
     salesforce.WorkOrder,
   ]
+  _alias = "WorkOrder-Work Order Layout"
 }

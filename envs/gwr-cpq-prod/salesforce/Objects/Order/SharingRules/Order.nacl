@@ -3,4 +3,5 @@ salesforce.SharingRules Order {
   _parent = [
     salesforce.Order,
   ]
+  _alias = "Order"
 }

@@ -16,4 +16,5 @@ salesforce.WebLink Account_SBQQ__Amend_Assets {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Account.SBQQ__Amend_Assets"
 }

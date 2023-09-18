@@ -3,4 +3,5 @@ salesforce.SharingRules MessagingEndUser {
   _parent = [
     salesforce.MessagingEndUser,
   ]
+  _alias = "MessagingEndUser"
 }

@@ -35,4 +35,5 @@ salesforce.Layout PaymentGroup_Payment_Group_Layout@bss {
   _parent = [
     salesforce.PaymentGroup,
   ]
+  _alias = "PaymentGroup-Payment Group Layout"
 }

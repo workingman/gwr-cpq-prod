@@ -5,4 +5,5 @@ salesforce.ListView PaymentAuthAdjustment_PaymentAuthAdjustment {
   _parent = [
     salesforce.PaymentAuthAdjustment,
   ]
+  _alias = "All"
 }

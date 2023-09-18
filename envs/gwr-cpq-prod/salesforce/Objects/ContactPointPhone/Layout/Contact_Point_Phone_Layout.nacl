@@ -89,4 +89,5 @@ salesforce.Layout ContactPointPhone_Contact_Point_Phone_Layout@bsss {
   _parent = [
     salesforce.ContactPointPhone,
   ]
+  _alias = "ContactPointPhone-Contact Point Phone Layout"
 }

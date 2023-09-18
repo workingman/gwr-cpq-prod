@@ -60,4 +60,5 @@ type salesforce.PromptError {
   label = "Prompt Error"
   enableFeeds = false
   externalSharingModel = "Private"
+  _alias = "Prompt Error"
 }

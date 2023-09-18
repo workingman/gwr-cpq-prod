@@ -16,4 +16,5 @@ salesforce.ListView Invoice_mine {
   _parent = [
     salesforce.Invoice,
   ]
+  _alias = "My Invoices"
 }

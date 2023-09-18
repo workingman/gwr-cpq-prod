@@ -174,4 +174,5 @@ type salesforce.OpportunityLineItem {
   ]
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
+  _alias = "Opportunity Product"
 }

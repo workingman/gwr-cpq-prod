@@ -22,4 +22,5 @@ salesforce.ListView Activity_TodaysTasks {
   _parent = [
     salesforce.Activity,
   ]
+  _alias = "Today's Tasks"
 }

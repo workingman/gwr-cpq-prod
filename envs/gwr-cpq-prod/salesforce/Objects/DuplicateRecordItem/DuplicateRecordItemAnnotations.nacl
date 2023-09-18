@@ -175,4 +175,5 @@ type salesforce.DuplicateRecordItem {
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "Duplicate Record Item"
 }

@@ -205,4 +205,5 @@ type salesforce.ContactPointAddress {
       "IsDefault",
     ]
   }
+  _alias = "Contact Point Address"
 }

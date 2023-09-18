@@ -209,4 +209,5 @@ type salesforce.AssetStatePeriod {
       "Mrr",
     ]
   }
+  _alias = "Asset State Period"
 }

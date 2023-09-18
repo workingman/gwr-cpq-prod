@@ -225,4 +225,5 @@ type salesforce.Entitlement {
   }
   historyTrackedFields = {
   }
+  _alias = "Entitlement"
 }

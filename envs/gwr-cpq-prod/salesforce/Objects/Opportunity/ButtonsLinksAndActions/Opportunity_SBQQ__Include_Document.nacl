@@ -17,4 +17,5 @@ salesforce.WebLink Opportunity_SBQQ__Include_Document {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Opportunity.SBQQ__Include_Document"
 }

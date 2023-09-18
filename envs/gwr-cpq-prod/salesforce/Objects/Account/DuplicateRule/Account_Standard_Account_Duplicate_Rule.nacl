@@ -22,4 +22,5 @@ salesforce.DuplicateRule Account_Standard_Account_Duplicate_Rule@vuuu {
   _parent = [
     salesforce.Account,
   ]
+  _alias = "Account.Standard_Account_Duplicate_Rule"
 }

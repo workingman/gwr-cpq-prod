@@ -424,4 +424,5 @@ salesforce.Layout DandBCompany_D_26B_Company_Layout@bpss {
   _parent = [
     salesforce.DandBCompany,
   ]
+  _alias = "DandBCompany-D%26B Company Layout"
 }

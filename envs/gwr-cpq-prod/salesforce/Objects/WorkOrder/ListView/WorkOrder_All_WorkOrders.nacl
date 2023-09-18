@@ -5,4 +5,5 @@ salesforce.ListView WorkOrder_All_WorkOrders {
   _parent = [
     salesforce.WorkOrder,
   ]
+  _alias = "All Work Orders"
 }

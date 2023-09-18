@@ -12,4 +12,5 @@ salesforce.ValidationRule Order_SBQQ__Cannot_Contract_New_Order {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Order.SBQQ__Cannot_Contract_New_Order"
 }

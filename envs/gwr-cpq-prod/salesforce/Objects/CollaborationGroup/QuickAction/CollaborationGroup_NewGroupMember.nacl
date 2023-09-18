@@ -34,4 +34,5 @@ salesforce.QuickAction CollaborationGroup_NewGroupMember@v {
   _parent = [
     salesforce.CollaborationGroup,
   ]
+  _alias = "CollaborationGroup.NewGroupMember"
 }

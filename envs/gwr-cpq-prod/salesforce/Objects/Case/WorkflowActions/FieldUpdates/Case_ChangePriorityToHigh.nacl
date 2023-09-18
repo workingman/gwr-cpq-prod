@@ -10,4 +10,5 @@ salesforce.WorkflowFieldUpdate Case_ChangePriorityToHigh@v {
   _parent = [
     salesforce.Case,
   ]
+  _alias = "Case.ChangePriorityToHigh"
 }

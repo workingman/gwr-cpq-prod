@@ -449,4 +449,5 @@ salesforce.Layout Contact_Contact_Layout@bs {
   _parent = [
     salesforce.Contact,
   ]
+  _alias = "Contact-Contact Layout"
 }

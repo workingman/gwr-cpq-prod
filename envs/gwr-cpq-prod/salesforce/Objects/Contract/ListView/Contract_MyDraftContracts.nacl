@@ -12,4 +12,5 @@ salesforce.ListView Contract_MyDraftContracts {
   _parent = [
     salesforce.Contract,
   ]
+  _alias = "My Draft Contracts"
 }

@@ -3,4 +3,5 @@ salesforce.SharingRules UserProvisioningRequest {
   _parent = [
     salesforce.UserProvisioningRequest,
   ]
+  _alias = "UserProvisioningRequest"
 }

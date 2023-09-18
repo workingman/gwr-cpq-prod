@@ -59,4 +59,5 @@ type salesforce.PartnerRole {
   metadataType = "CustomObject"
   label = "Partner Role Value"
   enableFeeds = false
+  _alias = "Partner Role Value"
 }

@@ -70,4 +70,5 @@ salesforce.DuplicateRule Contact_Standard_Contact_Duplicate_Rule@vuuu {
   _parent = [
     salesforce.Contact,
   ]
+  _alias = "Contact.Standard_Contact_Duplicate_Rule"
 }

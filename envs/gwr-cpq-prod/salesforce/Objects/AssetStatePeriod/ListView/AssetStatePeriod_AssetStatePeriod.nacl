@@ -5,4 +5,5 @@ salesforce.ListView AssetStatePeriod_AssetStatePeriod {
   _parent = [
     salesforce.AssetStatePeriod,
   ]
+  _alias = "All"
 }

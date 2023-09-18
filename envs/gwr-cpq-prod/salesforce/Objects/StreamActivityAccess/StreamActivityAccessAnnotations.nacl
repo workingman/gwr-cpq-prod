@@ -60,4 +60,5 @@ type salesforce.StreamActivityAccess {
   label = "StreamActivityAccess"
   enableFeeds = false
   externalSharingModel = "Private"
+  _alias = "StreamActivityAccess"
 }

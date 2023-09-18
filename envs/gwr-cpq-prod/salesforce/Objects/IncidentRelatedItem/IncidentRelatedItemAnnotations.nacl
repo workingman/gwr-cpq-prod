@@ -189,4 +189,5 @@ type salesforce.IncidentRelatedItem {
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "Incident Related Item"
 }

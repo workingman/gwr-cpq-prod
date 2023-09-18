@@ -12,4 +12,5 @@ salesforce.ListView FinanceBalanceSnapshot_mine {
   _parent = [
     salesforce.FinanceBalanceSnapshot,
   ]
+  _alias = "My Finance Balance Snapshots"
 }

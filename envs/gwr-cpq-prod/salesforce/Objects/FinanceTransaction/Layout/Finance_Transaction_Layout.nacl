@@ -322,4 +322,5 @@ salesforce.Layout FinanceTransaction_Finance_Transaction_Layout@bss {
   _parent = [
     salesforce.FinanceTransaction,
   ]
+  _alias = "FinanceTransaction-Finance Transaction Layout"
 }

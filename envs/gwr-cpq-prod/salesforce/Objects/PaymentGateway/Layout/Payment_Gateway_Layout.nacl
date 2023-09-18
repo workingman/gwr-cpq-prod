@@ -55,4 +55,5 @@ salesforce.Layout PaymentGateway_Payment_Gateway_Layout@bss {
   _parent = [
     salesforce.PaymentGateway,
   ]
+  _alias = "PaymentGateway-Payment Gateway Layout"
 }

@@ -3,4 +3,5 @@ salesforce.SharingRules LocationGroup {
   _parent = [
     salesforce.LocationGroup,
   ]
+  _alias = "LocationGroup"
 }

@@ -5,4 +5,5 @@ salesforce.ListView ContactPointEmail_All_ContactPointEmails {
   _parent = [
     salesforce.ContactPointEmail,
   ]
+  _alias = "All Contact Point Emails"
 }

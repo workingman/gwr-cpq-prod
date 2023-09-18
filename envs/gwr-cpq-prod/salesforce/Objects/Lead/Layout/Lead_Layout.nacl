@@ -427,4 +427,5 @@ salesforce.Layout Lead_Lead_Layout@bs {
   _parent = [
     salesforce.Lead,
   ]
+  _alias = "Lead-Lead Layout"
 }

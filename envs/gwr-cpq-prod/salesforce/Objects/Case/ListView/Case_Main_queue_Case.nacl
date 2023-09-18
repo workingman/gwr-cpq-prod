@@ -9,4 +9,5 @@ salesforce.ListView Case_Main_queue_Case {
   _parent = [
     salesforce.Case,
   ]
+  _alias = "Main queue"
 }

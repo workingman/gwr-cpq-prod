@@ -17,4 +17,5 @@ salesforce.WebLink Opportunity_SBQQ__Amend_Contract {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Opportunity.SBQQ__Amend_Contract"
 }

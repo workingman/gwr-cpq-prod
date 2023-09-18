@@ -162,4 +162,5 @@ salesforce.Layout AlternativePaymentMethod_Alternative_Payment_Method_Layout@bss
   _parent = [
     salesforce.AlternativePaymentMethod,
   ]
+  _alias = "AlternativePaymentMethod-Alternative Payment Method Layout"
 }

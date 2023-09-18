@@ -193,4 +193,5 @@ type salesforce.BusinessBrand {
     customTabListAdditionalFields = "OrgId"
     searchResultsAdditionalFields = "OrgId"
   }
+  _alias = "Business Brand"
 }

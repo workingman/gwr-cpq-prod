@@ -3,4 +3,5 @@ salesforce.SharingRules PromptAction {
   _parent = [
     salesforce.PromptAction,
   ]
+  _alias = "PromptAction"
 }

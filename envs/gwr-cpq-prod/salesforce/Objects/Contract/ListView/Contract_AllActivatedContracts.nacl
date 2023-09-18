@@ -12,4 +12,5 @@ salesforce.ListView Contract_AllActivatedContracts {
   _parent = [
     salesforce.Contract,
   ]
+  _alias = "All Activated Contracts"
 }

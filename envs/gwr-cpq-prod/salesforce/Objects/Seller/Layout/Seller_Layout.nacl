@@ -63,4 +63,5 @@ salesforce.Layout Seller_Seller_Layout@bs {
   _parent = [
     salesforce.Seller,
   ]
+  _alias = "Seller-Seller Layout"
 }

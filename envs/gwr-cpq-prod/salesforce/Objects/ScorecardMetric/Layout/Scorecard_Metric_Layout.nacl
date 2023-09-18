@@ -63,4 +63,5 @@ salesforce.Layout ScorecardMetric_Scorecard_Metric_Layout@bss {
   _parent = [
     salesforce.ScorecardMetric,
   ]
+  _alias = "ScorecardMetric-Scorecard Metric Layout"
 }

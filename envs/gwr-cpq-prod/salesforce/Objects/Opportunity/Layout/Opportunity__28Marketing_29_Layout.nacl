@@ -413,4 +413,5 @@ salesforce.Layout Opportunity_Opportunity__28Marketing_29_Layout@bspps {
   _parent = [
     salesforce.Opportunity,
   ]
+  _alias = "Opportunity-Opportunity %28Marketing%29 Layout"
 }

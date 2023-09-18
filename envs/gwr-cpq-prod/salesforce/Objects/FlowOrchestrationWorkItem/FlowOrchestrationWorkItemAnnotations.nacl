@@ -133,4 +133,5 @@ type salesforce.FlowOrchestrationWorkItem {
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
   externalSharingModel = "Private"
+  _alias = "Orchestration Work Item"
 }

@@ -5,4 +5,5 @@ salesforce.ListView ContactPointTypeConsent_All_ContactPointTypeConsent {
   _parent = [
     salesforce.ContactPointTypeConsent,
   ]
+  _alias = "__MISSING LABEL__ PropertyFile - val ContactPointTypeConsent_AllContactPointTypeConsent not found in section FilterNames"
 }

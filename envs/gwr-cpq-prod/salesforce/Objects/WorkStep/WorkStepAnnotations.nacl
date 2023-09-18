@@ -238,4 +238,5 @@ type salesforce.WorkStep {
   topicsForObjects = {
     enableTopics = false
   }
+  _alias = "Work Step"
 }

@@ -3,4 +3,5 @@ salesforce.SharingRules OrgDeleteRequest {
   _parent = [
     salesforce.OrgDeleteRequest,
   ]
+  _alias = "OrgDeleteRequest"
 }

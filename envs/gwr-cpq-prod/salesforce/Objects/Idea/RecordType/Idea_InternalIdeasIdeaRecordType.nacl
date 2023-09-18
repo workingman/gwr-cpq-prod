@@ -6,4 +6,5 @@ salesforce.RecordType Idea_InternalIdeasIdeaRecordType {
   _parent = [
     salesforce.Idea,
   ]
+  _alias = "Internal Ideas: Idea Record Type"
 }

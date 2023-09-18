@@ -149,4 +149,5 @@ type salesforce.FinanceBalanceSnapshot {
       "ImpactAmount",
     ]
   }
+  _alias = "Finance Balance Snapshot"
 }

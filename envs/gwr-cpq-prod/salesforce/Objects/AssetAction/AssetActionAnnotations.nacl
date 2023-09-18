@@ -189,4 +189,5 @@ type salesforce.AssetAction {
       "CategoryEnum",
     ]
   }
+  _alias = "Asset Action"
 }

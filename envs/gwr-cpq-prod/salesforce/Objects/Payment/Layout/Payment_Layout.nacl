@@ -238,4 +238,5 @@ salesforce.Layout Payment_Payment_Layout@bs {
   _parent = [
     salesforce.Payment,
   ]
+  _alias = "Payment-Payment Layout"
 }
