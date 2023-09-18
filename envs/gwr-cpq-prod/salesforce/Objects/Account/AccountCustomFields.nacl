@@ -442,18 +442,7 @@ type salesforce.Account {
     updateable = true
     queryable = true
   }
-  salesforce.Text gwr_Status2__c {
-    apiName = "Account.gwr_Status2__c"
-    description = "asd,fjknasdkljfalksdjfakljsdfkljadsf"
-    externalId = false
-    label = "_gwr_Status"
-    length = 100
-    unique = false
-    createable = true
-    updateable = true
-    caseSensitive = false
-    queryable = true
-  }
+  
   salesforce.Checkbox CPQ1_Dev__c {
     apiName = "Account.CPQ1_Dev__c"
     defaultValue = false
