@@ -15,4 +15,5 @@ salesforce.ApexTrigger SBQQ__LocalizationAfter {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__LocalizationAfter"
 }

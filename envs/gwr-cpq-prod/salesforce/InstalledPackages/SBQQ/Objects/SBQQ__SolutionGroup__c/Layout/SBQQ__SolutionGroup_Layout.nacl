@@ -85,4 +85,5 @@ salesforce.Layout SBQQ__SolutionGroup__c_SBQQ__SolutionGroup_Layout@uuuubuus {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SolutionGroup__c-SBQQ__SolutionGroup Layout"
 }

@@ -269,4 +269,5 @@ type salesforce.SBQQ__TemplateSection__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Template Section (SBQQ)"
 }

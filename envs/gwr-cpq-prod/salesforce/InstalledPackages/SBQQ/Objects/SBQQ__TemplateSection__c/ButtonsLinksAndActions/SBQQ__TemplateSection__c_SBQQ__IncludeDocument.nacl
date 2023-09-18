@@ -16,4 +16,5 @@ salesforce.WebLink SBQQ__TemplateSection__c_SBQQ__IncludeDocument {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__TemplateSection__c.SBQQ__IncludeDocument"
 }

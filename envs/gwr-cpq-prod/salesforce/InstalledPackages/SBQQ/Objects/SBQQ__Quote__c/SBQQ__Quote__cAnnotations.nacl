@@ -325,4 +325,5 @@ type salesforce.SBQQ__Quote__c {
       reference = salesforce.LightningPage.instance.Training_Quote_Page
     },
   ]
+  _alias = "Quote (SBQQ)"
 }

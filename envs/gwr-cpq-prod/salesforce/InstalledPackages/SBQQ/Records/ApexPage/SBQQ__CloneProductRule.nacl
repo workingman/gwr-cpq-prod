@@ -10,4 +10,5 @@ salesforce.ApexPage SBQQ__CloneProductRule {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "CloneProductRule (SBQQ)"
 }

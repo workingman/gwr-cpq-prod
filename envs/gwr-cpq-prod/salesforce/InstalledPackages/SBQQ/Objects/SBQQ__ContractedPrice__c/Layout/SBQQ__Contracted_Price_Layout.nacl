@@ -155,4 +155,5 @@ salesforce.Layout SBQQ__ContractedPrice__c_SBQQ__Contracted_Price_Layout@uuuubuu
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ContractedPrice__c-SBQQ__Contracted Price Layout"
 }

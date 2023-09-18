@@ -13,4 +13,5 @@ salesforce.ValidationRule SBQQ__QuoteLine__c_SBQQ__Validate_billing_frequency {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteLine__c.SBQQ__Validate_billing_frequency"
 }

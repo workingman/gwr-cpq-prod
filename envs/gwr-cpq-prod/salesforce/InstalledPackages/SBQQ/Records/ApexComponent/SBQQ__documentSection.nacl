@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__documentSection {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Document Section (SBQQ)"
 }

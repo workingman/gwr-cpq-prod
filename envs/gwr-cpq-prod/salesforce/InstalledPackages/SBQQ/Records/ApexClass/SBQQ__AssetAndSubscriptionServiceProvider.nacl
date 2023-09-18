@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__AssetAndSubscriptionServiceProvider {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__AssetAndSubscriptionServiceProvider"
 }

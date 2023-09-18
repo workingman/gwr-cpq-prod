@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__PageSecurityPlugin2 {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PageSecurityPlugin2"
 }

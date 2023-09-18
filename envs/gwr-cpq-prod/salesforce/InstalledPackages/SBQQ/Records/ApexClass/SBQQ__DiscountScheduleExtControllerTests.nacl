@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__DiscountScheduleExtControllerTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__DiscountScheduleExtControllerTests"
 }

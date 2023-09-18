@@ -47,4 +47,5 @@ salesforce.FieldSet SBQQ__QuoteLineConsumptionRate__c_SBQQ__Rates {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Rates (SBQQ)"
 }

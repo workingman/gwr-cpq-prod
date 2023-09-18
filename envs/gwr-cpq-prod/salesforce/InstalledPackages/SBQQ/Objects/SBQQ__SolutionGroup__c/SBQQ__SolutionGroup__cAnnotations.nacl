@@ -287,4 +287,5 @@ type salesforce.SBQQ__SolutionGroup__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Solution Group (SBQQ)"
 }

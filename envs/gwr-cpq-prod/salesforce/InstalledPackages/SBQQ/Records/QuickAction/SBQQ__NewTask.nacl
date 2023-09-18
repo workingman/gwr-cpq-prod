@@ -50,4 +50,5 @@ salesforce.QuickAction SBQQ__NewTask {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__NewTask"
 }

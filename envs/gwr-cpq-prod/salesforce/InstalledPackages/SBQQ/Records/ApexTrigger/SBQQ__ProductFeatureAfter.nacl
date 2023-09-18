@@ -15,4 +15,5 @@ salesforce.ApexTrigger SBQQ__ProductFeatureAfter {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductFeatureAfter"
 }

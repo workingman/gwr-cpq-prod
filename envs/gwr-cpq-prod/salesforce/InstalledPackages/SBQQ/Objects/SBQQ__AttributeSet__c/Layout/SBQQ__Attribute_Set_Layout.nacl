@@ -77,4 +77,5 @@ salesforce.Layout SBQQ__AttributeSet__c_SBQQ__Attribute_Set_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__AttributeSet__c-SBQQ__Attribute Set Layout"
 }

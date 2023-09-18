@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__SearchIndexDAO {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SearchIndexDAO"
 }

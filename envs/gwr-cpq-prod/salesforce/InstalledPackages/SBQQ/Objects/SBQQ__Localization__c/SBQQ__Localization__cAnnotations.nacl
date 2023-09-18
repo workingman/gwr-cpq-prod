@@ -280,4 +280,5 @@ type salesforce.SBQQ__Localization__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Localization (SBQQ)"
 }

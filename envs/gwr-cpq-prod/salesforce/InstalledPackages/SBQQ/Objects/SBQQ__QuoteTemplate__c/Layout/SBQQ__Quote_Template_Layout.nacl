@@ -655,4 +655,5 @@ salesforce.Layout SBQQ__QuoteTemplate__c_SBQQ__Quote_Template_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteTemplate__c-SBQQ__Quote Template Layout"
 }

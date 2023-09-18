@@ -35,4 +35,5 @@ salesforce.QuickAction SBQQ__NewNote {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__NewNote"
 }

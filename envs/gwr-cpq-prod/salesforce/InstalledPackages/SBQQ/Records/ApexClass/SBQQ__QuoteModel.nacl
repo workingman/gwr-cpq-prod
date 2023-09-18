@@ -8,4 +8,5 @@ salesforce.ApexClass SBQQ__QuoteModel {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteModel"
 }

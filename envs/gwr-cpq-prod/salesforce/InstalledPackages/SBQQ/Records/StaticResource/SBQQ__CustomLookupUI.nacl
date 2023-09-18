@@ -8,4 +8,5 @@ salesforce.StaticResource SBQQ__CustomLookupUI {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__CustomLookupUI"
 }

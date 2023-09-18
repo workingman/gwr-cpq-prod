@@ -93,4 +93,5 @@ salesforce.Layout SBQQ__UpgradeSource__c_SBQQ__Upgrade_Source_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__UpgradeSource__c-SBQQ__Upgrade Source Layout"
 }

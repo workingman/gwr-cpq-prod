@@ -267,4 +267,5 @@ type salesforce.SBQQ__SubscriptionConsumptionRate__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Subscription Consumption Rate (SBQQ)"
 }

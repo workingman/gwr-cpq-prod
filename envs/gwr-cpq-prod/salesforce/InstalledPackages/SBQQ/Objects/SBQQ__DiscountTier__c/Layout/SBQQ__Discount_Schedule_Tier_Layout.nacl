@@ -82,4 +82,5 @@ salesforce.Layout SBQQ__DiscountTier__c_SBQQ__Discount_Schedule_Tier_Layout@uuuu
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__DiscountTier__c-SBQQ__Discount Schedule Tier Layout"
 }

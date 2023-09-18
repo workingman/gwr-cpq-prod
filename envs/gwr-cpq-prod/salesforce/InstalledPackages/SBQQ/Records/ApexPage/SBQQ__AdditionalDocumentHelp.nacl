@@ -10,4 +10,5 @@ salesforce.ApexPage SBQQ__AdditionalDocumentHelp {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "AddAssets (SBQQ)"
 }

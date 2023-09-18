@@ -10,4 +10,5 @@ salesforce.ApexPage SBQQ__ClonePriceRule {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "ClonePriceRule (SBQQ)"
 }

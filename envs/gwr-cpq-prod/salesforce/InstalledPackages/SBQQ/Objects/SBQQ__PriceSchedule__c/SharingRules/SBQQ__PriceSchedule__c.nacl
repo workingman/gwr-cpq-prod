@@ -8,4 +8,5 @@ salesforce.SharingRules SBQQ__PriceSchedule__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PriceSchedule__c"
 }

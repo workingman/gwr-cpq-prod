@@ -118,4 +118,5 @@ salesforce.Layout SBQQ__QuoteLineConsumptionSchedule__c_SBQQ__Quote_Line_Consump
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteLineConsumptionSchedule__c-SBQQ__Quote Line Consumption Schedule Layout"
 }

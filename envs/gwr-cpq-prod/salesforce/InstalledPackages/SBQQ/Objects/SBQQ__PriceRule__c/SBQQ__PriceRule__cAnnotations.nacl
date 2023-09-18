@@ -288,4 +288,5 @@ type salesforce.SBQQ__PriceRule__c {
       reference = salesforce.LightningPage.instance.Training_Price_Rule_Page
     },
   ]
+  _alias = "Price Rule (SBQQ)"
 }

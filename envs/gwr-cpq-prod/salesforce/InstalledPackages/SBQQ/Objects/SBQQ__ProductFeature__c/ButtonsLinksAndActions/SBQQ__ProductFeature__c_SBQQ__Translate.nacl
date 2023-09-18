@@ -17,4 +17,5 @@ salesforce.WebLink SBQQ__ProductFeature__c_SBQQ__Translate {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductFeature__c.SBQQ__Translate"
 }

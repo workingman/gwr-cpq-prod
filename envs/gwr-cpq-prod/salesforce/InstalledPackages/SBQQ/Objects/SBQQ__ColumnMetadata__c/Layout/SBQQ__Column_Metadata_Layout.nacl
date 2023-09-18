@@ -84,4 +84,5 @@ salesforce.Layout SBQQ__ColumnMetadata__c_SBQQ__Column_Metadata_Layout@uuuubuuss
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ColumnMetadata__c-SBQQ__Column Metadata Layout"
 }

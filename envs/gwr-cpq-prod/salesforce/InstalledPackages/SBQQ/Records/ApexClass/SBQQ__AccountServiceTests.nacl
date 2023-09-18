@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__AccountServiceTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__AccountServiceTests"
 }

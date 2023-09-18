@@ -249,4 +249,5 @@ salesforce.FieldSet SBQQ__QuoteLine__c_SBQQ__StandardLineItemDrawer {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Standard Line Item Drawer (SBQQ)"
 }

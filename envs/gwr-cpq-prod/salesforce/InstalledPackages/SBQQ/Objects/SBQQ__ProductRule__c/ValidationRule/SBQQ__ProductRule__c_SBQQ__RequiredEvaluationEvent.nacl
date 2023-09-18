@@ -17,4 +17,5 @@ AND(
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductRule__c.SBQQ__RequiredEvaluationEvent"
 }

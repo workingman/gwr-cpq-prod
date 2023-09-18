@@ -10,4 +10,5 @@ salesforce.ApexPage SBQQ__QuoteSave {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "QuoteSave (SBQQ)"
 }

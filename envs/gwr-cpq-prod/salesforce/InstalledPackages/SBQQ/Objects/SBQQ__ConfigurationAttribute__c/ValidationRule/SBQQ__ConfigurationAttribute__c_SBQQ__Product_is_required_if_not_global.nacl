@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__ConfigurationAttribute__c_SBQQ__Product_is_requi
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ConfigurationAttribute__c.SBQQ__Product_is_required_if_not_global"
 }

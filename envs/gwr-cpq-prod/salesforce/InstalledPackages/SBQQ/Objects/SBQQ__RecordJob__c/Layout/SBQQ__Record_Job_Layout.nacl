@@ -52,4 +52,5 @@ salesforce.Layout SBQQ__RecordJob__c_SBQQ__Record_Job_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__RecordJob__c-SBQQ__Record Job Layout"
 }

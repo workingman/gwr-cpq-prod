@@ -1,9 +1,0 @@
-salesforce.SBQQ__ProductFeature__c a0h8c00000952YrAAI {
-  External_ID__c = "FE0001"
-  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.01t8c00000MGNl6AAH
-  SBQQ__MaxOptionCount__c = 1
-  SBQQ__MinOptionCount__c = 1
-  SBQQ__Number__c = 10
-  Name = "Processor"
-  _alias = "LAPTOP15 Hardware 15\" Laptop Processor"
-}

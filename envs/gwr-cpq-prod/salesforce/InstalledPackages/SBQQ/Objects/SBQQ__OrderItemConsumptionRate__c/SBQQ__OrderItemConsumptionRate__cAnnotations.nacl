@@ -267,4 +267,5 @@ type salesforce.SBQQ__OrderItemConsumptionRate__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Order Product Consumption Rate (SBQQ)"
 }

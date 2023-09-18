@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__QuoteDAOFactory {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteDAOFactory"
 }

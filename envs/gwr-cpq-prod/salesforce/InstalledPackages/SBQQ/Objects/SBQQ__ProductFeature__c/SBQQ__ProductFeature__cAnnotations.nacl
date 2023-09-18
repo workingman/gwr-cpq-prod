@@ -291,4 +291,5 @@ type salesforce.SBQQ__ProductFeature__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Product Feature (SBQQ)"
 }

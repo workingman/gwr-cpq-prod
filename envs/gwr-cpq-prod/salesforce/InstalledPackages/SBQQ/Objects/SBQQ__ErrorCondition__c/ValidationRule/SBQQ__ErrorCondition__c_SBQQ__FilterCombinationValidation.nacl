@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__ErrorCondition__c_SBQQ__FilterCombinationValidat
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ErrorCondition__c.SBQQ__FilterCombinationValidation"
 }

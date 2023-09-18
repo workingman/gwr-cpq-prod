@@ -269,4 +269,5 @@ type salesforce.SBQQ__UsageRate__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Usage Rate (Reserved) (SBQQ)"
 }

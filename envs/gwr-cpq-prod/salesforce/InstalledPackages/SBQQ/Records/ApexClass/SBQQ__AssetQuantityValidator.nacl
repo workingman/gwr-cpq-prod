@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__AssetQuantityValidator {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__AssetQuantityValidator"
 }

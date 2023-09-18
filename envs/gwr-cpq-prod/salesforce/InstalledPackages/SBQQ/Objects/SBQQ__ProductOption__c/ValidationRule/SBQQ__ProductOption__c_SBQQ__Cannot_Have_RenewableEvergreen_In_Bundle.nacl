@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__ProductOption__c_SBQQ__Cannot_Have_RenewableEver
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductOption__c.SBQQ__Cannot_Have_RenewableEvergreen_In_Bundle"
 }

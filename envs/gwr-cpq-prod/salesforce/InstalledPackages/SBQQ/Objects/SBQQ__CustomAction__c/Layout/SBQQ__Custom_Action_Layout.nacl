@@ -182,4 +182,5 @@ salesforce.Layout SBQQ__CustomAction__c_SBQQ__Custom_Action_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__CustomAction__c-SBQQ__Custom Action Layout"
 }

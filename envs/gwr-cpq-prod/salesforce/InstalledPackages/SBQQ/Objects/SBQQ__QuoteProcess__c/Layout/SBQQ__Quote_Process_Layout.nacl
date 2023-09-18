@@ -119,4 +119,5 @@ salesforce.Layout SBQQ__QuoteProcess__c_SBQQ__Quote_Process_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteProcess__c-SBQQ__Quote Process Layout"
 }

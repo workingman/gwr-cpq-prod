@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__CustomActionRefFieldGenerator {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__CustomActionRefFieldGenerator"
 }

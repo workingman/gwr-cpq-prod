@@ -118,4 +118,5 @@ salesforce.Layout SBQQ__OrderItemConsumptionSchedule__c_SBQQ__Order_Product_Cons
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__OrderItemConsumptionSchedule__c-SBQQ__Order Product Consumption Schedule Layout"
 }

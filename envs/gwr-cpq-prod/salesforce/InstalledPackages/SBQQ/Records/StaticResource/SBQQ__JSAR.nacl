@@ -9,4 +9,5 @@ salesforce.StaticResource SBQQ__JSAR {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__JSAR"
 }

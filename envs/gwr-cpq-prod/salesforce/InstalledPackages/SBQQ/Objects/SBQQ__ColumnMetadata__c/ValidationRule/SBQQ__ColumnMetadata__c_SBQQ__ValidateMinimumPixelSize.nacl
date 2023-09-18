@@ -13,4 +13,5 @@ salesforce.ValidationRule SBQQ__ColumnMetadata__c_SBQQ__ValidateMinimumPixelSize
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ColumnMetadata__c.SBQQ__ValidateMinimumPixelSize"
 }

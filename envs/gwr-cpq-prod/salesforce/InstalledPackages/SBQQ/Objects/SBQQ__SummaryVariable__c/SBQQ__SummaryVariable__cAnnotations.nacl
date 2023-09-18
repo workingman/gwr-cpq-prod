@@ -275,4 +275,5 @@ type salesforce.SBQQ__SummaryVariable__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Summary Variable (SBQQ)"
 }

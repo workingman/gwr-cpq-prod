@@ -10,4 +10,5 @@ salesforce.ApexPage SBQQ__ConfigurationAttributeHelp {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Configuration Attribute Help (SBQQ)"
 }

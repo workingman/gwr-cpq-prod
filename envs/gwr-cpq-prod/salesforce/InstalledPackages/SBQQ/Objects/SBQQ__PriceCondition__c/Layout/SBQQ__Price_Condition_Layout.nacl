@@ -136,4 +136,5 @@ salesforce.Layout SBQQ__PriceCondition__c_SBQQ__Price_Condition_Layout@uuuubuuss
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PriceCondition__c-SBQQ__Price Condition Layout"
 }

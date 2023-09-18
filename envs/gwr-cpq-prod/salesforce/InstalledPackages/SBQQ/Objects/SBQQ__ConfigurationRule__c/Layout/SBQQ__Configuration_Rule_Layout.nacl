@@ -101,4 +101,5 @@ salesforce.Layout SBQQ__ConfigurationRule__c_SBQQ__Configuration_Rule_Layout@uuu
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ConfigurationRule__c-SBQQ__Configuration Rule Layout"
 }

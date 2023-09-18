@@ -15,4 +15,5 @@ salesforce.QuickAction SBQQ__Quote__c_SBQQ__CreateOrderLightning@uuuuvuu {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Create Order (SBQQ)"
 }

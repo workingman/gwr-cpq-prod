@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__customSegmentsEditor {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Custom Segments Editor (SBQQ)"
 }

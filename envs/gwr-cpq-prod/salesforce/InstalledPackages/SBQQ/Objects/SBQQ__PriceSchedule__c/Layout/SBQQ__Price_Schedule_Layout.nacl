@@ -146,4 +146,5 @@ salesforce.Layout SBQQ__PriceSchedule__c_SBQQ__Price_Schedule_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PriceSchedule__c-SBQQ__Price Schedule Layout"
 }

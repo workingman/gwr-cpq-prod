@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__quoteDocumentContentSelector {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Quote Document Content Selector (SBQQ)"
 }

@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__ContractedPrice__c_SBQQ__Either_product_or_filte
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ContractedPrice__c.SBQQ__Either_product_or_filter"
 }

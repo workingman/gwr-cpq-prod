@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__paginationControls {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "paginationControls (SBQQ)"
 }

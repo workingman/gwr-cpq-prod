@@ -94,4 +94,5 @@ salesforce.Layout SBQQ__TermCondition__c_SBQQ__Term_Condition_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__TermCondition__c-SBQQ__Term Condition Layout"
 }

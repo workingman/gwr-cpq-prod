@@ -109,4 +109,5 @@ salesforce.Layout SBQQ__QuoteLineConsumptionRate__c_SBQQ__Quote_Line_Consumption
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteLineConsumptionRate__c-SBQQ__Quote Line Consumption Rate Layout"
 }

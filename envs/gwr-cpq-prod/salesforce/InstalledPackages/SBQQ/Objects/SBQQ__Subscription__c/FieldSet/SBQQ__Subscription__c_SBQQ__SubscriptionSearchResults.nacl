@@ -64,4 +64,5 @@ salesforce.FieldSet SBQQ__Subscription__c_SBQQ__SubscriptionSearchResults {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Subscription Search Results (SBQQ)"
 }

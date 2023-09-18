@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__Operators {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__Operators"
 }

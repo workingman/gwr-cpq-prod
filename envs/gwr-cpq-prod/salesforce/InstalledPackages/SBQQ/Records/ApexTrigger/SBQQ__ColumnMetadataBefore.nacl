@@ -15,4 +15,5 @@ salesforce.ApexTrigger SBQQ__ColumnMetadataBefore {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ColumnMetadataBefore"
 }

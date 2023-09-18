@@ -17,4 +17,5 @@ salesforce.WebLink SBQQ__Quote__c_SBQQ__CloneWithRelatedClassic {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__Quote__c.SBQQ__CloneWithRelatedClassic"
 }

@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__sb_labels {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "labels (SBQQ)"
 }

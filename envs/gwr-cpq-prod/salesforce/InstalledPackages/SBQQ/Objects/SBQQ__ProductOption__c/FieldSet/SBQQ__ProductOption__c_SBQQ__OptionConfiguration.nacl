@@ -54,4 +54,5 @@ salesforce.FieldSet SBQQ__ProductOption__c_SBQQ__OptionConfiguration {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "OptionConfiguration (SBQQ)"
 }

@@ -13,4 +13,5 @@ salesforce.ValidationRule SBQQ__PriceAction__c_SBQQ__Event_Evaluation_Pricing_Gu
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PriceAction__c.SBQQ__Event_Evaluation_Pricing_Guidance"
 }

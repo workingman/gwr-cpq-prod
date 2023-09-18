@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__InstallProcessorBatchOpportunity2 {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__InstallProcessorBatchOpportunity2"
 }

@@ -15,4 +15,5 @@ salesforce.ApexTrigger SBQQ__SubscriptionConsumptionScheduleBefore {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SubscriptionConsumptionScheduleBefore"
 }

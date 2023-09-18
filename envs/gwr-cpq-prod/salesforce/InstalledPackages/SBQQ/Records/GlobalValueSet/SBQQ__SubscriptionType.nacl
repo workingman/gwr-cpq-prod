@@ -30,4 +30,5 @@ salesforce.GlobalValueSet SBQQ__SubscriptionType {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SubscriptionType"
 }

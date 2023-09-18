@@ -295,4 +295,5 @@ type salesforce.SBQQ__SearchFilter__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Search Filter (SBQQ)"
 }

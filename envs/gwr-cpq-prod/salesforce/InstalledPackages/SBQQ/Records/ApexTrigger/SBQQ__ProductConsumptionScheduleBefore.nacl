@@ -15,4 +15,5 @@ salesforce.ApexTrigger SBQQ__ProductConsumptionScheduleBefore {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductConsumptionScheduleBefore"
 }

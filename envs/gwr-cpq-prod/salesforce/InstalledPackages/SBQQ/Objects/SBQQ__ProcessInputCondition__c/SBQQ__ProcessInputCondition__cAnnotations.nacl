@@ -269,4 +269,5 @@ type salesforce.SBQQ__ProcessInputCondition__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Process Input Condition (SBQQ)"
 }

@@ -97,4 +97,5 @@ salesforce.Layout SBQQ__FavoriteProduct__c_SBQQ__Favorite_Product_Layout@uuuubuu
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__FavoriteProduct__c-SBQQ__Favorite Product Layout"
 }

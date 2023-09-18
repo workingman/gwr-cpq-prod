@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__DocumentStorePlugin2 {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__DocumentStorePlugin2"
 }

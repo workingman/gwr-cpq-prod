@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__OrderDateTest {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__OrderDateTest"
 }

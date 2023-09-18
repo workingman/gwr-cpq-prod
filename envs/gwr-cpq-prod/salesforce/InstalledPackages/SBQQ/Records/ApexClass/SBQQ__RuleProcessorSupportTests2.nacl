@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__RuleProcessorSupportTests2 {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__RuleProcessorSupportTests2"
 }

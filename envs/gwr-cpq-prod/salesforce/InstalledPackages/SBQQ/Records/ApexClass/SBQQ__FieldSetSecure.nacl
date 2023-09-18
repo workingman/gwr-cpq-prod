@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__FieldSetSecure {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__FieldSetSecure"
 }

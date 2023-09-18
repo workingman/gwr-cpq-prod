@@ -118,4 +118,5 @@ salesforce.Layout SBQQ__SubscriptionConsumptionSchedule__c_SBQQ__Subscription_Co
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SubscriptionConsumptionSchedule__c-SBQQ__Subscription Consumption Schedule Layout"
 }

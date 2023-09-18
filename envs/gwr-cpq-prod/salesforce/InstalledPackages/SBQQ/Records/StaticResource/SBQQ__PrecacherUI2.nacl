@@ -9,4 +9,5 @@ salesforce.StaticResource SBQQ__PrecacherUI2 {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PrecacherUI2"
 }

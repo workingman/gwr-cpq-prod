@@ -269,4 +269,5 @@ type salesforce.SBQQ__LookupData__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Lookup Data (SBQQ)"
 }

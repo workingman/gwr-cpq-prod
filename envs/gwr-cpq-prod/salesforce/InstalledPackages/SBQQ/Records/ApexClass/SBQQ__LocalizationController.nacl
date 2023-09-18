@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__LocalizationController {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__LocalizationController"
 }

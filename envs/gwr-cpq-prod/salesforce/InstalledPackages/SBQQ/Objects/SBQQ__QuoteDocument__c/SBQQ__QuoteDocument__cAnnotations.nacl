@@ -283,4 +283,5 @@ type salesforce.SBQQ__QuoteDocument__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Quote Document (SBQQ)"
 }

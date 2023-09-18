@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__quoteGroupEditor {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "quoteGroupEditor (SBQQ)"
 }

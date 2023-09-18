@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__quoteDocumentOptions {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Quote Document Options (SBQQ)"
 }

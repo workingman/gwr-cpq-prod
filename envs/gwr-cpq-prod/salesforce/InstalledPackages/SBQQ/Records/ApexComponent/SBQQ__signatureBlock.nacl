@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__signatureBlock {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Signature Block (SBQQ)"
 }

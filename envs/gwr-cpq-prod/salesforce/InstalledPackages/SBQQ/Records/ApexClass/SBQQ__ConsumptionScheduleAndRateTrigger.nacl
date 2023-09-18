@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__ConsumptionScheduleAndRateTrigger {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ConsumptionScheduleAndRateTrigger"
 }

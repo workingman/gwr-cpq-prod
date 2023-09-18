@@ -15,4 +15,5 @@ salesforce.ApexTrigger SBQQ__SubscriptionAfter {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SubscriptionAfter"
 }

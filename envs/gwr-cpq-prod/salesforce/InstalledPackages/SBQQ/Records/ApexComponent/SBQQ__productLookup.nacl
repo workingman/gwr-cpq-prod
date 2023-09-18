@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__productLookup {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "productLookup (SBQQ)"
 }

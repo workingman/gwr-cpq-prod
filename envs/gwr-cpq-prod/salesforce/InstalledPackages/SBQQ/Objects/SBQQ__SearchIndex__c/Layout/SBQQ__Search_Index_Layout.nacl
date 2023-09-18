@@ -71,4 +71,5 @@ salesforce.Layout SBQQ__SearchIndex__c_SBQQ__Search_Index_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SearchIndex__c-SBQQ__Search Index Layout"
 }

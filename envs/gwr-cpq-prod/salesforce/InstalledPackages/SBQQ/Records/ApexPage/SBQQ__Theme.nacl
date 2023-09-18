@@ -10,4 +10,5 @@ salesforce.ApexPage SBQQ__Theme {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Theme (SBQQ)"
 }

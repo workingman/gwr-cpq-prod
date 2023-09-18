@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__PricingGuidanceTierModel {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PricingGuidanceTierModel"
 }

@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__QuoteDocumentUtils {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteDocumentUtils"
 }

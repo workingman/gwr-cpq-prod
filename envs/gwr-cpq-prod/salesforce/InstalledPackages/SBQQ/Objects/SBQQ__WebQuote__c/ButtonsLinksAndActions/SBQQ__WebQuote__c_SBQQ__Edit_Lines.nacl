@@ -15,4 +15,5 @@ salesforce.WebLink SBQQ__WebQuote__c_SBQQ__Edit_Lines {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__WebQuote__c.SBQQ__Edit_Lines"
 }

@@ -8,4 +8,5 @@ salesforce.ApexClass SBQQ__IDGenerator {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__IDGenerator"
 }

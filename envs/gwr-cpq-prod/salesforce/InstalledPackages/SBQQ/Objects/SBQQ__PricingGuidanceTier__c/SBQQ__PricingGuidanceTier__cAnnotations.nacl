@@ -271,4 +271,5 @@ type salesforce.SBQQ__PricingGuidanceTier__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Pricing Guidance Tier (SBQQ)"
 }

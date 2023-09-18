@@ -8,4 +8,5 @@ salesforce.CustomPermission SBQQ__HideGlobalHeader {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Hide Global Header (SBQQ)"
 }

@@ -1,0 +1,7 @@
+salesforce.SBQQ__ProductFeature__c Smartwatch___SMARTWATCH___Hardware___20___Charging_Options@uuuuuuuuuuuus {
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.Smartwatch___SMARTWATCH___Hardware
+  SBQQ__MinOptionCount__c = 0
+  SBQQ__Number__c = 20
+  Name = "Charging Options"
+  _alias = "SMARTWATCH Hardware Smartwatch Charging Options"
+}

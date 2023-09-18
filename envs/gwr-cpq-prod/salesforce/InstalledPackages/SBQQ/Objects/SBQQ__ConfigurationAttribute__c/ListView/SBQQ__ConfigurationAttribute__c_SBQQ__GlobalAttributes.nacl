@@ -22,4 +22,5 @@ salesforce.ListView SBQQ__ConfigurationAttribute__c_SBQQ__GlobalAttributes {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Global Attributes (SBQQ)"
 }

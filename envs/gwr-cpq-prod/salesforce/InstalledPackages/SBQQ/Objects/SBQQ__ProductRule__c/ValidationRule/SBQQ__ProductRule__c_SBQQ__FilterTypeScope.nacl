@@ -17,4 +17,5 @@ NOT(ISPICKVAL(SBQQ__Scope__c, "Product"))
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductRule__c.SBQQ__FilterTypeScope"
 }

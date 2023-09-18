@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__ImportLinesController {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ImportLinesController"
 }

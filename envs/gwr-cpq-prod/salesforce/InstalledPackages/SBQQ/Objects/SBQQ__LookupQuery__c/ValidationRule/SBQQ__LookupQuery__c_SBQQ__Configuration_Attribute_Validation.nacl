@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__LookupQuery__c_SBQQ__Configuration_Attribute_Val
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__LookupQuery__c.SBQQ__Configuration_Attribute_Validation"
 }

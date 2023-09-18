@@ -311,4 +311,5 @@ salesforce.Layout SBQQ__ProductRule__c_SBQQ__Product_Rule_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductRule__c-SBQQ__Product Rule Layout"
 }

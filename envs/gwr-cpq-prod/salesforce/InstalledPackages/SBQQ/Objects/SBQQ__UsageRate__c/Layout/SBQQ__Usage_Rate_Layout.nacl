@@ -158,4 +158,5 @@ salesforce.Layout SBQQ__UsageRate__c_SBQQ__Usage_Rate_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__UsageRate__c-SBQQ__Usage Rate Layout"
 }

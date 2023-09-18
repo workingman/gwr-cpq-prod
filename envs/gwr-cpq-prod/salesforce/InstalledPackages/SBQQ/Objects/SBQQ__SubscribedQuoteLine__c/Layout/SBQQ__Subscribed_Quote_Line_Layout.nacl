@@ -71,4 +71,5 @@ salesforce.Layout SBQQ__SubscribedQuoteLine__c_SBQQ__Subscribed_Quote_Line_Layou
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SubscribedQuoteLine__c-SBQQ__Subscribed Quote Line Layout"
 }

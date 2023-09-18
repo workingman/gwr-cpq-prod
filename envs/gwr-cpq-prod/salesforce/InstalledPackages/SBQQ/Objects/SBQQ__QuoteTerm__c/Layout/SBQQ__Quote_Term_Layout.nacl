@@ -197,4 +197,5 @@ salesforce.Layout SBQQ__QuoteTerm__c_SBQQ__Quote_Term_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteTerm__c-SBQQ__Quote Term Layout"
 }

@@ -293,4 +293,5 @@ type salesforce.SBQQ__OptionConstraint__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Option Constraint (SBQQ)"
 }

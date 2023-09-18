@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__UpgradeSource__c_SBQQ__Conversion_Rate_Must_Fit_
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__UpgradeSource__c.SBQQ__Conversion_Rate_Must_Fit_Ratio_Format"
 }

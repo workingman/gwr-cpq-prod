@@ -11,4 +11,5 @@ salesforce.CustomTab SBQQ__Quote__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__Quote__c"
 }

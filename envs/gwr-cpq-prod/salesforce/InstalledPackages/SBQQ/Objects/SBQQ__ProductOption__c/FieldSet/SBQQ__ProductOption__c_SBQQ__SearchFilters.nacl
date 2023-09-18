@@ -27,4 +27,5 @@ salesforce.FieldSet SBQQ__ProductOption__c_SBQQ__SearchFilters {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SearchFilters (SBQQ)"
 }

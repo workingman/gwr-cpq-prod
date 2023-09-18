@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__AdditionalDocumentsAfterTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__AdditionalDocumentsAfterTests"
 }

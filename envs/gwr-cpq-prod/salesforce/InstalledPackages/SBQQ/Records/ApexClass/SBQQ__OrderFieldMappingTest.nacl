@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__OrderFieldMappingTest {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__OrderFieldMappingTest"
 }

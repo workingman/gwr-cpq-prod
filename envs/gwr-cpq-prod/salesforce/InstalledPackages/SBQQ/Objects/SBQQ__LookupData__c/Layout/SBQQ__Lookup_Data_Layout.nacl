@@ -105,4 +105,5 @@ salesforce.Layout SBQQ__LookupData__c_SBQQ__Lookup_Data_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__LookupData__c-SBQQ__Lookup Data Layout"
 }

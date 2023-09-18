@@ -15,4 +15,5 @@ salesforce.ApexTrigger SBQQ__LineColumnBefore {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__LineColumnBefore"
 }

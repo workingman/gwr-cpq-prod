@@ -144,4 +144,5 @@ salesforce.FieldSet SBQQ__WebQuoteLine__c_SBQQ__LineEditor {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "LineEditor (SBQQ)"
 }

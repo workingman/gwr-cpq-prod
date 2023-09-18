@@ -15,4 +15,5 @@ salesforce.ApexTrigger SBQQ__CustomScriptAfter {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__CustomScriptAfter"
 }

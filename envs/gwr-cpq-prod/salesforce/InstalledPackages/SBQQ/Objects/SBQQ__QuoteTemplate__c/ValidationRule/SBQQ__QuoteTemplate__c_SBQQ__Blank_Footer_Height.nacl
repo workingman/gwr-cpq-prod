@@ -15,4 +15,5 @@ IF(AND(ISPICKVAL(SBQQ__PageNumberPosition__c, "Footer"),
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteTemplate__c.SBQQ__Blank_Footer_Height"
 }

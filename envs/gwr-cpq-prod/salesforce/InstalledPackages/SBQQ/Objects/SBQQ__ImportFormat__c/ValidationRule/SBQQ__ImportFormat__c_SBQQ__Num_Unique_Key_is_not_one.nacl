@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__ImportFormat__c_SBQQ__Num_Unique_Key_is_not_one 
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ImportFormat__c.SBQQ__Num_Unique_Key_is_not_one"
 }

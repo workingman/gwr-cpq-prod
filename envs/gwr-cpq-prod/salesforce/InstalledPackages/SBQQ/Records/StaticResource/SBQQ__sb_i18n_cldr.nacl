@@ -9,4 +9,5 @@ salesforce.StaticResource SBQQ__sb_i18n_cldr {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__sb_i18n_cldr"
 }

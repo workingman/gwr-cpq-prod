@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__Quote__c_SBQQ__End_Date_Before_Start_Date {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__Quote__c.SBQQ__End_Date_Before_Start_Date"
 }

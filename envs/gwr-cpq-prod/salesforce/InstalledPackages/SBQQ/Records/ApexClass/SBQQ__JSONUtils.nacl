@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__JSONUtils {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__JSONUtils"
 }

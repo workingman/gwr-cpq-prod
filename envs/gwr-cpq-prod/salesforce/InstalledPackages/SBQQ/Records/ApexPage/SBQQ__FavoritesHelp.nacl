@@ -10,4 +10,5 @@ salesforce.ApexPage SBQQ__FavoritesHelp {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "FavoritesHelp (SBQQ)"
 }

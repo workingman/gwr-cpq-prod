@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__QuoteTermDAO {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteTermDAO"
 }

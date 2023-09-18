@@ -8,4 +8,5 @@ salesforce.SharingRules SBQQ__LookupData__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__LookupData__c"
 }

@@ -20,4 +20,5 @@ salesforce.GlobalValueSet SBQQ__OrderProductStatus {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__OrderProductStatus"
 }

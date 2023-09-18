@@ -83,4 +83,5 @@ salesforce.Layout SBQQ__FavoriteShare__c_SBQQ__Favorite_Share_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__FavoriteShare__c-SBQQ__Favorite Share Layout"
 }

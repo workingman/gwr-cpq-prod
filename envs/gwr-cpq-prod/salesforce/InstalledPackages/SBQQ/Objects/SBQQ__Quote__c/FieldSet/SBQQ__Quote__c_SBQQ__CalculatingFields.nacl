@@ -72,4 +72,5 @@ salesforce.FieldSet SBQQ__Quote__c_SBQQ__CalculatingFields {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Calculating Fields (SBQQ)"
 }

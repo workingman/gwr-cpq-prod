@@ -8,4 +8,5 @@ salesforce.ApexClass SBQQ__DateRange {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__DateRange"
 }

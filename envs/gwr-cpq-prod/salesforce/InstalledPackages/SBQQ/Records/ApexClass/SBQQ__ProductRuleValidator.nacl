@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__ProductRuleValidator {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductRuleValidator"
 }

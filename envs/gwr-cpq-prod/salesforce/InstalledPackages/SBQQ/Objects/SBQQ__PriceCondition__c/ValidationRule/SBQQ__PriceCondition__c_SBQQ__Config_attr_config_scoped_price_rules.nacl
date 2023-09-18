@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__PriceCondition__c_SBQQ__Config_attr_config_scope
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PriceCondition__c.SBQQ__Config_attr_config_scoped_price_rules"
 }

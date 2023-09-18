@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__summaryRow {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "summaryRow (SBQQ)"
 }

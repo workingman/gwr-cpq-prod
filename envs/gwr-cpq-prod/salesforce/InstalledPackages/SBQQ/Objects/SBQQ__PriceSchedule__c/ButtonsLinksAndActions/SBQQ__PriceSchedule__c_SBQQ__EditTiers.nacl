@@ -17,4 +17,5 @@ salesforce.WebLink SBQQ__PriceSchedule__c_SBQQ__EditTiers {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PriceSchedule__c.SBQQ__EditTiers"
 }

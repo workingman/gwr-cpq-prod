@@ -83,4 +83,5 @@ salesforce.Layout SBQQ__UsageRateCardAssignment__c_SBQQ__Usage_Rate_Card_Assignm
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__UsageRateCardAssignment__c-SBQQ__Usage Rate Card Assignment Layout"
 }

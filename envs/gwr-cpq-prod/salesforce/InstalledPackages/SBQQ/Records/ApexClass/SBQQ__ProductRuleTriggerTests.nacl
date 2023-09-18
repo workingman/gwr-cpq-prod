@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__ProductRuleTriggerTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductRuleTriggerTests"
 }

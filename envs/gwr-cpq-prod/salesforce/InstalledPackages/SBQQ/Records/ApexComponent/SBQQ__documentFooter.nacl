@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__documentFooter {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Document Footer (SBQQ)"
 }

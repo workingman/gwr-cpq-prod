@@ -268,4 +268,5 @@ type salesforce.SBQQ__ImportColumn__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Import Column (SBQQ)"
 }

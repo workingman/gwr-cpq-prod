@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__LookupQuery__c_SBQQ__LookupObjectMustExist {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__LookupQuery__c.SBQQ__LookupObjectMustExist"
 }

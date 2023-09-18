@@ -73,4 +73,5 @@ salesforce.RecordType SBQQ__ConfigurationAttribute__c_SBQQ__Global_Attribute {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Global Attribute (SBQQ)"
 }

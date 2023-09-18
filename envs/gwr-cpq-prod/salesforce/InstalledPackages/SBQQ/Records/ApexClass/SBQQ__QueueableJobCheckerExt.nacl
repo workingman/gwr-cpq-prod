@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__QueueableJobCheckerExt {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QueueableJobCheckerExt"
 }

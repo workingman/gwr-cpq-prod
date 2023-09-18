@@ -15,4 +15,5 @@ salesforce.ApexTrigger SBQQ__PriceConditionBefore {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PriceConditionBefore"
 }

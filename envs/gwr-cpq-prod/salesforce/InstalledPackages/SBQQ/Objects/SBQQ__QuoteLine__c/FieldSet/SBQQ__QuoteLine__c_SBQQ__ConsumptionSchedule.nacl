@@ -244,4 +244,5 @@ salesforce.FieldSet SBQQ__QuoteLine__c_SBQQ__ConsumptionSchedule {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "ConsumptionSchedule (SBQQ)"
 }

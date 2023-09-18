@@ -16,4 +16,5 @@ salesforce.WebLink SBQQ__QuoteLineGroup__c_SBQQ__CalculateQuoteFromQuoteLineGrou
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteLineGroup__c.SBQQ__CalculateQuoteFromQuoteLineGroup"
 }

@@ -10,4 +10,5 @@ salesforce.ApexPage SBQQ__CustomScriptHelp {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "CustomScriptHelp (SBQQ)"
 }

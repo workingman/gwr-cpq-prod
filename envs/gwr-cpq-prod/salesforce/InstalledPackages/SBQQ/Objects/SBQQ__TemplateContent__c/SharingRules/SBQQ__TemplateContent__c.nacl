@@ -8,4 +8,5 @@ salesforce.SharingRules SBQQ__TemplateContent__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__TemplateContent__c"
 }

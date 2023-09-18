@@ -8,4 +8,5 @@ salesforce.ApexComponent SBQQ__quoteTermsEditor {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "quoteTermsEditor (SBQQ)"
 }

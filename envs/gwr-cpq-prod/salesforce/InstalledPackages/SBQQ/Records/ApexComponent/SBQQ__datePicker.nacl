@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__datePicker {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Date Picker (SBQQ)"
 }

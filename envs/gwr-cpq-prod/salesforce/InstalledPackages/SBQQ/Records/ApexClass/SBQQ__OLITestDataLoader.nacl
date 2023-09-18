@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__OLITestDataLoader {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__OLITestDataLoader"
 }

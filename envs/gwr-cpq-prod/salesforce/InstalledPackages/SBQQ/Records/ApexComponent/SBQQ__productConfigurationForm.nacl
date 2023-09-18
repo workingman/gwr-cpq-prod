@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__productConfigurationForm {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "productConfigurationForm (SBQQ)"
 }

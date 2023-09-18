@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__Dimension__c_SBQQ__Cannot_Create_PriceDimension_
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__Dimension__c.SBQQ__Cannot_Create_PriceDimension_Evergreen"
 }

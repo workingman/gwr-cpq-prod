@@ -19,4 +19,5 @@ salesforce.ListView SBQQ__SummaryVariable__c_SBQQ__All {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "All (SBQQ)"
 }

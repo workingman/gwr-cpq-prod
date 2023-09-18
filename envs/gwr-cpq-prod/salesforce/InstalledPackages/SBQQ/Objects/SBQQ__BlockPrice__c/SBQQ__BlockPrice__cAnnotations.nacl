@@ -279,4 +279,5 @@ type salesforce.SBQQ__BlockPrice__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Block Price (SBQQ)"
 }

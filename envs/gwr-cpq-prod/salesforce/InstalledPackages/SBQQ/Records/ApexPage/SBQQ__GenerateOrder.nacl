@@ -10,4 +10,5 @@ salesforce.ApexPage SBQQ__GenerateOrder {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "GenerateOrder (SBQQ)"
 }

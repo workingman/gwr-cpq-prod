@@ -269,4 +269,5 @@ type salesforce.SBQQ__TimingLog__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Timing Log (SBQQ)"
 }

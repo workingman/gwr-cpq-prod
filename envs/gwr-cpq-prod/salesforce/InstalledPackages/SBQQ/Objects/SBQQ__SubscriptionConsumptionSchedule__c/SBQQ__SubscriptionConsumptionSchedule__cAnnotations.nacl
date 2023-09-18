@@ -267,4 +267,5 @@ type salesforce.SBQQ__SubscriptionConsumptionSchedule__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Subscription Consumption Schedule (SBQQ)"
 }

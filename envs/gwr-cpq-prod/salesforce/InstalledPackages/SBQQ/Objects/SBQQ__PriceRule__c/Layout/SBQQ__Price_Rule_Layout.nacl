@@ -137,4 +137,5 @@ salesforce.Layout SBQQ__PriceRule__c_SBQQ__Price_Rule_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PriceRule__c-SBQQ__Price Rule Layout"
 }

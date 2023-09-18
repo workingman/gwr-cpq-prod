@@ -15,4 +15,5 @@ salesforce.ApexTrigger SBQQ__ErrorConditionBefore {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ErrorConditionBefore"
 }

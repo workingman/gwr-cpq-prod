@@ -126,4 +126,5 @@ salesforce.Layout SBQQ__ErrorCondition__c_SBQQ__Error_Condition_Layout@uuuubuuss
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ErrorCondition__c-SBQQ__Error Condition Layout"
 }

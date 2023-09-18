@@ -54,4 +54,5 @@ salesforce.FieldSet SBQQ__ProductOption__c_SBQQ__OptionLookup {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "OptionLookup (SBQQ)"
 }

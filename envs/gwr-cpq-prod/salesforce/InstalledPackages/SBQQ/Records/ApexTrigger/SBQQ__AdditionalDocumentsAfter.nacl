@@ -15,4 +15,5 @@ salesforce.ApexTrigger SBQQ__AdditionalDocumentsAfter {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__AdditionalDocumentsAfter"
 }

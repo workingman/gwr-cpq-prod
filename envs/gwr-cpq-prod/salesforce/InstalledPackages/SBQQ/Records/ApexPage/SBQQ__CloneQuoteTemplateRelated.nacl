@@ -11,4 +11,5 @@ salesforce.ApexPage SBQQ__CloneQuoteTemplateRelated {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Clone Quote Template Related (SBQQ)"
 }

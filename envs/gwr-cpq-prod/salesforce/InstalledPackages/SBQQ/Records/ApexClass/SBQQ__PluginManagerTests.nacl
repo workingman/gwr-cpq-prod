@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__PluginManagerTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PluginManagerTests"
 }

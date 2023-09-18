@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__PriceCondition__c_SBQQ__Filter_formula_field_nul
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PriceCondition__c.SBQQ__Filter_formula_field_null"
 }

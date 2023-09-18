@@ -105,4 +105,5 @@ salesforce.Layout SBQQ__SubscriptionConsumptionRate__c_SBQQ__Subscription_Consum
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SubscriptionConsumptionRate__c-SBQQ__Subscription Consumption Rate Layout"
 }

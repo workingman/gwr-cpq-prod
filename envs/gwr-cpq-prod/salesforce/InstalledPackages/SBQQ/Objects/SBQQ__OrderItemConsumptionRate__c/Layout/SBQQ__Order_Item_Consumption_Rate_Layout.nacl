@@ -105,4 +105,5 @@ salesforce.Layout SBQQ__OrderItemConsumptionRate__c_SBQQ__Order_Item_Consumption
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__OrderItemConsumptionRate__c-SBQQ__Order Item Consumption Rate Layout"
 }

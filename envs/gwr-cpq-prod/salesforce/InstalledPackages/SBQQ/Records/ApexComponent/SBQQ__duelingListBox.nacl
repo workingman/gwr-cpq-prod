@@ -8,4 +8,5 @@ salesforce.ApexComponent SBQQ__duelingListBox {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "duelingListBox (SBQQ)"
 }

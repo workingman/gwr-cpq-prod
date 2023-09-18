@@ -20,4 +20,5 @@ salesforce.GlobalValueSet SBQQ__ContractingMethod {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ContractingMethod"
 }

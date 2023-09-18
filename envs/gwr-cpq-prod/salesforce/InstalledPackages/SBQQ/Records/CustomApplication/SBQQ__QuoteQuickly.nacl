@@ -38,4 +38,5 @@ salesforce.CustomApplication SBQQ__QuoteQuickly {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Salesforce CPQ (SBQQ)"
 }

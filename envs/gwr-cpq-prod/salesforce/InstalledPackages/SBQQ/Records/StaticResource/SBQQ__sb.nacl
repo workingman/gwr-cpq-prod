@@ -8,4 +8,5 @@ salesforce.StaticResource SBQQ__sb {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__sb"
 }

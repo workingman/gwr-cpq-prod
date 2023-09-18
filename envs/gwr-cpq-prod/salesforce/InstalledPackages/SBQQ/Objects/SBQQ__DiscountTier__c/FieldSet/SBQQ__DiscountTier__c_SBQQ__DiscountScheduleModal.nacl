@@ -42,4 +42,5 @@ salesforce.FieldSet SBQQ__DiscountTier__c_SBQQ__DiscountScheduleModal {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Discount Schedule Modal (SBQQ)"
 }

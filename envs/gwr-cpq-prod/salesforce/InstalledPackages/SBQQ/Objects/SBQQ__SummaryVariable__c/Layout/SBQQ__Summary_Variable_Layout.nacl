@@ -187,4 +187,5 @@ salesforce.Layout SBQQ__SummaryVariable__c_SBQQ__Summary_Variable_Layout@uuuubuu
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SummaryVariable__c-SBQQ__Summary Variable Layout"
 }

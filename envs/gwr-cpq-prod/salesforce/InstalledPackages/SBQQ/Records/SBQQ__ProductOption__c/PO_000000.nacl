@@ -13,5 +13,5 @@ salesforce.SBQQ__ProductOption__c PO_000000@b {
   SBQQ__System__c = false
   SBQQ__Type__c = "Component"
   SBQQ__UpliftedByPackage__c = false
-  _alias = "PO-000000"
+  _alias = "PO-000083"
 }

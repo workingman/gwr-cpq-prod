@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__AliasedMetaDataUtils {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__AliasedMetaDataUtils"
 }

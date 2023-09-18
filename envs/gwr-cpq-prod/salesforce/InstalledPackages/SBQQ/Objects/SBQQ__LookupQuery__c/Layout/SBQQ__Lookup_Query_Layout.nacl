@@ -130,4 +130,5 @@ salesforce.Layout SBQQ__LookupQuery__c_SBQQ__Lookup_Query_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__LookupQuery__c-SBQQ__Lookup Query Layout"
 }

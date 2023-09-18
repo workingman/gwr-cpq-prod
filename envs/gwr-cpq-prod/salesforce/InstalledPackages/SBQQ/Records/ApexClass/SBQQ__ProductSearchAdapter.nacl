@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__ProductSearchAdapter {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductSearchAdapter"
 }

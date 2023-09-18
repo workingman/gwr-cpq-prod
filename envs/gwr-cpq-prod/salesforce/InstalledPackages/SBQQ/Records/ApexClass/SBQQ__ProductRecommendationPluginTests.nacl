@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__ProductRecommendationPluginTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductRecommendationPluginTests"
 }

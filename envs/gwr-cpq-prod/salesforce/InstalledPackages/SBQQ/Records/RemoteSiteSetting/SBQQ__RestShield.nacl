@@ -8,4 +8,5 @@ salesforce.RemoteSiteSetting SBQQ__RestShield {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__RestShield"
 }

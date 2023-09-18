@@ -298,4 +298,5 @@ type salesforce.SBQQ__DiscountSchedule__c {
       reference = salesforce.LightningPage.instance.Training_Discount_Schedule_Page
     },
   ]
+  _alias = "Discount Schedule (SBQQ)"
 }

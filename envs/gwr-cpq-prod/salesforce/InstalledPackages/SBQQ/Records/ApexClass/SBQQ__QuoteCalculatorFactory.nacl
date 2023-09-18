@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__QuoteCalculatorFactory {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteCalculatorFactory"
 }

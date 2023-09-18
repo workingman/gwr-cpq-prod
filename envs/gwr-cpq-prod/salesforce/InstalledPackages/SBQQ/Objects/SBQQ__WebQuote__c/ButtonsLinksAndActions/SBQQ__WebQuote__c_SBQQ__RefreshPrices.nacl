@@ -16,4 +16,5 @@ salesforce.WebLink SBQQ__WebQuote__c_SBQQ__RefreshPrices {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__WebQuote__c.SBQQ__RefreshPrices"
 }

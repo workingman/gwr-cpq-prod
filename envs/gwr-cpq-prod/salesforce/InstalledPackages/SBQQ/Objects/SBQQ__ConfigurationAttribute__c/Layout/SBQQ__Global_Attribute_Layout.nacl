@@ -66,4 +66,5 @@ salesforce.Layout SBQQ__ConfigurationAttribute__c_SBQQ__Global_Attribute_Layout@
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ConfigurationAttribute__c-SBQQ__Global Attribute Layout"
 }

@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__RenewContractsControllerTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__RenewContractsControllerTests"
 }

@@ -271,4 +271,5 @@ type salesforce.SBQQ__QuoteLinePricingGuidance__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Quote Line Pricing Guidance (SBQQ)"
 }

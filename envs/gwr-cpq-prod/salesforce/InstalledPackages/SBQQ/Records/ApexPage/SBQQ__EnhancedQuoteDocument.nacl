@@ -11,4 +11,5 @@ salesforce.ApexPage SBQQ__EnhancedQuoteDocument {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "EnhancedQuoteDocument (SBQQ)"
 }

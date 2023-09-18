@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__container {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Container (SBQQ)"
 }

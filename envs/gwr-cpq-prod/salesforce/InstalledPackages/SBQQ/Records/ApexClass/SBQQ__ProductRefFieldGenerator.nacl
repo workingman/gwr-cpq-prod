@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__ProductRefFieldGenerator {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductRefFieldGenerator"
 }

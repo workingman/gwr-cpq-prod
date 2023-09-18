@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__QuoteProcessInitializerTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteProcessInitializerTests"
 }

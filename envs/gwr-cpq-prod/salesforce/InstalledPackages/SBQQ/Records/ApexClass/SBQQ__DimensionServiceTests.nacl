@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__DimensionServiceTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__DimensionServiceTests"
 }

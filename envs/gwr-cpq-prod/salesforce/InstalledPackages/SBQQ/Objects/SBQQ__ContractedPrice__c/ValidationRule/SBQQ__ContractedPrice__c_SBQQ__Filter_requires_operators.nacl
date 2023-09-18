@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__ContractedPrice__c_SBQQ__Filter_requires_operato
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ContractedPrice__c.SBQQ__Filter_requires_operators"
 }

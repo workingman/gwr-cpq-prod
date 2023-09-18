@@ -17,4 +17,5 @@ salesforce.WebLink SBQQ__UsageRateCard__c_SBQQ__CloneWithRelatedClassic {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__UsageRateCard__c.SBQQ__CloneWithRelatedClassic"
 }

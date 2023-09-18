@@ -116,4 +116,5 @@ salesforce.Layout SBQQ__PricingGuidance__c_SBQQ__Pricing_Guidance_Layout@uuuubuu
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PricingGuidance__c-SBQQ__Pricing Guidance Layout"
 }

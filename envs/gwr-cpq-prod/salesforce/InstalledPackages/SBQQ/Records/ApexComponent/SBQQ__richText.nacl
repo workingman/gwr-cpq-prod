@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__richText {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Rich Text (SBQQ)"
 }

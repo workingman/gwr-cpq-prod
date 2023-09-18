@@ -267,4 +267,5 @@ type salesforce.SBQQ__QuoteLineConsumptionRate__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Quote Line Consumption Rate (SBQQ)"
 }

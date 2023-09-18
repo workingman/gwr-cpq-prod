@@ -60,4 +60,5 @@ salesforce.QuickAction SBQQ__NewEvent {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__NewEvent"
 }

@@ -17,4 +17,5 @@ salesforce.WebLink SBQQ__Quote__c_SBQQ__GenerateDocument {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__Quote__c.SBQQ__GenerateDocument"
 }

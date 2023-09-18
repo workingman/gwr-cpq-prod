@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__TermCondition__c_SBQQ__Field_or_Variable {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__TermCondition__c.SBQQ__Field_or_Variable"
 }

@@ -126,4 +126,5 @@ salesforce.Layout SBQQ__PriceAction__c_SBQQ__Price_Action_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PriceAction__c-SBQQ__Price Action Layout"
 }

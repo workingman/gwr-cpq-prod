@@ -34,4 +34,5 @@ salesforce.FieldSet SBQQ__WebQuoteLine__c_SBQQ__SegmentedLineEditorSummary {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Segmented Line Editor Summary (SBQQ)"
 }

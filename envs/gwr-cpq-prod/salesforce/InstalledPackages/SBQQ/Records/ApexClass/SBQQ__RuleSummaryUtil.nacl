@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__RuleSummaryUtil {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__RuleSummaryUtil"
 }

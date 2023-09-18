@@ -10,4 +10,5 @@ salesforce.ApexPage SBQQ__EditRelatedContent {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Edit Related Content (SBQQ)"
 }

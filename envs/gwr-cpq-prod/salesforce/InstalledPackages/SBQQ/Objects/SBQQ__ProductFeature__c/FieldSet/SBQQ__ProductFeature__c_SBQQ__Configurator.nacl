@@ -17,4 +17,5 @@ salesforce.FieldSet SBQQ__ProductFeature__c_SBQQ__Configurator {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Configurator (SBQQ)"
 }

@@ -271,4 +271,5 @@ type salesforce.SBQQ__SubscribedQuoteLine__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Subscribed Quote Line (SBQQ)"
 }

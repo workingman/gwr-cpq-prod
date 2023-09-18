@@ -275,4 +275,5 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Configuration Attribute (SBQQ)"
 }

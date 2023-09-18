@@ -142,4 +142,5 @@ salesforce.Layout SBQQ__PriceTier__c_SBQQ__Price_Tier_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PriceTier__c-SBQQ__Price Tier Layout"
 }

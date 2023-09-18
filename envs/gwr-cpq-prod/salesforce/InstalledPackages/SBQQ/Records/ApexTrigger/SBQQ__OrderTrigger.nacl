@@ -15,4 +15,5 @@ salesforce.ApexTrigger SBQQ__OrderTrigger {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__OrderTrigger"
 }

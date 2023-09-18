@@ -89,4 +89,5 @@ salesforce.Layout SBQQ__QuoteLinePricingGuidance__c_SBQQ__Quote_Line_Pricing_Gui
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteLinePricingGuidance__c-SBQQ__Quote Line Pricing Guidance Layout"
 }

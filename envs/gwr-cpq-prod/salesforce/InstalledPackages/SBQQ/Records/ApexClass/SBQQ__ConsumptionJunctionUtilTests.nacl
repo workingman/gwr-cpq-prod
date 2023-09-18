@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__ConsumptionJunctionUtilTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ConsumptionJunctionUtilTests"
 }

@@ -23,4 +23,5 @@ salesforce.ListView SBQQ__SearchFilter__c_SBQQ__All {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "All (SBQQ)"
 }

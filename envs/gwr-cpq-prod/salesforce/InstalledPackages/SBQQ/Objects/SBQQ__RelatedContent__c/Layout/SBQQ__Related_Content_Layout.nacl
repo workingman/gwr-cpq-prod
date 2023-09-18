@@ -117,4 +117,5 @@ salesforce.Layout SBQQ__RelatedContent__c_SBQQ__Related_Content_Layout@uuuubuuss
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__RelatedContent__c-SBQQ__Related Content Layout"
 }

@@ -8,4 +8,5 @@ salesforce.ApexClass SBQQ__SObjectListModelTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SObjectListModelTests"
 }

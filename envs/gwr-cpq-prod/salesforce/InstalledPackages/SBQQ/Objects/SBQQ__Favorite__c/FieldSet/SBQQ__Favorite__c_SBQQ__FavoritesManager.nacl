@@ -27,4 +27,5 @@ salesforce.FieldSet SBQQ__Favorite__c_SBQQ__FavoritesManager {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "FavoritesManager (SBQQ)"
 }

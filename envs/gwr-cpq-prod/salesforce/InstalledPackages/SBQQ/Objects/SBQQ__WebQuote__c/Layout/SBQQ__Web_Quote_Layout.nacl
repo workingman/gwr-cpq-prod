@@ -299,4 +299,5 @@ salesforce.Layout SBQQ__WebQuote__c_SBQQ__Web_Quote_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__WebQuote__c-SBQQ__Web Quote Layout"
 }

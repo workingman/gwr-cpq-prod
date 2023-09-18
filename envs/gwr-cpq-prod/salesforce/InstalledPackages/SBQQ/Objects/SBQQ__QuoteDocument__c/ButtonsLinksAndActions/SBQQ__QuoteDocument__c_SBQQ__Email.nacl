@@ -16,4 +16,5 @@ salesforce.WebLink SBQQ__QuoteDocument__c_SBQQ__Email {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteDocument__c.SBQQ__Email"
 }

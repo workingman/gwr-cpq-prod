@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__customLookup {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "modalDialog (SBQQ)"
 }

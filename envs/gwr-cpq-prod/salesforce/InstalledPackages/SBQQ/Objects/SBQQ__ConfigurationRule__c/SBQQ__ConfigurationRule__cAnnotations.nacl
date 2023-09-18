@@ -270,4 +270,5 @@ type salesforce.SBQQ__ConfigurationRule__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Configuration Rule (SBQQ)"
 }

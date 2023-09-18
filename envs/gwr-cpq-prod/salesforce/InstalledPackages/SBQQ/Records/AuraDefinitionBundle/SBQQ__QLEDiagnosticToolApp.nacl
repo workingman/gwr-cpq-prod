@@ -9,4 +9,5 @@ salesforce.AuraDefinitionBundle SBQQ__QLEDiagnosticToolApp {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QLEDiagnosticToolApp"
 }

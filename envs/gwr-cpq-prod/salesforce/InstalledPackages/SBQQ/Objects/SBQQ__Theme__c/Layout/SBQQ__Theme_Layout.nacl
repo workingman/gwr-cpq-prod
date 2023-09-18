@@ -71,4 +71,5 @@ salesforce.Layout SBQQ__Theme__c_SBQQ__Theme_Layout@uuuubuus {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__Theme__c-SBQQ__Theme Layout"
 }

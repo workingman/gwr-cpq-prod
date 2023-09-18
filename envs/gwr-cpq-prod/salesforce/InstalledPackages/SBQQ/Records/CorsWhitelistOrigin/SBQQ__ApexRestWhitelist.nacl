@@ -6,4 +6,5 @@ salesforce.CorsWhitelistOrigin SBQQ__ApexRestWhitelist {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ApexRestWhitelist"
 }

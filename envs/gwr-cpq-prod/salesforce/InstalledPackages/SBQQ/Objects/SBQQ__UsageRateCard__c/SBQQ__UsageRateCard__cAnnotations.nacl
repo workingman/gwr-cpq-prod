@@ -268,4 +268,5 @@ type salesforce.SBQQ__UsageRateCard__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Usage Rate Card (Reserved) (SBQQ)"
 }

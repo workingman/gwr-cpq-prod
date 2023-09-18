@@ -152,4 +152,5 @@ salesforce.FieldSet SBQQ__QuoteLine__c_SBQQ__NonCurrentQuoteLineLockedFields {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Non-Current Quote Line Locked Fields (SBQQ)"
 }

@@ -110,4 +110,5 @@ salesforce.Layout SBQQ__ProcessInputCondition__c_SBQQ__Process_Input_Condition_L
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProcessInputCondition__c-SBQQ__Process Input Condition Layout"
 }

@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000057@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Interior_Keypad___INTERIORKEYPAD___Hardware@suuuuuu
+  SBQQ__UnitCost__c = 40
+  _alias = "COST-000057"
+}

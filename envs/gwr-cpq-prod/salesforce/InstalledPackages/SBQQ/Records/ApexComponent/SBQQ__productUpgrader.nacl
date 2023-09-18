@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__productUpgrader {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "productUpgrader (SBQQ)"
 }

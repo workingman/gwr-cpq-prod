@@ -47,4 +47,5 @@ salesforce.GlobalValueSet SBQQ__BillingFrequency {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__BillingFrequency"
 }

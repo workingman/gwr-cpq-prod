@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__ProductOption__c_SBQQ__Cannot_Bundle_Evergreen_R
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductOption__c.SBQQ__Cannot_Bundle_Evergreen_Renewable_SKUs"
 }

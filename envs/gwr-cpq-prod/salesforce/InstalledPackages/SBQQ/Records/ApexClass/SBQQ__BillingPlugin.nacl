@@ -8,4 +8,5 @@ salesforce.ApexClass SBQQ__BillingPlugin {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__BillingPlugin"
 }

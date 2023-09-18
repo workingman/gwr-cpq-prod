@@ -296,4 +296,5 @@ type salesforce.SBQQ__QuoteLine__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Quote Line (SBQQ)"
 }

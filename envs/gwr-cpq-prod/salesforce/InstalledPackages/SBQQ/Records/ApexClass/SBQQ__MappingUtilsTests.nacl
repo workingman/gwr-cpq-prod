@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__MappingUtilsTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__MappingUtilsTests"
 }

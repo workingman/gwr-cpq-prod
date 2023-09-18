@@ -195,4 +195,5 @@ salesforce.Layout SBQQ__Localization__c_SBQQ__Localization_Layout@uuuubuus {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__Localization__c-SBQQ__Localization Layout"
 }

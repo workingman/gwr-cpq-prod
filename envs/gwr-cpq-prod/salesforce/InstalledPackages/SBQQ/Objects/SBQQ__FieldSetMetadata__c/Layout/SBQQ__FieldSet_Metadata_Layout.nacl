@@ -91,4 +91,5 @@ salesforce.Layout SBQQ__FieldSetMetadata__c_SBQQ__FieldSet_Metadata_Layout@uuuub
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__FieldSetMetadata__c-SBQQ__FieldSet Metadata Layout"
 }

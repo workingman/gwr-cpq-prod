@@ -270,4 +270,5 @@ type salesforce.SBQQ__RecordJob__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Record Job (SBQQ)"
 }

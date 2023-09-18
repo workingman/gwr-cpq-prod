@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__QueryBuilder {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QueryBuilder"
 }

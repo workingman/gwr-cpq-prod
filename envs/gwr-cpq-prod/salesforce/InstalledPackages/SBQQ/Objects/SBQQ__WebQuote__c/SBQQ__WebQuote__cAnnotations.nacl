@@ -313,4 +313,5 @@ type salesforce.SBQQ__WebQuote__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Web Quote (SBQQ)"
 }

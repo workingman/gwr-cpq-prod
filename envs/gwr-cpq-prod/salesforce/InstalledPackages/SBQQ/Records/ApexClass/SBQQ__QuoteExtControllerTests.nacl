@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__QuoteExtControllerTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteExtControllerTests"
 }

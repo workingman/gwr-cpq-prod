@@ -269,4 +269,5 @@ type salesforce.SBQQ__ImportFormat__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Import Format (SBQQ)"
 }

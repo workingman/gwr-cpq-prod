@@ -269,4 +269,5 @@ type salesforce.SBQQ__ColumnMetadata__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Column Metadata (SBQQ)"
 }

@@ -166,4 +166,5 @@ salesforce.Layout SBQQ__TaxExemptionCertificate__c_SBQQ__Tax_Exemption_Certifica
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__TaxExemptionCertificate__c-SBQQ__Tax Exemption Certificate Layout"
 }

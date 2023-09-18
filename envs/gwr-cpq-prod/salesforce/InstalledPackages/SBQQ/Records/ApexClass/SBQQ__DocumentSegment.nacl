@@ -8,4 +8,5 @@ salesforce.ApexClass SBQQ__DocumentSegment {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__DocumentSegment"
 }

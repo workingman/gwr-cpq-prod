@@ -279,4 +279,5 @@ type salesforce.SBQQ__ErrorCondition__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Error Condition (SBQQ)"
 }

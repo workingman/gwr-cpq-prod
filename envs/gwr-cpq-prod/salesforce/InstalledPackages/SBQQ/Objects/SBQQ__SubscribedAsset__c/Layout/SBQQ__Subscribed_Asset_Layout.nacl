@@ -89,4 +89,5 @@ salesforce.Layout SBQQ__SubscribedAsset__c_SBQQ__Subscribed_Asset_Layout@uuuubuu
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SubscribedAsset__c-SBQQ__Subscribed Asset Layout"
 }

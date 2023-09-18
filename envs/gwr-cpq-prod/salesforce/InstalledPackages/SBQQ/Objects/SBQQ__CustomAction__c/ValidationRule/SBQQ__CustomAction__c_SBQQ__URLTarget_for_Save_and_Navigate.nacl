@@ -13,4 +13,5 @@ salesforce.ValidationRule SBQQ__CustomAction__c_SBQQ__URLTarget_for_Save_and_Nav
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__CustomAction__c.SBQQ__URLTarget_for_Save_and_Navigate"
 }

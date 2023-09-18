@@ -19,4 +19,5 @@ salesforce.GlobalValueSet SBQQ__PriceType {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PriceType"
 }

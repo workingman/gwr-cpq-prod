@@ -276,4 +276,5 @@ type salesforce.SBQQ__ProductRule__c {
       reference = salesforce.LightningPage.instance.Training_Product_Rule_Page
     },
   ]
+  _alias = "Product Rule (SBQQ)"
 }

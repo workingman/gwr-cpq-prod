@@ -8,4 +8,5 @@ salesforce.RemoteSiteSetting SBQQ__OAuthTestLogin {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__OAuthTestLogin"
 }

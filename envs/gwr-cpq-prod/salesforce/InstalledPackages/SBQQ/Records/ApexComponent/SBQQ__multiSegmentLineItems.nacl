@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__multiSegmentLineItems {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Multi Segment Line Items (SBQQ)"
 }

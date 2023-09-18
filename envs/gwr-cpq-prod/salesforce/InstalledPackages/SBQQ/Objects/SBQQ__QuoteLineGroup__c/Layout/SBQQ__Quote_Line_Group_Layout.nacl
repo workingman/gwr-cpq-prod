@@ -134,4 +134,5 @@ salesforce.Layout SBQQ__QuoteLineGroup__c_SBQQ__Quote_Line_Group_Layout@uuuubuus
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteLineGroup__c-SBQQ__Quote Line Group Layout"
 }

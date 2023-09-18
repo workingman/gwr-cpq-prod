@@ -8,4 +8,5 @@ salesforce.RemoteSiteSetting SBQQ__RestAU {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__RestAU"
 }

@@ -28,4 +28,5 @@ salesforce.ListView SBQQ__ConfigurationAttribute__c_SBQQ__ConfigurationAttribute
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Configuration Attributes (SBQQ)"
 }

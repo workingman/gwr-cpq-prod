@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__RecordJobServiceTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__RecordJobServiceTests"
 }

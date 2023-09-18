@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__ProductOption__c_SBQQ__Apply_Immediately_Context
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductOption__c.SBQQ__Apply_Immediately_Context_Validation"
 }

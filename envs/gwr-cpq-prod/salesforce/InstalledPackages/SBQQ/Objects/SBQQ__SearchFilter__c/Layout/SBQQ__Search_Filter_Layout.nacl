@@ -138,4 +138,5 @@ salesforce.Layout SBQQ__SearchFilter__c_SBQQ__Search_Filter_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SearchFilter__c-SBQQ__Search Filter Layout"
 }

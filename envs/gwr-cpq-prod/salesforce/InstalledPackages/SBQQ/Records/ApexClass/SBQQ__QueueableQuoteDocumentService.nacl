@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__QueueableQuoteDocumentService {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QueueableQuoteDocumentService"
 }

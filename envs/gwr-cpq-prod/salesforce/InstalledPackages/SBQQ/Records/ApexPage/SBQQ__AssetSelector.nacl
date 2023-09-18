@@ -10,4 +10,5 @@ salesforce.ApexPage SBQQ__AssetSelector {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Asset Selector (SBQQ)"
 }

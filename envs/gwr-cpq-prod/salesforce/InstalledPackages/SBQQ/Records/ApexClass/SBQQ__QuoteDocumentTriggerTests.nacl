@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__QuoteDocumentTriggerTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteDocumentTriggerTests"
 }

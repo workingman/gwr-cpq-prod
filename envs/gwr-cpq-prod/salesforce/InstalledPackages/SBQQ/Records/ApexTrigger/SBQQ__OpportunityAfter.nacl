@@ -15,4 +15,5 @@ salesforce.ApexTrigger SBQQ__OpportunityAfter {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__OpportunityAfter"
 }

@@ -29,4 +29,5 @@ salesforce.GlobalValueSet SBQQ__PaperSize {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PaperSize"
 }

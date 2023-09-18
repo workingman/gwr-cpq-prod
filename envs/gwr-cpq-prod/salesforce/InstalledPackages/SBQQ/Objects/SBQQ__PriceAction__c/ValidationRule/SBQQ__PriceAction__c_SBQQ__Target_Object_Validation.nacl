@@ -13,4 +13,5 @@ salesforce.ValidationRule SBQQ__PriceAction__c_SBQQ__Target_Object_Validation {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PriceAction__c.SBQQ__Target_Object_Validation"
 }

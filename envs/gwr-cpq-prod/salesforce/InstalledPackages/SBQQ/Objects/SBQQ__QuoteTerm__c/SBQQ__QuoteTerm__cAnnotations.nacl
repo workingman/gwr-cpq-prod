@@ -295,4 +295,5 @@ type salesforce.SBQQ__QuoteTerm__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Quote Term (SBQQ)"
 }

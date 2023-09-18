@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__ErrorCondition__c_SBQQ__Tested_attr_required_if_
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ErrorCondition__c.SBQQ__Tested_attr_required_if_global_field"
 }

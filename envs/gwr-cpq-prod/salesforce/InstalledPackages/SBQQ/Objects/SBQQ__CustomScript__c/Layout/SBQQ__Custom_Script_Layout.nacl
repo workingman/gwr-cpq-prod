@@ -117,4 +117,5 @@ salesforce.Layout SBQQ__CustomScript__c_SBQQ__Custom_Script_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__CustomScript__c-SBQQ__Custom Script Layout"
 }

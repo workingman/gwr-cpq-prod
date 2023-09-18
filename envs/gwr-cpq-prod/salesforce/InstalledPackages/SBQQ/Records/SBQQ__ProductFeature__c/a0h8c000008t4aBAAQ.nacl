@@ -1,7 +1,0 @@
-salesforce.SBQQ__ProductFeature__c a0h8c000008t4aBAAQ {
-  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.01t8c00000MGiLxAAL
-  SBQQ__MinOptionCount__c = 1
-  SBQQ__Number__c = 20
-  Name = "Headphones & Speakers"
-  _alias = "TELEWORKSTATION Hardware Telecommuter Workstation Headphones & Speakers"
-}

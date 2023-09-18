@@ -8,4 +8,5 @@ salesforce.SharingRules SBQQ__SearchFilter__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SearchFilter__c"
 }

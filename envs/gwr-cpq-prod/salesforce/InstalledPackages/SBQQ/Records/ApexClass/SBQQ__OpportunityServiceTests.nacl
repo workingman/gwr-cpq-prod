@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__OpportunityServiceTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__OpportunityServiceTests"
 }

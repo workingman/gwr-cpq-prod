@@ -287,4 +287,5 @@ salesforce.Layout SBQQ__Subscription__c_SBQQ__Subscription_Layout@uuuubuus {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__Subscription__c-SBQQ__Subscription Layout"
 }

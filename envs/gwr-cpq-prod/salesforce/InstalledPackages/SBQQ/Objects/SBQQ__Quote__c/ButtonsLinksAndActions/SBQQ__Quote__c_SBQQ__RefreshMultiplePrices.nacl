@@ -18,4 +18,5 @@ salesforce.WebLink SBQQ__Quote__c_SBQQ__RefreshMultiplePrices {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__Quote__c.SBQQ__RefreshMultiplePrices"
 }

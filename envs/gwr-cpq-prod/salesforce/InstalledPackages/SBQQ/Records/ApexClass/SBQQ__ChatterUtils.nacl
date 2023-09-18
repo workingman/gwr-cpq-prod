@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__ChatterUtils {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ChatterUtils"
 }

@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__LineItemsComponentController {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__LineItemsComponentController"
 }

@@ -93,4 +93,5 @@ salesforce.Layout SBQQ__ProcessInputValue__c_SBQQ__Process_Input_Values_Layout@u
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProcessInputValue__c-SBQQ__Process Input Values Layout"
 }

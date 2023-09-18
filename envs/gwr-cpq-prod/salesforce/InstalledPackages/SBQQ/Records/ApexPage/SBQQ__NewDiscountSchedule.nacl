@@ -10,4 +10,5 @@ salesforce.ApexPage SBQQ__NewDiscountSchedule {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "NewDiscountSchedule (SBQQ)"
 }

@@ -9,4 +9,5 @@ salesforce.StaticResource SBQQ__Spectrum {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__Spectrum"
 }

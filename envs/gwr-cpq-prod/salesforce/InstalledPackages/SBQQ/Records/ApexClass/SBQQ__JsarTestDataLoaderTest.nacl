@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__JsarTestDataLoaderTest {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__JsarTestDataLoaderTest"
 }

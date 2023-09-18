@@ -101,4 +101,5 @@ salesforce.Layout SBQQ__PricingGuidanceTier__c_SBQQ__Pricing_Guidance_Tier_Layou
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PricingGuidanceTier__c-SBQQ__Pricing Guidance Tier Layout"
 }

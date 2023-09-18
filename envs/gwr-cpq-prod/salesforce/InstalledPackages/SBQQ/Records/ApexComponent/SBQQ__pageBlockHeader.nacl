@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__pageBlockHeader {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "pageBlockHeader (SBQQ)"
 }

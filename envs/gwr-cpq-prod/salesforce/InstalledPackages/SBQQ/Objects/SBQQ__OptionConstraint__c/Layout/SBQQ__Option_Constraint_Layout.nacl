@@ -99,4 +99,5 @@ salesforce.Layout SBQQ__OptionConstraint__c_SBQQ__Option_Constraint_Layout@uuuub
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__OptionConstraint__c-SBQQ__Option Constraint Layout"
 }

@@ -286,4 +286,5 @@ type salesforce.SBQQ__PriceSchedule__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Price Schedule (SBQQ)"
 }

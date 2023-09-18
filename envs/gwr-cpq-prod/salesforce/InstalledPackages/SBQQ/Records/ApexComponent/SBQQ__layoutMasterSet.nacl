@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__layoutMasterSet {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Layout Master Set (SBQQ)"
 }

@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__ImportFormatDAOTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ImportFormatDAOTests"
 }

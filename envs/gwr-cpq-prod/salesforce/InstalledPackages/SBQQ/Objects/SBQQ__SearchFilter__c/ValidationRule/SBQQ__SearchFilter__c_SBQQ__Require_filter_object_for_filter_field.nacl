@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__SearchFilter__c_SBQQ__Require_filter_object_for_
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SearchFilter__c.SBQQ__Require_filter_object_for_filter_field"
 }

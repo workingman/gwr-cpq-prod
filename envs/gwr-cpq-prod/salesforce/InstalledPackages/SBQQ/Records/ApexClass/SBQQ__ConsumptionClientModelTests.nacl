@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__ConsumptionClientModelTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ConsumptionClientModelTests"
 }

@@ -8,4 +8,5 @@ salesforce.StaticResource SBQQ__salesforce_sans {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__salesforce_sans"
 }

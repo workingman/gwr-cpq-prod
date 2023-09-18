@@ -106,4 +106,5 @@ salesforce.Layout SBQQ__ImportFormat__c_SBQQ__Import_Format_Layout@uuuubuuss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ImportFormat__c-SBQQ__Import Format Layout"
 }

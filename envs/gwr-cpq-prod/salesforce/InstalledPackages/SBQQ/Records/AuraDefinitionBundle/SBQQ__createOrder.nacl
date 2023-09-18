@@ -11,4 +11,5 @@ salesforce.AuraDefinitionBundle SBQQ__createOrder {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__createOrder"
 }

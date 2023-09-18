@@ -11,4 +11,5 @@ salesforce.CustomTab SBQQ__ProductRule__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductRule__c"
 }

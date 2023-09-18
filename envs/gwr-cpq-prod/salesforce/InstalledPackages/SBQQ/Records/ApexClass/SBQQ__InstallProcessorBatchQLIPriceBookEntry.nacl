@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__InstallProcessorBatchQLIPriceBookEntry {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__InstallProcessorBatchQLIPriceBookEntry"
 }

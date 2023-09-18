@@ -40,4 +40,5 @@ salesforce.QuickAction SBQQ__NewCase {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__NewCase"
 }

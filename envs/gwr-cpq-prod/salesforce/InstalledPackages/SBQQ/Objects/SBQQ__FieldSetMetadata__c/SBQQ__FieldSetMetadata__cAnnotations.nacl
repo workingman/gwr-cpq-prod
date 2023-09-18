@@ -269,4 +269,5 @@ type salesforce.SBQQ__FieldSetMetadata__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "FieldSet Metadata (SBQQ)"
 }

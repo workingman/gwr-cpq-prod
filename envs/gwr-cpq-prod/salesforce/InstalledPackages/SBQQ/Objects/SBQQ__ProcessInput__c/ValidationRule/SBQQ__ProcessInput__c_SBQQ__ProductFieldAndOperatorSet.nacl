@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__ProcessInput__c_SBQQ__ProductFieldAndOperatorSet
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProcessInput__c.SBQQ__ProductFieldAndOperatorSet"
 }

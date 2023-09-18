@@ -15,4 +15,5 @@ salesforce.ApexTrigger SBQQ__CustomActionAfter {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__CustomActionAfter"
 }

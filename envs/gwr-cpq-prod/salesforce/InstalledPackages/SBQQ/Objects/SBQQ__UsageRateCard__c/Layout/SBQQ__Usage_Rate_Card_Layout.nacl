@@ -161,4 +161,5 @@ salesforce.Layout SBQQ__UsageRateCard__c_SBQQ__Usage_Rate_Card_Layout@uuuubuusss
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__UsageRateCard__c-SBQQ__Usage Rate Card Layout"
 }

@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__FieldSetMetadataDefaultBeforeTest {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__FieldSetMetadataDefaultBeforeTest"
 }

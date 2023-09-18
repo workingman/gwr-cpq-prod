@@ -8,4 +8,5 @@ salesforce.StaticResource SBQQ__DocumentGeneratorUI {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__DocumentGeneratorUI"
 }

@@ -96,4 +96,5 @@ salesforce.Layout SBQQ__DiscountCategory__c_SBQQ__Discount_Category_Layout@uuuub
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__DiscountCategory__c-SBQQ__Discount Category Layout"
 }

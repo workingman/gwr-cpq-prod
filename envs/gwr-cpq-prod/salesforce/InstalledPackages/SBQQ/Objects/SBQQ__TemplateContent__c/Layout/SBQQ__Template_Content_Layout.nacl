@@ -151,4 +151,5 @@ salesforce.Layout SBQQ__TemplateContent__c_SBQQ__Template_Content_Layout@uuuubuu
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__TemplateContent__c-SBQQ__Template Content Layout"
 }

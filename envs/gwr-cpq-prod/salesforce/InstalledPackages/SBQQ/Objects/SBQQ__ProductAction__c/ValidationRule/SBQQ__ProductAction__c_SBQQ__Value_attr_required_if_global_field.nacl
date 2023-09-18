@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__ProductAction__c_SBQQ__Value_attr_required_if_gl
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductAction__c.SBQQ__Value_attr_required_if_global_field"
 }

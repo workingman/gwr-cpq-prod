@@ -217,4 +217,5 @@ salesforce.Layout SBQQ__TemplateSection__c_SBQQ__Template_Section_Layout@uuuubuu
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__TemplateSection__c-SBQQ__Template Section Layout"
 }

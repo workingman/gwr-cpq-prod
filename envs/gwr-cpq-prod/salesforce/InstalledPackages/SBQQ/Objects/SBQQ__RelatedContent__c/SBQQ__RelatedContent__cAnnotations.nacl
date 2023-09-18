@@ -276,4 +276,5 @@ type salesforce.SBQQ__RelatedContent__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Additional Document (SBQQ)"
 }

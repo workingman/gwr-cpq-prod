@@ -268,4 +268,5 @@ type salesforce.SBQQ__CustomScript__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Custom Script (SBQQ)"
 }

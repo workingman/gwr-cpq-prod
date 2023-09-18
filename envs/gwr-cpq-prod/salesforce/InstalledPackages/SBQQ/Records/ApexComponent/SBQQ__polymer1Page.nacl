@@ -8,4 +8,5 @@ salesforce.ApexComponent SBQQ__polymer1Page {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "oldui (SBQQ)"
 }

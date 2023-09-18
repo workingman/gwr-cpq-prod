@@ -44,4 +44,5 @@ salesforce.FieldSet SBQQ__Subscription__c_SBQQ__SubscriptionSearchFilters {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Subscription Search Filters (SBQQ)"
 }

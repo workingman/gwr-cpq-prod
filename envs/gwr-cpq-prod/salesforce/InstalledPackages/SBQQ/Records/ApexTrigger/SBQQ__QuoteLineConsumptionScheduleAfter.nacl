@@ -15,4 +15,5 @@ salesforce.ApexTrigger SBQQ__QuoteLineConsumptionScheduleAfter {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteLineConsumptionScheduleAfter"
 }

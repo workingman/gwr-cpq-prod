@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__SettingsExtensionTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SettingsExtensionTests"
 }

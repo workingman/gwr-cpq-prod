@@ -17,4 +17,5 @@ salesforce.WebLink SBQQ__ProductRule__c_SBQQ__CloneWithRelatedClassic {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductRule__c.SBQQ__CloneWithRelatedClassic"
 }

@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__SObjectUtilsTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SObjectUtilsTests"
 }

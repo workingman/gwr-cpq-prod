@@ -121,4 +121,5 @@ salesforce.Layout SBQQ__ConfigurationAttribute__c_SBQQ__Configuration_Attribute_
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ConfigurationAttribute__c-SBQQ__Configuration Attribute Layout"
 }

@@ -8,4 +8,5 @@ salesforce.StaticResource SBQQ__AngularDnD {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__AngularDnD"
 }

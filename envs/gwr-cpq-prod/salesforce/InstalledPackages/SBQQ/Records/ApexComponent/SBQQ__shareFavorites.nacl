@@ -8,4 +8,5 @@ salesforce.ApexComponent SBQQ__shareFavorites {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "shareFavorites (SBQQ)"
 }

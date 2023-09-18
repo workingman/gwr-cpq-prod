@@ -12,4 +12,5 @@ salesforce.AuraDefinitionBundle SBQQ__SelectContractForQuote {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SelectContractForQuote"
 }

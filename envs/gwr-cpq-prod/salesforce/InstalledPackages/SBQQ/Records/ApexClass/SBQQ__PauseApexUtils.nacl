@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__PauseApexUtils {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__PauseApexUtils"
 }

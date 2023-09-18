@@ -8,4 +8,5 @@ salesforce.RemoteSiteSetting SBQQ__RestSbNA {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__RestSbNA"
 }

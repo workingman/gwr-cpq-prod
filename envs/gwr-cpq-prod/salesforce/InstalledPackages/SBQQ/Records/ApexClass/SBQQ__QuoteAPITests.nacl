@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__QuoteAPITests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__QuoteAPITests"
 }

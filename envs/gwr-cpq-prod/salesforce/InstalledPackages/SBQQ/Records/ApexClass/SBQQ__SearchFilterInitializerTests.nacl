@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__SearchFilterInitializerTests {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__SearchFilterInitializerTests"
 }

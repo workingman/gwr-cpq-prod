@@ -20,4 +20,5 @@ salesforce.GlobalValueSet SBQQ__BillingType {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__BillingType"
 }

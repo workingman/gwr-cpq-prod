@@ -267,4 +267,5 @@ type salesforce.SBQQ__AttributeSet__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Attribute Set (SBQQ)"
 }

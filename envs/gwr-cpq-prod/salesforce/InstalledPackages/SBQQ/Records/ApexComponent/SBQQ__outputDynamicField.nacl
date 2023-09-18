@@ -9,4 +9,5 @@ salesforce.ApexComponent SBQQ__outputDynamicField {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "outputDynamicField (SBQQ)"
 }

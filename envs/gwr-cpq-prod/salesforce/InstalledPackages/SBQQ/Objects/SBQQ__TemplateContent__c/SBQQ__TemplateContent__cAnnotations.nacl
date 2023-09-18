@@ -270,4 +270,5 @@ type salesforce.SBQQ__TemplateContent__c {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Template Content (SBQQ)"
 }

@@ -8,4 +8,5 @@ salesforce.CustomPermission SBQQ__CPQStandardPerm {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "CPQStandardPerm (SBQQ)"
 }

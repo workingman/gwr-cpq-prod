@@ -17,4 +17,5 @@ salesforce.WebLink SBQQ__Dimension__c_SBQQ__Translate {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__Dimension__c.SBQQ__Translate"
 }

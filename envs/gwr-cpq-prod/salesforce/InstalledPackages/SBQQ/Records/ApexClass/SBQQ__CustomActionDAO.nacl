@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__CustomActionDAO {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__CustomActionDAO"
 }

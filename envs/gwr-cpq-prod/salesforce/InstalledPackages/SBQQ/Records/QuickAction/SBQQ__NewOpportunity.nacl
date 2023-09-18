@@ -45,4 +45,5 @@ salesforce.QuickAction SBQQ__NewOpportunity {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__NewOpportunity"
 }

@@ -13,4 +13,5 @@ salesforce.ValidationRule SBQQ__ProductFeature__c_SBQQ__MinOptionValidation {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductFeature__c.SBQQ__MinOptionValidation"
 }

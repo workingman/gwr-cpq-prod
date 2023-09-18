@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__OrderObjectManager {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__OrderObjectManager"
 }

@@ -15,4 +15,5 @@ salesforce.ApexClass SBQQ__AutoProvisionUtil {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__AutoProvisionUtil"
 }

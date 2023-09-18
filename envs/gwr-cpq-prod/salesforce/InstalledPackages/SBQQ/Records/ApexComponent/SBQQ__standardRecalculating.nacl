@@ -8,4 +8,5 @@ salesforce.ApexComponent SBQQ__standardRecalculating {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "standardRecalculating (SBQQ)"
 }

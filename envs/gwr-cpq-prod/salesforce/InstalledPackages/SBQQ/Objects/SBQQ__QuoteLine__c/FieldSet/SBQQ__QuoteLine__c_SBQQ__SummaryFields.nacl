@@ -62,4 +62,5 @@ salesforce.FieldSet SBQQ__QuoteLine__c_SBQQ__SummaryFields {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "Summary Fields (SBQQ)"
 }

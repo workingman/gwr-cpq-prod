@@ -111,4 +111,5 @@ salesforce.Layout SBQQ__Favorite__c_SBQQ__Favorite_Layout@uuuubuus {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__Favorite__c-SBQQ__Favorite Layout"
 }

@@ -342,4 +342,5 @@ salesforce.Layout SBQQ__WebQuoteLine__c_SBQQ__Web_Quote_Line_Layout@uuuubuusss {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__WebQuoteLine__c-SBQQ__Web Quote Line Layout"
 }

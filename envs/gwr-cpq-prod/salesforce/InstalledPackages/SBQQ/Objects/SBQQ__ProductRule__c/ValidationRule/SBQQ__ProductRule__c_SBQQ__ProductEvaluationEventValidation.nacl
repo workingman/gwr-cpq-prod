@@ -12,4 +12,5 @@ salesforce.ValidationRule SBQQ__ProductRule__c_SBQQ__ProductEvaluationEventValid
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__ProductRule__c.SBQQ__ProductEvaluationEventValidation"
 }

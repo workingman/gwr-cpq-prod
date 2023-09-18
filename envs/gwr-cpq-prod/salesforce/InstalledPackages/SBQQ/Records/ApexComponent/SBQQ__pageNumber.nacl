@@ -8,4 +8,5 @@ salesforce.ApexComponent SBQQ__pageNumber {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "pageNumber (SBQQ)"
 }

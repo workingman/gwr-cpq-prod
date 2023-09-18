@@ -8,4 +8,5 @@ salesforce.ApexClass SBQQ__RuleTriggerControl {
       reference = salesforce.InstalledPackage.instance.SBQQ
     },
   ]
+  _alias = "SBQQ__RuleTriggerControl"
 }
