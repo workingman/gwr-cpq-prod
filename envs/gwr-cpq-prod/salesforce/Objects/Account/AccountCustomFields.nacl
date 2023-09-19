@@ -389,24 +389,9 @@ type salesforce.Account {
         label = "Silver"
       },
       {
-        fullName = "Copper"
+        fullName = "Bronze"
         default = true
-        label = "Copper"
-      },
-      {
-        fullName = "Platinum"
-        default = false
-        label = "Platinum"
-      },
-      {
-        fullName = "Titanium"
-        default = false
-        label = "Titanium"
-      },
-      {
-        fullName = "Tin"
-        default = false
-        label = "Tin"
+        label = "Bronze"
       },
     ]
     sorted = false
@@ -414,6 +399,7 @@ type salesforce.Account {
     createable = true
     updateable = true
     queryable = true
+    description = "snapshot diff"
   }
   salesforce.Picklist UpsellOpportunity__c {
     apiName = "Account.UpsellOpportunity__c"
