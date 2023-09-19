@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000090@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Mobile_Control_Center_App___MOBILECONTROLCENTER___Service@sssuuuuuu
+  SBQQ__UnitCost__c = 1
+  _alias = "COST-000090"
+}

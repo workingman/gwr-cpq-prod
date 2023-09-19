@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000029@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Projector___PROJECTOR___Hardware
+  SBQQ__UnitCost__c = 725
+  _alias = "COST-000029"
+}
