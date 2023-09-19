@@ -399,6 +399,7 @@ type salesforce.Account {
     createable = true
     updateable = true
     queryable = true
+    description = "snapshot diff"
   }
   salesforce.Picklist UpsellOpportunity__c {
     apiName = "Account.UpsellOpportunity__c"
