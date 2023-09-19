@@ -1,0 +1,68 @@
+name: Deploy to dev after merge
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  Run-Salto-Deployment:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:             
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install Salto CLI
+        run: |
+          curl https://cli.salto.io/release/1/linux-x64.tar.gz --output linux-x64.tar.gz
+          tar xvzf linux-x64.tar.gz
+
+      - name: Run Deploy to DEV
+        env: 
+          SALTO_API_TOKEN: ${{ secrets.SALTO_API_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GWR_GH_TOKEN }}
+        run: |
+
+          # This GHA variable was created during the preceding workflow when the Salto deployment was created. 
+          # It contains a list of branch:deploymentID pairs for all active branches
+          cat << EOF > tmpfile
+          ${{vars.SALTO_DEPL_ID}}
+          EOF
+
+          # parse the branch:deploymentID pairs to find this pull request's branch and the corresponding deployment ID
+          depl_id=$(grep "${{github.event.pull_request.head.ref}}" tmpfile | sed -e 's/^${{github.event.pull_request.head.ref}}\://')
+
+          #save the deployment ID to a file so I can use it in the next step
+          echo "$depl_id" > deployment_id.txt
+          
+          # run Salto deployment
+          ./salto-cloud deployment deploy -i $depl_id
+
+      # clean up vars.SALTO_DEPL_ID so it doesn't grow forever.  There is still a risk here that if this doesn't get run (if the
+      # deployment fails, for example), then the GHA variable will grow too large.  Improvement needed.
+      - name: Clean up GHA variable
+        env: 
+          SALTO_API_TOKEN: ${{ secrets.SALTO_API_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GWR_GH_TOKEN }}
+        run: |
+
+          body=$(grep -v "${{github.event.pull_request.head.ref}}" tmpfile)
+          gh variable set SALTO_DEPL_ID --body "$body"
+
+      - name: Create Deployment in UAT
+        env: 
+          SALTO_API_TOKEN: ${{ secrets.SALTO_API_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GWR_GH_TOKEN }}
+        run: |
+
+          # get deployment ID from previous step
+          depl_id="$(cat deployment_id.txt)"
+
+          # debug
+          cat ${{ github.event_path	}}
+
+          # interestingly, we could use 'from-pull-request' here instead.  think about this
+          ./salto-cloud deployment create from-deployments \
+            -E ${{vars.SALTO_UAT_ENV}} \
+            -i $depl_id \
+            -n "${{github.event.pull_request.title}}"  # *** improve the naming scheme, look in vars context variable
