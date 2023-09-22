@@ -4,4 +4,5 @@ salesforce.ApexClass gwr_class2 {
   fullName = "gwr_class2"
   content = file("salesforce/Records/ApexClass/gwr_class2.cls")
   
+  _alias = "gwr_class2"
 }

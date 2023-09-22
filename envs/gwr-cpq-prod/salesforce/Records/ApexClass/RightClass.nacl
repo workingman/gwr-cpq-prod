@@ -11,4 +11,5 @@ salesforce.ApexClass RightClass {
       reference = salesforce.ApexClass.instance.RightBClass
     },
   ]
+  _alias = "RightClass"
 }

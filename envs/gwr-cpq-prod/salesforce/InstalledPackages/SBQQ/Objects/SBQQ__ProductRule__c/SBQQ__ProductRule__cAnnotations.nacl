@@ -277,4 +277,5 @@ type salesforce.SBQQ__ProductRule__c {
     },
   ]
   
+  _alias = "Product Rule (SBQQ)"
 }

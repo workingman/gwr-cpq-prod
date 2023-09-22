@@ -3,4 +3,5 @@ salesforce.ApexClass LeftAClass {
   status = "Active"
   fullName = "LeftAClass"
   content = file("salesforce/Records/ApexClass/LeftAClass.cls")
+  _alias = "LeftAClass"
 }

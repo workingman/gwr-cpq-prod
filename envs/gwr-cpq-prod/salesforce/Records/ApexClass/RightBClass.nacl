@@ -3,4 +3,5 @@ salesforce.ApexClass RightBClass {
   status = "Active"
   fullName = "RightBClass"
   content = file("salesforce/Records/ApexClass/RightBClass.cls")
+  _alias = "RightBClass"
 }

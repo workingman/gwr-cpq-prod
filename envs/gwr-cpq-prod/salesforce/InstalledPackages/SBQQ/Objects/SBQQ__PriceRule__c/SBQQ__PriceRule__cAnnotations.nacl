@@ -289,4 +289,5 @@ type salesforce.SBQQ__PriceRule__c {
     },
   ]
   
+  _alias = "Price Rule (SBQQ)"
 }
