@@ -1,0 +1,7 @@
+salesforce.SBQQ__ProductFeature__c Desktop_Computer___DESKTOPCOMPUTER___Hardware___50___Output_Devices@suuuuuuuuuuuus {
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.Desktop_Computer___DESKTOPCOMPUTER___Hardware@suuuuuu
+  SBQQ__MinOptionCount__c = 0
+  SBQQ__Number__c = 50
+  Name = "Output Devices"
+  _alias = "DESKTOPCOMPUTER Hardware Desktop Computer Output Devices"
+}

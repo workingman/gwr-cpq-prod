@@ -1,0 +1,16 @@
+salesforce.ListView OutletLocale__c_All {
+  fullName = "OutletLocale__c.All"
+  columns = [
+    "NAME",
+    "OLCountry__c",
+    "OLProduct__c",
+    "OLType__c",
+    "OLRequired__c",
+  ]
+  filterScope = "Everything"
+  label = "All"
+  _parent = [
+    salesforce.OutletLocale__c,
+  ]
+  _alias = "All"
+}

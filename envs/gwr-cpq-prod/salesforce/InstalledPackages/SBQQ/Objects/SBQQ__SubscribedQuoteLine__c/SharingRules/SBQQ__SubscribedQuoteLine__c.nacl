@@ -1,0 +1,12 @@
+salesforce.SharingRules SBQQ__SubscribedQuoteLine__c {
+  fullName = "SBQQ__SubscribedQuoteLine__c"
+  _parent = [
+    salesforce.SBQQ__SubscribedQuoteLine__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "SBQQ__SubscribedQuoteLine__c"
+}
