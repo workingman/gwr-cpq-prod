@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000014@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.SSD_Hard_Drive_512GB___SSD512___Hardware@sssuuuuuu
+  SBQQ__UnitCost__c = 120
+  _alias = "COST-000014"
+}

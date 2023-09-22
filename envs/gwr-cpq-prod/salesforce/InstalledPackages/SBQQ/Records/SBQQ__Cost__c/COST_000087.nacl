@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000087@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Motion_Sensor___MOTIONSENSOR___Hardware@suuuuuu
+  SBQQ__UnitCost__c = 15
+  _alias = "COST-000087"
+}

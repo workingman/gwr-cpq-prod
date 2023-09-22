@@ -1,0 +1,17 @@
+salesforce.SBQQ__ProductOption__c PO_000024@b {
+  SBQQ__AppliedImmediately__c = false
+  SBQQ__Bundled__c = true
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.Desktop_Computer___DESKTOPCOMPUTER___Hardware@suuuuuu
+  SBQQ__DiscountedByPackage__c = false
+  SBQQ__Feature__c = salesforce.SBQQ__ProductFeature__c.instance.Desktop_Computer___DESKTOPCOMPUTER___Hardware___10___Processor@suuuuuuuuuuuu
+  SBQQ__Number__c = 10
+  SBQQ__OptionalSKU__c = salesforce.Product2.instance.CPU_2_8GHz_i7___CPU28GHZI7___Hardware@svsuuuuuu
+  SBQQ__QuantityEditable__c = false
+  SBQQ__Quantity__c = 1
+  SBQQ__Required__c = false
+  SBQQ__Selected__c = true
+  SBQQ__System__c = false
+  SBQQ__Type__c = "Component"
+  SBQQ__UpliftedByPackage__c = false
+  _alias = "PO-000024"
+}
