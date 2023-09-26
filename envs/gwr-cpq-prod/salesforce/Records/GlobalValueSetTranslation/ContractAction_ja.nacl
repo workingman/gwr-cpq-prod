@@ -1,3 +1,4 @@
 salesforce.GlobalValueSetTranslation ContractAction_ja@b {
   fullName = "ContractAction-ja"
+  _alias = "ContractAction-ja"
 }
