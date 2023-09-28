@@ -1,0 +1,12 @@
+salesforce.StaticResource SBQQ__Less {
+  cacheControl = "Private"
+  contentType = "text/javascript"
+  fullName = "SBQQ__Less"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__Less.resource")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "SBQQ__Less"
+}
