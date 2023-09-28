@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000032@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Printer_Maintenance_Kit___PRINTERMAINTKIT___Consumable@ssuuuuuu
+  SBQQ__UnitCost__c = 10
+  _alias = "COST-000032"
+}

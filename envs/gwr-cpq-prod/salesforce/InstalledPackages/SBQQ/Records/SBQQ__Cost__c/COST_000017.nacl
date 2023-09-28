@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000017@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.RAM_8GB___RAM8GB___Hardware@suuuuuu
+  SBQQ__UnitCost__c = 25
+  _alias = "COST-000017"
+}

@@ -1,0 +1,13 @@
+salesforce.StaticResource SBQQ__JSAR {
+  cacheControl = "Public"
+  contentType = "application/javascript"
+  description = "JSAR"
+  fullName = "SBQQ__JSAR"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__JSAR.js")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "SBQQ__JSAR"
+}
