@@ -1,0 +1,7 @@
+salesforce.ApexClass TriggerHandlerBase {
+  apiVersion = 52
+  status = "Active"
+  fullName = "TriggerHandlerBase"
+  content = file("salesforce/Records/ApexClass/TriggerHandlerBase.cls")
+  _alias = "TriggerHandlerBase"
+}
