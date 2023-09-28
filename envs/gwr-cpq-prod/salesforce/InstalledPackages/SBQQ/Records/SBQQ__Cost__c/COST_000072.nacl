@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000072@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Digital_Camera___DIGITALCAMERA___Hardware@suuuuuu
+  SBQQ__UnitCost__c = 375
+  _alias = "COST-000072"
+}

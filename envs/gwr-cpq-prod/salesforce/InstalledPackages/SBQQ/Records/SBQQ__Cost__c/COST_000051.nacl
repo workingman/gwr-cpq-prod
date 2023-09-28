@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000051@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.High_Capacity_Toner_Cartridge___HIGHCAPACITYTONER___Consumable@sssuuuuuu
+  SBQQ__UnitCost__c = 175
+  _alias = "COST-000051"
+}

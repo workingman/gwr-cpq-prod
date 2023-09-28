@@ -1,0 +1,12 @@
+salesforce.RemoteSiteSetting SBQQ__ProposalsEU {
+  fullName = "SBQQ__ProposalsEU"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://proposals-eu.steelbrick.com"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "SBQQ__ProposalsEU"
+}

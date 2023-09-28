@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000071@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.SD_Card_256GB___SDCARD256GB___Miscellaneous@ssuuuuuu
+  SBQQ__UnitCost__c = 65
+  _alias = "COST-000071"
+}
