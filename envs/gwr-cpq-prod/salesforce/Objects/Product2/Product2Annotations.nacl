@@ -239,4 +239,5 @@ type salesforce.Product2 {
     },
   ]
   
+  _alias = "Product"
 }
