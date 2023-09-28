@@ -1,0 +1,17 @@
+salesforce.SBQQ__ProductOption__c PO_000039@b {
+  SBQQ__AppliedImmediately__c = false
+  SBQQ__Bundled__c = false
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.Digital_Camera___DIGITALCAMERA___Hardware@suuuuuu
+  SBQQ__DiscountedByPackage__c = false
+  SBQQ__Feature__c = salesforce.SBQQ__ProductFeature__c.instance.Digital_Camera___DIGITALCAMERA___Hardware___10___Storage@suuuuuuuuuuuu
+  SBQQ__Number__c = 20
+  SBQQ__OptionalSKU__c = salesforce.Product2.instance.SD_Card_256GB___SDCARD256GB___Miscellaneous@ssuuuuuu
+  SBQQ__QuantityEditable__c = false
+  SBQQ__Quantity__c = 1
+  SBQQ__Required__c = false
+  SBQQ__Selected__c = false
+  SBQQ__System__c = false
+  SBQQ__Type__c = "Component"
+  SBQQ__UpliftedByPackage__c = false
+  _alias = "PO-000039"
+}

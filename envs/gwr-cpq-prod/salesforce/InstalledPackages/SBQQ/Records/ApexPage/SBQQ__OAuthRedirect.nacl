@@ -1,0 +1,14 @@
+salesforce.ApexPage SBQQ__OAuthRedirect {
+  apiVersion = 51
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "OAuthRedirect"
+  fullName = "SBQQ__OAuthRedirect"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__OAuthRedirect.page")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "OAuthRedirect (SBQQ)"
+}

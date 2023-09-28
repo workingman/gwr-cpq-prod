@@ -1,0 +1,12 @@
+salesforce.RemoteSiteSetting SBQQ__RestJP {
+  fullName = "SBQQ__RestJP"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://rest-jp.steelbrick.com"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "SBQQ__RestJP"
+}
