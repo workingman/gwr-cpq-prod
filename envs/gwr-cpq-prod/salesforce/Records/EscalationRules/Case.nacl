@@ -150,7 +150,7 @@ salesforce.EscalationRules Case {
           {
             field = salesforce.Account.field.SLA__c
             operation = "equals"
-            value = "Bronze"
+            value = "Copper"
           },
         ]
         escalationAction = {
