@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000055@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Interior_Badge_Reader___INTERIORBADGEREADER___Hardware@ssuuuuuu
+  SBQQ__UnitCost__c = 45
+  _alias = "COST-000055"
+}

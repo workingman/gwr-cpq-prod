@@ -1,0 +1,13 @@
+salesforce.StaticResource SBQQ__ResponsiveRendering {
+  cacheControl = "Public"
+  contentType = "application/javascript"
+  description = "ResponsiveRendering"
+  fullName = "SBQQ__ResponsiveRendering"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__ResponsiveRendering.js")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "SBQQ__ResponsiveRendering"
+}

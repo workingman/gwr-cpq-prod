@@ -1,0 +1,134 @@
+salesforce {
+  fetch = {
+    metadata = {
+      include = [
+        {
+          metadataType = ".*"
+          namespace = ""
+          name = ".*"
+        },
+        {
+          metadataType = ".*"
+          namespace = "SBQQ"
+          name = ".*"
+        },
+        {
+          metadataType = ".*"
+          namespace = "sbaa"
+          name = ".*"
+        },
+      ]
+      exclude = [
+        {
+          metadataType = "Report"
+        },
+        {
+          metadataType = "ReportType"
+        },
+        {
+          metadataType = "ReportFolder"
+        },
+        {
+          metadataType = "Dashboard"
+        },
+        {
+          metadataType = "DashboardFolder"
+        },
+        {
+          metadataType = "Document"
+        },
+        {
+          metadataType = "DocumentFolder"
+        },
+        {
+          metadataType = "Profile"
+        },
+        {
+          metadataType = "PermissionSet"
+        },
+        {
+          metadataType = "SiteDotCom"
+        },
+        {
+          metadataType = "EmailTemplate"
+          name = "MarketoEmailTemplates/.*"
+        },
+        {
+          metadataType = "ContentAsset"
+        },
+        {
+          metadataType = "CustomObjectTranslation"
+        },
+        {
+          metadataType = "AnalyticSnapshot"
+        },
+        {
+          metadataType = "WaveDashboard"
+        },
+        {
+          metadataType = "WaveDataflow"
+        },
+        {
+          metadataType = "StandardValueSet"
+          name = "^(AddressCountryCode)|(AddressStateCode)$"
+          namespace = ""
+        },
+        {
+          metadataType = "Layout"
+          name = "CollaborationGroup-Group Layout"
+        },
+        {
+          metadataType = "Layout"
+          name = "CaseInteraction-Case Feed Layout"
+        },
+        {
+          metadataType = "ConnectedApp"
+          name = "CPQIntegrationUserApp"
+        },
+      ]
+    }
+    data = {
+      includeObjects = [
+        "SBQQ__.*",
+        "sbaa__ApprovalChain__c",
+        "sbaa__ApprovalCondition__c",
+        "sbaa__ApprovalRule__c",
+        "sbaa__ApprovalVariable__c",
+        "sbaa__Approver__c",
+        "sbaa__EmailTemplate__c",
+        "sbaa__TrackedField__c",
+      ]
+      excludeObjects = [
+        "SBQQ__ContractedPrice__c",
+        "SBQQ__Quote__c",
+        "SBQQ__QuoteDocument__c",
+        "SBQQ__QuoteLine__c",
+        "SBQQ__QuoteLineGroup__c",
+        "SBQQ__Subscription__c",
+        "SBQQ__SubscribedAsset__c",
+        "SBQQ__SubscribedQuoteLine__c",
+        "SBQQ__SubscriptionConsumptionRate__c",
+        "SBQQ__SubscriptionConsumptionSchedule__c",
+        "SBQQ__WebQuote__c",
+        "SBQQ__WebQuoteLine__c",
+        "SBQQ__QuoteLineConsumptionSchedule__c",
+        "SBQQ__QuoteLineConsumptionRate__c",
+        "SBQQ__InstallProcessorLog__c",
+        "SBQQ__ProcessInputValue__c",
+        "SBQQ__RecordJob__c",
+        "SBQQ__TimingLog__c",
+      ]
+      allowReferenceTo = [
+        "Product2",
+        "Pricebook2",
+        "PricebookEntry",
+      ]
+      saltoIDSettings = {
+        defaultIdFields = [
+          "Id",
+        ]
+      }
+    }
+  }
+  maxItemsInRetrieveRequest = 2500
+}

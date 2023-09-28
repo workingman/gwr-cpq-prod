@@ -1,0 +1,7 @@
+salesforce.SBQQ__ProductFeature__c Home_Automation_Hub___HOMEAUTOMATIONHUB___Hardware___10___Lighting@ssuuuuuuuuuuuu {
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.Home_Automation_Hub___HOMEAUTOMATIONHUB___Hardware@ssuuuuuu
+  SBQQ__MinOptionCount__c = 0
+  SBQQ__Number__c = 10
+  Name = "Lighting"
+  _alias = "HOMEAUTOMATIONHUB Hardware Home Automation Hub Lighting"
+}
