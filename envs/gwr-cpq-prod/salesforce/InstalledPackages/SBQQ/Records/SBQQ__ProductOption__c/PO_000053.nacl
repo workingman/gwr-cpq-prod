@@ -1,0 +1,16 @@
+salesforce.SBQQ__ProductOption__c PO_000053@b {
+  SBQQ__AppliedImmediately__c = false
+  SBQQ__Bundled__c = false
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.Telecommuter_Workstation___TELEWORKSTATION___Hardware@suuuuuu
+  SBQQ__DiscountedByPackage__c = false
+  SBQQ__Feature__c = salesforce.SBQQ__ProductFeature__c.instance.Telecommuter_Workstation___TELEWORKSTATION___Hardware___10___System_Peripherals@suuuuuuuuuuuus
+  SBQQ__Number__c = 20
+  SBQQ__OptionalSKU__c = salesforce.Product2.instance.Mouse___MOUSE___Hardware
+  SBQQ__QuantityEditable__c = false
+  SBQQ__Required__c = true
+  SBQQ__Selected__c = false
+  SBQQ__System__c = false
+  SBQQ__Type__c = "Component"
+  SBQQ__UpliftedByPackage__c = false
+  _alias = "PO-000053"
+}

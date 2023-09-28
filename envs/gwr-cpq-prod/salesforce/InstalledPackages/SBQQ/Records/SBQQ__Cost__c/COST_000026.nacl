@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000026@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Router___ROUTER___Hardware
+  SBQQ__UnitCost__c = 70
+  _alias = "COST-000026"
+}

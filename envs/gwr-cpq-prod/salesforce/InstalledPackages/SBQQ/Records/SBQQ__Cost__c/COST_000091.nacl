@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000091@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Warranty_Extension___WARRANTYEXTENSION___Support@suuuuuu
+  SBQQ__UnitCost__c = 1
+  _alias = "COST-000091"
+}
