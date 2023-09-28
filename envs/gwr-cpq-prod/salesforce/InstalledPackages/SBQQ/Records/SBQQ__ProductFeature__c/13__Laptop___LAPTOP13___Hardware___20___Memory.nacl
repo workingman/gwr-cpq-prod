@@ -1,0 +1,9 @@
+salesforce.SBQQ__ProductFeature__c "13__Laptop___LAPTOP13___Hardware___20___Memory@rsuuuuuuuuuuuu" {
+  External_ID__c = "FE0005"
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.13__Laptop___LAPTOP13___Hardware@rsuuuuuu
+  SBQQ__MaxOptionCount__c = 1
+  SBQQ__MinOptionCount__c = 1
+  SBQQ__Number__c = 20
+  Name = "Memory"
+  _alias = "LAPTOP13 Hardware 13\" Laptop Memory"
+}

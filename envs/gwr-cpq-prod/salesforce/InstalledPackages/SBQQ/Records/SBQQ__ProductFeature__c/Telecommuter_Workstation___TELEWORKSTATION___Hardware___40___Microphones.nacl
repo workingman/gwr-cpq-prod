@@ -1,0 +1,7 @@
+salesforce.SBQQ__ProductFeature__c Telecommuter_Workstation___TELEWORKSTATION___Hardware___40___Microphones@suuuuuuuuuuuu {
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.Telecommuter_Workstation___TELEWORKSTATION___Hardware@suuuuuu
+  SBQQ__MinOptionCount__c = 0
+  SBQQ__Number__c = 40
+  Name = "Microphones"
+  _alias = "TELEWORKSTATION Hardware Telecommuter Workstation Microphones"
+}

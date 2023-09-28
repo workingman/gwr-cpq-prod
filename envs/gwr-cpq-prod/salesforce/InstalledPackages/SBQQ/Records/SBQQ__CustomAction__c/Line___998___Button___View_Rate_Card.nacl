@@ -1,0 +1,18 @@
+salesforce.SBQQ__CustomAction__c Line___998___Button___View_Rate_Card@uuuuuuuuuss {
+  SBQQ__Action__c = "View Rate Card"
+  SBQQ__Active__c = true
+  SBQQ__BrandButton__c = false
+  SBQQ__Class__c = "viewRateCardBtn"
+  SBQQ__ConditionsMet__c = "All"
+  SBQQ__Default__c = false
+  SBQQ__DisplayOrder__c = 998
+  SBQQ__EventHandlerName__c = "onViewRateCard"
+  SBQQ__IconClass__c = "sf-icon-trending"
+  SBQQ__Icon__c = "trending"
+  SBQQ__Label__c = "View Rate Card"
+  SBQQ__Location__c = "Line"
+  SBQQ__Page__c = "Quote Line Editor"
+  SBQQ__Type__c = "Button"
+  Name = "View Rate Card"
+  _alias = "View Rate Card"
+}
