@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000088@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Offsite_Video_Storage_1GB___OFFSITEVIDEOSTORAGE1GB___Service@sssuuuuuu
+  SBQQ__UnitCost__c = 0.25
+  _alias = "COST-000088"
+}

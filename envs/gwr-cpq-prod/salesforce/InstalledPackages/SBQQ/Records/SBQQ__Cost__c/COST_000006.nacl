@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000006@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Mouse___MOUSE___Hardware
+  SBQQ__UnitCost__c = 50
+  _alias = "COST-000006"
+}

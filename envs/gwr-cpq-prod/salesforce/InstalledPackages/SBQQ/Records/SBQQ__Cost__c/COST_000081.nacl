@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000081@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Deterrent_Window_Decal___DETERRENTWINDOWDECAL___Miscellaneous@ssuuuuuu
+  SBQQ__UnitCost__c = 0
+  _alias = "COST-000081"
+}

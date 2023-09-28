@@ -1,0 +1,9 @@
+salesforce.SBQQ__QuoteTerm__c QT_0005@b {
+  SBQQ__Active__c = true
+  SBQQ__Body__c = "<p>This quote is presented to the customer under the condition that it remains a valid quote until the expiration date of {!quote.SBQQ__ExpirationDate__c}, after which the quote becomes null and void.</p>"
+  SBQQ__ConditionsMet__c = "All"
+  SBQQ__Locked__c = true
+  SBQQ__PrintOrder__c = 60
+  SBQQ__Status__c = "Draft"
+  _alias = "QT-0005"
+}
