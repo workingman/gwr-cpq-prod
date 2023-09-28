@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000063@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Door_Sensor___DOORSENSOR___Hardware@suuuuuu
+  SBQQ__UnitCost__c = 25
+  _alias = "COST-000063"
+}

@@ -1,0 +1,12 @@
+salesforce.SharingRules SBQQ__PricingGuidance__c {
+  fullName = "SBQQ__PricingGuidance__c"
+  _parent = [
+    salesforce.SBQQ__PricingGuidance__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "SBQQ__PricingGuidance__c"
+}

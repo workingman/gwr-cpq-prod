@@ -1,0 +1,269 @@
+type salesforce.Opportunity {
+  salesforce.Text CurrentGenerators__c {
+    apiName = "Opportunity.CurrentGenerators__c"
+    externalId = false
+    label = "Current Generator(s)"
+    length = 100
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Picklist DeliveryInstallationStatus__c {
+    apiName = "Opportunity.DeliveryInstallationStatus__c"
+    externalId = false
+    label = "Delivery/Installation Status"
+    trackTrending = false
+    valueSet = [
+      {
+        fullName = "In progress"
+        default = false
+        label = "In progress"
+      },
+      {
+        fullName = "Yet to begin"
+        default = false
+        label = "Yet to begin"
+      },
+      {
+        fullName = "Completed"
+        default = false
+        label = "Completed"
+      },
+    ]
+    sorted = false
+    restricted = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text MainCompetitors__c {
+    apiName = "Opportunity.MainCompetitors__c"
+    externalId = false
+    label = "Main Competitor(s)"
+    length = 100
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Text OrderNumber__c {
+    apiName = "Opportunity.OrderNumber__c"
+    externalId = false
+    label = "Order Number"
+    length = 8
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Lookup SBQQ__AmendedContract__c {
+    apiName = "Opportunity.SBQQ__AmendedContract__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    description = "Indicates the relationship to your Amended Contract."
+    externalId = false
+    inlineHelpText = "Lookup to your Amended Contract."
+    label = "Amended Contract"
+    referenceTo = [
+      salesforce.Contract,
+    ]
+    relationshipLabel = "Amendment Opportunities"
+    relationshipName = "AmendmentOpportunities"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Checkbox SBQQ__Contracted__c {
+    apiName = "Opportunity.SBQQ__Contracted__c"
+    defaultValue = false
+    deprecated = false
+    description = "Internal flag used to kick off automatic asset and subscription conversion."
+    externalId = false
+    inlineHelpText = "Salesforce CPQ uses this field to automatically convert assets and subscriptions."
+    label = "Contracted"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Checkbox SBQQ__CreateContractedPrices__c {
+    apiName = "Opportunity.SBQQ__CreateContractedPrices__c"
+    defaultValue = false
+    deprecated = false
+    description = "Select this checkbox to create Contracted Prices without creating a Contract."
+    externalId = false
+    inlineHelpText = "Select this checkbox to create Contracted Prices without creating a Contract."
+    label = "Create Contracted Prices"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Text SBQQ__OrderGroupID__c {
+    apiName = "Opportunity.SBQQ__OrderGroupID__c"
+    deprecated = false
+    description = "The unique identifier for the Amend:Re-Quote transaction, which is the original primary quote's ID. This is not a reference."
+    externalId = false
+    inlineHelpText = "The unique identifier for the Amend:Re-Quote transaction, which is the original primary quote's ID."
+    label = "Order Group ID"
+    length = 255
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Checkbox SBQQ__Ordered__c {
+    apiName = "Opportunity.SBQQ__Ordered__c"
+    defaultValue = false
+    deprecated = false
+    description = "Internal flag that drives automatic order creation."
+    externalId = false
+    inlineHelpText = "Select this checkbox to automatically create an order from the primary quote."
+    label = "Ordered"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Lookup SBQQ__PrimaryQuote__c {
+    apiName = "Opportunity.SBQQ__PrimaryQuote__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    description = "Points to primary quote on this opportunity."
+    externalId = false
+    inlineHelpText = "Salesforce CPQ uses this to point to the primary quote on this opportunity."
+    label = "Primary Quote"
+    lookupFilter = {
+      active = true
+      filterItems = [
+        {
+          field = "$Source.Id"
+          operation = "equals"
+          valueField = "SBQQ__Quote__c.SBQQ__Opportunity2__c"
+        },
+      ]
+      isOptional = false
+    }
+    referenceTo = [
+      salesforce.SBQQ__Quote__c,
+    ]
+    relationshipLabel = "Opportunities"
+    relationshipName = "PrimaryOpportunities"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Text SBQQ__QuotePricebookId__c {
+    apiName = "Opportunity.SBQQ__QuotePricebookId__c"
+    deprecated = false
+    description = "Custom pricebook ID field that updates the standard Pricebook2Id field. Use to automatically drive pricebook selection from workflow rules."
+    externalId = false
+    label = "Quote Pricebook Id"
+    length = 18
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Checkbox SBQQ__Renewal__c {
+    apiName = "Opportunity.SBQQ__Renewal__c"
+    defaultValue = false
+    deprecated = false
+    description = "Indicates this opportunity is a renewal opportunity."
+    externalId = false
+    inlineHelpText = "Indicates this opportunity is a renewal opportunity."
+    label = "Renewal"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Lookup SBQQ__RenewedContract__c {
+    apiName = "Opportunity.SBQQ__RenewedContract__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    description = "Contract being renewed by this renewal opportunity. In case opportunity rolls up several contracts this points at the master contract."
+    externalId = false
+    inlineHelpText = "Contract being renewed by this renewal opportunity. If the several contracts roll up to this opportunity, this points at the master contract."
+    label = "Renewed Contract"
+    referenceTo = [
+      salesforce.Contract,
+    ]
+    relationshipLabel = "Renewal Opportunities"
+    relationshipName = "RenewalOpportunities"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Text TrackingNumber__c {
+    apiName = "Opportunity.TrackingNumber__c"
+    externalId = false
+    label = "Tracking Number"
+    length = 12
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+}
