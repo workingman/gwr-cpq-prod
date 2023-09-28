@@ -11,4 +11,5 @@ salesforce.ApexTrigger LeadTrigger {
       reference = salesforce.Lead
     },
   ]
+  _alias = "LeadTrigger"
 }
