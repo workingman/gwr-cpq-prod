@@ -1,0 +1,12 @@
+salesforce.RemoteSiteSetting SBQQ__RestSbEU {
+  fullName = "SBQQ__RestSbEU"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://rest-sb-eu.steelbrick.com"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "SBQQ__RestSbEU"
+}

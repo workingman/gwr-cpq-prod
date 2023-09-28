@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000065@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Optical_Drive___OPTICALDRIVE___Hardware@suuuuuu
+  SBQQ__UnitCost__c = 20
+  _alias = "COST-000065"
+}
