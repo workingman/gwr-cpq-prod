@@ -1,0 +1,16 @@
+salesforce.SBQQ__ProductOption__c PO_000072@b {
+  SBQQ__AppliedImmediately__c = false
+  SBQQ__Bundled__c = false
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.4K_Video_Camera___4KVIDEOCAM___Hardware@ssuuuuuu
+  SBQQ__DiscountedByPackage__c = false
+  SBQQ__Feature__c = salesforce.SBQQ__ProductFeature__c.instance.4K_Video_Camera___4KVIDEOCAM___Hardware___10___Basics@ssuuuuuuuuuuuu
+  SBQQ__Number__c = 10
+  SBQQ__OptionalSKU__c = salesforce.Product2.instance.Camera_Mount_Microphone___CAMERAMIC___Hardware@ssuuuuuu
+  SBQQ__QuantityEditable__c = false
+  SBQQ__Required__c = false
+  SBQQ__Selected__c = true
+  SBQQ__System__c = false
+  SBQQ__Type__c = "Component"
+  SBQQ__UpliftedByPackage__c = false
+  _alias = "PO-000072"
+}

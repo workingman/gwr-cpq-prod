@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000033@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Mini_DisplayPort_to_VGA_Adapter___MDPTOVGA___Miscellaneous@ssssuuuuuu
+  SBQQ__UnitCost__c = 20
+  _alias = "COST-000033"
+}

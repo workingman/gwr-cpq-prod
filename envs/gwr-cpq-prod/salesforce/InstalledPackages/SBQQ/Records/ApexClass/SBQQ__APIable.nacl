@@ -1,0 +1,12 @@
+salesforce.ApexClass SBQQ__APIable {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__APIable"
+  content = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "SBQQ__APIable"
+}

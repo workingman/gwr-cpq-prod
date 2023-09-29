@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000007@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Laser_Printer___LASERPRINTER___Hardware@suuuuuu
+  SBQQ__UnitCost__c = 200
+  _alias = "COST-000007"
+}
