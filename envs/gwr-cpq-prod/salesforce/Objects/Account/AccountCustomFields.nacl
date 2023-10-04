@@ -393,13 +393,28 @@ type salesforce.Account {
         default = true
         label = "Copper"
       },
+      {
+        fullName = "Platinum"
+        default = false
+        label = "Platinum"
+      },
+      {
+        fullName = "Titanium"
+        default = false
+        label = "Titanium"
+      },
+      {
+        fullName = "Tin"
+        default = false
+        label = "Tin"
+      },
     ]
     sorted = false
     restricted = false
     createable = true
     updateable = true
     queryable = true
-    description = "snapshot diff"
+    
   }
   salesforce.Picklist UpsellOpportunity__c {
     apiName = "Account.UpsellOpportunity__c"
@@ -448,6 +463,6 @@ type salesforce.Account {
     updateable = true
     caseSensitive = false
     queryable = true
-    description = "gwr status 20230918-155404"
+    
   }
 }
