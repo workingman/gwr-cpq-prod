@@ -465,4 +465,13 @@ type salesforce.Account {
     queryable = true
     
   }
+  salesforce.Checkbox GWR_new_checkbox__c {
+    apiName = "Account.GWR_new_checkbox__c"
+    label = "GWR new checkbox"
+    defaultValue = false
+    createable = true
+    updateable = true
+    queryable = true
+    externalId = false
+  }
 }
