@@ -22,4 +22,5 @@ salesforce.StandardValueSet ContractStatus {
       groupingString = "Draft"
     },
   ]
+  _alias = "ContractStatus"
 }

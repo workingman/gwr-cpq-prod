@@ -13,4 +13,5 @@ salesforce.OpportunitySettings {
   pushCountEnabled = "true"
   simpleOppCreateFromContact = "false"
   simpleOppCreateFromEvent = "false"
+  _alias = "Opportunity"
 }

@@ -1,3 +1,4 @@
 salesforce.MatchingRules Account {
   fullName = "Account"
+  _alias = "Account"
 }

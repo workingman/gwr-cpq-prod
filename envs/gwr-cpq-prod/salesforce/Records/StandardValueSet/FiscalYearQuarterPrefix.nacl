@@ -23,4 +23,5 @@ salesforce.StandardValueSet FiscalYearQuarterPrefix {
       label = "Trimester"
     },
   ]
+  _alias = "FiscalYearQuarterPrefix"
 }

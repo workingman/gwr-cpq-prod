@@ -3,4 +3,5 @@ salesforce.ContractSettings {
   autoCalculateEndDate = true
   enableContractHistoryTracking = false
   notifyOwnersOnContractExpiration = false
+  _alias = "Contract"
 }

@@ -25,4 +25,5 @@ salesforce.ActivitiesSettings {
   showEventDetailsMultiUserCalendar = false
   showHomePageHoverLinksForEvents = true
   showMyTasksHoverLinks = true
+  _alias = "Activities"
 }

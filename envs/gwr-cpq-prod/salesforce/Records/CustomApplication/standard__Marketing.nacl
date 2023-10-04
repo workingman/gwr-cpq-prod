@@ -16,4 +16,5 @@ salesforce.CustomApplication standard__Marketing {
     "standard-Dashboard",
   ]
   fullName = "standard__Marketing"
+  _alias = "standard__Marketing"
 }

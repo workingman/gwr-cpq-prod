@@ -90,4 +90,5 @@ salesforce.AppMenu AppSwitcher {
       type = "CustomApplication"
     },
   ]
+  _alias = "AppSwitcher"
 }

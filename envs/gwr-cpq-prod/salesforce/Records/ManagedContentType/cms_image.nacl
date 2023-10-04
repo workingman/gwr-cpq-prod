@@ -37,4 +37,5 @@ salesforce.ManagedContentType cms_image {
     },
   ]
   masterLabel = "Image"
+  _alias = "cms_image"
 }

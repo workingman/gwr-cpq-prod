@@ -63,4 +63,5 @@ salesforce.StandardValueSet CampaignType {
       label = "Other"
     },
   ]
+  _alias = "CampaignType"
 }

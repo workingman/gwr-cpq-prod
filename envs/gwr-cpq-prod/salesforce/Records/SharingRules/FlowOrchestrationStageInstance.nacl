@@ -1,3 +1,4 @@
 salesforce.SharingRules FlowOrchestrationStageInstance {
   fullName = "FlowOrchestrationStageInstance"
+  _alias = "FlowOrchestrationStageInstance"
 }

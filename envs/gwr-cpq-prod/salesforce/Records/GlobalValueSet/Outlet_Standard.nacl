@@ -29,4 +29,5 @@ salesforce.GlobalValueSet Outlet_Standard {
   ]
   masterLabel = "Outlet Standard"
   sorted = false
+  _alias = "Outlet_Standard"
 }

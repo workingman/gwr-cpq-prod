@@ -16,4 +16,5 @@ salesforce.CustomApplication standard__Community {
     "standard-Dashboard",
   ]
   fullName = "standard__Community"
+  _alias = "standard__Community"
 }

@@ -115,4 +115,5 @@ salesforce.Layout CommunityMemberLayout_Community_Member_Layout@bss {
   showRunAssignmentRulesCheckbox = false
   showSubmitAndAttachButton = false
   fullName = "CommunityMemberLayout-Community Member Layout"
+  _alias = "CommunityMemberLayout-Community Member Layout"
 }

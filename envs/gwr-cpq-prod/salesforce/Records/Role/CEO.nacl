@@ -6,4 +6,5 @@ salesforce.Role CEO {
   mayForecastManagerShare = false
   name = "CEO"
   opportunityAccessLevel = "Edit"
+  _alias = "CEO"
 }

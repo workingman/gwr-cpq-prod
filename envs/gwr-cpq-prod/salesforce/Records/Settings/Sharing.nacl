@@ -13,4 +13,5 @@ salesforce.SharingSettings {
   enableRestrictAccessLookupRecords = false
   enableSecureGuestAccess = false
   enableStandardReportVisibility = true
+  _alias = "Sharing"
 }

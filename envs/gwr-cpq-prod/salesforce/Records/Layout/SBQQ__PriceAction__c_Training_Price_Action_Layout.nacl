@@ -123,4 +123,5 @@ salesforce.Layout SBQQ__PriceAction__c_Training_Price_Action_Layout@uuuubsss {
   _parent = [
     salesforce.SBQQ__PriceAction__c,
   ]
+  _alias = "SBQQ__PriceAction__c-Training Price Action Layout"
 }

@@ -46,4 +46,5 @@ salesforce.StandardValueSet WorkOrderStatus {
       groupingString = "Canceled"
     },
   ]
+  _alias = "WorkOrderStatus"
 }

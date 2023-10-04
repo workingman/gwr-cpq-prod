@@ -28,4 +28,5 @@ salesforce.StandardValueSet TaskSubject {
       label = "Other"
     },
   ]
+  _alias = "TaskSubject"
 }

@@ -11,4 +11,5 @@ salesforce.CustomApplication standard__Platform {
     "standard-Dashboard",
   ]
   fullName = "standard__Platform"
+  _alias = "standard__Platform"
 }

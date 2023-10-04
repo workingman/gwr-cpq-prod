@@ -73,4 +73,5 @@ salesforce.Layout UserProvisioningLog_User_Provisioning_Log_Layout@bsss {
   showRunAssignmentRulesCheckbox = false
   showSubmitAndAttachButton = false
   fullName = "UserProvisioningLog-User Provisioning Log Layout"
+  _alias = "UserProvisioningLog-User Provisioning Log Layout"
 }

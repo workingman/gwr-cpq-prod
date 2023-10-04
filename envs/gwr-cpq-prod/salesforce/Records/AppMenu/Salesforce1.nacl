@@ -58,4 +58,5 @@ salesforce.AppMenu Salesforce1 {
       type = "StandardAppMenuItem"
     },
   ]
+  _alias = "Salesforce1"
 }

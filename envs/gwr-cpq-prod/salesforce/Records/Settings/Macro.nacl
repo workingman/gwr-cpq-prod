@@ -3,4 +3,5 @@ salesforce.MacroSettings {
   contextualMacroFiltering = "true"
   enableAdvancedSearch = false
   macrosInFolders = false
+  _alias = "Macro"
 }

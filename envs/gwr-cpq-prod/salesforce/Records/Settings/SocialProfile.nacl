@@ -5,4 +5,5 @@ salesforce.SocialProfileSettings {
   isLinkedInSocialProfilesDisabled = false
   isTwitterSocialProfilesDisabled = false
   isYouTubeSocialProfilesDisabled = false
+  _alias = "SocialProfile"
 }

@@ -38,4 +38,5 @@ salesforce.StandardValueSet QuickTextChannel {
       label = "Messaging"
     },
   ]
+  _alias = "QuickTextChannel"
 }

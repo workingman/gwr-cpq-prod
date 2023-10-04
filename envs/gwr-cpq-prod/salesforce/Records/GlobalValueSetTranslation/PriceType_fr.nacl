@@ -1,3 +1,4 @@
 salesforce.GlobalValueSetTranslation PriceType_fr@b {
   fullName = "PriceType-fr"
+  _alias = "PriceType-fr"
 }

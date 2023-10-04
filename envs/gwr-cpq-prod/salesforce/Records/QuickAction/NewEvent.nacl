@@ -55,4 +55,5 @@ salesforce.QuickAction NewEvent {
   standardLabel = "New"
   targetObject = salesforce.Event
   type = "Create"
+  _alias = "NewEvent"
 }

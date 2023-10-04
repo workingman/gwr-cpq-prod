@@ -12,4 +12,5 @@ salesforce.CustomApplication standard__LightningBolt {
   ]
   uiType = "Lightning"
   fullName = "standard__LightningBolt"
+  _alias = "LightningBolt (standard)"
 }

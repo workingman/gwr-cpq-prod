@@ -1,3 +1,4 @@
 salesforce.GlobalValueSetTranslation PaymentTerm_de@b {
   fullName = "PaymentTerm-de"
+  _alias = "PaymentTerm-de"
 }

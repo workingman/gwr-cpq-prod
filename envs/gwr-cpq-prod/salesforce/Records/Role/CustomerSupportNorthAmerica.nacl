@@ -7,4 +7,5 @@ salesforce.Role CustomerSupportNorthAmerica {
   name = "Customer Support, North America"
   opportunityAccessLevel = "Edit"
   parentRole = salesforce.Role.instance.SVPCustomerServiceSupport
+  _alias = "CustomerSupportNorthAmerica"
 }

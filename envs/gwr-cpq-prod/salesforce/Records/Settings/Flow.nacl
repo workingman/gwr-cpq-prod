@@ -25,4 +25,5 @@ salesforce.FlowSettings {
   isManageFlowRequiredForAutomationCharts = false
   isSupportRollbackOnErrorForApexInvocableActionsEnabled = "false"
   isTimeResumedInSameRunContext = "true"
+  _alias = "Flow"
 }

@@ -1,3 +1,4 @@
 salesforce.SharingRules LearningItem {
   fullName = "LearningItem"
+  _alias = "LearningItem"
 }

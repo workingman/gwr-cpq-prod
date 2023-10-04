@@ -37,4 +37,5 @@ salesforce.ManagedContentType cms_document {
     },
   ]
   masterLabel = "Document"
+  _alias = "cms_document"
 }

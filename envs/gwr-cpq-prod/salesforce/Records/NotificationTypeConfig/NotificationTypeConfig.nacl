@@ -240,4 +240,5 @@ salesforce.NotificationTypeConfig NotificationTypeConfig {
       notificationType = "wave_condition"
     },
   ]
+  _alias = "NotificationTypeConfig"
 }

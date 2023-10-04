@@ -23,4 +23,5 @@ salesforce.StandardValueSet AccountOwnership {
       label = "Other"
     },
   ]
+  _alias = "AccountOwnership"
 }

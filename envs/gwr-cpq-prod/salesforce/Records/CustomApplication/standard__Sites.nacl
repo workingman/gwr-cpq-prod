@@ -7,4 +7,5 @@ salesforce.CustomApplication standard__Sites {
     "standard-Chatter",
   ]
   fullName = "standard__Sites"
+  _alias = "standard__Sites"
 }

@@ -1,3 +1,4 @@
 salesforce.GlobalValueSetTranslation ContractingMethod_ja@b {
   fullName = "ContractingMethod-ja"
+  _alias = "ContractingMethod-ja"
 }

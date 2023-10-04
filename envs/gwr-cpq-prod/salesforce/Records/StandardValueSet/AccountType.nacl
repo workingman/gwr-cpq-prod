@@ -38,4 +38,5 @@ salesforce.StandardValueSet AccountType {
       label = "Other"
     },
   ]
+  _alias = "AccountType"
 }

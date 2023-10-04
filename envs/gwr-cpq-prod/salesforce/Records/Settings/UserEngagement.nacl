@@ -29,4 +29,5 @@ salesforce.UserEngagementSettings {
   isMeetTheAssistantDisabledInLightning = false
   isSmartNudgesDisabled = "false"
   optimizerAppEnabled = false
+  _alias = "UserEngagement"
 }

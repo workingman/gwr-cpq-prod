@@ -16,4 +16,5 @@ salesforce.StandardValueSet OrderStatus {
       groupingString = "Activated"
     },
   ]
+  _alias = "OrderStatus"
 }

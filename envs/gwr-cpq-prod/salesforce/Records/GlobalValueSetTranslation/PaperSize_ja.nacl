@@ -1,3 +1,4 @@
 salesforce.GlobalValueSetTranslation PaperSize_ja@b {
   fullName = "PaperSize-ja"
+  _alias = "PaperSize-ja"
 }

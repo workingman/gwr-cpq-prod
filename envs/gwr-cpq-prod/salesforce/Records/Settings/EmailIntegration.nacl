@@ -15,4 +15,5 @@ salesforce.EmailIntegrationSettings {
   isLayoutCustomizationAllowed = false
   orgIsSyncingEventsOutbound = "false"
   shouldUseTrustedDomainsList = true
+  _alias = "EmailIntegration"
 }

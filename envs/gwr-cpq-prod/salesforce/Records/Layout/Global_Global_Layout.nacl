@@ -116,4 +116,5 @@ salesforce.Layout Global_Global_Layout@bs {
   showRunAssignmentRulesCheckbox = false
   showSubmitAndAttachButton = false
   fullName = "Global-Global Layout"
+  _alias = "Global-Global Layout"
 }

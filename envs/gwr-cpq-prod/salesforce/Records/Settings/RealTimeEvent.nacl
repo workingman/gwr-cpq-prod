@@ -134,4 +134,5 @@ salesforce.RealTimeEventSettings {
       isEnabled = false
     },
   ]
+  _alias = "RealTimeEvent"
 }

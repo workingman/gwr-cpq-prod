@@ -10,4 +10,5 @@ salesforce.Queue Main_queue {
       sobjectType = "Lead"
     },
   ]
+  _alias = "Main_queue"
 }

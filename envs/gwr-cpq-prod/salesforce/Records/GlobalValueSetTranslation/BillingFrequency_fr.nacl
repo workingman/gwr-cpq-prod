@@ -1,3 +1,4 @@
 salesforce.GlobalValueSetTranslation BillingFrequency_fr@b {
   fullName = "BillingFrequency-fr"
+  _alias = "BillingFrequency-fr"
 }

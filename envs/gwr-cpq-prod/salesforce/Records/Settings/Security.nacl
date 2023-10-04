@@ -26,7 +26,7 @@ salesforce.SecuritySettings {
     allowUserCertBasedAuthenticationWithOcspValidation = false
     canConfirmEmailChangeInLightningCommunities = true
     canConfirmIdentityBySmsOnly = true
-    disableTimeoutWarning = false
+    disableTimeoutWarning = true
     enableBuiltInAuthenticator = false
     enableCSPOnEmail = true
     enableCSRFOnGet = true
@@ -65,7 +65,7 @@ salesforce.SecuritySettings {
     referrerPolicy = true
     referrerPolicyDirective = "origin-when-cross-origin"
     requireHttpOnly = false
-    sessionTimeout = "TwoHours"
+    sessionTimeout = "TwentyFourHours"
     sidToken3rdPartyAuraApp = false
     skipSFAWhenMFADirectUILogin = false
     useLocalStorageForLogoutUrl = false
@@ -77,4 +77,5 @@ salesforce.SecuritySettings {
     enableSamlLogin = false
     isLoginWithSalesforceCredentialsDisabled = false
   }
+  _alias = "Security"
 }

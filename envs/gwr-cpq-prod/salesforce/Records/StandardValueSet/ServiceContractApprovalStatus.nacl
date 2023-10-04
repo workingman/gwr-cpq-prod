@@ -18,4 +18,5 @@ salesforce.StandardValueSet ServiceContractApprovalStatus {
       label = "Activated"
     },
   ]
+  _alias = "ServiceContractApprovalStatus"
 }

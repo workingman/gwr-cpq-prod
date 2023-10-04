@@ -46,4 +46,5 @@ salesforce.StandardValueSet WorkOrderLineItemStatus {
       groupingString = "Canceled"
     },
   ]
+  _alias = "WorkOrderLineItemStatus"
 }

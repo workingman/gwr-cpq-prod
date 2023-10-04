@@ -23,4 +23,5 @@ salesforce.StandardValueSet WorkOrderPriority {
       label = "Critical"
     },
   ]
+  _alias = "WorkOrderPriority"
 }

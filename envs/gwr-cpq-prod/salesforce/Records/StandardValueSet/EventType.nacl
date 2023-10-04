@@ -23,4 +23,5 @@ salesforce.StandardValueSet EventType {
       label = "Call"
     },
   ]
+  _alias = "EventType"
 }

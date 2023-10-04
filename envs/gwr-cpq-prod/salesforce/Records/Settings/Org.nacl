@@ -3,4 +3,5 @@ salesforce.OrgSettings {
   enableMakeDeploymentsMandatory = "true"
   enableManageSelfServiceUsers = false
   enableRADeploymentAttributeOnly = "true"
+  _alias = "Org"
 }

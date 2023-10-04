@@ -3,4 +3,5 @@ salesforce.WebToXSettings {
   shouldHideRecordInfoInEmail = "false"
   webToCaseSpamFilter = "false"
   webToLeadSpamFilter = "false"
+  _alias = "WebToX"
 }

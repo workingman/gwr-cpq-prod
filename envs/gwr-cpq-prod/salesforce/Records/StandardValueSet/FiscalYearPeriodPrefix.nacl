@@ -23,4 +23,5 @@ salesforce.StandardValueSet FiscalYearPeriodPrefix {
       label = "Month"
     },
   ]
+  _alias = "FiscalYearPeriodPrefix"
 }

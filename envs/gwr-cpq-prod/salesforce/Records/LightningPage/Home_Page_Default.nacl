@@ -44,4 +44,5 @@ salesforce.LightningPage Home_Page_Default {
   }
   type = "HomePage"
   fullName = "Home_Page_Default"
+  _alias = "Home_Page_Default"
 }

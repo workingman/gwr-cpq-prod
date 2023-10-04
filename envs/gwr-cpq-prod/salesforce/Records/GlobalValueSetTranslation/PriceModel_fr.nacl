@@ -1,3 +1,4 @@
 salesforce.GlobalValueSetTranslation PriceModel_fr@b {
   fullName = "PriceModel-fr"
+  _alias = "PriceModel-fr"
 }

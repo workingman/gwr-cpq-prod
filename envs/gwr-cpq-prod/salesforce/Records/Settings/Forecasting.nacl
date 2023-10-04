@@ -240,15 +240,15 @@ salesforce.ForecastingSettings {
           label = "Last Modified Date"
         },
         {
-          field = "00N8c00000P4Ja2"
+          field = "Opportunity.SBQQ__AmendedContract__c"
           label = "Amended Contract"
         },
         {
-          field = "00N8c00000P4Ja3"
+          field = "Opportunity.SBQQ__Contracted__c"
           label = "Contracted"
         },
         {
-          field = "00N8c00000P4Ja4"
+          field = "Opportunity.SBQQ__CreateContractedPrices__c"
           label = "Create Contracted Prices"
         },
         {
@@ -264,11 +264,11 @@ salesforce.ForecastingSettings {
           label = "Main Competitor(s)"
         },
         {
-          field = "00N8c00000P4Ja6"
+          field = "Opportunity.SBQQ__Ordered__c"
           label = "Ordered"
         },
         {
-          field = "00N8c00000P4Ja5"
+          field = "Opportunity.SBQQ__OrderGroupID__c"
           label = "Order Group ID"
         },
         {
@@ -276,19 +276,19 @@ salesforce.ForecastingSettings {
           label = "Order Number"
         },
         {
-          field = "00N8c00000P4Ja7"
+          field = "Opportunity.SBQQ__PrimaryQuote__c"
           label = "Primary Quote"
         },
         {
-          field = "00N8c00000P4Ja8"
+          field = "Opportunity.SBQQ__QuotePricebookId__c"
           label = "Quote Pricebook Id"
         },
         {
-          field = "00N8c00000P4Ja9"
+          field = "Opportunity.SBQQ__Renewal__c"
           label = "Renewal"
         },
         {
-          field = "00N8c00000P4JaA"
+          field = "Opportunity.SBQQ__RenewedContract__c"
           label = "Renewed Contract"
         },
         {
@@ -332,19 +332,19 @@ salesforce.ForecastingSettings {
           "OPPORTUNITY.LAST_ACTIVITY",
           "OPPORTUNITY.CREATED_DATE",
           "OPPORTUNITY.LAST_UPDATE",
-          "00N8c00000P4Ja2",
-          "00N8c00000P4Ja3",
-          "00N8c00000P4Ja4",
+          "Opportunity.SBQQ__AmendedContract__c",
+          "Opportunity.SBQQ__Contracted__c",
+          "Opportunity.SBQQ__CreateContractedPrices__c",
           "Opportunity.CurrentGenerators__c",
           "Opportunity.DeliveryInstallationStatus__c",
           "Opportunity.MainCompetitors__c",
-          "00N8c00000P4Ja6",
-          "00N8c00000P4Ja5",
+          "Opportunity.SBQQ__Ordered__c",
+          "Opportunity.SBQQ__OrderGroupID__c",
           "Opportunity.OrderNumber__c",
-          "00N8c00000P4Ja7",
-          "00N8c00000P4Ja8",
-          "00N8c00000P4Ja9",
-          "00N8c00000P4JaA",
+          "Opportunity.SBQQ__PrimaryQuote__c",
+          "Opportunity.SBQQ__QuotePricebookId__c",
+          "Opportunity.SBQQ__Renewal__c",
+          "Opportunity.SBQQ__RenewedContract__c",
           "Opportunity.TrackingNumber__c",
         ]
       }
@@ -488,15 +488,15 @@ salesforce.ForecastingSettings {
           label = "Last Modified Date"
         },
         {
-          field = "00N8c00000P4Ja2"
+          field = "Opportunity.SBQQ__AmendedContract__c"
           label = "Amended Contract"
         },
         {
-          field = "00N8c00000P4Ja3"
+          field = "Opportunity.SBQQ__Contracted__c"
           label = "Contracted"
         },
         {
-          field = "00N8c00000P4Ja4"
+          field = "Opportunity.SBQQ__CreateContractedPrices__c"
           label = "Create Contracted Prices"
         },
         {
@@ -512,11 +512,11 @@ salesforce.ForecastingSettings {
           label = "Main Competitor(s)"
         },
         {
-          field = "00N8c00000P4Ja6"
+          field = "Opportunity.SBQQ__Ordered__c"
           label = "Ordered"
         },
         {
-          field = "00N8c00000P4Ja5"
+          field = "Opportunity.SBQQ__OrderGroupID__c"
           label = "Order Group ID"
         },
         {
@@ -524,19 +524,19 @@ salesforce.ForecastingSettings {
           label = "Order Number"
         },
         {
-          field = "00N8c00000P4Ja7"
+          field = "Opportunity.SBQQ__PrimaryQuote__c"
           label = "Primary Quote"
         },
         {
-          field = "00N8c00000P4Ja8"
+          field = "Opportunity.SBQQ__QuotePricebookId__c"
           label = "Quote Pricebook Id"
         },
         {
-          field = "00N8c00000P4Ja9"
+          field = "Opportunity.SBQQ__Renewal__c"
           label = "Renewal"
         },
         {
-          field = "00N8c00000P4JaA"
+          field = "Opportunity.SBQQ__RenewedContract__c"
           label = "Renewed Contract"
         },
         {
@@ -579,19 +579,19 @@ salesforce.ForecastingSettings {
           "OPPORTUNITY.LAST_ACTIVITY",
           "OPPORTUNITY.CREATED_DATE",
           "OPPORTUNITY.LAST_UPDATE",
-          "00N8c00000P4Ja2",
-          "00N8c00000P4Ja3",
-          "00N8c00000P4Ja4",
+          "Opportunity.SBQQ__AmendedContract__c",
+          "Opportunity.SBQQ__Contracted__c",
+          "Opportunity.SBQQ__CreateContractedPrices__c",
           "Opportunity.CurrentGenerators__c",
           "Opportunity.DeliveryInstallationStatus__c",
           "Opportunity.MainCompetitors__c",
-          "00N8c00000P4Ja6",
-          "00N8c00000P4Ja5",
+          "Opportunity.SBQQ__Ordered__c",
+          "Opportunity.SBQQ__OrderGroupID__c",
           "Opportunity.OrderNumber__c",
-          "00N8c00000P4Ja7",
-          "00N8c00000P4Ja8",
-          "00N8c00000P4Ja9",
-          "00N8c00000P4JaA",
+          "Opportunity.SBQQ__PrimaryQuote__c",
+          "Opportunity.SBQQ__QuotePricebookId__c",
+          "Opportunity.SBQQ__Renewal__c",
+          "Opportunity.SBQQ__RenewedContract__c",
           "Opportunity.TrackingNumber__c",
         ]
       }
@@ -739,15 +739,15 @@ salesforce.ForecastingSettings {
           label = "Last Modified Date"
         },
         {
-          field = "00N8c00000P4Ja2"
+          field = "Opportunity.SBQQ__AmendedContract__c"
           label = "Amended Contract"
         },
         {
-          field = "00N8c00000P4Ja3"
+          field = "Opportunity.SBQQ__Contracted__c"
           label = "Contracted"
         },
         {
-          field = "00N8c00000P4Ja4"
+          field = "Opportunity.SBQQ__CreateContractedPrices__c"
           label = "Create Contracted Prices"
         },
         {
@@ -763,11 +763,11 @@ salesforce.ForecastingSettings {
           label = "Main Competitor(s)"
         },
         {
-          field = "00N8c00000P4Ja6"
+          field = "Opportunity.SBQQ__Ordered__c"
           label = "Ordered"
         },
         {
-          field = "00N8c00000P4Ja5"
+          field = "Opportunity.SBQQ__OrderGroupID__c"
           label = "Order Group ID"
         },
         {
@@ -775,19 +775,19 @@ salesforce.ForecastingSettings {
           label = "Order Number"
         },
         {
-          field = "00N8c00000P4Ja7"
+          field = "Opportunity.SBQQ__PrimaryQuote__c"
           label = "Primary Quote"
         },
         {
-          field = "00N8c00000P4Ja8"
+          field = "Opportunity.SBQQ__QuotePricebookId__c"
           label = "Quote Pricebook Id"
         },
         {
-          field = "00N8c00000P4Ja9"
+          field = "Opportunity.SBQQ__Renewal__c"
           label = "Renewal"
         },
         {
-          field = "00N8c00000P4JaA"
+          field = "Opportunity.SBQQ__RenewedContract__c"
           label = "Renewed Contract"
         },
         {
@@ -831,19 +831,19 @@ salesforce.ForecastingSettings {
           "OPPORTUNITY.LAST_ACTIVITY",
           "OPPORTUNITY.CREATED_DATE",
           "OPPORTUNITY.LAST_UPDATE",
-          "00N8c00000P4Ja2",
-          "00N8c00000P4Ja3",
-          "00N8c00000P4Ja4",
+          "Opportunity.SBQQ__AmendedContract__c",
+          "Opportunity.SBQQ__Contracted__c",
+          "Opportunity.SBQQ__CreateContractedPrices__c",
           "Opportunity.CurrentGenerators__c",
           "Opportunity.DeliveryInstallationStatus__c",
           "Opportunity.MainCompetitors__c",
-          "00N8c00000P4Ja6",
-          "00N8c00000P4Ja5",
+          "Opportunity.SBQQ__Ordered__c",
+          "Opportunity.SBQQ__OrderGroupID__c",
           "Opportunity.OrderNumber__c",
-          "00N8c00000P4Ja7",
-          "00N8c00000P4Ja8",
-          "00N8c00000P4Ja9",
-          "00N8c00000P4JaA",
+          "Opportunity.SBQQ__PrimaryQuote__c",
+          "Opportunity.SBQQ__QuotePricebookId__c",
+          "Opportunity.SBQQ__Renewal__c",
+          "Opportunity.SBQQ__RenewedContract__c",
           "Opportunity.TrackingNumber__c",
         ]
       }
@@ -987,15 +987,15 @@ salesforce.ForecastingSettings {
           label = "Last Modified Date"
         },
         {
-          field = "00N8c00000P4Ja2"
+          field = "Opportunity.SBQQ__AmendedContract__c"
           label = "Amended Contract"
         },
         {
-          field = "00N8c00000P4Ja3"
+          field = "Opportunity.SBQQ__Contracted__c"
           label = "Contracted"
         },
         {
-          field = "00N8c00000P4Ja4"
+          field = "Opportunity.SBQQ__CreateContractedPrices__c"
           label = "Create Contracted Prices"
         },
         {
@@ -1011,11 +1011,11 @@ salesforce.ForecastingSettings {
           label = "Main Competitor(s)"
         },
         {
-          field = "00N8c00000P4Ja6"
+          field = "Opportunity.SBQQ__Ordered__c"
           label = "Ordered"
         },
         {
-          field = "00N8c00000P4Ja5"
+          field = "Opportunity.SBQQ__OrderGroupID__c"
           label = "Order Group ID"
         },
         {
@@ -1023,19 +1023,19 @@ salesforce.ForecastingSettings {
           label = "Order Number"
         },
         {
-          field = "00N8c00000P4Ja7"
+          field = "Opportunity.SBQQ__PrimaryQuote__c"
           label = "Primary Quote"
         },
         {
-          field = "00N8c00000P4Ja8"
+          field = "Opportunity.SBQQ__QuotePricebookId__c"
           label = "Quote Pricebook Id"
         },
         {
-          field = "00N8c00000P4Ja9"
+          field = "Opportunity.SBQQ__Renewal__c"
           label = "Renewal"
         },
         {
-          field = "00N8c00000P4JaA"
+          field = "Opportunity.SBQQ__RenewedContract__c"
           label = "Renewed Contract"
         },
         {
@@ -1078,19 +1078,19 @@ salesforce.ForecastingSettings {
           "OPPORTUNITY.LAST_ACTIVITY",
           "OPPORTUNITY.CREATED_DATE",
           "OPPORTUNITY.LAST_UPDATE",
-          "00N8c00000P4Ja2",
-          "00N8c00000P4Ja3",
-          "00N8c00000P4Ja4",
+          "Opportunity.SBQQ__AmendedContract__c",
+          "Opportunity.SBQQ__Contracted__c",
+          "Opportunity.SBQQ__CreateContractedPrices__c",
           "Opportunity.CurrentGenerators__c",
           "Opportunity.DeliveryInstallationStatus__c",
           "Opportunity.MainCompetitors__c",
-          "00N8c00000P4Ja6",
-          "00N8c00000P4Ja5",
+          "Opportunity.SBQQ__Ordered__c",
+          "Opportunity.SBQQ__OrderGroupID__c",
           "Opportunity.OrderNumber__c",
-          "00N8c00000P4Ja7",
-          "00N8c00000P4Ja8",
-          "00N8c00000P4Ja9",
-          "00N8c00000P4JaA",
+          "Opportunity.SBQQ__PrimaryQuote__c",
+          "Opportunity.SBQQ__QuotePricebookId__c",
+          "Opportunity.SBQQ__Renewal__c",
+          "Opportunity.SBQQ__RenewedContract__c",
           "Opportunity.TrackingNumber__c",
         ]
       }
@@ -1238,15 +1238,15 @@ salesforce.ForecastingSettings {
           label = "Last Modified Date"
         },
         {
-          field = "00N8c00000P4Ja2"
+          field = "Opportunity.SBQQ__AmendedContract__c"
           label = "Amended Contract"
         },
         {
-          field = "00N8c00000P4Ja3"
+          field = "Opportunity.SBQQ__Contracted__c"
           label = "Contracted"
         },
         {
-          field = "00N8c00000P4Ja4"
+          field = "Opportunity.SBQQ__CreateContractedPrices__c"
           label = "Create Contracted Prices"
         },
         {
@@ -1262,11 +1262,11 @@ salesforce.ForecastingSettings {
           label = "Main Competitor(s)"
         },
         {
-          field = "00N8c00000P4Ja6"
+          field = "Opportunity.SBQQ__Ordered__c"
           label = "Ordered"
         },
         {
-          field = "00N8c00000P4Ja5"
+          field = "Opportunity.SBQQ__OrderGroupID__c"
           label = "Order Group ID"
         },
         {
@@ -1274,19 +1274,19 @@ salesforce.ForecastingSettings {
           label = "Order Number"
         },
         {
-          field = "00N8c00000P4Ja7"
+          field = "Opportunity.SBQQ__PrimaryQuote__c"
           label = "Primary Quote"
         },
         {
-          field = "00N8c00000P4Ja8"
+          field = "Opportunity.SBQQ__QuotePricebookId__c"
           label = "Quote Pricebook Id"
         },
         {
-          field = "00N8c00000P4Ja9"
+          field = "Opportunity.SBQQ__Renewal__c"
           label = "Renewal"
         },
         {
-          field = "00N8c00000P4JaA"
+          field = "Opportunity.SBQQ__RenewedContract__c"
           label = "Renewed Contract"
         },
         {
@@ -1330,19 +1330,19 @@ salesforce.ForecastingSettings {
           "OPPORTUNITY.LAST_ACTIVITY",
           "OPPORTUNITY.CREATED_DATE",
           "OPPORTUNITY.LAST_UPDATE",
-          "00N8c00000P4Ja2",
-          "00N8c00000P4Ja3",
-          "00N8c00000P4Ja4",
+          "Opportunity.SBQQ__AmendedContract__c",
+          "Opportunity.SBQQ__Contracted__c",
+          "Opportunity.SBQQ__CreateContractedPrices__c",
           "Opportunity.CurrentGenerators__c",
           "Opportunity.DeliveryInstallationStatus__c",
           "Opportunity.MainCompetitors__c",
-          "00N8c00000P4Ja6",
-          "00N8c00000P4Ja5",
+          "Opportunity.SBQQ__Ordered__c",
+          "Opportunity.SBQQ__OrderGroupID__c",
           "Opportunity.OrderNumber__c",
-          "00N8c00000P4Ja7",
-          "00N8c00000P4Ja8",
-          "00N8c00000P4Ja9",
-          "00N8c00000P4JaA",
+          "Opportunity.SBQQ__PrimaryQuote__c",
+          "Opportunity.SBQQ__QuotePricebookId__c",
+          "Opportunity.SBQQ__Renewal__c",
+          "Opportunity.SBQQ__RenewedContract__c",
           "Opportunity.TrackingNumber__c",
         ]
       }
@@ -1486,15 +1486,15 @@ salesforce.ForecastingSettings {
           label = "Last Modified Date"
         },
         {
-          field = "00N8c00000P4Ja2"
+          field = "Opportunity.SBQQ__AmendedContract__c"
           label = "Amended Contract"
         },
         {
-          field = "00N8c00000P4Ja3"
+          field = "Opportunity.SBQQ__Contracted__c"
           label = "Contracted"
         },
         {
-          field = "00N8c00000P4Ja4"
+          field = "Opportunity.SBQQ__CreateContractedPrices__c"
           label = "Create Contracted Prices"
         },
         {
@@ -1510,11 +1510,11 @@ salesforce.ForecastingSettings {
           label = "Main Competitor(s)"
         },
         {
-          field = "00N8c00000P4Ja6"
+          field = "Opportunity.SBQQ__Ordered__c"
           label = "Ordered"
         },
         {
-          field = "00N8c00000P4Ja5"
+          field = "Opportunity.SBQQ__OrderGroupID__c"
           label = "Order Group ID"
         },
         {
@@ -1522,19 +1522,19 @@ salesforce.ForecastingSettings {
           label = "Order Number"
         },
         {
-          field = "00N8c00000P4Ja7"
+          field = "Opportunity.SBQQ__PrimaryQuote__c"
           label = "Primary Quote"
         },
         {
-          field = "00N8c00000P4Ja8"
+          field = "Opportunity.SBQQ__QuotePricebookId__c"
           label = "Quote Pricebook Id"
         },
         {
-          field = "00N8c00000P4Ja9"
+          field = "Opportunity.SBQQ__Renewal__c"
           label = "Renewal"
         },
         {
-          field = "00N8c00000P4JaA"
+          field = "Opportunity.SBQQ__RenewedContract__c"
           label = "Renewed Contract"
         },
         {
@@ -1577,19 +1577,19 @@ salesforce.ForecastingSettings {
           "OPPORTUNITY.LAST_ACTIVITY",
           "OPPORTUNITY.CREATED_DATE",
           "OPPORTUNITY.LAST_UPDATE",
-          "00N8c00000P4Ja2",
-          "00N8c00000P4Ja3",
-          "00N8c00000P4Ja4",
+          "Opportunity.SBQQ__AmendedContract__c",
+          "Opportunity.SBQQ__Contracted__c",
+          "Opportunity.SBQQ__CreateContractedPrices__c",
           "Opportunity.CurrentGenerators__c",
           "Opportunity.DeliveryInstallationStatus__c",
           "Opportunity.MainCompetitors__c",
-          "00N8c00000P4Ja6",
-          "00N8c00000P4Ja5",
+          "Opportunity.SBQQ__Ordered__c",
+          "Opportunity.SBQQ__OrderGroupID__c",
           "Opportunity.OrderNumber__c",
-          "00N8c00000P4Ja7",
-          "00N8c00000P4Ja8",
-          "00N8c00000P4Ja9",
-          "00N8c00000P4JaA",
+          "Opportunity.SBQQ__PrimaryQuote__c",
+          "Opportunity.SBQQ__QuotePricebookId__c",
+          "Opportunity.SBQQ__Renewal__c",
+          "Opportunity.SBQQ__RenewedContract__c",
           "Opportunity.TrackingNumber__c",
         ]
       }
@@ -1737,15 +1737,15 @@ salesforce.ForecastingSettings {
           label = "Last Modified Date"
         },
         {
-          field = "00N8c00000P4Ja2"
+          field = "Opportunity.SBQQ__AmendedContract__c"
           label = "Amended Contract"
         },
         {
-          field = "00N8c00000P4Ja3"
+          field = "Opportunity.SBQQ__Contracted__c"
           label = "Contracted"
         },
         {
-          field = "00N8c00000P4Ja4"
+          field = "Opportunity.SBQQ__CreateContractedPrices__c"
           label = "Create Contracted Prices"
         },
         {
@@ -1761,11 +1761,11 @@ salesforce.ForecastingSettings {
           label = "Main Competitor(s)"
         },
         {
-          field = "00N8c00000P4Ja6"
+          field = "Opportunity.SBQQ__Ordered__c"
           label = "Ordered"
         },
         {
-          field = "00N8c00000P4Ja5"
+          field = "Opportunity.SBQQ__OrderGroupID__c"
           label = "Order Group ID"
         },
         {
@@ -1773,19 +1773,19 @@ salesforce.ForecastingSettings {
           label = "Order Number"
         },
         {
-          field = "00N8c00000P4Ja7"
+          field = "Opportunity.SBQQ__PrimaryQuote__c"
           label = "Primary Quote"
         },
         {
-          field = "00N8c00000P4Ja8"
+          field = "Opportunity.SBQQ__QuotePricebookId__c"
           label = "Quote Pricebook Id"
         },
         {
-          field = "00N8c00000P4Ja9"
+          field = "Opportunity.SBQQ__Renewal__c"
           label = "Renewal"
         },
         {
-          field = "00N8c00000P4JaA"
+          field = "Opportunity.SBQQ__RenewedContract__c"
           label = "Renewed Contract"
         },
         {
@@ -1829,19 +1829,19 @@ salesforce.ForecastingSettings {
           "OPPORTUNITY.LAST_ACTIVITY",
           "OPPORTUNITY.CREATED_DATE",
           "OPPORTUNITY.LAST_UPDATE",
-          "00N8c00000P4Ja2",
-          "00N8c00000P4Ja3",
-          "00N8c00000P4Ja4",
+          "Opportunity.SBQQ__AmendedContract__c",
+          "Opportunity.SBQQ__Contracted__c",
+          "Opportunity.SBQQ__CreateContractedPrices__c",
           "Opportunity.CurrentGenerators__c",
           "Opportunity.DeliveryInstallationStatus__c",
           "Opportunity.MainCompetitors__c",
-          "00N8c00000P4Ja6",
-          "00N8c00000P4Ja5",
+          "Opportunity.SBQQ__Ordered__c",
+          "Opportunity.SBQQ__OrderGroupID__c",
           "Opportunity.OrderNumber__c",
-          "00N8c00000P4Ja7",
-          "00N8c00000P4Ja8",
-          "00N8c00000P4Ja9",
-          "00N8c00000P4JaA",
+          "Opportunity.SBQQ__PrimaryQuote__c",
+          "Opportunity.SBQQ__QuotePricebookId__c",
+          "Opportunity.SBQQ__Renewal__c",
+          "Opportunity.SBQQ__RenewedContract__c",
           "Opportunity.TrackingNumber__c",
         ]
       }
@@ -1985,15 +1985,15 @@ salesforce.ForecastingSettings {
           label = "Last Modified Date"
         },
         {
-          field = "00N8c00000P4Ja2"
+          field = "Opportunity.SBQQ__AmendedContract__c"
           label = "Amended Contract"
         },
         {
-          field = "00N8c00000P4Ja3"
+          field = "Opportunity.SBQQ__Contracted__c"
           label = "Contracted"
         },
         {
-          field = "00N8c00000P4Ja4"
+          field = "Opportunity.SBQQ__CreateContractedPrices__c"
           label = "Create Contracted Prices"
         },
         {
@@ -2009,11 +2009,11 @@ salesforce.ForecastingSettings {
           label = "Main Competitor(s)"
         },
         {
-          field = "00N8c00000P4Ja6"
+          field = "Opportunity.SBQQ__Ordered__c"
           label = "Ordered"
         },
         {
-          field = "00N8c00000P4Ja5"
+          field = "Opportunity.SBQQ__OrderGroupID__c"
           label = "Order Group ID"
         },
         {
@@ -2021,19 +2021,19 @@ salesforce.ForecastingSettings {
           label = "Order Number"
         },
         {
-          field = "00N8c00000P4Ja7"
+          field = "Opportunity.SBQQ__PrimaryQuote__c"
           label = "Primary Quote"
         },
         {
-          field = "00N8c00000P4Ja8"
+          field = "Opportunity.SBQQ__QuotePricebookId__c"
           label = "Quote Pricebook Id"
         },
         {
-          field = "00N8c00000P4Ja9"
+          field = "Opportunity.SBQQ__Renewal__c"
           label = "Renewal"
         },
         {
-          field = "00N8c00000P4JaA"
+          field = "Opportunity.SBQQ__RenewedContract__c"
           label = "Renewed Contract"
         },
         {
@@ -2076,19 +2076,19 @@ salesforce.ForecastingSettings {
           "OPPORTUNITY.LAST_ACTIVITY",
           "OPPORTUNITY.CREATED_DATE",
           "OPPORTUNITY.LAST_UPDATE",
-          "00N8c00000P4Ja2",
-          "00N8c00000P4Ja3",
-          "00N8c00000P4Ja4",
+          "Opportunity.SBQQ__AmendedContract__c",
+          "Opportunity.SBQQ__Contracted__c",
+          "Opportunity.SBQQ__CreateContractedPrices__c",
           "Opportunity.CurrentGenerators__c",
           "Opportunity.DeliveryInstallationStatus__c",
           "Opportunity.MainCompetitors__c",
-          "00N8c00000P4Ja6",
-          "00N8c00000P4Ja5",
+          "Opportunity.SBQQ__Ordered__c",
+          "Opportunity.SBQQ__OrderGroupID__c",
           "Opportunity.OrderNumber__c",
-          "00N8c00000P4Ja7",
-          "00N8c00000P4Ja8",
-          "00N8c00000P4Ja9",
-          "00N8c00000P4JaA",
+          "Opportunity.SBQQ__PrimaryQuote__c",
+          "Opportunity.SBQQ__QuotePricebookId__c",
+          "Opportunity.SBQQ__Renewal__c",
+          "Opportunity.SBQQ__RenewedContract__c",
           "Opportunity.TrackingNumber__c",
         ]
       }
@@ -2232,15 +2232,15 @@ salesforce.ForecastingSettings {
           label = "Last Modified Date"
         },
         {
-          field = "00N8c00000P4Ja2"
+          field = "Opportunity.SBQQ__AmendedContract__c"
           label = "Amended Contract"
         },
         {
-          field = "00N8c00000P4Ja3"
+          field = "Opportunity.SBQQ__Contracted__c"
           label = "Contracted"
         },
         {
-          field = "00N8c00000P4Ja4"
+          field = "Opportunity.SBQQ__CreateContractedPrices__c"
           label = "Create Contracted Prices"
         },
         {
@@ -2256,11 +2256,11 @@ salesforce.ForecastingSettings {
           label = "Main Competitor(s)"
         },
         {
-          field = "00N8c00000P4Ja6"
+          field = "Opportunity.SBQQ__Ordered__c"
           label = "Ordered"
         },
         {
-          field = "00N8c00000P4Ja5"
+          field = "Opportunity.SBQQ__OrderGroupID__c"
           label = "Order Group ID"
         },
         {
@@ -2268,19 +2268,19 @@ salesforce.ForecastingSettings {
           label = "Order Number"
         },
         {
-          field = "00N8c00000P4Ja7"
+          field = "Opportunity.SBQQ__PrimaryQuote__c"
           label = "Primary Quote"
         },
         {
-          field = "00N8c00000P4Ja8"
+          field = "Opportunity.SBQQ__QuotePricebookId__c"
           label = "Quote Pricebook Id"
         },
         {
-          field = "00N8c00000P4Ja9"
+          field = "Opportunity.SBQQ__Renewal__c"
           label = "Renewal"
         },
         {
-          field = "00N8c00000P4JaA"
+          field = "Opportunity.SBQQ__RenewedContract__c"
           label = "Renewed Contract"
         },
         {
@@ -2323,19 +2323,19 @@ salesforce.ForecastingSettings {
           "OPPORTUNITY.LAST_ACTIVITY",
           "OPPORTUNITY.CREATED_DATE",
           "OPPORTUNITY.LAST_UPDATE",
-          "00N8c00000P4Ja2",
-          "00N8c00000P4Ja3",
-          "00N8c00000P4Ja4",
+          "Opportunity.SBQQ__AmendedContract__c",
+          "Opportunity.SBQQ__Contracted__c",
+          "Opportunity.SBQQ__CreateContractedPrices__c",
           "Opportunity.CurrentGenerators__c",
           "Opportunity.DeliveryInstallationStatus__c",
           "Opportunity.MainCompetitors__c",
-          "00N8c00000P4Ja6",
-          "00N8c00000P4Ja5",
+          "Opportunity.SBQQ__Ordered__c",
+          "Opportunity.SBQQ__OrderGroupID__c",
           "Opportunity.OrderNumber__c",
-          "00N8c00000P4Ja7",
-          "00N8c00000P4Ja8",
-          "00N8c00000P4Ja9",
-          "00N8c00000P4JaA",
+          "Opportunity.SBQQ__PrimaryQuote__c",
+          "Opportunity.SBQQ__QuotePricebookId__c",
+          "Opportunity.SBQQ__Renewal__c",
+          "Opportunity.SBQQ__RenewedContract__c",
           "Opportunity.TrackingNumber__c",
         ]
       }
@@ -2479,15 +2479,15 @@ salesforce.ForecastingSettings {
           label = "Last Modified Date"
         },
         {
-          field = "00N8c00000P4Ja2"
+          field = "Opportunity.SBQQ__AmendedContract__c"
           label = "Amended Contract"
         },
         {
-          field = "00N8c00000P4Ja3"
+          field = "Opportunity.SBQQ__Contracted__c"
           label = "Contracted"
         },
         {
-          field = "00N8c00000P4Ja4"
+          field = "Opportunity.SBQQ__CreateContractedPrices__c"
           label = "Create Contracted Prices"
         },
         {
@@ -2503,11 +2503,11 @@ salesforce.ForecastingSettings {
           label = "Main Competitor(s)"
         },
         {
-          field = "00N8c00000P4Ja6"
+          field = "Opportunity.SBQQ__Ordered__c"
           label = "Ordered"
         },
         {
-          field = "00N8c00000P4Ja5"
+          field = "Opportunity.SBQQ__OrderGroupID__c"
           label = "Order Group ID"
         },
         {
@@ -2515,19 +2515,19 @@ salesforce.ForecastingSettings {
           label = "Order Number"
         },
         {
-          field = "00N8c00000P4Ja7"
+          field = "Opportunity.SBQQ__PrimaryQuote__c"
           label = "Primary Quote"
         },
         {
-          field = "00N8c00000P4Ja8"
+          field = "Opportunity.SBQQ__QuotePricebookId__c"
           label = "Quote Pricebook Id"
         },
         {
-          field = "00N8c00000P4Ja9"
+          field = "Opportunity.SBQQ__Renewal__c"
           label = "Renewal"
         },
         {
-          field = "00N8c00000P4JaA"
+          field = "Opportunity.SBQQ__RenewedContract__c"
           label = "Renewed Contract"
         },
         {
@@ -2570,19 +2570,19 @@ salesforce.ForecastingSettings {
           "OPPORTUNITY.LAST_ACTIVITY",
           "OPPORTUNITY.CREATED_DATE",
           "OPPORTUNITY.LAST_UPDATE",
-          "00N8c00000P4Ja2",
-          "00N8c00000P4Ja3",
-          "00N8c00000P4Ja4",
+          "Opportunity.SBQQ__AmendedContract__c",
+          "Opportunity.SBQQ__Contracted__c",
+          "Opportunity.SBQQ__CreateContractedPrices__c",
           "Opportunity.CurrentGenerators__c",
           "Opportunity.DeliveryInstallationStatus__c",
           "Opportunity.MainCompetitors__c",
-          "00N8c00000P4Ja6",
-          "00N8c00000P4Ja5",
+          "Opportunity.SBQQ__Ordered__c",
+          "Opportunity.SBQQ__OrderGroupID__c",
           "Opportunity.OrderNumber__c",
-          "00N8c00000P4Ja7",
-          "00N8c00000P4Ja8",
-          "00N8c00000P4Ja9",
-          "00N8c00000P4JaA",
+          "Opportunity.SBQQ__PrimaryQuote__c",
+          "Opportunity.SBQQ__QuotePricebookId__c",
+          "Opportunity.SBQQ__Renewal__c",
+          "Opportunity.SBQQ__RenewedContract__c",
           "Opportunity.TrackingNumber__c",
         ]
       }
@@ -2730,15 +2730,15 @@ salesforce.ForecastingSettings {
           label = "Last Modified Date"
         },
         {
-          field = "00N8c00000P4Ja2"
+          field = "Opportunity.SBQQ__AmendedContract__c"
           label = "Amended Contract"
         },
         {
-          field = "00N8c00000P4Ja3"
+          field = "Opportunity.SBQQ__Contracted__c"
           label = "Contracted"
         },
         {
-          field = "00N8c00000P4Ja4"
+          field = "Opportunity.SBQQ__CreateContractedPrices__c"
           label = "Create Contracted Prices"
         },
         {
@@ -2754,11 +2754,11 @@ salesforce.ForecastingSettings {
           label = "Main Competitor(s)"
         },
         {
-          field = "00N8c00000P4Ja6"
+          field = "Opportunity.SBQQ__Ordered__c"
           label = "Ordered"
         },
         {
-          field = "00N8c00000P4Ja5"
+          field = "Opportunity.SBQQ__OrderGroupID__c"
           label = "Order Group ID"
         },
         {
@@ -2766,19 +2766,19 @@ salesforce.ForecastingSettings {
           label = "Order Number"
         },
         {
-          field = "00N8c00000P4Ja7"
+          field = "Opportunity.SBQQ__PrimaryQuote__c"
           label = "Primary Quote"
         },
         {
-          field = "00N8c00000P4Ja8"
+          field = "Opportunity.SBQQ__QuotePricebookId__c"
           label = "Quote Pricebook Id"
         },
         {
-          field = "00N8c00000P4Ja9"
+          field = "Opportunity.SBQQ__Renewal__c"
           label = "Renewal"
         },
         {
-          field = "00N8c00000P4JaA"
+          field = "Opportunity.SBQQ__RenewedContract__c"
           label = "Renewed Contract"
         },
         {
@@ -2822,19 +2822,19 @@ salesforce.ForecastingSettings {
           "OPPORTUNITY.LAST_ACTIVITY",
           "OPPORTUNITY.CREATED_DATE",
           "OPPORTUNITY.LAST_UPDATE",
-          "00N8c00000P4Ja2",
-          "00N8c00000P4Ja3",
-          "00N8c00000P4Ja4",
+          "Opportunity.SBQQ__AmendedContract__c",
+          "Opportunity.SBQQ__Contracted__c",
+          "Opportunity.SBQQ__CreateContractedPrices__c",
           "Opportunity.CurrentGenerators__c",
           "Opportunity.DeliveryInstallationStatus__c",
           "Opportunity.MainCompetitors__c",
-          "00N8c00000P4Ja6",
-          "00N8c00000P4Ja5",
+          "Opportunity.SBQQ__Ordered__c",
+          "Opportunity.SBQQ__OrderGroupID__c",
           "Opportunity.OrderNumber__c",
-          "00N8c00000P4Ja7",
-          "00N8c00000P4Ja8",
-          "00N8c00000P4Ja9",
-          "00N8c00000P4JaA",
+          "Opportunity.SBQQ__PrimaryQuote__c",
+          "Opportunity.SBQQ__QuotePricebookId__c",
+          "Opportunity.SBQQ__Renewal__c",
+          "Opportunity.SBQQ__RenewedContract__c",
           "Opportunity.TrackingNumber__c",
         ]
       }
@@ -2978,15 +2978,15 @@ salesforce.ForecastingSettings {
           label = "Last Modified Date"
         },
         {
-          field = "00N8c00000P4Ja2"
+          field = "Opportunity.SBQQ__AmendedContract__c"
           label = "Amended Contract"
         },
         {
-          field = "00N8c00000P4Ja3"
+          field = "Opportunity.SBQQ__Contracted__c"
           label = "Contracted"
         },
         {
-          field = "00N8c00000P4Ja4"
+          field = "Opportunity.SBQQ__CreateContractedPrices__c"
           label = "Create Contracted Prices"
         },
         {
@@ -3002,11 +3002,11 @@ salesforce.ForecastingSettings {
           label = "Main Competitor(s)"
         },
         {
-          field = "00N8c00000P4Ja6"
+          field = "Opportunity.SBQQ__Ordered__c"
           label = "Ordered"
         },
         {
-          field = "00N8c00000P4Ja5"
+          field = "Opportunity.SBQQ__OrderGroupID__c"
           label = "Order Group ID"
         },
         {
@@ -3014,19 +3014,19 @@ salesforce.ForecastingSettings {
           label = "Order Number"
         },
         {
-          field = "00N8c00000P4Ja7"
+          field = "Opportunity.SBQQ__PrimaryQuote__c"
           label = "Primary Quote"
         },
         {
-          field = "00N8c00000P4Ja8"
+          field = "Opportunity.SBQQ__QuotePricebookId__c"
           label = "Quote Pricebook Id"
         },
         {
-          field = "00N8c00000P4Ja9"
+          field = "Opportunity.SBQQ__Renewal__c"
           label = "Renewal"
         },
         {
-          field = "00N8c00000P4JaA"
+          field = "Opportunity.SBQQ__RenewedContract__c"
           label = "Renewed Contract"
         },
         {
@@ -3069,19 +3069,19 @@ salesforce.ForecastingSettings {
           "OPPORTUNITY.LAST_ACTIVITY",
           "OPPORTUNITY.CREATED_DATE",
           "OPPORTUNITY.LAST_UPDATE",
-          "00N8c00000P4Ja2",
-          "00N8c00000P4Ja3",
-          "00N8c00000P4Ja4",
+          "Opportunity.SBQQ__AmendedContract__c",
+          "Opportunity.SBQQ__Contracted__c",
+          "Opportunity.SBQQ__CreateContractedPrices__c",
           "Opportunity.CurrentGenerators__c",
           "Opportunity.DeliveryInstallationStatus__c",
           "Opportunity.MainCompetitors__c",
-          "00N8c00000P4Ja6",
-          "00N8c00000P4Ja5",
+          "Opportunity.SBQQ__Ordered__c",
+          "Opportunity.SBQQ__OrderGroupID__c",
           "Opportunity.OrderNumber__c",
-          "00N8c00000P4Ja7",
-          "00N8c00000P4Ja8",
-          "00N8c00000P4Ja9",
-          "00N8c00000P4JaA",
+          "Opportunity.SBQQ__PrimaryQuote__c",
+          "Opportunity.SBQQ__QuotePricebookId__c",
+          "Opportunity.SBQQ__Renewal__c",
+          "Opportunity.SBQQ__RenewedContract__c",
           "Opportunity.TrackingNumber__c",
         ]
       }
@@ -3099,4 +3099,5 @@ salesforce.ForecastingSettings {
   globalQuotasSettings = {
     showQuotas = false
   }
+  _alias = "Forecasting"
 }

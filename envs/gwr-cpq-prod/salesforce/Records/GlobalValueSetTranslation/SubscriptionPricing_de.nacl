@@ -1,3 +1,4 @@
 salesforce.GlobalValueSetTranslation SubscriptionPricing_de@b {
   fullName = "SubscriptionPricing-de"
+  _alias = "SubscriptionPricing-de"
 }

@@ -54,4 +54,5 @@ salesforce.CustomApplication standard__LightningService {
     ]
   }
   fullName = "standard__LightningService"
+  _alias = "Service Console (standard)"
 }

@@ -63,4 +63,5 @@ salesforce.AnalyticsSettings {
   recipeStagedDataPref = "false"
   replaceBlankMeasuresWithNulls = false
   turnOnTimeZones = false
+  _alias = "Analytics"
 }

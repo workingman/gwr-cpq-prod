@@ -4,4 +4,5 @@ salesforce.SchemaSettings {
   enableAdvancedCSSecurity = true
   enableListCustomSettingCreation = false
   enableSOSLOnCustomSettings = false
+  _alias = "Schema"
 }

@@ -14,4 +14,5 @@ salesforce.ChatterSettings {
   enableRichLinkPreviewsInFeed = true
   enableTodayRecsInFeed = true
   unlistedGroupsEnabled = false
+  _alias = "Chatter"
 }

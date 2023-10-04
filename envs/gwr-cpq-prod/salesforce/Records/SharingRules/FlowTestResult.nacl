@@ -1,3 +1,4 @@
 salesforce.SharingRules FlowTestResult {
   fullName = "FlowTestResult"
+  _alias = "FlowTestResult"
 }

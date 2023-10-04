@@ -133,4 +133,5 @@ salesforce.FileUploadAndDownloadSecuritySettings {
     },
   ]
   noHtmlUploadAsAttachment = false
+  _alias = "FileUploadAndDownloadSecurity"
 }

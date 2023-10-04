@@ -1,3 +1,4 @@
 salesforce.GlobalValueSetTranslation ChargeType_ja@b {
   fullName = "ChargeType-ja"
+  _alias = "ChargeType-ja"
 }

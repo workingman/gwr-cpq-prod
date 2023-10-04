@@ -1,3 +1,4 @@
 salesforce.AutoResponseRules Lead {
   fullName = "Lead"
+  _alias = "Lead"
 }

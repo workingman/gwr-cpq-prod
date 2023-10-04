@@ -61,4 +61,5 @@ salesforce.LightningPage Training_Price_Rule_Page {
   _parent = [
     salesforce.SBQQ__PriceRule__c,
   ]
+  _alias = "Training_Price_Rule_Page"
 }

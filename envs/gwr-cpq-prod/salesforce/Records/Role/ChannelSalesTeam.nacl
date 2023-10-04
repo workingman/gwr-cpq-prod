@@ -7,4 +7,5 @@ salesforce.Role ChannelSalesTeam {
   name = "Channel Sales Team"
   opportunityAccessLevel = "Edit"
   parentRole = salesforce.Role.instance.DirectorChannelSales
+  _alias = "ChannelSalesTeam"
 }

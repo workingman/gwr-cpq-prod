@@ -1,3 +1,4 @@
 salesforce.SharingRules ListEmail {
   fullName = "ListEmail"
+  _alias = "ListEmail"
 }

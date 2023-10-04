@@ -5,4 +5,5 @@ salesforce.IncidentMgmtSettings {
   enableIncidentMgmt = "true"
   enableSiteBannerBroadcastType = "false"
   enableSlackBroadcastType = "false"
+  _alias = "IncidentMgmt"
 }

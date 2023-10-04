@@ -38,4 +38,5 @@ salesforce.StandardValueSet Product2Family {
       label = "Miscellaneous"
     },
   ]
+  _alias = "Product2Family"
 }

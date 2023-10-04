@@ -2,4 +2,5 @@ salesforce.QuoteSettings {
   fullName = "Quote"
   enableQuote = false
   enableQuotesWithoutOppEnabled = false
+  _alias = "Quote"
 }

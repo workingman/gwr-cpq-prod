@@ -18,4 +18,5 @@ salesforce.MyDomainSettings {
   useEnhancedDomainsInSandbox = "true"
   useStabilizedMyDomainHostnames = true
   useStabilizedSandboxMyDomainHostnames = true
+  _alias = "MyDomain"
 }

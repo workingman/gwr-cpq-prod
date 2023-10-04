@@ -81,4 +81,5 @@ salesforce.StandardValueSet PartnerRole {
       reverseRole = "Client"
     },
   ]
+  _alias = "PartnerRole"
 }

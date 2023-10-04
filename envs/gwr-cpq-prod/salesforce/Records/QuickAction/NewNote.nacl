@@ -30,4 +30,5 @@ salesforce.QuickAction NewNote {
   standardLabel = "New"
   targetObject = "Note"
   type = "Create"
+  _alias = "NewNote"
 }

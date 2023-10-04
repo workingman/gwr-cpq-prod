@@ -32,4 +32,5 @@ salesforce.LightningPage LightningSalesConsole_UtilityBar {
   }
   type = "UtilityBar"
   fullName = "LightningSalesConsole_UtilityBar"
+  _alias = "LightningSalesConsole_UtilityBar"
 }

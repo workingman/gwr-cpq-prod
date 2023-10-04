@@ -93,4 +93,5 @@ salesforce.StandardValueSet OpportunityStage {
       won = false
     },
   ]
+  _alias = "OpportunityStage"
 }

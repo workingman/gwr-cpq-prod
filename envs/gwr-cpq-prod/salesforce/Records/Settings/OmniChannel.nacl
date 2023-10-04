@@ -2,4 +2,5 @@ salesforce.OmniChannelSettings {
   fullName = "OmniChannel"
   enableOmniChannel = false
   enableOmniSkillsRouting = false
+  _alias = "OmniChannel"
 }

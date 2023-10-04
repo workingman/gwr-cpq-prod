@@ -6,4 +6,5 @@ salesforce.ChatterEmailsMDSettings {
   enableDisplayAppDownloadBadges = "true"
   enableEmailReplyToChatter = "true"
   enableEmailToChatter = "true"
+  _alias = "ChatterEmailsMD"
 }

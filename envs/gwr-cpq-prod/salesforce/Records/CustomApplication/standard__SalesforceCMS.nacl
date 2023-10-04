@@ -31,4 +31,5 @@ salesforce.CustomApplication standard__SalesforceCMS {
     ]
   }
   fullName = "standard__SalesforceCMS"
+  _alias = "Salesforce CMS (standard)"
 }

@@ -6,4 +6,5 @@ salesforce.ProfileSessionSetting PT1_profileSessionSetting1529513783866 {
   sessionPersistence = false
   sessionTimeout = 0
   sessionTimeoutWarning = false
+  _alias = "PT1_profileSessionSetting1529513783866"
 }

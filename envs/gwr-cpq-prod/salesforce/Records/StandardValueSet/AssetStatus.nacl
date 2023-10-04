@@ -28,4 +28,5 @@ salesforce.StandardValueSet AssetStatus {
       label = "Purchased"
     },
   ]
+  _alias = "AssetStatus"
 }

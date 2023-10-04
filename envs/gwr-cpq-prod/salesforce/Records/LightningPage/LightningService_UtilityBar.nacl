@@ -26,4 +26,5 @@ salesforce.LightningPage LightningService_UtilityBar {
   }
   type = "UtilityBar"
   fullName = "LightningService_UtilityBar"
+  _alias = "LightningService_UtilityBar"
 }

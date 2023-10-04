@@ -47,9 +47,27 @@ type salesforce.ContactPointPhone {
         default = false
       },
       {
+        fullName = "Pacific/Chatham"
+        isActive = true
+        label = "(GMT+13:45) Chatham Daylight Time (Pacific/Chatham)"
+        default = false
+      },
+      {
+        fullName = "Antarctica/McMurdo"
+        isActive = true
+        label = "(GMT+13:00) New Zealand Daylight Time (Antarctica/McMurdo)"
+        default = false
+      },
+      {
         fullName = "Pacific/Apia"
         isActive = true
         label = "(GMT+13:00) Apia Standard Time (Pacific/Apia)"
+        default = false
+      },
+      {
+        fullName = "Pacific/Auckland"
+        isActive = true
+        label = "(GMT+13:00) New Zealand Daylight Time (Pacific/Auckland)"
         default = false
       },
       {
@@ -71,18 +89,6 @@ type salesforce.ContactPointPhone {
         default = false
       },
       {
-        fullName = "Pacific/Chatham"
-        isActive = true
-        label = "(GMT+12:45) Chatham Standard Time (Pacific/Chatham)"
-        default = false
-      },
-      {
-        fullName = "Antarctica/McMurdo"
-        isActive = true
-        label = "(GMT+12:00) New Zealand Standard Time (Antarctica/McMurdo)"
-        default = false
-      },
-      {
         fullName = "Asia/Anadyr"
         isActive = true
         label = "(GMT+12:00) Anadyr Standard Time (Asia/Anadyr)"
@@ -92,12 +98,6 @@ type salesforce.ContactPointPhone {
         fullName = "Asia/Kamchatka"
         isActive = true
         label = "(GMT+12:00) Petropavlovsk-Kamchatski Standard Time (Asia/Kamchatka)"
-        default = false
-      },
-      {
-        fullName = "Pacific/Auckland"
-        isActive = true
-        label = "(GMT+12:00) New Zealand Standard Time (Pacific/Auckland)"
         default = false
       },
       {

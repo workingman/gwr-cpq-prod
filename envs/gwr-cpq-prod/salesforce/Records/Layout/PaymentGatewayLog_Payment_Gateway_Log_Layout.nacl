@@ -163,4 +163,5 @@ salesforce.Layout PaymentGatewayLog_Payment_Gateway_Log_Layout@bsss {
   showRunAssignmentRulesCheckbox = false
   showSubmitAndAttachButton = false
   fullName = "PaymentGatewayLog-Payment Gateway Log Layout"
+  _alias = "PaymentGatewayLog-Payment Gateway Log Layout"
 }

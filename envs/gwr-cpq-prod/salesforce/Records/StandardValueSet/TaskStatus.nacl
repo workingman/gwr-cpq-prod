@@ -33,4 +33,5 @@ salesforce.StandardValueSet TaskStatus {
       closed = false
     },
   ]
+  _alias = "TaskStatus"
 }

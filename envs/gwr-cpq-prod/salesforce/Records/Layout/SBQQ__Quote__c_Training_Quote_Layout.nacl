@@ -739,4 +739,5 @@ salesforce.Layout SBQQ__Quote__c_Training_Quote_Layout@uuuubss {
       reference = salesforce.ApexPage.instance.SBQQ__QuoteSave
     },
   ]
+  _alias = "SBQQ__Quote__c-Training Quote Layout"
 }

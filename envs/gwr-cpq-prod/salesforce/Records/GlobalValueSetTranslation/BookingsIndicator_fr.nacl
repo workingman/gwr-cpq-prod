@@ -1,3 +1,4 @@
 salesforce.GlobalValueSetTranslation BookingsIndicator_fr@b {
   fullName = "BookingsIndicator-fr"
+  _alias = "BookingsIndicator-fr"
 }

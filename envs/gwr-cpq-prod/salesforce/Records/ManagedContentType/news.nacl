@@ -36,4 +36,5 @@ salesforce.ManagedContentType news {
     },
   ]
   masterLabel = "News"
+  _alias = "news"
 }

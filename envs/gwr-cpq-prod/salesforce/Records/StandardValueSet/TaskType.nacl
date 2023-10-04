@@ -23,4 +23,5 @@ salesforce.StandardValueSet TaskType {
       label = "Email"
     },
   ]
+  _alias = "TaskType"
 }

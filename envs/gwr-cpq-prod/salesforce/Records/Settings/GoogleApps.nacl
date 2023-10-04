@@ -8,4 +8,5 @@ salesforce.GoogleAppsSettings {
   enableGoogleTalk = "false"
   googleAppsDomainLinked = "false"
   googleAppsDomainValidated = "false"
+  _alias = "GoogleApps"
 }

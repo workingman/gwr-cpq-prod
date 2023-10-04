@@ -14,4 +14,5 @@ salesforce.CustomApplication standard__Chatter {
     "standard-File",
   ]
   fullName = "standard__Chatter"
+  _alias = "standard__Chatter"
 }

@@ -261,4 +261,5 @@ salesforce.Layout SBQQ__PriceRule__c_Training_Price_Rule_Layout@uuuubsss {
   _parent = [
     salesforce.SBQQ__PriceRule__c,
   ]
+  _alias = "SBQQ__PriceRule__c-Training Price Rule Layout"
 }

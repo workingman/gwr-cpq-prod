@@ -61,4 +61,5 @@ salesforce.LightningPage Training_Discount_Schedule_Page {
   _parent = [
     salesforce.SBQQ__DiscountSchedule__c,
   ]
+  _alias = "Training_Discount_Schedule_Page"
 }

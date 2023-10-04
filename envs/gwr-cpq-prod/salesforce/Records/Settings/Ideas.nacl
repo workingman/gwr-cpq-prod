@@ -8,4 +8,5 @@ salesforce.IdeasSettings {
   enableIdeasControllerExtensions = false
   enableIdeasReputation = false
   halfLife = 2
+  _alias = "Ideas"
 }

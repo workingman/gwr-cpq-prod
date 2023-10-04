@@ -48,4 +48,5 @@ salesforce.StandardValueSet ContractContactRole {
       label = "Other"
     },
   ]
+  _alias = "ContractContactRole"
 }

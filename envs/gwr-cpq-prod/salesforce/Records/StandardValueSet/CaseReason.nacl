@@ -45,4 +45,5 @@ salesforce.StandardValueSet CaseReason {
       cssExposed = false
     },
   ]
+  _alias = "CaseReason"
 }

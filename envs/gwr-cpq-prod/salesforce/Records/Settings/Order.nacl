@@ -7,4 +7,5 @@ salesforce.OrderSettings {
   enableOrders = true
   enableReductionOrders = false
   enableZeroQuantity = false
+  _alias = "Order"
 }

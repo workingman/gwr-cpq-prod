@@ -5,4 +5,5 @@ salesforce.CompanySettings {
     fiscalYearNameBasedOn = "endingMonth"
     startMonth = "January"
   }
+  _alias = "Company"
 }

@@ -11,4 +11,5 @@ salesforce.HomePageLayout DE_Default@s {
     "standard-Tasks",
     "standard-ProcessWorkitems",
   ]
+  _alias = "DE Default"
 }

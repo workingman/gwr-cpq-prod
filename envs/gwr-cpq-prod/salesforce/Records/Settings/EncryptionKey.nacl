@@ -3,4 +3,5 @@ salesforce.EncryptionKeySettings {
   canOptOutOfDerivationWithBYOK = false
   enableCacheOnlyKeys = false
   enableReplayDetection = false
+  _alias = "EncryptionKey"
 }

@@ -1,3 +1,4 @@
 salesforce.GlobalValueSetTranslation SubscriptionType_es_MX@bu {
   fullName = "SubscriptionType-es_MX"
+  _alias = "SubscriptionType-es_MX"
 }

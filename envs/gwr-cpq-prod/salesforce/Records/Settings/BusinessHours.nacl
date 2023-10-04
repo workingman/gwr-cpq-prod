@@ -22,4 +22,5 @@ salesforce.BusinessHoursSettings {
       wednesdayStartTime = "00:00:00.000Z"
     }
   }
+  _alias = "BusinessHours"
 }

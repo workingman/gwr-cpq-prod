@@ -28,4 +28,5 @@ salesforce.StandardValueSet EventSubject {
       label = "Other"
     },
   ]
+  _alias = "EventSubject"
 }

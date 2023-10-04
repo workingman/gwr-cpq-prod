@@ -1,3 +1,4 @@
 salesforce.GlobalValueSetTranslation OrderProductStatus_de@b {
   fullName = "OrderProductStatus-de"
+  _alias = "OrderProductStatus-de"
 }

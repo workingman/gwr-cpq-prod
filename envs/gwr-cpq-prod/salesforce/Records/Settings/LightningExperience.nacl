@@ -37,4 +37,5 @@ salesforce.LightningExperienceSettings {
   isLEXExtensionDarkModeOff = false
   isLEXExtensionLinkGrabberOff = false
   isLEXExtensionOff = false
+  _alias = "LightningExperience"
 }

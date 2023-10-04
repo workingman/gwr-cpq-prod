@@ -3,4 +3,5 @@ salesforce.OauthOidcSettings {
   blockOAuthUnPwFlow = "false"
   blockOAuthUsrAgtFlow = "false"
   oAuthCdCrdtFlowEnable = "false"
+  _alias = "OauthOidc"
 }

@@ -28,4 +28,5 @@ salesforce.StandardValueSet LeadSource {
       label = "Other"
     },
   ]
+  _alias = "LeadSource"
 }

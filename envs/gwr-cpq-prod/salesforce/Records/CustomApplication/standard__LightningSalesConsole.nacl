@@ -69,4 +69,5 @@ salesforce.CustomApplication standard__LightningSalesConsole {
     ]
   }
   fullName = "standard__LightningSalesConsole"
+  _alias = "Sales Console (standard)"
 }

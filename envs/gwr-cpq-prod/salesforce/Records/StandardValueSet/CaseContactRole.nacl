@@ -23,4 +23,5 @@ salesforce.StandardValueSet CaseContactRole {
       label = "Other"
     },
   ]
+  _alias = "CaseContactRole"
 }

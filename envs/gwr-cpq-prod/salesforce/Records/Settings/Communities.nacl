@@ -13,4 +13,5 @@ salesforce.CommunitiesSettings {
   enableOotbProfExtUserOpsEnable = false
   enablePRMAccRelPref = false
   enableRelaxPartnerAccountFieldPref = false
+  _alias = "Communities"
 }

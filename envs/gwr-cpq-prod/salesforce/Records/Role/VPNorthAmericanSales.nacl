@@ -7,4 +7,5 @@ salesforce.Role VPNorthAmericanSales {
   name = "VP, North American Sales"
   opportunityAccessLevel = "Edit"
   parentRole = salesforce.Role.instance.SVPSalesMarketing
+  _alias = "VPNorthAmericanSales"
 }

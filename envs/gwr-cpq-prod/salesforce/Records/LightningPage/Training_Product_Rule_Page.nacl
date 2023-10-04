@@ -61,4 +61,5 @@ salesforce.LightningPage Training_Product_Rule_Page {
   _parent = [
     salesforce.SBQQ__ProductRule__c,
   ]
+  _alias = "Training_Product_Rule_Page"
 }

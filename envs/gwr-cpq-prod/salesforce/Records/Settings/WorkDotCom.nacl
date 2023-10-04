@@ -8,4 +8,5 @@ salesforce.WorkDotComSettings {
   enableWorkCertification = "false"
   enableWorkCertificationNotification = "false"
   enableWorkThanksPref = "false"
+  _alias = "WorkDotCom"
 }

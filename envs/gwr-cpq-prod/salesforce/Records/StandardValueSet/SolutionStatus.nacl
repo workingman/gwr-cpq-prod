@@ -21,4 +21,5 @@ salesforce.StandardValueSet SolutionStatus {
       reviewed = false
     },
   ]
+  _alias = "SolutionStatus"
 }

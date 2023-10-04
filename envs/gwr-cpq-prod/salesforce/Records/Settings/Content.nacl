@@ -20,4 +20,5 @@ salesforce.ContentSettings {
   setValidContentTypeForAtchDocDownload = "false"
   skipContentAssetTriggers = false
   skipContentAssetTriggersOnDeploy = true
+  _alias = "Content"
 }

@@ -1,4 +1,5 @@
 salesforce.StandardValueSet SocialPostEngagementLevel {
   fullName = "SocialPostEngagementLevel"
   sorted = false
+  _alias = "SocialPostEngagementLevel"
 }

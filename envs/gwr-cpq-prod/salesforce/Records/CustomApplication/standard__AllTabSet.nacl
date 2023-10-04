@@ -4,4 +4,5 @@ salesforce.CustomApplication standard__AllTabSet {
   isNavPersonalizationDisabled = false
   isNavTabPersistenceDisabled = false
   fullName = "standard__AllTabSet"
+  _alias = "standard__AllTabSet"
 }

@@ -163,4 +163,5 @@ salesforce.StandardValueSet Industry {
       label = "Other"
     },
   ]
+  _alias = "Industry"
 }

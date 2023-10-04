@@ -139,4 +139,5 @@ salesforce.LightningPage Training_Quote_Template_Page {
   _parent = [
     salesforce.SBQQ__QuoteTemplate__c,
   ]
+  _alias = "Training_Quote_Template_Page"
 }

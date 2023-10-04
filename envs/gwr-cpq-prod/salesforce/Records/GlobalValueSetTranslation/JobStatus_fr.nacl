@@ -1,3 +1,4 @@
 salesforce.GlobalValueSetTranslation JobStatus_fr@b {
   fullName = "JobStatus-fr"
+  _alias = "JobStatus-fr"
 }

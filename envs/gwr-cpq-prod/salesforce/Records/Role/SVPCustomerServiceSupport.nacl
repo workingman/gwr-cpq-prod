@@ -7,4 +7,5 @@ salesforce.Role SVPCustomerServiceSupport {
   name = "SVP, Customer Service & Support"
   opportunityAccessLevel = "Edit"
   parentRole = salesforce.Role.instance.CEO
+  _alias = "SVPCustomerServiceSupport"
 }

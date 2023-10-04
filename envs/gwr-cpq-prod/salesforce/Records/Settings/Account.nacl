@@ -5,4 +5,5 @@ salesforce.AccountSettings {
   enableContactHistoryTracking = false
   enableRelateContactToMultipleAccounts = false
   showViewHierarchyLink = true
+  _alias = "Account"
 }

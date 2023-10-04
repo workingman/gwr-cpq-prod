@@ -15,4 +15,5 @@ salesforce.ApexSettings {
   enableNonCertifiedApexMdCrud = false
   enableRestrictCommunityExecAnon = "false"
   enableSecureNoArgConstructorPref = false
+  _alias = "Apex"
 }

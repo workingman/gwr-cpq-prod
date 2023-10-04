@@ -385,4 +385,5 @@ salesforce.Layout SBQQ__DiscountSchedule__c_Training_Discount_Schedule_Layout@uu
   _parent = [
     salesforce.SBQQ__DiscountSchedule__c,
   ]
+  _alias = "SBQQ__DiscountSchedule__c-Training Discount Schedule Layout"
 }

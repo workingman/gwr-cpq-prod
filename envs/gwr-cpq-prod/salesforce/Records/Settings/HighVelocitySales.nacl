@@ -11,4 +11,5 @@ salesforce.HighVelocitySalesSettings {
   enableLogTasksForLinkedInPref = "false"
   enableOpportunityAttributionPermPref = "false"
   enableTaskLoggingPref = "false"
+  _alias = "HighVelocitySales"
 }

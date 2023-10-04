@@ -266,4 +266,5 @@ salesforce.Layout SBQQ__ProductOption__c_Training_Product_Option_Layout@uuuubsss
   _parent = [
     salesforce.SBQQ__ProductOption__c,
   ]
+  _alias = "SBQQ__ProductOption__c-Training Product Option Layout"
 }

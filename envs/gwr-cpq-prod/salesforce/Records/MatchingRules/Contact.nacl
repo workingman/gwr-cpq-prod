@@ -1,3 +1,4 @@
 salesforce.MatchingRules Contact {
   fullName = "Contact"
+  _alias = "Contact"
 }

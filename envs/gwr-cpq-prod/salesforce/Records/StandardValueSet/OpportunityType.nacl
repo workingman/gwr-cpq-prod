@@ -23,4 +23,5 @@ salesforce.StandardValueSet OpportunityType {
       label = "New Customer"
     },
   ]
+  _alias = "OpportunityType"
 }

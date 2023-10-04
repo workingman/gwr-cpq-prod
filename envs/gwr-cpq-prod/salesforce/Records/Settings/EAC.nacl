@@ -8,4 +8,5 @@ salesforce.EACSettings {
   enableInsightsInTimelineEacStd = false
   provisionProductivityFeatures = false
   syncInternalEvents = "true"
+  _alias = "EAC"
 }

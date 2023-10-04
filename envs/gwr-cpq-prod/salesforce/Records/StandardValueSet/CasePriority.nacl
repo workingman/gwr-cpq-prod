@@ -18,4 +18,5 @@ salesforce.StandardValueSet CasePriority {
       label = "Low"
     },
   ]
+  _alias = "CasePriority"
 }

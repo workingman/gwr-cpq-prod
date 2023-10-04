@@ -23,4 +23,5 @@ salesforce.StandardValueSet CampaignMemberStatus {
       label = "Sent"
     },
   ]
+  _alias = "CampaignMemberStatus"
 }

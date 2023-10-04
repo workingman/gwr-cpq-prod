@@ -3,4 +3,5 @@ salesforce.AccountIntelligenceSettings {
   enableAccountLogos = false
   enableAutomatedAccountFields = false
   enableNewsStories = false
+  _alias = "AccountIntelligence"
 }

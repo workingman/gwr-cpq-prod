@@ -1,3 +1,4 @@
 salesforce.GlobalValueSetTranslation BillingType_ja@b {
   fullName = "BillingType-ja"
+  _alias = "BillingType-ja"
 }

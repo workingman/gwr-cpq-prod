@@ -21,4 +21,5 @@ salesforce.StandardValueSet TaskPriority {
       highPriority = false
     },
   ]
+  _alias = "TaskPriority"
 }

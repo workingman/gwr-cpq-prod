@@ -36,4 +36,5 @@ salesforce.CustomApplication standard__LightningSales {
       reference = salesforce.LightningPage.instance.LightningSales_UtilityBar
     },
   ]
+  _alias = "Sales (standard)"
 }

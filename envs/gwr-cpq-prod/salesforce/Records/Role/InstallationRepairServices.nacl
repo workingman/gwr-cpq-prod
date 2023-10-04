@@ -7,4 +7,5 @@ salesforce.Role InstallationRepairServices {
   name = "Installation & Repair Services"
   opportunityAccessLevel = "Edit"
   parentRole = salesforce.Role.instance.SVPCustomerServiceSupport
+  _alias = "InstallationRepairServices"
 }

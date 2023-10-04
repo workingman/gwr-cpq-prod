@@ -18,4 +18,5 @@ salesforce.StandardValueSet QuickTextCategory {
       label = "Closings"
     },
   ]
+  _alias = "QuickTextCategory"
 }

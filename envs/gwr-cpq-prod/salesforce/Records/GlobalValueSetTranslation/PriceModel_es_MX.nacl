@@ -1,3 +1,4 @@
 salesforce.GlobalValueSetTranslation PriceModel_es_MX@bu {
   fullName = "PriceModel-es_MX"
+  _alias = "PriceModel-es_MX"
 }

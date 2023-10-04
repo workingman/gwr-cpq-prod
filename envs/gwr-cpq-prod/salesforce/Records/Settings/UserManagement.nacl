@@ -15,4 +15,5 @@ salesforce.UserManagementSettings {
   psaExpirationUIEnabled = "true"
   restrictedProfileCloning = "false"
   userAccessPoliciesEnabled = "false"
+  _alias = "UserManagement"
 }

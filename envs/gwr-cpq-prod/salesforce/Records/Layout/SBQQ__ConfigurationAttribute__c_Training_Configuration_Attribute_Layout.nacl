@@ -149,4 +149,5 @@ salesforce.Layout SBQQ__ConfigurationAttribute__c_Training_Configuration_Attribu
   _parent = [
     salesforce.SBQQ__ConfigurationAttribute__c,
   ]
+  _alias = "SBQQ__ConfigurationAttribute__c-Training Configuration Attribute Layout"
 }

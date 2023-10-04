@@ -13,4 +13,5 @@ salesforce.EntitlementSettings {
   entitlementLookupLimitedToSameAsset = false
   entitlementLookupLimitedToSameContact = false
   ignoreMilestoneBusinessHours = false
+  _alias = "Entitlement"
 }

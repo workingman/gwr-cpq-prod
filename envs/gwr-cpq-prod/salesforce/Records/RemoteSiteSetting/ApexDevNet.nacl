@@ -3,4 +3,5 @@ salesforce.RemoteSiteSetting ApexDevNet {
   disableProtocolSecurity = false
   isActive = true
   url = "http://www.apexdevnet.com"
+  _alias = "ApexDevNet"
 }

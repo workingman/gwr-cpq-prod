@@ -13,4 +13,5 @@ salesforce.CustomApplication standard__Content {
     "standard-ContentSubscriptions",
   ]
   fullName = "standard__Content"
+  _alias = "standard__Content"
 }

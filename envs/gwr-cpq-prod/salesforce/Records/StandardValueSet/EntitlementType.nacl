@@ -13,4 +13,5 @@ salesforce.StandardValueSet EntitlementType {
       label = "Web Support"
     },
   ]
+  _alias = "EntitlementType"
 }

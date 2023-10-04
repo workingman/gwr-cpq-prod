@@ -34,4 +34,5 @@ salesforce.EntitlementProcess standard_case@s {
       useCriteriaStartTime = false
     },
   ]
+  _alias = "standard case"
 }

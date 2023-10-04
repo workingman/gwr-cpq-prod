@@ -8,4 +8,5 @@ salesforce.Territory2Settings {
   t2ForecastAccessLevel = "Read"
   tm2BypassRealignAccInsert = false
   tm2EnableUserAssignmentLog = false
+  _alias = "Territory2"
 }

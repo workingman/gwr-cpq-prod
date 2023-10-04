@@ -7,4 +7,5 @@ salesforce.Role SVPHumanResources {
   name = "SVP, Human Resources"
   opportunityAccessLevel = "Edit"
   parentRole = salesforce.Role.instance.CEO
+  _alias = "SVPHumanResources"
 }

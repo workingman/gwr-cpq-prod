@@ -145,4 +145,5 @@ salesforce.LightningPage Training_Quote_Page {
   _parent = [
     salesforce.SBQQ__Quote__c,
   ]
+  _alias = "Training_Quote_Page"
 }

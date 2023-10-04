@@ -42,4 +42,5 @@ salesforce.QuickAction NewAccount {
   standardLabel = "New"
   targetObject = salesforce.Account
   type = "Create"
+  _alias = "NewAccount"
 }
