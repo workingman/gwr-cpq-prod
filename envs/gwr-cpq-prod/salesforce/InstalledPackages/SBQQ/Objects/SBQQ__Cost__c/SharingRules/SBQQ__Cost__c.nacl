@@ -1,0 +1,12 @@
+salesforce.SharingRules SBQQ__Cost__c {
+  fullName = "SBQQ__Cost__c"
+  _parent = [
+    salesforce.SBQQ__Cost__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "SBQQ__Cost__c"
+}

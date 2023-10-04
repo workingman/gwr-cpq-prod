@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000028@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Monitor_1080p___MONITOR1080P___Hardware@suuuuuu
+  SBQQ__UnitCost__c = 150
+  _alias = "COST-000028"
+}

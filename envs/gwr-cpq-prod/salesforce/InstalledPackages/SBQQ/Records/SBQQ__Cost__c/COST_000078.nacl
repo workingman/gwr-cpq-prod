@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000078@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Smartphone_Wireless_Charger___SMARTPHONEWIRELESSCHARGER___Miscellaneous@ssuuuuuu
+  SBQQ__UnitCost__c = 30
+  _alias = "COST-000078"
+}
