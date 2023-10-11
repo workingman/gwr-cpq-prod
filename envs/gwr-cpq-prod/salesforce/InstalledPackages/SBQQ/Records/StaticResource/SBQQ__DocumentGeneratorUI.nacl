@@ -1,0 +1,12 @@
+salesforce.StaticResource SBQQ__DocumentGeneratorUI {
+  cacheControl = "Private"
+  contentType = "text/javascript"
+  fullName = "SBQQ__DocumentGeneratorUI"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__DocumentGeneratorUI.resource")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "SBQQ__DocumentGeneratorUI"
+}

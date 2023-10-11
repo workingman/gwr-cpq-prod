@@ -1,0 +1,12 @@
+salesforce.SharingRules SBQQ__RecordJob__c {
+  fullName = "SBQQ__RecordJob__c"
+  _parent = [
+    salesforce.SBQQ__RecordJob__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "SBQQ__RecordJob__c"
+}

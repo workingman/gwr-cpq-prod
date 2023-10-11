@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000041@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Smartphone_Case___SMARTPHONECASE___Miscellaneous@suuuuuu
+  SBQQ__UnitCost__c = 5
+  _alias = "COST-000041"
+}
