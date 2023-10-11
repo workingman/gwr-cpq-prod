@@ -1,0 +1,18 @@
+salesforce.ApexClass AccountController {
+  apiVersion = 58
+  status = "Active"
+  fullName = "AccountController"
+  content = file("salesforce/Records/ApexClass/AccountController.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.Account.field.Active__c
+    },
+    {
+      reference = salesforce.Account.field.SLA__c
+    },
+  ]
+  _alias = "AccountController"
+}
