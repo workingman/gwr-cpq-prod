@@ -37,7 +37,7 @@ salesforce.AssignmentRules Case {
             {
               field = salesforce.Account.field.SLA__c
               operation = "equals"
-              value = "Silver,Bronze"
+              value = "Silver,Copper"
             },
             {
               field = salesforce.Account.field.Type
@@ -79,7 +79,7 @@ salesforce.AssignmentRules Case {
             {
               field = salesforce.Account.field.SLA__c
               operation = "equals"
-              value = "Silver,Bronze"
+              value = "Silver,Copper"
             },
             {
               field = salesforce.Account.field.Type
