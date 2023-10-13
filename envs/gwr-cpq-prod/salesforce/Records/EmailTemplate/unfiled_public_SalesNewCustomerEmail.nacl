@@ -9,4 +9,5 @@ salesforce.EmailTemplate unfiled_public_SalesNewCustomerEmail@zcd {
   uiType = "Aloha"
   fullName = "unfiled$public/SalesNewCustomerEmail"
   content = file("salesforce/Records/EmailTemplate/unfiled$public/SalesNewCustomerEmail/SalesNewCustomerEmail.email")
+  _alias = "unfiled$public/SalesNewCustomerEmail"
 }

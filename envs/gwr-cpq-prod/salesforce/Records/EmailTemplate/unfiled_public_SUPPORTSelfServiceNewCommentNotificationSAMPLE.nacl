@@ -9,4 +9,5 @@ salesforce.EmailTemplate unfiled_public_SUPPORTSelfServiceNewCommentNotification
   uiType = "Aloha"
   fullName = "unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE"
   content = file("salesforce/Records/EmailTemplate/unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE/SUPPORTSelfServiceNewCommentNotificationSAMPLE.email")
+  _alias = "unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE"
 }

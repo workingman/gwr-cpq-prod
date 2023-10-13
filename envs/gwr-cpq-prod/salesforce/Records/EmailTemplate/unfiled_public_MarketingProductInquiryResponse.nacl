@@ -9,4 +9,5 @@ salesforce.EmailTemplate unfiled_public_MarketingProductInquiryResponse@zcd {
   uiType = "Aloha"
   fullName = "unfiled$public/MarketingProductInquiryResponse"
   content = file("salesforce/Records/EmailTemplate/unfiled$public/MarketingProductInquiryResponse/MarketingProductInquiryResponse.email")
+  _alias = "unfiled$public/MarketingProductInquiryResponse"
 }

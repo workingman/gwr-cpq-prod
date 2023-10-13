@@ -9,4 +9,5 @@ salesforce.EmailTemplate unfiled_public_SupportCaseCreatedWebInquiries@zcd {
   uiType = "Aloha"
   fullName = "unfiled$public/SupportCaseCreatedWebInquiries"
   content = file("salesforce/Records/EmailTemplate/unfiled$public/SupportCaseCreatedWebInquiries/SupportCaseCreatedWebInquiries.email")
+  _alias = "unfiled$public/SupportCaseCreatedWebInquiries"
 }

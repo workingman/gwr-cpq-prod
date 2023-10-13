@@ -121,6 +121,12 @@ type salesforce.ContactPointEmail {
         default = false
       },
       {
+        fullName = "Pacific/Norfolk"
+        isActive = true
+        label = "(GMT+12:00) Norfolk Island Daylight Time (Pacific/Norfolk)"
+        default = false
+      },
+      {
         fullName = "Pacific/Tarawa"
         isActive = true
         label = "(GMT+12:00) Gilbert Islands Time (Pacific/Tarawa)"
@@ -145,6 +151,12 @@ type salesforce.ContactPointEmail {
         default = false
       },
       {
+        fullName = "Antarctica/Macquarie"
+        isActive = true
+        label = "(GMT+11:00) Australian Eastern Daylight Time (Antarctica/Macquarie)"
+        default = false
+      },
+      {
         fullName = "Asia/Magadan"
         isActive = true
         label = "(GMT+11:00) Magadan Standard Time (Asia/Magadan)"
@@ -160,6 +172,36 @@ type salesforce.ContactPointEmail {
         fullName = "Asia/Srednekolymsk"
         isActive = true
         label = "(GMT+11:00) Magadan Standard Time (Asia/Srednekolymsk)"
+        default = false
+      },
+      {
+        fullName = "Australia/Currie"
+        isActive = true
+        label = "(GMT+11:00) Australian Eastern Daylight Time (Australia/Currie)"
+        default = false
+      },
+      {
+        fullName = "Australia/Hobart"
+        isActive = true
+        label = "(GMT+11:00) Australian Eastern Daylight Time (Australia/Hobart)"
+        default = false
+      },
+      {
+        fullName = "Australia/Lord_Howe"
+        isActive = true
+        label = "(GMT+11:00) Lord Howe Daylight Time (Australia/Lord_Howe)"
+        default = false
+      },
+      {
+        fullName = "Australia/Melbourne"
+        isActive = true
+        label = "(GMT+11:00) Australian Eastern Daylight Time (Australia/Melbourne)"
+        default = false
+      },
+      {
+        fullName = "Australia/Sydney"
+        isActive = true
+        label = "(GMT+11:00) Australian Eastern Daylight Time (Australia/Sydney)"
         default = false
       },
       {
@@ -187,12 +229,6 @@ type salesforce.ContactPointEmail {
         default = false
       },
       {
-        fullName = "Pacific/Norfolk"
-        isActive = true
-        label = "(GMT+11:00) Norfolk Island Standard Time (Pacific/Norfolk)"
-        default = false
-      },
-      {
         fullName = "Pacific/Noumea"
         isActive = true
         label = "(GMT+11:00) New Caledonia Standard Time (Pacific/Noumea)"
@@ -205,21 +241,21 @@ type salesforce.ContactPointEmail {
         default = false
       },
       {
-        fullName = "Australia/Lord_Howe"
+        fullName = "Australia/Adelaide"
         isActive = true
-        label = "(GMT+10:30) Lord Howe Standard Time (Australia/Lord_Howe)"
+        label = "(GMT+10:30) Australian Central Daylight Time (Australia/Adelaide)"
+        default = false
+      },
+      {
+        fullName = "Australia/Broken_Hill"
+        isActive = true
+        label = "(GMT+10:30) Australian Central Daylight Time (Australia/Broken_Hill)"
         default = false
       },
       {
         fullName = "Antarctica/DumontDUrville"
         isActive = true
         label = "(GMT+10:00) Dumont-d’Urville Time (Antarctica/DumontDUrville)"
-        default = false
-      },
-      {
-        fullName = "Antarctica/Macquarie"
-        isActive = true
-        label = "(GMT+10:00) Australian Eastern Standard Time (Antarctica/Macquarie)"
         default = false
       },
       {
@@ -241,33 +277,9 @@ type salesforce.ContactPointEmail {
         default = false
       },
       {
-        fullName = "Australia/Currie"
-        isActive = true
-        label = "(GMT+10:00) Australian Eastern Standard Time (Australia/Currie)"
-        default = false
-      },
-      {
-        fullName = "Australia/Hobart"
-        isActive = true
-        label = "(GMT+10:00) Australian Eastern Standard Time (Australia/Hobart)"
-        default = false
-      },
-      {
         fullName = "Australia/Lindeman"
         isActive = true
         label = "(GMT+10:00) Australian Eastern Standard Time (Australia/Lindeman)"
-        default = false
-      },
-      {
-        fullName = "Australia/Melbourne"
-        isActive = true
-        label = "(GMT+10:00) Australian Eastern Standard Time (Australia/Melbourne)"
-        default = false
-      },
-      {
-        fullName = "Australia/Sydney"
-        isActive = true
-        label = "(GMT+10:00) Australian Eastern Standard Time (Australia/Sydney)"
         default = false
       },
       {
@@ -292,18 +304,6 @@ type salesforce.ContactPointEmail {
         fullName = "Pacific/Truk"
         isActive = true
         label = "(GMT+10:00) Chuuk Time (Pacific/Truk)"
-        default = false
-      },
-      {
-        fullName = "Australia/Adelaide"
-        isActive = true
-        label = "(GMT+09:30) Australian Central Standard Time (Australia/Adelaide)"
-        default = false
-      },
-      {
-        fullName = "Australia/Broken_Hill"
-        isActive = true
-        label = "(GMT+09:30) Australian Central Standard Time (Australia/Broken_Hill)"
         default = false
       },
       {
@@ -1675,6 +1675,12 @@ type salesforce.ContactPointEmail {
         default = false
       },
       {
+        fullName = "America/Asuncion"
+        isActive = true
+        label = "(GMT-03:00) Paraguay Summer Time (America/Asuncion)"
+        default = false
+      },
+      {
         fullName = "America/Bahia"
         isActive = true
         label = "(GMT-03:00) Brasilia Standard Time (America/Bahia)"
@@ -1840,12 +1846,6 @@ type salesforce.ContactPointEmail {
         fullName = "America/Aruba"
         isActive = true
         label = "(GMT-04:00) Atlantic Standard Time (America/Aruba)"
-        default = false
-      },
-      {
-        fullName = "America/Asuncion"
-        isActive = true
-        label = "(GMT-04:00) Paraguay Standard Time (America/Asuncion)"
         default = false
       },
       {
