@@ -465,6 +465,7 @@ type salesforce.Account {
     caseSensitive = false
     queryable = true
     
+    description = "gwr status 20230918-155404"
   }
   salesforce.Checkbox GWR_new_checkbox__c {
     apiName = "Account.GWR_new_checkbox__c"
