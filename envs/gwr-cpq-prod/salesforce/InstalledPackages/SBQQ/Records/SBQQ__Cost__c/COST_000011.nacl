@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000011@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Cloud_Storage_1GB___CLOUDSTORAGE___Software@ssuuuuuu
+  SBQQ__UnitCost__c = 3
+  _alias = "COST-000011"
+}

@@ -1,0 +1,12 @@
+salesforce.SharingRules SBQQ__UpgradeSource__c {
+  fullName = "SBQQ__UpgradeSource__c"
+  _parent = [
+    salesforce.SBQQ__UpgradeSource__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "SBQQ__UpgradeSource__c"
+}

@@ -1,0 +1,12 @@
+salesforce.SharingRules SBQQ__UsageRateCard__c {
+  fullName = "SBQQ__UsageRateCard__c"
+  _parent = [
+    salesforce.SBQQ__UsageRateCard__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "SBQQ__UsageRateCard__c"
+}
