@@ -1,0 +1,9 @@
+salesforce.SBQQ__ProductRule__c GWR_August_Product_Rule@s {
+  SBQQ__Active__c = true
+  SBQQ__ConditionsMet__c = "All"
+  SBQQ__EvaluationEvent__c = "Edit"
+  SBQQ__Scope__c = "Product"
+  SBQQ__Type__c = "Validation"
+  Name = "GWR August Product Rule"
+  _alias = "GWR August Product Rule"
+}
