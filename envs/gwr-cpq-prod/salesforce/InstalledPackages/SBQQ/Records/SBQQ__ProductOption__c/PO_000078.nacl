@@ -1,0 +1,17 @@
+salesforce.SBQQ__ProductOption__c PO_000078@b {
+  SBQQ__AppliedImmediately__c = false
+  SBQQ__Bundled__c = true
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.Smartwatch___SMARTWATCH___Hardware
+  SBQQ__DiscountedByPackage__c = false
+  SBQQ__Feature__c = salesforce.SBQQ__ProductFeature__c.instance.Smartwatch___SMARTWATCH___Hardware___20___Charging_Options@uuuuuuuuuuuus
+  SBQQ__Number__c = 10
+  SBQQ__OptionalSKU__c = salesforce.Product2.instance.AC_to_USB_C_Wall_Adapter___ACTOUSBCADAPTER___Miscellaneous@ssbssuuuuuu
+  SBQQ__QuantityEditable__c = false
+  SBQQ__Quantity__c = 1
+  SBQQ__Required__c = true
+  SBQQ__Selected__c = false
+  SBQQ__System__c = false
+  SBQQ__Type__c = "Component"
+  SBQQ__UpliftedByPackage__c = false
+  _alias = "PO-000078"
+}
