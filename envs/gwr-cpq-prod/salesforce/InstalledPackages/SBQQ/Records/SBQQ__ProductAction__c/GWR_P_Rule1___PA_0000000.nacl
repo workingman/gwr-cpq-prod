@@ -1,0 +1,7 @@
+salesforce.SBQQ__ProductAction__c GWR_P_Rule1___PA_0000000@ssuuub {
+  SBQQ__Product__c = salesforce.Product2.instance.GWR_Skis___GWRSKI___Hardware@suuuuuu
+  SBQQ__Required__c = false
+  SBQQ__Rule__c = salesforce.SBQQ__ProductRule__c.instance.GWR_P_Rule1@s
+  SBQQ__Type__c = "Add"
+  _alias = "GWR P Rule1 PA-0000000"
+}
