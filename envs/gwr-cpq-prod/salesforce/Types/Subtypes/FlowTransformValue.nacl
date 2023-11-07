@@ -15,8 +15,7 @@ type salesforce.FlowTransformValue {
   }
   salesforce.FlowMetadataValue processMetadataValues {
   }
-  string inputReference {
-  }
+  
   salesforce.FlowTransformValueAction transformValueActions {
   }
   metadataType = "FlowTransformValue"

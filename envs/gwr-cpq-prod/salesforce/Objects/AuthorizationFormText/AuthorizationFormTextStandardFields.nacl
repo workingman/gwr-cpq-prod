@@ -2932,4 +2932,8 @@ type salesforce.AuthorizationFormText {
     updateable = true
     queryable = true
   }
+  salesforce.Unknown DetailAuthorizationFormText {
+    apiName = "AuthorizationFormText.DetailAuthorizationFormText"
+    _hidden_value = true
+  }
 }

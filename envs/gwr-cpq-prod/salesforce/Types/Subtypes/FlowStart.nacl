@@ -24,9 +24,12 @@ type salesforce.FlowStart {
       enforce_value = false
       values = [
         "BackgroundStep",
+        "CreatePromptInstructions",
         "FilterCollectionProcessor",
         "InteractiveStep",
         "ManagedContentRoleInteractiveStep",
+        "ManagedContentVariantAutoPublishBackgroundStep",
+        "ManagedContentVariantAutoUnpublishBackgroundStep",
         "ManagedContentVariantSetLockBackgroundStep",
         "ManagedContentVariantSetReadyBackgroundStep",
         "MuleSoftStep",
@@ -80,7 +83,9 @@ type salesforce.FlowStart {
     _restriction = {
       enforce_value = false
       values = [
+        "DataCloudDataChange",
         "EventDrivenJourney",
+        "FormSubmissionEvent",
         "None",
         "PlatformEvent",
         "RecordAfterSave",
@@ -92,4 +97,17 @@ type salesforce.FlowStart {
     }
   }
   metadataType = "FlowStart"
+  string entryType {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "AfterCompletion",
+        "Always",
+      ]
+    }
+  }
+  string form {
+  }
+  string landingPage {
+  }
 }

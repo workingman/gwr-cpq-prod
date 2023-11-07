@@ -9,6 +9,10 @@ salesforce.Layout AuthorizationFormText_Authorization_Form_Text_Layout@bsss {
         {
           layoutItems = [
             {
+              behavior = "Edit"
+              field = salesforce.AuthorizationFormText.field.DetailAuthorizationFormText
+            },
+            {
               behavior = "Required"
               field = salesforce.AuthorizationFormText.field.Name
             },
@@ -73,4 +77,9 @@ salesforce.Layout AuthorizationFormText_Authorization_Form_Text_Layout@bsss {
     salesforce.AuthorizationFormText,
   ]
   _alias = "AuthorizationFormText-Authorization Form Text Layout"
+  miniLayout = {
+    fields = [
+      "DetailAuthorizationFormText",
+    ]
+  }
 }

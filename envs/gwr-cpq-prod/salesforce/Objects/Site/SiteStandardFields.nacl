@@ -447,4 +447,12 @@ type salesforce.Site {
     queryable = true
     _hidden_value = true
   }
+  salesforce.Checkbox OptionsUseGuestUserLanguage {
+    apiName = "Site.OptionsUseGuestUserLanguage"
+    label = "Use the guest user’s language for unauthenticated users"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
 }

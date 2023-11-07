@@ -70,4 +70,15 @@ settings salesforce.MyDomainSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "MyDomainSettings"
+  string instancedUrlRedirectHandling {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "NoRedirect",
+        "Redirect",
+        "Undeployed",
+        "WarnOnRedirect",
+      ]
+    }
+  }
 }

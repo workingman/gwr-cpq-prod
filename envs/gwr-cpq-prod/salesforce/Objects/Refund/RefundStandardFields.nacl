@@ -261,7 +261,7 @@ type salesforce.Refund {
       {
         fullName = "PermanentFail"
         isActive = true
-        label = "PermanentFail"
+        label = "Permanent Fail"
         default = false
       },
       {
@@ -273,7 +273,7 @@ type salesforce.Refund {
       {
         fullName = "RequiresReview"
         isActive = true
-        label = "RequiresReview"
+        label = "Requires Review"
         default = false
       },
       {
@@ -285,13 +285,13 @@ type salesforce.Refund {
       {
         fullName = "SystemError"
         isActive = true
-        label = "SystemError"
+        label = "System Error"
         default = false
       },
       {
         fullName = "ValidationError"
         isActive = true
-        label = "ValidationError"
+        label = "Validation Error"
         default = false
       },
     ]

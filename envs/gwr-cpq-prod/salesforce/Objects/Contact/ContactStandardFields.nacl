@@ -405,4 +405,13 @@ type salesforce.Contact {
     queryable = true
     _hidden_value = true
   }
+  salesforce.Checkbox IsPriorityRecord {
+    apiName = "Contact.IsPriorityRecord"
+    defaultValue = false
+    label = "Important"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
 }

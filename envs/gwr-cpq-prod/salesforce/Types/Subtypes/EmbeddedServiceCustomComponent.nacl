@@ -36,6 +36,7 @@ type salesforce.EmbeddedServiceCustomComponent {
         "LA_Minimized",
         "LA_PlainTextChatMessage",
         "LA_Prechat",
+        "MIAW_Prechat",
       ]
     }
   }

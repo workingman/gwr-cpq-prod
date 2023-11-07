@@ -19,7 +19,7 @@ salesforce.LightningExperienceSettings {
   enableLEXExtensionRequiredFields = "false"
   enableLEXExtensionTrailhead = "false"
   enableLEXOnIpadEnabled = false
-  enableLWCDynamicComponents = "false"
+  
   enableLexEndUsersNoSwitching = false
   enableNavPersonalizationOptOut = false
   enableNoBackgroundNavigations = "false"

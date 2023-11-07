@@ -38,4 +38,11 @@ type salesforce.PlatformEventSubscriberConfig {
   suffix = "platformEventSubscriberConfig"
   dirName = "PlatformEventSubscriberConfigs"
   metadataType = "PlatformEventSubscriberConfig"
+  number numPartitions {
+  }
+  string partitionKey {
+    foreignKeyDomain = [
+      salesforce.CustomField,
+    ]
+  }
 }

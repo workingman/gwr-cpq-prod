@@ -102,6 +102,8 @@ type salesforce.EventRelayConfig {
         "ProblemChangeEvent",
         "ProblemIncidentChangeEvent",
         "ProblemRelatedItemChangeEvent",
+        "ProcessInstanceChangeEvent",
+        "ProcessInstanceStepChangeEvent",
         "Product2ChangeEvent",
         "QuickTextChangeEvent",
         "RecommendationChangeEvent",
@@ -235,4 +237,14 @@ type salesforce.EventRelayConfig {
   suffix = "eventRelay"
   dirName = "eventRelays"
   metadataType = "EventRelayConfig"
+  string usageType {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "AMAZON_EVENTBRIDGE",
+        "INTERNAL_MANAGED_SUBSCRIPTIONS",
+        "INTERNAL_REPLICATION",
+      ]
+    }
+  }
 }

@@ -33,6 +33,7 @@ type salesforce.AppProfileActionOverride {
   string pageOrSobjectType {
     foreignKeyDomain = [
       "CustomObject",
+      "PlatformSchemaDefinition",
     ]
   }
   string recordType {

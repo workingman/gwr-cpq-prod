@@ -333,6 +333,12 @@ type salesforce.CreditMemoLine {
         label = "Delivery Charge"
         default = false
       },
+      {
+        fullName = "Fee"
+        isActive = true
+        label = "Fee"
+        default = false
+      },
     ]
     restricted = true
     label = "Reference Entity Item Type"

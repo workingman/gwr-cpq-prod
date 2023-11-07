@@ -98,7 +98,7 @@ type salesforce.CustomPageWebLink {
   string scontrol {
     foreignKeyDomain = [
       salesforce.ApexPage,
-      "FlowDefinition",
+      salesforce.FlowDefinition,
       salesforce.Scontrol,
     ]
   }

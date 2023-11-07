@@ -36,6 +36,7 @@ type salesforce.FlowDynamicChoiceSet {
   string picklistObject {
     foreignKeyDomain = [
       "CustomObject",
+      "PlatformSchemaDefinition",
     ]
   }
   salesforce.FlowMetadataValue processMetadataValues {

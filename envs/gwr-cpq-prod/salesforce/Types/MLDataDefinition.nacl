@@ -47,6 +47,7 @@ type salesforce.MLDataDefinition {
       enforce_value = false
       values = [
         "Candidate",
+        "Generative",
         "Interaction",
         "Prediction",
         "Recipient",

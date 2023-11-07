@@ -130,16 +130,16 @@ type salesforce.IncidentRelatedItem {
       type = "Default"
     },
     {
-      actionName = "New"
+      actionName = "NewIRI"
       type = "Default"
     },
     {
-      actionName = "New"
+      actionName = "NewIRI"
       formFactor = "Large"
       type = "Default"
     },
     {
-      actionName = "New"
+      actionName = "NewIRI"
       formFactor = "Small"
       type = "Default"
     },

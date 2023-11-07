@@ -30,4 +30,5 @@ type salesforce.DataWeaveResource {
   hasMetaFile = true
   dirName = "dw"
   metadataType = "DataWeaveResource"
+  suffix = "dwl"
 }

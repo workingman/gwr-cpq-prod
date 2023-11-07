@@ -153,6 +153,12 @@ type salesforce.DigitalWallet {
     apiName = "DigitalWallet.PaymentMethodType"
     valueSet = [
       {
+        fullName = "ACH"
+        isActive = true
+        label = "ACH"
+        default = false
+      },
+      {
         fullName = "AfterpayClearpay"
         isActive = true
         label = "Afterpay / Clearpay"
@@ -171,9 +177,21 @@ type salesforce.DigitalWallet {
         default = false
       },
       {
+        fullName = "BACS"
+        isActive = true
+        label = "Bacs"
+        default = false
+      },
+      {
         fullName = "BanContact"
         isActive = true
         label = "Bancontact"
+        default = false
+      },
+      {
+        fullName = "BECS"
+        isActive = true
+        label = "Becs"
         default = false
       },
       {
@@ -315,7 +333,7 @@ type salesforce.DigitalWallet {
       {
         fullName = "InActive"
         isActive = true
-        label = "InActive"
+        label = "Inactive"
         default = false
       },
       {

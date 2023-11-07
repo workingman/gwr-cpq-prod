@@ -51,8 +51,10 @@ type salesforce.BrandingSet {
         "login:branding-login2",
         "loyalty:branding-loyalty",
         "lpi:branding-lpi",
+        "marketing-landing-template:branding",
         "mfg:branding-mfg",
         "microsite-template-marketing:branding",
+        "microsite-template-pay-now:branding",
         "mortgage:branding-mortgage",
         "napili:branding-napili",
         "napili:branding-napili-merged",
@@ -64,7 +66,6 @@ type salesforce.BrandingSet {
         "stella:branding-stella",
         "survey",
         "talon-template-byo:branding",
-        "talon-template-uem:branding",
         "webster:branding-webster",
       ]
     }

@@ -16,6 +16,7 @@ type salesforce.MLField {
   string entity {
     foreignKeyDomain = [
       "CustomObject",
+      "PlatformSchemaDefinition",
     ]
   }
   string field {
@@ -52,6 +53,7 @@ type salesforce.MLField {
         "Prediction",
         "Pushback",
         "Related",
+        "Retriever",
         "ScoringExpression",
         "SegmentExpression",
         "SourceDate",

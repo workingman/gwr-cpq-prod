@@ -1465,6 +1465,12 @@ type salesforce.MacroInstruction {
         default = false
       },
       {
+        fullName = "QuickAction._SendConversationMessage"
+        isActive = true
+        label = "Send Message Action"
+        default = false
+      },
+      {
         fullName = "Tab.Account"
         isActive = true
         label = "Active Account Tab"

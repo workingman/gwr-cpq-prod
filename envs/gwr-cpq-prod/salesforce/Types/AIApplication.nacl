@@ -43,6 +43,7 @@ type salesforce.AIApplication {
         "Discovery",
         "EPLite",
         "ForecastingPredictive",
+        "GenerativeIntelligence",
         "IntelligentOffers",
         "InvoiceLatePaymentRiskCalculation",
         "KeyAccountIdentification",

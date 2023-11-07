@@ -144,6 +144,20 @@ type salesforce.PricebookEntry {
       type = "Default"
     },
     {
+      actionName = "List"
+      type = "Default"
+    },
+    {
+      actionName = "List"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "List"
+      formFactor = "Small"
+      type = "Default"
+    },
+    {
       actionName = "SaveEdit"
       type = "Default"
     },

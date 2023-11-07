@@ -56,4 +56,6 @@ type salesforce.MutingPermissionSet {
   suffix = "mutingpermissionset"
   dirName = "mutingpermissionsets"
   metadataType = "MutingPermissionSet"
+  salesforce.PermissionSetExternalCredentialPrincipalAccess externalCredentialPrincipalAccesses {
+  }
 }

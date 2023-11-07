@@ -16,4 +16,5 @@ salesforce.EmailIntegrationSettings {
   orgIsSyncingEventsOutbound = "false"
   shouldUseTrustedDomainsList = true
   _alias = "EmailIntegration"
+  enableContextualEverywhere = "true"
 }

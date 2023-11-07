@@ -69,6 +69,11 @@ salesforce.SecuritySettings {
     sidToken3rdPartyAuraApp = false
     skipSFAWhenMFADirectUILogin = false
     useLocalStorageForLogoutUrl = false
+    enablePermissionsPolicy = false
+    grantCameraAccess = "TrustedUrls"
+    grantMicrophoneAccess = "TrustedUrls"
+    sendCspForUncommonClients = false
+    useEAPIRateLimitForConnectAPI = false
   }
   singleSignOnSettings = {
     enableCaseInsensitiveFederationID = false
@@ -78,4 +83,7 @@ salesforce.SecuritySettings {
     isLoginWithSalesforceCredentialsDisabled = false
   }
   _alias = "Security"
+  enableCrossOrgRedirects = "true"
+  enablePermissionsPolicy = "false"
+  sendCspForUncommonClients = "false"
 }

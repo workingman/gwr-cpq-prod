@@ -85,4 +85,8 @@ settings salesforce.FieldServiceSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "FieldServiceSettings"
+  boolean doesAvlCalcInclOvertime {
+  }
+  boolean doesAvlCalcInclPrimOnly {
+  }
 }

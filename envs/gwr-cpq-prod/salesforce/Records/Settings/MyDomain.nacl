@@ -19,4 +19,7 @@ salesforce.MyDomainSettings {
   useStabilizedMyDomainHostnames = true
   useStabilizedSandboxMyDomainHostnames = true
   _alias = "MyDomain"
+  doesWarnOnForceComRedirect = "false"
+  doesWarnOnRedirect = "false"
+  instancedUrlRedirectHandling = "NoRedirect"
 }

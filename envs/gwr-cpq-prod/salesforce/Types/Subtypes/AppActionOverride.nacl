@@ -53,6 +53,7 @@ type salesforce.AppActionOverride {
   string pageOrSobjectType {
     foreignKeyDomain = [
       "CustomObject",
+      "PlatformSchemaDefinition",
     ]
   }
   metadataType = "AppActionOverride"

@@ -37,6 +37,7 @@ type salesforce.ExternalServiceRegistration {
         "Custom",
         "MuleSoft",
         "SchemaInferred",
+        "Standard",
       ]
     }
   }
@@ -79,4 +80,6 @@ type salesforce.ExternalServiceRegistration {
   suffix = "externalServiceRegistration"
   dirName = "externalServiceRegistrations"
   metadataType = "ExternalServiceRegistration"
+  string serviceDescriptor {
+  }
 }

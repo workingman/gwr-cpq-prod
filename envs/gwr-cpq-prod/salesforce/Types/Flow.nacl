@@ -86,13 +86,14 @@ type salesforce.Flow {
         "runtime_appointmentbooking__Inv_Book",
         "runtime_appointmentbooking__Inv_Gen",
         "runtime_appointmentbooking__Out_Modify",
+        "runtime_appointmentbooking__send_Invt",
         "runtime_commerce_oms__Cancel_Item",
         "runtime_commerce_oms__Create_OS",
         "runtime_commerce_oms__Create_PE",
         "runtime_commerce_oms__Return_Item",
-        "runtime_industries_epc__SimpleProduct",
         "runtime_industries_recurrence__Orch",
         "runtime_industries_recurrence__Schdlr",
+        "runtime_payments__PayNowWithProducts",
         "runtime_service_incident_mgmt__CCOIO",
         "runtime_service_incident_mgmt__CRRI",
         "setup_service_experience__Create_Case",
@@ -102,7 +103,7 @@ type salesforce.Flow {
       ]
     }
     foreignKeyDomain = [
-      "FlowDefinition",
+      salesforce.FlowDefinition,
     ]
   }
   "List<salesforce.FlowMetadataValue>" processMetadataValues {
@@ -139,6 +140,7 @@ type salesforce.Flow {
         "OfflineFlow",
         "OrchestrationFlow",
         "Orchestrator",
+        "PromptFlow",
         "RecommendationStrategy",
         "RoutingFlow",
         "ServiceCatalogItemFlow",
@@ -196,13 +198,14 @@ type salesforce.Flow {
         "runtime_appointmentbooking__Inv_Book",
         "runtime_appointmentbooking__Inv_Gen",
         "runtime_appointmentbooking__Out_Modify",
+        "runtime_appointmentbooking__send_Invt",
         "runtime_commerce_oms__Cancel_Item",
         "runtime_commerce_oms__Create_OS",
         "runtime_commerce_oms__Create_PE",
         "runtime_commerce_oms__Return_Item",
-        "runtime_industries_epc__SimpleProduct",
         "runtime_industries_recurrence__Orch",
         "runtime_industries_recurrence__Schdlr",
+        "runtime_payments__PayNowWithProducts",
         "runtime_service_incident_mgmt__CCOIO",
         "runtime_service_incident_mgmt__CRRI",
         "setup_service_experience__Create_Case",
@@ -212,7 +215,7 @@ type salesforce.Flow {
       ]
     }
     foreignKeyDomain = [
-      "FlowDefinition",
+      salesforce.FlowDefinition,
     ]
   }
   salesforce.FlowStage stages {
@@ -689,4 +692,6 @@ type salesforce.Flow {
   suffix = "flow"
   dirName = "flows"
   metadataType = "Flow"
+  salesforce.FlowCustomError customErrors {
+  }
 }

@@ -28,9 +28,9 @@ type salesforce.WorkStep {
         default = false
       },
       {
-        fullName = "runtime_industries_epc__SimpleProduct"
+        fullName = "runtime_payments__PayNowWithProducts"
         isActive = true
-        label = "Simple Product Default Template"
+        label = "Pay Now with Products"
         default = false
       },
       {
@@ -163,6 +163,12 @@ type salesforce.WorkStep {
         fullName = "SBQQ__NewTask"
         isActive = true
         label = "New Task"
+        default = false
+      },
+      {
+        fullName = "_SendConversationMessage"
+        isActive = true
+        label = "Send Message"
         default = false
       },
     ]

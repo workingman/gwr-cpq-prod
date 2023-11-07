@@ -51,4 +51,8 @@ type salesforce.MktDataModelAttributes {
   string referenceEntitySubjectArea {
   }
   metadataType = "MktDataModelAttributes"
+  string dataSpaceName {
+  }
+  string dataSpacePrefix {
+  }
 }

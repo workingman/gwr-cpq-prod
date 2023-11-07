@@ -30,9 +30,12 @@ type salesforce.FlowScreen {
       enforce_value = false
       values = [
         "BackgroundStep",
+        "CreatePromptInstructions",
         "FilterCollectionProcessor",
         "InteractiveStep",
         "ManagedContentRoleInteractiveStep",
+        "ManagedContentVariantAutoPublishBackgroundStep",
+        "ManagedContentVariantAutoUnpublishBackgroundStep",
         "ManagedContentVariantSetLockBackgroundStep",
         "ManagedContentVariantSetReadyBackgroundStep",
         "MuleSoftStep",
@@ -74,4 +77,8 @@ type salesforce.FlowScreen {
   boolean showHeader {
   }
   metadataType = "FlowScreen"
+  salesforce.FlowScreenAction actions {
+  }
+  salesforce.FlowScreenTrigger triggers {
+  }
 }

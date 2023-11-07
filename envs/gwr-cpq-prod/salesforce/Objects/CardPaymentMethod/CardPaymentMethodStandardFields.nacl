@@ -339,6 +339,12 @@ type salesforce.CardPaymentMethod {
     apiName = "CardPaymentMethod.PaymentMethodType"
     valueSet = [
       {
+        fullName = "ACH"
+        isActive = true
+        label = "ACH"
+        default = false
+      },
+      {
         fullName = "AfterpayClearpay"
         isActive = true
         label = "Afterpay / Clearpay"
@@ -357,9 +363,21 @@ type salesforce.CardPaymentMethod {
         default = false
       },
       {
+        fullName = "BACS"
+        isActive = true
+        label = "Bacs"
+        default = false
+      },
+      {
         fullName = "BanContact"
         isActive = true
         label = "Bancontact"
+        default = false
+      },
+      {
+        fullName = "BECS"
+        isActive = true
+        label = "Becs"
         default = false
       },
       {
@@ -501,7 +519,7 @@ type salesforce.CardPaymentMethod {
       {
         fullName = "PermanentFail"
         isActive = true
-        label = "PermanentFail"
+        label = "Permanent Fail"
         default = false
       },
       {
@@ -513,7 +531,7 @@ type salesforce.CardPaymentMethod {
       {
         fullName = "RequiresReview"
         isActive = true
-        label = "RequiresReview"
+        label = "Requires Review"
         default = false
       },
       {
@@ -525,13 +543,13 @@ type salesforce.CardPaymentMethod {
       {
         fullName = "SystemError"
         isActive = true
-        label = "SystemError"
+        label = "System Error"
         default = false
       },
       {
         fullName = "ValidationError"
         isActive = true
-        label = "ValidationError"
+        label = "Validation Error"
         default = false
       },
     ]
@@ -573,7 +591,7 @@ type salesforce.CardPaymentMethod {
       {
         fullName = "InActive"
         isActive = true
-        label = "InActive"
+        label = "Inactive"
         default = false
       },
       {

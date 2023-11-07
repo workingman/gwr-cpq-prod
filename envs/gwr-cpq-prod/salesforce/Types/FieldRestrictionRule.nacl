@@ -58,6 +58,8 @@ type salesforce.FieldRestrictionRule {
         "Lead",
         "Opportunity",
         "OutletLocale__c",
+        "ProcessInstanceStep",
+        "ProcessInstanceWorkitem",
         "SBQQ__AttributeSet__c",
         "SBQQ__AttributeValue__c",
         "SBQQ__BlockPrice__c",

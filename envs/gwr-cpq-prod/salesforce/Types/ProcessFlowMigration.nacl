@@ -17,7 +17,7 @@ type salesforce.ProcessFlowMigration {
   }
   string destinationFlowDefinition {
     foreignKeyDomain = [
-      "FlowDefinition",
+      salesforce.FlowDefinition,
     ]
   }
   string destinationFlowVersion {
