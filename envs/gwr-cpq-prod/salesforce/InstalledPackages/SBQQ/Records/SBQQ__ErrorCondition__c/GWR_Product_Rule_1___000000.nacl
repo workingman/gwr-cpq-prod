@@ -1,0 +1,10 @@
+salesforce.SBQQ__ErrorCondition__c GWR_Product_Rule_1___000000@sssuuu {
+  SBQQ__FilterType__c = "Value"
+  SBQQ__FilterValue__c = "0"
+  SBQQ__Index__c = 10
+  SBQQ__Operator__c = "equals"
+  SBQQ__Rule__c = salesforce.SBQQ__ProductRule__c.instance.GWR_Product_Rule_1@s
+  SBQQ__TestedField__c = "Unit Price"
+  SBQQ__TestedObject__c = "Product Option"
+  _alias = "GWR Product Rule 1 000000"
+}
