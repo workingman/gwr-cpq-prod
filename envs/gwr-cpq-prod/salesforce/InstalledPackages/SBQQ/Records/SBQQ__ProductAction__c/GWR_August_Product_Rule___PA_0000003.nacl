@@ -1,0 +1,7 @@
+salesforce.SBQQ__ProductAction__c GWR_August_Product_Rule___PA_0000003@sssuuub {
+  SBQQ__Product__c = salesforce.Product2.instance.1GWR_Product1___GWR_P1___Hardware@suuuuuuu
+  SBQQ__Required__c = false
+  SBQQ__Rule__c = salesforce.SBQQ__ProductRule__c.instance.GWR_August_Product_Rule@s
+  SBQQ__Type__c = "Show"
+  _alias = "GWR August Product Rule PA-0000003"
+}
