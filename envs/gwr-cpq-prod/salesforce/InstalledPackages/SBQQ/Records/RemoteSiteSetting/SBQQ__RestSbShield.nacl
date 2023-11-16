@@ -1,0 +1,12 @@
+salesforce.RemoteSiteSetting SBQQ__RestSbShield {
+  fullName = "SBQQ__RestSbShield"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://rest-sb-shield.steelbrick.com"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "SBQQ__RestSbShield"
+}

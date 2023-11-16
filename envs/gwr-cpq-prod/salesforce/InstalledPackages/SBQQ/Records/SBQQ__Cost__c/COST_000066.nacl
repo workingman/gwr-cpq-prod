@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000066@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.NVMe_Hard_Drive_500GB___NVME500___Hardware@sssuuuuuu
+  SBQQ__UnitCost__c = 140
+  _alias = "COST-000066"
+}

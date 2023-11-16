@@ -1,0 +1,314 @@
+type salesforce.ContactRequest {
+  salesforce.Lookup OwnerId {
+    apiName = "ContactRequest.OwnerId"
+    relationshipName = "Owner"
+    referenceTo = [
+      salesforce.Group,
+      salesforce.User,
+    ]
+    label = "Owner ID"
+    createable = true
+    updateable = true
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Picklist PreferredChannel {
+    apiName = "ContactRequest.PreferredChannel"
+    valueSet = [
+      {
+        fullName = "Phone"
+        isActive = true
+        label = "Phone"
+        default = true
+      },
+    ]
+    restricted = false
+    _required = true
+    label = "Preferred Channel"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Phone PreferredPhone {
+    apiName = "ContactRequest.PreferredPhone"
+    label = "Preferred Phone Number"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.LongTextArea RequestDescription {
+    apiName = "ContactRequest.RequestDescription"
+    length = 32000
+    label = "Request Description"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Picklist RequestReason {
+    apiName = "ContactRequest.RequestReason"
+    valueSet = [
+      {
+        fullName = "Account"
+        isActive = true
+        label = "Account"
+        default = true
+      },
+      {
+        fullName = "Billing"
+        isActive = true
+        label = "Billing"
+        default = false
+      },
+      {
+        fullName = "Case"
+        isActive = true
+        label = "Case"
+        default = false
+      },
+      {
+        fullName = "General"
+        isActive = true
+        label = "General"
+        default = false
+      },
+      {
+        fullName = "Order"
+        isActive = true
+        label = "Order"
+        default = false
+      },
+      {
+        fullName = "Product"
+        isActive = true
+        label = "Product"
+        default = false
+      },
+      {
+        fullName = "Other"
+        isActive = true
+        label = "Other"
+        default = false
+      },
+    ]
+    restricted = false
+    label = "Request Reason"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Picklist Status {
+    apiName = "ContactRequest.Status"
+    valueSet = [
+      {
+        fullName = "New"
+        isActive = true
+        label = "New"
+        default = true
+      },
+      {
+        fullName = "Attempted"
+        isActive = true
+        label = "Attempted"
+        default = false
+      },
+      {
+        fullName = "Contacted"
+        isActive = true
+        label = "Contacted"
+        default = false
+      },
+      {
+        fullName = "Abandoned"
+        isActive = true
+        label = "Abandoned"
+        default = false
+      },
+    ]
+    restricted = false
+    _required = true
+    label = "Request Status"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Lookup WhatId {
+    apiName = "ContactRequest.WhatId"
+    relationshipName = "What"
+    referenceTo = [
+      salesforce.Account,
+      salesforce.Case,
+      salesforce.IndustryPrice__c,
+      salesforce.Opportunity,
+      salesforce.OutletLocale__c,
+      salesforce.SBQQ__AttributeSet__c,
+      salesforce.SBQQ__AttributeValue__c,
+      salesforce.SBQQ__BlockPrice__c,
+      salesforce.SBQQ__ColumnMetadata__c,
+      salesforce.SBQQ__ConfigurationAttribute__c,
+      salesforce.SBQQ__ConfigurationRule__c,
+      salesforce.SBQQ__ContractedPrice__c,
+      salesforce.SBQQ__Cost__c,
+      salesforce.SBQQ__CustomActionCondition__c,
+      salesforce.SBQQ__CustomAction__c,
+      salesforce.SBQQ__CustomScript__c,
+      salesforce.SBQQ__Dimension__c,
+      salesforce.SBQQ__DiscountCategory__c,
+      salesforce.SBQQ__DiscountSchedule__c,
+      salesforce.SBQQ__DiscountTier__c,
+      salesforce.SBQQ__ErrorCondition__c,
+      salesforce.SBQQ__FavoriteProduct__c,
+      salesforce.SBQQ__FavoriteShare__c,
+      salesforce.SBQQ__Favorite__c,
+      salesforce.SBQQ__FieldMetadata__c,
+      salesforce.SBQQ__FieldSetMetadata__c,
+      salesforce.SBQQ__ImportColumn__c,
+      salesforce.SBQQ__ImportFormat__c,
+      salesforce.SBQQ__InstallProcessorLog__c,
+      salesforce.SBQQ__LineColumn__c,
+      salesforce.SBQQ__Localization__c,
+      salesforce.SBQQ__LookupData__c,
+      salesforce.SBQQ__LookupQuery__c,
+      salesforce.SBQQ__OptionConstraint__c,
+      salesforce.SBQQ__OrderItemConsumptionRate__c,
+      salesforce.SBQQ__OrderItemConsumptionSchedule__c,
+      salesforce.SBQQ__PriceAction__c,
+      salesforce.SBQQ__PriceCondition__c,
+      salesforce.SBQQ__PriceRule__c,
+      salesforce.SBQQ__PriceSchedule__c,
+      salesforce.SBQQ__PriceTier__c,
+      salesforce.SBQQ__PricingGuidanceTier__c,
+      salesforce.SBQQ__PricingGuidance__c,
+      salesforce.SBQQ__ProcessInputCondition__c,
+      salesforce.SBQQ__ProcessInputValue__c,
+      salesforce.SBQQ__ProcessInput__c,
+      salesforce.SBQQ__ProductAction__c,
+      salesforce.SBQQ__ProductAttributeSet__c,
+      salesforce.SBQQ__ProductAttribute__c,
+      salesforce.SBQQ__ProductFeature__c,
+      salesforce.SBQQ__ProductOption__c,
+      salesforce.SBQQ__ProductRule__c,
+      salesforce.SBQQ__QuoteDocument__c,
+      salesforce.SBQQ__QuoteLineConsumptionRate__c,
+      salesforce.SBQQ__QuoteLineConsumptionSchedule__c,
+      salesforce.SBQQ__QuoteLineGroup__c,
+      salesforce.SBQQ__QuoteLinePricingGuidance__c,
+      salesforce.SBQQ__QuoteLine__c,
+      salesforce.SBQQ__QuoteProcess__c,
+      salesforce.SBQQ__QuoteTemplate__c,
+      salesforce.SBQQ__QuoteTerm__c,
+      salesforce.SBQQ__Quote__c,
+      salesforce.SBQQ__RecordJob__c,
+      salesforce.SBQQ__RelatedContent__c,
+      salesforce.SBQQ__SearchFilter__c,
+      salesforce.SBQQ__SearchIndex__c,
+      salesforce.SBQQ__SolutionGroup__c,
+      salesforce.SBQQ__SubscribedAsset__c,
+      salesforce.SBQQ__SubscribedQuoteLine__c,
+      salesforce.SBQQ__SubscriptionConsumptionRate__c,
+      salesforce.SBQQ__SubscriptionConsumptionSchedule__c,
+      salesforce.SBQQ__Subscription__c,
+      salesforce.SBQQ__SummaryVariable__c,
+      salesforce.SBQQ__TaxExemptionCertificate__c,
+      salesforce.SBQQ__TemplateContent__c,
+      salesforce.SBQQ__TemplateSection__c,
+      salesforce.SBQQ__TermCondition__c,
+      salesforce.SBQQ__Theme__c,
+      salesforce.SBQQ__TimingLog__c,
+      salesforce.SBQQ__UpgradeSource__c,
+      salesforce.SBQQ__UsageRateCardAssignment__c,
+      salesforce.SBQQ__UsageRateCard__c,
+      salesforce.SBQQ__UsageRate__c,
+      salesforce.SBQQ__WebQuoteLine__c,
+      salesforce.SBQQ__WebQuote__c,
+      salesforce.WorkOrder,
+    ]
+    label = "Related To ID"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Lookup WhoId {
+    apiName = "ContactRequest.WhoId"
+    relationshipName = "Who"
+    referenceTo = [
+      salesforce.Contact,
+      salesforce.Lead,
+      salesforce.User,
+    ]
+    label = "Requestor ID"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  serviceid Id {
+    apiName = "ContactRequest.Id"
+    label = "Contact Request ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "ContactRequest.IsDeleted"
+    defaultValue = false
+    label = "Deleted"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.AutoNumber Name {
+    apiName = "ContactRequest.Name"
+    label = "Contact Request Number"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "ContactRequest.CreatedDate"
+    label = "Created Date"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "ContactRequest.CreatedById"
+    relationshipName = "CreatedBy"
+    referenceTo = [
+      salesforce.User,
+    ]
+    label = "Created By ID"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "ContactRequest.LastModifiedDate"
+    label = "Last Modified Date"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "ContactRequest.LastModifiedById"
+    relationshipName = "LastModifiedBy"
+    referenceTo = [
+      salesforce.User,
+    ]
+    label = "Last Modified By ID"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "ContactRequest.SystemModstamp"
+    label = "System Modstamp"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+}
