@@ -1,0 +1,7 @@
+salesforce.SBQQ__ProductFeature__c "6__Smartphone___SMARTPHONE6___Hardware___10___Chargers@rsuuuuuuuuuuuu" {
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.6__Smartphone___SMARTPHONE6___Hardware@rsuuuuuu
+  SBQQ__MinOptionCount__c = 0
+  SBQQ__Number__c = 10
+  Name = "Chargers"
+  _alias = "SMARTPHONE6 Hardware 6\" Smartphone Chargers"
+}

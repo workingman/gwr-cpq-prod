@@ -1,0 +1,16 @@
+salesforce.SBQQ__ProductOption__c PO_000040@b {
+  SBQQ__AppliedImmediately__c = false
+  SBQQ__Bundled__c = false
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.Laser_Printer___LASERPRINTER___Hardware@suuuuuu
+  SBQQ__DiscountedByPackage__c = true
+  SBQQ__Number__c = 40
+  SBQQ__OptionalSKU__c = salesforce.Product2.instance.Printer_Paper_Letter___PRINTERPAPERLETTER___Consumable@ssuuuuuu
+  SBQQ__QuantityEditable__c = true
+  SBQQ__Quantity__c = 5
+  SBQQ__Required__c = false
+  SBQQ__Selected__c = true
+  SBQQ__System__c = false
+  SBQQ__Type__c = "Related Product"
+  SBQQ__UpliftedByPackage__c = false
+  _alias = "PO-000040"
+}

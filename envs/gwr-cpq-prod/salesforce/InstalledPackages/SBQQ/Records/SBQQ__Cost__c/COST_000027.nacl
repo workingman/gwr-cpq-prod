@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000027@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Laptop_Charging_Cart___LAPTOPCART___Miscellaneous@ssuuuuuu
+  SBQQ__UnitCost__c = 950
+  _alias = "COST-000027"
+}
