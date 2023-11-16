@@ -1,0 +1,10 @@
+salesforce.SBQQ__ErrorCondition__c GWR_P_Rule1___000004@ssuuu {
+  SBQQ__FilterType__c = "Value"
+  SBQQ__FilterValue__c = "test"
+  SBQQ__Index__c = 2
+  SBQQ__Operator__c = "equals"
+  SBQQ__Rule__c = salesforce.SBQQ__ProductRule__c.instance.GWR_P_Rule1@s
+  SBQQ__TestedField__c = "OpportunityType__c"
+  SBQQ__TestedObject__c = "Quote"
+  _alias = "GWR P Rule1 000004"
+}
