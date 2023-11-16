@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000001@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Thunderbolt_2m___THUNDER2M___Miscellaneous@suuuuuu
+  SBQQ__UnitCost__c = 15
+  _alias = "COST-000001"
+}

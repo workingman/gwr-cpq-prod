@@ -1,0 +1,8 @@
+salesforce.SBQQ__ProductFeature__c Digital_Camera___DIGITALCAMERA___Hardware___10___Storage@suuuuuuuuuuuu {
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.Digital_Camera___DIGITALCAMERA___Hardware@suuuuuu
+  SBQQ__MaxOptionCount__c = 1
+  SBQQ__MinOptionCount__c = 1
+  SBQQ__Number__c = 10
+  Name = "Storage"
+  _alias = "DIGITALCAMERA Hardware Digital Camera Storage"
+}

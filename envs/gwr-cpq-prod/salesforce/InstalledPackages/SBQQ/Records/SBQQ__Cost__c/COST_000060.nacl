@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000060@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.RFID_Key_Card_Printer___RFIDKEYCARDPRINTER___Hardware@sssuuuuuu
+  SBQQ__UnitCost__c = 300
+  _alias = "COST-000060"
+}
