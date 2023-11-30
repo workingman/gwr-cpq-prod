@@ -1,0 +1,14 @@
+salesforce.ApexPage SBQQ__AssetSelector {
+  apiVersion = 51
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "Asset Selector"
+  fullName = "SBQQ__AssetSelector"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__AssetSelector.page")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "Asset Selector (SBQQ)"
+}
