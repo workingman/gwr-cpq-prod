@@ -1,0 +1,12 @@
+salesforce.SharingRules SBQQ__ProcessInputValue__c {
+  fullName = "SBQQ__ProcessInputValue__c"
+  _parent = [
+    salesforce.SBQQ__ProcessInputValue__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.SBQQ
+    },
+  ]
+  _alias = "SBQQ__ProcessInputValue__c"
+}
