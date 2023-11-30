@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000089@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Mobile_Monitoring_App___MOBILEMONITORINGAPP___Service@ssuuuuuu
+  SBQQ__UnitCost__c = 0
+  _alias = "COST-000089"
+}

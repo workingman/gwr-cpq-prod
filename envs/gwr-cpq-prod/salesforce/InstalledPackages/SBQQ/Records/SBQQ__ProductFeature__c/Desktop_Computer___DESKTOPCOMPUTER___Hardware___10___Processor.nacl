@@ -1,0 +1,8 @@
+salesforce.SBQQ__ProductFeature__c Desktop_Computer___DESKTOPCOMPUTER___Hardware___10___Processor@suuuuuuuuuuuu {
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.Desktop_Computer___DESKTOPCOMPUTER___Hardware@suuuuuu
+  SBQQ__MaxOptionCount__c = 1
+  SBQQ__MinOptionCount__c = 1
+  SBQQ__Number__c = 10
+  Name = "Processor"
+  _alias = "DESKTOPCOMPUTER Hardware Desktop Computer Processor"
+}

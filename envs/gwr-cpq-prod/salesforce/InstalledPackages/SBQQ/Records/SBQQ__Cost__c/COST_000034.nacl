@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000034@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.USB_C_to_Lightning_2m___USBCTOLIGHT2M___Miscellaneous@bsssuuuuuu
+  SBQQ__UnitCost__c = 20
+  _alias = "COST-000034"
+}

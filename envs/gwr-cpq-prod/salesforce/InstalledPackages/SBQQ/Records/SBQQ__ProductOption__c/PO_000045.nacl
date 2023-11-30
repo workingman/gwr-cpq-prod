@@ -1,0 +1,17 @@
+salesforce.SBQQ__ProductOption__c PO_000045@b {
+  SBQQ__AppliedImmediately__c = false
+  SBQQ__Bundled__c = false
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.6__Smartphone___SMARTPHONE6___Hardware@rsuuuuuu
+  SBQQ__DiscountedByPackage__c = false
+  SBQQ__Feature__c = salesforce.SBQQ__ProductFeature__c.instance.6__Smartphone___SMARTPHONE6___Hardware___20___Service@rsuuuuuuuuuuuu
+  SBQQ__Number__c = 10
+  SBQQ__OptionalSKU__c = salesforce.Product2.instance.Smartphone_Activation___SMARTPHONEACTIVATION___Service@suuuuuu
+  SBQQ__QuantityEditable__c = false
+  SBQQ__Quantity__c = 1
+  SBQQ__Required__c = true
+  SBQQ__Selected__c = false
+  SBQQ__System__c = false
+  SBQQ__Type__c = "Accessory"
+  SBQQ__UpliftedByPackage__c = false
+  _alias = "PO-000045"
+}
