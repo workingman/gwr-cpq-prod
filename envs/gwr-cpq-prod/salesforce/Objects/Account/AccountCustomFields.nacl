@@ -393,6 +393,21 @@ type salesforce.Account {
         default = true
         label = "Copper"
       },
+      {
+        fullName = "Platinum"
+        default = false
+        label = "Platinum"
+      },
+      {
+        fullName = "Titanium"
+        default = false
+        label = "Titanium"
+      },
+      {
+        fullName = "Tin"
+        default = false
+        label = "Tin"
+      },
     ]
     sorted = false
     restricted = false
