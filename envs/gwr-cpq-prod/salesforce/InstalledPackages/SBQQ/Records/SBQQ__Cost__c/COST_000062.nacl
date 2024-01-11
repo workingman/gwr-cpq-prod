@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c COST_000062@b {
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Electric_Door_Lock___ELECTRICDOORLOCK___Hardware@ssuuuuuu
+  SBQQ__UnitCost__c = 50
+  _alias = "COST-000062"
+}

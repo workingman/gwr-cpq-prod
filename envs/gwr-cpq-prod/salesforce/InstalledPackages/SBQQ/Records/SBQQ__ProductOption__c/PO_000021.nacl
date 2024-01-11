@@ -1,0 +1,16 @@
+salesforce.SBQQ__ProductOption__c PO_000021@b {
+  SBQQ__AppliedImmediately__c = false
+  SBQQ__Bundled__c = false
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.Security_Console___SECURITYCONSOLE___Hardware@suuuuuu
+  SBQQ__DiscountedByPackage__c = false
+  SBQQ__Number__c = 80
+  SBQQ__OptionalSKU__c = salesforce.Product2.instance.Electric_Door_Lock___ELECTRICDOORLOCK___Hardware@ssuuuuuu
+  SBQQ__QuantityEditable__c = true
+  SBQQ__Quantity__c = 1
+  SBQQ__Required__c = false
+  SBQQ__Selected__c = true
+  SBQQ__System__c = false
+  SBQQ__Type__c = "Accessory"
+  SBQQ__UpliftedByPackage__c = false
+  _alias = "PO-000021"
+}
