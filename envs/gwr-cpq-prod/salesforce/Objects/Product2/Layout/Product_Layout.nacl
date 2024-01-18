@@ -20,6 +20,14 @@ salesforce.Layout Product2_Product_Layout@bs {
               behavior = "Edit"
               field = salesforce.Product2.field.Extras__c
             },
+            {
+              behavior = "Edit"
+              field = salesforce.Product2.field.PS_Approval_Requred__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Product2.field.gwr_exclude__c
+            },
           ]
         },
         {

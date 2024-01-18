@@ -1604,4 +1604,25 @@ type salesforce.Product2 {
       },
     ]
   }
+  salesforce.Checkbox PS_Approval_Requred__c {
+    apiName = "Product2.PS_Approval_Requred__c"
+    defaultValue = false
+    description = "testing custom field in product promottion"
+    externalId = false
+    label = "PS Approval Requred"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text gwr_exclude__c {
+    apiName = "Product2.gwr_exclude__c"
+    externalId = false
+    label = "GWR excl frm prtnr"
+    length = 10
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
 }

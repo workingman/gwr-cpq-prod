@@ -23,6 +23,14 @@ salesforce.Layout Product2_Training_Product_Layout@bss {
               behavior = "Edit"
               field = salesforce.Product2.field.ProductCode
             },
+            {
+              behavior = "Edit"
+              field = salesforce.Product2.field.PS_Approval_Requred__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Product2.field.gwr_exclude__c
+            },
           ]
         },
         {

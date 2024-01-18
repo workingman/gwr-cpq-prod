@@ -55,6 +55,14 @@ salesforce.Layout Product2_SBQQ__CPQ_Product_Layout@buuss {
               behavior = "Edit"
               field = salesforce.Product2.field.Extras__c
             },
+            {
+              behavior = "Edit"
+              field = salesforce.Product2.field.PS_Approval_Requred__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Product2.field.gwr_exclude__c
+            },
           ]
         },
         {
