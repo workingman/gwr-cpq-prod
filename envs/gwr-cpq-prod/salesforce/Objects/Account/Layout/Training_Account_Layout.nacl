@@ -436,15 +436,7 @@ salesforce.Layout Account_Training_Account_Layout@bss {
       },
     ]
   }
-  relatedContent = {
-    relatedContentItems = [
-      {
-        layoutItem = {
-          component = "runtime_sales_social:socialPanel"
-        }
-      },
-    ]
-  }
+  
   relatedLists = [
     {
       fields = [

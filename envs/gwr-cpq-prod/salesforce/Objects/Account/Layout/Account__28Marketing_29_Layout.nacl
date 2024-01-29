@@ -417,15 +417,7 @@ salesforce.Layout Account_Account__28Marketing_29_Layout@bspps {
       },
     ]
   }
-  relatedContent = {
-    relatedContentItems = [
-      {
-        layoutItem = {
-          component = "runtime_sales_social:socialPanel"
-        }
-      },
-    ]
-  }
+  
   relatedLists = [
     {
       fields = [

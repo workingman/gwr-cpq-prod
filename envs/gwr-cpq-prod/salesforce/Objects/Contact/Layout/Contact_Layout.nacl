@@ -355,11 +355,6 @@ salesforce.Layout Contact_Contact_Layout@bs {
           field = salesforce.Contact.field.AccountId
         }
       },
-      {
-        layoutItem = {
-          component = "runtime_sales_social:socialPanel"
-        }
-      },
     ]
   }
   relatedLists = [
