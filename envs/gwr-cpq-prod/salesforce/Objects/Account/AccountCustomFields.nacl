@@ -52,7 +52,7 @@ type salesforce.Account {
   salesforce.Checkbox GWR_Assigned__c {
     apiName = "Account.GWR_Assigned__c"
     defaultValue = true
-    description = "Added a description from the UI"
+    description = "Added a description from the  UI"
     externalId = false
     label = "GWR Assigned changed in ui"
     createable = true
