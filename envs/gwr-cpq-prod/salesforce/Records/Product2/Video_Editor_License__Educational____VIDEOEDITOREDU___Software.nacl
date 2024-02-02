@@ -35,4 +35,6 @@ salesforce.Product2 Video_Editor_License__Educational____VIDEOEDITOREDU___Softwa
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "VIDEOEDITOREDU Software Video Editor License (Educational)"
+  PS_Approval_Requred__c = false
+  
 }

@@ -34,5 +34,6 @@ salesforce.Product2 Camera_Mount_Microphone___CAMERAMIC___Hardware@ssuuuuuu {
   SBQQ__SubscriptionBase__c = "List"
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
+  PS_Approval_Requred__c = false
   _alias = "CAMERAMIC Hardware Camera Mount Microphone"
 }
