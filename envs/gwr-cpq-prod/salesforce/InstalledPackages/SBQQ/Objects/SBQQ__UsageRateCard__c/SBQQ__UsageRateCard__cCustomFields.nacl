@@ -1,0 +1,137 @@
+type salesforce.SBQQ__UsageRateCard__c {
+  salesforce.Picklist SBQQ__AttributeField__c {
+    apiName = "SBQQ__UsageRateCard__c.SBQQ__AttributeField__c"
+    deprecated = false
+    externalId = false
+    inlineHelpText = "Group usage rates by the selected field during document output and billing"
+    label = "Attribute Field"
+    trackTrending = false
+    valueSet = [
+      {
+        fullName = "Usage Price Method"
+        default = false
+        label = "UsagePriceMethod__c"
+      },
+    ]
+    sorted = false
+    restricted = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Picklist SBQQ__BillingFrequency__c {
+    apiName = "SBQQ__UsageRateCard__c.SBQQ__BillingFrequency__c"
+    deprecated = false
+    externalId = false
+    label = "Billing Frequency"
+    trackTrending = false
+    valueSetName = salesforce.GlobalValueSet.instance.SBQQ__BillingFrequency
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.TextArea SBQQ__Description__c {
+    apiName = "SBQQ__UsageRateCard__c.SBQQ__Description__c"
+    deprecated = false
+    externalId = false
+    label = "Description"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Lookup SBQQ__OriginalUsageRateCard__c {
+    apiName = "SBQQ__UsageRateCard__c.SBQQ__OriginalUsageRateCard__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    inlineHelpText = "The usage rate card that you cloned to create this usage rate card"
+    label = "Original Usage Rate Card"
+    referenceTo = [
+      salesforce.SBQQ__UsageRateCard__c,
+    ]
+    relationshipLabel = "Usage Rate Cards (Original Usage Rate Card)"
+    relationshipName = "UsageRateCards"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Lookup SBQQ__QuoteLine__c {
+    apiName = "SBQQ__UsageRateCard__c.SBQQ__QuoteLine__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    inlineHelpText = "The quote line that this usage rate card covers"
+    label = "Quote Line"
+    referenceTo = [
+      salesforce.SBQQ__QuoteLine__c,
+    ]
+    relationshipLabel = "Usage Rate Cards"
+    relationshipName = "UsageRateCards"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Lookup SBQQ__Subscription__c {
+    apiName = "SBQQ__UsageRateCard__c.SBQQ__Subscription__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    inlineHelpText = "The subscription that this usage rate card covers"
+    label = "Subscription"
+    referenceTo = [
+      salesforce.SBQQ__Subscription__c,
+    ]
+    relationshipLabel = "Usage Rate Cards"
+    relationshipName = "UsageRateCards"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Lookup SBQQ__TemplateRateCard__c {
+    apiName = "SBQQ__UsageRateCard__c.SBQQ__TemplateRateCard__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    inlineHelpText = "The usage rate card that you added to the original quote"
+    label = "Template Rate Card"
+    referenceTo = [
+      salesforce.SBQQ__UsageRateCard__c,
+    ]
+    relationshipLabel = "Quoted Rate Cards"
+    relationshipName = "QuotedRateCards"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Picklist SBQQ__Type__c {
+    apiName = "SBQQ__UsageRateCard__c.SBQQ__Type__c"
+    deprecated = false
+    externalId = false
+    inlineHelpText = "Choose how Salesforce Billing bills usage rates for this usage rate card. Range bills a single rate while slab bills all applicable usage rates."
+    label = "Type"
+    trackTrending = false
+    valueSet = [
+      {
+        fullName = "Range"
+        default = false
+        label = "Range"
+      },
+      {
+        fullName = "Slab"
+        default = false
+        label = "Slab"
+      },
+    ]
+    sorted = false
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
+}
