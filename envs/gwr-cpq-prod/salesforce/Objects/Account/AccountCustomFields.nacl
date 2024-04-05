@@ -389,9 +389,9 @@ type salesforce.Account {
         label = "Silver"
       },
       {
-        fullName = "Copper"
+        fullName = "Bronze"
         default = true
-        label = "Copper"
+        label = "Bronze"
       },
       {
         fullName = "Platinum"
