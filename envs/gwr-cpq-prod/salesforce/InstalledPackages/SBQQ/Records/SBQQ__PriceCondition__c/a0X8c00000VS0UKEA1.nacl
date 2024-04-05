@@ -1,0 +1,10 @@
+salesforce.SBQQ__PriceCondition__c a0X8c00000VS0UKEA1 {
+  SBQQ__Field__c = "Product Code"
+  SBQQ__FilterType__c = "Value"
+  SBQQ__Index__c = 2
+  SBQQ__Object__c = "Quote Line"
+  SBQQ__Operator__c = "equals"
+  SBQQ__Rule__c = salesforce.SBQQ__PriceRule__c.instance.a0Y8c00003KJtrWEAT
+  SBQQ__Value__c = "abc"
+  _alias = "GWR adv conditions 1"
+}
