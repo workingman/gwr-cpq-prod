@@ -20,4 +20,11 @@ type salesforce.FlowStageStepInputParameter {
   salesforce.FlowElementReferenceOrValue value {
   }
   metadataType = "FlowStageStepInputParameter"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

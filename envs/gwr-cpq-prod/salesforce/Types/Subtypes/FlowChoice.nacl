@@ -38,4 +38,16 @@ type salesforce.FlowChoice {
     }
   }
   metadataType = "FlowChoice"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

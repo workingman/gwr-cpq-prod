@@ -47,4 +47,11 @@ type salesforce.ProfileSessionSetting {
   suffix = "profileSessionSetting"
   dirName = "profileSessionSettings"
   metadataType = "ProfileSessionSetting"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

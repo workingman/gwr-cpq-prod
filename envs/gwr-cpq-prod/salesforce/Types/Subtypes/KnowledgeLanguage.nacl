@@ -40,4 +40,16 @@ type salesforce.KnowledgeLanguage {
     }
   }
   metadataType = "KnowledgeLanguage"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "active"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

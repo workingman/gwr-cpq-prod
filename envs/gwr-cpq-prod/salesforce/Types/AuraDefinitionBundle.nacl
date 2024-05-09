@@ -61,4 +61,21 @@ type salesforce.AuraDefinitionBundle {
   }
   dirName = "aura"
   metadataType = "AuraDefinitionBundle"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "apiVersion"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

@@ -36,12 +36,14 @@ type salesforce.FlowApexPluginCallInputParameter {
         "FaultStackTrace",
         "Form",
         "FormFactor",
+        "Input",
         "InterviewGuid",
         "InterviewIdValue",
         "InterviewStartTime",
         "None",
         "NullNumberValue",
         "NullStringValue",
+        "Output",
         "Prompt",
         "SpaceIdValue",
         "SparkIdValue",
@@ -85,4 +87,11 @@ type salesforce.FlowApexPluginCallInputParameter {
     ]
   }
   metadataType = "FlowApexPluginCallInputParameter"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

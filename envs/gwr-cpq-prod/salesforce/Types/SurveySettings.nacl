@@ -26,4 +26,11 @@ settings salesforce.SurveySettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "SurveySettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

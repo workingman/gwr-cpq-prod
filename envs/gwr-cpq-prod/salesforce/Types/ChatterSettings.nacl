@@ -54,4 +54,11 @@ settings salesforce.ChatterSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "ChatterSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

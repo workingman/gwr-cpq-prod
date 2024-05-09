@@ -24,4 +24,11 @@ settings salesforce.ObjectLinkingSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "ObjectLinkingSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

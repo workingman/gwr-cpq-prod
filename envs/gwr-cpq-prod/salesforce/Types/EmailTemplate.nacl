@@ -90,4 +90,31 @@ type salesforce.EmailTemplate {
   suffix = "email"
   dirName = "email"
   metadataType = "EmailTemplate"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "content"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "apiVersion"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

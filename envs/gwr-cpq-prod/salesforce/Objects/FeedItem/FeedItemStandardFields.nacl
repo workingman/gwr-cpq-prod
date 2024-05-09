@@ -41,6 +41,7 @@ type salesforce.FeedItem {
       salesforce.Entitlement,
       salesforce.EntityMilestone,
       salesforce.Event,
+      salesforce.GuestUserAnomalyEventStore,
       salesforce.Image,
       salesforce.Incident,
       salesforce.IncidentRelatedItem,
@@ -58,6 +59,7 @@ type salesforce.FeedItem {
       salesforce.OutletLocale__c,
       salesforce.PartyConsent,
       salesforce.Payment,
+      salesforce.PrivacyRTBFRequest,
       salesforce.Problem,
       salesforce.ProblemIncident,
       salesforce.ProblemRelatedItem,
@@ -578,6 +580,12 @@ type salesforce.FeedItem {
         fullName = "Draft"
         isActive = true
         label = "Draft"
+        default = false
+      },
+      {
+        fullName = "Isolated"
+        isActive = true
+        label = "Isolated"
         default = false
       },
     ]

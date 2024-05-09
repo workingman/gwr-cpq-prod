@@ -20,4 +20,11 @@ type salesforce.FlowSubflowInputAssignment {
   salesforce.FlowElementReferenceOrValue value {
   }
   metadataType = "FlowSubflowInputAssignment"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

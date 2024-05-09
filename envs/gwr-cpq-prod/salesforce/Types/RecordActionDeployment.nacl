@@ -23,6 +23,7 @@ type salesforce.RecordActionDeployment {
       values = [
         "ActionLauncher",
         "ActionsAndRecommendations",
+        "BulkActionPanel",
       ]
     }
   }
@@ -47,4 +48,16 @@ type salesforce.RecordActionDeployment {
   suffix = "deployment"
   dirName = "recordActionDeployments"
   metadataType = "RecordActionDeployment"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

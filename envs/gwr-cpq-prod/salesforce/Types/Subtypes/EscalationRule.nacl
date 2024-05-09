@@ -24,4 +24,16 @@ type salesforce.EscalationRule {
     localOnly = true
   }
   metadataType = "EscalationRule"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "active"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

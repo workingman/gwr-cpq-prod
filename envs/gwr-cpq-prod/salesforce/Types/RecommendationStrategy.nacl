@@ -52,4 +52,21 @@ type salesforce.RecommendationStrategy {
   suffix = "recommendationStrategy"
   dirName = "recommendationStrategies"
   metadataType = "RecommendationStrategy"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

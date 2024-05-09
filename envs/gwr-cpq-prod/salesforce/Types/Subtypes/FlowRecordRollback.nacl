@@ -23,8 +23,8 @@ type salesforce.FlowRecordRollback {
     _restriction = {
       enforce_value = false
       values = [
+        "AddPromptInstructions",
         "BackgroundStep",
-        "CreatePromptInstructions",
         "FilterCollectionProcessor",
         "InteractiveStep",
         "ManagedContentRoleInteractiveStep",
@@ -38,6 +38,7 @@ type salesforce.FlowRecordRollback {
         "WaitAttribute",
         "WaitDate",
         "WaitDuration",
+        "WaitUntilEvent",
       ]
     }
   }
@@ -50,4 +51,21 @@ type salesforce.FlowRecordRollback {
   salesforce.FlowConnector connector {
   }
   metadataType = "FlowRecordRollback"
+  _important_values = [
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

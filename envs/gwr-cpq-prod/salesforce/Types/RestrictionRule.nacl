@@ -37,6 +37,9 @@ type salesforce.RestrictionRule {
   string recordFilter {
   }
   string targetEntity {
+    foreignKeyDomain = [
+      "PlatformSchemaDefinition",
+    ]
   }
   string userCriteria {
   }
@@ -49,4 +52,26 @@ type salesforce.RestrictionRule {
   suffix = "rule"
   dirName = "restrictionRules"
   metadataType = "RestrictionRule"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "active"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

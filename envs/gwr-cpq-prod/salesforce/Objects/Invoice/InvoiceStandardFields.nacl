@@ -113,9 +113,27 @@ type salesforce.Invoice {
     apiName = "Invoice.Status"
     valueSet = [
       {
+        fullName = "Draft"
+        isActive = true
+        label = "Draft"
+        default = false
+      },
+      {
+        fullName = "Draft In Progress"
+        isActive = true
+        label = "Draft In Progress"
+        default = false
+      },
+      {
         fullName = "Pending"
         isActive = true
         label = "Pending"
+        default = false
+      },
+      {
+        fullName = "Posting In Progress"
+        isActive = true
+        label = "Posting In Progress"
         default = false
       },
       {

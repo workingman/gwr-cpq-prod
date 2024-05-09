@@ -22,4 +22,11 @@ settings salesforce.WebToXSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "WebToXSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

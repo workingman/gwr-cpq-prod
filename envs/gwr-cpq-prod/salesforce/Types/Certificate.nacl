@@ -37,4 +37,21 @@ type salesforce.Certificate {
   suffix = "crt"
   dirName = "certs"
   metadataType = "Certificate"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "content"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

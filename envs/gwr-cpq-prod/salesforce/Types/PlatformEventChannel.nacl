@@ -33,4 +33,16 @@ type salesforce.PlatformEventChannel {
   suffix = "platformEventChannel"
   dirName = "platformEventChannels"
   metadataType = "PlatformEventChannel"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

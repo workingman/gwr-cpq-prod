@@ -30,4 +30,11 @@ settings salesforce.EmployeeUserSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "EmployeeUserSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

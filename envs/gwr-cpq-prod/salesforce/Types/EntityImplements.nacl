@@ -24,4 +24,11 @@ type salesforce.EntityImplements {
   suffix = "entityImplements"
   dirName = "entityImplements"
   metadataType = "EntityImplements"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

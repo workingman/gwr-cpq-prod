@@ -35,4 +35,11 @@ type salesforce.FlexiPageEventTarget {
     }
   }
   metadataType = "FlexiPageEventTarget"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

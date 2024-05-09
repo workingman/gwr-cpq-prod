@@ -124,4 +124,15 @@ type salesforce.CommSubscriptionChannelType {
     queryable = true
     _hidden_value = true
   }
+  salesforce.Lookup MessagingChannelId {
+    apiName = "CommSubscriptionChannelType.MessagingChannelId"
+    relationshipName = "MessagingChannel"
+    referenceTo = [
+      salesforce.MessagingChannel,
+    ]
+    label = "Messaging Channel ID"
+    createable = true
+    updateable = true
+    queryable = true
+  }
 }

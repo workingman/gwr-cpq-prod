@@ -24,4 +24,11 @@ settings salesforce.InvocableActionSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "InvocableActionSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

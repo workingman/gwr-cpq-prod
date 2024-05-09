@@ -22,4 +22,11 @@ settings salesforce.BlockchainSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "BlockchainSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

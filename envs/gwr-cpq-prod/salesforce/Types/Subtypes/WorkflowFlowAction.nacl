@@ -51,4 +51,21 @@ type salesforce.WorkflowFlowAction {
   boolean protected {
   }
   metadataType = "WorkflowFlowAction"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

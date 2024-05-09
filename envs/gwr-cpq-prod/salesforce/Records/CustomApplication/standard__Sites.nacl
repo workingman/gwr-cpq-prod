@@ -8,4 +8,5 @@ salesforce.CustomApplication standard__Sites {
   ]
   fullName = "standard__Sites"
   _alias = "standard__Sites"
+  isOmniPinnedViewEnabled = false
 }

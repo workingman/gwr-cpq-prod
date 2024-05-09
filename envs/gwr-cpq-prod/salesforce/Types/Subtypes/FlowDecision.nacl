@@ -23,8 +23,8 @@ type salesforce.FlowDecision {
     _restriction = {
       enforce_value = false
       values = [
+        "AddPromptInstructions",
         "BackgroundStep",
-        "CreatePromptInstructions",
         "FilterCollectionProcessor",
         "InteractiveStep",
         "ManagedContentRoleInteractiveStep",
@@ -38,6 +38,7 @@ type salesforce.FlowDecision {
         "WaitAttribute",
         "WaitDate",
         "WaitDuration",
+        "WaitUntilEvent",
       ]
     }
     foreignKeyDomain = [
@@ -57,4 +58,21 @@ type salesforce.FlowDecision {
   "List<salesforce.FlowRule>" rules {
   }
   metadataType = "FlowDecision"
+  _important_values = [
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

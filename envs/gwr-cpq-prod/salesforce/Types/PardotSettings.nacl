@@ -32,4 +32,11 @@ settings salesforce.PardotSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "PardotSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -30,4 +30,11 @@ type salesforce.SharingRules {
   suffix = "sharingRules"
   dirName = "sharingRules"
   metadataType = "SharingRules"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

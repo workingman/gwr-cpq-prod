@@ -36,13 +36,16 @@ type salesforce.BrandingSet {
         "citizen:branding-citizen",
         "cpt:branding-cpt",
         "cypress:branding-cypress",
+        "digitallending:branding-digitallending",
         "ember:branding-ember",
         "es-channel-menu",
         "es-messaging",
         "esw-template-frame:branding",
+        "euContractorPortal:branding-euContractorPortal",
         "grantmaking:branding-grantmaking",
         "helpCenter:branding-helpCenter",
         "identity:branding-identity",
+        "industriesBaseb2b:branding-industriesBaseb2b",
         "insurance:branding-insurance",
         "jepson:branding-jepson",
         "koa:branding-koa",
@@ -59,6 +62,7 @@ type salesforce.BrandingSet {
         "napili:branding-napili",
         "napili:branding-napili-merged",
         "prm:branding-prm-merged",
+        "providerPortal:branding-providerPortal",
         "service:branding-service",
         "serviceSetupHelpCenter:branding-serviceSetupHelpCenter",
         "sna-aura-lwr-shell-template:branding",
@@ -80,4 +84,21 @@ type salesforce.BrandingSet {
   suffix = "brandingSet"
   dirName = "brandingSets"
   metadataType = "BrandingSet"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -51,4 +51,21 @@ type salesforce.ChatterExtension {
   suffix = "ChatterExtension"
   dirName = "ChatterExtensions"
   metadataType = "ChatterExtension"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -26,4 +26,16 @@ type salesforce.BusinessProcess {
     localOnly = true
   }
   metadataType = "BusinessProcess"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

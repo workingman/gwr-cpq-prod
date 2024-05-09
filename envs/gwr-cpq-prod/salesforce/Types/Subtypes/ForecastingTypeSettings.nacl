@@ -61,4 +61,21 @@ type salesforce.ForecastingTypeSettings {
   string territory2ModelName {
   }
   metadataType = "ForecastingTypeSettings"
+  _important_values = [
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "active"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

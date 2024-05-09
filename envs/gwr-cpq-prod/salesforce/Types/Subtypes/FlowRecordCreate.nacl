@@ -23,8 +23,8 @@ type salesforce.FlowRecordCreate {
     _restriction = {
       enforce_value = false
       values = [
+        "AddPromptInstructions",
         "BackgroundStep",
-        "CreatePromptInstructions",
         "FilterCollectionProcessor",
         "InteractiveStep",
         "ManagedContentRoleInteractiveStep",
@@ -38,6 +38,7 @@ type salesforce.FlowRecordCreate {
         "WaitAttribute",
         "WaitDate",
         "WaitDuration",
+        "WaitUntilEvent",
       ]
     }
     foreignKeyDomain = [
@@ -65,4 +66,21 @@ type salesforce.FlowRecordCreate {
   boolean storeOutputAutomatically {
   }
   metadataType = "FlowRecordCreate"
+  _important_values = [
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

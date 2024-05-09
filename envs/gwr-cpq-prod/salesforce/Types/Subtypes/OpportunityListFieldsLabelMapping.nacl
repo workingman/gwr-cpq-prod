@@ -18,4 +18,11 @@ type salesforce.OpportunityListFieldsLabelMapping {
   string label {
   }
   metadataType = "OpportunityListFieldsLabelMapping"
+  _important_values = [
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

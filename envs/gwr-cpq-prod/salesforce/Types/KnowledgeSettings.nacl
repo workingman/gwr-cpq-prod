@@ -60,4 +60,11 @@ settings salesforce.KnowledgeSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "KnowledgeSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

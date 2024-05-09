@@ -3,4 +3,5 @@ salesforce.ExternalClientAppSettings {
   enableExternalClientApps = "false"
   _alias = "ExternalClientApp"
   enableConsumerSecretApiAccess = "false"
+  enableClientSecretInRestApiAccess = "false"
 }

@@ -24,4 +24,11 @@ type salesforce.ApexEmailNotifications {
   suffix = "notifications"
   dirName = "apexEmailNotifications"
   metadataType = "ApexEmailNotifications"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

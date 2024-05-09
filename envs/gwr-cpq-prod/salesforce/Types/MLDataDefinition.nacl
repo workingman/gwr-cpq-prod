@@ -61,4 +61,11 @@ type salesforce.MLDataDefinition {
   suffix = "mlDataDefinition"
   dirName = "mlDataDefinitions"
   metadataType = "MLDataDefinition"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

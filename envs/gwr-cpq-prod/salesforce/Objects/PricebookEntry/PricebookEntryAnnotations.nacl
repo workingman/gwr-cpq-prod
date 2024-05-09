@@ -171,6 +171,20 @@ type salesforce.PricebookEntry {
       formFactor = "Small"
       type = "Default"
     },
+    {
+      actionName = "createDerivedPriceAttributes"
+      type = "Default"
+    },
+    {
+      actionName = "createDerivedPriceAttributes"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "createDerivedPriceAttributes"
+      formFactor = "Small"
+      type = "Default"
+    },
   ]
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false

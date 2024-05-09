@@ -51,4 +51,11 @@ type salesforce.ActionOverride {
     }
   }
   metadataType = "ActionOverride"
+  _important_values = [
+    {
+      value = "content"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

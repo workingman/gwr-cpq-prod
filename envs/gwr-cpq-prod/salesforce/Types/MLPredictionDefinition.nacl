@@ -72,4 +72,26 @@ type salesforce.MLPredictionDefinition {
   suffix = "mlPrediction"
   dirName = "mlPredictions"
   metadataType = "MLPredictionDefinition"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "status"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

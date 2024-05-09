@@ -38,4 +38,11 @@ settings salesforce.MobileSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "MobileSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

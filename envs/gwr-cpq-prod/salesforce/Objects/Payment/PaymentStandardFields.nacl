@@ -64,7 +64,7 @@ type salesforce.Payment {
   salesforce.Text CancellationGatewayResultCode {
     apiName = "Payment.CancellationGatewayResultCode"
     length = 64
-    label = "Cancellation Gateway ResultCode"
+    label = "Cancellation Gateway Result Code"
     createable = true
     updateable = true
     unique = false
@@ -139,7 +139,7 @@ type salesforce.Payment {
   salesforce.Text GatewayResultCode {
     apiName = "Payment.GatewayResultCode"
     length = 64
-    label = "Gateway ResultCode"
+    label = "Gateway Result Code"
     createable = true
     updateable = true
     unique = false
@@ -149,7 +149,7 @@ type salesforce.Payment {
   salesforce.Text GatewayResultCodeDescription {
     apiName = "Payment.GatewayResultCodeDescription"
     length = 255
-    label = "Gateway ResultCode Description"
+    label = "Gateway Result Code Description"
     createable = true
     updateable = true
     unique = false

@@ -32,4 +32,11 @@ settings salesforce.OrderSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "OrderSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

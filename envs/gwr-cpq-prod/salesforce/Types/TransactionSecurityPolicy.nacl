@@ -39,6 +39,7 @@ type salesforce.TransactionSecurityPolicy {
         "BulkApiResultEventStore",
         "CredentialStuffingEventStore",
         "FileEventStore",
+        "GuestUserAnomalyEventStore",
         "ListViewEvent",
         "LoginEvent",
         "PermissionSetEventStore",
@@ -90,4 +91,26 @@ type salesforce.TransactionSecurityPolicy {
   suffix = "transactionSecurityPolicy"
   dirName = "transactionSecurityPolicies"
   metadataType = "TransactionSecurityPolicy"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "active"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

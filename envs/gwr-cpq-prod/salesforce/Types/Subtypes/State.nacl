@@ -26,4 +26,16 @@ type salesforce.State {
   boolean visible {
   }
   metadataType = "State"
+  _important_values = [
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "active"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

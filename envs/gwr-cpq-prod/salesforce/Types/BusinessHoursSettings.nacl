@@ -26,4 +26,11 @@ settings salesforce.BusinessHoursSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "BusinessHoursSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

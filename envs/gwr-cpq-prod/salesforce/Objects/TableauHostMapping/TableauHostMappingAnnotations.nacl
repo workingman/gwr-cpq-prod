@@ -59,6 +59,6 @@ type salesforce.TableauHostMapping {
   metadataType = "CustomObject"
   label = "Tableau Host Mapping"
   enableFeeds = false
-  externalSharingModel = "Private"
+  externalSharingModel = "Read"
   _alias = "Tableau Host Mapping"
 }

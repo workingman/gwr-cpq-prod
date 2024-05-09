@@ -28,4 +28,11 @@ settings salesforce.LiveAgentSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "LiveAgentSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

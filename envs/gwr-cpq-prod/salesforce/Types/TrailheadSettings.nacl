@@ -24,4 +24,11 @@ settings salesforce.TrailheadSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "TrailheadSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

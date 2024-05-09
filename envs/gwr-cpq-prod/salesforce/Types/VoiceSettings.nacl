@@ -38,4 +38,11 @@ settings salesforce.VoiceSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "VoiceSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -36,4 +36,11 @@ type salesforce.LeadConvertSettings {
   suffix = "LeadConvertSetting"
   dirName = "LeadConvertSettings"
   metadataType = "LeadConvertSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

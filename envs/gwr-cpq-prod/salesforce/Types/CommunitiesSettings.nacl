@@ -58,4 +58,11 @@ settings salesforce.CommunitiesSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "CommunitiesSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

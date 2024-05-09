@@ -44,4 +44,16 @@ type salesforce.PicklistValue {
   boolean won {
   }
   metadataType = "PicklistValue"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

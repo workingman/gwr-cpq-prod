@@ -24,4 +24,11 @@ type salesforce.ApexTestSuite {
   suffix = "testSuite"
   dirName = "testSuites"
   metadataType = "ApexTestSuite"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

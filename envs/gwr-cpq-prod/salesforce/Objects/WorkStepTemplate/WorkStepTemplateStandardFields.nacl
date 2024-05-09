@@ -28,9 +28,9 @@ type salesforce.WorkStepTemplate {
         default = false
       },
       {
-        fullName = "runtime_payments__PayNowWithProducts"
+        fullName = "runtime_payments__GeneratePaymentLink"
         isActive = true
-        label = "Pay Now with Products"
+        label = "Generate Payment Link"
         default = false
       },
       {

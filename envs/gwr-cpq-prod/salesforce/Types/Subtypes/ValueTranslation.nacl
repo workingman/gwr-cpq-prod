@@ -18,4 +18,11 @@ type salesforce.ValueTranslation {
   string translation {
   }
   metadataType = "ValueTranslation"
+  _important_values = [
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

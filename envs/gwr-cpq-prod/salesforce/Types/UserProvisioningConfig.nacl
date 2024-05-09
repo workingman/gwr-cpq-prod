@@ -53,4 +53,16 @@ type salesforce.UserProvisioningConfig {
   suffix = "userProvisioningConfig"
   dirName = "userProvisioningConfigs"
   metadataType = "UserProvisioningConfig"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

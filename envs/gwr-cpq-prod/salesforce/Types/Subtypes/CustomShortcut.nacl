@@ -24,4 +24,16 @@ type salesforce.CustomShortcut {
   string eventName {
   }
   metadataType = "CustomShortcut"
+  _important_values = [
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "active"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

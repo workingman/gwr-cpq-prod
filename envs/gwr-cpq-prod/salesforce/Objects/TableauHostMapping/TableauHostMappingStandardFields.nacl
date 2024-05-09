@@ -87,7 +87,7 @@ type salesforce.TableauHostMapping {
     apiName = "TableauHostMapping.SiteLuid"
     length = 120
     _required = true
-    label = "Tableau site Luid"
+    label = "Tableau site ID"
     createable = true
     updateable = true
     unique = false

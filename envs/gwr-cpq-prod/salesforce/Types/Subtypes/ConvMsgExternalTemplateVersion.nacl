@@ -37,4 +37,11 @@ type salesforce.ConvMsgExternalTemplateVersion {
   string templateVersionIdentifier {
   }
   metadataType = "ConvMsgExternalTemplateVersion"
+  _important_values = [
+    {
+      value = "status"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

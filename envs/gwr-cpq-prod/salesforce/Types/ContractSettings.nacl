@@ -34,4 +34,11 @@ settings salesforce.ContractSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "ContractSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

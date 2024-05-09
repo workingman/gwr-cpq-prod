@@ -29,4 +29,11 @@ type salesforce.UserProfileSearchScope {
   suffix = "userProfileSearchScope"
   dirName = "userProfileSearchScopes"
   metadataType = "UserProfileSearchScope"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

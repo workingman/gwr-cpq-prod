@@ -28,4 +28,16 @@ type salesforce.ConversationMessageParameterCompositeDetails {
   salesforce.ConversationMessageParameterPrimitiveDetails primitiveChildItems {
   }
   metadataType = "ConversationMessageParameterCompositeDetails"
+  _important_values = [
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

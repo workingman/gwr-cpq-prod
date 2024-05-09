@@ -30,4 +30,11 @@ type salesforce.InstalledPackage {
   suffix = "installedPackage"
   dirName = "installedPackages"
   metadataType = "InstalledPackage"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

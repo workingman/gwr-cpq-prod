@@ -24,4 +24,11 @@ settings salesforce.RealTimeEventSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "RealTimeEventSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

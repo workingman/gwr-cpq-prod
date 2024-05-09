@@ -24,4 +24,11 @@ type salesforce.EmbeddedServiceFlowConfig {
   suffix = "EmbeddedServiceFlowConfig"
   dirName = "EmbeddedServiceFlowConfig"
   metadataType = "EmbeddedServiceFlowConfig"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

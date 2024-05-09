@@ -28,4 +28,11 @@ type salesforce.CallCoachingMediaProvider {
   suffix = "callCoachingMediaProvider"
   dirName = "callCoachingMediaProviders"
   metadataType = "CallCoachingMediaProvider"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

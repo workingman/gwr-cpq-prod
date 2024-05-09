@@ -195,6 +195,12 @@ type salesforce.DandBCompany {
         default = false
       },
       {
+        fullName = "CNH"
+        isActive = true
+        label = "CNH - Chinese Yuan (Offshore)"
+        default = false
+      },
+      {
         fullName = "CNY"
         isActive = true
         label = "CNY - Chinese Yuan"
@@ -300,6 +306,12 @@ type salesforce.DandBCompany {
         fullName = "GBP"
         isActive = true
         label = "GBP - British Pound"
+        default = false
+      },
+      {
+        fullName = "GBT"
+        isActive = true
+        label = "GBT - Zimbabwe Gold Back Digital Token"
         default = false
       },
       {
@@ -960,6 +972,12 @@ type salesforce.DandBCompany {
         fullName = "ZWL"
         isActive = true
         label = "ZWL - Zimbabwe Dollar"
+        default = false
+      },
+      {
+        fullName = "ZIG"
+        isActive = true
+        label = "ZiG - Zimbabwe Gold"
         default = false
       },
     ]

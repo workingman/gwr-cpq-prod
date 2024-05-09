@@ -24,4 +24,11 @@ type salesforce.CorsWhitelistOrigin {
   suffix = "corsWhitelistOrigin"
   dirName = "corsWhitelistOrigins"
   metadataType = "CorsWhitelistOrigin"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -20,15 +20,21 @@ type salesforce.MktDataModelAttributes {
         "ADG",
         "Activation_Audience",
         "Bridge",
+        "CG_Audience",
+        "Calculated_Insight",
+        "Chunk",
         "Curated",
         "Custom",
         "Derived",
+        "Directory_Table",
         "External",
         "Ml_Prediction",
         "Segment_Membership",
+        "Semantic",
         "Standard",
         "System",
         "Transform",
+        "Vector_Embedding",
       ]
     }
   }
@@ -55,4 +61,11 @@ type salesforce.MktDataModelAttributes {
   }
   string dataSpacePrefix {
   }
+  _important_values = [
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

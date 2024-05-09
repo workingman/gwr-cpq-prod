@@ -58,4 +58,21 @@ type salesforce.WorkflowFieldUpdate {
     localOnly = true
   }
   metadataType = "WorkflowFieldUpdate"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

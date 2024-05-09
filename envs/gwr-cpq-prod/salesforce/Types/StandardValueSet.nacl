@@ -28,4 +28,11 @@ type salesforce.StandardValueSet {
   suffix = "standardValueSet"
   dirName = "standardValueSets"
   metadataType = "StandardValueSet"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

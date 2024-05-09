@@ -12,4 +12,5 @@ salesforce.CustomApplication standard__Platform {
   ]
   fullName = "standard__Platform"
   _alias = "standard__Platform"
+  isOmniPinnedViewEnabled = false
 }

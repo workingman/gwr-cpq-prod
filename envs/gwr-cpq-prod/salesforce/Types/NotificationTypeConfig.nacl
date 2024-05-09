@@ -24,4 +24,11 @@ type salesforce.NotificationTypeConfig {
   suffix = "config"
   dirName = "notificationTypeConfig"
   metadataType = "NotificationTypeConfig"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

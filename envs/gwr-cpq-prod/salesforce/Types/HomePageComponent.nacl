@@ -34,4 +34,11 @@ type salesforce.HomePageComponent {
   suffix = "homePageComponent"
   dirName = "homePageComponents"
   metadataType = "HomePageComponent"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

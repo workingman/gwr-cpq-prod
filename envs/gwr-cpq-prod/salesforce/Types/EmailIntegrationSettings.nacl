@@ -44,4 +44,11 @@ settings salesforce.EmailIntegrationSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "EmailIntegrationSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

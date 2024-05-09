@@ -20,4 +20,11 @@ type salesforce.FlowStageStepEntryActionOutputParameter {
   salesforce.FlowMetadataValue processMetadataValues {
   }
   metadataType = "FlowStageStepEntryActionOutputParameter"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

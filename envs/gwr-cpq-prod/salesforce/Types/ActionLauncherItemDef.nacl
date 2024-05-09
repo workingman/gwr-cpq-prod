@@ -51,4 +51,16 @@ type salesforce.ActionLauncherItemDef {
   suffix = "actionLauncherItemDef"
   dirName = "ActionLauncherItemDef"
   metadataType = "ActionLauncherItemDef"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -26,4 +26,11 @@ settings salesforce.MacroSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "MacroSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -69,4 +69,11 @@ type salesforce.PlatformEventChannelMember {
   suffix = "platformEventChannelMember"
   dirName = "platformEventChannelMembers"
   metadataType = "PlatformEventChannelMember"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

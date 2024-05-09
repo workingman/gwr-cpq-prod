@@ -6,4 +6,5 @@ salesforce.AccountSettings {
   enableRelateContactToMultipleAccounts = false
   showViewHierarchyLink = true
   _alias = "Account"
+  enableAccountInsightsInMobile = false
 }

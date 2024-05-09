@@ -22,4 +22,11 @@ settings salesforce.EinsteinDocumentCaptureSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "EinsteinDocumentCaptureSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

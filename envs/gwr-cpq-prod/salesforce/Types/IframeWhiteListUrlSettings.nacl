@@ -24,4 +24,11 @@ type salesforce.IframeWhiteListUrlSettings {
   suffix = "iframeWhiteListUrlSettings"
   dirName = "iframeWhiteListUrlSettings"
   metadataType = "IframeWhiteListUrlSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

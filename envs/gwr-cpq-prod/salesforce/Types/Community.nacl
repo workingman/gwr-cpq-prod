@@ -67,4 +67,21 @@ type salesforce.Community {
   suffix = "community"
   dirName = "communities"
   metadataType = "Community"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "active"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

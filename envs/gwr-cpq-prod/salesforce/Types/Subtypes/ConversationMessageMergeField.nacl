@@ -28,4 +28,11 @@ type salesforce.ConversationMessageMergeField {
   string valueSourceReference {
   }
   metadataType = "ConversationMessageMergeField"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

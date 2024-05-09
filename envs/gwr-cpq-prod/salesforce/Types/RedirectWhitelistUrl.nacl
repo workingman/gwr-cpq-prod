@@ -24,4 +24,11 @@ type salesforce.RedirectWhitelistUrl {
   suffix = "redirectWhitelistUrl"
   dirName = "redirectWhitelistUrls"
   metadataType = "RedirectWhitelistUrl"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

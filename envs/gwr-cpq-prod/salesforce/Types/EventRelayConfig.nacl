@@ -33,6 +33,7 @@ type salesforce.EventRelayConfig {
         "CampaignMemberChangeEvent",
         "CampaignMemberStatusChangeEvent",
         "CaseChangeEvent",
+        "CaseHistory2ChangeEvent",
         "CaseRelatedIssueChangeEvent",
         "ChangeDataCaptureDiffeoStandard",
         "ChangeDataStandardSales",
@@ -92,6 +93,7 @@ type salesforce.EventRelayConfig {
         "Merchandising",
         "OpportunityChangeEvent",
         "OpportunityContactRoleChangeEvent",
+        "OpportunityLineItemChangeEvent",
         "OrderChangeEvent",
         "OrderItemChangeEvent",
         "OutletLocale__ChangeEvent",
@@ -247,4 +249,16 @@ type salesforce.EventRelayConfig {
       ]
     }
   }
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

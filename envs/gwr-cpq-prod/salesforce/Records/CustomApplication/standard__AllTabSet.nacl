@@ -5,4 +5,5 @@ salesforce.CustomApplication standard__AllTabSet {
   isNavTabPersistenceDisabled = false
   fullName = "standard__AllTabSet"
   _alias = "standard__AllTabSet"
+  isOmniPinnedViewEnabled = false
 }

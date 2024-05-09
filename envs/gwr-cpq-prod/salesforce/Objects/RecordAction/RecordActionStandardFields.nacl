@@ -27,6 +27,12 @@ type salesforce.RecordAction {
         default = false
       },
       {
+        fullName = "GWR_Flow3"
+        isActive = true
+        label = "GWR_Flow3"
+        default = false
+      },
+      {
         fullName = "QuickActionDefinition.Case._LightningUpdateCase"
         isActive = true
         label = "QuickActionDefinition.Case._LightningUpdateCase"
@@ -279,9 +285,9 @@ type salesforce.RecordAction {
         default = false
       },
       {
-        fullName = "runtime_payments__PayNowWithProducts"
+        fullName = "runtime_payments__GeneratePaymentLink"
         isActive = true
-        label = "runtime_payments__PayNowWithProducts"
+        label = "runtime_payments__GeneratePaymentLink"
         default = false
       },
       {
@@ -354,6 +360,18 @@ type salesforce.RecordAction {
         label = "Omniscript"
         default = false
       },
+      {
+        fullName = "LWC"
+        isActive = true
+        label = "LWC"
+        default = false
+      },
+      {
+        fullName = "WebLink"
+        isActive = true
+        label = "WebLink"
+        default = false
+      },
     ]
     restricted = true
     label = "Action Type"
@@ -386,6 +404,12 @@ type salesforce.RecordAction {
         fullName = "cms_orch__CMS_WithdrawReviewRequest"
         isActive = true
         label = "cms_orch__CMS_WithdrawReviewRequest"
+        default = false
+      },
+      {
+        fullName = "GWR_Flow3"
+        isActive = true
+        label = "GWR_Flow3"
         default = false
       },
       {
@@ -425,9 +449,9 @@ type salesforce.RecordAction {
         default = false
       },
       {
-        fullName = "runtime_payments__PayNowWithProducts"
+        fullName = "runtime_payments__GeneratePaymentLink"
         isActive = true
-        label = "runtime_payments__PayNowWithProducts"
+        label = "runtime_payments__GeneratePaymentLink"
         default = false
       },
       {

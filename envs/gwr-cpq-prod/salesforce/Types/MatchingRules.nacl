@@ -24,4 +24,11 @@ type salesforce.MatchingRules {
   suffix = "matchingRule"
   dirName = "matchingRules"
   metadataType = "MatchingRules"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

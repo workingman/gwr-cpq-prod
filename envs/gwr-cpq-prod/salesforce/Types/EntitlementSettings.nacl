@@ -48,4 +48,11 @@ settings salesforce.EntitlementSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "EntitlementSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

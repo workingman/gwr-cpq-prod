@@ -54,4 +54,11 @@ settings salesforce.FlowSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "FlowSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

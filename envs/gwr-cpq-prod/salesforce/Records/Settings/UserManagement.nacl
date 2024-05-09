@@ -16,4 +16,5 @@ salesforce.UserManagementSettings {
   restrictedProfileCloning = "false"
   userAccessPoliciesEnabled = "false"
   _alias = "UserManagement"
+  enableEnhcUiUserAccessPolicies = "false"
 }

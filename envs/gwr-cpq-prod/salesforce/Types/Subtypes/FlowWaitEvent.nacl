@@ -56,4 +56,41 @@ type salesforce.FlowWaitEvent {
   string resumeTime {
   }
   metadataType = "FlowWaitEvent"
+  _important_values = [
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
+  string associatedElement {
+  }
+  string filterLogic {
+  }
+  salesforce.FlowRecordFilter filters {
+  }
+  string object {
+  }
+  string recordTriggerType {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Create",
+        "CreateAndUpdate",
+        "Delete",
+        "None",
+        "Update",
+      ]
+    }
+  }
 }

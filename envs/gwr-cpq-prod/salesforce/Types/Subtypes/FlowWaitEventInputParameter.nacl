@@ -20,4 +20,11 @@ type salesforce.FlowWaitEventInputParameter {
   salesforce.FlowElementReferenceOrValue value {
   }
   metadataType = "FlowWaitEventInputParameter"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

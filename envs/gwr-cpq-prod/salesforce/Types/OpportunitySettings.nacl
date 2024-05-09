@@ -44,4 +44,11 @@ settings salesforce.OpportunitySettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "OpportunitySettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

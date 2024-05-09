@@ -28,4 +28,16 @@ type salesforce.DigitalExperience {
     localOnly = true
   }
   metadataType = "DigitalExperience"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "content"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

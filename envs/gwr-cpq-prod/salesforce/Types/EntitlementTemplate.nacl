@@ -44,4 +44,11 @@ type salesforce.EntitlementTemplate {
   suffix = "entitlementTemplate"
   dirName = "entitlementTemplates"
   metadataType = "EntitlementTemplate"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

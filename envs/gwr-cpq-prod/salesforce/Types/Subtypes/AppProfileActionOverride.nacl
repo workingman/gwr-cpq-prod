@@ -60,4 +60,11 @@ type salesforce.AppProfileActionOverride {
     ]
   }
   metadataType = "AppProfileActionOverride"
+  _important_values = [
+    {
+      value = "content"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

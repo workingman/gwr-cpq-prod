@@ -88,4 +88,16 @@ type salesforce.EmbeddedServiceConfig {
   }
   boolean isTermsAndConditionsRequired {
   }
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -21,7 +21,9 @@ type salesforce.FlowTransformValueAction {
     _restriction = {
       enforce_value = false
       values = [
+        "Count",
         "Map",
+        "Sum",
       ]
     }
     foreignKeyDomain = [
@@ -31,4 +33,15 @@ type salesforce.FlowTransformValueAction {
   salesforce.FlowElementReferenceOrValue value {
   }
   metadataType = "FlowTransformValueAction"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
+  salesforce.FlowTransformValueActionInputParameter inputParameters {
+  }
+  string name {
+  }
 }

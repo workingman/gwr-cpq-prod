@@ -81,4 +81,21 @@ type salesforce.ConversationMessageDefinition {
   suffix = "conversationMessageDefinition"
   dirName = "conversationMessageDefinitions"
   metadataType = "ConversationMessageDefinition"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

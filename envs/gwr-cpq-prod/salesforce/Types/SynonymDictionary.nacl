@@ -28,4 +28,16 @@ type salesforce.SynonymDictionary {
   suffix = "synonymDictionary"
   dirName = "synonymDictionaries"
   metadataType = "SynonymDictionary"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

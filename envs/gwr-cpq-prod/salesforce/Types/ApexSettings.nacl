@@ -52,4 +52,11 @@ settings salesforce.ApexSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "ApexSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

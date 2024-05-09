@@ -36,4 +36,11 @@ settings salesforce.CampaignSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "CampaignSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -28,4 +28,11 @@ settings salesforce.PathAssistantSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "PathAssistantSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

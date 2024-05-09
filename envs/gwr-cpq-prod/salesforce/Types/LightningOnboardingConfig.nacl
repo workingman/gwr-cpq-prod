@@ -39,4 +39,16 @@ type salesforce.LightningOnboardingConfig {
   suffix = "lightningOnboardingConfig"
   dirName = "lightningOnboardingConfigs"
   metadataType = "LightningOnboardingConfig"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

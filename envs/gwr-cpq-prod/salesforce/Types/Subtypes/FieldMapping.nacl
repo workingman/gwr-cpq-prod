@@ -22,4 +22,11 @@ type salesforce.FieldMapping {
   string masterLabel {
   }
   metadataType = "FieldMapping"
+  _important_values = [
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

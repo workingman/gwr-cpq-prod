@@ -22,4 +22,11 @@ settings salesforce.PortalsSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "PortalsSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

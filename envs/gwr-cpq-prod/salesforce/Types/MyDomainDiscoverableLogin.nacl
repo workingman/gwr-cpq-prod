@@ -34,4 +34,11 @@ type salesforce.MyDomainDiscoverableLogin {
   suffix = "myDomainDiscoverableLogin"
   dirName = "myDomainDiscoverableLogins"
   metadataType = "MyDomainDiscoverableLogin"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

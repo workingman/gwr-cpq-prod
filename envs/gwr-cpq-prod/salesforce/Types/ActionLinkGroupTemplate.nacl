@@ -49,4 +49,16 @@ type salesforce.ActionLinkGroupTemplate {
   suffix = "actionLinkGroupTemplate"
   dirName = "actionLinkGroupTemplates"
   metadataType = "ActionLinkGroupTemplate"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

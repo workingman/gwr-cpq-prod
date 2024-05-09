@@ -30,4 +30,16 @@ type salesforce.Country {
   boolean visible {
   }
   metadataType = "Country"
+  _important_values = [
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "active"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

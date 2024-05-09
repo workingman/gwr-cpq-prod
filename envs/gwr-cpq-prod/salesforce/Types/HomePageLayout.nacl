@@ -26,4 +26,11 @@ type salesforce.HomePageLayout {
   suffix = "homePageLayout"
   dirName = "homePageLayouts"
   metadataType = "HomePageLayout"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

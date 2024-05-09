@@ -26,4 +26,11 @@ settings salesforce.RecordPageSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "RecordPageSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

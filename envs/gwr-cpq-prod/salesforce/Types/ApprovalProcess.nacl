@@ -71,4 +71,26 @@ type salesforce.ApprovalProcess {
   suffix = "approvalProcess"
   dirName = "approvalProcesses"
   metadataType = "ApprovalProcess"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "active"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

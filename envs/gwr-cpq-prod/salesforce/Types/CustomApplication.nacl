@@ -95,4 +95,23 @@ type salesforce.CustomApplication {
   suffix = "app"
   dirName = "applications"
   metadataType = "CustomApplication"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
+  boolean isOmniPinnedViewEnabled {
+  }
 }

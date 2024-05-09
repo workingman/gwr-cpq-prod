@@ -22,4 +22,11 @@ settings salesforce.DynamicFormsSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "DynamicFormsSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

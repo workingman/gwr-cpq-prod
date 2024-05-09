@@ -16,4 +16,11 @@ type salesforce.KnowledgeWorkOrderField {
   string name {
   }
   metadataType = "KnowledgeWorkOrderField"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

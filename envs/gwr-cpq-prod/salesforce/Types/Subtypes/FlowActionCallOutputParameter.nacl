@@ -20,4 +20,11 @@ type salesforce.FlowActionCallOutputParameter {
   salesforce.FlowMetadataValue processMetadataValues {
   }
   metadataType = "FlowActionCallOutputParameter"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -55,4 +55,16 @@ type salesforce.LightningBolt {
   suffix = "lightningBolt"
   dirName = "lightningBolts"
   metadataType = "LightningBolt"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

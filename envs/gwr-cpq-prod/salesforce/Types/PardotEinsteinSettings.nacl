@@ -26,4 +26,11 @@ settings salesforce.PardotEinsteinSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "PardotEinsteinSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

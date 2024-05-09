@@ -455,4 +455,20 @@ type salesforce.Site {
     queryable = true
     _hidden_value = true
   }
+  salesforce.Checkbox OptionsIsSiteGRecaptchaIntegrationEnabled {
+    apiName = "Site.OptionsIsSiteGRecaptchaIntegrationEnabled"
+    label = "IsSiteGRecaptchaIntegrationEnabled"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox OptionsIsSiteConsentBannerIntegrationEnabled {
+    apiName = "Site.OptionsIsSiteConsentBannerIntegrationEnabled"
+    label = "IsSiteConsentBannerIntegrationEnabled"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
 }

@@ -17,4 +17,5 @@ salesforce.CustomApplication standard__Service {
   ]
   fullName = "standard__Service"
   _alias = "standard__Service"
+  isOmniPinnedViewEnabled = false
 }

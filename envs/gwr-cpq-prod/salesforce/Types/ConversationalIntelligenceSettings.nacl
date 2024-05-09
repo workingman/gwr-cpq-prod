@@ -22,4 +22,11 @@ settings salesforce.ConversationalIntelligenceSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "ConversationalIntelligenceSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

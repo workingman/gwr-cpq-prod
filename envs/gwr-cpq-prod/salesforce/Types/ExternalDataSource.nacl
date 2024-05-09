@@ -67,6 +67,7 @@ type salesforce.ExternalDataSource {
       values = [
         "ApiKey",
         "AwsSv4",
+        "Basic",
         "C2c",
         "Certificate",
         "Custom",
@@ -87,6 +88,7 @@ type salesforce.ExternalDataSource {
     _restriction = {
       enforce_value = false
       values = [
+        "ASPAttribute",
         "Activity",
         "ActivityInsight",
         "ActivityParticipant",
@@ -126,17 +128,21 @@ type salesforce.ExternalDataSource {
         "EngagementPerson",
         "EventLogOlapService",
         "ExternalEvent",
-        "ExternalKnowledge",
         "ExternalReference",
+        "FAAttribute",
         "FLAttribute",
         "FieldChangeSnapshot",
         "ForecastingItemPivot",
         "Ftest",
         "FtestNearCore",
         "FtestNearCoreNested",
-        "FulfillmentAssetAttribute",
         "GraphQl",
+        "IAItemProdtAttr",
+        "IPAAttribute",
+        "IPCAttribute",
+        "IPPAttribute",
         "Identity",
+        "InsPolicyAttribute",
         "InterestTag",
         "Jigsaw",
         "Limits",
@@ -161,6 +167,7 @@ type salesforce.ExternalDataSource {
         "PromoRuleTempDS",
         "QLIAttribute",
         "RecentFieldChange",
+        "SAPAttribute",
         "Salesforce",
         "SalesforceContract",
         "SalesforceInvoice",
@@ -171,9 +178,11 @@ type salesforce.ExternalDataSource {
         "SetupNode",
         "SfdcOrg",
         "SimpleURL",
+        "Snowflake",
         "Trailhead",
         "TrailheadEdit",
         "TrailheadEditWithId",
+        "Trino",
         "VdaFtestVirtual",
         "VdaMockCdpData",
         "Wrapper",
@@ -229,4 +238,16 @@ type salesforce.ExternalDataSource {
   suffix = "dataSource"
   dirName = "dataSources"
   metadataType = "ExternalDataSource"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

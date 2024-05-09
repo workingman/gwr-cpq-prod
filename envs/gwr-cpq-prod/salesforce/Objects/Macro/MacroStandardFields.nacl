@@ -665,6 +665,12 @@ type salesforce.Macro {
         default = false
       },
       {
+        fullName = "PrivacyRTBFRequest"
+        isActive = true
+        label = "Privacy RTBF Request"
+        default = false
+      },
+      {
         fullName = "Problem"
         isActive = true
         label = "Problem"

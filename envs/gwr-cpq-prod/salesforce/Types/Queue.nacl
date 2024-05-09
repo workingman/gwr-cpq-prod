@@ -37,4 +37,16 @@ type salesforce.Queue {
   suffix = "queue"
   dirName = "queues"
   metadataType = "Queue"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

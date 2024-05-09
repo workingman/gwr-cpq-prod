@@ -45,4 +45,11 @@ type salesforce.CustomApplicationComponent {
   suffix = "customApplicationComponent"
   dirName = "customApplicationComponents"
   metadataType = "CustomApplicationComponent"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

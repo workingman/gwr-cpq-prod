@@ -18,4 +18,11 @@ type salesforce.MiniLayout {
   salesforce.RelatedListItem relatedLists {
   }
   metadataType = "MiniLayout"
+  _important_values = [
+    {
+      value = "relatedLists"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

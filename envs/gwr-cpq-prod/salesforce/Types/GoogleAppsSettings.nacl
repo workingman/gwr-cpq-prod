@@ -24,4 +24,11 @@ settings salesforce.GoogleAppsSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "GoogleAppsSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

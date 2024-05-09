@@ -62,4 +62,11 @@ settings salesforce.EmailAdministrationSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "EmailAdministrationSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

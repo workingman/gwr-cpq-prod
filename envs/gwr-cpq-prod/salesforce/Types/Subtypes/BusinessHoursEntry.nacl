@@ -53,4 +53,21 @@ type salesforce.BusinessHoursEntry {
   string wednesdayStartTime {
   }
   metadataType = "BusinessHoursEntry"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "active"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

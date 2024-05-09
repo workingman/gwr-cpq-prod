@@ -65,4 +65,16 @@ type salesforce.NetworkBranding {
   suffix = "networkBranding"
   dirName = "networkBranding"
   metadataType = "NetworkBranding"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "content"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

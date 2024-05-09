@@ -22,4 +22,11 @@ settings salesforce.CodeBuilderSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "CodeBuilderSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -30,4 +30,11 @@ type salesforce.ConversationMessageLayoutItem {
   salesforce.ConversationMessageLayoutPrimitiveValue primitiveValues {
   }
   metadataType = "ConversationMessageLayoutItem"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

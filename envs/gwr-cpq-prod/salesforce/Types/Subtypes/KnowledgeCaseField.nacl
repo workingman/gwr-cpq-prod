@@ -16,4 +16,11 @@ type salesforce.KnowledgeCaseField {
   string name {
   }
   metadataType = "KnowledgeCaseField"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

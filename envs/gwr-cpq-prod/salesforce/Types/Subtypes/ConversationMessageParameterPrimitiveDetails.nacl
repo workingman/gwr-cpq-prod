@@ -43,4 +43,16 @@ type salesforce.ConversationMessageParameterPrimitiveDetails {
     }
   }
   metadataType = "ConversationMessageParameterPrimitiveDetails"
+  _important_values = [
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

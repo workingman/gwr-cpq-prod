@@ -40,4 +40,11 @@ type salesforce.CallCenter {
   suffix = "callCenter"
   dirName = "callCenters"
   metadataType = "CallCenter"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

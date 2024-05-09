@@ -20,4 +20,11 @@ type salesforce.FlowWaitEventOutputParameter {
   salesforce.FlowMetadataValue processMetadataValues {
   }
   metadataType = "FlowWaitEventOutputParameter"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

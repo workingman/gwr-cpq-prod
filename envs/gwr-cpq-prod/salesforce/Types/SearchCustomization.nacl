@@ -26,4 +26,26 @@ type salesforce.SearchCustomization {
   suffix = "searchCustomization"
   dirName = "searchCustomizations"
   metadataType = "SearchCustomization"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
+  string channel {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "GlobalSearch",
+        "KnowledgeComponentSearch",
+        "LWRExperienceSiteSearch",
+      ]
+    }
+  }
 }

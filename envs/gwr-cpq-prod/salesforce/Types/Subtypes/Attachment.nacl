@@ -19,4 +19,16 @@ type salesforce.Attachment {
     _required = true
   }
   metadataType = "Attachment"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "content"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

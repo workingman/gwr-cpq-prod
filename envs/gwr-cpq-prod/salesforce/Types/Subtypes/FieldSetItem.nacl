@@ -20,4 +20,6 @@ type salesforce.FieldSetItem {
   boolean isRequired {
   }
   metadataType = "FieldSetItem"
+  string alternativeDisplayFormat {
+  }
 }

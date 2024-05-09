@@ -28,4 +28,11 @@ settings salesforce.SiteSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "SiteSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

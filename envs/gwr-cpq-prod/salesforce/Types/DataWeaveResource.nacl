@@ -31,4 +31,21 @@ type salesforce.DataWeaveResource {
   dirName = "dw"
   metadataType = "DataWeaveResource"
   suffix = "dwl"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "content"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "apiVersion"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

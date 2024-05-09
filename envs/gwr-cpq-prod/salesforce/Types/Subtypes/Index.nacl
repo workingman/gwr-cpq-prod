@@ -24,4 +24,16 @@ type salesforce.Index {
     localOnly = true
   }
   metadataType = "Index"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

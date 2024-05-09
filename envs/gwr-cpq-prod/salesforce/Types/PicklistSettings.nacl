@@ -24,4 +24,11 @@ settings salesforce.PicklistSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "PicklistSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

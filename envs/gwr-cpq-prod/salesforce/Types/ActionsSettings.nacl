@@ -28,4 +28,11 @@ settings salesforce.ActionsSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "ActionsSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -18,4 +18,6 @@ type salesforce.AdjustmentsSettings {
   boolean enableOwnerAdjustments {
   }
   metadataType = "AdjustmentsSettings"
+  boolean allowExpandedColumns {
+  }
 }

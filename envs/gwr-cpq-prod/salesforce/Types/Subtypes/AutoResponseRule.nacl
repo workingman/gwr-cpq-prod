@@ -24,4 +24,16 @@ type salesforce.AutoResponseRule {
     localOnly = true
   }
   metadataType = "AutoResponseRule"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "active"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

@@ -24,4 +24,11 @@ settings salesforce.AddressSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "AddressSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

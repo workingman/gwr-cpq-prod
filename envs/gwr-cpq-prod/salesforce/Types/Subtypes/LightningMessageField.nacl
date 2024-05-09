@@ -18,4 +18,11 @@ type salesforce.LightningMessageField {
   string fieldName {
   }
   metadataType = "LightningMessageField"
+  _important_values = [
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

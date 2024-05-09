@@ -20,4 +20,16 @@ type salesforce.CallCenterSection {
   string name {
   }
   metadataType = "CallCenterSection"
+  _important_values = [
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

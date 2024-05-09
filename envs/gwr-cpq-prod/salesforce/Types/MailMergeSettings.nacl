@@ -22,4 +22,11 @@ settings salesforce.MailMergeSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "MailMergeSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

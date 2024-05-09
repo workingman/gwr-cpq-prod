@@ -23,8 +23,8 @@ type salesforce.FlowStart {
     _restriction = {
       enforce_value = false
       values = [
+        "AddPromptInstructions",
         "BackgroundStep",
-        "CreatePromptInstructions",
         "FilterCollectionProcessor",
         "InteractiveStep",
         "ManagedContentRoleInteractiveStep",
@@ -38,6 +38,7 @@ type salesforce.FlowStart {
         "WaitAttribute",
         "WaitDate",
         "WaitDuration",
+        "WaitUntilEvent",
       ]
     }
   }
@@ -83,6 +84,7 @@ type salesforce.FlowStart {
     _restriction = {
       enforce_value = false
       values = [
+        "Capability",
         "DataCloudDataChange",
         "EventDrivenJourney",
         "FormSubmissionEvent",
@@ -108,6 +110,35 @@ type salesforce.FlowStart {
   }
   string form {
   }
-  string landingPage {
+  
+  _important_values = [
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
+  salesforce.FlowCapability capabilityTypes {
+  }
+  string flowRunAsUser {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "DefaultWorkflowUser",
+        "TriggeringUser",
+      ]
+    }
+  }
+  boolean publishSegment {
   }
 }

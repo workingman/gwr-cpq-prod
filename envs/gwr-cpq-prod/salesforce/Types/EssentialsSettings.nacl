@@ -22,4 +22,11 @@ settings salesforce.EssentialsSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "EssentialsSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

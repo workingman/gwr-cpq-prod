@@ -121,4 +121,11 @@ type salesforce.AuthProvider {
   metadataType = "AuthProvider"
   boolean isPkceEnabled {
   }
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

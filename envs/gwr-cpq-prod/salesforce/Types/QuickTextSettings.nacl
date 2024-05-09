@@ -22,4 +22,11 @@ settings salesforce.QuickTextSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "QuickTextSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

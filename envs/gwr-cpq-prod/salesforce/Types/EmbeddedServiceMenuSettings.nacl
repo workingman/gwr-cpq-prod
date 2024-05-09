@@ -42,4 +42,16 @@ type salesforce.EmbeddedServiceMenuSettings {
   suffix = "EmbeddedServiceMenuSettings"
   dirName = "EmbeddedServiceMenuSettings"
   metadataType = "EmbeddedServiceMenuSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

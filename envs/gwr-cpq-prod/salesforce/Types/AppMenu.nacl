@@ -24,4 +24,11 @@ type salesforce.AppMenu {
   suffix = "appMenu"
   dirName = "appMenus"
   metadataType = "AppMenu"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

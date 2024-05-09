@@ -42,4 +42,11 @@ settings salesforce.Territory2Settings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "Territory2Settings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

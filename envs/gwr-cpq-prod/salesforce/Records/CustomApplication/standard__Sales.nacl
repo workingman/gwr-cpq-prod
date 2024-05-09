@@ -22,4 +22,5 @@ salesforce.CustomApplication standard__Sales {
   ]
   fullName = "standard__Sales"
   _alias = "standard__Sales"
+  isOmniPinnedViewEnabled = false
 }

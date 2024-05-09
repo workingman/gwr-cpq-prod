@@ -38,4 +38,21 @@ type salesforce.StaticResource {
   suffix = "resource"
   dirName = "staticresources"
   metadataType = "StaticResource"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "content"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

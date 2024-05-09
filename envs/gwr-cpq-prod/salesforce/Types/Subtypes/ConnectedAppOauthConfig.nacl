@@ -48,4 +48,10 @@ type salesforce.ConnectedAppOauthConfig {
   metadataType = "ConnectedAppOauthConfig"
   boolean isPkceRequired {
   }
+  boolean isRefreshTokenRotationEnabled {
+  }
+  boolean isSecretRequiredForTokenExchange {
+  }
+  boolean isTokenExchangeEnabled {
+  }
 }

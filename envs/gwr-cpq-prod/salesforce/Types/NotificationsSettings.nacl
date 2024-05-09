@@ -26,4 +26,11 @@ settings salesforce.NotificationsSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "NotificationsSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

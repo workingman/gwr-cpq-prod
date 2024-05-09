@@ -30,4 +30,11 @@ settings salesforce.OrgSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "OrgSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

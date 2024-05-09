@@ -42,4 +42,21 @@ type salesforce.Letterhead {
   suffix = "letter"
   dirName = "letterhead"
   metadataType = "Letterhead"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

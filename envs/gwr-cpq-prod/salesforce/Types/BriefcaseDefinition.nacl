@@ -30,4 +30,21 @@ type salesforce.BriefcaseDefinition {
   suffix = "briefcaseDefinition"
   dirName = "briefcaseDefinitions"
   metadataType = "BriefcaseDefinition"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -40,4 +40,16 @@ type salesforce.EmailFolder {
   folderContentType = "EmailTemplate"
   dirName = "email"
   metadataType = "EmailFolder"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

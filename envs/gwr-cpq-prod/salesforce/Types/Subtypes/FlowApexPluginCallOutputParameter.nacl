@@ -20,4 +20,11 @@ type salesforce.FlowApexPluginCallOutputParameter {
   string name {
   }
   metadataType = "FlowApexPluginCallOutputParameter"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

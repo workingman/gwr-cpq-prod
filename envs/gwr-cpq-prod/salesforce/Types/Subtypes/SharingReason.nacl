@@ -22,4 +22,16 @@ type salesforce.SharingReason {
     localOnly = true
   }
   metadataType = "SharingReason"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

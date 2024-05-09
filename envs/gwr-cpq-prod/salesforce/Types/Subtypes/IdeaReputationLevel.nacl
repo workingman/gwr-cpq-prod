@@ -18,4 +18,11 @@ type salesforce.IdeaReputationLevel {
   number value {
   }
   metadataType = "IdeaReputationLevel"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

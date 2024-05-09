@@ -24,4 +24,11 @@ type salesforce.FlowScreenRule {
   salesforce.FlowScreenRuleAction ruleActions {
   }
   metadataType = "FlowScreenRule"
+  _important_values = [
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

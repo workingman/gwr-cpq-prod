@@ -35,4 +35,11 @@ type salesforce.LayoutSection {
     }
   }
   metadataType = "LayoutSection"
+  _important_values = [
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

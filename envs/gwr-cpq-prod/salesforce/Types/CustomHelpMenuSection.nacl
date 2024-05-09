@@ -26,4 +26,16 @@ type salesforce.CustomHelpMenuSection {
   suffix = "customHelpMenuSection"
   dirName = "customHelpMenuSections"
   metadataType = "CustomHelpMenuSection"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

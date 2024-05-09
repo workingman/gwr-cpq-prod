@@ -30,4 +30,21 @@ type salesforce.GlobalValueSet {
   suffix = "globalValueSet"
   dirName = "globalValueSets"
   metadataType = "GlobalValueSet"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

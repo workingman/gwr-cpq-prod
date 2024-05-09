@@ -63,7 +63,7 @@ type salesforce.EmailMessage {
   }
   salesforce.LongTextArea HtmlBody {
     apiName = "EmailMessage.HtmlBody"
-    length = 32000
+    length = 131072
     label = "HTML Body"
     createable = true
     updateable = true
@@ -144,6 +144,7 @@ type salesforce.EmailMessage {
       salesforce.Opportunity,
       salesforce.Order,
       salesforce.PartyConsent,
+      salesforce.PrivacyRTBFRequest,
       salesforce.Problem,
       salesforce.ProcessException,
       salesforce.Product2,
@@ -163,7 +164,7 @@ type salesforce.EmailMessage {
     ]
     label = "Related To ID"
     createable = true
-    updateable = false
+    updateable = true
     queryable = true
   }
   salesforce.Picklist Status {
@@ -225,7 +226,7 @@ type salesforce.EmailMessage {
   }
   salesforce.LongTextArea TextBody {
     apiName = "EmailMessage.TextBody"
-    length = 32000
+    length = 131072
     label = "Text Body"
     createable = true
     updateable = true
@@ -350,7 +351,7 @@ type salesforce.EmailMessage {
     ]
     label = "Email Message ID"
     createable = true
-    updateable = false
+    updateable = true
     queryable = true
   }
   salesforce.Text MessageIdentifier {
@@ -425,6 +426,50 @@ type salesforce.EmailMessage {
     label = "Email Template ID"
     createable = true
     updateable = true
+    queryable = true
+  }
+  salesforce.Picklist AutomationType {
+    apiName = "EmailMessage.AutomationType"
+    valueSet = [
+      {
+        fullName = "AiAssisted"
+        isActive = true
+        label = "AI-Assisted"
+        default = false
+      },
+      {
+        fullName = "AiAutomated"
+        isActive = true
+        label = "AI-Automated"
+        default = false
+      },
+    ]
+    restricted = true
+    label = "Automation Type"
+    createable = true
+    updateable = false
+    queryable = true
+  }
+  salesforce.Lookup FromId {
+    apiName = "EmailMessage.FromId"
+    referenceTo = [
+      salesforce.Contact,
+      salesforce.Lead,
+      salesforce.User,
+    ]
+    label = "From ID"
+    createable = true
+    updateable = false
+    queryable = true
+  }
+  salesforce.Text AttachmentIds {
+    apiName = "EmailMessage.AttachmentIds"
+    length = 32768
+    label = "Attachment Ids"
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
     queryable = true
   }
 }

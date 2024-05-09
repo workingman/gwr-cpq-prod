@@ -26,4 +26,21 @@ type salesforce.StrategyNodeMap {
   salesforce.MapExpression mapExpression {
   }
   metadataType = "StrategyNodeMap"
+  _important_values = [
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

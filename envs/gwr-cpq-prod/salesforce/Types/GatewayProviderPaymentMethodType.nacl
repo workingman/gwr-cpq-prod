@@ -48,4 +48,16 @@ type salesforce.GatewayProviderPaymentMethodType {
   suffix = "gatewayProviderPaymentMethodType"
   dirName = "gatewayProviderPaymentMethodTypes"
   metadataType = "GatewayProviderPaymentMethodType"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

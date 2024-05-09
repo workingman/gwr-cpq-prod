@@ -81,4 +81,11 @@ settings salesforce.MyDomainSettings {
       ]
     }
   }
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -36,4 +36,11 @@ type salesforce.Workflow {
   suffix = "workflow"
   dirName = "workflows"
   metadataType = "Workflow"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

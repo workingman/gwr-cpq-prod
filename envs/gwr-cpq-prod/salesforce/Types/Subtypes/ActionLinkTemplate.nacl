@@ -69,4 +69,11 @@ type salesforce.ActionLinkTemplate {
     }
   }
   metadataType = "ActionLinkTemplate"
+  _important_values = [
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

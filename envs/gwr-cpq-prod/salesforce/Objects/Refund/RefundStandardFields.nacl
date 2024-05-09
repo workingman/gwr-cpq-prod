@@ -64,7 +64,7 @@ type salesforce.Refund {
   salesforce.Text CancellationGatewayResultCode {
     apiName = "Refund.CancellationGatewayResultCode"
     length = 64
-    label = "Cancellation Gateway ResultCode"
+    label = "Cancellation Gateway Result Code"
     createable = true
     updateable = true
     unique = false
@@ -131,7 +131,7 @@ type salesforce.Refund {
   salesforce.Text GatewayResultCode {
     apiName = "Refund.GatewayResultCode"
     length = 64
-    label = "Gateway ResultCode"
+    label = "Gateway Result Code"
     createable = true
     updateable = true
     unique = false
@@ -141,7 +141,7 @@ type salesforce.Refund {
   salesforce.Text GatewayResultCodeDescription {
     apiName = "Refund.GatewayResultCodeDescription"
     length = 255
-    label = "Gateway ResultCode Description"
+    label = "Gateway Result Code Description"
     createable = true
     updateable = true
     unique = false

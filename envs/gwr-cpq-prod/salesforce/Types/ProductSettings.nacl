@@ -30,4 +30,11 @@ settings salesforce.ProductSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "ProductSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

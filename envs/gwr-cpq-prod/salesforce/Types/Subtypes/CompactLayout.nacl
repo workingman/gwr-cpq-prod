@@ -24,4 +24,16 @@ type salesforce.CompactLayout {
     localOnly = true
   }
   metadataType = "CompactLayout"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

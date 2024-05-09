@@ -24,4 +24,11 @@ type salesforce.AutoResponseRules {
   suffix = "autoResponseRules"
   dirName = "autoResponseRules"
   metadataType = "AutoResponseRules"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

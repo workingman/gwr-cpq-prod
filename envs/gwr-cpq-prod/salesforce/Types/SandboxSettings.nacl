@@ -22,4 +22,11 @@ settings salesforce.SandboxSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "SandboxSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

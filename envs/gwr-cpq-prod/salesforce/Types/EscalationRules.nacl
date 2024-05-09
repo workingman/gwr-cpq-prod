@@ -24,4 +24,11 @@ type salesforce.EscalationRules {
   suffix = "escalationRules"
   dirName = "escalationRules"
   metadataType = "EscalationRules"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

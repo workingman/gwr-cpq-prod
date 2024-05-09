@@ -20,4 +20,11 @@ type salesforce.FlowScreenActionInputParameter {
   salesforce.FlowElementReferenceOrValue value {
   }
   metadataType = "FlowScreenActionInputParameter"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

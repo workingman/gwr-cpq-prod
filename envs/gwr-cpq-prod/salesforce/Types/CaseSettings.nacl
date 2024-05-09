@@ -114,4 +114,11 @@ settings salesforce.CaseSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "CaseSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

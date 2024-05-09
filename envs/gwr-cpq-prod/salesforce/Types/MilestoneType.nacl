@@ -34,4 +34,16 @@ type salesforce.MilestoneType {
   suffix = "milestoneType"
   dirName = "milestoneTypes"
   metadataType = "MilestoneType"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

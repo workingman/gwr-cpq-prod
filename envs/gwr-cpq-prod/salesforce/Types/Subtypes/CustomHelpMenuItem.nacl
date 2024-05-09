@@ -20,4 +20,11 @@ type salesforce.CustomHelpMenuItem {
   number sortOrder {
   }
   metadataType = "CustomHelpMenuItem"
+  _important_values = [
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

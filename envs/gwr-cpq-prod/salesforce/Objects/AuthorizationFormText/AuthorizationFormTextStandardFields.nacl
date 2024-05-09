@@ -576,6 +576,12 @@ type salesforce.AuthorizationFormText {
         default = false
       },
       {
+        fullName = "en_IT"
+        isActive = true
+        label = "English (Italy)"
+        default = false
+      },
+      {
         fullName = "fr_BE"
         isActive = true
         label = "French (Belgium)"
@@ -2065,6 +2071,12 @@ type salesforce.AuthorizationFormText {
         fullName = "pl_PL"
         isActive = true
         label = "Polish (Poland)"
+        default = false
+      },
+      {
+        fullName = "en_IT"
+        isActive = true
+        label = "English (Italy)"
         default = false
       },
       {

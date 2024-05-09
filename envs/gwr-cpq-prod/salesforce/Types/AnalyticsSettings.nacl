@@ -116,4 +116,11 @@ settings salesforce.AnalyticsSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "AnalyticsSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

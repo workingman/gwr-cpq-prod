@@ -54,4 +54,11 @@ settings salesforce.SharingSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "SharingSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

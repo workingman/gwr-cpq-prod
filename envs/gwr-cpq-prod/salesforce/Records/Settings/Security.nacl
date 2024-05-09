@@ -46,7 +46,7 @@ salesforce.SecuritySettings {
     enablePostForSessions = false
     enableSMSIdentity = true
     enableU2F = false
-    enableXssProtection = true
+    
     enforceIpRangesEveryRequest = false
     enforceUserDeviceRevoked = false
     forceLogoutOnSessionTimeout = false
@@ -74,6 +74,7 @@ salesforce.SecuritySettings {
     grantMicrophoneAccess = "TrustedUrls"
     sendCspForUncommonClients = false
     useEAPIRateLimitForConnectAPI = false
+    terminateUserSessionsWhenAdminResetsPassword = false
   }
   singleSignOnSettings = {
     enableCaseInsensitiveFederationID = false

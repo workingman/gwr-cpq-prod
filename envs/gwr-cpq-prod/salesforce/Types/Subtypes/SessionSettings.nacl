@@ -126,4 +126,6 @@ type salesforce.SessionSettings {
   }
   boolean useEAPIRateLimitForConnectAPI {
   }
+  boolean terminateUserSessionsWhenAdminResetsPassword {
+  }
 }

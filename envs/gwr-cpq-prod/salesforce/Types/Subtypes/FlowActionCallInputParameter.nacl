@@ -20,4 +20,11 @@ type salesforce.FlowActionCallInputParameter {
   salesforce.FlowElementReferenceOrValue value {
   }
   metadataType = "FlowActionCallInputParameter"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

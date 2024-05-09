@@ -34,4 +34,21 @@ type salesforce.CustomNotificationType {
   suffix = "notiftype"
   dirName = "notificationtypes"
   metadataType = "CustomNotificationType"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

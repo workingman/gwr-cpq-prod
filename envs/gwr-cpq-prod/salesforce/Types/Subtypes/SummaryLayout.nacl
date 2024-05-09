@@ -41,4 +41,11 @@ type salesforce.SummaryLayout {
     }
   }
   metadataType = "SummaryLayout"
+  _important_values = [
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

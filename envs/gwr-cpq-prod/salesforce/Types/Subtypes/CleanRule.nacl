@@ -54,4 +54,21 @@ type salesforce.CleanRule {
   string targetSobjectType {
   }
   metadataType = "CleanRule"
+  _important_values = [
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "status"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

@@ -26,6 +26,9 @@ type salesforce.PaymentGatewayProvider {
     _restriction = {
       enforce_value = false
       values = [
+        "Adyen",
+        "Braintree",
+        "Cybersource",
         "Paypal",
         "Stripe",
       ]
@@ -49,4 +52,16 @@ type salesforce.PaymentGatewayProvider {
   suffix = "paymentGatewayProvider"
   dirName = "paymentGatewayProviders"
   metadataType = "PaymentGatewayProvider"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

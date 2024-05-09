@@ -20,4 +20,6 @@ type salesforce.ConnectedAppOauthPolicy {
   string singleLogoutUrl {
   }
   metadataType = "ConnectedAppOauthPolicy"
+  boolean isTokenExchangeFlowEnabled {
+  }
 }

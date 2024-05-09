@@ -1849,6 +1849,12 @@ type salesforce.MacroInstruction {
         default = false
       },
       {
+        fullName = "Tab.PrivacyRTBFRequest"
+        isActive = true
+        label = "Active Privacy RTBF Request Tab"
+        default = false
+      },
+      {
         fullName = "Tab.Problem"
         isActive = true
         label = "Active Problem Tab"

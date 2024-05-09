@@ -22,4 +22,11 @@ type salesforce.ObjectSearchSetting {
   number resultsPerPageCount {
   }
   metadataType = "ObjectSearchSetting"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

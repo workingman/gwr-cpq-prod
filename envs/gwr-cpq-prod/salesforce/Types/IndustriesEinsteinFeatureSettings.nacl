@@ -24,4 +24,11 @@ settings salesforce.IndustriesEinsteinFeatureSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "IndustriesEinsteinFeatureSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

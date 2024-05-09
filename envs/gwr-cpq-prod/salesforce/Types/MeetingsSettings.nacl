@@ -22,4 +22,11 @@ settings salesforce.MeetingsSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "MeetingsSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

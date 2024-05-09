@@ -20,4 +20,11 @@ type salesforce.DefaultShortcut {
   string keyCommand {
   }
   metadataType = "DefaultShortcut"
+  _important_values = [
+    {
+      value = "active"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

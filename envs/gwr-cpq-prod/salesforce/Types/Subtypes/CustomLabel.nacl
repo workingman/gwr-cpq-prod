@@ -53,4 +53,11 @@ type salesforce.CustomLabel {
     localOnly = true
   }
   metadataType = "CustomLabel"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

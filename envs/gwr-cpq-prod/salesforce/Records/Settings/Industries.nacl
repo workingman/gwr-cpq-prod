@@ -3,4 +3,6 @@ salesforce.IndustriesSettings {
   enableAccountScoreEnabled = "false"
   rlaEditIfAccHasEdit = "false"
   _alias = "Industries"
+  enableIndustriesStageManagementPref = "false"
+  enableReminders = "false"
 }

@@ -61,4 +61,11 @@ type salesforce.MobileApplicationDetail {
   suffix = "MobileApplicationDetail"
   dirName = "MobileApplicationDetails"
   metadataType = "MobileApplicationDetail"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

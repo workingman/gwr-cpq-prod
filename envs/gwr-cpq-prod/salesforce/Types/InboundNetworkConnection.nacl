@@ -53,4 +53,26 @@ type salesforce.InboundNetworkConnection {
   suffix = "inboundNetworkConnection"
   dirName = "inboundNetworkConnections"
   metadataType = "InboundNetworkConnection"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "status"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

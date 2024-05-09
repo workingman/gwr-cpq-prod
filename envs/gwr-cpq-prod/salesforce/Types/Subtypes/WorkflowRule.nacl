@@ -47,4 +47,21 @@ type salesforce.WorkflowRule {
     localOnly = true
   }
   metadataType = "WorkflowRule"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "active"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

@@ -478,6 +478,12 @@ type salesforce.FlowOrchestrationWorkItem {
         default = false
       },
       {
+        fullName = "runtime_appointmentbooking__Rasgn_Appt"
+        isActive = true
+        label = "runtime_appointmentbooking__Rasgn_Appt"
+        default = false
+      },
+      {
         fullName = "runtime_appointmentbooking__send_Invt"
         isActive = true
         label = "runtime_appointmentbooking__send_Invt"
@@ -520,9 +526,9 @@ type salesforce.FlowOrchestrationWorkItem {
         default = false
       },
       {
-        fullName = "runtime_payments__PayNowWithProducts"
+        fullName = "runtime_payments__GeneratePaymentLink"
         isActive = true
-        label = "runtime_payments__PayNowWithProducts"
+        label = "runtime_payments__GeneratePaymentLink"
         default = false
       },
       {

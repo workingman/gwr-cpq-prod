@@ -30,4 +30,21 @@ type salesforce.SharingSet {
   suffix = "sharingSet"
   dirName = "sharingSets"
   metadataType = "SharingSet"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

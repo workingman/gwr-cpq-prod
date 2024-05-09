@@ -22,4 +22,11 @@ settings salesforce.Ai4mSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "Ai4mSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

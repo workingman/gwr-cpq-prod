@@ -49,4 +49,16 @@ type salesforce.EmbeddedServiceBranding {
   suffix = "EmbeddedServiceBranding"
   dirName = "EmbeddedServiceBranding"
   metadataType = "EmbeddedServiceBranding"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

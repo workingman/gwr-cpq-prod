@@ -30,4 +30,11 @@ settings salesforce.OmniChannelSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "OmniChannelSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

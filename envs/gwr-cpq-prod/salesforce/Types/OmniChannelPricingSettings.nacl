@@ -22,4 +22,11 @@ settings salesforce.OmniChannelPricingSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "OmniChannelPricingSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

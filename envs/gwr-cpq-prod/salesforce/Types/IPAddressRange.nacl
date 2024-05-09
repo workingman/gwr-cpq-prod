@@ -49,4 +49,21 @@ type salesforce.IPAddressRange {
   suffix = "IPAddressRange"
   dirName = "IPAddressRanges"
   metadataType = "IPAddressRange"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

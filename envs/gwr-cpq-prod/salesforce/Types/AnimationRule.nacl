@@ -63,4 +63,16 @@ type salesforce.AnimationRule {
   suffix = "animationRule"
   dirName = "animationRules"
   metadataType = "AnimationRule"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

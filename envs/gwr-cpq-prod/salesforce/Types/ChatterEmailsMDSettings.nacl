@@ -22,4 +22,11 @@ settings salesforce.ChatterEmailsMDSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "ChatterEmailsMDSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

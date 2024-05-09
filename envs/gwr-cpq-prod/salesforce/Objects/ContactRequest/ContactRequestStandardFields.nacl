@@ -311,4 +311,12 @@ type salesforce.ContactRequest {
     queryable = true
     _hidden_value = true
   }
+  salesforce.Checkbox IsCallback {
+    apiName = "ContactRequest.IsCallback"
+    defaultValue = false
+    label = "Is Callback"
+    createable = true
+    updateable = true
+    queryable = true
+  }
 }

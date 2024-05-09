@@ -16,4 +16,11 @@ type salesforce.EnrichedField {
   string name {
   }
   metadataType = "EnrichedField"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

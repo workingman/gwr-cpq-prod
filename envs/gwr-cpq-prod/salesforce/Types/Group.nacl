@@ -26,4 +26,16 @@ type salesforce.Group {
   suffix = "group"
   dirName = "groups"
   metadataType = "Group"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

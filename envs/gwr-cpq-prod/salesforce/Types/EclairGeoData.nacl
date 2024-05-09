@@ -29,4 +29,21 @@ type salesforce.EclairGeoData {
   suffix = "geodata"
   dirName = "eclair"
   metadataType = "EclairGeoData"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "content"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

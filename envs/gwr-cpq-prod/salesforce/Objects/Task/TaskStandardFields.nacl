@@ -259,6 +259,7 @@ type salesforce.Task {
       salesforce.Opportunity,
       salesforce.Order,
       salesforce.PartyConsent,
+      salesforce.PrivacyRTBFRequest,
       salesforce.Problem,
       salesforce.ProcessException,
       salesforce.Product2,
@@ -437,27 +438,9 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "Pacific/Chatham"
-        isActive = true
-        label = "(GMT+13:45) Chatham Daylight Time (Pacific/Chatham)"
-        default = false
-      },
-      {
-        fullName = "Antarctica/McMurdo"
-        isActive = true
-        label = "(GMT+13:00) New Zealand Daylight Time (Antarctica/McMurdo)"
-        default = false
-      },
-      {
         fullName = "Pacific/Apia"
         isActive = true
         label = "(GMT+13:00) Apia Standard Time (Pacific/Apia)"
-        default = false
-      },
-      {
-        fullName = "Pacific/Auckland"
-        isActive = true
-        label = "(GMT+13:00) New Zealand Daylight Time (Pacific/Auckland)"
         default = false
       },
       {
@@ -479,6 +462,18 @@ type salesforce.Task {
         default = false
       },
       {
+        fullName = "Pacific/Chatham"
+        isActive = true
+        label = "(GMT+12:45) Chatham Standard Time (Pacific/Chatham)"
+        default = false
+      },
+      {
+        fullName = "Antarctica/McMurdo"
+        isActive = true
+        label = "(GMT+12:00) New Zealand Standard Time (Antarctica/McMurdo)"
+        default = false
+      },
+      {
         fullName = "Asia/Anadyr"
         isActive = true
         label = "(GMT+12:00) Anadyr Standard Time (Asia/Anadyr)"
@@ -488,6 +483,12 @@ type salesforce.Task {
         fullName = "Asia/Kamchatka"
         isActive = true
         label = "(GMT+12:00) Petropavlovsk-Kamchatski Standard Time (Asia/Kamchatka)"
+        default = false
+      },
+      {
+        fullName = "Pacific/Auckland"
+        isActive = true
+        label = "(GMT+12:00) New Zealand Standard Time (Pacific/Auckland)"
         default = false
       },
       {
@@ -521,12 +522,6 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "Pacific/Norfolk"
-        isActive = true
-        label = "(GMT+12:00) Norfolk Island Daylight Time (Pacific/Norfolk)"
-        default = false
-      },
-      {
         fullName = "Pacific/Tarawa"
         isActive = true
         label = "(GMT+12:00) Gilbert Islands Time (Pacific/Tarawa)"
@@ -551,12 +546,6 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "Antarctica/Macquarie"
-        isActive = true
-        label = "(GMT+11:00) Australian Eastern Daylight Time (Antarctica/Macquarie)"
-        default = false
-      },
-      {
         fullName = "Asia/Magadan"
         isActive = true
         label = "(GMT+11:00) Magadan Standard Time (Asia/Magadan)"
@@ -572,36 +561,6 @@ type salesforce.Task {
         fullName = "Asia/Srednekolymsk"
         isActive = true
         label = "(GMT+11:00) Magadan Standard Time (Asia/Srednekolymsk)"
-        default = false
-      },
-      {
-        fullName = "Australia/Currie"
-        isActive = true
-        label = "(GMT+11:00) Australian Eastern Daylight Time (Australia/Currie)"
-        default = false
-      },
-      {
-        fullName = "Australia/Hobart"
-        isActive = true
-        label = "(GMT+11:00) Australian Eastern Daylight Time (Australia/Hobart)"
-        default = false
-      },
-      {
-        fullName = "Australia/Lord_Howe"
-        isActive = true
-        label = "(GMT+11:00) Lord Howe Daylight Time (Australia/Lord_Howe)"
-        default = false
-      },
-      {
-        fullName = "Australia/Melbourne"
-        isActive = true
-        label = "(GMT+11:00) Australian Eastern Daylight Time (Australia/Melbourne)"
-        default = false
-      },
-      {
-        fullName = "Australia/Sydney"
-        isActive = true
-        label = "(GMT+11:00) Australian Eastern Daylight Time (Australia/Sydney)"
         default = false
       },
       {
@@ -629,6 +588,12 @@ type salesforce.Task {
         default = false
       },
       {
+        fullName = "Pacific/Norfolk"
+        isActive = true
+        label = "(GMT+11:00) Norfolk Island Standard Time (Pacific/Norfolk)"
+        default = false
+      },
+      {
         fullName = "Pacific/Noumea"
         isActive = true
         label = "(GMT+11:00) New Caledonia Standard Time (Pacific/Noumea)"
@@ -641,21 +606,21 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "Australia/Adelaide"
+        fullName = "Australia/Lord_Howe"
         isActive = true
-        label = "(GMT+10:30) Australian Central Daylight Time (Australia/Adelaide)"
-        default = false
-      },
-      {
-        fullName = "Australia/Broken_Hill"
-        isActive = true
-        label = "(GMT+10:30) Australian Central Daylight Time (Australia/Broken_Hill)"
+        label = "(GMT+10:30) Lord Howe Standard Time (Australia/Lord_Howe)"
         default = false
       },
       {
         fullName = "Antarctica/DumontDUrville"
         isActive = true
         label = "(GMT+10:00) Dumont-d’Urville Time (Antarctica/DumontDUrville)"
+        default = false
+      },
+      {
+        fullName = "Antarctica/Macquarie"
+        isActive = true
+        label = "(GMT+10:00) Australian Eastern Standard Time (Antarctica/Macquarie)"
         default = false
       },
       {
@@ -677,9 +642,33 @@ type salesforce.Task {
         default = false
       },
       {
+        fullName = "Australia/Currie"
+        isActive = true
+        label = "(GMT+10:00) Australian Eastern Standard Time (Australia/Currie)"
+        default = false
+      },
+      {
+        fullName = "Australia/Hobart"
+        isActive = true
+        label = "(GMT+10:00) Australian Eastern Standard Time (Australia/Hobart)"
+        default = false
+      },
+      {
         fullName = "Australia/Lindeman"
         isActive = true
         label = "(GMT+10:00) Australian Eastern Standard Time (Australia/Lindeman)"
+        default = false
+      },
+      {
+        fullName = "Australia/Melbourne"
+        isActive = true
+        label = "(GMT+10:00) Australian Eastern Standard Time (Australia/Melbourne)"
+        default = false
+      },
+      {
+        fullName = "Australia/Sydney"
+        isActive = true
+        label = "(GMT+10:00) Australian Eastern Standard Time (Australia/Sydney)"
         default = false
       },
       {
@@ -704,6 +693,18 @@ type salesforce.Task {
         fullName = "Pacific/Truk"
         isActive = true
         label = "(GMT+10:00) Chuuk Time (Pacific/Truk)"
+        default = false
+      },
+      {
+        fullName = "Australia/Adelaide"
+        isActive = true
+        label = "(GMT+09:30) Australian Central Standard Time (Australia/Adelaide)"
+        default = false
+      },
+      {
+        fullName = "Australia/Broken_Hill"
+        isActive = true
+        label = "(GMT+09:30) Australian Central Standard Time (Australia/Broken_Hill)"
         default = false
       },
       {
@@ -1193,6 +1194,12 @@ type salesforce.Task {
         default = false
       },
       {
+        fullName = "Africa/Cairo"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Standard Time (Africa/Cairo)"
+        default = false
+      },
+      {
         fullName = "Africa/Dar_es_Salaam"
         isActive = true
         label = "(GMT+03:00) East Africa Time (Africa/Dar_es_Salaam)"
@@ -1253,9 +1260,45 @@ type salesforce.Task {
         default = false
       },
       {
+        fullName = "Asia/Beirut"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Summer Time (Asia/Beirut)"
+        default = false
+      },
+      {
+        fullName = "Asia/Famagusta"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Summer Time (Asia/Famagusta)"
+        default = false
+      },
+      {
+        fullName = "Asia/Gaza"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Summer Time (Asia/Gaza)"
+        default = false
+      },
+      {
+        fullName = "Asia/Hebron"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Summer Time (Asia/Hebron)"
+        default = false
+      },
+      {
+        fullName = "Asia/Jerusalem"
+        isActive = true
+        label = "(GMT+03:00) Israel Daylight Time (Asia/Jerusalem)"
+        default = false
+      },
+      {
         fullName = "Asia/Kuwait"
         isActive = true
         label = "(GMT+03:00) Arabian Standard Time (Asia/Kuwait)"
+        default = false
+      },
+      {
+        fullName = "Asia/Nicosia"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Summer Time (Asia/Nicosia)"
         default = false
       },
       {
@@ -1271,15 +1314,51 @@ type salesforce.Task {
         default = false
       },
       {
+        fullName = "Europe/Athens"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Summer Time (Europe/Athens)"
+        default = false
+      },
+      {
+        fullName = "Europe/Bucharest"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Summer Time (Europe/Bucharest)"
+        default = false
+      },
+      {
+        fullName = "Europe/Chisinau"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Summer Time (Europe/Chisinau)"
+        default = false
+      },
+      {
+        fullName = "Europe/Helsinki"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Summer Time (Europe/Helsinki)"
+        default = false
+      },
+      {
         fullName = "Europe/Istanbul"
         isActive = true
         label = "(GMT+03:00) Eastern European Standard Time (Europe/Istanbul)"
         default = false
       },
       {
+        fullName = "Europe/Kiev"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Summer Time (Europe/Kyiv)"
+        default = false
+      },
+      {
         fullName = "Europe/Kirov"
         isActive = true
         label = "(GMT+03:00) Moscow Standard Time (Europe/Kirov)"
+        default = false
+      },
+      {
+        fullName = "Europe/Mariehamn"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Summer Time (Europe/Mariehamn)"
         default = false
       },
       {
@@ -1295,9 +1374,45 @@ type salesforce.Task {
         default = false
       },
       {
+        fullName = "Europe/Riga"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Summer Time (Europe/Riga)"
+        default = false
+      },
+      {
+        fullName = "Europe/Sofia"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Summer Time (Europe/Sofia)"
+        default = false
+      },
+      {
+        fullName = "Europe/Tallinn"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Summer Time (Europe/Tallinn)"
+        default = false
+      },
+      {
+        fullName = "Europe/Uzhgorod"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Summer Time (Europe/Uzhgorod)"
+        default = false
+      },
+      {
+        fullName = "Europe/Vilnius"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Summer Time (Europe/Vilnius)"
+        default = false
+      },
+      {
         fullName = "Europe/Volgograd"
         isActive = true
         label = "(GMT+03:00) Volgograd Standard Time (Europe/Volgograd)"
+        default = false
+      },
+      {
+        fullName = "Europe/Zaporozhye"
+        isActive = true
+        label = "(GMT+03:00) Eastern European Summer Time (Europe/Zaporozhye)"
         default = false
       },
       {
@@ -1331,9 +1446,9 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "Africa/Cairo"
+        fullName = "Africa/Ceuta"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Africa/Cairo)"
+        label = "(GMT+02:00) Central European Summer Time (Africa/Ceuta)"
         default = false
       },
       {
@@ -1409,63 +1524,75 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "Asia/Beirut"
+        fullName = "Antarctica/Troll"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Asia/Beirut)"
+        label = "(GMT+02:00) Central European Summer Time (Antarctica/Troll)"
         default = false
       },
       {
-        fullName = "Asia/Famagusta"
+        fullName = "Arctic/Longyearbyen"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Asia/Famagusta)"
+        label = "(GMT+02:00) Central European Summer Time (Arctic/Longyearbyen)"
         default = false
       },
       {
-        fullName = "Asia/Gaza"
+        fullName = "Europe/Amsterdam"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Asia/Gaza)"
+        label = "(GMT+02:00) Central European Summer Time (Europe/Amsterdam)"
         default = false
       },
       {
-        fullName = "Asia/Hebron"
+        fullName = "Europe/Andorra"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Asia/Hebron)"
+        label = "(GMT+02:00) Central European Summer Time (Europe/Andorra)"
         default = false
       },
       {
-        fullName = "Asia/Jerusalem"
+        fullName = "Europe/Belgrade"
         isActive = true
-        label = "(GMT+02:00) Israel Standard Time (Asia/Jerusalem)"
+        label = "(GMT+02:00) Central European Summer Time (Europe/Belgrade)"
         default = false
       },
       {
-        fullName = "Asia/Nicosia"
+        fullName = "Europe/Berlin"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Asia/Nicosia)"
+        label = "(GMT+02:00) Central European Summer Time (Europe/Berlin)"
         default = false
       },
       {
-        fullName = "Europe/Athens"
+        fullName = "Europe/Bratislava"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Europe/Athens)"
+        label = "(GMT+02:00) Central European Summer Time (Europe/Bratislava)"
         default = false
       },
       {
-        fullName = "Europe/Bucharest"
+        fullName = "Europe/Brussels"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Europe/Bucharest)"
+        label = "(GMT+02:00) Central European Summer Time (Europe/Brussels)"
         default = false
       },
       {
-        fullName = "Europe/Chisinau"
+        fullName = "Europe/Budapest"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Europe/Chisinau)"
+        label = "(GMT+02:00) Central European Summer Time (Europe/Budapest)"
         default = false
       },
       {
-        fullName = "Europe/Helsinki"
+        fullName = "Europe/Busingen"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Europe/Helsinki)"
+        label = "(GMT+02:00) Central European Summer Time (Europe/Busingen)"
+        default = false
+      },
+      {
+        fullName = "Europe/Copenhagen"
+        isActive = true
+        label = "(GMT+02:00) Central European Summer Time (Europe/Copenhagen)"
+        default = false
+      },
+      {
+        fullName = "Europe/Gibraltar"
+        isActive = true
+        label = "(GMT+02:00) Central European Summer Time (Europe/Gibraltar)"
         default = false
       },
       {
@@ -1475,51 +1602,129 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "Europe/Kiev"
+        fullName = "Europe/Ljubljana"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Europe/Kyiv)"
+        label = "(GMT+02:00) Central European Summer Time (Europe/Ljubljana)"
         default = false
       },
       {
-        fullName = "Europe/Mariehamn"
+        fullName = "Europe/Luxembourg"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Europe/Mariehamn)"
+        label = "(GMT+02:00) Central European Summer Time (Europe/Luxembourg)"
         default = false
       },
       {
-        fullName = "Europe/Riga"
+        fullName = "Europe/Madrid"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Europe/Riga)"
+        label = "(GMT+02:00) Central European Summer Time (Europe/Madrid)"
         default = false
       },
       {
-        fullName = "Europe/Sofia"
+        fullName = "Europe/Malta"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Europe/Sofia)"
+        label = "(GMT+02:00) Central European Summer Time (Europe/Malta)"
         default = false
       },
       {
-        fullName = "Europe/Tallinn"
+        fullName = "Europe/Monaco"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Europe/Tallinn)"
+        label = "(GMT+02:00) Central European Summer Time (Europe/Monaco)"
         default = false
       },
       {
-        fullName = "Europe/Uzhgorod"
+        fullName = "Europe/Oslo"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Europe/Uzhgorod)"
+        label = "(GMT+02:00) Central European Summer Time (Europe/Oslo)"
         default = false
       },
       {
-        fullName = "Europe/Vilnius"
+        fullName = "Europe/Paris"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Europe/Vilnius)"
+        label = "(GMT+02:00) Central European Summer Time (Europe/Paris)"
         default = false
       },
       {
-        fullName = "Europe/Zaporozhye"
+        fullName = "Europe/Podgorica"
         isActive = true
-        label = "(GMT+02:00) Eastern European Standard Time (Europe/Zaporozhye)"
+        label = "(GMT+02:00) Central European Summer Time (Europe/Podgorica)"
+        default = false
+      },
+      {
+        fullName = "Europe/Prague"
+        isActive = true
+        label = "(GMT+02:00) Central European Summer Time (Europe/Prague)"
+        default = false
+      },
+      {
+        fullName = "Europe/Rome"
+        isActive = true
+        label = "(GMT+02:00) Central European Summer Time (Europe/Rome)"
+        default = false
+      },
+      {
+        fullName = "Europe/San_Marino"
+        isActive = true
+        label = "(GMT+02:00) Central European Summer Time (Europe/San_Marino)"
+        default = false
+      },
+      {
+        fullName = "Europe/Sarajevo"
+        isActive = true
+        label = "(GMT+02:00) Central European Summer Time (Europe/Sarajevo)"
+        default = false
+      },
+      {
+        fullName = "Europe/Skopje"
+        isActive = true
+        label = "(GMT+02:00) Central European Summer Time (Europe/Skopje)"
+        default = false
+      },
+      {
+        fullName = "Europe/Stockholm"
+        isActive = true
+        label = "(GMT+02:00) Central European Summer Time (Europe/Stockholm)"
+        default = false
+      },
+      {
+        fullName = "Europe/Tirane"
+        isActive = true
+        label = "(GMT+02:00) Central European Summer Time (Europe/Tirane)"
+        default = false
+      },
+      {
+        fullName = "Europe/Vaduz"
+        isActive = true
+        label = "(GMT+02:00) Central European Summer Time (Europe/Vaduz)"
+        default = false
+      },
+      {
+        fullName = "Europe/Vatican"
+        isActive = true
+        label = "(GMT+02:00) Central European Summer Time (Europe/Vatican)"
+        default = false
+      },
+      {
+        fullName = "Europe/Vienna"
+        isActive = true
+        label = "(GMT+02:00) Central European Summer Time (Europe/Vienna)"
+        default = false
+      },
+      {
+        fullName = "Europe/Warsaw"
+        isActive = true
+        label = "(GMT+02:00) Central European Summer Time (Europe/Warsaw)"
+        default = false
+      },
+      {
+        fullName = "Europe/Zagreb"
+        isActive = true
+        label = "(GMT+02:00) Central European Summer Time (Europe/Zagreb)"
+        default = false
+      },
+      {
+        fullName = "Europe/Zurich"
+        isActive = true
+        label = "(GMT+02:00) Central European Summer Time (Europe/Zurich)"
         default = false
       },
       {
@@ -1544,12 +1749,6 @@ type salesforce.Task {
         fullName = "Africa/Casablanca"
         isActive = true
         label = "(GMT+01:00) Western European Summer Time (Africa/Casablanca)"
-        default = false
-      },
-      {
-        fullName = "Africa/Ceuta"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Africa/Ceuta)"
         default = false
       },
       {
@@ -1619,195 +1818,57 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "Arctic/Longyearbyen"
+        fullName = "Atlantic/Canary"
         isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Arctic/Longyearbyen)"
+        label = "(GMT+01:00) Western European Summer Time (Atlantic/Canary)"
         default = false
       },
       {
-        fullName = "Europe/Amsterdam"
+        fullName = "Atlantic/Faeroe"
         isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Amsterdam)"
+        label = "(GMT+01:00) Western European Summer Time (Atlantic/Faeroe)"
         default = false
       },
       {
-        fullName = "Europe/Andorra"
+        fullName = "Atlantic/Madeira"
         isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Andorra)"
+        label = "(GMT+01:00) Western European Summer Time (Atlantic/Madeira)"
         default = false
       },
       {
-        fullName = "Europe/Belgrade"
+        fullName = "Europe/Dublin"
         isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Belgrade)"
+        label = "(GMT+01:00) Irish Standard Time (Europe/Dublin)"
         default = false
       },
       {
-        fullName = "Europe/Berlin"
+        fullName = "Europe/Guernsey"
         isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Berlin)"
+        label = "(GMT+01:00) British Summer Time (Europe/Guernsey)"
         default = false
       },
       {
-        fullName = "Europe/Bratislava"
+        fullName = "Europe/Isle_of_Man"
         isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Bratislava)"
+        label = "(GMT+01:00) British Summer Time (Europe/Isle_of_Man)"
         default = false
       },
       {
-        fullName = "Europe/Brussels"
+        fullName = "Europe/Jersey"
         isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Brussels)"
+        label = "(GMT+01:00) British Summer Time (Europe/Jersey)"
         default = false
       },
       {
-        fullName = "Europe/Budapest"
+        fullName = "Europe/Lisbon"
         isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Budapest)"
+        label = "(GMT+01:00) Western European Summer Time (Europe/Lisbon)"
         default = false
       },
       {
-        fullName = "Europe/Busingen"
+        fullName = "Europe/London"
         isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Busingen)"
-        default = false
-      },
-      {
-        fullName = "Europe/Copenhagen"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Copenhagen)"
-        default = false
-      },
-      {
-        fullName = "Europe/Gibraltar"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Gibraltar)"
-        default = false
-      },
-      {
-        fullName = "Europe/Ljubljana"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Ljubljana)"
-        default = false
-      },
-      {
-        fullName = "Europe/Luxembourg"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Luxembourg)"
-        default = false
-      },
-      {
-        fullName = "Europe/Madrid"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Madrid)"
-        default = false
-      },
-      {
-        fullName = "Europe/Malta"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Malta)"
-        default = false
-      },
-      {
-        fullName = "Europe/Monaco"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Monaco)"
-        default = false
-      },
-      {
-        fullName = "Europe/Oslo"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Oslo)"
-        default = false
-      },
-      {
-        fullName = "Europe/Paris"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Paris)"
-        default = false
-      },
-      {
-        fullName = "Europe/Podgorica"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Podgorica)"
-        default = false
-      },
-      {
-        fullName = "Europe/Prague"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Prague)"
-        default = false
-      },
-      {
-        fullName = "Europe/Rome"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Rome)"
-        default = false
-      },
-      {
-        fullName = "Europe/San_Marino"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/San_Marino)"
-        default = false
-      },
-      {
-        fullName = "Europe/Sarajevo"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Sarajevo)"
-        default = false
-      },
-      {
-        fullName = "Europe/Skopje"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Skopje)"
-        default = false
-      },
-      {
-        fullName = "Europe/Stockholm"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Stockholm)"
-        default = false
-      },
-      {
-        fullName = "Europe/Tirane"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Tirane)"
-        default = false
-      },
-      {
-        fullName = "Europe/Vaduz"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Vaduz)"
-        default = false
-      },
-      {
-        fullName = "Europe/Vatican"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Vatican)"
-        default = false
-      },
-      {
-        fullName = "Europe/Vienna"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Vienna)"
-        default = false
-      },
-      {
-        fullName = "Europe/Warsaw"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Warsaw)"
-        default = false
-      },
-      {
-        fullName = "Europe/Zagreb"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Zagreb)"
-        default = false
-      },
-      {
-        fullName = "Europe/Zurich"
-        isActive = true
-        label = "(GMT+01:00) Central European Standard Time (Europe/Zurich)"
+        label = "(GMT+01:00) British Summer Time (Europe/London)"
         default = false
       },
       {
@@ -1895,27 +1956,15 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "Antarctica/Troll"
+        fullName = "America/Scoresbysund"
         isActive = true
-        label = "(GMT+00:00) Greenwich Mean Time (Antarctica/Troll)"
+        label = "(GMT+00:00) East Greenland Summer Time (America/Scoresbysund)"
         default = false
       },
       {
-        fullName = "Atlantic/Canary"
+        fullName = "Atlantic/Azores"
         isActive = true
-        label = "(GMT+00:00) Western European Standard Time (Atlantic/Canary)"
-        default = false
-      },
-      {
-        fullName = "Atlantic/Faeroe"
-        isActive = true
-        label = "(GMT+00:00) Western European Standard Time (Atlantic/Faeroe)"
-        default = false
-      },
-      {
-        fullName = "Atlantic/Madeira"
-        isActive = true
-        label = "(GMT+00:00) Western European Standard Time (Atlantic/Madeira)"
+        label = "(GMT+00:00) Azores Summer Time (Atlantic/Azores)"
         default = false
       },
       {
@@ -1931,57 +1980,15 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "Europe/Dublin"
-        isActive = true
-        label = "(GMT+00:00) Greenwich Mean Time (Europe/Dublin)"
-        default = false
-      },
-      {
-        fullName = "Europe/Guernsey"
-        isActive = true
-        label = "(GMT+00:00) Greenwich Mean Time (Europe/Guernsey)"
-        default = false
-      },
-      {
-        fullName = "Europe/Isle_of_Man"
-        isActive = true
-        label = "(GMT+00:00) Greenwich Mean Time (Europe/Isle_of_Man)"
-        default = false
-      },
-      {
-        fullName = "Europe/Jersey"
-        isActive = true
-        label = "(GMT+00:00) Greenwich Mean Time (Europe/Jersey)"
-        default = false
-      },
-      {
-        fullName = "Europe/Lisbon"
-        isActive = true
-        label = "(GMT+00:00) Western European Standard Time (Europe/Lisbon)"
-        default = false
-      },
-      {
-        fullName = "Europe/London"
-        isActive = true
-        label = "(GMT+00:00) Greenwich Mean Time (Europe/London)"
-        default = false
-      },
-      {
         fullName = "GMT"
         isActive = true
         label = "(GMT+00:00) Greenwich Mean Time (GMT)"
         default = false
       },
       {
-        fullName = "America/Scoresbysund"
+        fullName = "America/Godthab"
         isActive = true
-        label = "(GMT-01:00) East Greenland Standard Time (America/Scoresbysund)"
-        default = false
-      },
-      {
-        fullName = "Atlantic/Azores"
-        isActive = true
-        label = "(GMT-01:00) Azores Standard Time (Atlantic/Azores)"
+        label = "(GMT-01:00) West Greenland Summer Time (America/Godthab)"
         default = false
       },
       {
@@ -1991,9 +1998,9 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Godthab"
+        fullName = "America/Miquelon"
         isActive = true
-        label = "(GMT-02:00) West Greenland Standard Time (America/Godthab)"
+        label = "(GMT-02:00) St Pierre & Miquelon Daylight Time (America/Miquelon)"
         default = false
       },
       {
@@ -2006,6 +2013,12 @@ type salesforce.Task {
         fullName = "Atlantic/South_Georgia"
         isActive = true
         label = "(GMT-02:00) South Georgia Time (Atlantic/South_Georgia)"
+        default = false
+      },
+      {
+        fullName = "America/St_Johns"
+        isActive = true
+        label = "(GMT-02:30) Newfoundland Daylight Time (America/St_Johns)"
         default = false
       },
       {
@@ -2063,12 +2076,6 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Asuncion"
-        isActive = true
-        label = "(GMT-03:00) Paraguay Summer Time (America/Asuncion)"
-        default = false
-      },
-      {
         fullName = "America/Bahia"
         isActive = true
         label = "(GMT-03:00) Brasilia Standard Time (America/Bahia)"
@@ -2105,6 +2112,24 @@ type salesforce.Task {
         default = false
       },
       {
+        fullName = "America/Glace_Bay"
+        isActive = true
+        label = "(GMT-03:00) Atlantic Daylight Time (America/Glace_Bay)"
+        default = false
+      },
+      {
+        fullName = "America/Goose_Bay"
+        isActive = true
+        label = "(GMT-03:00) Atlantic Daylight Time (America/Goose_Bay)"
+        default = false
+      },
+      {
+        fullName = "America/Halifax"
+        isActive = true
+        label = "(GMT-03:00) Atlantic Daylight Time (America/Halifax)"
+        default = false
+      },
+      {
         fullName = "America/Jujuy"
         isActive = true
         label = "(GMT-03:00) Argentina Standard Time (America/Jujuy)"
@@ -2123,9 +2148,9 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Miquelon"
+        fullName = "America/Moncton"
         isActive = true
-        label = "(GMT-03:00) St Pierre & Miquelon Standard Time (America/Miquelon)"
+        label = "(GMT-03:00) Atlantic Daylight Time (America/Moncton)"
         default = false
       },
       {
@@ -2159,15 +2184,15 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Santiago"
-        isActive = true
-        label = "(GMT-03:00) Chile Summer Time (America/Santiago)"
-        default = false
-      },
-      {
         fullName = "America/Sao_Paulo"
         isActive = true
         label = "(GMT-03:00) Brasilia Standard Time (America/Sao_Paulo)"
+        default = false
+      },
+      {
+        fullName = "America/Thule"
+        isActive = true
+        label = "(GMT-03:00) Atlantic Daylight Time (America/Thule)"
         default = false
       },
       {
@@ -2183,15 +2208,15 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "Atlantic/Stanley"
+        fullName = "Atlantic/Bermuda"
         isActive = true
-        label = "(GMT-03:00) Falkland Islands Standard Time (Atlantic/Stanley)"
+        label = "(GMT-03:00) Atlantic Daylight Time (Atlantic/Bermuda)"
         default = false
       },
       {
-        fullName = "America/St_Johns"
+        fullName = "Atlantic/Stanley"
         isActive = true
-        label = "(GMT-03:30) Newfoundland Standard Time (America/St_Johns)"
+        label = "(GMT-03:00) Falkland Islands Standard Time (Atlantic/Stanley)"
         default = false
       },
       {
@@ -2210,6 +2235,12 @@ type salesforce.Task {
         fullName = "America/Aruba"
         isActive = true
         label = "(GMT-04:00) Atlantic Standard Time (America/Aruba)"
+        default = false
+      },
+      {
+        fullName = "America/Asuncion"
+        isActive = true
+        label = "(GMT-04:00) Paraguay Standard Time (America/Asuncion)"
         default = false
       },
       {
@@ -2255,21 +2286,21 @@ type salesforce.Task {
         default = false
       },
       {
+        fullName = "America/Detroit"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Detroit)"
+        default = false
+      },
+      {
         fullName = "America/Dominica"
         isActive = true
         label = "(GMT-04:00) Atlantic Standard Time (America/Dominica)"
         default = false
       },
       {
-        fullName = "America/Glace_Bay"
+        fullName = "America/Grand_Turk"
         isActive = true
-        label = "(GMT-04:00) Atlantic Standard Time (America/Glace_Bay)"
-        default = false
-      },
-      {
-        fullName = "America/Goose_Bay"
-        isActive = true
-        label = "(GMT-04:00) Atlantic Standard Time (America/Goose_Bay)"
+        label = "(GMT-04:00) Eastern Daylight Time (America/Grand_Turk)"
         default = false
       },
       {
@@ -2291,9 +2322,51 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Halifax"
+        fullName = "America/Indiana/Indianapolis"
         isActive = true
-        label = "(GMT-04:00) Atlantic Standard Time (America/Halifax)"
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Indianapolis)"
+        default = false
+      },
+      {
+        fullName = "America/Indiana/Marengo"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Marengo)"
+        default = false
+      },
+      {
+        fullName = "America/Indiana/Petersburg"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Petersburg)"
+        default = false
+      },
+      {
+        fullName = "America/Indiana/Vevay"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Vevay)"
+        default = false
+      },
+      {
+        fullName = "America/Indiana/Vincennes"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Vincennes)"
+        default = false
+      },
+      {
+        fullName = "America/Indiana/Winamac"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Winamac)"
+        default = false
+      },
+      {
+        fullName = "America/Iqaluit"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Iqaluit)"
+        default = false
+      },
+      {
+        fullName = "America/Kentucky/Monticello"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Kentucky/Monticello)"
         default = false
       },
       {
@@ -2306,6 +2379,12 @@ type salesforce.Task {
         fullName = "America/La_Paz"
         isActive = true
         label = "(GMT-04:00) Bolivia Time (America/La_Paz)"
+        default = false
+      },
+      {
+        fullName = "America/Louisville"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Louisville)"
         default = false
       },
       {
@@ -2333,15 +2412,45 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Moncton"
+        fullName = "America/Montreal"
         isActive = true
-        label = "(GMT-04:00) Atlantic Standard Time (America/Moncton)"
+        label = "(GMT-04:00) Eastern Daylight Time (America/Montreal)"
         default = false
       },
       {
         fullName = "America/Montserrat"
         isActive = true
         label = "(GMT-04:00) Atlantic Standard Time (America/Montserrat)"
+        default = false
+      },
+      {
+        fullName = "America/Nassau"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Nassau)"
+        default = false
+      },
+      {
+        fullName = "America/New_York"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/New_York)"
+        default = false
+      },
+      {
+        fullName = "America/Nipigon"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Nipigon)"
+        default = false
+      },
+      {
+        fullName = "America/Pangnirtung"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Pangnirtung)"
+        default = false
+      },
+      {
+        fullName = "America/Port-au-Prince"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Port-au-Prince)"
         default = false
       },
       {
@@ -2360,6 +2469,12 @@ type salesforce.Task {
         fullName = "America/Puerto_Rico"
         isActive = true
         label = "(GMT-04:00) Atlantic Standard Time (America/Puerto_Rico)"
+        default = false
+      },
+      {
+        fullName = "America/Santiago"
+        isActive = true
+        label = "(GMT-04:00) Chile Standard Time (America/Santiago)"
         default = false
       },
       {
@@ -2399,21 +2514,21 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Thule"
+        fullName = "America/Thunder_Bay"
         isActive = true
-        label = "(GMT-04:00) Atlantic Standard Time (America/Thule)"
+        label = "(GMT-04:00) Eastern Daylight Time (America/Thunder_Bay)"
+        default = false
+      },
+      {
+        fullName = "America/Toronto"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Toronto)"
         default = false
       },
       {
         fullName = "America/Tortola"
         isActive = true
         label = "(GMT-04:00) Atlantic Standard Time (America/Tortola)"
-        default = false
-      },
-      {
-        fullName = "Atlantic/Bermuda"
-        isActive = true
-        label = "(GMT-04:00) Atlantic Standard Time (Atlantic/Bermuda)"
         default = false
       },
       {
@@ -2435,15 +2550,15 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Coral_Harbour"
+        fullName = "America/Chicago"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Coral_Harbour)"
+        label = "(GMT-05:00) Central Daylight Time (America/Chicago)"
         default = false
       },
       {
-        fullName = "America/Detroit"
+        fullName = "America/Coral_Harbour"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Detroit)"
+        label = "(GMT-05:00) Eastern Standard Time (America/Coral_Harbour)"
         default = false
       },
       {
@@ -2453,57 +2568,21 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Grand_Turk"
-        isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Grand_Turk)"
-        default = false
-      },
-      {
         fullName = "America/Guayaquil"
         isActive = true
         label = "(GMT-05:00) Ecuador Time (America/Guayaquil)"
         default = false
       },
       {
-        fullName = "America/Indiana/Indianapolis"
+        fullName = "America/Indiana/Knox"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Indianapolis)"
+        label = "(GMT-05:00) Central Daylight Time (America/Indiana/Knox)"
         default = false
       },
       {
-        fullName = "America/Indiana/Marengo"
+        fullName = "America/Indiana/Tell_City"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Marengo)"
-        default = false
-      },
-      {
-        fullName = "America/Indiana/Petersburg"
-        isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Petersburg)"
-        default = false
-      },
-      {
-        fullName = "America/Indiana/Vevay"
-        isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Vevay)"
-        default = false
-      },
-      {
-        fullName = "America/Indiana/Vincennes"
-        isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Vincennes)"
-        default = false
-      },
-      {
-        fullName = "America/Indiana/Winamac"
-        isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Winamac)"
-        default = false
-      },
-      {
-        fullName = "America/Iqaluit"
-        isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Iqaluit)"
+        label = "(GMT-05:00) Central Daylight Time (America/Indiana/Tell_City)"
         default = false
       },
       {
@@ -2513,45 +2592,45 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Kentucky/Monticello"
-        isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Kentucky/Monticello)"
-        default = false
-      },
-      {
         fullName = "America/Lima"
         isActive = true
         label = "(GMT-05:00) Peru Standard Time (America/Lima)"
         default = false
       },
       {
-        fullName = "America/Louisville"
+        fullName = "America/Matamoros"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Louisville)"
+        label = "(GMT-05:00) Central Daylight Time (America/Matamoros)"
         default = false
       },
       {
-        fullName = "America/Montreal"
+        fullName = "America/Menominee"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Montreal)"
+        label = "(GMT-05:00) Central Daylight Time (America/Menominee)"
         default = false
       },
       {
-        fullName = "America/Nassau"
+        fullName = "America/North_Dakota/Beulah"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Nassau)"
+        label = "(GMT-05:00) Central Daylight Time (America/North_Dakota/Beulah)"
         default = false
       },
       {
-        fullName = "America/New_York"
+        fullName = "America/North_Dakota/Center"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/New_York)"
+        label = "(GMT-05:00) Central Daylight Time (America/North_Dakota/Center)"
         default = false
       },
       {
-        fullName = "America/Nipigon"
+        fullName = "America/North_Dakota/New_Salem"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Nipigon)"
+        label = "(GMT-05:00) Central Daylight Time (America/North_Dakota/New_Salem)"
+        default = false
+      },
+      {
+        fullName = "America/Ojinaga"
+        isActive = true
+        label = "(GMT-05:00) Mountain Daylight Time (America/Ojinaga)"
         default = false
       },
       {
@@ -2561,15 +2640,21 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Pangnirtung"
+        fullName = "America/Rainy_River"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Pangnirtung)"
+        label = "(GMT-05:00) Central Daylight Time (America/Rainy_River)"
         default = false
       },
       {
-        fullName = "America/Port-au-Prince"
+        fullName = "America/Rankin_Inlet"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Port-au-Prince)"
+        label = "(GMT-05:00) Central Daylight Time (America/Rankin_Inlet)"
+        default = false
+      },
+      {
+        fullName = "America/Resolute"
+        isActive = true
+        label = "(GMT-05:00) Central Daylight Time (America/Resolute)"
         default = false
       },
       {
@@ -2579,21 +2664,9 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Thunder_Bay"
+        fullName = "America/Winnipeg"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Thunder_Bay)"
-        default = false
-      },
-      {
-        fullName = "America/Toronto"
-        isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Toronto)"
-        default = false
-      },
-      {
-        fullName = "Pacific/Easter"
-        isActive = true
-        label = "(GMT-05:00) Easter Island Summer Time (Pacific/Easter)"
+        label = "(GMT-05:00) Central Daylight Time (America/Winnipeg)"
         default = false
       },
       {
@@ -2609,9 +2682,15 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Chicago"
+        fullName = "America/Boise"
         isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Chicago)"
+        label = "(GMT-06:00) Mountain Daylight Time (America/Boise)"
+        default = false
+      },
+      {
+        fullName = "America/Cambridge_Bay"
+        isActive = true
+        label = "(GMT-06:00) Mountain Daylight Time (America/Cambridge_Bay)"
         default = false
       },
       {
@@ -2627,6 +2706,18 @@ type salesforce.Task {
         default = false
       },
       {
+        fullName = "America/Denver"
+        isActive = true
+        label = "(GMT-06:00) Mountain Daylight Time (America/Denver)"
+        default = false
+      },
+      {
+        fullName = "America/Edmonton"
+        isActive = true
+        label = "(GMT-06:00) Mountain Daylight Time (America/Edmonton)"
+        default = false
+      },
+      {
         fullName = "America/El_Salvador"
         isActive = true
         label = "(GMT-06:00) Central Standard Time (America/El_Salvador)"
@@ -2639,33 +2730,15 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Indiana/Knox"
+        fullName = "America/Inuvik"
         isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Indiana/Knox)"
-        default = false
-      },
-      {
-        fullName = "America/Indiana/Tell_City"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Indiana/Tell_City)"
+        label = "(GMT-06:00) Mountain Daylight Time (America/Inuvik)"
         default = false
       },
       {
         fullName = "America/Managua"
         isActive = true
         label = "(GMT-06:00) Central Standard Time (America/Managua)"
-        default = false
-      },
-      {
-        fullName = "America/Matamoros"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Matamoros)"
-        default = false
-      },
-      {
-        fullName = "America/Menominee"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Menominee)"
         default = false
       },
       {
@@ -2687,51 +2760,9 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/North_Dakota/Beulah"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/North_Dakota/Beulah)"
-        default = false
-      },
-      {
-        fullName = "America/North_Dakota/Center"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/North_Dakota/Center)"
-        default = false
-      },
-      {
-        fullName = "America/North_Dakota/New_Salem"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/North_Dakota/New_Salem)"
-        default = false
-      },
-      {
-        fullName = "America/Ojinaga"
-        isActive = true
-        label = "(GMT-06:00) Mountain Standard Time (America/Ojinaga)"
-        default = false
-      },
-      {
-        fullName = "America/Rainy_River"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Rainy_River)"
-        default = false
-      },
-      {
-        fullName = "America/Rankin_Inlet"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Rankin_Inlet)"
-        default = false
-      },
-      {
         fullName = "America/Regina"
         isActive = true
         label = "(GMT-06:00) Central Standard Time (America/Regina)"
-        default = false
-      },
-      {
-        fullName = "America/Resolute"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Resolute)"
         default = false
       },
       {
@@ -2747,27 +2778,21 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Winnipeg"
+        fullName = "America/Yellowknife"
         isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Winnipeg)"
+        label = "(GMT-06:00) Mountain Daylight Time (America/Yellowknife)"
+        default = false
+      },
+      {
+        fullName = "Pacific/Easter"
+        isActive = true
+        label = "(GMT-06:00) Easter Island Standard Time (Pacific/Easter)"
         default = false
       },
       {
         fullName = "Pacific/Galapagos"
         isActive = true
         label = "(GMT-06:00) Galapagos Time (Pacific/Galapagos)"
-        default = false
-      },
-      {
-        fullName = "America/Boise"
-        isActive = true
-        label = "(GMT-07:00) Mountain Standard Time (America/Boise)"
-        default = false
-      },
-      {
-        fullName = "America/Cambridge_Bay"
-        isActive = true
-        label = "(GMT-07:00) Mountain Standard Time (America/Cambridge_Bay)"
         default = false
       },
       {
@@ -2789,18 +2814,6 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Denver"
-        isActive = true
-        label = "(GMT-07:00) Mountain Standard Time (America/Denver)"
-        default = false
-      },
-      {
-        fullName = "America/Edmonton"
-        isActive = true
-        label = "(GMT-07:00) Mountain Standard Time (America/Edmonton)"
-        default = false
-      },
-      {
         fullName = "America/Fort_Nelson"
         isActive = true
         label = "(GMT-07:00) Mountain Standard Time (America/Fort_Nelson)"
@@ -2813,9 +2826,9 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Inuvik"
+        fullName = "America/Los_Angeles"
         isActive = true
-        label = "(GMT-07:00) Mountain Standard Time (America/Inuvik)"
+        label = "(GMT-07:00) Pacific Daylight Time (America/Los_Angeles)"
         default = false
       },
       {
@@ -2831,39 +2844,63 @@ type salesforce.Task {
         default = false
       },
       {
+        fullName = "America/Santa_Isabel"
+        isActive = true
+        label = "(GMT-07:00) Northwest Mexico Daylight Time (America/Santa_Isabel)"
+        default = false
+      },
+      {
+        fullName = "America/Tijuana"
+        isActive = true
+        label = "(GMT-07:00) Pacific Daylight Time (America/Tijuana)"
+        default = false
+      },
+      {
+        fullName = "America/Vancouver"
+        isActive = true
+        label = "(GMT-07:00) Pacific Daylight Time (America/Vancouver)"
+        default = false
+      },
+      {
         fullName = "America/Whitehorse"
         isActive = true
         label = "(GMT-07:00) Yukon Time (America/Whitehorse)"
         default = false
       },
       {
-        fullName = "America/Yellowknife"
+        fullName = "America/Anchorage"
         isActive = true
-        label = "(GMT-07:00) Mountain Standard Time (America/Yellowknife)"
+        label = "(GMT-08:00) Alaska Daylight Time (America/Anchorage)"
         default = false
       },
       {
-        fullName = "America/Los_Angeles"
+        fullName = "America/Juneau"
         isActive = true
-        label = "(GMT-08:00) Pacific Standard Time (America/Los_Angeles)"
+        label = "(GMT-08:00) Alaska Daylight Time (America/Juneau)"
         default = false
       },
       {
-        fullName = "America/Santa_Isabel"
+        fullName = "America/Metlakatla"
         isActive = true
-        label = "(GMT-08:00) Northwest Mexico Standard Time (America/Santa_Isabel)"
+        label = "(GMT-08:00) Alaska Daylight Time (America/Metlakatla)"
         default = false
       },
       {
-        fullName = "America/Tijuana"
+        fullName = "America/Nome"
         isActive = true
-        label = "(GMT-08:00) Pacific Standard Time (America/Tijuana)"
+        label = "(GMT-08:00) Alaska Daylight Time (America/Nome)"
         default = false
       },
       {
-        fullName = "America/Vancouver"
+        fullName = "America/Sitka"
         isActive = true
-        label = "(GMT-08:00) Pacific Standard Time (America/Vancouver)"
+        label = "(GMT-08:00) Alaska Daylight Time (America/Sitka)"
+        default = false
+      },
+      {
+        fullName = "America/Yakutat"
+        isActive = true
+        label = "(GMT-08:00) Alaska Daylight Time (America/Yakutat)"
         default = false
       },
       {
@@ -2873,39 +2910,9 @@ type salesforce.Task {
         default = false
       },
       {
-        fullName = "America/Anchorage"
+        fullName = "America/Adak"
         isActive = true
-        label = "(GMT-09:00) Alaska Standard Time (America/Anchorage)"
-        default = false
-      },
-      {
-        fullName = "America/Juneau"
-        isActive = true
-        label = "(GMT-09:00) Alaska Standard Time (America/Juneau)"
-        default = false
-      },
-      {
-        fullName = "America/Metlakatla"
-        isActive = true
-        label = "(GMT-09:00) Alaska Standard Time (America/Metlakatla)"
-        default = false
-      },
-      {
-        fullName = "America/Nome"
-        isActive = true
-        label = "(GMT-09:00) Alaska Standard Time (America/Nome)"
-        default = false
-      },
-      {
-        fullName = "America/Sitka"
-        isActive = true
-        label = "(GMT-09:00) Alaska Standard Time (America/Sitka)"
-        default = false
-      },
-      {
-        fullName = "America/Yakutat"
-        isActive = true
-        label = "(GMT-09:00) Alaska Standard Time (America/Yakutat)"
+        label = "(GMT-09:00) Hawaii-Aleutian Daylight Time (America/Adak)"
         default = false
       },
       {
@@ -2918,12 +2925,6 @@ type salesforce.Task {
         fullName = "Pacific/Marquesas"
         isActive = true
         label = "(GMT-09:30) Marquesas Time (Pacific/Marquesas)"
-        default = false
-      },
-      {
-        fullName = "America/Adak"
-        isActive = true
-        label = "(GMT-10:00) Hawaii-Aleutian Standard Time (America/Adak)"
         default = false
       },
       {

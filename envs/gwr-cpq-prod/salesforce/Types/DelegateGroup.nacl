@@ -38,4 +38,16 @@ type salesforce.DelegateGroup {
   suffix = "delegateGroup"
   dirName = "delegateGroups"
   metadataType = "DelegateGroup"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

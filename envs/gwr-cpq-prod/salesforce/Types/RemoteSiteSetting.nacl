@@ -30,4 +30,16 @@ type salesforce.RemoteSiteSetting {
   suffix = "remoteSite"
   dirName = "remoteSiteSettings"
   metadataType = "RemoteSiteSetting"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

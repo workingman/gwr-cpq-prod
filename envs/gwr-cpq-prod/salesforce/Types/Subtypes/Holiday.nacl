@@ -85,4 +85,16 @@ type salesforce.Holiday {
   string startTime {
   }
   metadataType = "Holiday"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

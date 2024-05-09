@@ -26,4 +26,16 @@ type salesforce.Prompt {
   suffix = "prompt"
   dirName = "prompts"
   metadataType = "Prompt"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

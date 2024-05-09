@@ -82,4 +82,26 @@ type salesforce.ExternalServiceRegistration {
   metadataType = "ExternalServiceRegistration"
   string serviceDescriptor {
   }
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "status"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

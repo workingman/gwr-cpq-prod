@@ -101,4 +101,11 @@ type salesforce.EmailServicesFunction {
   suffix = "xml"
   dirName = "emailservices"
   metadataType = "EmailServicesFunction"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

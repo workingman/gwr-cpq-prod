@@ -24,4 +24,11 @@ type salesforce.StandardValueSetTranslation {
   suffix = "standardValueSetTranslation"
   dirName = "standardValueSetTranslations"
   metadataType = "StandardValueSetTranslation"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

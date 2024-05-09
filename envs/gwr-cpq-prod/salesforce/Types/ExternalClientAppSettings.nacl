@@ -22,4 +22,11 @@ settings salesforce.ExternalClientAppSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "ExternalClientAppSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -19,4 +19,13 @@ type salesforce.ContactCenterChannel {
     ]
   }
   metadataType = "ContactCenterChannel"
+  string contactCenter {
+    foreignKeyDomain = [
+      salesforce.CallCenter,
+    ]
+  }
+  string voiceMailFallbackQueue {
+  }
+  string voiceMailHandler {
+  }
 }

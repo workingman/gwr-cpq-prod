@@ -24,4 +24,11 @@ settings salesforce.BotSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "BotSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -18,4 +18,11 @@ type salesforce.ChatterAnswersReputationLevel {
   number value {
   }
   metadataType = "ChatterAnswersReputationLevel"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

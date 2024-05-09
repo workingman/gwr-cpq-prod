@@ -66,4 +66,21 @@ type salesforce.Layout {
   suffix = "layout"
   dirName = "layouts"
   metadataType = "Layout"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "relatedLists"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "layoutSections"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

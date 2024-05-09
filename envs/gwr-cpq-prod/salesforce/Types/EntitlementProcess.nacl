@@ -60,4 +60,26 @@ type salesforce.EntitlementProcess {
   suffix = "entitlementProcess"
   dirName = "entitlementProcesses"
   metadataType = "EntitlementProcess"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "active"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

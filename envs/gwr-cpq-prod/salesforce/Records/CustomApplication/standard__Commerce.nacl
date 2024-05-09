@@ -40,4 +40,5 @@ salesforce.CustomApplication standard__Commerce {
   }
   fullName = "standard__Commerce"
   _alias = "Commerce (standard)"
+  isOmniPinnedViewEnabled = false
 }

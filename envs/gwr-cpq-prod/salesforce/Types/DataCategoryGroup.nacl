@@ -32,4 +32,26 @@ type salesforce.DataCategoryGroup {
   suffix = "datacategorygroup"
   dirName = "datacategorygroups"
   metadataType = "DataCategoryGroup"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "active"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

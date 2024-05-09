@@ -17,4 +17,5 @@ salesforce.CustomApplication standard__Marketing {
   ]
   fullName = "standard__Marketing"
   _alias = "standard__Marketing"
+  isOmniPinnedViewEnabled = false
 }

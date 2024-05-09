@@ -34,4 +34,16 @@ type salesforce.ChannelLayout {
   suffix = "channelLayout"
   dirName = "channelLayouts"
   metadataType = "ChannelLayout"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

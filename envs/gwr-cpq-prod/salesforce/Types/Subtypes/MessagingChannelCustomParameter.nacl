@@ -24,4 +24,16 @@ type salesforce.MessagingChannelCustomParameter {
   string name {
   }
   metadataType = "MessagingChannelCustomParameter"
+  _important_values = [
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

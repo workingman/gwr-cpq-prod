@@ -24,4 +24,11 @@ settings salesforce.ExperienceBundleSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "ExperienceBundleSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

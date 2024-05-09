@@ -230,6 +230,20 @@ type salesforce.Contract {
       formFactor = "Small"
       type = "Default"
     },
+    {
+      actionName = "headlessPricingAction"
+      type = "Default"
+    },
+    {
+      actionName = "headlessPricingAction"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "headlessPricingAction"
+      formFactor = "Small"
+      type = "Default"
+    },
   ]
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false

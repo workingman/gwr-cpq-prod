@@ -26,4 +26,11 @@ settings salesforce.DevHubSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "DevHubSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

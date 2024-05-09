@@ -24,4 +24,11 @@ type salesforce.CustomLabels {
   suffix = "labels"
   dirName = "labels"
   metadataType = "CustomLabels"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

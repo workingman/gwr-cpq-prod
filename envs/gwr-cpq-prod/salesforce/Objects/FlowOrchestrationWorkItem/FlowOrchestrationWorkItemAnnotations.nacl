@@ -134,4 +134,33 @@ type salesforce.FlowOrchestrationWorkItem {
   enableFeeds = false
   externalSharingModel = "Private"
   _alias = "Orchestration Work Item"
+  searchLayouts = {
+    lookupDialogsAdditionalFields = [
+      "RelatedRecord",
+      "Label",
+      "Status",
+      "Assignee",
+      "LastModifiedBy",
+      "LastModifiedDate",
+      "CreatedDate",
+    ]
+    lookupPhoneDialogsAdditionalFields = [
+      "RelatedRecord",
+      "Label",
+      "Status",
+      "Assignee",
+      "LastModifiedBy",
+      "LastModifiedDate",
+      "CreatedDate",
+    ]
+    searchResultsAdditionalFields = [
+      "RelatedRecord",
+      "Label",
+      "Status",
+      "Assignee",
+      "LastModifiedBy",
+      "LastModifiedDate",
+      "CreatedDate",
+    ]
+  }
 }

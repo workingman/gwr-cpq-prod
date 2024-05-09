@@ -207,4 +207,5 @@ salesforce.CustomApplication standard__ServiceConsole {
   }
   fullName = "standard__ServiceConsole"
   _alias = "standard__ServiceConsole"
+  isOmniPinnedViewEnabled = false
 }

@@ -24,4 +24,11 @@ type salesforce.AssignmentRules {
   suffix = "assignmentRules"
   dirName = "assignmentRules"
   metadataType = "AssignmentRules"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

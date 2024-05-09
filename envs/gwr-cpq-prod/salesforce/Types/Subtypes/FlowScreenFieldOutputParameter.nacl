@@ -20,4 +20,11 @@ type salesforce.FlowScreenFieldOutputParameter {
   salesforce.FlowMetadataValue processMetadataValues {
   }
   metadataType = "FlowScreenFieldOutputParameter"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

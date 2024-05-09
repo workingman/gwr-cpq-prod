@@ -29,4 +29,5 @@ salesforce.Organization {
   NumKnowledgeService = 2
   WebToCaseDefaultOrigin = "Web"
   IsReadOnly = false
+  PreferencesEmailSenderIdCompliance = false
 }

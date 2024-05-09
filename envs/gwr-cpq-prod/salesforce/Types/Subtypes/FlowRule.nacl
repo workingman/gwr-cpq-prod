@@ -30,4 +30,21 @@ type salesforce.FlowRule {
   salesforce.FlowMetadataValue processMetadataValues {
   }
   metadataType = "FlowRule"
+  _important_values = [
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

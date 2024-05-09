@@ -18,4 +18,16 @@ type salesforce.ExternalServiceOperation {
   string name {
   }
   metadataType = "ExternalServiceOperation"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "active"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

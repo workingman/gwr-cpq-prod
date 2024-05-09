@@ -28,4 +28,11 @@ settings salesforce.PartyDataModelSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "PartyDataModelSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

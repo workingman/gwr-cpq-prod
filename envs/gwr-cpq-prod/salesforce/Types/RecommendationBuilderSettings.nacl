@@ -22,4 +22,11 @@ settings salesforce.RecommendationBuilderSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "RecommendationBuilderSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -210,4 +210,16 @@ type salesforce.PromptVersion {
   string videoLink {
   }
   metadataType = "PromptVersion"
+  _important_values = [
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

@@ -39,4 +39,5 @@ salesforce.CustomApplication SBQQ__QuoteQuickly {
     },
   ]
   _alias = "Salesforce CPQ (SBQQ)"
+  isOmniPinnedViewEnabled = false
 }

@@ -40,4 +40,11 @@ settings salesforce.IdeasSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "IdeasSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

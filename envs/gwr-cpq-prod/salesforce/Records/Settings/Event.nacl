@@ -3,7 +3,7 @@ salesforce.EventSettings {
   bypassMeteringBlock = "false"
   enableDeleteMonitoringData = false
   enableDynamicStreamingChannel = false
-  enableEventLogGeneration = "false"
+  enableEventLogGeneration = false
   enableLoginForensics = false
   enableStreamingApi = true
   enableTransactionSecurityPolicies = false

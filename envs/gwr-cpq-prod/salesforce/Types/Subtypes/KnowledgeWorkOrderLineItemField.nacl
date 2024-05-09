@@ -16,4 +16,11 @@ type salesforce.KnowledgeWorkOrderLineItemField {
   string name {
   }
   metadataType = "KnowledgeWorkOrderLineItemField"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

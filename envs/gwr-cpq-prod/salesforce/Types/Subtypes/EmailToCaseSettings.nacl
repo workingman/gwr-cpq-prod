@@ -34,4 +34,20 @@ type salesforce.EmailToCaseSettings {
   salesforce.EmailToCaseRoutingAddress routingAddresses {
   }
   metadataType = "EmailToCaseSettings"
+  boolean enableE2CDeduplicateAttachments {
+  }
+  boolean enableE2CExternalServer {
+  }
+  boolean enableNewToReadTriggers {
+  }
+  boolean enableThreadTokenInBody {
+  }
+  boolean enableThreadTokenInSubject {
+  }
+  boolean replyWithNewContentOnly {
+  }
+  boolean showGeneratedEmailCheckbox {
+  }
+  boolean useEmailHeadersForThreading {
+  }
 }

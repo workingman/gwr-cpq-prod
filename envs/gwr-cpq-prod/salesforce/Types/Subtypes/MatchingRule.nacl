@@ -41,4 +41,21 @@ type salesforce.MatchingRule {
     localOnly = true
   }
   metadataType = "MatchingRule"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

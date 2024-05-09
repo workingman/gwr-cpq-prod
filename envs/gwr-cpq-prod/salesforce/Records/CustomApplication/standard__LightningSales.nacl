@@ -37,4 +37,5 @@ salesforce.CustomApplication standard__LightningSales {
     },
   ]
   _alias = "Sales (standard)"
+  isOmniPinnedViewEnabled = false
 }

@@ -86,6 +86,7 @@ type salesforce.Flow {
         "runtime_appointmentbooking__Inv_Book",
         "runtime_appointmentbooking__Inv_Gen",
         "runtime_appointmentbooking__Out_Modify",
+        "runtime_appointmentbooking__Rasgn_Appt",
         "runtime_appointmentbooking__send_Invt",
         "runtime_commerce_oms__Cancel_Item",
         "runtime_commerce_oms__Create_OS",
@@ -93,7 +94,7 @@ type salesforce.Flow {
         "runtime_commerce_oms__Return_Item",
         "runtime_industries_recurrence__Orch",
         "runtime_industries_recurrence__Schdlr",
-        "runtime_payments__PayNowWithProducts",
+        "runtime_payments__GeneratePaymentLink",
         "runtime_service_incident_mgmt__CCOIO",
         "runtime_service_incident_mgmt__CRRI",
         "setup_service_experience__Create_Case",
@@ -123,12 +124,14 @@ type salesforce.Flow {
         "ContactRequestFlow",
         "CustomEvent",
         "CustomerLifecycle",
+        "DataCaptureFlow",
         "DigitalForm",
         "EvaluationFlow",
         "FSCLending",
         "FieldServiceMobile",
         "FieldServiceWeb",
         "Flow",
+        "IndicatorResultFlow",
         "IndividualObjectLinkingFlow",
         "InvocableProcess",
         "Journey",
@@ -137,7 +140,6 @@ type salesforce.Flow {
         "LoyaltyManagementFlow",
         "ManagedContentAuthoringWorkflow",
         "ManagedContentFlow",
-        "OfflineFlow",
         "OrchestrationFlow",
         "Orchestrator",
         "PromptFlow",
@@ -198,6 +200,7 @@ type salesforce.Flow {
         "runtime_appointmentbooking__Inv_Book",
         "runtime_appointmentbooking__Inv_Gen",
         "runtime_appointmentbooking__Out_Modify",
+        "runtime_appointmentbooking__Rasgn_Appt",
         "runtime_appointmentbooking__send_Invt",
         "runtime_commerce_oms__Cancel_Item",
         "runtime_commerce_oms__Create_OS",
@@ -205,7 +208,7 @@ type salesforce.Flow {
         "runtime_commerce_oms__Return_Item",
         "runtime_industries_recurrence__Orch",
         "runtime_industries_recurrence__Schdlr",
-        "runtime_payments__PayNowWithProducts",
+        "runtime_payments__GeneratePaymentLink",
         "runtime_service_incident_mgmt__CCOIO",
         "runtime_service_incident_mgmt__CRRI",
         "setup_service_experience__Create_Case",
@@ -694,4 +697,36 @@ type salesforce.Flow {
   metadataType = "Flow"
   salesforce.FlowCustomError customErrors {
   }
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "label"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "processType"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "apiVersion"
+      highlighted = true
+      indexed = true
+    },
+    {
+      value = "status"
+      highlighted = true
+      indexed = true
+    },
+  ]
 }

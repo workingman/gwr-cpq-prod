@@ -44,4 +44,16 @@ type salesforce.AIApplicationConfig {
   suffix = "aiapplicationconfig"
   dirName = "aiApplicationConfigs"
   metadataType = "AIApplicationConfig"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "masterLabel"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

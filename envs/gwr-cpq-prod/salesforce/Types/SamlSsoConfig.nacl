@@ -111,4 +111,16 @@ type salesforce.SamlSsoConfig {
   suffix = "samlssoconfig"
   dirName = "samlssoconfigs"
   metadataType = "SamlSsoConfig"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

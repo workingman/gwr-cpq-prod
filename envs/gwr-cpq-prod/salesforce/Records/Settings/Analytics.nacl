@@ -64,7 +64,9 @@ salesforce.AnalyticsSettings {
   replaceBlankMeasuresWithNulls = false
   turnOnTimeZones = false
   _alias = "Analytics"
-  enableDashboardChangeOwnerPref = "false"
+  
   enableDataCloudReportingPref = "true"
   queryCachingOptOut = "false"
+  concurrencyLimitSharing = "false"
+  enableSummaryFilterOrgPref = "false"
 }

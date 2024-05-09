@@ -28,4 +28,11 @@ settings salesforce.ConnectedAppSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "ConnectedAppSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

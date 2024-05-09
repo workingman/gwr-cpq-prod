@@ -18,4 +18,11 @@ type salesforce.StrategyActionArg {
   string value {
   }
   metadataType = "StrategyActionArg"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

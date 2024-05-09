@@ -24,4 +24,11 @@ type salesforce.GlobalValueSetTranslation {
   suffix = "globalValueSetTranslation"
   dirName = "globalValueSetTranslations"
   metadataType = "GlobalValueSetTranslation"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

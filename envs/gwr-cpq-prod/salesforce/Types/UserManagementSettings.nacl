@@ -34,4 +34,11 @@ settings salesforce.UserManagementSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "UserManagementSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

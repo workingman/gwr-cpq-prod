@@ -18,4 +18,11 @@ type salesforce.FlexiPageEventSourceProperty {
   string value {
   }
   metadataType = "FlexiPageEventSourceProperty"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

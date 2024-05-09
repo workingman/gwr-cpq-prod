@@ -29,4 +29,11 @@ type salesforce.FlowMetadataValue {
   salesforce.FlowElementReferenceOrValue value {
   }
   metadataType = "FlowMetadataValue"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

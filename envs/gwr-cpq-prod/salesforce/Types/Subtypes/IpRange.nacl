@@ -20,4 +20,11 @@ type salesforce.IpRange {
   string start {
   }
   metadataType = "IpRange"
+  _important_values = [
+    {
+      value = "description"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

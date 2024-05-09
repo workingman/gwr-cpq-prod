@@ -22,15 +22,21 @@ type salesforce.MktDataLakeFieldAttributes {
         "ADG",
         "Activation_Audience",
         "Bridge",
+        "CG_Audience",
+        "Calculated_Insight",
+        "Chunk",
         "Curated",
         "Custom",
         "Derived",
+        "Directory_Table",
         "External",
         "Ml_Prediction",
         "Segment_Membership",
+        "Semantic",
         "Standard",
         "System",
         "Transform",
+        "Vector_Embedding",
       ]
     }
   }

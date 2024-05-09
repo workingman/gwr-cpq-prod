@@ -11,4 +11,5 @@ salesforce.CustomApplication standard__AppLauncher {
   ]
   fullName = "standard__AppLauncher"
   _alias = "standard__AppLauncher"
+  isOmniPinnedViewEnabled = false
 }

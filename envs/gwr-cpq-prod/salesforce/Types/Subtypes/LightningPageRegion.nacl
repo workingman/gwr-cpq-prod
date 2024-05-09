@@ -65,4 +65,11 @@ type salesforce.LightningPageRegion {
     }
   }
   metadataType = "FlexiPageRegion"
+  _important_values = [
+    {
+      value = "name"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }

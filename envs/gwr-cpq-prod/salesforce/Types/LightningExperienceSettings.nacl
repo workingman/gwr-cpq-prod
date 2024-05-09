@@ -82,4 +82,11 @@ settings salesforce.LightningExperienceSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "LightningExperienceSettings"
+  _important_values = [
+    {
+      value = "fullName"
+      highlighted = true
+      indexed = false
+    },
+  ]
 }
