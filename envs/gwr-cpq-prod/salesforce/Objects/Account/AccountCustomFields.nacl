@@ -52,7 +52,7 @@ type salesforce.Account {
   salesforce.Checkbox GWR_Assigned__c {
     apiName = "Account.GWR_Assigned__c"
     defaultValue = true
-    description = "Added a description from the  UI"
+    description = "Added a description from the UI"
     externalId = false
     label = "GWR Assigned changed in ui"
     createable = true
@@ -81,11 +81,6 @@ type salesforce.Account {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__CoTermedContractsCombined__c {
     apiName = "Account.SBQQ__CoTermedContractsCombined__c"
@@ -98,11 +93,6 @@ type salesforce.Account {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__CoTerminationEvent__c {
     apiName = "Account.SBQQ__CoTerminationEvent__c"
@@ -146,11 +136,6 @@ type salesforce.Account {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__ContractCoTermination__c {
     apiName = "Account.SBQQ__ContractCoTermination__c"
@@ -181,11 +166,6 @@ type salesforce.Account {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__DefaultOpportunity__c {
     apiName = "Account.SBQQ__DefaultOpportunity__c"
@@ -203,11 +183,6 @@ type salesforce.Account {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__IgnoreParentContractedPrices__c {
     apiName = "Account.SBQQ__IgnoreParentContractedPrices__c"
@@ -220,11 +195,6 @@ type salesforce.Account {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__PreserveBundle__c {
     apiName = "Account.SBQQ__PreserveBundle__c"
@@ -237,11 +207,6 @@ type salesforce.Account {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Date SBQQ__PriceHoldEnd__c {
     apiName = "Account.SBQQ__PriceHoldEnd__c"
@@ -253,11 +218,6 @@ type salesforce.Account {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__RenewalModel__c {
     apiName = "Account.SBQQ__RenewalModel__c"
@@ -283,11 +243,6 @@ type salesforce.Account {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__RenewalPricingMethod__c {
     apiName = "Account.SBQQ__RenewalPricingMethod__c"
@@ -318,11 +273,6 @@ type salesforce.Account {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__TaxExempt__c {
     apiName = "Account.SBQQ__TaxExempt__c"
@@ -348,11 +298,6 @@ type salesforce.Account {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Date SLAExpirationDate__c {
     apiName = "Account.SLAExpirationDate__c"
