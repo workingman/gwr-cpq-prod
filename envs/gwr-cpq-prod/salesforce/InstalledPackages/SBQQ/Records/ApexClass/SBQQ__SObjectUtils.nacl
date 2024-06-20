@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__SObjectUtils {
   status = "Active"
   fullName = "SBQQ__SObjectUtils"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SObjectUtils"
 }

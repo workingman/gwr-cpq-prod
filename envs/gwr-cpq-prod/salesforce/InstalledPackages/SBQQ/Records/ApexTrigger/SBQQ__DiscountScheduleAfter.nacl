@@ -10,10 +10,5 @@ salesforce.ApexTrigger SBQQ__DiscountScheduleAfter {
   status = "Active"
   fullName = "SBQQ__DiscountScheduleAfter"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__DiscountScheduleAfter"
 }

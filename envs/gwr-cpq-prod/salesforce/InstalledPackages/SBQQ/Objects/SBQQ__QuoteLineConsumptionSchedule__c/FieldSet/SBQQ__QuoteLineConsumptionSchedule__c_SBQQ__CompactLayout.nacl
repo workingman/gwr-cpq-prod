@@ -42,10 +42,5 @@ salesforce.FieldSet SBQQ__QuoteLineConsumptionSchedule__c_SBQQ__CompactLayout {
   _parent = [
     salesforce.SBQQ__QuoteLineConsumptionSchedule__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Compact Layout (SBQQ)"
 }

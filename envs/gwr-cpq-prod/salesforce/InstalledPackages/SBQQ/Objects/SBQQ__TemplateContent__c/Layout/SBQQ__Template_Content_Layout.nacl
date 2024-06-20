@@ -146,10 +146,5 @@ salesforce.Layout SBQQ__TemplateContent__c_SBQQ__Template_Content_Layout@uuuubuu
   _parent = [
     salesforce.SBQQ__TemplateContent__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__TemplateContent__c-SBQQ__Template Content Layout"
 }

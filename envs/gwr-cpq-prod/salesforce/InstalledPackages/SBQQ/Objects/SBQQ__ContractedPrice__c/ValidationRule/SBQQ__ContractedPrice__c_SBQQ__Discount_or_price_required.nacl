@@ -7,10 +7,5 @@ salesforce.ValidationRule SBQQ__ContractedPrice__c_SBQQ__Discount_or_price_requi
   _parent = [
     salesforce.SBQQ__ContractedPrice__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ContractedPrice__c.SBQQ__Discount_or_price_required"
 }

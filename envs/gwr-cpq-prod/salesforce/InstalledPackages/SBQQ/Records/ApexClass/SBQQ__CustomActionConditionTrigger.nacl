@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__CustomActionConditionTrigger {
   status = "Active"
   fullName = "SBQQ__CustomActionConditionTrigger"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__CustomActionConditionTrigger"
 }

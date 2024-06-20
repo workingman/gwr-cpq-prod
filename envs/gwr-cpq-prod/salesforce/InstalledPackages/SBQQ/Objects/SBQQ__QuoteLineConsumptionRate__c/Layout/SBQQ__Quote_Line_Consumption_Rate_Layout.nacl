@@ -104,10 +104,5 @@ salesforce.Layout SBQQ__QuoteLineConsumptionRate__c_SBQQ__Quote_Line_Consumption
   _parent = [
     salesforce.SBQQ__QuoteLineConsumptionRate__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteLineConsumptionRate__c-SBQQ__Quote Line Consumption Rate Layout"
 }

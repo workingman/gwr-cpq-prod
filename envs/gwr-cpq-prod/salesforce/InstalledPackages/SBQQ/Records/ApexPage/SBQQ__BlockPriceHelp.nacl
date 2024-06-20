@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__BlockPriceHelp {
   label = "Block Price Help"
   fullName = "SBQQ__BlockPriceHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__BlockPriceHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Block Price Help (SBQQ)"
 }

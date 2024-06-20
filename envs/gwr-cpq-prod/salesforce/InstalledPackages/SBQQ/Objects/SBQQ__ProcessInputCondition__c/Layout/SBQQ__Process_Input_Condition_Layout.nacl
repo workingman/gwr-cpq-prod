@@ -105,10 +105,5 @@ salesforce.Layout SBQQ__ProcessInputCondition__c_SBQQ__Process_Input_Condition_L
   _parent = [
     salesforce.SBQQ__ProcessInputCondition__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProcessInputCondition__c-SBQQ__Process Input Condition Layout"
 }

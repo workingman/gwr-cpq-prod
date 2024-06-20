@@ -113,10 +113,5 @@ salesforce.Layout SBQQ__SubscriptionConsumptionSchedule__c_SBQQ__Subscription_Co
   _parent = [
     salesforce.SBQQ__SubscriptionConsumptionSchedule__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SubscriptionConsumptionSchedule__c-SBQQ__Subscription Consumption Schedule Layout"
 }

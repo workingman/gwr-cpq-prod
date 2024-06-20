@@ -36,9 +36,6 @@ type salesforce.ContactCleanInfo {
   salesforce.Lookup CreatedById {
     apiName = "ContactCleanInfo.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -56,9 +53,6 @@ type salesforce.ContactCleanInfo {
   salesforce.Lookup LastModifiedById {
     apiName = "ContactCleanInfo.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -76,9 +70,6 @@ type salesforce.ContactCleanInfo {
   salesforce.Lookup ContactId {
     apiName = "ContactCleanInfo.ContactId"
     relationshipName = "Contact"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     _required = true
     label = "Contact ID"
     createable = false
@@ -106,9 +97,6 @@ type salesforce.ContactCleanInfo {
   salesforce.Lookup LastStatusChangedById {
     apiName = "ContactCleanInfo.LastStatusChangedById"
     relationshipName = "LastStatusChangedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "User ID"
     createable = false
     updateable = false
@@ -183,62 +171,6 @@ type salesforce.ContactCleanInfo {
   }
   salesforce.Picklist ContactStatusDataDotCom {
     apiName = "ContactCleanInfo.ContactStatusDataDotCom"
-    valueSet = [
-      {
-        fullName = "IsActiveContactDataDotCom"
-        isActive = true
-        label = "Contact is Active per Data.com"
-        default = false
-      },
-      {
-        fullName = "WrongPhoneDataDotCom"
-        isActive = true
-        label = "Phone is Wrong per Data.com"
-        default = false
-      },
-      {
-        fullName = "WrongEmailDataDotCom"
-        isActive = true
-        label = "Email is Wrong per Data.com"
-        default = false
-      },
-      {
-        fullName = "WrongPhoneAndEmailDataDotCom"
-        isActive = true
-        label = "Phone and Email are Wrong per Data.com"
-        default = false
-      },
-      {
-        fullName = "NotAtCompanyContactDataDotCom"
-        isActive = true
-        label = "Contact Not at Company per Data.com"
-        default = false
-      },
-      {
-        fullName = "InactiveDataDotCom"
-        isActive = true
-        label = "Contact is Inactive per Data.com"
-        default = false
-      },
-      {
-        fullName = "CompanyOutOfBusinessDataDotCom"
-        isActive = true
-        label = "Company this contact belongs to is out of business per Data.com"
-        default = false
-      },
-      {
-        fullName = "CompanyNeverExistedDataDotCom"
-        isActive = true
-        label = "Company this contact belongs to never existed per Data.com"
-        default = false
-      },
-      {
-        fullName = "DeadEmailDomainDataDotCom"
-        isActive = true
-        label = "Email address is invalid per Data.com"
-        default = false
-      },
-    ]
     restricted = true
     label = "Contact Status per Data.com"
     createable = false

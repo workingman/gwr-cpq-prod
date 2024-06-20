@@ -69,10 +69,5 @@ salesforce.Layout SBQQ__AttributeValue__c_SBQQ__Attribute_Value_Layout@uuuubuuss
   _parent = [
     salesforce.SBQQ__AttributeValue__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__AttributeValue__c-SBQQ__Attribute Value Layout"
 }

@@ -58,9 +58,6 @@ type salesforce.OrgMetricScanSummary {
   salesforce.Lookup CreatedById {
     apiName = "OrgMetricScanSummary.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -78,9 +75,6 @@ type salesforce.OrgMetricScanSummary {
   salesforce.Lookup LastModifiedById {
     apiName = "OrgMetricScanSummary.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -98,9 +92,6 @@ type salesforce.OrgMetricScanSummary {
   salesforce.Lookup OrgMetricId {
     apiName = "OrgMetricScanSummary.OrgMetricId"
     relationshipName = "OrgMetric"
-    referenceTo = [
-      "OrgMetric",
-    ]
     _required = true
     label = "Org Metric ID"
     createable = true

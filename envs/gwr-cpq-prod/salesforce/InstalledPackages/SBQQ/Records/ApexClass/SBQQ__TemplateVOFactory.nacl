@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__TemplateVOFactory {
   status = "Active"
   fullName = "SBQQ__TemplateVOFactory"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__TemplateVOFactory"
 }

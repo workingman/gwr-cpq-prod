@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__RootIdSetterParentAssets {
   status = "Active"
   fullName = "SBQQ__RootIdSetterParentAssets"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__RootIdSetterParentAssets"
 }

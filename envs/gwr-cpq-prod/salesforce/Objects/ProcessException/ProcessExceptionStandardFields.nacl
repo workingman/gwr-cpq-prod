@@ -2,97 +2,6 @@ type salesforce.ProcessException {
   salesforce.Lookup AttachedToId {
     apiName = "ProcessException.AttachedToId"
     relationshipName = "AttachedTo"
-    referenceTo = [
-      salesforce.CreditMemo,
-      salesforce.IndustryPrice__c,
-      salesforce.Invoice,
-      salesforce.Order,
-      salesforce.OrderItem,
-      salesforce.OutletLocale__c,
-      salesforce.Payment,
-      salesforce.PaymentAuthorization,
-      salesforce.Refund,
-      salesforce.SBQQ__AttributeSet__c,
-      salesforce.SBQQ__AttributeValue__c,
-      salesforce.SBQQ__BlockPrice__c,
-      salesforce.SBQQ__ColumnMetadata__c,
-      salesforce.SBQQ__ConfigurationAttribute__c,
-      salesforce.SBQQ__ConfigurationRule__c,
-      salesforce.SBQQ__ContractedPrice__c,
-      salesforce.SBQQ__Cost__c,
-      salesforce.SBQQ__CustomActionCondition__c,
-      salesforce.SBQQ__CustomAction__c,
-      salesforce.SBQQ__CustomScript__c,
-      salesforce.SBQQ__Dimension__c,
-      salesforce.SBQQ__DiscountCategory__c,
-      salesforce.SBQQ__DiscountSchedule__c,
-      salesforce.SBQQ__DiscountTier__c,
-      salesforce.SBQQ__ErrorCondition__c,
-      salesforce.SBQQ__FavoriteProduct__c,
-      salesforce.SBQQ__FavoriteShare__c,
-      salesforce.SBQQ__Favorite__c,
-      salesforce.SBQQ__FieldMetadata__c,
-      salesforce.SBQQ__FieldSetMetadata__c,
-      salesforce.SBQQ__ImportColumn__c,
-      salesforce.SBQQ__ImportFormat__c,
-      salesforce.SBQQ__InstallProcessorLog__c,
-      salesforce.SBQQ__LineColumn__c,
-      salesforce.SBQQ__Localization__c,
-      salesforce.SBQQ__LookupData__c,
-      salesforce.SBQQ__LookupQuery__c,
-      salesforce.SBQQ__OptionConstraint__c,
-      salesforce.SBQQ__OrderItemConsumptionRate__c,
-      salesforce.SBQQ__OrderItemConsumptionSchedule__c,
-      salesforce.SBQQ__PriceAction__c,
-      salesforce.SBQQ__PriceCondition__c,
-      salesforce.SBQQ__PriceRule__c,
-      salesforce.SBQQ__PriceSchedule__c,
-      salesforce.SBQQ__PriceTier__c,
-      salesforce.SBQQ__PricingGuidanceTier__c,
-      salesforce.SBQQ__PricingGuidance__c,
-      salesforce.SBQQ__ProcessInputCondition__c,
-      salesforce.SBQQ__ProcessInputValue__c,
-      salesforce.SBQQ__ProcessInput__c,
-      salesforce.SBQQ__ProductAction__c,
-      salesforce.SBQQ__ProductAttributeSet__c,
-      salesforce.SBQQ__ProductAttribute__c,
-      salesforce.SBQQ__ProductFeature__c,
-      salesforce.SBQQ__ProductOption__c,
-      salesforce.SBQQ__ProductRule__c,
-      salesforce.SBQQ__QuoteDocument__c,
-      salesforce.SBQQ__QuoteLineConsumptionRate__c,
-      salesforce.SBQQ__QuoteLineConsumptionSchedule__c,
-      salesforce.SBQQ__QuoteLineGroup__c,
-      salesforce.SBQQ__QuoteLinePricingGuidance__c,
-      salesforce.SBQQ__QuoteLine__c,
-      salesforce.SBQQ__QuoteProcess__c,
-      salesforce.SBQQ__QuoteTemplate__c,
-      salesforce.SBQQ__QuoteTerm__c,
-      salesforce.SBQQ__Quote__c,
-      salesforce.SBQQ__RecordJob__c,
-      salesforce.SBQQ__RelatedContent__c,
-      salesforce.SBQQ__SearchFilter__c,
-      salesforce.SBQQ__SearchIndex__c,
-      salesforce.SBQQ__SolutionGroup__c,
-      salesforce.SBQQ__SubscribedAsset__c,
-      salesforce.SBQQ__SubscribedQuoteLine__c,
-      salesforce.SBQQ__SubscriptionConsumptionRate__c,
-      salesforce.SBQQ__SubscriptionConsumptionSchedule__c,
-      salesforce.SBQQ__Subscription__c,
-      salesforce.SBQQ__SummaryVariable__c,
-      salesforce.SBQQ__TaxExemptionCertificate__c,
-      salesforce.SBQQ__TemplateContent__c,
-      salesforce.SBQQ__TemplateSection__c,
-      salesforce.SBQQ__TermCondition__c,
-      salesforce.SBQQ__Theme__c,
-      salesforce.SBQQ__TimingLog__c,
-      salesforce.SBQQ__UpgradeSource__c,
-      salesforce.SBQQ__UsageRateCardAssignment__c,
-      salesforce.SBQQ__UsageRateCard__c,
-      salesforce.SBQQ__UsageRate__c,
-      salesforce.SBQQ__WebQuoteLine__c,
-      salesforce.SBQQ__WebQuote__c,
-    ]
     _required = true
     label = "Attached To ID"
     createable = true
@@ -102,9 +11,6 @@ type salesforce.ProcessException {
   salesforce.Lookup CaseId {
     apiName = "ProcessException.CaseId"
     relationshipName = "Case"
-    referenceTo = [
-      salesforce.Case,
-    ]
     label = "Case ID"
     createable = true
     updateable = true
@@ -112,44 +18,6 @@ type salesforce.ProcessException {
   }
   salesforce.Picklist Category {
     apiName = "ProcessException.Category"
-    valueSet = [
-      {
-        fullName = "Order Activation"
-        isActive = true
-        label = "Order Activation"
-        default = true
-      },
-      {
-        fullName = "Order Approval"
-        isActive = true
-        label = "Order Approval"
-        default = false
-      },
-      {
-        fullName = "Fulfillment"
-        isActive = true
-        label = "Fulfillment"
-        default = false
-      },
-      {
-        fullName = "Payment"
-        isActive = true
-        label = "Payment"
-        default = false
-      },
-      {
-        fullName = "Invoicing"
-        isActive = true
-        label = "Invoicing"
-        default = false
-      },
-      {
-        fullName = "Place Order"
-        isActive = true
-        label = "Place Order"
-        default = false
-      },
-    ]
     restricted = false
     label = "Category"
     createable = true
@@ -188,10 +56,6 @@ type salesforce.ProcessException {
   salesforce.Lookup OwnerId {
     apiName = "ProcessException.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -200,20 +64,6 @@ type salesforce.ProcessException {
   }
   salesforce.Picklist Priority {
     apiName = "ProcessException.Priority"
-    valueSet = [
-      {
-        fullName = "High"
-        isActive = true
-        label = "High"
-        default = false
-      },
-      {
-        fullName = "Low"
-        isActive = true
-        label = "Low"
-        default = true
-      },
-    ]
     restricted = false
     label = "Priority"
     createable = true
@@ -222,20 +72,6 @@ type salesforce.ProcessException {
   }
   salesforce.Picklist Severity {
     apiName = "ProcessException.Severity"
-    valueSet = [
-      {
-        fullName = "High"
-        isActive = true
-        label = "High"
-        default = true
-      },
-      {
-        fullName = "Low"
-        isActive = true
-        label = "Low"
-        default = false
-      },
-    ]
     restricted = false
     label = "Severity"
     createable = true
@@ -244,44 +80,6 @@ type salesforce.ProcessException {
   }
   salesforce.Picklist Status {
     apiName = "ProcessException.Status"
-    valueSet = [
-      {
-        fullName = "New"
-        isActive = true
-        label = "New"
-        default = true
-      },
-      {
-        fullName = "Triaged"
-        isActive = true
-        label = "Triaged"
-        default = false
-      },
-      {
-        fullName = "Paused"
-        isActive = true
-        label = "Paused"
-        default = false
-      },
-      {
-        fullName = "Ignored"
-        isActive = true
-        label = "Ignored"
-        default = false
-      },
-      {
-        fullName = "Resolved"
-        isActive = true
-        label = "Resolved"
-        default = false
-      },
-      {
-        fullName = "Voided"
-        isActive = true
-        label = "Voided"
-        default = false
-      },
-    ]
     restricted = false
     _required = true
     label = "Status"
@@ -323,9 +121,6 @@ type salesforce.ProcessException {
   salesforce.Lookup CreatedById {
     apiName = "ProcessException.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -343,9 +138,6 @@ type salesforce.ProcessException {
   salesforce.Lookup LastModifiedById {
     apiName = "ProcessException.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -362,26 +154,6 @@ type salesforce.ProcessException {
   }
   salesforce.Picklist StatusCategory {
     apiName = "ProcessException.StatusCategory"
-    valueSet = [
-      {
-        fullName = "ACTIVE"
-        isActive = true
-        label = "Active"
-        default = false
-      },
-      {
-        fullName = "INACTIVE"
-        isActive = true
-        label = "Inactive"
-        default = false
-      },
-      {
-        fullName = "RESOLVED"
-        isActive = true
-        label = "Resolved"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Status Category"
@@ -392,26 +164,6 @@ type salesforce.ProcessException {
   }
   salesforce.Picklist SeverityCategory {
     apiName = "ProcessException.SeverityCategory"
-    valueSet = [
-      {
-        fullName = "HIGH"
-        isActive = true
-        label = "High"
-        default = false
-      },
-      {
-        fullName = "MEDIUM"
-        isActive = true
-        label = "Medium"
-        default = false
-      },
-      {
-        fullName = "LOW"
-        isActive = true
-        label = "Low"
-        default = false
-      },
-    ]
     restricted = true
     label = "Severity Category"
     createable = false

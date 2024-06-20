@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__TriggerControl {
   status = "Active"
   fullName = "SBQQ__TriggerControl"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__TriggerControl.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__TriggerControl"
 }

@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__DirectionalTree {
   status = "Active"
   fullName = "SBQQ__DirectionalTree"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__DirectionalTree"
 }

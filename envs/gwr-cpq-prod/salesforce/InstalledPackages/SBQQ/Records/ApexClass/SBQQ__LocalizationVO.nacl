@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__LocalizationVO {
   status = "Active"
   fullName = "SBQQ__LocalizationVO"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__LocalizationVO"
 }

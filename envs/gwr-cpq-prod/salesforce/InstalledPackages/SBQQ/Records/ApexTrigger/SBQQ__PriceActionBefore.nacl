@@ -10,10 +10,5 @@ salesforce.ApexTrigger SBQQ__PriceActionBefore {
   status = "Active"
   fullName = "SBQQ__PriceActionBefore"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__PriceActionBefore"
 }

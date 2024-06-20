@@ -15,10 +15,5 @@ salesforce.GlobalValueSet SBQQ__OrderProductStatus {
   description = "Order Product Statuses"
   masterLabel = "Order Product Status"
   sorted = false
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__OrderProductStatus"
 }

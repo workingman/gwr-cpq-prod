@@ -2,9 +2,6 @@ type salesforce.CaseMilestone {
   salesforce.Lookup BusinessHoursId {
     apiName = "CaseMilestone.BusinessHoursId"
     relationshipName = "BusinessHours"
-    referenceTo = [
-      "BusinessHours",
-    ]
     label = "Business Hours ID"
     createable = false
     updateable = false
@@ -14,9 +11,6 @@ type salesforce.CaseMilestone {
   salesforce.Lookup CaseId {
     apiName = "CaseMilestone.CaseId"
     relationshipName = "Case"
-    referenceTo = [
-      salesforce.Case,
-    ]
     _required = true
     label = "Case ID"
     createable = false
@@ -214,9 +208,6 @@ type salesforce.CaseMilestone {
   salesforce.Lookup MilestoneTypeId {
     apiName = "CaseMilestone.MilestoneTypeId"
     relationshipName = "MilestoneType"
-    referenceTo = [
-      salesforce.MilestoneType,
-    ]
     label = "Milestone Type ID"
     createable = false
     updateable = false
@@ -242,9 +233,6 @@ type salesforce.CaseMilestone {
   salesforce.Lookup CreatedById {
     apiName = "CaseMilestone.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -262,9 +250,6 @@ type salesforce.CaseMilestone {
   salesforce.Lookup LastModifiedById {
     apiName = "CaseMilestone.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

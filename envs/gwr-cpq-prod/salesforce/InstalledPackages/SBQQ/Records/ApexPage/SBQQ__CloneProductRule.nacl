@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__CloneProductRule {
   label = "CloneProductRule"
   fullName = "SBQQ__CloneProductRule"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__CloneProductRule.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "CloneProductRule (SBQQ)"
 }

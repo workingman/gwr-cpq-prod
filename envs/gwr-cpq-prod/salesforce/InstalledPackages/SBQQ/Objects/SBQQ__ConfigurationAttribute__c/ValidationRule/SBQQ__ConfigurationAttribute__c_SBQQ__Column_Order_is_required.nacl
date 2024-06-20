@@ -7,10 +7,5 @@ salesforce.ValidationRule SBQQ__ConfigurationAttribute__c_SBQQ__Column_Order_is_
   _parent = [
     salesforce.SBQQ__ConfigurationAttribute__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ConfigurationAttribute__c.SBQQ__Column_Order_is_required"
 }

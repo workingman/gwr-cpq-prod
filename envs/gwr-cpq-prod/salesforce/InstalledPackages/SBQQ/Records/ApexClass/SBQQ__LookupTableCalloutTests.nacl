@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__LookupTableCalloutTests {
   status = "Active"
   fullName = "SBQQ__LookupTableCalloutTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__LookupTableCalloutTests"
 }

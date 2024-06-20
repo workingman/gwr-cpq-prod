@@ -3,10 +3,5 @@ salesforce.StaticResource SBQQ__Directives {
   contentType = "text/javascript"
   fullName = "SBQQ__Directives"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__Directives.resource")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__Directives"
 }

@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__ProcessInputHelp {
   label = "Process Input Help"
   fullName = "SBQQ__ProcessInputHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__ProcessInputHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Process Input Help (SBQQ)"
 }

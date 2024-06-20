@@ -12,10 +12,5 @@ salesforce.WebLink SBQQ__BlockPrice__c_SBQQ__EditAll {
   _parent = [
     salesforce.SBQQ__BlockPrice__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__BlockPrice__c.SBQQ__EditAll"
 }

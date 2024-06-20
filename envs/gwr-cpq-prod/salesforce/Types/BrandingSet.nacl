@@ -31,6 +31,8 @@ type salesforce.BrandingSet {
         "b2b-storefront:branding",
         "b2b:branding-b2b",
         "b2c-lite-storefront:branding",
+        "b2c-lite-storefront:footer",
+        "b2c-lite-storefront:home-banner",
         "b2c-storefront-pay-now:branding",
         "benefitsManagement:branding-benefitsManagement",
         "citizen:branding-citizen",

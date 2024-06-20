@@ -37,9 +37,6 @@ type salesforce.OpportunityLineItem {
   salesforce.Lookup OpportunityId {
     apiName = "OpportunityLineItem.OpportunityId"
     relationshipName = "Opportunity"
-    referenceTo = [
-      salesforce.Opportunity,
-    ]
     _required = true
     label = "Opportunity ID"
     createable = true
@@ -49,9 +46,6 @@ type salesforce.OpportunityLineItem {
   salesforce.Lookup Product2Id {
     apiName = "OpportunityLineItem.Product2Id"
     relationshipName = "Product2"
-    referenceTo = [
-      salesforce.Product2,
-    ]
     label = "Product ID"
     createable = true
     updateable = false
@@ -127,9 +121,6 @@ type salesforce.OpportunityLineItem {
   salesforce.Lookup PricebookEntryId {
     apiName = "OpportunityLineItem.PricebookEntryId"
     relationshipName = "PricebookEntry"
-    referenceTo = [
-      salesforce.PricebookEntry,
-    ]
     label = "Price Book Entry ID"
     createable = true
     updateable = false
@@ -146,9 +137,6 @@ type salesforce.OpportunityLineItem {
   salesforce.Lookup CreatedById {
     apiName = "OpportunityLineItem.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -166,9 +154,6 @@ type salesforce.OpportunityLineItem {
   salesforce.Lookup LastModifiedById {
     apiName = "OpportunityLineItem.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

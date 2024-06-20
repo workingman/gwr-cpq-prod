@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ProductConfigurationVO {
   status = "Active"
   fullName = "SBQQ__ProductConfigurationVO"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductConfigurationVO"
 }

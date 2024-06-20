@@ -3,10 +3,5 @@ salesforce.StaticResource SBQQ__pdfjs {
   contentType = "application/zip"
   fullName = "SBQQ__pdfjs"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__pdfjs.zip")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__pdfjs"
 }

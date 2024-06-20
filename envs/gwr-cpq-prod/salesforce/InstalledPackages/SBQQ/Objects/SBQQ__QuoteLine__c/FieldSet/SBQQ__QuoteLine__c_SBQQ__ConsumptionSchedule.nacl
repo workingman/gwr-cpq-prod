@@ -239,10 +239,5 @@ salesforce.FieldSet SBQQ__QuoteLine__c_SBQQ__ConsumptionSchedule {
   _parent = [
     salesforce.SBQQ__QuoteLine__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "ConsumptionSchedule (SBQQ)"
 }

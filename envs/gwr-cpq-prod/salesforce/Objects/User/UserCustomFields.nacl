@@ -23,11 +23,6 @@ type salesforce.User {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__DiagnosticToolEnabled__c {
     apiName = "User.SBQQ__DiagnosticToolEnabled__c"
@@ -40,11 +35,6 @@ type salesforce.User {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__OutputFormatChangeAllowed__c {
     apiName = "User.SBQQ__OutputFormatChangeAllowed__c"
@@ -57,11 +47,6 @@ type salesforce.User {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__ProductSortPreference__c {
     apiName = "User.SBQQ__ProductSortPreference__c"
@@ -82,11 +67,6 @@ type salesforce.User {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__ResetProductLookup__c {
     apiName = "User.SBQQ__ResetProductLookup__c"
@@ -99,11 +79,6 @@ type salesforce.User {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__Theme__c {
     apiName = "User.SBQQ__Theme__c"
@@ -117,10 +92,5 @@ type salesforce.User {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
 }

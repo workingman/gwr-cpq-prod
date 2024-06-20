@@ -7,10 +7,5 @@ salesforce.AuraDefinitionBundle SBQQ__createRecord {
   styleContent = "(hidden)"
   helperContent = "(hidden)"
   markup = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__createRecord"
 }

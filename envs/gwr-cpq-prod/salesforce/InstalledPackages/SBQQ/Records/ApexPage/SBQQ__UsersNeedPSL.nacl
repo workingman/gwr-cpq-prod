@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__UsersNeedPSL {
   label = "UsersNeedPSL"
   fullName = "SBQQ__UsersNeedPSL"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__UsersNeedPSL.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "UsersNeedPSL (SBQQ)"
 }

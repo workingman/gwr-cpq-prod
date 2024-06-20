@@ -31,10 +31,6 @@ type salesforce.WorkPlan {
   salesforce.Lookup OwnerId {
     apiName = "WorkPlan.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -44,11 +40,6 @@ type salesforce.WorkPlan {
   salesforce.Lookup ParentRecordId {
     apiName = "WorkPlan.ParentRecordId"
     relationshipName = "ParentRecord"
-    referenceTo = [
-      salesforce.ChangeRequest,
-      salesforce.WorkOrder,
-      salesforce.WorkOrderLineItem,
-    ]
     _required = true
     label = "Parent Record ID"
     createable = true
@@ -69,9 +60,6 @@ type salesforce.WorkPlan {
   salesforce.Lookup WorkOrderId {
     apiName = "WorkPlan.WorkOrderId"
     relationshipName = "WorkOrder"
-    referenceTo = [
-      salesforce.WorkOrder,
-    ]
     label = "Work Order ID"
     createable = true
     updateable = true
@@ -80,9 +68,6 @@ type salesforce.WorkPlan {
   salesforce.Lookup WorkOrderLineItemId {
     apiName = "WorkPlan.WorkOrderLineItemId"
     relationshipName = "WorkOrderLineItem"
-    referenceTo = [
-      salesforce.WorkOrderLineItem,
-    ]
     label = "Work Order Line Item ID"
     createable = true
     updateable = true
@@ -91,9 +76,6 @@ type salesforce.WorkPlan {
   salesforce.Lookup WorkPlanTemplateId {
     apiName = "WorkPlan.WorkPlanTemplateId"
     relationshipName = "WorkPlanTemplate"
-    referenceTo = [
-      salesforce.WorkPlanTemplate,
-    ]
     label = "Work Plan Template ID"
     createable = false
     updateable = false
@@ -126,9 +108,6 @@ type salesforce.WorkPlan {
   salesforce.Lookup CreatedById {
     apiName = "WorkPlan.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -146,9 +125,6 @@ type salesforce.WorkPlan {
   salesforce.Lookup LastModifiedById {
     apiName = "WorkPlan.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

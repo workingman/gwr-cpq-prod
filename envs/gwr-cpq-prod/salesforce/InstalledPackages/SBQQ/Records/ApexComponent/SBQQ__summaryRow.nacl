@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__summaryRow {
   label = "summaryRow"
   fullName = "SBQQ__summaryRow"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "summaryRow (SBQQ)"
 }

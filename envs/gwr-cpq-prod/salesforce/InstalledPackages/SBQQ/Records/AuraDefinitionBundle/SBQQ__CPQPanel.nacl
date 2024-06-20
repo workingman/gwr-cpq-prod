@@ -8,10 +8,5 @@ salesforce.AuraDefinitionBundle SBQQ__CPQPanel {
   designContent = "(hidden)"
   styleContent = "(hidden)"
   helperContent = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__CPQPanel"
 }

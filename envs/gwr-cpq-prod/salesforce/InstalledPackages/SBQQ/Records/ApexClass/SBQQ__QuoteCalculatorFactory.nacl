@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__QuoteCalculatorFactory {
   status = "Active"
   fullName = "SBQQ__QuoteCalculatorFactory"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteCalculatorFactory"
 }

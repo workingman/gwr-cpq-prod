@@ -5,10 +5,5 @@ salesforce.CustomTab SBQQ__ConfigurationAttribute__c {
   _parent = [
     salesforce.SBQQ__ConfigurationAttribute__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ConfigurationAttribute__c"
 }

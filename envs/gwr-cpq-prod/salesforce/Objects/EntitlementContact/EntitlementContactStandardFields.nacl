@@ -2,9 +2,6 @@ type salesforce.EntitlementContact {
   salesforce.MasterDetail ContactId {
     apiName = "EntitlementContact.ContactId"
     relationshipName = "Contact"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     _required = true
     label = "Contact ID"
     createable = true
@@ -14,9 +11,6 @@ type salesforce.EntitlementContact {
   salesforce.MasterDetail EntitlementId {
     apiName = "EntitlementContact.EntitlementId"
     relationshipName = "Entitlement"
-    referenceTo = [
-      salesforce.Entitlement,
-    ]
     _required = true
     label = "Entitlement ID"
     createable = true
@@ -57,9 +51,6 @@ type salesforce.EntitlementContact {
   salesforce.Lookup CreatedById {
     apiName = "EntitlementContact.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -77,9 +68,6 @@ type salesforce.EntitlementContact {
   salesforce.Lookup LastModifiedById {
     apiName = "EntitlementContact.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

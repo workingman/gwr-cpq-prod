@@ -282,9 +282,6 @@ type salesforce.SBQQ__PriceRule__c {
   }
   _generated_dependencies = [
     {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-    {
       reference = salesforce.LightningPage.instance.Training_Price_Rule_Page
     },
   ]

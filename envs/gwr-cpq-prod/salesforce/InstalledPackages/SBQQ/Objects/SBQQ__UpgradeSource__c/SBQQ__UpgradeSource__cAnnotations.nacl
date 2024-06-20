@@ -263,10 +263,5 @@ type salesforce.SBQQ__UpgradeSource__c {
   topicsForObjects = {
     enableTopics = false
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Upgrade Source (SBQQ)"
 }

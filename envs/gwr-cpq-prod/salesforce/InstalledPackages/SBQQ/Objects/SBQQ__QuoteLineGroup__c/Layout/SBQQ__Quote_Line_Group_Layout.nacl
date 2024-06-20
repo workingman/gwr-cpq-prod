@@ -129,10 +129,5 @@ salesforce.Layout SBQQ__QuoteLineGroup__c_SBQQ__Quote_Line_Group_Layout@uuuubuus
   _parent = [
     salesforce.SBQQ__QuoteLineGroup__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteLineGroup__c-SBQQ__Quote Line Group Layout"
 }

@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__EffectiveContractedPrices {
   label = "EffectiveContractedPrices"
   fullName = "SBQQ__EffectiveContractedPrices"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__EffectiveContractedPrices.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "EffectiveContractedPrices (SBQQ)"
 }

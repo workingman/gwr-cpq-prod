@@ -271,10 +271,5 @@ type salesforce.SBQQ__RelatedContent__c {
   topicsForObjects = {
     enableTopics = false
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Additional Document (SBQQ)"
 }

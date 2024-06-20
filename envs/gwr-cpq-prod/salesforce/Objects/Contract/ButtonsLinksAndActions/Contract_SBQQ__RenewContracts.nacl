@@ -12,10 +12,5 @@ salesforce.WebLink Contract_SBQQ__RenewContracts {
   _parent = [
     salesforce.Contract,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Contract.SBQQ__RenewContracts"
 }

@@ -4,10 +4,5 @@ salesforce.StaticResource SBQQ__PrecacherUI2 {
   description = "PrecacherUI2"
   fullName = "SBQQ__PrecacherUI2"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__PrecacherUI2.resource")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__PrecacherUI2"
 }

@@ -15,10 +15,5 @@ salesforce.GlobalValueSet SBQQ__BookingsIndicator {
   description = "Bookings Indicator."
   masterLabel = "Bookings Indicator"
   sorted = false
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__BookingsIndicator"
 }

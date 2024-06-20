@@ -1,10 +1,10 @@
 salesforce.ListView LegalEntity_mine {
   fullName = "LegalEntity.mine"
   columns = [
-    "Name",
-    "CompanyName",
-    "Description",
-    "Status",
+    salesforce.LegalEntity.field.Name,
+    salesforce.LegalEntity.field.CompanyName,
+    salesforce.LegalEntity.field.Description,
+    salesforce.LegalEntity.field.Status,
   ]
   filterScope = "Mine"
   label = "My Legal Entities"

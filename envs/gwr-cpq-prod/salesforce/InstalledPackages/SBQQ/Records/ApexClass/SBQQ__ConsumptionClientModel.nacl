@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__ConsumptionClientModel {
   status = "Active"
   fullName = "SBQQ__ConsumptionClientModel"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ConsumptionClientModel"
 }

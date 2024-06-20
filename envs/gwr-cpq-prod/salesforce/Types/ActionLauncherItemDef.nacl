@@ -21,6 +21,8 @@ type salesforce.ActionLauncherItemDef {
     _restriction = {
       enforce_value = false
       values = [
+        "Aura",
+        "LWC",
         "Omniscript",
       ]
     }

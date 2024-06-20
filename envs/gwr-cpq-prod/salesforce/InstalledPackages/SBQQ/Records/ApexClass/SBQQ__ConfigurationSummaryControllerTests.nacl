@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__ConfigurationSummaryControllerTests {
   status = "Active"
   fullName = "SBQQ__ConfigurationSummaryControllerTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ConfigurationSummaryControllerTests"
 }

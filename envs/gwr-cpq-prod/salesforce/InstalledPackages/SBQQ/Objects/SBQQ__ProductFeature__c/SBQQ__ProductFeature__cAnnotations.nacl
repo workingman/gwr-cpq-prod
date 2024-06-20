@@ -286,10 +286,5 @@ type salesforce.SBQQ__ProductFeature__c {
   topicsForObjects = {
     enableTopics = false
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Product Feature (SBQQ)"
 }

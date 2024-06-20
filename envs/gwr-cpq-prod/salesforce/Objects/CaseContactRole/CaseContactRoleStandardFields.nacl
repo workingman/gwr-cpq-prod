@@ -17,9 +17,6 @@ type salesforce.CaseContactRole {
   salesforce.Lookup CasesId {
     apiName = "CaseContactRole.CasesId"
     relationshipName = "Cases"
-    referenceTo = [
-      salesforce.Case,
-    ]
     _required = true
     label = "Case ID"
     createable = true
@@ -29,9 +26,6 @@ type salesforce.CaseContactRole {
   salesforce.Lookup ContactId {
     apiName = "CaseContactRole.ContactId"
     relationshipName = "Contact"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     _required = true
     label = "Contact ID"
     createable = true
@@ -49,9 +43,6 @@ type salesforce.CaseContactRole {
   salesforce.Lookup CreatedById {
     apiName = "CaseContactRole.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -69,9 +60,6 @@ type salesforce.CaseContactRole {
   salesforce.Lookup LastModifiedById {
     apiName = "CaseContactRole.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

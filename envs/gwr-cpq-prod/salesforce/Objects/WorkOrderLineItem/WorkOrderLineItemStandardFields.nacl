@@ -10,9 +10,6 @@ type salesforce.WorkOrderLineItem {
   salesforce.Lookup AssetId {
     apiName = "WorkOrderLineItem.AssetId"
     relationshipName = "Asset"
-    referenceTo = [
-      salesforce.Asset,
-    ]
     label = "Asset ID"
     createable = true
     updateable = true
@@ -47,20 +44,6 @@ type salesforce.WorkOrderLineItem {
   }
   salesforce.Picklist DurationType {
     apiName = "WorkOrderLineItem.DurationType"
-    valueSet = [
-      {
-        fullName = "Hours"
-        isActive = true
-        label = "Hours"
-        default = true
-      },
-      {
-        fullName = "Minutes"
-        isActive = true
-        label = "Minutes"
-        default = false
-      },
-    ]
     restricted = true
     label = "Duration Type"
     createable = true
@@ -96,9 +79,6 @@ type salesforce.WorkOrderLineItem {
   salesforce.Lookup LocationId {
     apiName = "WorkOrderLineItem.LocationId"
     relationshipName = "Location"
-    referenceTo = [
-      salesforce.Location,
-    ]
     label = "Location ID"
     createable = true
     updateable = true
@@ -107,9 +87,6 @@ type salesforce.WorkOrderLineItem {
   salesforce.Lookup OrderId {
     apiName = "WorkOrderLineItem.OrderId"
     relationshipName = "Order"
-    referenceTo = [
-      salesforce.Order,
-    ]
     label = "Order ID"
     createable = true
     updateable = true
@@ -118,9 +95,6 @@ type salesforce.WorkOrderLineItem {
   salesforce.Lookup ParentWorkOrderLineItemId {
     apiName = "WorkOrderLineItem.ParentWorkOrderLineItemId"
     relationshipName = "ParentWorkOrderLineItem"
-    referenceTo = [
-      salesforce.WorkOrderLineItem,
-    ]
     label = "Parent Work Order Line Item ID"
     createable = true
     updateable = true
@@ -129,9 +103,6 @@ type salesforce.WorkOrderLineItem {
   salesforce.Lookup PricebookEntryId {
     apiName = "WorkOrderLineItem.PricebookEntryId"
     relationshipName = "PricebookEntry"
-    referenceTo = [
-      salesforce.PricebookEntry,
-    ]
     label = "Product ID"
     createable = true
     updateable = true
@@ -159,9 +130,6 @@ type salesforce.WorkOrderLineItem {
   salesforce.Lookup RootWorkOrderLineItemId {
     apiName = "WorkOrderLineItem.RootWorkOrderLineItemId"
     relationshipName = "RootWorkOrderLineItem"
-    referenceTo = [
-      salesforce.WorkOrderLineItem,
-    ]
     label = "Root Work Order Line Item ID"
     createable = false
     updateable = false
@@ -197,56 +165,6 @@ type salesforce.WorkOrderLineItem {
   }
   salesforce.Picklist StatusCategory {
     apiName = "WorkOrderLineItem.StatusCategory"
-    valueSet = [
-      {
-        fullName = "New"
-        isActive = true
-        label = "New"
-        default = false
-      },
-      {
-        fullName = "InProgress"
-        isActive = true
-        label = "In Progress"
-        default = false
-      },
-      {
-        fullName = "OnHold"
-        isActive = true
-        label = "On Hold"
-        default = false
-      },
-      {
-        fullName = "Completed"
-        isActive = true
-        label = "Completed"
-        default = false
-      },
-      {
-        fullName = "Closed"
-        isActive = true
-        label = "Closed"
-        default = false
-      },
-      {
-        fullName = "None"
-        isActive = true
-        label = "None"
-        default = true
-      },
-      {
-        fullName = "CannotComplete"
-        isActive = true
-        label = "Cannot Complete"
-        default = false
-      },
-      {
-        fullName = "Canceled"
-        isActive = true
-        label = "Canceled"
-        default = false
-      },
-    ]
     restricted = true
     label = "Status Category"
     createable = false
@@ -296,9 +214,6 @@ type salesforce.WorkOrderLineItem {
   salesforce.MasterDetail WorkOrderId {
     apiName = "WorkOrderLineItem.WorkOrderId"
     relationshipName = "WorkOrder"
-    referenceTo = [
-      salesforce.WorkOrder,
-    ]
     _required = true
     label = "Work Order ID"
     createable = true
@@ -339,9 +254,6 @@ type salesforce.WorkOrderLineItem {
   salesforce.Lookup CreatedById {
     apiName = "WorkOrderLineItem.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -359,9 +271,6 @@ type salesforce.WorkOrderLineItem {
   salesforce.Lookup LastModifiedById {
     apiName = "WorkOrderLineItem.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -379,9 +288,6 @@ type salesforce.WorkOrderLineItem {
   salesforce.Lookup Product2Id {
     apiName = "WorkOrderLineItem.Product2Id"
     relationshipName = "Product2"
-    referenceTo = [
-      salesforce.Product2,
-    ]
     label = "Product ID"
     createable = true
     updateable = true

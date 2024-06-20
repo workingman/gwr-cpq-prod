@@ -48,10 +48,6 @@ type salesforce.QuickText {
   salesforce.Lookup OwnerId {
     apiName = "QuickText.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -84,9 +80,6 @@ type salesforce.QuickText {
   salesforce.Lookup CreatedById {
     apiName = "QuickText.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -104,9 +97,6 @@ type salesforce.QuickText {
   salesforce.Lookup LastModifiedById {
     apiName = "QuickText.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -123,26 +113,6 @@ type salesforce.QuickText {
   }
   salesforce.Picklist SourceType {
     apiName = "QuickText.SourceType"
-    valueSet = [
-      {
-        fullName = "EINSTEIN_GENERATED"
-        isActive = true
-        label = "Einstein"
-        default = false
-      },
-      {
-        fullName = "USER_GENERATED"
-        isActive = true
-        label = "User"
-        default = false
-      },
-      {
-        fullName = "USER_EDITED"
-        isActive = true
-        label = "Einstein with user edits"
-        default = false
-      },
-    ]
     restricted = true
     label = "Source Entity Type"
     createable = true

@@ -10,10 +10,5 @@ salesforce.ApexTrigger SBQQ__ProductConsumptionScheduleAfter {
   status = "Active"
   fullName = "SBQQ__ProductConsumptionScheduleAfter"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductConsumptionScheduleAfter"
 }

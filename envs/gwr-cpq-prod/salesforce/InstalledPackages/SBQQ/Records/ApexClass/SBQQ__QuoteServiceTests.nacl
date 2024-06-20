@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__QuoteServiceTests {
   status = "Active"
   fullName = "SBQQ__QuoteServiceTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteServiceTests"
 }

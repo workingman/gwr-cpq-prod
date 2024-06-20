@@ -11,10 +11,5 @@ salesforce.WebLink Opportunity_SBQQ__CreateOrder {
   _parent = [
     salesforce.Opportunity,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Opportunity.SBQQ__CreateOrder"
 }

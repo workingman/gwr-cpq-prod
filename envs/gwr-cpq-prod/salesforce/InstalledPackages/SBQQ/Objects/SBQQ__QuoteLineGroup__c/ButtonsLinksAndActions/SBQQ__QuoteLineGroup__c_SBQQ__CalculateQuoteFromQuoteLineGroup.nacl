@@ -11,10 +11,5 @@ salesforce.WebLink SBQQ__QuoteLineGroup__c_SBQQ__CalculateQuoteFromQuoteLineGrou
   _parent = [
     salesforce.SBQQ__QuoteLineGroup__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteLineGroup__c.SBQQ__CalculateQuoteFromQuoteLineGroup"
 }

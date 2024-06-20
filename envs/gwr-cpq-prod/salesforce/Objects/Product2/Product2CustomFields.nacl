@@ -32,11 +32,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__AssetConversion__c {
     apiName = "Product2.SBQQ__AssetConversion__c"
@@ -62,11 +57,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Number SBQQ__BatchQuantity__c {
     apiName = "Product2.SBQQ__BatchQuantity__c"
@@ -81,11 +71,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__BillingFrequency__c {
     apiName = "Product2.SBQQ__BillingFrequency__c"
@@ -99,11 +84,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__BillingType__c {
     apiName = "Product2.SBQQ__BillingType__c"
@@ -117,11 +97,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__BlockPricingField__c {
     apiName = "Product2.SBQQ__BlockPricingField__c"
@@ -142,11 +117,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__ChargeType__c {
     apiName = "Product2.SBQQ__ChargeType__c"
@@ -160,11 +130,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__Component__c {
     apiName = "Product2.SBQQ__Component__c"
@@ -177,11 +142,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Percent SBQQ__CompoundDiscountRate__c {
     apiName = "Product2.SBQQ__CompoundDiscountRate__c"
@@ -195,11 +155,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__ConfigurationEvent__c {
     apiName = "Product2.SBQQ__ConfigurationEvent__c"
@@ -255,11 +210,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__ConfigurationFieldSet__c {
     apiName = "Product2.SBQQ__ConfigurationFieldSet__c"
@@ -280,11 +230,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.LongTextArea SBQQ__ConfigurationFields__c {
     apiName = "Product2.SBQQ__ConfigurationFields__c"
@@ -297,11 +242,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__ConfigurationFormTitle__c {
     apiName = "Product2.SBQQ__ConfigurationFormTitle__c"
@@ -316,11 +256,6 @@ type salesforce.Product2 {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__ConfigurationType__c {
     apiName = "Product2.SBQQ__ConfigurationType__c"
@@ -351,11 +286,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.LongTextArea SBQQ__ConfigurationValidator__c {
     apiName = "Product2.SBQQ__ConfigurationValidator__c"
@@ -369,11 +299,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__ConfiguredCodePattern__c {
     apiName = "Product2.SBQQ__ConfiguredCodePattern__c"
@@ -388,11 +313,6 @@ type salesforce.Product2 {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Html SBQQ__ConfiguredDescriptionPattern__c {
     apiName = "Product2.SBQQ__ConfiguredDescriptionPattern__c"
@@ -406,11 +326,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__CostEditable__c {
     apiName = "Product2.SBQQ__CostEditable__c"
@@ -423,11 +338,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__CostSchedule__c {
     apiName = "Product2.SBQQ__CostSchedule__c"
@@ -456,11 +366,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__CustomConfigurationPage__c {
     apiName = "Product2.SBQQ__CustomConfigurationPage__c"
@@ -473,11 +378,6 @@ type salesforce.Product2 {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__CustomConfigurationRequired__c {
     apiName = "Product2.SBQQ__CustomConfigurationRequired__c"
@@ -488,11 +388,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__CustomerCommunityAvailability__c {
     apiName = "Product2.SBQQ__CustomerCommunityAvailability__c"
@@ -523,11 +418,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__DefaultPricingTable__c {
     apiName = "Product2.SBQQ__DefaultPricingTable__c"
@@ -551,11 +441,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Number SBQQ__DefaultQuantity__c {
     apiName = "Product2.SBQQ__DefaultQuantity__c"
@@ -571,11 +456,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__DescriptionLocked__c {
     apiName = "Product2.SBQQ__DescriptionLocked__c"
@@ -588,11 +468,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__DiscountCategory__c {
     apiName = "Product2.SBQQ__DiscountCategory__c"
@@ -610,11 +485,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__DiscountSchedule__c {
     apiName = "Product2.SBQQ__DiscountSchedule__c"
@@ -643,11 +513,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__DynamicPricingConstraint__c {
     apiName = "Product2.SBQQ__DynamicPricingConstraint__c"
@@ -673,11 +538,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__EnableLargeConfiguration__c {
     apiName = "Product2.SBQQ__EnableLargeConfiguration__c"
@@ -690,11 +550,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__ExcludeFromMaintenance__c {
     apiName = "Product2.SBQQ__ExcludeFromMaintenance__c"
@@ -707,11 +562,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__ExcludeFromOpportunity__c {
     apiName = "Product2.SBQQ__ExcludeFromOpportunity__c"
@@ -724,11 +574,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__ExternallyConfigurable__c {
     apiName = "Product2.SBQQ__ExternallyConfigurable__c"
@@ -741,11 +586,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__GenerateContractedPrice__c {
     apiName = "Product2.SBQQ__GenerateContractedPrice__c"
@@ -776,11 +616,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__HasConfigurationAttributes__c {
     apiName = "Product2.SBQQ__HasConfigurationAttributes__c"
@@ -792,11 +627,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__HasConsumptionSchedule__c {
     apiName = "Product2.SBQQ__HasConsumptionSchedule__c"
@@ -809,11 +639,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__Hidden__c {
     apiName = "Product2.SBQQ__Hidden__c"
@@ -826,11 +651,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__HidePriceInSearchResults__c {
     apiName = "Product2.SBQQ__HidePriceInSearchResults__c"
@@ -843,11 +663,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__IncludeInMaintenance__c {
     apiName = "Product2.SBQQ__IncludeInMaintenance__c"
@@ -860,11 +675,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__NewQuoteGroup__c {
     apiName = "Product2.SBQQ__NewQuoteGroup__c"
@@ -877,11 +687,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__NonDiscountable__c {
     apiName = "Product2.SBQQ__NonDiscountable__c"
@@ -894,11 +699,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__NonPartnerDiscountable__c {
     apiName = "Product2.SBQQ__NonPartnerDiscountable__c"
@@ -911,11 +711,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__OptionLayout__c {
     apiName = "Product2.SBQQ__OptionLayout__c"
@@ -946,11 +741,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__OptionSelectionMethod__c {
     apiName = "Product2.SBQQ__OptionSelectionMethod__c"
@@ -976,11 +766,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__Optional__c {
     apiName = "Product2.SBQQ__Optional__c"
@@ -993,11 +778,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__PriceEditable__c {
     apiName = "Product2.SBQQ__PriceEditable__c"
@@ -1010,11 +790,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__PricingGuidance__c {
     apiName = "Product2.SBQQ__PricingGuidance__c"
@@ -1032,11 +807,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__PricingMethodEditable__c {
     apiName = "Product2.SBQQ__PricingMethodEditable__c"
@@ -1049,11 +819,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__PricingMethod__c {
     apiName = "Product2.SBQQ__PricingMethod__c"
@@ -1089,11 +854,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__ProductPictureID__c {
     apiName = "Product2.SBQQ__ProductPictureID__c"
@@ -1108,11 +868,6 @@ type salesforce.Product2 {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__QuantityEditable__c {
     apiName = "Product2.SBQQ__QuantityEditable__c"
@@ -1125,11 +880,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Number SBQQ__QuantityScale__c {
     apiName = "Product2.SBQQ__QuantityScale__c"
@@ -1144,11 +894,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__ReconfigurationDisabled__c {
     apiName = "Product2.SBQQ__ReconfigurationDisabled__c"
@@ -1161,11 +906,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__RenewalProduct__c {
     apiName = "Product2.SBQQ__RenewalProduct__c"
@@ -1183,11 +923,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Number SBQQ__SortOrder__c {
     apiName = "Product2.SBQQ__SortOrder__c"
@@ -1202,11 +937,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Html SBQQ__Specifications__c {
     apiName = "Product2.SBQQ__Specifications__c"
@@ -1220,11 +950,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__SubscriptionBase__c {
     apiName = "Product2.SBQQ__SubscriptionBase__c"
@@ -1260,11 +985,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__SubscriptionCategory__c {
     apiName = "Product2.SBQQ__SubscriptionCategory__c"
@@ -1290,11 +1010,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Percent SBQQ__SubscriptionPercent__c {
     apiName = "Product2.SBQQ__SubscriptionPercent__c"
@@ -1308,11 +1023,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__SubscriptionPricing__c {
     apiName = "Product2.SBQQ__SubscriptionPricing__c"
@@ -1338,11 +1048,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__SubscriptionTarget__c {
     apiName = "Product2.SBQQ__SubscriptionTarget__c"
@@ -1360,11 +1065,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Number SBQQ__SubscriptionTerm__c {
     apiName = "Product2.SBQQ__SubscriptionTerm__c"
@@ -1379,11 +1079,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__SubscriptionType__c {
     apiName = "Product2.SBQQ__SubscriptionType__c"
@@ -1409,11 +1104,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__TaxCode__c {
     apiName = "Product2.SBQQ__TaxCode__c"
@@ -1428,11 +1118,6 @@ type salesforce.Product2 {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__Taxable__c {
     apiName = "Product2.SBQQ__Taxable__c"
@@ -1445,11 +1130,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__TermDiscountLevel__c {
     apiName = "Product2.SBQQ__TermDiscountLevel__c"
@@ -1480,11 +1160,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__TermDiscountSchedule__c {
     apiName = "Product2.SBQQ__TermDiscountSchedule__c"
@@ -1513,11 +1188,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__UpgradeCredit__c {
     apiName = "Product2.SBQQ__UpgradeCredit__c"
@@ -1535,11 +1205,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Number SBQQ__UpgradeRatio__c {
     apiName = "Product2.SBQQ__UpgradeRatio__c"
@@ -1554,11 +1219,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__UpgradeSource__c {
     apiName = "Product2.SBQQ__UpgradeSource__c"
@@ -1576,11 +1236,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__UpgradeTarget__c {
     apiName = "Product2.SBQQ__UpgradeTarget__c"
@@ -1598,11 +1253,6 @@ type salesforce.Product2 {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox PS_Approval_Requred__c {
     apiName = "Product2.PS_Approval_Requred__c"

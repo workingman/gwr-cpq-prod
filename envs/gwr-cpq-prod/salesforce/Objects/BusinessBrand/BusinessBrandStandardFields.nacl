@@ -23,10 +23,6 @@ type salesforce.BusinessBrand {
   salesforce.Lookup OwnerId {
     apiName = "BusinessBrand.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -36,9 +32,6 @@ type salesforce.BusinessBrand {
   salesforce.Lookup ParentId {
     apiName = "BusinessBrand.ParentId"
     relationshipName = "Parent"
-    referenceTo = [
-      salesforce.BusinessBrand,
-    ]
     label = "Business Brand ID"
     createable = true
     updateable = true
@@ -70,9 +63,6 @@ type salesforce.BusinessBrand {
   salesforce.Lookup CreatedById {
     apiName = "BusinessBrand.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -90,9 +80,6 @@ type salesforce.BusinessBrand {
   salesforce.Lookup LastModifiedById {
     apiName = "BusinessBrand.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

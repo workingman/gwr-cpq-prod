@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__layoutMasterSet {
   label = "Layout Master Set"
   fullName = "SBQQ__layoutMasterSet"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Layout Master Set (SBQQ)"
 }

@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__OrderLineSelector {
   label = "OrderLineSelector"
   fullName = "SBQQ__OrderLineSelector"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__OrderLineSelector.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "OrderLineSelector (SBQQ)"
 }

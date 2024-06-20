@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ProductLookupControllerTests {
   status = "Active"
   fullName = "SBQQ__ProductLookupControllerTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductLookupControllerTests"
 }

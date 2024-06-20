@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__AddProducts {
   label = "AddProducts"
   fullName = "SBQQ__AddProducts"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__AddProducts.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "AddProducts (SBQQ)"
 }

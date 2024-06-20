@@ -2,9 +2,6 @@ type salesforce.CardPaymentMethod {
   salesforce.Lookup AccountId {
     apiName = "CardPaymentMethod.AccountId"
     relationshipName = "Account"
-    referenceTo = [
-      salesforce.Account,
-    ]
     label = "Account ID"
     createable = true
     updateable = true
@@ -40,20 +37,6 @@ type salesforce.CardPaymentMethod {
   }
   salesforce.Picklist CardCategory {
     apiName = "CardPaymentMethod.CardCategory"
-    valueSet = [
-      {
-        fullName = "CreditCard"
-        isActive = true
-        label = "Credit Card"
-        default = false
-      },
-      {
-        fullName = "DebitCard"
-        isActive = true
-        label = "Debit Card"
-        default = false
-      },
-    ]
     restricted = true
     label = "Card Category"
     createable = true
@@ -102,44 +85,6 @@ type salesforce.CardPaymentMethod {
   }
   salesforce.Picklist CardType {
     apiName = "CardPaymentMethod.CardType"
-    valueSet = [
-      {
-        fullName = "Visa"
-        isActive = true
-        label = "Visa"
-        default = false
-      },
-      {
-        fullName = "Master Card"
-        isActive = true
-        label = "Master Card"
-        default = false
-      },
-      {
-        fullName = "American Express"
-        isActive = true
-        label = "American Express"
-        default = false
-      },
-      {
-        fullName = "Diners Club"
-        isActive = true
-        label = "Diners Club"
-        default = false
-      },
-      {
-        fullName = "JCB"
-        isActive = true
-        label = "JCB"
-        default = false
-      },
-      {
-        fullName = "Maestro"
-        isActive = true
-        label = "Maestro"
-        default = false
-      },
-    ]
     restricted = false
     label = "Card Type"
     createable = true
@@ -233,7 +178,7 @@ type salesforce.CardPaymentMethod {
   salesforce.Text GatewayToken {
     apiName = "CardPaymentMethod.GatewayToken"
     length = 255
-    label = "GatewayToken"
+    label = "Gateway Token"
     createable = true
     updateable = true
     unique = false
@@ -307,9 +252,6 @@ type salesforce.CardPaymentMethod {
   salesforce.Lookup PaymentGatewayId {
     apiName = "CardPaymentMethod.PaymentGatewayId"
     relationshipName = "PaymentGateway"
-    referenceTo = [
-      salesforce.PaymentGateway,
-    ]
     label = "Payment Gateway ID"
     createable = true
     updateable = false
@@ -328,7 +270,7 @@ type salesforce.CardPaymentMethod {
   salesforce.Text PaymentMethodSubType {
     apiName = "CardPaymentMethod.PaymentMethodSubType"
     length = 255
-    label = "Payment Method SubType"
+    label = "Payment Method Sub Type"
     createable = true
     updateable = false
     unique = false
@@ -337,140 +279,6 @@ type salesforce.CardPaymentMethod {
   }
   salesforce.Picklist PaymentMethodType {
     apiName = "CardPaymentMethod.PaymentMethodType"
-    valueSet = [
-      {
-        fullName = "ACH"
-        isActive = true
-        label = "ACH"
-        default = false
-      },
-      {
-        fullName = "AfterpayClearpay"
-        isActive = true
-        label = "Afterpay / Clearpay"
-        default = false
-      },
-      {
-        fullName = "AmericanExpress"
-        isActive = true
-        label = "American Express"
-        default = false
-      },
-      {
-        fullName = "ApplePay"
-        isActive = true
-        label = "Apple Pay"
-        default = false
-      },
-      {
-        fullName = "BACS"
-        isActive = true
-        label = "Bacs"
-        default = false
-      },
-      {
-        fullName = "BanContact"
-        isActive = true
-        label = "Bancontact"
-        default = false
-      },
-      {
-        fullName = "BECS"
-        isActive = true
-        label = "Becs"
-        default = false
-      },
-      {
-        fullName = "DinersClub"
-        isActive = true
-        label = "Diners Club"
-        default = false
-      },
-      {
-        fullName = "Discover"
-        isActive = true
-        label = "Discover"
-        default = false
-      },
-      {
-        fullName = "EPS"
-        isActive = true
-        label = "Eps"
-        default = false
-      },
-      {
-        fullName = "GooglePay"
-        isActive = true
-        label = "Google Pay"
-        default = false
-      },
-      {
-        fullName = "iDeal"
-        isActive = true
-        label = "iDEAL"
-        default = false
-      },
-      {
-        fullName = "Jcb"
-        isActive = true
-        label = "Jcb"
-        default = false
-      },
-      {
-        fullName = "Klarna"
-        isActive = true
-        label = "Klarna"
-        default = false
-      },
-      {
-        fullName = "Maestro"
-        isActive = true
-        label = "Maestro"
-        default = false
-      },
-      {
-        fullName = "MasterCard"
-        isActive = true
-        label = "Master Card"
-        default = false
-      },
-      {
-        fullName = "Other"
-        isActive = true
-        label = "Other"
-        default = false
-      },
-      {
-        fullName = "PayPal"
-        isActive = true
-        label = "Paypal"
-        default = false
-      },
-      {
-        fullName = "SepaDebit"
-        isActive = true
-        label = "SEPA Debit"
-        default = false
-      },
-      {
-        fullName = "UnionPay"
-        isActive = true
-        label = "UnionPay"
-        default = false
-      },
-      {
-        fullName = "Venmo"
-        isActive = true
-        label = "Venmo"
-        default = false
-      },
-      {
-        fullName = "Visa"
-        isActive = true
-        label = "Visa"
-        default = false
-      },
-    ]
     restricted = true
     label = "Payment Method Type"
     createable = true
@@ -486,20 +294,6 @@ type salesforce.CardPaymentMethod {
   }
   salesforce.Picklist ProcessingMode {
     apiName = "CardPaymentMethod.ProcessingMode"
-    valueSet = [
-      {
-        fullName = "Salesforce"
-        isActive = true
-        label = "Salesforce"
-        default = false
-      },
-      {
-        fullName = "External"
-        isActive = true
-        label = "External"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Processing Mode"
@@ -509,50 +303,6 @@ type salesforce.CardPaymentMethod {
   }
   salesforce.Picklist SfResultCode {
     apiName = "CardPaymentMethod.SfResultCode"
-    valueSet = [
-      {
-        fullName = "Success"
-        isActive = true
-        label = "Success"
-        default = false
-      },
-      {
-        fullName = "PermanentFail"
-        isActive = true
-        label = "Permanent Fail"
-        default = false
-      },
-      {
-        fullName = "Decline"
-        isActive = true
-        label = "Decline"
-        default = false
-      },
-      {
-        fullName = "RequiresReview"
-        isActive = true
-        label = "Requires Review"
-        default = false
-      },
-      {
-        fullName = "Indeterminate"
-        isActive = true
-        label = "Indeterminate"
-        default = false
-      },
-      {
-        fullName = "SystemError"
-        isActive = true
-        label = "System Error"
-        default = false
-      },
-      {
-        fullName = "ValidationError"
-        isActive = true
-        label = "Validation Error"
-        default = false
-      },
-    ]
     restricted = true
     label = "Salesforce Result Code"
     createable = true
@@ -581,26 +331,6 @@ type salesforce.CardPaymentMethod {
   }
   salesforce.Picklist Status {
     apiName = "CardPaymentMethod.Status"
-    valueSet = [
-      {
-        fullName = "Active"
-        isActive = true
-        label = "Active"
-        default = false
-      },
-      {
-        fullName = "InActive"
-        isActive = true
-        label = "Inactive"
-        default = false
-      },
-      {
-        fullName = "Canceled"
-        isActive = true
-        label = "Canceled"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Status"
@@ -642,9 +372,6 @@ type salesforce.CardPaymentMethod {
   salesforce.Lookup CreatedById {
     apiName = "CardPaymentMethod.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -662,9 +389,6 @@ type salesforce.CardPaymentMethod {
   salesforce.Lookup LastModifiedById {
     apiName = "CardPaymentMethod.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -681,56 +405,6 @@ type salesforce.CardPaymentMethod {
   }
   salesforce.Picklist CardTypeCategory {
     apiName = "CardPaymentMethod.CardTypeCategory"
-    valueSet = [
-      {
-        fullName = "Visa"
-        isActive = true
-        label = "Visa"
-        default = false
-      },
-      {
-        fullName = "MasterCard"
-        isActive = true
-        label = "Master Card"
-        default = false
-      },
-      {
-        fullName = "AmericanExpress"
-        isActive = true
-        label = "American Express"
-        default = false
-      },
-      {
-        fullName = "Jcb"
-        isActive = true
-        label = "JCB"
-        default = false
-      },
-      {
-        fullName = "DinersClub"
-        isActive = true
-        label = "Diners Club"
-        default = false
-      },
-      {
-        fullName = "Maestro"
-        isActive = true
-        label = "Maestro"
-        default = false
-      },
-      {
-        fullName = "Discover"
-        isActive = true
-        label = "Discover"
-        default = false
-      },
-      {
-        fullName = "UnionPay"
-        isActive = true
-        label = "UnionPay"
-        default = false
-      },
-    ]
     restricted = true
     label = "Card Type Category"
     createable = false

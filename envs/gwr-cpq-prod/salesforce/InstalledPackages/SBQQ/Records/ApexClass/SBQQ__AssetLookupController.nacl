@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__AssetLookupController {
   status = "Active"
   fullName = "SBQQ__AssetLookupController"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__AssetLookupController.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__AssetLookupController"
 }

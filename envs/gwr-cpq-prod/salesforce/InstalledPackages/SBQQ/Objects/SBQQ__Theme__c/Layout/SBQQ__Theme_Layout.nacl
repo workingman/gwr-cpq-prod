@@ -66,10 +66,5 @@ salesforce.Layout SBQQ__Theme__c_SBQQ__Theme_Layout@uuuubuus {
   _parent = [
     salesforce.SBQQ__Theme__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__Theme__c-SBQQ__Theme Layout"
 }

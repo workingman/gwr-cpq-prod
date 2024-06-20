@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__ImportColumnHelp {
   label = "ImportColumnHelp"
   fullName = "SBQQ__ImportColumnHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__ImportColumnHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "ImportColumnHelp (SBQQ)"
 }

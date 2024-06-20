@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__productUpgrader {
   label = "productUpgrader"
   fullName = "SBQQ__productUpgrader"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "productUpgrader (SBQQ)"
 }

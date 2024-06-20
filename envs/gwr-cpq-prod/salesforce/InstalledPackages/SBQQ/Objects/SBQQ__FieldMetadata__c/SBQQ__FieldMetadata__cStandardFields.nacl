@@ -28,11 +28,6 @@ type salesforce.SBQQ__FieldMetadata__c {
   salesforce.Lookup SetupOwnerId {
     apiName = "SBQQ__FieldMetadata__c.SetupOwnerId"
     relationshipName = "SetupOwner"
-    referenceTo = [
-      "Organization",
-      "Profile",
-      salesforce.User,
-    ]
     label = "Location"
     createable = true
     updateable = true
@@ -50,9 +45,6 @@ type salesforce.SBQQ__FieldMetadata__c {
   salesforce.Lookup CreatedById {
     apiName = "SBQQ__FieldMetadata__c.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -70,9 +62,6 @@ type salesforce.SBQQ__FieldMetadata__c {
   salesforce.Lookup LastModifiedById {
     apiName = "SBQQ__FieldMetadata__c.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

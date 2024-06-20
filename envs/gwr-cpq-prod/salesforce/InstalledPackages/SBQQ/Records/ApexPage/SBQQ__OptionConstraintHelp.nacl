@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__OptionConstraintHelp {
   label = "OptionConstraintHelp"
   fullName = "SBQQ__OptionConstraintHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__OptionConstraintHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "OptionConstraintHelp (SBQQ)"
 }

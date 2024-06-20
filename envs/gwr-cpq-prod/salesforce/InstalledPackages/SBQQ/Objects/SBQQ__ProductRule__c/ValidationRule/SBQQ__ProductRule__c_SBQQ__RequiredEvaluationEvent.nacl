@@ -12,10 +12,5 @@ AND(
   _parent = [
     salesforce.SBQQ__ProductRule__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductRule__c.SBQQ__RequiredEvaluationEvent"
 }

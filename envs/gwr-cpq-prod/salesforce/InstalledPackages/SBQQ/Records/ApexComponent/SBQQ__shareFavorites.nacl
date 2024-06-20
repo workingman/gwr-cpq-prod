@@ -3,10 +3,5 @@ salesforce.ApexComponent SBQQ__shareFavorites {
   label = "shareFavorites"
   fullName = "SBQQ__shareFavorites"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "shareFavorites (SBQQ)"
 }

@@ -161,10 +161,5 @@ salesforce.Layout SBQQ__TaxExemptionCertificate__c_SBQQ__Tax_Exemption_Certifica
   _parent = [
     salesforce.SBQQ__TaxExemptionCertificate__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__TaxExemptionCertificate__c-SBQQ__Tax Exemption Certificate Layout"
 }

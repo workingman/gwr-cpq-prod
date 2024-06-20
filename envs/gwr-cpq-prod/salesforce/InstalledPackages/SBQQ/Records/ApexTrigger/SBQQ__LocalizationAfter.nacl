@@ -10,10 +10,5 @@ salesforce.ApexTrigger SBQQ__LocalizationAfter {
   status = "Active"
   fullName = "SBQQ__LocalizationAfter"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__LocalizationAfter"
 }

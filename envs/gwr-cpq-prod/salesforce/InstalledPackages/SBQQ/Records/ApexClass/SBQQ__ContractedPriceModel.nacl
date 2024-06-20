@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__ContractedPriceModel {
   status = "Active"
   fullName = "SBQQ__ContractedPriceModel"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ContractedPriceModel"
 }

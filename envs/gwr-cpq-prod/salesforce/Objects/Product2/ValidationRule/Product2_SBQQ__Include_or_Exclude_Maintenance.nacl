@@ -7,10 +7,5 @@ salesforce.ValidationRule Product2_SBQQ__Include_or_Exclude_Maintenance {
   _parent = [
     salesforce.Product2,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Product2.SBQQ__Include_or_Exclude_Maintenance"
 }

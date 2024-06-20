@@ -104,10 +104,5 @@ salesforce.FieldSet Asset_SBQQ__SearchFilters {
   _parent = [
     salesforce.Asset,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Search Filters (SBQQ)"
 }

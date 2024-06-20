@@ -137,10 +137,5 @@ salesforce.Layout SBQQ__PriceTier__c_SBQQ__Price_Tier_Layout@uuuubuuss {
   _parent = [
     salesforce.SBQQ__PriceTier__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__PriceTier__c-SBQQ__Price Tier Layout"
 }

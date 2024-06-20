@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__OrderTriggerControl {
   status = "Active"
   fullName = "SBQQ__OrderTriggerControl"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__OrderTriggerControl"
 }

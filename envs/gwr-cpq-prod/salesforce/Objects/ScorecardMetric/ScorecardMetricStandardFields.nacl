@@ -1,38 +1,6 @@
 type salesforce.ScorecardMetric {
   salesforce.Picklist Category {
     apiName = "ScorecardMetric.Category"
-    valueSet = [
-      {
-        fullName = "Sales"
-        isActive = true
-        label = "Sales"
-        default = true
-      },
-      {
-        fullName = "Marketing"
-        isActive = true
-        label = "Marketing"
-        default = false
-      },
-      {
-        fullName = "Field Enablement"
-        isActive = true
-        label = "Field Enablement"
-        default = false
-      },
-      {
-        fullName = "Support"
-        isActive = true
-        label = "Support"
-        default = false
-      },
-      {
-        fullName = "Adoption"
-        isActive = true
-        label = "Adoption"
-        default = false
-      },
-    ]
     restricted = false
     label = "Category"
     createable = true
@@ -60,9 +28,6 @@ type salesforce.ScorecardMetric {
   salesforce.Lookup ReportId {
     apiName = "ScorecardMetric.ReportId"
     relationshipName = "Report"
-    referenceTo = [
-      "Report",
-    ]
     label = "Report ID"
     createable = true
     updateable = true
@@ -71,9 +36,6 @@ type salesforce.ScorecardMetric {
   salesforce.MasterDetail ScorecardId {
     apiName = "ScorecardMetric.ScorecardId"
     relationshipName = "Scorecard"
-    referenceTo = [
-      salesforce.Scorecard,
-    ]
     _required = true
     label = "Scorecard ID"
     createable = true
@@ -106,9 +68,6 @@ type salesforce.ScorecardMetric {
   salesforce.Lookup CreatedById {
     apiName = "ScorecardMetric.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -126,9 +85,6 @@ type salesforce.ScorecardMetric {
   salesforce.Lookup LastModifiedById {
     apiName = "ScorecardMetric.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

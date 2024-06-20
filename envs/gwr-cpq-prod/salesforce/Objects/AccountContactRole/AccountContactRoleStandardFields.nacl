@@ -34,9 +34,6 @@ type salesforce.AccountContactRole {
   salesforce.Lookup CreatedById {
     apiName = "AccountContactRole.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -54,9 +51,6 @@ type salesforce.AccountContactRole {
   salesforce.Lookup LastModifiedById {
     apiName = "AccountContactRole.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -74,9 +68,6 @@ type salesforce.AccountContactRole {
   salesforce.Lookup AccountId {
     apiName = "AccountContactRole.AccountId"
     relationshipName = "Account"
-    referenceTo = [
-      salesforce.Account,
-    ]
     _required = true
     label = "Account ID"
     createable = true
@@ -86,9 +77,6 @@ type salesforce.AccountContactRole {
   salesforce.Lookup ContactId {
     apiName = "AccountContactRole.ContactId"
     relationshipName = "Contact"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     _required = true
     label = "Contact ID"
     createable = true

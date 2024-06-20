@@ -8,10 +8,6 @@ type salesforce.UserPrioritizedRecord {
   salesforce.Lookup OwnerId {
     apiName = "UserPrioritizedRecord.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -38,9 +34,6 @@ type salesforce.UserPrioritizedRecord {
   salesforce.Lookup CreatedById {
     apiName = "UserPrioritizedRecord.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -58,9 +51,6 @@ type salesforce.UserPrioritizedRecord {
   salesforce.Lookup LastModifiedById {
     apiName = "UserPrioritizedRecord.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -78,12 +68,6 @@ type salesforce.UserPrioritizedRecord {
   salesforce.Lookup TargetId {
     apiName = "UserPrioritizedRecord.TargetId"
     relationshipName = "Target"
-    referenceTo = [
-      salesforce.Account,
-      salesforce.Contact,
-      salesforce.Lead,
-      salesforce.Opportunity,
-    ]
     _required = true
     label = "Target ID"
     createable = true

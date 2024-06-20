@@ -6,10 +6,5 @@ salesforce.CustomTab SBQQ__SummaryVariable__c {
   _parent = [
     salesforce.SBQQ__SummaryVariable__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SummaryVariable__c"
 }

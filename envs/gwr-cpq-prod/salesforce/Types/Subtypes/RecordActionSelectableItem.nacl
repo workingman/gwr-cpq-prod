@@ -27,6 +27,7 @@ type salesforce.RecordActionSelectableItem {
         "LWC",
         "Omniscript",
         "QuickAction",
+        "SvcCatalogItemDef",
         "WebLink",
       ]
     }

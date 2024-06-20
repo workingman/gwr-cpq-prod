@@ -4,10 +4,5 @@ salesforce.StaticResource SBQQ__Configurator {
   description = "JavaScript library that supports configurator."
   fullName = "SBQQ__Configurator"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__Configurator.resource")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__Configurator"
 }

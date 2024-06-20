@@ -19,9 +19,6 @@ type salesforce.RefundLinePayment {
   salesforce.Lookup AssociatedAccountId {
     apiName = "RefundLinePayment.AssociatedAccountId"
     relationshipName = "AssociatedAccount"
-    referenceTo = [
-      salesforce.Account,
-    ]
     label = "Account ID"
     createable = true
     updateable = false
@@ -30,9 +27,6 @@ type salesforce.RefundLinePayment {
   salesforce.Lookup AssociatedRefundLinePaymentId {
     apiName = "RefundLinePayment.AssociatedRefundLinePaymentId"
     relationshipName = "AssociatedRefundLinePayment"
-    referenceTo = [
-      salesforce.RefundLinePayment,
-    ]
     label = "Refund Line Payment ID"
     createable = true
     updateable = false
@@ -70,14 +64,6 @@ type salesforce.RefundLinePayment {
   }
   salesforce.Picklist HasBeenUnapplied {
     apiName = "RefundLinePayment.HasBeenUnapplied"
-    valueSet = [
-      {
-        fullName = "No"
-        isActive = true
-        label = "No"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Has Been Unapplied"
@@ -106,9 +92,6 @@ type salesforce.RefundLinePayment {
   salesforce.MasterDetail PaymentId {
     apiName = "RefundLinePayment.PaymentId"
     relationshipName = "Payment"
-    referenceTo = [
-      salesforce.Payment,
-    ]
     _required = true
     label = "Payment ID"
     createable = true
@@ -128,9 +111,6 @@ type salesforce.RefundLinePayment {
   salesforce.Lookup RefundId {
     apiName = "RefundLinePayment.RefundId"
     relationshipName = "Refund"
-    referenceTo = [
-      salesforce.Refund,
-    ]
     _required = true
     label = "Refund ID"
     createable = true
@@ -139,14 +119,6 @@ type salesforce.RefundLinePayment {
   }
   salesforce.Picklist Type {
     apiName = "RefundLinePayment.Type"
-    valueSet = [
-      {
-        fullName = "Applied"
-        isActive = true
-        label = "Applied"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Type"
@@ -195,9 +167,6 @@ type salesforce.RefundLinePayment {
   salesforce.Lookup CreatedById {
     apiName = "RefundLinePayment.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -215,9 +184,6 @@ type salesforce.RefundLinePayment {
   salesforce.Lookup LastModifiedById {
     apiName = "RefundLinePayment.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

@@ -4,10 +4,5 @@ salesforce.StaticResource SBQQ__easyXDM {
   description = "easyXDM used for cross domain communication"
   fullName = "SBQQ__easyXDM"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__easyXDM.resource")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__easyXDM"
 }

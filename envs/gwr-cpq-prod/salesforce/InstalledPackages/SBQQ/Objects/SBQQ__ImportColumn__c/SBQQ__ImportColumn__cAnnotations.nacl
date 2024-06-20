@@ -263,10 +263,5 @@ type salesforce.SBQQ__ImportColumn__c {
   topicsForObjects = {
     enableTopics = false
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Import Column (SBQQ)"
 }

@@ -47,6 +47,8 @@ type salesforce.EmbeddedServiceConfig {
     _restriction = {
       enforce_value = false
       values = [
+        "API",
+        "InternalCopilot",
         "Mobile",
         "Web",
       ]

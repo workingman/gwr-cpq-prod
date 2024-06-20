@@ -33,9 +33,6 @@ type salesforce.MLModelFactor {
   salesforce.Lookup CreatedById {
     apiName = "MLModelFactor.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -53,9 +50,6 @@ type salesforce.MLModelFactor {
   salesforce.Lookup LastModifiedById {
     apiName = "MLModelFactor.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -73,9 +67,6 @@ type salesforce.MLModelFactor {
   salesforce.Lookup ModelId {
     apiName = "MLModelFactor.ModelId"
     relationshipName = "Model"
-    referenceTo = [
-      salesforce.MLModel,
-    ]
     _required = true
     label = "ML Model ID"
     createable = false
@@ -85,26 +76,6 @@ type salesforce.MLModelFactor {
   }
   salesforce.Picklist Type {
     apiName = "MLModelFactor.Type"
-    valueSet = [
-      {
-        fullName = "Basic"
-        isActive = true
-        label = "Basic"
-        default = false
-      },
-      {
-        fullName = "And"
-        isActive = true
-        label = "And"
-        default = false
-      },
-      {
-        fullName = "Or"
-        isActive = true
-        label = "Or"
-        default = false
-      },
-    ]
     restricted = true
     label = "Factor Type"
     createable = false
@@ -147,20 +118,6 @@ type salesforce.MLModelFactor {
   }
   salesforce.Picklist FactorType {
     apiName = "MLModelFactor.FactorType"
-    valueSet = [
-      {
-        fullName = "ModelFactor"
-        isActive = true
-        label = "ModelFactor"
-        default = false
-      },
-      {
-        fullName = "ModelFactlet"
-        isActive = true
-        label = "ModelFactlet"
-        default = false
-      },
-    ]
     restricted = true
     label = "Factor Category"
     createable = false

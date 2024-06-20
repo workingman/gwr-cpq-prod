@@ -3,9 +3,6 @@ type salesforce.CommSubscriptionTiming {
     apiName = "CommSubscriptionTiming.CommSubscriptionConsentId"
     inlineHelpText = "The communication subscription consent record associated with the communication subscription timing."
     relationshipName = "CommSubscriptionConsent"
-    referenceTo = [
-      salesforce.CommSubscriptionConsent,
-    ]
     _required = true
     label = "Communication Subscription Consent ID"
     createable = true
@@ -35,38 +32,6 @@ type salesforce.CommSubscriptionTiming {
   salesforce.Picklist Unit {
     apiName = "CommSubscriptionTiming.Unit"
     inlineHelpText = "The unit of time that works with Offset to determine the communication timing."
-    valueSet = [
-      {
-        fullName = "DayOfWeek"
-        isActive = true
-        label = "Day of Week"
-        default = false
-      },
-      {
-        fullName = "Hour"
-        isActive = true
-        label = "Hour"
-        default = false
-      },
-      {
-        fullName = "Day"
-        isActive = true
-        label = "Day"
-        default = false
-      },
-      {
-        fullName = "Week"
-        isActive = true
-        label = "Week"
-        default = false
-      },
-      {
-        fullName = "Month"
-        isActive = true
-        label = "Month"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Unit"
@@ -108,9 +73,6 @@ type salesforce.CommSubscriptionTiming {
   salesforce.Lookup CreatedById {
     apiName = "CommSubscriptionTiming.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -128,9 +90,6 @@ type salesforce.CommSubscriptionTiming {
   salesforce.Lookup LastModifiedById {
     apiName = "CommSubscriptionTiming.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

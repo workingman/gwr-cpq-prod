@@ -13,10 +13,6 @@ type salesforce.PrivacyRTBFRequest {
   salesforce.Lookup OwnerId {
     apiName = "PrivacyRTBFRequest.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -26,9 +22,6 @@ type salesforce.PrivacyRTBFRequest {
   salesforce.Lookup PolicyNameId {
     apiName = "PrivacyRTBFRequest.PolicyNameId"
     relationshipName = "PolicyName"
-    referenceTo = [
-      "PrivacyPolicyDefinition",
-    ]
     label = "Privacy Policy Definition ID"
     createable = true
     updateable = true
@@ -36,38 +29,6 @@ type salesforce.PrivacyRTBFRequest {
   }
   salesforce.Picklist Status {
     apiName = "PrivacyRTBFRequest.Status"
-    valueSet = [
-      {
-        fullName = "error"
-        isActive = true
-        label = "Error"
-        default = false
-      },
-      {
-        fullName = "complete"
-        isActive = true
-        label = "Complete"
-        default = false
-      },
-      {
-        fullName = "pending"
-        isActive = true
-        label = "Pending"
-        default = false
-      },
-      {
-        fullName = "scheduled"
-        isActive = true
-        label = "Scheduled"
-        default = false
-      },
-      {
-        fullName = "cancelled"
-        isActive = true
-        label = "Cancelled"
-        default = false
-      },
-    ]
     restricted = true
     label = "Status"
     createable = true
@@ -108,9 +69,6 @@ type salesforce.PrivacyRTBFRequest {
   salesforce.Lookup CreatedById {
     apiName = "PrivacyRTBFRequest.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -128,9 +86,6 @@ type salesforce.PrivacyRTBFRequest {
   salesforce.Lookup LastModifiedById {
     apiName = "PrivacyRTBFRequest.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

@@ -84,10 +84,5 @@ salesforce.Layout SBQQ__SubscribedAsset__c_SBQQ__Subscribed_Asset_Layout@uuuubuu
   _parent = [
     salesforce.SBQQ__SubscribedAsset__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SubscribedAsset__c-SBQQ__Subscribed Asset Layout"
 }

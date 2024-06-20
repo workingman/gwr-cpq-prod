@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ContractedPriceDAOTest {
   status = "Active"
   fullName = "SBQQ__ContractedPriceDAOTest"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ContractedPriceDAOTest"
 }

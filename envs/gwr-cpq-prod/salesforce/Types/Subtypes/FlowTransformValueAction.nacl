@@ -22,6 +22,7 @@ type salesforce.FlowTransformValueAction {
       enforce_value = false
       values = [
         "Count",
+        "InnerJoin",
         "Map",
         "Sum",
       ]

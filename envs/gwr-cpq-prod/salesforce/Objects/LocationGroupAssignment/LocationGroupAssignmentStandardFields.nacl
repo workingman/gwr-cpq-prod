@@ -2,9 +2,6 @@ type salesforce.LocationGroupAssignment {
   salesforce.MasterDetail LocationGroupId {
     apiName = "LocationGroupAssignment.LocationGroupId"
     relationshipName = "LocationGroup"
-    referenceTo = [
-      salesforce.LocationGroup,
-    ]
     _required = true
     label = "Location Group ID"
     createable = true
@@ -14,9 +11,6 @@ type salesforce.LocationGroupAssignment {
   salesforce.MasterDetail LocationId {
     apiName = "LocationGroupAssignment.LocationId"
     relationshipName = "Location"
-    referenceTo = [
-      salesforce.Location,
-    ]
     _required = true
     label = "Location ID"
     createable = true
@@ -57,9 +51,6 @@ type salesforce.LocationGroupAssignment {
   salesforce.Lookup CreatedById {
     apiName = "LocationGroupAssignment.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -77,9 +68,6 @@ type salesforce.LocationGroupAssignment {
   salesforce.Lookup LastModifiedById {
     apiName = "LocationGroupAssignment.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

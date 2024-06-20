@@ -20,10 +20,6 @@ type salesforce.Scorecard {
   salesforce.Lookup OwnerId {
     apiName = "Scorecard.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -56,9 +52,6 @@ type salesforce.Scorecard {
   salesforce.Lookup CreatedById {
     apiName = "Scorecard.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -76,9 +69,6 @@ type salesforce.Scorecard {
   salesforce.Lookup LastModifiedById {
     apiName = "Scorecard.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -95,14 +85,6 @@ type salesforce.Scorecard {
   }
   salesforce.Picklist TargetEntity {
     apiName = "Scorecard.TargetEntity"
-    valueSet = [
-      {
-        fullName = "Account"
-        isActive = true
-        label = "Account"
-        default = true
-      },
-    ]
     restricted = true
     _required = true
     label = "Target Entity"

@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__RefreshMultipleQuotePrices {
   label = "RefreshMultipleQuotePrices"
   fullName = "SBQQ__RefreshMultipleQuotePrices"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__RefreshMultipleQuotePrices.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "RefreshMultipleQuotePrices (SBQQ)"
 }

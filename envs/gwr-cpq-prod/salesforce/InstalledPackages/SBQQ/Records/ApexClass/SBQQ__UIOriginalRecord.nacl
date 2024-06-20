@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__UIOriginalRecord {
   status = "Active"
   fullName = "SBQQ__UIOriginalRecord"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__UIOriginalRecord"
 }

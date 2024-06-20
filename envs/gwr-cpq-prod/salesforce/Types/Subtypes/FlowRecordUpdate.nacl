@@ -34,6 +34,7 @@ type salesforce.FlowRecordUpdate {
         "ManagedContentVariantSetReadyBackgroundStep",
         "MuleSoftStep",
         "RecommendationMapCollectionProcessor",
+        "ReviewAdvancedApprovalInteractiveStep",
         "SortCollectionProcessor",
         "WaitAttribute",
         "WaitDate",

@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__QuoteHelp {
   label = "QuoteHelp"
   fullName = "SBQQ__QuoteHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__QuoteHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "QuoteHelp (SBQQ)"
 }

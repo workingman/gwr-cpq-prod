@@ -35,10 +35,5 @@ salesforce.GlobalValueSet SBQQ__ContractAction {
   description = "Contract actions"
   masterLabel = "Contract Action"
   sorted = false
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ContractAction"
 }

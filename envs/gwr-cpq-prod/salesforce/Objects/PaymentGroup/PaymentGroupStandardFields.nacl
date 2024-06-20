@@ -2,9 +2,6 @@ type salesforce.PaymentGroup {
   salesforce.Lookup SourceObjectId {
     apiName = "PaymentGroup.SourceObjectId"
     relationshipName = "SourceObject"
-    referenceTo = [
-      salesforce.Order,
-    ]
     label = "Order ID"
     createable = true
     updateable = true
@@ -44,9 +41,6 @@ type salesforce.PaymentGroup {
   salesforce.Lookup CreatedById {
     apiName = "PaymentGroup.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -64,9 +58,6 @@ type salesforce.PaymentGroup {
   salesforce.Lookup LastModifiedById {
     apiName = "PaymentGroup.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

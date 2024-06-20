@@ -12,10 +12,5 @@ salesforce.WebLink SBQQ__PriceSchedule__c_SBQQ__EditTiers {
   _parent = [
     salesforce.SBQQ__PriceSchedule__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__PriceSchedule__c.SBQQ__EditTiers"
 }

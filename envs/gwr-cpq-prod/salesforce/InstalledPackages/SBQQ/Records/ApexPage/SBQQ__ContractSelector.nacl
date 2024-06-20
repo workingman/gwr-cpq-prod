@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__ContractSelector {
   label = "Contract Selector"
   fullName = "SBQQ__ContractSelector"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__ContractSelector.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Contract Selector (SBQQ)"
 }

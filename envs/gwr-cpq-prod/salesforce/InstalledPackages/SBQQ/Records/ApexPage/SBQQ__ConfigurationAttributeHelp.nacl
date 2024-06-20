@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__ConfigurationAttributeHelp {
   label = "Configuration Attribute Help"
   fullName = "SBQQ__ConfigurationAttributeHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__ConfigurationAttributeHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Configuration Attribute Help (SBQQ)"
 }

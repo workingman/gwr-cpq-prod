@@ -3,10 +3,5 @@ salesforce.ApexComponent SBQQ__quoteTermsEditor {
   label = "quoteTermsEditor"
   fullName = "SBQQ__quoteTermsEditor"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "quoteTermsEditor (SBQQ)"
 }

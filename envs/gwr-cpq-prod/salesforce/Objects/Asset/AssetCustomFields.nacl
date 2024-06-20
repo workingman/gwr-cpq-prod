@@ -11,11 +11,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__BillingFrequency__c {
     apiName = "Asset.SBQQ__BillingFrequency__c"
@@ -29,11 +24,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__BillingType__c {
     apiName = "Asset.SBQQ__BillingType__c"
@@ -47,11 +37,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__Bundle__c {
     apiName = "Asset.SBQQ__Bundle__c"
@@ -64,11 +49,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Number SBQQ__BundledQuantity__c {
     apiName = "Asset.SBQQ__BundledQuantity__c"
@@ -83,11 +63,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__Bundled__c {
     apiName = "Asset.SBQQ__Bundled__c"
@@ -100,11 +75,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__ChargeType__c {
     apiName = "Asset.SBQQ__ChargeType__c"
@@ -118,11 +88,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__CombineKey__c {
     apiName = "Asset.SBQQ__CombineKey__c"
@@ -135,11 +100,6 @@ type salesforce.Asset {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__ComponentDiscountedByPackage__c {
     apiName = "Asset.SBQQ__ComponentDiscountedByPackage__c"
@@ -152,11 +112,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.FormulaText SBQQ__CreditProductId__c {
     apiName = "Asset.SBQQ__CreditProductId__c"
@@ -174,9 +129,6 @@ type salesforce.Asset {
     _generated_dependencies = [
       {
         reference = salesforce.Asset.field.Product2Id
-      },
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
       },
       {
         reference = salesforce.Product2
@@ -202,11 +154,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.FormulaText SBQQ__Dimension__c {
     apiName = "Asset.SBQQ__Dimension__c"
@@ -226,9 +173,6 @@ type salesforce.Asset {
     _generated_dependencies = [
       {
         reference = salesforce.Asset.field.SBQQ__QuoteLine__c
-      },
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
       },
     ]
   }
@@ -256,11 +200,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__DiscountSchedule__c {
     apiName = "Asset.SBQQ__DiscountSchedule__c"
@@ -278,11 +217,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Percent SBQQ__Discount__c {
     apiName = "Asset.SBQQ__Discount__c"
@@ -296,11 +230,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Percent SBQQ__DistributorDiscount__c {
     apiName = "Asset.SBQQ__DistributorDiscount__c"
@@ -314,11 +243,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__DynamicOptionId__c {
     apiName = "Asset.SBQQ__DynamicOptionId__c"
@@ -333,11 +257,6 @@ type salesforce.Asset {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__FromServiceCloud__c {
     apiName = "Asset.SBQQ__FromServiceCloud__c"
@@ -350,11 +269,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__LatestQuoteLine__c {
     apiName = "Asset.SBQQ__LatestQuoteLine__c"
@@ -370,11 +284,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Currency SBQQ__ListPrice__c {
     apiName = "Asset.SBQQ__ListPrice__c"
@@ -388,11 +297,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Currency SBQQ__MarkupAmount__c {
     apiName = "Asset.SBQQ__MarkupAmount__c"
@@ -406,11 +310,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Percent SBQQ__MarkupRate__c {
     apiName = "Asset.SBQQ__MarkupRate__c"
@@ -424,11 +323,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Number SBQQ__Number__c {
     apiName = "Asset.SBQQ__Number__c"
@@ -443,11 +337,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Currency SBQQ__OptionDiscountAmount__c {
     apiName = "Asset.SBQQ__OptionDiscountAmount__c"
@@ -461,11 +350,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Percent SBQQ__OptionDiscount__c {
     apiName = "Asset.SBQQ__OptionDiscount__c"
@@ -479,11 +363,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Number SBQQ__OptionLevel__c {
     apiName = "Asset.SBQQ__OptionLevel__c"
@@ -498,11 +377,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__OptionType__c {
     apiName = "Asset.SBQQ__OptionType__c"
@@ -533,11 +407,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__OrderProduct__c {
     apiName = "Asset.SBQQ__OrderProduct__c"
@@ -553,11 +422,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Currency SBQQ__OriginalUnitCost__c {
     apiName = "Asset.SBQQ__OriginalUnitCost__c"
@@ -571,11 +435,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__PackageProductCode__c {
     apiName = "Asset.SBQQ__PackageProductCode__c"
@@ -590,11 +449,6 @@ type salesforce.Asset {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Html SBQQ__PackageProductDescription__c {
     apiName = "Asset.SBQQ__PackageProductDescription__c"
@@ -608,11 +462,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Percent SBQQ__PartnerDiscount__c {
     apiName = "Asset.SBQQ__PartnerDiscount__c"
@@ -626,11 +475,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__PriceDimension__c {
     apiName = "Asset.SBQQ__PriceDimension__c"
@@ -646,11 +490,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__PricingMethod__c {
     apiName = "Asset.SBQQ__PricingMethod__c"
@@ -691,11 +530,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__ProductOption__c {
     apiName = "Asset.SBQQ__ProductOption__c"
@@ -713,11 +547,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__QuoteLine__c {
     apiName = "Asset.SBQQ__QuoteLine__c"
@@ -734,11 +563,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Currency SBQQ__RegularPrice__c {
     apiName = "Asset.SBQQ__RegularPrice__c"
@@ -752,11 +576,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Percent SBQQ__RenewalUpliftRate__c {
     apiName = "Asset.SBQQ__RenewalUpliftRate__c"
@@ -769,11 +588,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__RequiredByAsset__c {
     apiName = "Asset.SBQQ__RequiredByAsset__c"
@@ -790,11 +604,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__RequiredById__c {
     apiName = "Asset.SBQQ__RequiredById__c"
@@ -809,11 +618,6 @@ type salesforce.Asset {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__RequiredByProduct__c {
     apiName = "Asset.SBQQ__RequiredByProduct__c"
@@ -831,11 +635,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__RequiredBySubscription__c {
     apiName = "Asset.SBQQ__RequiredBySubscription__c"
@@ -852,11 +651,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__RevisedAsset__c {
     apiName = "Asset.SBQQ__RevisedAsset__c"
@@ -872,11 +666,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__RootAsset__c {
     apiName = "Asset.SBQQ__RootAsset__c"
@@ -894,11 +683,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__RootId__c {
     apiName = "Asset.SBQQ__RootId__c"
@@ -913,11 +697,6 @@ type salesforce.Asset {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Number SBQQ__SegmentIndex__c {
     apiName = "Asset.SBQQ__SegmentIndex__c"
@@ -932,11 +711,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__SegmentKey__c {
     apiName = "Asset.SBQQ__SegmentKey__c"
@@ -949,11 +723,6 @@ type salesforce.Asset {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__SegmentLabel__c {
     apiName = "Asset.SBQQ__SegmentLabel__c"
@@ -968,11 +737,6 @@ type salesforce.Asset {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Date SBQQ__SubscriptionEndDate__c {
     apiName = "Asset.SBQQ__SubscriptionEndDate__c"
@@ -982,11 +746,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__SubscriptionQuoteLine__c {
     apiName = "Asset.SBQQ__SubscriptionQuoteLine__c"
@@ -1002,11 +761,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Date SBQQ__SubscriptionStartDate__c {
     apiName = "Asset.SBQQ__SubscriptionStartDate__c"
@@ -1016,11 +770,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__Subscription__c {
     apiName = "Asset.SBQQ__Subscription__c"
@@ -1036,11 +785,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__TermDiscountSchedule__c {
     apiName = "Asset.SBQQ__TermDiscountSchedule__c"
@@ -1058,11 +802,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Currency SBQQ__UnitCost__c {
     apiName = "Asset.SBQQ__UnitCost__c"
@@ -1076,11 +815,6 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__VirtualAsset__c {
     apiName = "Asset.SBQQ__VirtualAsset__c"
@@ -1096,10 +830,5 @@ type salesforce.Asset {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
 }

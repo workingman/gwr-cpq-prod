@@ -11,32 +11,6 @@ type salesforce.UserProvisioningRequest {
   }
   salesforce.Picklist ApprovalStatus {
     apiName = "UserProvisioningRequest.ApprovalStatus"
-    valueSet = [
-      {
-        fullName = "Required"
-        isActive = true
-        label = "Required"
-        default = false
-      },
-      {
-        fullName = "NotRequired"
-        isActive = true
-        label = "Not Required"
-        default = false
-      },
-      {
-        fullName = "Approved"
-        isActive = true
-        label = "Approved"
-        default = false
-      },
-      {
-        fullName = "Denied"
-        isActive = true
-        label = "Denied"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Approval Status"
@@ -47,9 +21,6 @@ type salesforce.UserProvisioningRequest {
   salesforce.Lookup ConnectedAppId {
     apiName = "UserProvisioningRequest.ConnectedAppId"
     relationshipName = "ConnectedApp"
-    referenceTo = [
-      "ConnectedApplication",
-    ]
     label = "Connected App ID"
     createable = true
     updateable = true
@@ -58,9 +29,6 @@ type salesforce.UserProvisioningRequest {
   salesforce.Lookup ManagerId {
     apiName = "UserProvisioningRequest.ManagerId"
     relationshipName = "Manager"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "User ID"
     createable = true
     updateable = true
@@ -68,62 +36,6 @@ type salesforce.UserProvisioningRequest {
   }
   salesforce.Picklist Operation {
     apiName = "UserProvisioningRequest.Operation"
-    valueSet = [
-      {
-        fullName = "Create"
-        isActive = true
-        label = "Create"
-        default = false
-      },
-      {
-        fullName = "Read"
-        isActive = true
-        label = "Read"
-        default = false
-      },
-      {
-        fullName = "Update"
-        isActive = true
-        label = "Update"
-        default = false
-      },
-      {
-        fullName = "Deactivate"
-        isActive = true
-        label = "Deactivate"
-        default = false
-      },
-      {
-        fullName = "Activate"
-        isActive = true
-        label = "Activate"
-        default = false
-      },
-      {
-        fullName = "Freeze"
-        isActive = true
-        label = "Freeze"
-        default = false
-      },
-      {
-        fullName = "Unfreeze"
-        isActive = true
-        label = "Unfreeze"
-        default = false
-      },
-      {
-        fullName = "Reconcile"
-        isActive = true
-        label = "Reconcile"
-        default = false
-      },
-      {
-        fullName = "Linking"
-        isActive = true
-        label = "Linking"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Operation"
@@ -134,10 +46,6 @@ type salesforce.UserProvisioningRequest {
   salesforce.Lookup OwnerId {
     apiName = "UserProvisioningRequest.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -147,9 +55,6 @@ type salesforce.UserProvisioningRequest {
   salesforce.Lookup ParentId {
     apiName = "UserProvisioningRequest.ParentId"
     relationshipName = "Parent"
-    referenceTo = [
-      salesforce.UserProvisioningRequest,
-    ]
     label = "UserProvisioningRequest ID"
     createable = true
     updateable = true
@@ -168,9 +73,6 @@ type salesforce.UserProvisioningRequest {
   salesforce.Lookup SalesforceUserId {
     apiName = "UserProvisioningRequest.SalesforceUserId"
     relationshipName = "SalesforceUser"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "User ID"
     createable = true
     updateable = true
@@ -178,74 +80,6 @@ type salesforce.UserProvisioningRequest {
   }
   salesforce.Picklist State {
     apiName = "UserProvisioningRequest.State"
-    valueSet = [
-      {
-        fullName = "New"
-        isActive = true
-        label = "New"
-        default = false
-      },
-      {
-        fullName = "Requested"
-        isActive = true
-        label = "Requested"
-        default = false
-      },
-      {
-        fullName = "Completed"
-        isActive = true
-        label = "Completed"
-        default = false
-      },
-      {
-        fullName = "Failed"
-        isActive = true
-        label = "Failed"
-        default = false
-      },
-      {
-        fullName = "Collecting"
-        isActive = true
-        label = "Collecting"
-        default = false
-      },
-      {
-        fullName = "Collected"
-        isActive = true
-        label = "Collected"
-        default = false
-      },
-      {
-        fullName = "Analyzing"
-        isActive = true
-        label = "Analyzing"
-        default = false
-      },
-      {
-        fullName = "Analyzed"
-        isActive = true
-        label = "Analyzed"
-        default = false
-      },
-      {
-        fullName = "Committing"
-        isActive = true
-        label = "Committing"
-        default = false
-      },
-      {
-        fullName = "Retried"
-        isActive = true
-        label = "Retried"
-        default = false
-      },
-      {
-        fullName = "Manually Completed"
-        isActive = true
-        label = "Manually Completed"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "State"
@@ -256,9 +90,6 @@ type salesforce.UserProvisioningRequest {
   salesforce.Lookup UserProvAccountId {
     apiName = "UserProvisioningRequest.UserProvAccountId"
     relationshipName = "UserProvAccount"
-    referenceTo = [
-      "UserProvAccount",
-    ]
     label = "User Provisioning Account ID"
     createable = true
     updateable = true
@@ -298,9 +129,6 @@ type salesforce.UserProvisioningRequest {
   salesforce.Lookup CreatedById {
     apiName = "UserProvisioningRequest.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -318,9 +146,6 @@ type salesforce.UserProvisioningRequest {
   salesforce.Lookup LastModifiedById {
     apiName = "UserProvisioningRequest.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -355,9 +180,6 @@ type salesforce.UserProvisioningRequest {
   salesforce.Lookup UserProvConfigId {
     apiName = "UserProvisioningRequest.UserProvConfigId"
     relationshipName = "UserProvConfig"
-    referenceTo = [
-      salesforce.UserProvisioningConfig,
-    ]
     label = "UserProvisioningConfig ID"
     createable = true
     updateable = true

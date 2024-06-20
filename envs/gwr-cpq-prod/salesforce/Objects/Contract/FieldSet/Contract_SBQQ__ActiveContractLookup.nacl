@@ -39,10 +39,5 @@ salesforce.FieldSet Contract_SBQQ__ActiveContractLookup {
   _parent = [
     salesforce.Contract,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Active Contract Lookup (SBQQ)"
 }

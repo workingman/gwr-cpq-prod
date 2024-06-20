@@ -55,56 +55,6 @@ type salesforce.Location {
   }
   salesforce.Picklist LocationType {
     apiName = "Location.LocationType"
-    valueSet = [
-      {
-        fullName = "Building"
-        isActive = true
-        label = "Building"
-        default = false
-      },
-      {
-        fullName = "Warehouse"
-        isActive = true
-        label = "Warehouse"
-        default = false
-      },
-      {
-        fullName = "Site"
-        isActive = true
-        label = "Site"
-        default = false
-      },
-      {
-        fullName = "Plant"
-        isActive = true
-        label = "Plant"
-        default = false
-      },
-      {
-        fullName = "Store"
-        isActive = true
-        label = "Store"
-        default = false
-      },
-      {
-        fullName = "Campus"
-        isActive = true
-        label = "Campus"
-        default = false
-      },
-      {
-        fullName = "Floor"
-        isActive = true
-        label = "Floor"
-        default = false
-      },
-      {
-        fullName = "Space"
-        isActive = true
-        label = "Space"
-        default = false
-      },
-    ]
     restricted = false
     _required = true
     label = "Location Type"
@@ -115,9 +65,6 @@ type salesforce.Location {
   salesforce.Lookup LogoId {
     apiName = "Location.LogoId"
     relationshipName = "Logo"
-    referenceTo = [
-      "ContentAsset",
-    ]
     label = "Asset File ID"
     createable = true
     updateable = true
@@ -141,10 +88,6 @@ type salesforce.Location {
   salesforce.Lookup OwnerId {
     apiName = "Location.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -170,9 +113,6 @@ type salesforce.Location {
   salesforce.Lookup RootLocationId {
     apiName = "Location.RootLocationId"
     relationshipName = "RootLocation"
-    referenceTo = [
-      salesforce.Location,
-    ]
     label = "Root Location ID"
     createable = false
     updateable = false
@@ -217,9 +157,6 @@ type salesforce.Location {
   salesforce.Lookup CreatedById {
     apiName = "Location.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -237,9 +174,6 @@ type salesforce.Location {
   salesforce.Lookup LastModifiedById {
     apiName = "Location.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

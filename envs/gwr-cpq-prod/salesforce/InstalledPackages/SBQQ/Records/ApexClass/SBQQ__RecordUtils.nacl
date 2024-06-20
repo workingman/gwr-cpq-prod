@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__RecordUtils {
   status = "Active"
   fullName = "SBQQ__RecordUtils"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__RecordUtils"
 }

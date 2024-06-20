@@ -36,6 +36,7 @@ type salesforce.ExternalServiceRegistration {
       values = [
         "Custom",
         "MuleSoft",
+        "SchemaDefinition",
         "SchemaInferred",
         "Standard",
       ]
@@ -49,6 +50,7 @@ type salesforce.ExternalServiceRegistration {
     _restriction = {
       enforce_value = false
       values = [
+        "InterpretedConnectivity",
         "OpenApi",
         "OpenApi3",
       ]

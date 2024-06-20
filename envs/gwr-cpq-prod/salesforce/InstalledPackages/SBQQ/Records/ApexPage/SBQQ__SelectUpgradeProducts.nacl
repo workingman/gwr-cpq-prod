@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__SelectUpgradeProducts {
   label = "SelectUpgradeProducts"
   fullName = "SBQQ__SelectUpgradeProducts"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__SelectUpgradeProducts.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SelectUpgradeProducts (SBQQ)"
 }

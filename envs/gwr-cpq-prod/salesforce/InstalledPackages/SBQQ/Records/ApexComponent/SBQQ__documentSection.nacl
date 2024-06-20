@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__documentSection {
   label = "Document Section"
   fullName = "SBQQ__documentSection"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Document Section (SBQQ)"
 }

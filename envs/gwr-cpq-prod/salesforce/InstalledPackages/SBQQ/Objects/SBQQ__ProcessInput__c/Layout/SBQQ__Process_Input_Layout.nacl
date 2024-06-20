@@ -145,10 +145,5 @@ salesforce.Layout SBQQ__ProcessInput__c_SBQQ__Process_Input_Layout@uuuubuuss {
   _parent = [
     salesforce.SBQQ__ProcessInput__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProcessInput__c-SBQQ__Process Input Layout"
 }

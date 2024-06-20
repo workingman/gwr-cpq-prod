@@ -7,10 +7,5 @@ salesforce.ValidationRule SBQQ__QuoteLine__c_SBQQ__Additional_discount_percent_o
   _parent = [
     salesforce.SBQQ__QuoteLine__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteLine__c.SBQQ__Additional_discount_percent_or_amount"
 }

@@ -15,10 +15,5 @@ salesforce.GlobalValueSet SBQQ__ContractingMethod {
   description = "\"By Subscription End Date\" creates a separate Contract for each unique Subscription End Date, containing only those Subscriptions. \"Single Contract\" creates one Contract containing all Subscriptions, regardless of their End Dates"
   masterLabel = "Contracting Method"
   sorted = false
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ContractingMethod"
 }

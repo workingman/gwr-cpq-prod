@@ -292,9 +292,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
   }
   _generated_dependencies = [
     {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-    {
       reference = salesforce.LightningPage.instance.Training_Discount_Schedule_Page
     },
   ]

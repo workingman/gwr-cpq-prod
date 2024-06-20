@@ -3,10 +3,5 @@ salesforce.CustomPermission SBQQ__HideGlobalHeader {
   isLicensed = false
   label = "Hide Global Header"
   fullName = "SBQQ__HideGlobalHeader"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Hide Global Header (SBQQ)"
 }

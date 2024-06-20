@@ -2,9 +2,6 @@ type salesforce.OpportunityContactRole {
   salesforce.Lookup ContactId {
     apiName = "OpportunityContactRole.ContactId"
     relationshipName = "Contact"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     _required = true
     label = "Contact ID"
     createable = true
@@ -22,9 +19,6 @@ type salesforce.OpportunityContactRole {
   salesforce.Lookup OpportunityId {
     apiName = "OpportunityContactRole.OpportunityId"
     relationshipName = "Opportunity"
-    referenceTo = [
-      salesforce.Opportunity,
-    ]
     _required = true
     label = "Opportunity ID"
     createable = true
@@ -57,9 +51,6 @@ type salesforce.OpportunityContactRole {
   salesforce.Lookup CreatedById {
     apiName = "OpportunityContactRole.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -77,9 +68,6 @@ type salesforce.OpportunityContactRole {
   salesforce.Lookup LastModifiedById {
     apiName = "OpportunityContactRole.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

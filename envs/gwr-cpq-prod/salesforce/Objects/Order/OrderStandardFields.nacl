@@ -2,9 +2,6 @@ type salesforce.Order {
   salesforce.Lookup AccountId {
     apiName = "Order.AccountId"
     relationshipName = "Account"
-    referenceTo = [
-      salesforce.Account,
-    ]
     label = "Account ID"
     createable = true
     updateable = true
@@ -17,9 +14,6 @@ type salesforce.Order {
   salesforce.Lookup ActivatedById {
     apiName = "Order.ActivatedById"
     relationshipName = "ActivatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Activated By ID"
     createable = false
     updateable = true
@@ -35,9 +29,6 @@ type salesforce.Order {
   salesforce.Lookup BillToContactId {
     apiName = "Order.BillToContactId"
     relationshipName = "BillToContact"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     label = "Bill To Contact ID"
     createable = true
     updateable = true
@@ -54,9 +45,6 @@ type salesforce.Order {
   salesforce.Lookup CompanyAuthorizedById {
     apiName = "Order.CompanyAuthorizedById"
     relationshipName = "CompanyAuthorizedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Company Authorized By ID"
     createable = true
     updateable = true
@@ -76,9 +64,6 @@ type salesforce.Order {
   salesforce.Lookup ContractId {
     apiName = "Order.ContractId"
     relationshipName = "Contract"
-    referenceTo = [
-      salesforce.Contract,
-    ]
     label = "Contract ID"
     createable = true
     updateable = true
@@ -91,9 +76,6 @@ type salesforce.Order {
   salesforce.Lookup CustomerAuthorizedById {
     apiName = "Order.CustomerAuthorizedById"
     relationshipName = "CustomerAuthorizedBy"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     label = "Customer Authorized By ID"
     createable = true
     updateable = true
@@ -165,9 +147,6 @@ type salesforce.Order {
   salesforce.Lookup OriginalOrderId {
     apiName = "Order.OriginalOrderId"
     relationshipName = "OriginalOrder"
-    referenceTo = [
-      salesforce.Order,
-    ]
     label = "Order ID"
     createable = true
     updateable = false
@@ -176,10 +155,6 @@ type salesforce.Order {
   salesforce.Lookup OwnerId {
     apiName = "Order.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -206,9 +181,6 @@ type salesforce.Order {
   salesforce.Lookup Pricebook2Id {
     apiName = "Order.Pricebook2Id"
     relationshipName = "Pricebook2"
-    referenceTo = [
-      salesforce.Pricebook2,
-    ]
     label = "Price Book ID"
     createable = true
     updateable = true
@@ -217,9 +189,6 @@ type salesforce.Order {
   salesforce.Lookup ShipToContactId {
     apiName = "Order.ShipToContactId"
     relationshipName = "ShipToContact"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     label = "Ship To Contact ID"
     createable = true
     updateable = true
@@ -269,32 +238,6 @@ type salesforce.Order {
   }
   salesforce.Picklist StatusCode {
     apiName = "Order.StatusCode"
-    valueSet = [
-      {
-        fullName = "Draft"
-        isActive = true
-        label = "Draft"
-        default = false
-      },
-      {
-        fullName = "Activated"
-        isActive = true
-        label = "Activated"
-        default = false
-      },
-      {
-        fullName = "Canceled"
-        isActive = true
-        label = "Cancelled"
-        default = false
-      },
-      {
-        fullName = "Expired"
-        isActive = true
-        label = "Expired"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Status Category"
@@ -321,9 +264,6 @@ type salesforce.Order {
   salesforce.Lookup CreatedById {
     apiName = "Order.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -341,9 +281,6 @@ type salesforce.Order {
   salesforce.Lookup LastModifiedById {
     apiName = "Order.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

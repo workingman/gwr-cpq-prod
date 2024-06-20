@@ -88,10 +88,5 @@ salesforce.Layout SBQQ__UpgradeSource__c_SBQQ__Upgrade_Source_Layout@uuuubuuss {
   _parent = [
     salesforce.SBQQ__UpgradeSource__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__UpgradeSource__c-SBQQ__Upgrade Source Layout"
 }

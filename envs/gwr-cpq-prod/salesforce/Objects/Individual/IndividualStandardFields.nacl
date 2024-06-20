@@ -103,20 +103,6 @@ type salesforce.Individual {
   }
   salesforce.Picklist IndividualsAge {
     apiName = "Individual.IndividualsAge"
-    valueSet = [
-      {
-        fullName = "13 or Older"
-        isActive = true
-        label = "13 or Older"
-        default = false
-      },
-      {
-        fullName = "16 or Older"
-        isActive = true
-        label = "16 or Older"
-        default = false
-      },
-    ]
     restricted = false
     label = "Individual's Age"
     createable = true
@@ -143,26 +129,6 @@ type salesforce.Individual {
   }
   salesforce.Picklist MilitaryService {
     apiName = "Individual.MilitaryService"
-    valueSet = [
-      {
-        fullName = "Unknown"
-        isActive = true
-        label = "Unknown"
-        default = false
-      },
-      {
-        fullName = "Yes"
-        isActive = true
-        label = "Yes"
-        default = false
-      },
-      {
-        fullName = "No"
-        isActive = true
-        label = "No"
-        default = false
-      },
-    ]
     restricted = false
     label = "Military Service"
     createable = true
@@ -191,9 +157,6 @@ type salesforce.Individual {
   salesforce.Lookup OwnerId {
     apiName = "Individual.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -241,9 +204,6 @@ type salesforce.Individual {
   salesforce.Lookup MasterRecordId {
     apiName = "Individual.MasterRecordId"
     relationshipName = "MasterRecord"
-    referenceTo = [
-      salesforce.Individual,
-    ]
     label = "Master Record ID"
     createable = false
     updateable = false
@@ -261,9 +221,6 @@ type salesforce.Individual {
   salesforce.Lookup CreatedById {
     apiName = "Individual.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -281,9 +238,6 @@ type salesforce.Individual {
   salesforce.Lookup LastModifiedById {
     apiName = "Individual.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

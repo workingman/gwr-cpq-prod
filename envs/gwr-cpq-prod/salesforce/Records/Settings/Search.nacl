@@ -7,7 +7,6 @@ salesforce.SearchSettings {
   enableEinsteinSearchNLSFilters = "false"
   enableEinsteinSearchNaturalLanguage = "true"
   enableEinsteinSearchPersonalization = true
-  enableEinsteinSearchQA = "false"
   enablePersonalTagging = false
   enablePublicTagging = false
   enableQuerySuggestionPigOn = "false"

@@ -266,10 +266,5 @@ type salesforce.SBQQ__TermCondition__c {
   topicsForObjects = {
     enableTopics = false
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Term Condition (SBQQ)"
 }

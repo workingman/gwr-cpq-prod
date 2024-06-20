@@ -25,6 +25,13 @@ salesforce.NotificationTypeConfig NotificationTypeConfig {
     {
       notificationChannels = {
         desktopEnabled = true
+        mobileEnabled = false
+      }
+      notificationType = "bulk_action_plan_save"
+    },
+    {
+      notificationChannels = {
+        desktopEnabled = true
         mobileEnabled = true
       }
       notificationType = "chatter_comment_on_post"

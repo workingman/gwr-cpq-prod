@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ICalculateCallback {
   status = "Active"
   fullName = "SBQQ__ICalculateCallback"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ICalculateCallback"
 }

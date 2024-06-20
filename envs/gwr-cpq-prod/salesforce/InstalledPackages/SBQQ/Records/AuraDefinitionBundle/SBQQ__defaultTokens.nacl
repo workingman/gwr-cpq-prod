@@ -4,10 +4,5 @@ salesforce.AuraDefinitionBundle SBQQ__defaultTokens {
   fullName = "SBQQ__defaultTokens"
   type = "Tokens"
   markup = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__defaultTokens"
 }

@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__quoteInfo {
   label = "Quote Info"
   fullName = "SBQQ__quoteInfo"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Quote Info (SBQQ)"
 }

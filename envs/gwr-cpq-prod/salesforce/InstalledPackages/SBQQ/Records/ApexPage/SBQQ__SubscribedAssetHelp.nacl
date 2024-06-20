@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__SubscribedAssetHelp {
   label = "SubscribedAssetHelp"
   fullName = "SBQQ__SubscribedAssetHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__SubscribedAssetHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SubscribedAssetHelp (SBQQ)"
 }

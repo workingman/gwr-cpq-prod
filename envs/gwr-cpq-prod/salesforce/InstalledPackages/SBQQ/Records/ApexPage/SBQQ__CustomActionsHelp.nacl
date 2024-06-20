@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__CustomActionsHelp {
   label = "CustomActionsHelp"
   fullName = "SBQQ__CustomActionsHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__CustomActionsHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "CustomActionsHelp (SBQQ)"
 }

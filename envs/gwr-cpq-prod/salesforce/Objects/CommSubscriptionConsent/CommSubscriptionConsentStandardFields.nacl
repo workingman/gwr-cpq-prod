@@ -2,9 +2,6 @@ type salesforce.CommSubscriptionConsent {
   salesforce.Lookup BusinessBrandId {
     apiName = "CommSubscriptionConsent.BusinessBrandId"
     relationshipName = "BusinessBrand"
-    referenceTo = [
-      salesforce.BusinessBrand,
-    ]
     label = "Business Brand ID"
     createable = true
     updateable = true
@@ -14,9 +11,6 @@ type salesforce.CommSubscriptionConsent {
     apiName = "CommSubscriptionConsent.CommSubscriptionChannelTypeId"
     inlineHelpText = "The communication subscription channel type record associated with the communication subscription consent."
     relationshipName = "CommSubscriptionChannelType"
-    referenceTo = [
-      salesforce.CommSubscriptionChannelType,
-    ]
     _required = true
     label = "Communication Subscription Channel Type ID"
     createable = true
@@ -46,12 +40,6 @@ type salesforce.CommSubscriptionConsent {
     apiName = "CommSubscriptionConsent.ConsentGiverId"
     inlineHelpText = "The person consenting to the communication subscription."
     relationshipName = "ConsentGiver"
-    referenceTo = [
-      salesforce.Account,
-      salesforce.Contact,
-      salesforce.Individual,
-      salesforce.User,
-    ]
     label = "Consent Giver ID"
     createable = true
     updateable = true
@@ -61,11 +49,6 @@ type salesforce.CommSubscriptionConsent {
     apiName = "CommSubscriptionConsent.ContactPointId"
     inlineHelpText = "The contact point record associated with the communication subscription consent."
     relationshipName = "ContactPoint"
-    referenceTo = [
-      salesforce.ContactPointAddress,
-      salesforce.ContactPointEmail,
-      salesforce.ContactPointPhone,
-    ]
     _required = true
     label = "Contact Point ID"
     createable = true
@@ -100,10 +83,6 @@ type salesforce.CommSubscriptionConsent {
   salesforce.Lookup OwnerId {
     apiName = "CommSubscriptionConsent.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -113,10 +92,6 @@ type salesforce.CommSubscriptionConsent {
   salesforce.Lookup PartyRoleId {
     apiName = "CommSubscriptionConsent.PartyRoleId"
     relationshipName = "PartyRole"
-    referenceTo = [
-      salesforce.Customer,
-      salesforce.Seller,
-    ]
     label = "Party Role ID"
     createable = true
     updateable = true
@@ -124,44 +99,6 @@ type salesforce.CommSubscriptionConsent {
   }
   salesforce.Picklist PrivacyConsentStatus {
     apiName = "CommSubscriptionConsent.PrivacyConsentStatus"
-    valueSet = [
-      {
-        fullName = "NotSeen"
-        isActive = true
-        label = "Not Seen"
-        default = true
-      },
-      {
-        fullName = "Seen"
-        isActive = true
-        label = "Seen"
-        default = false
-      },
-      {
-        fullName = "OptIn"
-        isActive = true
-        label = "Opt In"
-        default = false
-      },
-      {
-        fullName = "OptOut"
-        isActive = true
-        label = "Opt Out"
-        default = false
-      },
-      {
-        fullName = "OptInPending"
-        isActive = true
-        label = "Opt In Pending"
-        default = false
-      },
-      {
-        fullName = "OptOutPending"
-        isActive = true
-        label = "Opt Out Pending"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Privacy Consent Status"
@@ -195,9 +132,6 @@ type salesforce.CommSubscriptionConsent {
   salesforce.Lookup CreatedById {
     apiName = "CommSubscriptionConsent.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -215,9 +149,6 @@ type salesforce.CommSubscriptionConsent {
   salesforce.Lookup LastModifiedById {
     apiName = "CommSubscriptionConsent.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -235,9 +166,6 @@ type salesforce.CommSubscriptionConsent {
   salesforce.Lookup DataUsePurposeId {
     apiName = "CommSubscriptionConsent.DataUsePurposeId"
     relationshipName = "DataUsePurpose"
-    referenceTo = [
-      salesforce.DataUsePurpose,
-    ]
     label = "Data Use Purpose ID"
     createable = true
     updateable = true
@@ -246,9 +174,6 @@ type salesforce.CommSubscriptionConsent {
   salesforce.Lookup EngagementChannelTypeId {
     apiName = "CommSubscriptionConsent.EngagementChannelTypeId"
     relationshipName = "EngagementChannelType"
-    referenceTo = [
-      salesforce.EngagementChannelType,
-    ]
     label = "Engagement Channel Type ID"
     createable = true
     updateable = true
@@ -257,9 +182,6 @@ type salesforce.CommSubscriptionConsent {
   salesforce.Lookup PartyId {
     apiName = "CommSubscriptionConsent.PartyId"
     relationshipName = "Party"
-    referenceTo = [
-      salesforce.Individual,
-    ]
     label = "Individual ID"
     createable = false
     updateable = false

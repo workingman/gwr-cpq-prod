@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__PricingGuidanceServiceProvider {
   status = "Active"
   fullName = "SBQQ__PricingGuidanceServiceProvider"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__PricingGuidanceServiceProvider.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__PricingGuidanceServiceProvider"
 }

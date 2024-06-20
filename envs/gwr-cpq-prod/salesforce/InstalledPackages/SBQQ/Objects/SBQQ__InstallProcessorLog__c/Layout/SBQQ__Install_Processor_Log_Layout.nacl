@@ -78,10 +78,5 @@ salesforce.Layout SBQQ__InstallProcessorLog__c_SBQQ__Install_Processor_Log_Layou
   _parent = [
     salesforce.SBQQ__InstallProcessorLog__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__InstallProcessorLog__c-SBQQ__Install Processor Log Layout"
 }

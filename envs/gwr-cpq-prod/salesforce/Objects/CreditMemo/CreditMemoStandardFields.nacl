@@ -12,9 +12,6 @@ type salesforce.CreditMemo {
   salesforce.Lookup BillToContactId {
     apiName = "CreditMemo.BillToContactId"
     relationshipName = "BillToContact"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     label = "Contact ID"
     createable = false
     updateable = true
@@ -23,9 +20,6 @@ type salesforce.CreditMemo {
   salesforce.Lookup BillingAccountId {
     apiName = "CreditMemo.BillingAccountId"
     relationshipName = "BillingAccount"
-    referenceTo = [
-      salesforce.Account,
-    ]
     _required = true
     label = "Account ID"
     createable = false
@@ -34,20 +28,6 @@ type salesforce.CreditMemo {
   }
   salesforce.Picklist CreationMode {
     apiName = "CreditMemo.CreationMode"
-    valueSet = [
-      {
-        fullName = "Salesforce"
-        isActive = true
-        label = "Salesforce"
-        default = false
-      },
-      {
-        fullName = "External"
-        isActive = true
-        label = "External"
-        default = false
-      },
-    ]
     restricted = true
     label = "Creation Mode"
     createable = false
@@ -115,10 +95,6 @@ type salesforce.CreditMemo {
   salesforce.Lookup OwnerId {
     apiName = "CreditMemo.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = false
     updateable = true
@@ -128,10 +104,6 @@ type salesforce.CreditMemo {
   salesforce.Lookup ReferenceEntityId {
     apiName = "CreditMemo.ReferenceEntityId"
     relationshipName = "ReferenceEntity"
-    referenceTo = [
-      salesforce.Invoice,
-      salesforce.Order,
-    ]
     label = "ReferenceEntity ID"
     createable = false
     updateable = true
@@ -139,44 +111,6 @@ type salesforce.CreditMemo {
   }
   salesforce.Picklist Status {
     apiName = "CreditMemo.Status"
-    valueSet = [
-      {
-        fullName = "Draft"
-        isActive = true
-        label = "Draft"
-        default = false
-      },
-      {
-        fullName = "Pending"
-        isActive = true
-        label = "Pending"
-        default = false
-      },
-      {
-        fullName = "Posted"
-        isActive = true
-        label = "Posted"
-        default = false
-      },
-      {
-        fullName = "Canceled"
-        isActive = true
-        label = "Canceled"
-        default = false
-      },
-      {
-        fullName = "Error"
-        isActive = true
-        label = "Error"
-        default = false
-      },
-      {
-        fullName = "Voided"
-        isActive = true
-        label = "Voided"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Status"
@@ -320,9 +254,6 @@ type salesforce.CreditMemo {
   salesforce.Lookup CreatedById {
     apiName = "CreditMemo.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -340,9 +271,6 @@ type salesforce.CreditMemo {
   salesforce.Lookup LastModifiedById {
     apiName = "CreditMemo.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

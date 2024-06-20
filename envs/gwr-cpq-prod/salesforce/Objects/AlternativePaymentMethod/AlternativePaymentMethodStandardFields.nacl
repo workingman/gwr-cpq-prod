@@ -2,9 +2,6 @@ type salesforce.AlternativePaymentMethod {
   salesforce.Lookup AccountId {
     apiName = "AlternativePaymentMethod.AccountId"
     relationshipName = "Account"
-    referenceTo = [
-      salesforce.Account,
-    ]
     label = "Account ID"
     createable = true
     updateable = true
@@ -131,10 +128,6 @@ type salesforce.AlternativePaymentMethod {
   salesforce.Lookup OwnerId {
     apiName = "AlternativePaymentMethod.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -144,9 +137,6 @@ type salesforce.AlternativePaymentMethod {
   salesforce.Lookup PaymentGatewayId {
     apiName = "AlternativePaymentMethod.PaymentGatewayId"
     relationshipName = "PaymentGateway"
-    referenceTo = [
-      salesforce.PaymentGateway,
-    ]
     label = "Payment Gateway ID"
     createable = true
     updateable = false
@@ -165,7 +155,7 @@ type salesforce.AlternativePaymentMethod {
   salesforce.Text PaymentMethodSubType {
     apiName = "AlternativePaymentMethod.PaymentMethodSubType"
     length = 255
-    label = "Payment Method SubType"
+    label = "Payment Method Sub Type"
     createable = true
     updateable = false
     unique = false
@@ -174,140 +164,6 @@ type salesforce.AlternativePaymentMethod {
   }
   salesforce.Picklist PaymentMethodType {
     apiName = "AlternativePaymentMethod.PaymentMethodType"
-    valueSet = [
-      {
-        fullName = "ACH"
-        isActive = true
-        label = "ACH"
-        default = false
-      },
-      {
-        fullName = "AfterpayClearpay"
-        isActive = true
-        label = "Afterpay / Clearpay"
-        default = false
-      },
-      {
-        fullName = "AmericanExpress"
-        isActive = true
-        label = "American Express"
-        default = false
-      },
-      {
-        fullName = "ApplePay"
-        isActive = true
-        label = "Apple Pay"
-        default = false
-      },
-      {
-        fullName = "BACS"
-        isActive = true
-        label = "Bacs"
-        default = false
-      },
-      {
-        fullName = "BanContact"
-        isActive = true
-        label = "Bancontact"
-        default = false
-      },
-      {
-        fullName = "BECS"
-        isActive = true
-        label = "Becs"
-        default = false
-      },
-      {
-        fullName = "DinersClub"
-        isActive = true
-        label = "Diners Club"
-        default = false
-      },
-      {
-        fullName = "Discover"
-        isActive = true
-        label = "Discover"
-        default = false
-      },
-      {
-        fullName = "EPS"
-        isActive = true
-        label = "Eps"
-        default = false
-      },
-      {
-        fullName = "GooglePay"
-        isActive = true
-        label = "Google Pay"
-        default = false
-      },
-      {
-        fullName = "iDeal"
-        isActive = true
-        label = "iDEAL"
-        default = false
-      },
-      {
-        fullName = "Jcb"
-        isActive = true
-        label = "Jcb"
-        default = false
-      },
-      {
-        fullName = "Klarna"
-        isActive = true
-        label = "Klarna"
-        default = false
-      },
-      {
-        fullName = "Maestro"
-        isActive = true
-        label = "Maestro"
-        default = false
-      },
-      {
-        fullName = "MasterCard"
-        isActive = true
-        label = "Master Card"
-        default = false
-      },
-      {
-        fullName = "Other"
-        isActive = true
-        label = "Other"
-        default = false
-      },
-      {
-        fullName = "PayPal"
-        isActive = true
-        label = "Paypal"
-        default = false
-      },
-      {
-        fullName = "SepaDebit"
-        isActive = true
-        label = "SEPA Debit"
-        default = false
-      },
-      {
-        fullName = "UnionPay"
-        isActive = true
-        label = "UnionPay"
-        default = false
-      },
-      {
-        fullName = "Venmo"
-        isActive = true
-        label = "Venmo"
-        default = false
-      },
-      {
-        fullName = "Visa"
-        isActive = true
-        label = "Visa"
-        default = false
-      },
-    ]
     restricted = true
     label = "Payment Method Type"
     createable = true
@@ -323,20 +179,6 @@ type salesforce.AlternativePaymentMethod {
   }
   salesforce.Picklist ProcessingMode {
     apiName = "AlternativePaymentMethod.ProcessingMode"
-    valueSet = [
-      {
-        fullName = "Salesforce"
-        isActive = true
-        label = "Salesforce"
-        default = false
-      },
-      {
-        fullName = "External"
-        isActive = true
-        label = "External"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Processing Mode"
@@ -346,26 +188,6 @@ type salesforce.AlternativePaymentMethod {
   }
   salesforce.Picklist Status {
     apiName = "AlternativePaymentMethod.Status"
-    valueSet = [
-      {
-        fullName = "Active"
-        isActive = true
-        label = "Active"
-        default = false
-      },
-      {
-        fullName = "InActive"
-        isActive = true
-        label = "Inactive"
-        default = false
-      },
-      {
-        fullName = "Canceled"
-        isActive = true
-        label = "Canceled"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Status"
@@ -407,9 +229,6 @@ type salesforce.AlternativePaymentMethod {
   salesforce.Lookup CreatedById {
     apiName = "AlternativePaymentMethod.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -427,9 +246,6 @@ type salesforce.AlternativePaymentMethod {
   salesforce.Lookup LastModifiedById {
     apiName = "AlternativePaymentMethod.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

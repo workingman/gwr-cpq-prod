@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__RecommendationLookupServiceProvider {
   status = "Active"
   fullName = "SBQQ__RecommendationLookupServiceProvider"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__RecommendationLookupServiceProvider"
 }

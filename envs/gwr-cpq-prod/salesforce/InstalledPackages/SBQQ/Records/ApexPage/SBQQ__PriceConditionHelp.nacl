@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__PriceConditionHelp {
   label = "Price Condition Help"
   fullName = "SBQQ__PriceConditionHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__PriceConditionHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Price Condition Help (SBQQ)"
 }

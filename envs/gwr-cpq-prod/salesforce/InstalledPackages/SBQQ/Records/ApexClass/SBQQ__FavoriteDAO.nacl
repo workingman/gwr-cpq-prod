@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__FavoriteDAO {
   status = "Active"
   fullName = "SBQQ__FavoriteDAO"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__FavoriteDAO"
 }

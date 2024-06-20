@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__customLookup {
   label = "modalDialog"
   fullName = "SBQQ__customLookup"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "modalDialog (SBQQ)"
 }

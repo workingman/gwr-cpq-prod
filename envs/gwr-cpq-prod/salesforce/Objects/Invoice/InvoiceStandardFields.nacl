@@ -12,9 +12,6 @@ type salesforce.Invoice {
   salesforce.Lookup BillToContactId {
     apiName = "Invoice.BillToContactId"
     relationshipName = "BillToContact"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     label = "Contact ID"
     createable = false
     updateable = true
@@ -23,9 +20,6 @@ type salesforce.Invoice {
   salesforce.Lookup BillingAccountId {
     apiName = "Invoice.BillingAccountId"
     relationshipName = "BillingAccount"
-    referenceTo = [
-      salesforce.Account,
-    ]
     _required = true
     label = "Account ID"
     createable = false
@@ -58,6 +52,11 @@ type salesforce.Invoice {
     updateable = true
     queryable = true
   }
+  salesforce.Unknown InvoiceLockedDateTime {
+    apiName = "Invoice.InvoiceLockedDateTime"
+    inlineHelpText = "The time at which the invoice record was locked."
+    _hidden_value = true
+  }
   salesforce.Text InvoiceNumber {
     apiName = "Invoice.InvoiceNumber"
     length = 10
@@ -67,6 +66,11 @@ type salesforce.Invoice {
     unique = false
     caseSensitive = false
     queryable = true
+  }
+  salesforce.Unknown IsInvoiceLocked {
+    apiName = "Invoice.IsInvoiceLocked"
+    inlineHelpText = "Indicates whether the invoice record is locked or not."
+    _hidden_value = true
   }
   salesforce.Summary NetCreditsApplied {
     apiName = "Invoice.NetCreditsApplied"
@@ -87,10 +91,6 @@ type salesforce.Invoice {
   salesforce.Lookup OwnerId {
     apiName = "Invoice.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = false
     updateable = true
@@ -100,10 +100,6 @@ type salesforce.Invoice {
   salesforce.Lookup ReferenceEntityId {
     apiName = "Invoice.ReferenceEntityId"
     relationshipName = "ReferenceEntity"
-    referenceTo = [
-      salesforce.CreditMemo,
-      salesforce.Order,
-    ]
     label = "ReferenceEntity ID"
     createable = false
     updateable = true
@@ -111,62 +107,6 @@ type salesforce.Invoice {
   }
   salesforce.Picklist Status {
     apiName = "Invoice.Status"
-    valueSet = [
-      {
-        fullName = "Draft"
-        isActive = true
-        label = "Draft"
-        default = false
-      },
-      {
-        fullName = "Draft In Progress"
-        isActive = true
-        label = "Draft In Progress"
-        default = false
-      },
-      {
-        fullName = "Pending"
-        isActive = true
-        label = "Pending"
-        default = false
-      },
-      {
-        fullName = "Posting In Progress"
-        isActive = true
-        label = "Posting In Progress"
-        default = false
-      },
-      {
-        fullName = "Posted"
-        isActive = true
-        label = "Posted"
-        default = false
-      },
-      {
-        fullName = "Canceled"
-        isActive = true
-        label = "Canceled"
-        default = false
-      },
-      {
-        fullName = "Error"
-        isActive = true
-        label = "Error"
-        default = false
-      },
-      {
-        fullName = "Void In Progress"
-        isActive = true
-        label = "Void In Progress"
-        default = false
-      },
-      {
-        fullName = "Voided"
-        isActive = true
-        label = "Voided"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Status"
@@ -289,9 +229,6 @@ type salesforce.Invoice {
   salesforce.Lookup CreatedById {
     apiName = "Invoice.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -309,9 +246,6 @@ type salesforce.Invoice {
   salesforce.Lookup LastModifiedById {
     apiName = "Invoice.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

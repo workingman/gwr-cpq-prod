@@ -182,10 +182,5 @@ salesforce.Layout SBQQ__SummaryVariable__c_SBQQ__Summary_Variable_Layout@uuuubuu
   _parent = [
     salesforce.SBQQ__SummaryVariable__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SummaryVariable__c-SBQQ__Summary Variable Layout"
 }

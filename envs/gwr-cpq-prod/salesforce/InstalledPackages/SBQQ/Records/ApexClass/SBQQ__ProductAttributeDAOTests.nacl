@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__ProductAttributeDAOTests {
   status = "Active"
   fullName = "SBQQ__ProductAttributeDAOTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductAttributeDAOTests"
 }

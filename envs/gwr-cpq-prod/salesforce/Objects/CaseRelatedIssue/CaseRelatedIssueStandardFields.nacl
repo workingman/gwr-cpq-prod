@@ -2,9 +2,6 @@ type salesforce.CaseRelatedIssue {
   salesforce.MasterDetail CaseId {
     apiName = "CaseRelatedIssue.CaseId"
     relationshipName = "Case"
-    referenceTo = [
-      salesforce.Case,
-    ]
     _required = true
     label = "Case ID"
     createable = true
@@ -21,20 +18,6 @@ type salesforce.CaseRelatedIssue {
   }
   salesforce.Picklist RelatedEntityType {
     apiName = "CaseRelatedIssue.RelatedEntityType"
-    valueSet = [
-      {
-        fullName = "Incident"
-        isActive = true
-        label = "Incident"
-        default = false
-      },
-      {
-        fullName = "Problem"
-        isActive = true
-        label = "Problem"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Related Issue Type"
@@ -46,10 +29,6 @@ type salesforce.CaseRelatedIssue {
   salesforce.Lookup RelatedIssueId {
     apiName = "CaseRelatedIssue.RelatedIssueId"
     relationshipName = "RelatedIssue"
-    referenceTo = [
-      salesforce.Incident,
-      salesforce.Problem,
-    ]
     _required = true
     label = "Related Issue ID"
     createable = true
@@ -58,20 +37,6 @@ type salesforce.CaseRelatedIssue {
   }
   salesforce.Picklist RelationshipType {
     apiName = "CaseRelatedIssue.RelationshipType"
-    valueSet = [
-      {
-        fullName = "Root Cause"
-        isActive = true
-        label = "Root Cause"
-        default = true
-      },
-      {
-        fullName = "Similar"
-        isActive = true
-        label = "Similar"
-        default = false
-      },
-    ]
     restricted = false
     _required = true
     label = "Relationship Type"
@@ -105,9 +70,6 @@ type salesforce.CaseRelatedIssue {
   salesforce.Lookup CreatedById {
     apiName = "CaseRelatedIssue.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -125,9 +87,6 @@ type salesforce.CaseRelatedIssue {
   salesforce.Lookup LastModifiedById {
     apiName = "CaseRelatedIssue.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

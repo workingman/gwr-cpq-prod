@@ -3,10 +3,5 @@ salesforce.RemoteSiteSetting SBQQ__OAuthTestLogin {
   disableProtocolSecurity = false
   isActive = true
   url = "https://test.salesforce.com"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__OAuthTestLogin"
 }

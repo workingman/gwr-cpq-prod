@@ -10,10 +10,5 @@ salesforce.QuickAction Opportunity_SBQQ__CreateOrderLightning@vuu {
   _parent = [
     salesforce.Opportunity,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Create Order (SBQQ)"
 }

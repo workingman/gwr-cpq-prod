@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__pageBlockHeader {
   label = "pageBlockHeader"
   fullName = "SBQQ__pageBlockHeader"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "pageBlockHeader (SBQQ)"
 }

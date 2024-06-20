@@ -4,10 +4,5 @@ salesforce.StaticResource SBQQ__sb_ql_js {
   description = "CPQ QuoteLogger"
   fullName = "SBQQ__sb_ql_js"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__sb_ql_js.js")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__sb_ql_js"
 }

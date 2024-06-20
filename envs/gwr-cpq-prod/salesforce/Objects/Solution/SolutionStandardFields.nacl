@@ -79,9 +79,6 @@ type salesforce.Solution {
   salesforce.Lookup OwnerId {
     apiName = "Solution.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -99,9 +96,6 @@ type salesforce.Solution {
   salesforce.Lookup CreatedById {
     apiName = "Solution.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -119,9 +113,6 @@ type salesforce.Solution {
   salesforce.Lookup LastModifiedById {
     apiName = "Solution.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

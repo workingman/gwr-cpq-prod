@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__SolutionGroupModel {
   status = "Active"
   fullName = "SBQQ__SolutionGroupModel"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SolutionGroupModel"
 }

@@ -7,10 +7,5 @@ salesforce.ValidationRule SBQQ__ConfigurationRule__c_SBQQ__Ensure_rule_type_nest
   _parent = [
     salesforce.SBQQ__ConfigurationRule__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ConfigurationRule__c.SBQQ__Ensure_rule_type_nested_level_actions"
 }

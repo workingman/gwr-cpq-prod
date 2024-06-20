@@ -10,10 +10,5 @@ salesforce.ApexTrigger SBQQ__CustomScriptBefore {
   status = "Active"
   fullName = "SBQQ__CustomScriptBefore"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__CustomScriptBefore"
 }

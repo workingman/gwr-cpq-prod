@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__DateUtils {
   status = "Active"
   fullName = "SBQQ__DateUtils"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__DateUtils"
 }

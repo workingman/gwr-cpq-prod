@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__RecordJobService {
   status = "Active"
   fullName = "SBQQ__RecordJobService"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__RecordJobService.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__RecordJobService"
 }

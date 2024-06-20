@@ -1,44 +1,6 @@
 type salesforce.PartyConsent {
   salesforce.Picklist Action {
     apiName = "PartyConsent.Action"
-    valueSet = [
-      {
-        fullName = "Target"
-        isActive = true
-        label = "Target"
-        default = true
-      },
-      {
-        fullName = "Segment"
-        isActive = true
-        label = "Segment"
-        default = false
-      },
-      {
-        fullName = "Data Collection"
-        isActive = true
-        label = "Data Collection"
-        default = false
-      },
-      {
-        fullName = "Cross Device"
-        isActive = true
-        label = "Cross Device"
-        default = false
-      },
-      {
-        fullName = "Reidentification"
-        isActive = true
-        label = "Reidentification"
-        default = false
-      },
-      {
-        fullName = "Share Data"
-        isActive = true
-        label = "Share Data"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Action"
@@ -49,9 +11,6 @@ type salesforce.PartyConsent {
   salesforce.Lookup BusinessBrandId {
     apiName = "PartyConsent.BusinessBrandId"
     relationshipName = "BusinessBrand"
-    referenceTo = [
-      salesforce.BusinessBrand,
-    ]
     label = "Business Brand ID"
     createable = true
     updateable = true
@@ -59,50 +18,6 @@ type salesforce.PartyConsent {
   }
   salesforce.Picklist CaptureContactPointType {
     apiName = "PartyConsent.CaptureContactPointType"
-    valueSet = [
-      {
-        fullName = "Email"
-        isActive = true
-        label = "Email"
-        default = false
-      },
-      {
-        fullName = "Phone"
-        isActive = true
-        label = "Phone"
-        default = false
-      },
-      {
-        fullName = "Web"
-        isActive = true
-        label = "Web"
-        default = false
-      },
-      {
-        fullName = "Social"
-        isActive = true
-        label = "Social"
-        default = false
-      },
-      {
-        fullName = "MailingAddress"
-        isActive = true
-        label = "Mailing Address"
-        default = false
-      },
-      {
-        fullName = "InPerson"
-        isActive = true
-        label = "In Person"
-        default = false
-      },
-      {
-        fullName = "Video"
-        isActive = true
-        label = "Video"
-        default = false
-      },
-    ]
     restricted = true
     label = "Consent Captured Contact Point Type"
     createable = true
@@ -129,9 +44,6 @@ type salesforce.PartyConsent {
   salesforce.Lookup DataUsePurposeId {
     apiName = "PartyConsent.DataUsePurposeId"
     relationshipName = "DataUsePurpose"
-    referenceTo = [
-      salesforce.DataUsePurpose,
-    ]
     label = "Data Use Purpose ID"
     createable = true
     updateable = true
@@ -163,10 +75,6 @@ type salesforce.PartyConsent {
   salesforce.Lookup OwnerId {
     apiName = "PartyConsent.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -176,9 +84,6 @@ type salesforce.PartyConsent {
   salesforce.Lookup PartyId {
     apiName = "PartyConsent.PartyId"
     relationshipName = "Party"
-    referenceTo = [
-      salesforce.Individual,
-    ]
     _required = true
     label = "Individual ID"
     createable = true
@@ -188,10 +93,6 @@ type salesforce.PartyConsent {
   salesforce.Lookup PartyRoleId {
     apiName = "PartyConsent.PartyRoleId"
     relationshipName = "PartyRole"
-    referenceTo = [
-      salesforce.Customer,
-      salesforce.Seller,
-    ]
     label = "Party Role ID"
     createable = true
     updateable = true
@@ -199,44 +100,6 @@ type salesforce.PartyConsent {
   }
   salesforce.Picklist PrivacyConsentStatus {
     apiName = "PartyConsent.PrivacyConsentStatus"
-    valueSet = [
-      {
-        fullName = "NotSeen"
-        isActive = true
-        label = "Not Seen"
-        default = true
-      },
-      {
-        fullName = "Seen"
-        isActive = true
-        label = "Seen"
-        default = false
-      },
-      {
-        fullName = "OptIn"
-        isActive = true
-        label = "Opt In"
-        default = false
-      },
-      {
-        fullName = "OptOut"
-        isActive = true
-        label = "Opt Out"
-        default = false
-      },
-      {
-        fullName = "OptInPending"
-        isActive = true
-        label = "Opt In Pending"
-        default = false
-      },
-      {
-        fullName = "OptOutPending"
-        isActive = true
-        label = "Opt Out Pending"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Privacy Consent Status"
@@ -270,9 +133,6 @@ type salesforce.PartyConsent {
   salesforce.Lookup CreatedById {
     apiName = "PartyConsent.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -290,9 +150,6 @@ type salesforce.PartyConsent {
   salesforce.Lookup LastModifiedById {
     apiName = "PartyConsent.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

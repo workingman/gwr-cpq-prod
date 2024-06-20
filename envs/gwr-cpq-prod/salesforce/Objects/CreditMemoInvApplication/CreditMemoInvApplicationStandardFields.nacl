@@ -22,9 +22,6 @@ type salesforce.CreditMemoInvApplication {
     apiName = "CreditMemoInvApplication.AssociatedLineId"
     inlineHelpText = "The application that this credit memo invoice application has unapplied."
     relationshipName = "AssociatedLine"
-    referenceTo = [
-      salesforce.CreditMemoInvApplication,
-    ]
     label = "Credit Memo Invoice Application ID"
     createable = false
     updateable = false
@@ -34,9 +31,6 @@ type salesforce.CreditMemoInvApplication {
   salesforce.Lookup CreditMemoId {
     apiName = "CreditMemoInvApplication.CreditMemoId"
     relationshipName = "CreditMemo"
-    referenceTo = [
-      salesforce.CreditMemo,
-    ]
     _required = true
     label = "Credit Memo ID"
     createable = false
@@ -72,26 +66,6 @@ type salesforce.CreditMemoInvApplication {
   }
   salesforce.Picklist HasBeenUnapplied {
     apiName = "CreditMemoInvApplication.HasBeenUnapplied"
-    valueSet = [
-      {
-        fullName = "No"
-        isActive = true
-        label = "No"
-        default = false
-      },
-      {
-        fullName = "Yes"
-        isActive = true
-        label = "Yes"
-        default = false
-      },
-      {
-        fullName = "NA"
-        isActive = true
-        label = "NA"
-        default = false
-      },
-    ]
     restricted = true
     label = "Has Been Unapplied"
     createable = false
@@ -111,9 +85,6 @@ type salesforce.CreditMemoInvApplication {
   salesforce.MasterDetail InvoiceId {
     apiName = "CreditMemoInvApplication.InvoiceId"
     relationshipName = "Invoice"
-    referenceTo = [
-      salesforce.Invoice,
-    ]
     _required = true
     label = "Invoice ID"
     createable = false
@@ -123,20 +94,6 @@ type salesforce.CreditMemoInvApplication {
   }
   salesforce.Picklist Type {
     apiName = "CreditMemoInvApplication.Type"
-    valueSet = [
-      {
-        fullName = "Applied"
-        isActive = true
-        label = "Applied"
-        default = false
-      },
-      {
-        fullName = "Unapplied"
-        isActive = true
-        label = "Unapplied"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Type"
@@ -187,9 +144,6 @@ type salesforce.CreditMemoInvApplication {
   salesforce.Lookup CreatedById {
     apiName = "CreditMemoInvApplication.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -207,9 +161,6 @@ type salesforce.CreditMemoInvApplication {
   salesforce.Lookup LastModifiedById {
     apiName = "CreditMemoInvApplication.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__JSQCCustomerLogService {
   status = "Active"
   fullName = "SBQQ__JSQCCustomerLogService"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__JSQCCustomerLogService.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__JSQCCustomerLogService"
 }

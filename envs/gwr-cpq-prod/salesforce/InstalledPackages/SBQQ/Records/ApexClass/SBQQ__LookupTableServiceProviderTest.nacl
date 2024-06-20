@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__LookupTableServiceProviderTest {
   status = "Active"
   fullName = "SBQQ__LookupTableServiceProviderTest"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__LookupTableServiceProviderTest"
 }

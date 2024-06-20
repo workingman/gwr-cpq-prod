@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__SiteCloneQuote {
   label = "SiteCloneQuote"
   fullName = "SBQQ__SiteCloneQuote"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__SiteCloneQuote.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SiteCloneQuote (SBQQ)"
 }

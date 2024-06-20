@@ -59,10 +59,5 @@ salesforce.FieldSet SBQQ__Subscription__c_SBQQ__SubscriptionSearchResults {
   _parent = [
     salesforce.SBQQ__Subscription__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Subscription Search Results (SBQQ)"
 }

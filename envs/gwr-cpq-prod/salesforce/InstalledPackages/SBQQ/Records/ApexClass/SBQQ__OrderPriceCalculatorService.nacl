@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__OrderPriceCalculatorService {
   status = "Active"
   fullName = "SBQQ__OrderPriceCalculatorService"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__OrderPriceCalculatorService"
 }

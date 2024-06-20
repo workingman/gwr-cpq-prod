@@ -12,9 +12,6 @@ type salesforce.WorkPlanTemplateEntry {
   salesforce.MasterDetail WorkPlanTemplateId {
     apiName = "WorkPlanTemplateEntry.WorkPlanTemplateId"
     relationshipName = "WorkPlanTemplate"
-    referenceTo = [
-      salesforce.WorkPlanTemplate,
-    ]
     _required = true
     label = "Work Plan Template ID"
     createable = true
@@ -24,9 +21,6 @@ type salesforce.WorkPlanTemplateEntry {
   salesforce.Lookup WorkStepTemplateId {
     apiName = "WorkPlanTemplateEntry.WorkStepTemplateId"
     relationshipName = "WorkStepTemplate"
-    referenceTo = [
-      salesforce.WorkStepTemplate,
-    ]
     _required = true
     label = "Work Step Template ID"
     createable = true
@@ -67,9 +61,6 @@ type salesforce.WorkPlanTemplateEntry {
   salesforce.Lookup CreatedById {
     apiName = "WorkPlanTemplateEntry.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -87,9 +78,6 @@ type salesforce.WorkPlanTemplateEntry {
   salesforce.Lookup LastModifiedById {
     apiName = "WorkPlanTemplateEntry.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

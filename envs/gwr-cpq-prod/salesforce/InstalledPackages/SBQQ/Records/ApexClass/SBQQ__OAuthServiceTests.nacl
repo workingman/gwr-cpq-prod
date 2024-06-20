@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__OAuthServiceTests {
   status = "Active"
   fullName = "SBQQ__OAuthServiceTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__OAuthServiceTests"
 }

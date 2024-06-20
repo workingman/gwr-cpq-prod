@@ -82,10 +82,5 @@ salesforce.Layout SBQQ__Cost__c_SBQQ__Cost_Layout@uuuubuus {
   _parent = [
     salesforce.SBQQ__Cost__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__Cost__c-SBQQ__Cost Layout"
 }

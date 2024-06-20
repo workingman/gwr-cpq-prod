@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__OAuthRedirect {
   label = "OAuthRedirect"
   fullName = "SBQQ__OAuthRedirect"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__OAuthRedirect.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "OAuthRedirect (SBQQ)"
 }

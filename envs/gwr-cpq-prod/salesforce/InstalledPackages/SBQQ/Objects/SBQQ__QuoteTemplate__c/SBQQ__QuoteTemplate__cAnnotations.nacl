@@ -296,9 +296,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
   }
   _generated_dependencies = [
     {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-    {
       reference = salesforce.LightningPage.instance.Training_Quote_Template_Page
     },
   ]

@@ -3,9 +3,6 @@ type salesforce.ConsumptionRate {
     apiName = "ConsumptionRate.ConsumptionScheduleId"
     inlineHelpText = "This rate is a part of of this schedule."
     relationshipName = "ConsumptionSchedule"
-    referenceTo = [
-      salesforce.ConsumptionSchedule,
-    ]
     _required = true
     label = "Consumption Schedule ID"
     createable = true
@@ -54,20 +51,6 @@ type salesforce.ConsumptionRate {
   salesforce.Picklist PricingMethod {
     apiName = "ConsumptionRate.PricingMethod"
     inlineHelpText = "Choose whether the usage is priced per unit or quantity or as a flat fee"
-    valueSet = [
-      {
-        fullName = "PerUnit"
-        isActive = true
-        label = "Per Unit"
-        default = false
-      },
-      {
-        fullName = "FlatFee"
-        isActive = true
-        label = "Flat Fee"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Pricing Method"
@@ -124,9 +107,6 @@ type salesforce.ConsumptionRate {
   salesforce.Lookup CreatedById {
     apiName = "ConsumptionRate.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -144,9 +124,6 @@ type salesforce.ConsumptionRate {
   salesforce.Lookup LastModifiedById {
     apiName = "ConsumptionRate.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

@@ -2,9 +2,6 @@ type salesforce.ServiceContract {
   salesforce.Lookup AccountId {
     apiName = "ServiceContract.AccountId"
     relationshipName = "Account"
-    referenceTo = [
-      salesforce.Account,
-    ]
     label = "Account ID"
     createable = true
     updateable = true
@@ -41,9 +38,6 @@ type salesforce.ServiceContract {
   salesforce.Lookup ContactId {
     apiName = "ServiceContract.ContactId"
     relationshipName = "Contact"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     label = "Contact ID"
     createable = true
     updateable = true
@@ -107,10 +101,6 @@ type salesforce.ServiceContract {
   salesforce.Lookup OwnerId {
     apiName = "ServiceContract.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -120,9 +110,6 @@ type salesforce.ServiceContract {
   salesforce.Lookup ParentServiceContractId {
     apiName = "ServiceContract.ParentServiceContractId"
     relationshipName = "ParentServiceContract"
-    referenceTo = [
-      salesforce.ServiceContract,
-    ]
     label = "Parent Service Contract ID"
     createable = true
     updateable = true
@@ -131,9 +118,6 @@ type salesforce.ServiceContract {
   salesforce.Lookup Pricebook2Id {
     apiName = "ServiceContract.Pricebook2Id"
     relationshipName = "Pricebook2"
-    referenceTo = [
-      salesforce.Pricebook2,
-    ]
     label = "Price Book ID"
     createable = true
     updateable = true
@@ -142,9 +126,6 @@ type salesforce.ServiceContract {
   salesforce.Lookup RootServiceContractId {
     apiName = "ServiceContract.RootServiceContractId"
     relationshipName = "RootServiceContract"
-    referenceTo = [
-      salesforce.ServiceContract,
-    ]
     label = "Root Service Contract ID"
     createable = false
     updateable = false
@@ -185,26 +166,6 @@ type salesforce.ServiceContract {
   }
   salesforce.Picklist Status {
     apiName = "ServiceContract.Status"
-    valueSet = [
-      {
-        fullName = "Inactive"
-        isActive = true
-        label = "Inactive"
-        default = false
-      },
-      {
-        fullName = "Active"
-        isActive = true
-        label = "Active"
-        default = false
-      },
-      {
-        fullName = "Expired"
-        isActive = true
-        label = "Expired"
-        default = false
-      },
-    ]
     restricted = true
     label = "Status"
     createable = false
@@ -277,9 +238,6 @@ type salesforce.ServiceContract {
   salesforce.Lookup CreatedById {
     apiName = "ServiceContract.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -297,9 +255,6 @@ type salesforce.ServiceContract {
   salesforce.Lookup LastModifiedById {
     apiName = "ServiceContract.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

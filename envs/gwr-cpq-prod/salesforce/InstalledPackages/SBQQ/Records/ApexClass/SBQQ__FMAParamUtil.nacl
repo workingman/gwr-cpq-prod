@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__FMAParamUtil {
   status = "Active"
   fullName = "SBQQ__FMAParamUtil"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__FMAParamUtil"
 }

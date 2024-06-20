@@ -12,10 +12,5 @@ salesforce.FieldSet SBQQ__ProductFeature__c_SBQQ__Configurator {
   _parent = [
     salesforce.SBQQ__ProductFeature__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Configurator (SBQQ)"
 }

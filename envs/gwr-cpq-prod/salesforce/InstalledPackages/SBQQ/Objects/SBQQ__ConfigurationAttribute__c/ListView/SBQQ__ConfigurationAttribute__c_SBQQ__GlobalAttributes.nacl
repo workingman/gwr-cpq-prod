@@ -2,7 +2,7 @@ salesforce.ListView SBQQ__ConfigurationAttribute__c_SBQQ__GlobalAttributes {
   fullName = "SBQQ__ConfigurationAttribute__c.SBQQ__GlobalAttributes"
   columns = [
     "NAME",
-    "SBQQ__TargetField__c",
+    salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__TargetField__c,
   ]
   filterScope = "Everything"
   filters = [
@@ -16,11 +16,6 @@ salesforce.ListView SBQQ__ConfigurationAttribute__c_SBQQ__GlobalAttributes {
   language = "en_US"
   _parent = [
     salesforce.SBQQ__ConfigurationAttribute__c,
-  ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
   ]
   _alias = "Global Attributes (SBQQ)"
 }

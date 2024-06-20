@@ -39,6 +39,7 @@ type salesforce.RecordActionDefaultItem {
         "LWC",
         "Omniscript",
         "QuickAction",
+        "SvcCatalogItemDef",
         "WebLink",
       ]
     }

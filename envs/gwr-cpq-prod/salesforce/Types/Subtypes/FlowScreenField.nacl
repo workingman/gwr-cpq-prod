@@ -42,6 +42,10 @@ type salesforce.FlowScreenField {
       ]
     }
   }
+  salesforce.FlowElementReferenceOrValue isDisabled {
+  }
+  salesforce.FlowElementReferenceOrValue isReadOnly {
+  }
   boolean isRequired {
   }
   boolean isVisible {

@@ -27,10 +27,6 @@ type salesforce.Seller {
   salesforce.Lookup OwnerId {
     apiName = "Seller.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -40,9 +36,6 @@ type salesforce.Seller {
   salesforce.Lookup PartyId {
     apiName = "Seller.PartyId"
     relationshipName = "Party"
-    referenceTo = [
-      salesforce.Individual,
-    ]
     label = "Individual ID"
     createable = true
     updateable = true
@@ -60,26 +53,6 @@ type salesforce.Seller {
   }
   salesforce.Picklist SellerTier {
     apiName = "Seller.SellerTier"
-    valueSet = [
-      {
-        fullName = "Gold"
-        isActive = true
-        label = "Gold"
-        default = false
-      },
-      {
-        fullName = "Silver"
-        isActive = true
-        label = "Silver"
-        default = false
-      },
-      {
-        fullName = "Bronze"
-        isActive = true
-        label = "Bronze"
-        default = false
-      },
-    ]
     restricted = true
     label = "Seller Tier"
     createable = true
@@ -88,32 +61,6 @@ type salesforce.Seller {
   }
   salesforce.Picklist SellerType {
     apiName = "Seller.SellerType"
-    valueSet = [
-      {
-        fullName = "Reseller"
-        isActive = true
-        label = "Reseller"
-        default = false
-      },
-      {
-        fullName = "Distributor"
-        isActive = true
-        label = "Distributor"
-        default = false
-      },
-      {
-        fullName = "Wholesaler"
-        isActive = true
-        label = "Wholesaler"
-        default = false
-      },
-      {
-        fullName = "SalesPartner"
-        isActive = true
-        label = "SalesPartner"
-        default = false
-      },
-    ]
     restricted = true
     label = "Seller Type"
     createable = true
@@ -146,9 +93,6 @@ type salesforce.Seller {
   salesforce.Lookup CreatedById {
     apiName = "Seller.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -166,9 +110,6 @@ type salesforce.Seller {
   salesforce.Lookup LastModifiedById {
     apiName = "Seller.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

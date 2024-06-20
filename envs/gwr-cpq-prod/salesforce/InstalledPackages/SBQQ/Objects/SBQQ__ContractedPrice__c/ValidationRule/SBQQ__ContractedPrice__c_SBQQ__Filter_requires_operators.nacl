@@ -7,10 +7,5 @@ salesforce.ValidationRule SBQQ__ContractedPrice__c_SBQQ__Filter_requires_operato
   _parent = [
     salesforce.SBQQ__ContractedPrice__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ContractedPrice__c.SBQQ__Filter_requires_operators"
 }

@@ -125,10 +125,5 @@ salesforce.Layout SBQQ__LookupQuery__c_SBQQ__Lookup_Query_Layout@uuuubuuss {
   _parent = [
     salesforce.SBQQ__LookupQuery__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__LookupQuery__c-SBQQ__Lookup Query Layout"
 }

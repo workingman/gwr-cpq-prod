@@ -33,11 +33,6 @@ salesforce.CustomApplication SBQQ__QuoteQuickly {
     salesforce.CustomTab.instance.IndustryPrice__c,
   ]
   fullName = "SBQQ__QuoteQuickly"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Salesforce CPQ (SBQQ)"
   isOmniPinnedViewEnabled = false
 }

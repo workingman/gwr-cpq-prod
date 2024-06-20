@@ -84,7 +84,7 @@ salesforce.SecuritySettings {
     isLoginWithSalesforceCredentialsDisabled = false
   }
   _alias = "Security"
-  enableCrossOrgRedirects = "true"
+  enableCrossOrgRedirects = "false"
   enablePermissionsPolicy = "false"
   sendCspForUncommonClients = "false"
 }

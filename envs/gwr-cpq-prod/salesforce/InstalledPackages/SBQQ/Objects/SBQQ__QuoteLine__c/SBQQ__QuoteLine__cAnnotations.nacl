@@ -291,10 +291,5 @@ type salesforce.SBQQ__QuoteLine__c {
   }
   historyTrackedFields = {
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Quote Line (SBQQ)"
 }

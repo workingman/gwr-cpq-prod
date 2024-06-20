@@ -3,10 +3,5 @@ salesforce.StaticResource SBQQ__AssetLookupUI {
   contentType = "text/javascript"
   fullName = "SBQQ__AssetLookupUI"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__AssetLookupUI.resource")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__AssetLookupUI"
 }

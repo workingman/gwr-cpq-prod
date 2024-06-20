@@ -2,9 +2,6 @@ type salesforce.CampaignMember {
   salesforce.Lookup CampaignId {
     apiName = "CampaignMember.CampaignId"
     relationshipName = "Campaign"
-    referenceTo = [
-      salesforce.Campaign,
-    ]
     _required = true
     label = "Campaign ID"
     createable = true
@@ -36,9 +33,6 @@ type salesforce.CampaignMember {
   salesforce.Lookup ContactId {
     apiName = "CampaignMember.ContactId"
     relationshipName = "Contact"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     label = "Contact ID"
     createable = true
     updateable = false
@@ -150,9 +144,6 @@ type salesforce.CampaignMember {
   salesforce.Lookup LeadId {
     apiName = "CampaignMember.LeadId"
     relationshipName = "Lead"
-    referenceTo = [
-      salesforce.Lead,
-    ]
     label = "Lead ID"
     createable = true
     updateable = false
@@ -273,9 +264,6 @@ type salesforce.CampaignMember {
   salesforce.Lookup CreatedById {
     apiName = "CampaignMember.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -293,9 +281,6 @@ type salesforce.CampaignMember {
   salesforce.Lookup LastModifiedById {
     apiName = "CampaignMember.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -334,11 +319,6 @@ type salesforce.CampaignMember {
   }
   salesforce.Lookup LeadOrContactId {
     apiName = "CampaignMember.LeadOrContactId"
-    referenceTo = [
-      salesforce.Account,
-      salesforce.Contact,
-      salesforce.Lead,
-    ]
     label = "Related Record ID"
     createable = false
     updateable = false
@@ -348,10 +328,6 @@ type salesforce.CampaignMember {
   salesforce.Lookup LeadOrContactOwnerId {
     apiName = "CampaignMember.LeadOrContactOwnerId"
     relationshipName = "LeadOrContactOwner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Related Record Owner ID"
     createable = false
     updateable = false

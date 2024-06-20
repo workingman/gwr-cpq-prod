@@ -12,10 +12,5 @@ NOT(ISPICKVAL(SBQQ__Scope__c, "Product"))
   _parent = [
     salesforce.SBQQ__ProductRule__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductRule__c.SBQQ__FilterTypeScope"
 }

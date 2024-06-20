@@ -17,10 +17,5 @@ type salesforce.ConsumptionSchedule {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
 }

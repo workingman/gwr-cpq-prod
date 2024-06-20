@@ -10,10 +10,5 @@ salesforce.ApexTrigger SBQQ__ProductFeatureAfter {
   status = "Active"
   fullName = "SBQQ__ProductFeatureAfter"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductFeatureAfter"
 }

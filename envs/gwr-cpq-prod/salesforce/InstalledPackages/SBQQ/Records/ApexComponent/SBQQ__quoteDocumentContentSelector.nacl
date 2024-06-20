@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__quoteDocumentContentSelector {
   label = "Quote Document Content Selector"
   fullName = "SBQQ__quoteDocumentContentSelector"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Quote Document Content Selector (SBQQ)"
 }

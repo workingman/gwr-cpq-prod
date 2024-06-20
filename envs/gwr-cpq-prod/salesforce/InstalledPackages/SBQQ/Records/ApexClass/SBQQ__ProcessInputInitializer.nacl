@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ProcessInputInitializer {
   status = "Active"
   fullName = "SBQQ__ProcessInputInitializer"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProcessInputInitializer"
 }

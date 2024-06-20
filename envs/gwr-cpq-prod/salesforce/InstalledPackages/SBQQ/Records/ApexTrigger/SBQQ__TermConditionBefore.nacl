@@ -10,10 +10,5 @@ salesforce.ApexTrigger SBQQ__TermConditionBefore {
   status = "Active"
   fullName = "SBQQ__TermConditionBefore"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__TermConditionBefore"
 }

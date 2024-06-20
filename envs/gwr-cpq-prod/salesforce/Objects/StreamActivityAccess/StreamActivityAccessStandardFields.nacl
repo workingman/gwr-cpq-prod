@@ -11,6 +11,10 @@ type salesforce.StreamActivityAccess {
     apiName = "StreamActivityAccess.IsContentShared"
     _hidden_value = true
   }
+  salesforce.Unknown Name {
+    apiName = "StreamActivityAccess.Name"
+    _hidden_value = true
+  }
   salesforce.Lookup OwnerId {
     apiName = "StreamActivityAccess.OwnerId"
     _hidden_value = true

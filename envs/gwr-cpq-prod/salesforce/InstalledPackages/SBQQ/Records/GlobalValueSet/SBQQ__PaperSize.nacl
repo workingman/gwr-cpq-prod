@@ -24,10 +24,5 @@ salesforce.GlobalValueSet SBQQ__PaperSize {
   ]
   masterLabel = "Paper Size"
   sorted = false
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__PaperSize"
 }

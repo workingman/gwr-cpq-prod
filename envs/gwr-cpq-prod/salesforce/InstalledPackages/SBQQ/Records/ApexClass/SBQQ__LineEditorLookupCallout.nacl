@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__LineEditorLookupCallout {
   status = "Active"
   fullName = "SBQQ__LineEditorLookupCallout"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__LineEditorLookupCallout.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__LineEditorLookupCallout"
 }

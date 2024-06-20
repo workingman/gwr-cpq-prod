@@ -17,6 +17,7 @@ type salesforce.IframeWhiteListUrl {
     _restriction = {
       enforce_value = false
       values = [
+        "LightningOut",
         "Surveys",
         "VisualforcePages",
       ]

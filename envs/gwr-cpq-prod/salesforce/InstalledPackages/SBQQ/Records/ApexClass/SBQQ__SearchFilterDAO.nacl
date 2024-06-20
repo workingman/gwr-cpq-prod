@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__SearchFilterDAO {
   status = "Active"
   fullName = "SBQQ__SearchFilterDAO"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SearchFilterDAO"
 }

@@ -3,10 +3,5 @@ salesforce.StaticResource SBQQ__ProductConfiguratorUI {
   contentType = "text/javascript"
   fullName = "SBQQ__ProductConfiguratorUI"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__ProductConfiguratorUI.resource")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductConfiguratorUI"
 }

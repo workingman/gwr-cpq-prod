@@ -2,9 +2,6 @@ type salesforce.ChangeRequestRelatedIssue {
   salesforce.MasterDetail ChangeRequestId {
     apiName = "ChangeRequestRelatedIssue.ChangeRequestId"
     relationshipName = "ChangeRequest"
-    referenceTo = [
-      salesforce.ChangeRequest,
-    ]
     _required = true
     label = "Change Request ID"
     createable = true
@@ -21,26 +18,6 @@ type salesforce.ChangeRequestRelatedIssue {
   }
   salesforce.Picklist RelatedEntityType {
     apiName = "ChangeRequestRelatedIssue.RelatedEntityType"
-    valueSet = [
-      {
-        fullName = "Incident"
-        isActive = true
-        label = "Incident"
-        default = false
-      },
-      {
-        fullName = "Problem"
-        isActive = true
-        label = "Problem"
-        default = false
-      },
-      {
-        fullName = "Case"
-        isActive = true
-        label = "Case"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Related Issue Type"
@@ -52,11 +29,6 @@ type salesforce.ChangeRequestRelatedIssue {
   salesforce.Lookup RelatedIssueId {
     apiName = "ChangeRequestRelatedIssue.RelatedIssueId"
     relationshipName = "RelatedIssue"
-    referenceTo = [
-      salesforce.Case,
-      salesforce.Incident,
-      salesforce.Problem,
-    ]
     _required = true
     label = "Related Issue ID"
     createable = true
@@ -65,20 +37,6 @@ type salesforce.ChangeRequestRelatedIssue {
   }
   salesforce.Picklist RelationshipType {
     apiName = "ChangeRequestRelatedIssue.RelationshipType"
-    valueSet = [
-      {
-        fullName = "Caused By"
-        isActive = true
-        label = "Caused By"
-        default = true
-      },
-      {
-        fullName = "Resolved By"
-        isActive = true
-        label = "Resolved By"
-        default = false
-      },
-    ]
     restricted = false
     _required = true
     label = "Relationship Type"
@@ -112,9 +70,6 @@ type salesforce.ChangeRequestRelatedIssue {
   salesforce.Lookup CreatedById {
     apiName = "ChangeRequestRelatedIssue.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -132,9 +87,6 @@ type salesforce.ChangeRequestRelatedIssue {
   salesforce.Lookup LastModifiedById {
     apiName = "ChangeRequestRelatedIssue.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

@@ -11,11 +11,6 @@ type salesforce.OpportunityLineItem {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__QuoteLine__c {
     apiName = "OpportunityLineItem.SBQQ__QuoteLine__c"
@@ -32,11 +27,6 @@ type salesforce.OpportunityLineItem {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__SubscriptionType__c {
     apiName = "OpportunityLineItem.SBQQ__SubscriptionType__c"
@@ -50,10 +40,5 @@ type salesforce.OpportunityLineItem {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
 }

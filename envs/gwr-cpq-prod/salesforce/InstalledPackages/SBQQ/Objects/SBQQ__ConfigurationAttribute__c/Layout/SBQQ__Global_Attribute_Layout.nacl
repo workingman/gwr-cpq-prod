@@ -61,10 +61,5 @@ salesforce.Layout SBQQ__ConfigurationAttribute__c_SBQQ__Global_Attribute_Layout@
   _parent = [
     salesforce.SBQQ__ConfigurationAttribute__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ConfigurationAttribute__c-SBQQ__Global Attribute Layout"
 }

@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ConsumptionClientModelTests {
   status = "Active"
   fullName = "SBQQ__ConsumptionClientModelTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ConsumptionClientModelTests"
 }

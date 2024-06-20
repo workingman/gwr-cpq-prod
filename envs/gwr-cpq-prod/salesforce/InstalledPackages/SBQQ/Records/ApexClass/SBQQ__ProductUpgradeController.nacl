@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ProductUpgradeController {
   status = "Active"
   fullName = "SBQQ__ProductUpgradeController"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__ProductUpgradeController.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductUpgradeController"
 }

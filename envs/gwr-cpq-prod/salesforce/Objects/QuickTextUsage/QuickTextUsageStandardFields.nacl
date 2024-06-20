@@ -8,10 +8,6 @@ type salesforce.QuickTextUsage {
   salesforce.Lookup OwnerId {
     apiName = "QuickTextUsage.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = false
     updateable = false
@@ -50,9 +46,6 @@ type salesforce.QuickTextUsage {
   salesforce.Lookup CreatedById {
     apiName = "QuickTextUsage.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -70,9 +63,6 @@ type salesforce.QuickTextUsage {
   salesforce.Lookup LastModifiedById {
     apiName = "QuickTextUsage.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -90,9 +80,6 @@ type salesforce.QuickTextUsage {
   salesforce.Lookup QuickTextId {
     apiName = "QuickTextUsage.QuickTextId"
     relationshipName = "QuickText"
-    referenceTo = [
-      salesforce.QuickText,
-    ]
     _required = true
     label = "Quick Text ID"
     createable = false
@@ -102,74 +89,6 @@ type salesforce.QuickTextUsage {
   }
   salesforce.Picklist Channel {
     apiName = "QuickTextUsage.Channel"
-    valueSet = [
-      {
-        fullName = "Generic"
-        isActive = true
-        label = "Generic"
-        default = false
-      },
-      {
-        fullName = "Email"
-        isActive = true
-        label = "Email"
-        default = false
-      },
-      {
-        fullName = "Portal"
-        isActive = true
-        label = "Portal"
-        default = false
-      },
-      {
-        fullName = "Live Agent"
-        isActive = true
-        label = "Live Agent"
-        default = false
-      },
-      {
-        fullName = "Phone"
-        isActive = true
-        label = "Phone"
-        default = false
-      },
-      {
-        fullName = "Internal"
-        isActive = true
-        label = "Internal"
-        default = false
-      },
-      {
-        fullName = "Social"
-        isActive = true
-        label = "Social"
-        default = false
-      },
-      {
-        fullName = "Knowledge"
-        isActive = true
-        label = "Knowledge"
-        default = false
-      },
-      {
-        fullName = "Event"
-        isActive = true
-        label = "Event"
-        default = false
-      },
-      {
-        fullName = "Task"
-        isActive = true
-        label = "Task"
-        default = false
-      },
-      {
-        fullName = "Messaging"
-        isActive = true
-        label = "Messaging"
-        default = false
-      },
-    ]
     restricted = true
     label = "Channel"
     createable = false
@@ -179,32 +98,6 @@ type salesforce.QuickTextUsage {
   }
   salesforce.Picklist LaunchSource {
     apiName = "QuickTextUsage.LaunchSource"
-    valueSet = [
-      {
-        fullName = "Keyboard shortcut"
-        isActive = true
-        label = "Keyboard shortcut"
-        default = false
-      },
-      {
-        fullName = "Floater"
-        isActive = true
-        label = "Floater"
-        default = false
-      },
-      {
-        fullName = "Toolbar"
-        isActive = true
-        label = "Toolbar"
-        default = false
-      },
-      {
-        fullName = "Macro"
-        isActive = true
-        label = "Macro"
-        default = false
-      },
-    ]
     restricted = true
     label = "Launch Source"
     createable = false
@@ -223,9 +116,6 @@ type salesforce.QuickTextUsage {
   salesforce.Lookup UserId {
     apiName = "QuickTextUsage.UserId"
     relationshipName = "User"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "User ID"
     createable = false
     updateable = false
@@ -234,26 +124,6 @@ type salesforce.QuickTextUsage {
   }
   salesforce.Picklist AppContext {
     apiName = "QuickTextUsage.AppContext"
-    valueSet = [
-      {
-        fullName = "Aloha"
-        isActive = true
-        label = "Aloha"
-        default = false
-      },
-      {
-        fullName = "Lightning"
-        isActive = true
-        label = "Lightning"
-        default = false
-      },
-      {
-        fullName = "Unknown"
-        isActive = true
-        label = "Unknown"
-        default = false
-      },
-    ]
     restricted = true
     label = "App Context"
     createable = false

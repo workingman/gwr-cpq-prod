@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__QuoteLineSave {
   label = "QuoteLineSave"
   fullName = "SBQQ__QuoteLineSave"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__QuoteLineSave.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "QuoteLineSave (SBQQ)"
 }

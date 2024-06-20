@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__InstallProcessorBatchAssetCombineKey {
   status = "Active"
   fullName = "SBQQ__InstallProcessorBatchAssetCombineKey"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__InstallProcessorBatchAssetCombineKey"
 }

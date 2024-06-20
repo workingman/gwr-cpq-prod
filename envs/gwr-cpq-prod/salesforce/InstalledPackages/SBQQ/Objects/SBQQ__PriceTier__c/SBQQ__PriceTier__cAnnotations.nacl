@@ -268,10 +268,5 @@ type salesforce.SBQQ__PriceTier__c {
   }
   historyTrackedFields = {
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Price Tier (SBQQ)"
 }

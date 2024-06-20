@@ -7,10 +7,5 @@ salesforce.ValidationRule SBQQ__QuoteLine__c_SBQQ__Markup_percent_or_amount {
   _parent = [
     salesforce.SBQQ__QuoteLine__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteLine__c.SBQQ__Markup_percent_or_amount"
 }

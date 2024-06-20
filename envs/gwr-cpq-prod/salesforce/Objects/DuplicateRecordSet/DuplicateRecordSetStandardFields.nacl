@@ -2,9 +2,6 @@ type salesforce.DuplicateRecordSet {
   salesforce.Lookup DuplicateRuleId {
     apiName = "DuplicateRecordSet.DuplicateRuleId"
     relationshipName = "DuplicateRule"
-    referenceTo = [
-      salesforce.DuplicateRule,
-    ]
     label = "Duplicate Rule ID"
     createable = true
     updateable = true
@@ -53,9 +50,6 @@ type salesforce.DuplicateRecordSet {
   salesforce.Lookup CreatedById {
     apiName = "DuplicateRecordSet.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -73,9 +67,6 @@ type salesforce.DuplicateRecordSet {
   salesforce.Lookup LastModifiedById {
     apiName = "DuplicateRecordSet.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

@@ -5,10 +5,5 @@ salesforce.CustomTab SBQQ__FieldSetMetadata__c {
   _parent = [
     salesforce.SBQQ__FieldSetMetadata__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__FieldSetMetadata__c"
 }

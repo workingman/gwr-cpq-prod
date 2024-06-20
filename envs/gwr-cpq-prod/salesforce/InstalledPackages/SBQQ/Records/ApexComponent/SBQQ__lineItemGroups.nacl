@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__lineItemGroups {
   label = "Line Item Groups"
   fullName = "SBQQ__lineItemGroups"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Line Item Groups (SBQQ)"
 }

@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__SolutionGroupModelTests {
   status = "Active"
   fullName = "SBQQ__SolutionGroupModelTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SolutionGroupModelTests"
 }

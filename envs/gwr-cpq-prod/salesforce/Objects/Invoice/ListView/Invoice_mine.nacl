@@ -3,13 +3,13 @@ salesforce.ListView Invoice_mine {
   columns = [
     "Name",
     "BillingAccount",
-    "Status",
-    "TotalAmount",
-    "TotalChargeAmount",
-    "TotalAdjustmentAmount",
-    "TotalTaxAmount",
-    "InvoiceDate",
-    "DueDate",
+    salesforce.Invoice.field.Status,
+    salesforce.Invoice.field.TotalAmount,
+    salesforce.Invoice.field.TotalChargeAmount,
+    salesforce.Invoice.field.TotalAdjustmentAmount,
+    salesforce.Invoice.field.TotalTaxAmount,
+    salesforce.Invoice.field.InvoiceDate,
+    salesforce.Invoice.field.DueDate,
   ]
   filterScope = "Mine"
   label = "My Invoices"

@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ProductServiceProviderTests {
   status = "Active"
   fullName = "SBQQ__ProductServiceProviderTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductServiceProviderTests"
 }

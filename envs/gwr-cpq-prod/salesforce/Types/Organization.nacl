@@ -136,6 +136,12 @@ settings salesforce.Organization {
         isActive = true
       },
       {
+        fullName = "ar_SD"
+        default = false
+        label = "Arabic (Sudan)"
+        isActive = true
+      },
+      {
         fullName = "ar_TN"
         default = false
         label = "Arabic (Tunisia)"
@@ -1569,12 +1575,6 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "Antarctica/Casey"
-        default = false
-        label = "(GMT+11:00) Casey Time (Antarctica/Casey)"
-        isActive = true
-      },
-      {
         fullName = "Asia/Magadan"
         default = false
         label = "(GMT+11:00) Magadan Standard Time (Asia/Magadan)"
@@ -1797,6 +1797,12 @@ settings salesforce.Organization {
         isActive = true
       },
       {
+        fullName = "Antarctica/Casey"
+        default = false
+        label = "(GMT+08:00) Casey Time (Antarctica/Casey)"
+        isActive = true
+      },
+      {
         fullName = "Asia/Brunei"
         default = false
         label = "(GMT+08:00) Brunei Darussalam Time (Asia/Brunei)"
@@ -1977,18 +1983,6 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "Antarctica/Vostok"
-        default = false
-        label = "(GMT+06:00) Vostok Time (Antarctica/Vostok)"
-        isActive = true
-      },
-      {
-        fullName = "Asia/Almaty"
-        default = false
-        label = "(GMT+06:00) East Kazakhstan Time (Asia/Almaty)"
-        isActive = true
-      },
-      {
         fullName = "Asia/Bishkek"
         default = false
         label = "(GMT+06:00) Kyrgyzstan Time (Asia/Bishkek)"
@@ -2004,12 +1998,6 @@ settings salesforce.Organization {
         fullName = "Asia/Omsk"
         default = false
         label = "(GMT+06:00) Omsk Standard Time (Asia/Omsk)"
-        isActive = true
-      },
-      {
-        fullName = "Asia/Qostanay"
-        default = false
-        label = "(GMT+06:00) East Kazakhstan Time (Asia/Qostanay)"
         isActive = true
       },
       {
@@ -2055,6 +2043,18 @@ settings salesforce.Organization {
         isActive = true
       },
       {
+        fullName = "Antarctica/Vostok"
+        default = false
+        label = "(GMT+05:00) Vostok Time (Antarctica/Vostok)"
+        isActive = true
+      },
+      {
+        fullName = "Asia/Almaty"
+        default = false
+        label = "(GMT+05:00) East Kazakhstan Time (Asia/Almaty)"
+        isActive = true
+      },
+      {
         fullName = "Asia/Aqtau"
         default = false
         label = "(GMT+05:00) West Kazakhstan Time (Asia/Aqtau)"
@@ -2094,6 +2094,12 @@ settings salesforce.Organization {
         fullName = "Asia/Oral"
         default = false
         label = "(GMT+05:00) West Kazakhstan Time (Asia/Oral)"
+        isActive = true
+      },
+      {
+        fullName = "Asia/Qostanay"
+        default = false
+        label = "(GMT+05:00) East Kazakhstan Time (Asia/Qostanay)"
         isActive = true
       },
       {
@@ -2502,6 +2508,12 @@ settings salesforce.Organization {
         fullName = "Africa/Juba"
         default = false
         label = "(GMT+02:00) Central Africa Time (Africa/Juba)"
+        isActive = true
+      },
+      {
+        fullName = "Africa/Khartoum"
+        default = false
+        label = "(GMT+02:00) Central Africa Time (Africa/Khartoum)"
         isActive = true
       },
       {
@@ -2985,12 +2997,6 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/Scoresbysund"
-        default = false
-        label = "(GMT+00:00) East Greenland Summer Time (America/Scoresbysund)"
-        isActive = true
-      },
-      {
         fullName = "Atlantic/Azores"
         default = false
         label = "(GMT+00:00) Azores Summer Time (Atlantic/Azores)"
@@ -3018,6 +3024,12 @@ settings salesforce.Organization {
         fullName = "America/Godthab"
         default = false
         label = "(GMT-01:00) West Greenland Summer Time (America/Godthab)"
+        isActive = true
+      },
+      {
+        fullName = "America/Scoresbysund"
+        default = false
+        label = "(GMT-01:00) East Greenland Summer Time (America/Scoresbysund)"
         isActive = true
       },
       {

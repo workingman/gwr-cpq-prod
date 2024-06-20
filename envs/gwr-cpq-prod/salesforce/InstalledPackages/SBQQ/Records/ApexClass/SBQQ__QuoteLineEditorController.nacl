@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__QuoteLineEditorController {
   status = "Active"
   fullName = "SBQQ__QuoteLineEditorController"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__QuoteLineEditorController.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteLineEditorController"
 }

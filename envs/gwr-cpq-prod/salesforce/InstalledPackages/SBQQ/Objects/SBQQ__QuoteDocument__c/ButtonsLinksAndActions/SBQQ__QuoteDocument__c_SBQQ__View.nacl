@@ -19,10 +19,5 @@ salesforce.WebLink SBQQ__QuoteDocument__c_SBQQ__View {
   _parent = [
     salesforce.SBQQ__QuoteDocument__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteDocument__c.SBQQ__View"
 }

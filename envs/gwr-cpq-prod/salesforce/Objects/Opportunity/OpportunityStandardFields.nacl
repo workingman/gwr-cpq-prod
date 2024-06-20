@@ -3,9 +3,6 @@ type salesforce.Opportunity {
     apiName = "Opportunity.AccountId"
     trackTrending = false
     relationshipName = "Account"
-    referenceTo = [
-      salesforce.Account,
-    ]
     label = "Account ID"
     createable = true
     updateable = true
@@ -25,9 +22,6 @@ type salesforce.Opportunity {
     apiName = "Opportunity.CampaignId"
     trackTrending = false
     relationshipName = "Campaign"
-    referenceTo = [
-      salesforce.Campaign,
-    ]
     label = "Campaign ID"
     createable = true
     updateable = true
@@ -118,9 +112,6 @@ type salesforce.Opportunity {
     apiName = "Opportunity.OwnerId"
     trackTrending = false
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -131,9 +122,6 @@ type salesforce.Opportunity {
     apiName = "Opportunity.Pricebook2Id"
     trackTrending = false
     relationshipName = "Pricebook2"
-    referenceTo = [
-      salesforce.Pricebook2,
-    ]
     label = "Price Book ID"
     createable = true
     updateable = true
@@ -216,44 +204,6 @@ type salesforce.Opportunity {
   }
   salesforce.Picklist ForecastCategory {
     apiName = "Opportunity.ForecastCategory"
-    valueSet = [
-      {
-        fullName = "Omitted"
-        isActive = true
-        label = "Omitted"
-        default = false
-      },
-      {
-        fullName = "Pipeline"
-        isActive = true
-        label = "Pipeline"
-        default = false
-      },
-      {
-        fullName = "BestCase"
-        isActive = true
-        label = "Best Case"
-        default = false
-      },
-      {
-        fullName = "MostLikely"
-        isActive = true
-        label = "Most Likely"
-        default = false
-      },
-      {
-        fullName = "Forecast"
-        isActive = true
-        label = "Commit"
-        default = false
-      },
-      {
-        fullName = "Closed"
-        isActive = true
-        label = "Closed"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Forecast Category"
@@ -264,38 +214,6 @@ type salesforce.Opportunity {
   }
   salesforce.Picklist ForecastCategoryName {
     apiName = "Opportunity.ForecastCategoryName"
-    valueSet = [
-      {
-        fullName = "Omitted"
-        isActive = true
-        label = "Omitted"
-        default = false
-      },
-      {
-        fullName = "Pipeline"
-        isActive = true
-        label = "Pipeline"
-        default = false
-      },
-      {
-        fullName = "Best Case"
-        isActive = true
-        label = "Best Case"
-        default = false
-      },
-      {
-        fullName = "Commit"
-        isActive = true
-        label = "Commit"
-        default = false
-      },
-      {
-        fullName = "Closed"
-        isActive = true
-        label = "Closed"
-        default = false
-      },
-    ]
     restricted = true
     label = "Forecast Category"
     createable = true
@@ -322,9 +240,6 @@ type salesforce.Opportunity {
   salesforce.Lookup CreatedById {
     apiName = "Opportunity.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -342,9 +257,6 @@ type salesforce.Opportunity {
   salesforce.Lookup LastModifiedById {
     apiName = "Opportunity.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -399,9 +311,6 @@ type salesforce.Opportunity {
   }
   salesforce.Lookup ContactId {
     apiName = "Opportunity.ContactId"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     label = "Contact ID"
     createable = true
     updateable = false
@@ -428,9 +337,6 @@ type salesforce.Opportunity {
   salesforce.Lookup LastAmountChangedHistoryId {
     apiName = "Opportunity.LastAmountChangedHistoryId"
     relationshipName = "LastAmountChangedHistory"
-    referenceTo = [
-      "OpportunityHistory",
-    ]
     label = "Opportunity History ID"
     createable = false
     updateable = false
@@ -440,9 +346,6 @@ type salesforce.Opportunity {
   salesforce.Lookup LastCloseDateChangedHistoryId {
     apiName = "Opportunity.LastCloseDateChangedHistoryId"
     relationshipName = "LastCloseDateChangedHistory"
-    referenceTo = [
-      "OpportunityHistory",
-    ]
     label = "Opportunity History ID"
     createable = false
     updateable = false

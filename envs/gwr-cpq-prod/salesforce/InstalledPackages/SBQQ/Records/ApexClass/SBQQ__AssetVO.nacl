@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__AssetVO {
   status = "Active"
   fullName = "SBQQ__AssetVO"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__AssetVO"
 }

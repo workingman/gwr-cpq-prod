@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__documentFooter {
   label = "Document Footer"
   fullName = "SBQQ__documentFooter"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Document Footer (SBQQ)"
 }

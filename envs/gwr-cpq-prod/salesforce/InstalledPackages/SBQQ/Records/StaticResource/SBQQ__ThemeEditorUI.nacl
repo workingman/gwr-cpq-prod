@@ -3,10 +3,5 @@ salesforce.StaticResource SBQQ__ThemeEditorUI {
   contentType = "text/javascript"
   fullName = "SBQQ__ThemeEditorUI"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__ThemeEditorUI.resource")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ThemeEditorUI"
 }

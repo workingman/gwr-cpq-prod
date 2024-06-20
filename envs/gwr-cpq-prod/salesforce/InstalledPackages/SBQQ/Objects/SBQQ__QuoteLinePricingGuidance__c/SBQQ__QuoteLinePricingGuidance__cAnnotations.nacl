@@ -266,10 +266,5 @@ type salesforce.SBQQ__QuoteLinePricingGuidance__c {
   }
   historyTrackedFields = {
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Quote Line Pricing Guidance (SBQQ)"
 }

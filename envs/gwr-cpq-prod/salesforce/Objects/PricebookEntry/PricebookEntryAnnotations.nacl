@@ -60,6 +60,20 @@ type salesforce.PricebookEntry {
   label = "Price Book Entry"
   actionOverrides = [
     {
+      actionName = "AddPricebookEntry"
+      type = "Default"
+    },
+    {
+      actionName = "AddPricebookEntry"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "AddPricebookEntry"
+      formFactor = "Small"
+      type = "Default"
+    },
+    {
       actionName = "AddPricebookEntryOnPricebook"
       type = "Default"
     },

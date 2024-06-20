@@ -8,10 +8,6 @@ type salesforce.ExternalEventMapping {
   salesforce.Lookup OwnerId {
     apiName = "ExternalEventMapping.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -46,9 +42,6 @@ type salesforce.ExternalEventMapping {
   salesforce.Lookup CreatedById {
     apiName = "ExternalEventMapping.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -66,9 +59,6 @@ type salesforce.ExternalEventMapping {
   salesforce.Lookup LastModifiedById {
     apiName = "ExternalEventMapping.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -96,9 +86,6 @@ type salesforce.ExternalEventMapping {
   salesforce.Lookup EventId {
     apiName = "ExternalEventMapping.EventId"
     relationshipName = "Event"
-    referenceTo = [
-      salesforce.Event,
-    ]
     label = "Activity ID"
     createable = true
     updateable = true

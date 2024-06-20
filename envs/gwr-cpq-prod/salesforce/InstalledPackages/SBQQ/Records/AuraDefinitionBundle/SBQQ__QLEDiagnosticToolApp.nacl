@@ -4,10 +4,5 @@ salesforce.AuraDefinitionBundle SBQQ__QLEDiagnosticToolApp {
   fullName = "SBQQ__QLEDiagnosticToolApp"
   type = "Application"
   markup = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QLEDiagnosticToolApp"
 }

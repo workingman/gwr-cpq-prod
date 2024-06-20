@@ -6,10 +6,5 @@ salesforce.AuraDefinitionBundle SBQQ__createOrder {
   helperContent = "(hidden)"
   controllerContent = "(hidden)"
   markup = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__createOrder"
 }

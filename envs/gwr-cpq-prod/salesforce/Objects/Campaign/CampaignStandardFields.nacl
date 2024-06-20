@@ -42,9 +42,6 @@ type salesforce.Campaign {
   salesforce.Lookup CampaignMemberRecordTypeId {
     apiName = "Campaign.CampaignMemberRecordTypeId"
     relationshipName = "CampaignMemberRecordType"
-    referenceTo = [
-      salesforce.RecordType,
-    ]
     label = "Record Type ID"
     createable = true
     updateable = true
@@ -235,9 +232,6 @@ type salesforce.Campaign {
   salesforce.Lookup OwnerId {
     apiName = "Campaign.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -247,9 +241,6 @@ type salesforce.Campaign {
   salesforce.Lookup ParentId {
     apiName = "Campaign.ParentId"
     relationshipName = "Parent"
-    referenceTo = [
-      salesforce.Campaign,
-    ]
     label = "Parent Campaign ID"
     createable = true
     updateable = true
@@ -306,9 +297,6 @@ type salesforce.Campaign {
   salesforce.Lookup CreatedById {
     apiName = "Campaign.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -326,9 +314,6 @@ type salesforce.Campaign {
   salesforce.Lookup LastModifiedById {
     apiName = "Campaign.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__container {
   label = "Container"
   fullName = "SBQQ__container"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Container (SBQQ)"
 }

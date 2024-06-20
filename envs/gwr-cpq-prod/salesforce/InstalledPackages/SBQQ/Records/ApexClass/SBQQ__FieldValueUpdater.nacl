@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__FieldValueUpdater {
   status = "Active"
   fullName = "SBQQ__FieldValueUpdater"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__FieldValueUpdater.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__FieldValueUpdater"
 }

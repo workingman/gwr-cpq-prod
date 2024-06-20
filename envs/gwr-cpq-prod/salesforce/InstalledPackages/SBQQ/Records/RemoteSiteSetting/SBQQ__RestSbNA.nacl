@@ -3,10 +3,5 @@ salesforce.RemoteSiteSetting SBQQ__RestSbNA {
   disableProtocolSecurity = false
   isActive = true
   url = "https://rest-sb-na.steelbrick.com"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__RestSbNA"
 }

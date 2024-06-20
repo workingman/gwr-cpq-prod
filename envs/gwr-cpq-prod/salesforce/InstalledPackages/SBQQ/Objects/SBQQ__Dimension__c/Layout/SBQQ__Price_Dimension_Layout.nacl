@@ -145,10 +145,5 @@ salesforce.Layout SBQQ__Dimension__c_SBQQ__Price_Dimension_Layout@uuuubuuss {
   _parent = [
     salesforce.SBQQ__Dimension__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__Dimension__c-SBQQ__Price Dimension Layout"
 }

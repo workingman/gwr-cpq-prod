@@ -12,10 +12,5 @@ salesforce.WebLink SBQQ__PriceRule__c_SBQQ__CloneWithRelated {
   _parent = [
     salesforce.SBQQ__PriceRule__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__PriceRule__c.SBQQ__CloneWithRelated"
 }

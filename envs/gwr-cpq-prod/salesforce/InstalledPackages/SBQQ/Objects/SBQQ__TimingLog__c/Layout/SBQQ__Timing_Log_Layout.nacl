@@ -90,10 +90,5 @@ salesforce.Layout SBQQ__TimingLog__c_SBQQ__Timing_Log_Layout@uuuubuuss {
   _parent = [
     salesforce.SBQQ__TimingLog__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__TimingLog__c-SBQQ__Timing Log Layout"
 }

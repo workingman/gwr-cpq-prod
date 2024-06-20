@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__AbstractReferencedFieldGenerator {
   status = "Active"
   fullName = "SBQQ__AbstractReferencedFieldGenerator"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__AbstractReferencedFieldGenerator"
 }

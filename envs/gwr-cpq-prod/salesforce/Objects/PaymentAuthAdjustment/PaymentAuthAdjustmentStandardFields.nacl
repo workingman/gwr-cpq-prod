@@ -2,9 +2,6 @@ type salesforce.PaymentAuthAdjustment {
   salesforce.Lookup AccountId {
     apiName = "PaymentAuthAdjustment.AccountId"
     relationshipName = "Account"
-    referenceTo = [
-      salesforce.Account,
-    ]
     label = "Account ID"
     createable = true
     updateable = true
@@ -118,9 +115,6 @@ type salesforce.PaymentAuthAdjustment {
   salesforce.MasterDetail PaymentAuthorizationId {
     apiName = "PaymentAuthAdjustment.PaymentAuthorizationId"
     relationshipName = "PaymentAuthorization"
-    referenceTo = [
-      salesforce.PaymentAuthorization,
-    ]
     _required = true
     label = "Payment Authorization ID"
     createable = true
@@ -136,20 +130,6 @@ type salesforce.PaymentAuthAdjustment {
   }
   salesforce.Picklist ProcessingMode {
     apiName = "PaymentAuthAdjustment.ProcessingMode"
-    valueSet = [
-      {
-        fullName = "Salesforce"
-        isActive = true
-        label = "Salesforce"
-        default = false
-      },
-      {
-        fullName = "External"
-        isActive = true
-        label = "External"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Processing Mode"
@@ -159,50 +139,6 @@ type salesforce.PaymentAuthAdjustment {
   }
   salesforce.Picklist SfResultCode {
     apiName = "PaymentAuthAdjustment.SfResultCode"
-    valueSet = [
-      {
-        fullName = "Success"
-        isActive = true
-        label = "Success"
-        default = false
-      },
-      {
-        fullName = "PermanentFail"
-        isActive = true
-        label = "Permanent Fail"
-        default = false
-      },
-      {
-        fullName = "Decline"
-        isActive = true
-        label = "Decline"
-        default = false
-      },
-      {
-        fullName = "RequiresReview"
-        isActive = true
-        label = "Requires Review"
-        default = false
-      },
-      {
-        fullName = "Indeterminate"
-        isActive = true
-        label = "Indeterminate"
-        default = false
-      },
-      {
-        fullName = "SystemError"
-        isActive = true
-        label = "System Error"
-        default = false
-      },
-      {
-        fullName = "ValidationError"
-        isActive = true
-        label = "Validation Error"
-        default = false
-      },
-    ]
     restricted = true
     label = "Salesforce Result Code"
     createable = true
@@ -211,26 +147,6 @@ type salesforce.PaymentAuthAdjustment {
   }
   salesforce.Picklist Status {
     apiName = "PaymentAuthAdjustment.Status"
-    valueSet = [
-      {
-        fullName = "Draft"
-        isActive = true
-        label = "Draft"
-        default = false
-      },
-      {
-        fullName = "Processed"
-        isActive = true
-        label = "Processed"
-        default = false
-      },
-      {
-        fullName = "Canceled"
-        isActive = true
-        label = "Canceled"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Status"
@@ -240,14 +156,6 @@ type salesforce.PaymentAuthAdjustment {
   }
   salesforce.Picklist Type {
     apiName = "PaymentAuthAdjustment.Type"
-    valueSet = [
-      {
-        fullName = "Reversal"
-        isActive = true
-        label = "Reversal"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Adjustment Type"
@@ -289,9 +197,6 @@ type salesforce.PaymentAuthAdjustment {
   salesforce.Lookup CreatedById {
     apiName = "PaymentAuthAdjustment.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -309,9 +214,6 @@ type salesforce.PaymentAuthAdjustment {
   salesforce.Lookup LastModifiedById {
     apiName = "PaymentAuthAdjustment.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

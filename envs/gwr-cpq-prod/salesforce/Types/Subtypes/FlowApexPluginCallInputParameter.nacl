@@ -65,6 +65,7 @@ type salesforce.FlowApexPluginCallInputParameter {
       "InteractionDataInput",
       "InteractionDataOutput",
       "InteractionDecision",
+      "InteractionExperiment",
       "InteractionForm",
       "InteractionFormula",
       "InteractionLoop",

@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__customSegmentsEditor {
   label = "Custom Segments Editor"
   fullName = "SBQQ__customSegmentsEditor"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Custom Segments Editor (SBQQ)"
 }

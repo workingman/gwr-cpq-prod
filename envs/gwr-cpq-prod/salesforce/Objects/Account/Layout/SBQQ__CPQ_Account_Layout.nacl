@@ -374,10 +374,5 @@ salesforce.Layout Account_SBQQ__CPQ_Account_Layout@buuss {
   _parent = [
     salesforce.Account,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Account-SBQQ__CPQ Account Layout"
 }

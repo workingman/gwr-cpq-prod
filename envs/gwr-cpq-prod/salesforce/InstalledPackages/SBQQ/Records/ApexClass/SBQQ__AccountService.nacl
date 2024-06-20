@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__AccountService {
   status = "Active"
   fullName = "SBQQ__AccountService"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__AccountService"
 }

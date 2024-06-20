@@ -12,10 +12,5 @@ salesforce.WebLink Account_SBQQ__Renew_Assets {
   _parent = [
     salesforce.Account,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Account.SBQQ__Renew_Assets"
 }

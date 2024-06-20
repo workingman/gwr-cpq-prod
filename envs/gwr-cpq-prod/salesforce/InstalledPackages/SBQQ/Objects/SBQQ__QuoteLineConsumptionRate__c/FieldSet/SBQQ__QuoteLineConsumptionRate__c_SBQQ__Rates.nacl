@@ -42,10 +42,5 @@ salesforce.FieldSet SBQQ__QuoteLineConsumptionRate__c_SBQQ__Rates {
   _parent = [
     salesforce.SBQQ__QuoteLineConsumptionRate__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Rates (SBQQ)"
 }

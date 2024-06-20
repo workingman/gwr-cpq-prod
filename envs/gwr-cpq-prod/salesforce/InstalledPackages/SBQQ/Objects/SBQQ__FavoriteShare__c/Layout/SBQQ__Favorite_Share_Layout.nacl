@@ -78,10 +78,5 @@ salesforce.Layout SBQQ__FavoriteShare__c_SBQQ__Favorite_Share_Layout@uuuubuuss {
   _parent = [
     salesforce.SBQQ__FavoriteShare__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__FavoriteShare__c-SBQQ__Favorite Share Layout"
 }

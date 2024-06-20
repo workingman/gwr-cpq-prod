@@ -289,10 +289,5 @@ type salesforce.SBQQ__PricingGuidance__c {
   }
   historyTrackedFields = {
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Pricing Guidance (SBQQ)"
 }

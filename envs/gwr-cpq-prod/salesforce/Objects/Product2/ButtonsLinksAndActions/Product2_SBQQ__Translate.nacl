@@ -11,10 +11,5 @@ salesforce.WebLink Product2_SBQQ__Translate {
   _parent = [
     salesforce.Product2,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Product2.SBQQ__Translate"
 }

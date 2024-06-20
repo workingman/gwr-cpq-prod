@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__SummaryVariableTrigger {
   status = "Active"
   fullName = "SBQQ__SummaryVariableTrigger"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SummaryVariableTrigger"
 }

@@ -2,50 +2,6 @@ type salesforce.EngagementChannelType {
   salesforce.Picklist ContactPointType {
     apiName = "EngagementChannelType.ContactPointType"
     inlineHelpText = "The contact point type record associated with the engagement channel type."
-    valueSet = [
-      {
-        fullName = "Email"
-        isActive = true
-        label = "Email"
-        default = false
-      },
-      {
-        fullName = "Phone"
-        isActive = true
-        label = "Phone"
-        default = false
-      },
-      {
-        fullName = "Web"
-        isActive = true
-        label = "Web"
-        default = false
-      },
-      {
-        fullName = "Social"
-        isActive = true
-        label = "Social"
-        default = false
-      },
-      {
-        fullName = "MailingAddress"
-        isActive = true
-        label = "Mailing Address"
-        default = false
-      },
-      {
-        fullName = "InPerson"
-        isActive = true
-        label = "In Person"
-        default = false
-      },
-      {
-        fullName = "Video"
-        isActive = true
-        label = "Video"
-        default = false
-      },
-    ]
     restricted = true
     label = "Contact Point Type"
     createable = true
@@ -66,10 +22,6 @@ type salesforce.EngagementChannelType {
   salesforce.Lookup OwnerId {
     apiName = "EngagementChannelType.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -102,9 +54,6 @@ type salesforce.EngagementChannelType {
   salesforce.Lookup CreatedById {
     apiName = "EngagementChannelType.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -122,9 +71,6 @@ type salesforce.EngagementChannelType {
   salesforce.Lookup LastModifiedById {
     apiName = "EngagementChannelType.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

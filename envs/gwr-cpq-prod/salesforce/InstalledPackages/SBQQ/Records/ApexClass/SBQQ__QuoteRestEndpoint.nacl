@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__QuoteRestEndpoint {
   status = "Active"
   fullName = "SBQQ__QuoteRestEndpoint"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__QuoteRestEndpoint.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteRestEndpoint"
 }

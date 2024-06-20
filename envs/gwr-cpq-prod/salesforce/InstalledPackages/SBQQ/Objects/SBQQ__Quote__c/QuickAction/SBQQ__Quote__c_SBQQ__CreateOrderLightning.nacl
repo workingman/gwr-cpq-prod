@@ -10,10 +10,5 @@ salesforce.QuickAction SBQQ__Quote__c_SBQQ__CreateOrderLightning@uuuuvuu {
   _parent = [
     salesforce.SBQQ__Quote__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Create Order (SBQQ)"
 }

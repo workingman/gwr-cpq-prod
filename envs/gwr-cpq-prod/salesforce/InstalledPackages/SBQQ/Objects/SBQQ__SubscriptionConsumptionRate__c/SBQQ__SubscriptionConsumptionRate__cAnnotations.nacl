@@ -262,10 +262,5 @@ type salesforce.SBQQ__SubscriptionConsumptionRate__c {
   topicsForObjects = {
     enableTopics = false
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Subscription Consumption Rate (SBQQ)"
 }

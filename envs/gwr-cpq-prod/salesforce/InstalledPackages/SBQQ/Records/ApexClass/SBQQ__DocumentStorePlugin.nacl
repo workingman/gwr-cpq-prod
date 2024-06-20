@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__DocumentStorePlugin {
   status = "Active"
   fullName = "SBQQ__DocumentStorePlugin"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__DocumentStorePlugin.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__DocumentStorePlugin"
 }

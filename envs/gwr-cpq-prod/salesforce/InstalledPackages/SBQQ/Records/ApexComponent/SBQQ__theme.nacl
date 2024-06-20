@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__theme {
   label = "theme"
   fullName = "SBQQ__theme"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "theme (SBQQ)"
 }

@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__paginationControls {
   label = "paginationControls"
   fullName = "SBQQ__paginationControls"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "paginationControls (SBQQ)"
 }

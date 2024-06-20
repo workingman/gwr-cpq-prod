@@ -55,10 +55,5 @@ salesforce.QuickAction SBQQ__NewEvent {
   standardLabel = "New"
   targetObject = salesforce.Event
   type = "Create"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__NewEvent"
 }

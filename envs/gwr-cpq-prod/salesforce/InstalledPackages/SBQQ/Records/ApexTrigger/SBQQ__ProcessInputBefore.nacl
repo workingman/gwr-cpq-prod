@@ -10,10 +10,5 @@ salesforce.ApexTrigger SBQQ__ProcessInputBefore {
   status = "Active"
   fullName = "SBQQ__ProcessInputBefore"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProcessInputBefore"
 }

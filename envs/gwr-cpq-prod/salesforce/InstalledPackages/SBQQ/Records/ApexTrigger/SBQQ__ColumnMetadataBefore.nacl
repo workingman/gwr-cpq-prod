@@ -10,10 +10,5 @@ salesforce.ApexTrigger SBQQ__ColumnMetadataBefore {
   status = "Active"
   fullName = "SBQQ__ColumnMetadataBefore"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ColumnMetadataBefore"
 }

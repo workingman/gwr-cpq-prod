@@ -3,10 +3,5 @@ salesforce.StaticResource SBQQ__UIBootstrap {
   contentType = "text/javascript"
   fullName = "SBQQ__UIBootstrap"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__UIBootstrap.resource")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__UIBootstrap"
 }

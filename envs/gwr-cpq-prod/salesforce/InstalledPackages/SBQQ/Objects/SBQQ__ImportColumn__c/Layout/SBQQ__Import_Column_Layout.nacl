@@ -88,10 +88,5 @@ salesforce.Layout SBQQ__ImportColumn__c_SBQQ__Import_Column_Layout@uuuubuuss {
   _parent = [
     salesforce.SBQQ__ImportColumn__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ImportColumn__c-SBQQ__Import Column Layout"
 }

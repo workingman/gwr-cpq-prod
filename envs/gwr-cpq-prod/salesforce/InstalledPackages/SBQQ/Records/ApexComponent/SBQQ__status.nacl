@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__status {
   label = "status"
   fullName = "SBQQ__status"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "status (SBQQ)"
 }

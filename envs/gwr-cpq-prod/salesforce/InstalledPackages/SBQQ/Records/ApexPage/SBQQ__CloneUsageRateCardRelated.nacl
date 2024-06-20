@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__CloneUsageRateCardRelated {
   label = "CloneUsageRateCardRelated"
   fullName = "SBQQ__CloneUsageRateCardRelated"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__CloneUsageRateCardRelated.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "CloneUsageRateCardRelated (SBQQ)"
 }

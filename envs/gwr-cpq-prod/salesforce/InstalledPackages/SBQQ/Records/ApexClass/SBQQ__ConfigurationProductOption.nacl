@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ConfigurationProductOption {
   status = "Active"
   fullName = "SBQQ__ConfigurationProductOption"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ConfigurationProductOption"
 }

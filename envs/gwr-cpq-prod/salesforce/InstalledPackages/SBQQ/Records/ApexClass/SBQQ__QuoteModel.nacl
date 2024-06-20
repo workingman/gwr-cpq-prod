@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__QuoteModel {
   status = "Active"
   fullName = "SBQQ__QuoteModel"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteModel"
 }

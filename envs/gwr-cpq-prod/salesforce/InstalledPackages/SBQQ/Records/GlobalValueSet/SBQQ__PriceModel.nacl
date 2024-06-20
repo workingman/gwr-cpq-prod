@@ -15,10 +15,5 @@ salesforce.GlobalValueSet SBQQ__PriceModel {
   description = "The price model that determines how prices are calculated."
   masterLabel = "Price Model"
   sorted = false
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__PriceModel"
 }

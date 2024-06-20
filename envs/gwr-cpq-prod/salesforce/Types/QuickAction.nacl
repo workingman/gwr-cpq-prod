@@ -80,6 +80,7 @@ type salesforce.QuickAction {
         "New",
         "NewChild",
         "NewChildRecordType",
+        "NewQuote",
         "NewRecordType",
         "OfferFeedback",
         "PatientDetails",

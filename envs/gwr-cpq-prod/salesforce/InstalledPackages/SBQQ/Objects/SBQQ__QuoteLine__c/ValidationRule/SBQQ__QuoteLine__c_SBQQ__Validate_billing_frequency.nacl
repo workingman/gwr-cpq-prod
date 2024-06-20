@@ -8,10 +8,5 @@ salesforce.ValidationRule SBQQ__QuoteLine__c_SBQQ__Validate_billing_frequency {
   _parent = [
     salesforce.SBQQ__QuoteLine__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteLine__c.SBQQ__Validate_billing_frequency"
 }

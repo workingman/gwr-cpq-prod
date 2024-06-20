@@ -28,7 +28,7 @@ type salesforce.LegalEntity {
     apiName = "LegalEntity.Name"
     length = 255
     _required = true
-    label = "Name"
+    label = "Legal Entity Name"
     createable = true
     updateable = true
     unique = false
@@ -38,10 +38,6 @@ type salesforce.LegalEntity {
   salesforce.Lookup OwnerId {
     apiName = "LegalEntity.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -50,20 +46,6 @@ type salesforce.LegalEntity {
   }
   salesforce.Picklist Status {
     apiName = "LegalEntity.Status"
-    valueSet = [
-      {
-        fullName = "Active"
-        isActive = true
-        label = "Active"
-        default = false
-      },
-      {
-        fullName = "Inactive"
-        isActive = true
-        label = "Inactive"
-        default = false
-      },
-    ]
     restricted = true
     label = "Status"
     createable = true
@@ -96,9 +78,6 @@ type salesforce.LegalEntity {
   salesforce.Lookup CreatedById {
     apiName = "LegalEntity.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -116,9 +95,6 @@ type salesforce.LegalEntity {
   salesforce.Lookup LastModifiedById {
     apiName = "LegalEntity.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

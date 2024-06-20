@@ -12,10 +12,5 @@ salesforce.WebLink SBQQ__WebQuote__c_SBQQ__RefreshMultiplePrices {
   _parent = [
     salesforce.SBQQ__WebQuote__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__WebQuote__c.SBQQ__RefreshMultiplePrices"
 }

@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__SearchFilterDAOTest {
   status = "Active"
   fullName = "SBQQ__SearchFilterDAOTest"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SearchFilterDAOTest"
 }

@@ -192,10 +192,5 @@ salesforce.Layout SBQQ__QuoteTerm__c_SBQQ__Quote_Term_Layout@uuuubuuss {
   _parent = [
     salesforce.SBQQ__QuoteTerm__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteTerm__c-SBQQ__Quote Term Layout"
 }

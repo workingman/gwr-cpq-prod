@@ -15,9 +15,15 @@ type salesforce.SearchCustomization {
   }
   serviceid fullName {
   }
-  boolean isProtected {
-  }
   string masterLabel {
+  }
+  salesforce.SearchCustomizationObjectOverride objectOverride {
+  }
+  string objectToAlwaysSearch {
+  }
+  string profile {
+  }
+  string selectedObject {
   }
   string internalId {
     _hidden_value = true

@@ -2,9 +2,6 @@ type salesforce.Contact {
   salesforce.Lookup AccountId {
     apiName = "Contact.AccountId"
     relationshipName = "Account"
-    referenceTo = [
-      salesforce.Account,
-    ]
     label = "Account ID"
     createable = true
     updateable = true
@@ -36,61 +33,15 @@ type salesforce.Contact {
   }
   salesforce.Picklist CleanStatus {
     apiName = "Contact.CleanStatus"
-    valueSet = [
-      {
-        fullName = "Matched"
-        isActive = true
-        label = "In Sync"
-        default = false
-      },
-      {
-        fullName = "Different"
-        isActive = true
-        label = "Different"
-        default = false
-      },
-      {
-        fullName = "Acknowledged"
-        isActive = true
-        label = "Reviewed"
-        default = false
-      },
-      {
-        fullName = "NotFound"
-        isActive = true
-        label = "Not Found"
-        default = false
-      },
-      {
-        fullName = "Inactive"
-        isActive = true
-        label = "Inactive"
-        default = false
-      },
-      {
-        fullName = "Pending"
-        isActive = true
-        label = "Not Compared"
-        default = false
-      },
-      {
-        fullName = "SelectMatch"
-        isActive = true
-        label = "Select Match"
-        default = false
-      },
-      {
-        fullName = "Skipped"
-        isActive = true
-        label = "Skipped"
-        default = false
-      },
-    ]
     restricted = true
     label = "Clean Status"
     createable = true
     updateable = true
     queryable = true
+  }
+  salesforce.Unknown ContactSource {
+    apiName = "Contact.ContactSource"
+    _hidden_value = true
   }
   salesforce.Text Department {
     apiName = "Contact.Department"
@@ -151,9 +102,6 @@ type salesforce.Contact {
   salesforce.Lookup IndividualId {
     apiName = "Contact.IndividualId"
     relationshipName = "Individual"
-    referenceTo = [
-      salesforce.Individual,
-    ]
     label = "Individual ID"
     createable = true
     updateable = true
@@ -236,9 +184,6 @@ type salesforce.Contact {
   salesforce.Lookup OwnerId {
     apiName = "Contact.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -259,9 +204,6 @@ type salesforce.Contact {
   salesforce.Lookup ReportsToId {
     apiName = "Contact.ReportsToId"
     relationshipName = "ReportsTo"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     label = "Reports To ID"
     createable = true
     updateable = true
@@ -295,9 +237,6 @@ type salesforce.Contact {
   salesforce.Lookup MasterRecordId {
     apiName = "Contact.MasterRecordId"
     relationshipName = "MasterRecord"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     label = "Master Record ID"
     createable = false
     updateable = false
@@ -315,9 +254,6 @@ type salesforce.Contact {
   salesforce.Lookup CreatedById {
     apiName = "Contact.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -335,9 +271,6 @@ type salesforce.Contact {
   salesforce.Lookup LastModifiedById {
     apiName = "Contact.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

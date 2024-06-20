@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__TriggerControlTests {
   status = "Active"
   fullName = "SBQQ__TriggerControlTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__TriggerControlTests"
 }

@@ -68,10 +68,5 @@ salesforce.RecordType SBQQ__ConfigurationAttribute__c_SBQQ__Configuration_Attrib
   _parent = [
     salesforce.SBQQ__ConfigurationAttribute__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Configuration Attribute (SBQQ)"
 }

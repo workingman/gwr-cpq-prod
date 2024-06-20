@@ -7,10 +7,5 @@ salesforce.AuraDefinitionBundle SBQQ__QLEDiagnosticTool {
   markup = "(hidden)"
   styleContent = "(hidden)"
   helperContent = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QLEDiagnosticTool"
 }

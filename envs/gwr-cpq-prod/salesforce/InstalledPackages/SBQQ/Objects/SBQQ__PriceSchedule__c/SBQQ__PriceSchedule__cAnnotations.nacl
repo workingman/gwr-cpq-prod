@@ -281,10 +281,5 @@ type salesforce.SBQQ__PriceSchedule__c {
   }
   historyTrackedFields = {
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Price Schedule (SBQQ)"
 }

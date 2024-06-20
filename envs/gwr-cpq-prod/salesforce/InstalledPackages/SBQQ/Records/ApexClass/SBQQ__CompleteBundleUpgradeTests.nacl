@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__CompleteBundleUpgradeTests {
   status = "Active"
   fullName = "SBQQ__CompleteBundleUpgradeTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__CompleteBundleUpgradeTests"
 }

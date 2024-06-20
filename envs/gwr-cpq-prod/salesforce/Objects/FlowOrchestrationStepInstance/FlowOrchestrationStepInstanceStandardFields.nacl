@@ -14,9 +14,6 @@ type salesforce.FlowOrchestrationStepInstance {
   salesforce.Lookup OrchestrationInstanceId {
     apiName = "FlowOrchestrationStepInstance.OrchestrationInstanceId"
     relationshipName = "OrchestrationInstance"
-    referenceTo = [
-      salesforce.FlowOrchestrationInstance,
-    ]
     _required = true
     label = "Orchestration Run ID"
     createable = false
@@ -27,9 +24,6 @@ type salesforce.FlowOrchestrationStepInstance {
   salesforce.Lookup StageInstanceId {
     apiName = "FlowOrchestrationStepInstance.StageInstanceId"
     relationshipName = "StageInstance"
-    referenceTo = [
-      salesforce.FlowOrchestrationStageInstance,
-    ]
     _required = true
     label = "Orchestration Stage Run ID"
     createable = false
@@ -39,44 +33,6 @@ type salesforce.FlowOrchestrationStepInstance {
   }
   salesforce.Picklist Status {
     apiName = "FlowOrchestrationStepInstance.Status"
-    valueSet = [
-      {
-        fullName = "NotStarted"
-        isActive = true
-        label = "Not Started"
-        default = false
-      },
-      {
-        fullName = "InProgress"
-        isActive = true
-        label = "In Progress"
-        default = false
-      },
-      {
-        fullName = "Completed"
-        isActive = true
-        label = "Completed"
-        default = false
-      },
-      {
-        fullName = "Error"
-        isActive = true
-        label = "Error"
-        default = false
-      },
-      {
-        fullName = "Discontinued"
-        isActive = true
-        label = "Discontinued"
-        default = false
-      },
-      {
-        fullName = "Canceled"
-        isActive = true
-        label = "Canceled"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Status"
@@ -94,10 +50,6 @@ type salesforce.FlowOrchestrationStepInstance {
   salesforce.Lookup OwnerId {
     apiName = "FlowOrchestrationStepInstance.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = false
     updateable = true
@@ -136,9 +88,6 @@ type salesforce.FlowOrchestrationStepInstance {
   salesforce.Lookup CreatedById {
     apiName = "FlowOrchestrationStepInstance.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -156,9 +105,6 @@ type salesforce.FlowOrchestrationStepInstance {
   salesforce.Lookup LastModifiedById {
     apiName = "FlowOrchestrationStepInstance.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__BillingPlugin {
   status = "Active"
   fullName = "SBQQ__BillingPlugin"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__BillingPlugin.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__BillingPlugin"
 }

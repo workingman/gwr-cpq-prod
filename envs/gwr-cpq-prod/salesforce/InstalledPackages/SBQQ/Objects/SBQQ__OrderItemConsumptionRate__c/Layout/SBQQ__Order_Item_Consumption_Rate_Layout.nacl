@@ -100,10 +100,5 @@ salesforce.Layout SBQQ__OrderItemConsumptionRate__c_SBQQ__Order_Item_Consumption
   _parent = [
     salesforce.SBQQ__OrderItemConsumptionRate__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__OrderItemConsumptionRate__c-SBQQ__Order Item Consumption Rate Layout"
 }

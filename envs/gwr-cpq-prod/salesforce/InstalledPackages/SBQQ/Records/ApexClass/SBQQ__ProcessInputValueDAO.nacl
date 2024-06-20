@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ProcessInputValueDAO {
   status = "Active"
   fullName = "SBQQ__ProcessInputValueDAO"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProcessInputValueDAO"
 }

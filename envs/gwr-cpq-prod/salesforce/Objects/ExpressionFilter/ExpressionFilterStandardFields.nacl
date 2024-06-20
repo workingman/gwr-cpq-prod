@@ -33,9 +33,6 @@ type salesforce.ExpressionFilter {
   salesforce.Lookup CreatedById {
     apiName = "ExpressionFilter.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -53,9 +50,6 @@ type salesforce.ExpressionFilter {
   salesforce.Lookup LastModifiedById {
     apiName = "ExpressionFilter.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -83,9 +77,6 @@ type salesforce.ExpressionFilter {
   salesforce.Lookup ContextId {
     apiName = "ExpressionFilter.ContextId"
     relationshipName = "Context"
-    referenceTo = [
-      salesforce.MacroInstruction,
-    ]
     _required = true
     label = "Macro Instruction ID"
     createable = true

@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__QuoteCalculatorRefundTests {
   status = "Active"
   fullName = "SBQQ__QuoteCalculatorRefundTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteCalculatorRefundTests"
 }

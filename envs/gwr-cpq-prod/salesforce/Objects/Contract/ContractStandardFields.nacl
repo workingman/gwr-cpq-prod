@@ -2,9 +2,6 @@ type salesforce.Contract {
   salesforce.Lookup AccountId {
     apiName = "Contract.AccountId"
     relationshipName = "Account"
-    referenceTo = [
-      salesforce.Account,
-    ]
     _required = true
     label = "Account ID"
     createable = true
@@ -14,9 +11,6 @@ type salesforce.Contract {
   salesforce.Lookup ActivatedById {
     apiName = "Contract.ActivatedById"
     relationshipName = "ActivatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Activated By ID"
     createable = false
     updateable = true
@@ -47,9 +41,6 @@ type salesforce.Contract {
   salesforce.Lookup CompanySignedId {
     apiName = "Contract.CompanySignedId"
     relationshipName = "CompanySigned"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Company Signed By ID"
     createable = true
     updateable = true
@@ -75,9 +66,6 @@ type salesforce.Contract {
   salesforce.Lookup CustomerSignedId {
     apiName = "Contract.CustomerSignedId"
     relationshipName = "CustomerSigned"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     label = "Customer Signed By ID"
     createable = true
     updateable = true
@@ -115,44 +103,6 @@ type salesforce.Contract {
   }
   salesforce.Picklist OwnerExpirationNotice {
     apiName = "Contract.OwnerExpirationNotice"
-    valueSet = [
-      {
-        fullName = "15"
-        isActive = true
-        label = "15 Days"
-        default = false
-      },
-      {
-        fullName = "30"
-        isActive = true
-        label = "30 Days"
-        default = false
-      },
-      {
-        fullName = "45"
-        isActive = true
-        label = "45 Days"
-        default = false
-      },
-      {
-        fullName = "60"
-        isActive = true
-        label = "60 Days"
-        default = false
-      },
-      {
-        fullName = "90"
-        isActive = true
-        label = "90 Days"
-        default = false
-      },
-      {
-        fullName = "120"
-        isActive = true
-        label = "120 Days"
-        default = false
-      },
-    ]
     restricted = true
     label = "Owner Expiration Notice"
     createable = true
@@ -162,9 +112,6 @@ type salesforce.Contract {
   salesforce.Lookup OwnerId {
     apiName = "Contract.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -174,9 +121,6 @@ type salesforce.Contract {
   salesforce.Lookup Pricebook2Id {
     apiName = "Contract.Pricebook2Id"
     relationshipName = "Pricebook2"
-    referenceTo = [
-      salesforce.Pricebook2,
-    ]
     label = "Price Book ID"
     createable = true
     updateable = true
@@ -219,86 +163,6 @@ type salesforce.Contract {
   }
   salesforce.Picklist StatusCode {
     apiName = "Contract.StatusCode"
-    valueSet = [
-      {
-        fullName = "Draft"
-        isActive = true
-        label = "Draft"
-        default = false
-      },
-      {
-        fullName = "InApproval"
-        isActive = true
-        label = "In Approval Process"
-        default = false
-      },
-      {
-        fullName = "Activated"
-        isActive = true
-        label = "Activated"
-        default = false
-      },
-      {
-        fullName = "Terminated"
-        isActive = true
-        label = "Terminated"
-        default = false
-      },
-      {
-        fullName = "Expired"
-        isActive = true
-        label = "Expired"
-        default = false
-      },
-      {
-        fullName = "Rejected"
-        isActive = true
-        label = "Rejected"
-        default = false
-      },
-      {
-        fullName = "Negotiating"
-        isActive = true
-        label = "Negotiating"
-        default = false
-      },
-      {
-        fullName = "AwaitingSignature"
-        isActive = true
-        label = "Awaiting Signature"
-        default = false
-      },
-      {
-        fullName = "SignatureDeclined"
-        isActive = true
-        label = "Signature Declined"
-        default = false
-      },
-      {
-        fullName = "Signed"
-        isActive = true
-        label = "Signed"
-        default = false
-      },
-      {
-        fullName = "Cancelled"
-        isActive = true
-        label = "Canceled"
-        default = false
-      },
-      {
-        fullName = "Expired2"
-        isActive = true
-        label = "Contract Expired"
-        default = false
-      },
-      {
-        fullName = "Terminated2"
-        isActive = true
-        label = "Contract Terminated"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Status Category"
@@ -343,9 +207,6 @@ type salesforce.Contract {
   salesforce.Lookup CreatedById {
     apiName = "Contract.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -363,9 +224,6 @@ type salesforce.Contract {
   salesforce.Lookup LastModifiedById {
     apiName = "Contract.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

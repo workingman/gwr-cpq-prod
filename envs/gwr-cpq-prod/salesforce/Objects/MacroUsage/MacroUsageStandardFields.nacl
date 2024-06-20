@@ -8,10 +8,6 @@ type salesforce.MacroUsage {
   salesforce.Lookup OwnerId {
     apiName = "MacroUsage.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = false
     updateable = false
@@ -50,9 +46,6 @@ type salesforce.MacroUsage {
   salesforce.Lookup CreatedById {
     apiName = "MacroUsage.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -70,9 +63,6 @@ type salesforce.MacroUsage {
   salesforce.Lookup LastModifiedById {
     apiName = "MacroUsage.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -90,9 +80,6 @@ type salesforce.MacroUsage {
   salesforce.Lookup MacroId {
     apiName = "MacroUsage.MacroId"
     relationshipName = "Macro"
-    referenceTo = [
-      salesforce.Macro,
-    ]
     _required = true
     label = "Macro ID"
     createable = false
@@ -144,9 +131,6 @@ type salesforce.MacroUsage {
   salesforce.Lookup UserId {
     apiName = "MacroUsage.UserId"
     relationshipName = "User"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "User ID"
     createable = false
     updateable = false
@@ -164,26 +148,6 @@ type salesforce.MacroUsage {
   }
   salesforce.Picklist AppContext {
     apiName = "MacroUsage.AppContext"
-    valueSet = [
-      {
-        fullName = "Aloha"
-        isActive = true
-        label = "Aloha"
-        default = false
-      },
-      {
-        fullName = "Lightning"
-        isActive = true
-        label = "Lightning"
-        default = false
-      },
-      {
-        fullName = "Unknown"
-        isActive = true
-        label = "Unknown"
-        default = false
-      },
-    ]
     restricted = true
     label = "App Context"
     createable = false
@@ -204,26 +168,6 @@ type salesforce.MacroUsage {
   }
   salesforce.Picklist ExecutionState {
     apiName = "MacroUsage.ExecutionState"
-    valueSet = [
-      {
-        fullName = "SUCCESS"
-        isActive = true
-        label = "SUCCESS"
-        default = false
-      },
-      {
-        fullName = "CANCELED"
-        isActive = true
-        label = "CANCELED"
-        default = false
-      },
-      {
-        fullName = "FAILURE"
-        isActive = true
-        label = "FAILURE"
-        default = false
-      },
-    ]
     restricted = true
     label = "Execution State"
     createable = false
@@ -244,32 +188,6 @@ type salesforce.MacroUsage {
   }
   salesforce.Picklist FailureReason {
     apiName = "MacroUsage.FailureReason"
-    valueSet = [
-      {
-        fullName = "GENERIC"
-        isActive = true
-        label = "GENERIC"
-        default = false
-      },
-      {
-        fullName = "UNSUPPORTED"
-        isActive = true
-        label = "UNSUPPORTED"
-        default = false
-      },
-      {
-        fullName = "ACCESS"
-        isActive = true
-        label = "ACCESS"
-        default = false
-      },
-      {
-        fullName = "TIMEOUT"
-        isActive = true
-        label = "TIMEOUT"
-        default = false
-      },
-    ]
     restricted = true
     label = "Failure Reason"
     createable = false

@@ -6,10 +6,5 @@ salesforce.CustomTab SBQQ__CustomAction__c {
   _parent = [
     salesforce.SBQQ__CustomAction__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__CustomAction__c"
 }

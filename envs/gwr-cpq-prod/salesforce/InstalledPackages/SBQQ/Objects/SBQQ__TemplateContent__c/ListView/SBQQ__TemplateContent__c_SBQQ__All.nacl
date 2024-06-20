@@ -2,7 +2,7 @@ salesforce.ListView SBQQ__TemplateContent__c_SBQQ__All {
   fullName = "SBQQ__TemplateContent__c.SBQQ__All"
   columns = [
     "NAME",
-    "SBQQ__Type__c",
+    salesforce.SBQQ__TemplateContent__c.field.SBQQ__Type__c,
     "CREATED_DATE",
     "LAST_UPDATE",
   ]
@@ -10,11 +10,6 @@ salesforce.ListView SBQQ__TemplateContent__c_SBQQ__All {
   label = "All"
   _parent = [
     salesforce.SBQQ__TemplateContent__c,
-  ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
   ]
   _alias = "All (SBQQ)"
 }

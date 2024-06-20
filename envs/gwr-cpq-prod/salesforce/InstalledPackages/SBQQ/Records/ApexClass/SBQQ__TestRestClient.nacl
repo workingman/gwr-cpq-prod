@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__TestRestClient {
   status = "Active"
   fullName = "SBQQ__TestRestClient"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__TestRestClient"
 }

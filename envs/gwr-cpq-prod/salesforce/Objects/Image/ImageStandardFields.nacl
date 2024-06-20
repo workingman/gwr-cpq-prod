@@ -22,9 +22,6 @@ type salesforce.Image {
   salesforce.Lookup ContentDocumentId {
     apiName = "Image.ContentDocumentId"
     relationshipName = "ContentDocument"
-    referenceTo = [
-      "ContentDocument",
-    ]
     label = "ContentDocument ID"
     createable = true
     updateable = true
@@ -32,32 +29,6 @@ type salesforce.Image {
   }
   salesforce.Picklist ImageClass {
     apiName = "Image.ImageClass"
-    valueSet = [
-      {
-        fullName = "SCENES"
-        isActive = true
-        label = "Scenes"
-        default = true
-      },
-      {
-        fullName = "FOOD"
-        isActive = true
-        label = "Food"
-        default = false
-      },
-      {
-        fullName = "OBJECTS"
-        isActive = true
-        label = "Objects"
-        default = false
-      },
-      {
-        fullName = "LOGOS"
-        isActive = true
-        label = "Logos"
-        default = false
-      },
-    ]
     restricted = true
     label = "Category"
     createable = true
@@ -66,26 +37,6 @@ type salesforce.Image {
   }
   salesforce.Picklist ImageClassObjectType {
     apiName = "Image.ImageClassObjectType"
-    valueSet = [
-      {
-        fullName = "TRAINING"
-        isActive = true
-        label = "Training"
-        default = true
-      },
-      {
-        fullName = "DETECTION"
-        isActive = true
-        label = "Actual Image"
-        default = false
-      },
-      {
-        fullName = "FEEDBACK"
-        isActive = true
-        label = "Feedback"
-        default = false
-      },
-    ]
     restricted = true
     label = "Image Type"
     createable = true
@@ -146,10 +97,6 @@ type salesforce.Image {
   salesforce.Lookup OwnerId {
     apiName = "Image.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -176,9 +123,6 @@ type salesforce.Image {
   salesforce.Lookup CreatedById {
     apiName = "Image.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -196,9 +140,6 @@ type salesforce.Image {
   salesforce.Lookup LastModifiedById {
     apiName = "Image.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

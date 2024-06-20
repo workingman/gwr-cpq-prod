@@ -7,10 +7,5 @@ salesforce.ValidationRule Order_SBQQ__Cannot_Contract_New_Order {
   _parent = [
     salesforce.Order,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Order.SBQQ__Cannot_Contract_New_Order"
 }

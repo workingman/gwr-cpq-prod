@@ -106,10 +106,5 @@ salesforce.Layout SBQQ__Favorite__c_SBQQ__Favorite_Layout@uuuubuus {
   _parent = [
     salesforce.SBQQ__Favorite__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__Favorite__c-SBQQ__Favorite Layout"
 }

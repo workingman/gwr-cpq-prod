@@ -2,9 +2,6 @@ type salesforce.AuthorizationFormConsent {
   salesforce.Lookup AuthorizationFormTextId {
     apiName = "AuthorizationFormConsent.AuthorizationFormTextId"
     relationshipName = "AuthorizationFormText"
-    referenceTo = [
-      salesforce.AuthorizationFormText,
-    ]
     label = "Authorization Form Text ID"
     createable = true
     updateable = true
@@ -29,50 +26,6 @@ type salesforce.AuthorizationFormConsent {
   }
   salesforce.Picklist ConsentCapturedSourceType {
     apiName = "AuthorizationFormConsent.ConsentCapturedSourceType"
-    valueSet = [
-      {
-        fullName = "Email"
-        isActive = true
-        label = "Email"
-        default = false
-      },
-      {
-        fullName = "Phone"
-        isActive = true
-        label = "Phone"
-        default = false
-      },
-      {
-        fullName = "Web"
-        isActive = true
-        label = "Web"
-        default = false
-      },
-      {
-        fullName = "Social"
-        isActive = true
-        label = "Social"
-        default = false
-      },
-      {
-        fullName = "MailingAddress"
-        isActive = true
-        label = "Mailing Address"
-        default = false
-      },
-      {
-        fullName = "InPerson"
-        isActive = true
-        label = "In Person"
-        default = false
-      },
-      {
-        fullName = "Video"
-        isActive = true
-        label = "Video"
-        default = false
-      },
-    ]
     restricted = true
     label = "Consent Captured Source Type"
     createable = true
@@ -82,12 +35,6 @@ type salesforce.AuthorizationFormConsent {
   salesforce.Lookup ConsentGiverId {
     apiName = "AuthorizationFormConsent.ConsentGiverId"
     relationshipName = "ConsentGiver"
-    referenceTo = [
-      salesforce.Account,
-      salesforce.Contact,
-      salesforce.Individual,
-      salesforce.User,
-    ]
     _required = true
     label = "Consent Giver ID"
     createable = true
@@ -97,9 +44,6 @@ type salesforce.AuthorizationFormConsent {
   salesforce.Lookup DocumentVersionId {
     apiName = "AuthorizationFormConsent.DocumentVersionId"
     relationshipName = "DocumentVersion"
-    referenceTo = [
-      salesforce.ContentVersion,
-    ]
     label = "ContentVersion ID"
     createable = true
     updateable = true
@@ -119,10 +63,6 @@ type salesforce.AuthorizationFormConsent {
   salesforce.Lookup OwnerId {
     apiName = "AuthorizationFormConsent.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -132,9 +72,6 @@ type salesforce.AuthorizationFormConsent {
   salesforce.Lookup RelatedRecordId {
     apiName = "AuthorizationFormConsent.RelatedRecordId"
     relationshipName = "RelatedRecord"
-    referenceTo = [
-      salesforce.Account,
-    ]
     label = "Related Record ID"
     createable = true
     updateable = true
@@ -142,26 +79,6 @@ type salesforce.AuthorizationFormConsent {
   }
   salesforce.Picklist Status {
     apiName = "AuthorizationFormConsent.Status"
-    valueSet = [
-      {
-        fullName = "Seen"
-        isActive = true
-        label = "Seen"
-        default = false
-      },
-      {
-        fullName = "Signed"
-        isActive = true
-        label = "Signed"
-        default = false
-      },
-      {
-        fullName = "Rejected"
-        isActive = true
-        label = "Rejected"
-        default = false
-      },
-    ]
     restricted = true
     label = "Status"
     createable = true
@@ -194,9 +111,6 @@ type salesforce.AuthorizationFormConsent {
   salesforce.Lookup CreatedById {
     apiName = "AuthorizationFormConsent.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -214,9 +128,6 @@ type salesforce.AuthorizationFormConsent {
   salesforce.Lookup LastModifiedById {
     apiName = "AuthorizationFormConsent.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

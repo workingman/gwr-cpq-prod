@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ConfigAPI {
   status = "Active"
   fullName = "SBQQ__ConfigAPI"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ConfigAPI"
 }

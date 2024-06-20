@@ -10,10 +10,5 @@ salesforce.ApexTrigger SBQQ__ContractAfter {
   status = "Active"
   fullName = "SBQQ__ContractAfter"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ContractAfter"
 }

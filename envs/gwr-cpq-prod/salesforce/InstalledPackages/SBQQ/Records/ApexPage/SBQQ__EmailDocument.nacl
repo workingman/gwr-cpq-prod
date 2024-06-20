@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__EmailDocument {
   label = "EmailDocument"
   fullName = "SBQQ__EmailDocument"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__EmailDocument.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "EmailDocument (SBQQ)"
 }

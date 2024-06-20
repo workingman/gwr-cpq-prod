@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__RenewContracts {
   label = "RenewContracts"
   fullName = "SBQQ__RenewContracts"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__RenewContracts.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "RenewContracts (SBQQ)"
 }

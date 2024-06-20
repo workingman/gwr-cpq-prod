@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__richText {
   label = "Rich Text"
   fullName = "SBQQ__richText"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Rich Text (SBQQ)"
 }

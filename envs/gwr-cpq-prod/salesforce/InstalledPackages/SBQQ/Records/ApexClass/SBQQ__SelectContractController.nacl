@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__SelectContractController {
   status = "Active"
   fullName = "SBQQ__SelectContractController"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SelectContractController"
 }

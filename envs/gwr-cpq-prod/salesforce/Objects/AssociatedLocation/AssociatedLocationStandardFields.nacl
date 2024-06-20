@@ -24,9 +24,6 @@ type salesforce.AssociatedLocation {
   salesforce.Lookup LocationId {
     apiName = "AssociatedLocation.LocationId"
     relationshipName = "Location"
-    referenceTo = [
-      salesforce.Location,
-    ]
     _required = true
     label = "Location ID"
     createable = true
@@ -36,9 +33,6 @@ type salesforce.AssociatedLocation {
   salesforce.MasterDetail ParentRecordId {
     apiName = "AssociatedLocation.ParentRecordId"
     relationshipName = "ParentRecord"
-    referenceTo = [
-      salesforce.Account,
-    ]
     _required = true
     label = "Account Name ID"
     createable = true
@@ -78,9 +72,6 @@ type salesforce.AssociatedLocation {
   salesforce.Lookup CreatedById {
     apiName = "AssociatedLocation.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -98,9 +89,6 @@ type salesforce.AssociatedLocation {
   salesforce.Lookup LastModifiedById {
     apiName = "AssociatedLocation.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

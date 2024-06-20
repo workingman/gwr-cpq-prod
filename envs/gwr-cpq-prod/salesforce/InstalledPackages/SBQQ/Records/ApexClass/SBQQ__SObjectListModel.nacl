@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__SObjectListModel {
   status = "Active"
   fullName = "SBQQ__SObjectListModel"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SObjectListModel"
 }

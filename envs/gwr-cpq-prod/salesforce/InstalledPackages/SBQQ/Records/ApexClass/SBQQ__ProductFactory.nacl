@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ProductFactory {
   status = "Active"
   fullName = "SBQQ__ProductFactory"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductFactory"
 }

@@ -7,10 +7,5 @@ salesforce.ValidationRule SBQQ__TermCondition__c_SBQQ__Field_and_Variable {
   _parent = [
     salesforce.SBQQ__TermCondition__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__TermCondition__c.SBQQ__Field_and_Variable"
 }

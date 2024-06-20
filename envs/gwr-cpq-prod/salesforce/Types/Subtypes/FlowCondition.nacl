@@ -44,6 +44,7 @@ type salesforce.FlowCondition {
     _restriction = {
       enforce_value = false
       values = [
+        "Container",
         "EntryCondition",
         "ExitCondition",
       ]

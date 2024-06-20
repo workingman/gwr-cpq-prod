@@ -2,9 +2,6 @@ type salesforce.Entitlement {
   salesforce.MasterDetail AccountId {
     apiName = "Entitlement.AccountId"
     relationshipName = "Account"
-    referenceTo = [
-      salesforce.Account,
-    ]
     _required = true
     label = "Account ID"
     createable = true
@@ -14,9 +11,6 @@ type salesforce.Entitlement {
   salesforce.Lookup AssetId {
     apiName = "Entitlement.AssetId"
     relationshipName = "Asset"
-    referenceTo = [
-      salesforce.Asset,
-    ]
     label = "Asset ID"
     createable = true
     updateable = true
@@ -25,9 +19,6 @@ type salesforce.Entitlement {
   salesforce.Lookup BusinessHoursId {
     apiName = "Entitlement.BusinessHoursId"
     relationshipName = "BusinessHours"
-    referenceTo = [
-      "BusinessHours",
-    ]
     label = "Business Hours ID"
     createable = true
     updateable = true
@@ -46,9 +37,6 @@ type salesforce.Entitlement {
   salesforce.Lookup ContractLineItemId {
     apiName = "Entitlement.ContractLineItemId"
     relationshipName = "ContractLineItem"
-    referenceTo = [
-      salesforce.ContractLineItem,
-    ]
     label = "Contract Line Item ID"
     createable = true
     updateable = true
@@ -72,9 +60,6 @@ type salesforce.Entitlement {
   salesforce.Lookup LocationId {
     apiName = "Entitlement.LocationId"
     relationshipName = "Location"
-    referenceTo = [
-      salesforce.Location,
-    ]
     label = "Location ID"
     createable = true
     updateable = true
@@ -114,9 +99,6 @@ type salesforce.Entitlement {
   salesforce.Lookup ServiceContractId {
     apiName = "Entitlement.ServiceContractId"
     relationshipName = "ServiceContract"
-    referenceTo = [
-      salesforce.ServiceContract,
-    ]
     label = "Service Contract ID"
     createable = true
     updateable = true
@@ -125,9 +107,6 @@ type salesforce.Entitlement {
   salesforce.Lookup SlaProcessId {
     apiName = "Entitlement.SlaProcessId"
     relationshipName = "SlaProcess"
-    referenceTo = [
-      "SlaProcess",
-    ]
     label = "Entitlement Process ID"
     createable = true
     updateable = true
@@ -142,26 +121,6 @@ type salesforce.Entitlement {
   }
   salesforce.Picklist Status {
     apiName = "Entitlement.Status"
-    valueSet = [
-      {
-        fullName = "Inactive"
-        isActive = true
-        label = "Inactive"
-        default = false
-      },
-      {
-        fullName = "Active"
-        isActive = true
-        label = "Active"
-        default = false
-      },
-      {
-        fullName = "Expired"
-        isActive = true
-        label = "Expired"
-        default = false
-      },
-    ]
     restricted = true
     label = "Status"
     createable = false
@@ -218,9 +177,6 @@ type salesforce.Entitlement {
   salesforce.Lookup CreatedById {
     apiName = "Entitlement.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -238,9 +194,6 @@ type salesforce.Entitlement {
   salesforce.Lookup LastModifiedById {
     apiName = "Entitlement.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

@@ -3,10 +3,5 @@ salesforce.ApexComponent SBQQ__productRuleAlert {
   label = "Product Rule Alert"
   fullName = "SBQQ__productRuleAlert"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Product Rule Alert (SBQQ)"
 }

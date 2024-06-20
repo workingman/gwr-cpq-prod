@@ -2,9 +2,9 @@ salesforce.ListView Incident_AllIncidentsDefault {
   fullName = "Incident.AllIncidentsDefault"
   columns = [
     "Name",
-    "Subject",
-    "Description",
-    "Status",
+    salesforce.Incident.field.Subject,
+    salesforce.Incident.field.Description,
+    salesforce.Incident.field.Status,
   ]
   filterScope = "Everything"
   label = "All Incidents (Default)"

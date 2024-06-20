@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__SectionComponentController {
   status = "Active"
   fullName = "SBQQ__SectionComponentController"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__SectionComponentController.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SectionComponentController"
 }

@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__RangeTests {
   status = "Active"
   fullName = "SBQQ__RangeTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__RangeTests"
 }

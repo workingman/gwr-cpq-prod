@@ -111,10 +111,5 @@ salesforce.Layout SBQQ__PricingGuidance__c_SBQQ__Pricing_Guidance_Layout@uuuubuu
   _parent = [
     salesforce.SBQQ__PricingGuidance__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__PricingGuidance__c-SBQQ__Pricing Guidance Layout"
 }

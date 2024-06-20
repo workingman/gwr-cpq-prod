@@ -262,10 +262,5 @@ type salesforce.SBQQ__QuoteLineConsumptionRate__c {
   topicsForObjects = {
     enableTopics = false
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Quote Line Consumption Rate (SBQQ)"
 }

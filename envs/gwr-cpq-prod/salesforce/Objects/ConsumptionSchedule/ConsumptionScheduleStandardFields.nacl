@@ -14,26 +14,6 @@ type salesforce.ConsumptionSchedule {
   salesforce.Picklist BillingTermUnit {
     apiName = "ConsumptionSchedule.BillingTermUnit"
     inlineHelpText = "The unit used with the billing term to determine the billing frequency."
-    valueSet = [
-      {
-        fullName = "Month"
-        isActive = true
-        label = "Month"
-        default = false
-      },
-      {
-        fullName = "Quarter"
-        isActive = true
-        label = "Quarter"
-        default = false
-      },
-      {
-        fullName = "Year"
-        isActive = true
-        label = "Year"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Billing Term Unit"
@@ -91,14 +71,6 @@ type salesforce.ConsumptionSchedule {
   salesforce.Picklist RatingMethod {
     apiName = "ConsumptionSchedule.RatingMethod"
     inlineHelpText = "Choose a specific use case to rate usage against this schedule. This is a controlling picklist for the Type field."
-    valueSet = [
-      {
-        fullName = "Tier"
-        isActive = true
-        label = "Tier"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Rating Method"
@@ -109,20 +81,6 @@ type salesforce.ConsumptionSchedule {
   salesforce.Picklist Type {
     apiName = "ConsumptionSchedule.Type"
     inlineHelpText = "Range: The schedule prices only using the tier that applies to the usage quantity. Slab: Usage within a given bound receives pricing equal to its tier's value."
-    valueSet = [
-      {
-        fullName = "Range"
-        isActive = true
-        label = "Range"
-        default = false
-      },
-      {
-        fullName = "Slab"
-        isActive = true
-        label = "Slab"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Type"
@@ -133,26 +91,6 @@ type salesforce.ConsumptionSchedule {
   salesforce.Picklist UnitOfMeasure {
     apiName = "ConsumptionSchedule.UnitOfMeasure"
     inlineHelpText = "Usage quantities and rates apply to this unit of measurement."
-    valueSet = [
-      {
-        fullName = "Minutes"
-        isActive = true
-        label = "Minutes"
-        default = false
-      },
-      {
-        fullName = "Messages"
-        isActive = true
-        label = "Messages"
-        default = false
-      },
-      {
-        fullName = "MB"
-        isActive = true
-        label = "MB"
-        default = false
-      },
-    ]
     restricted = false
     label = "Unit of Measure"
     createable = true
@@ -168,10 +106,6 @@ type salesforce.ConsumptionSchedule {
   salesforce.Lookup OwnerId {
     apiName = "ConsumptionSchedule.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -198,9 +132,6 @@ type salesforce.ConsumptionSchedule {
   salesforce.Lookup CreatedById {
     apiName = "ConsumptionSchedule.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -218,9 +149,6 @@ type salesforce.ConsumptionSchedule {
   salesforce.Lookup LastModifiedById {
     apiName = "ConsumptionSchedule.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

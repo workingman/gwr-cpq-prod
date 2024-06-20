@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ContractService {
   status = "Active"
   fullName = "SBQQ__ContractService"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ContractService"
 }

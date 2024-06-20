@@ -11,10 +11,5 @@ salesforce.WebLink SBQQ__TemplateSection__c_SBQQ__IncludeDocument {
   _parent = [
     salesforce.SBQQ__TemplateSection__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__TemplateSection__c.SBQQ__IncludeDocument"
 }

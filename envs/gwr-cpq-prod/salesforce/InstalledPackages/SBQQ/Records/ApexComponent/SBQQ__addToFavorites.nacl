@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__addToFavorites {
   label = "modalDialog"
   fullName = "SBQQ__addToFavorites"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "modalDialog (SBQQ)"
 }

@@ -3,10 +3,5 @@ salesforce.ApexComponent SBQQ__favoritesManager {
   label = "favoritesManager"
   fullName = "SBQQ__favoritesManager"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "favoritesManager (SBQQ)"
 }

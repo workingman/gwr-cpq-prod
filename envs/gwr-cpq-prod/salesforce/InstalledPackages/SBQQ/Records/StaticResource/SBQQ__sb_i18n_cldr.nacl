@@ -4,10 +4,5 @@ salesforce.StaticResource SBQQ__sb_i18n_cldr {
   description = "Unicode CLDR Locale Data"
   fullName = "SBQQ__sb_i18n_cldr"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__sb_i18n_cldr.zip")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__sb_i18n_cldr"
 }

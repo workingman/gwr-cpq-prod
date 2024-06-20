@@ -269,10 +269,5 @@ type salesforce.SBQQ__ContractedPrice__c {
   }
   historyTrackedFields = {
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Contracted Price (SBQQ)"
 }

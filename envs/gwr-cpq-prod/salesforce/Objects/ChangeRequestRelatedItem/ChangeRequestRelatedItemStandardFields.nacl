@@ -2,9 +2,6 @@ type salesforce.ChangeRequestRelatedItem {
   salesforce.Lookup AssetId {
     apiName = "ChangeRequestRelatedItem.AssetId"
     relationshipName = "Asset"
-    referenceTo = [
-      salesforce.Asset,
-    ]
     _required = true
     label = "Asset ID"
     createable = true
@@ -14,9 +11,6 @@ type salesforce.ChangeRequestRelatedItem {
   salesforce.MasterDetail ChangeRequestId {
     apiName = "ChangeRequestRelatedItem.ChangeRequestId"
     relationshipName = "ChangeRequest"
-    referenceTo = [
-      salesforce.ChangeRequest,
-    ]
     _required = true
     label = "Change Request ID"
     createable = true
@@ -50,20 +44,6 @@ type salesforce.ChangeRequestRelatedItem {
   }
   salesforce.Picklist RelationshipType {
     apiName = "ChangeRequestRelatedItem.RelationshipType"
-    valueSet = [
-      {
-        fullName = "Broke Item"
-        isActive = true
-        label = "Broke Item"
-        default = true
-      },
-      {
-        fullName = "Fixed Item"
-        isActive = true
-        label = "Fixed Item"
-        default = false
-      },
-    ]
     restricted = false
     _required = true
     label = "Relationship Type"
@@ -97,9 +77,6 @@ type salesforce.ChangeRequestRelatedItem {
   salesforce.Lookup CreatedById {
     apiName = "ChangeRequestRelatedItem.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -117,9 +94,6 @@ type salesforce.ChangeRequestRelatedItem {
   salesforce.Lookup LastModifiedById {
     apiName = "ChangeRequestRelatedItem.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

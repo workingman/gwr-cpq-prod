@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__OrderDateTest {
   status = "Active"
   fullName = "SBQQ__OrderDateTest"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__OrderDateTest"
 }

@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ProductOptionTree {
   status = "Active"
   fullName = "SBQQ__ProductOptionTree"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductOptionTree"
 }

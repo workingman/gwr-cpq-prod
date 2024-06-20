@@ -4,10 +4,5 @@ salesforce.StaticResource SBQQ__DesktopCSS {
   description = "Stylesheet for the Desktop"
   fullName = "SBQQ__DesktopCSS"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__DesktopCSS.css")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__DesktopCSS"
 }

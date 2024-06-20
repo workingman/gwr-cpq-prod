@@ -2,8 +2,8 @@ salesforce.ListView SBQQ__DiscountSchedule__c_SBQQ__All {
   fullName = "SBQQ__DiscountSchedule__c.SBQQ__All"
   columns = [
     "NAME",
-    "SBQQ__Type__c",
-    "SBQQ__Description__c",
+    salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__Type__c,
+    salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__Description__c,
     "CREATEDBY_USER",
     "UPDATEDBY_USER",
   ]
@@ -11,11 +11,6 @@ salesforce.ListView SBQQ__DiscountSchedule__c_SBQQ__All {
   label = "All"
   _parent = [
     salesforce.SBQQ__DiscountSchedule__c,
-  ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
   ]
   _alias = "All (SBQQ)"
 }

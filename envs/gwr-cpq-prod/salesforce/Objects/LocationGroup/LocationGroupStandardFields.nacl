@@ -39,10 +39,6 @@ type salesforce.LocationGroup {
   salesforce.Lookup OwnerId {
     apiName = "LocationGroup.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -83,9 +79,6 @@ type salesforce.LocationGroup {
   salesforce.Lookup CreatedById {
     apiName = "LocationGroup.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -103,9 +96,6 @@ type salesforce.LocationGroup {
   salesforce.Lookup LastModifiedById {
     apiName = "LocationGroup.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

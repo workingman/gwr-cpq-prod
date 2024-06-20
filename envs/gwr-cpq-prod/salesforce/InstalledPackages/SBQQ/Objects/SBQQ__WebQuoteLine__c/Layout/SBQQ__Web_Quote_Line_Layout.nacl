@@ -337,10 +337,5 @@ salesforce.Layout SBQQ__WebQuoteLine__c_SBQQ__Web_Quote_Line_Layout@uuuubuusss {
   _parent = [
     salesforce.SBQQ__WebQuoteLine__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__WebQuoteLine__c-SBQQ__Web Quote Line Layout"
 }

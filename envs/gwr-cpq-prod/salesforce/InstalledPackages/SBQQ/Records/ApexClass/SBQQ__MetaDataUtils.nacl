@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__MetaDataUtils {
   status = "Active"
   fullName = "SBQQ__MetaDataUtils"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__MetaDataUtils"
 }

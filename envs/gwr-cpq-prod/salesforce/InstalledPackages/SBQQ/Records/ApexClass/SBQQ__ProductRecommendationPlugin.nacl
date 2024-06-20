@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__ProductRecommendationPlugin {
   status = "Active"
   fullName = "SBQQ__ProductRecommendationPlugin"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__ProductRecommendationPlugin.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductRecommendationPlugin"
 }

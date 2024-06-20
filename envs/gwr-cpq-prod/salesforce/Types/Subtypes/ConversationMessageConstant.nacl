@@ -19,6 +19,7 @@ type salesforce.ConversationMessageConstant {
     _restriction = {
       enforce_value = false
       values = [
+        "Custom",
         "Image",
         "Options",
         "SubTitle",

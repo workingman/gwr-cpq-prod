@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__FieldDescriptor {
   status = "Active"
   fullName = "SBQQ__FieldDescriptor"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__FieldDescriptor"
 }

@@ -3,10 +3,5 @@ salesforce.ApexComponent SBQQ__duelingListBox {
   label = "duelingListBox"
   fullName = "SBQQ__duelingListBox"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "duelingListBox (SBQQ)"
 }

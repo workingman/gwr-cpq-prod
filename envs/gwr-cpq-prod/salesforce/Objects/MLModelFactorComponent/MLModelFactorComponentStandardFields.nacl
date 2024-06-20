@@ -33,9 +33,6 @@ type salesforce.MLModelFactorComponent {
   salesforce.Lookup CreatedById {
     apiName = "MLModelFactorComponent.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -53,9 +50,6 @@ type salesforce.MLModelFactorComponent {
   salesforce.Lookup LastModifiedById {
     apiName = "MLModelFactorComponent.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -73,9 +67,6 @@ type salesforce.MLModelFactorComponent {
   salesforce.Lookup ModelFactorId {
     apiName = "MLModelFactorComponent.ModelFactorId"
     relationshipName = "ModelFactor"
-    referenceTo = [
-      salesforce.MLModelFactor,
-    ]
     _required = true
     label = "ML Model Factor ID"
     createable = false
@@ -86,9 +77,6 @@ type salesforce.MLModelFactorComponent {
   salesforce.Lookup ModelId {
     apiName = "MLModelFactorComponent.ModelId"
     relationshipName = "Model"
-    referenceTo = [
-      salesforce.MLModel,
-    ]
     label = "ML Model ID"
     createable = false
     updateable = false
@@ -108,62 +96,6 @@ type salesforce.MLModelFactorComponent {
   }
   salesforce.Picklist Operator {
     apiName = "MLModelFactorComponent.Operator"
-    valueSet = [
-      {
-        fullName = "LessThan"
-        isActive = true
-        label = "LessThan"
-        default = false
-      },
-      {
-        fullName = "Equals"
-        isActive = true
-        label = "Equals"
-        default = false
-      },
-      {
-        fullName = "NotEquals"
-        isActive = true
-        label = "NotEquals"
-        default = false
-      },
-      {
-        fullName = "GreaterThan"
-        isActive = true
-        label = "GreaterThan"
-        default = false
-      },
-      {
-        fullName = "IsNull"
-        isActive = true
-        label = "IsNull"
-        default = false
-      },
-      {
-        fullName = "IsNotNull"
-        isActive = true
-        label = "IsNotNull"
-        default = false
-      },
-      {
-        fullName = "StartsWith"
-        isActive = true
-        label = "StartsWith"
-        default = false
-      },
-      {
-        fullName = "EndsWith"
-        isActive = true
-        label = "EndsWith"
-        default = false
-      },
-      {
-        fullName = "Contains"
-        isActive = true
-        label = "Contains"
-        default = false
-      },
-    ]
     restricted = true
     label = "Operator"
     createable = false
@@ -206,104 +138,6 @@ type salesforce.MLModelFactorComponent {
   }
   salesforce.Picklist FeatureType {
     apiName = "MLModelFactorComponent.FeatureType"
-    valueSet = [
-      {
-        fullName = "Binary"
-        isActive = true
-        label = "Binary"
-        default = false
-      },
-      {
-        fullName = "Integral"
-        isActive = true
-        label = "Integral"
-        default = false
-      },
-      {
-        fullName = "Real"
-        isActive = true
-        label = "Real"
-        default = false
-      },
-      {
-        fullName = "Currency"
-        isActive = true
-        label = "Currency"
-        default = false
-      },
-      {
-        fullName = "Email"
-        isActive = true
-        label = "Email"
-        default = false
-      },
-      {
-        fullName = "Percent"
-        isActive = true
-        label = "Percent"
-        default = false
-      },
-      {
-        fullName = "ID"
-        isActive = true
-        label = "ID"
-        default = false
-      },
-      {
-        fullName = "Picklist"
-        isActive = true
-        label = "Picklist"
-        default = false
-      },
-      {
-        fullName = "MultiPicklist"
-        isActive = true
-        label = "MultiPicklist"
-        default = false
-      },
-      {
-        fullName = "Combobox"
-        isActive = true
-        label = "Combobox"
-        default = false
-      },
-      {
-        fullName = "Date"
-        isActive = true
-        label = "Date"
-        default = false
-      },
-      {
-        fullName = "DateTime"
-        isActive = true
-        label = "DateTime"
-        default = false
-      },
-      {
-        fullName = "Phone"
-        isActive = true
-        label = "Phone"
-        default = false
-      },
-      {
-        fullName = "Text"
-        isActive = true
-        label = "Text"
-        default = false
-      },
-      {
-        fullName = "TextArea"
-        isActive = true
-        label = "TextArea"
-        default = false
-      },
-      {
-        fullName = "URL"
-        isActive = true
-        label = "URL"
-        default = false
-      },
-    ]
     restricted = true
     label = "Feature Type"
     createable = false

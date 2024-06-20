@@ -84,10 +84,5 @@ salesforce.Layout SBQQ__QuoteLinePricingGuidance__c_SBQQ__Quote_Line_Pricing_Gui
   _parent = [
     salesforce.SBQQ__QuoteLinePricingGuidance__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteLinePricingGuidance__c-SBQQ__Quote Line Pricing Guidance Layout"
 }

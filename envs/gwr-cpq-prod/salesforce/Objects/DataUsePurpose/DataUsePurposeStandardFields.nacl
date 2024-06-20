@@ -20,9 +20,6 @@ type salesforce.DataUsePurpose {
   salesforce.Lookup LegalBasisId {
     apiName = "DataUsePurpose.LegalBasisId"
     relationshipName = "LegalBasis"
-    referenceTo = [
-      salesforce.DataUseLegalBasis,
-    ]
     label = "Legal Basis ID"
     createable = true
     updateable = true
@@ -42,10 +39,6 @@ type salesforce.DataUsePurpose {
   salesforce.Lookup OwnerId {
     apiName = "DataUsePurpose.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -78,9 +71,6 @@ type salesforce.DataUsePurpose {
   salesforce.Lookup CreatedById {
     apiName = "DataUsePurpose.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -98,9 +88,6 @@ type salesforce.DataUsePurpose {
   salesforce.Lookup LastModifiedById {
     apiName = "DataUsePurpose.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

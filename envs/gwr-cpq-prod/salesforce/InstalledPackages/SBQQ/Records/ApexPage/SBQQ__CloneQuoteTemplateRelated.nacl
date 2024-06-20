@@ -6,10 +6,5 @@ salesforce.ApexPage SBQQ__CloneQuoteTemplateRelated {
   label = "Clone Quote Template Related"
   fullName = "SBQQ__CloneQuoteTemplateRelated"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__CloneQuoteTemplateRelated.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Clone Quote Template Related (SBQQ)"
 }

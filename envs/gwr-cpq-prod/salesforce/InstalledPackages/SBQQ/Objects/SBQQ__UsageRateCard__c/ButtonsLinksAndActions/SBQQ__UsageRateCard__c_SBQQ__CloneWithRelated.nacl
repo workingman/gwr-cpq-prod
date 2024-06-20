@@ -11,10 +11,5 @@ salesforce.WebLink SBQQ__UsageRateCard__c_SBQQ__CloneWithRelated {
   _parent = [
     salesforce.SBQQ__UsageRateCard__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__UsageRateCard__c.SBQQ__CloneWithRelated"
 }

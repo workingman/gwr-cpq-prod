@@ -3,10 +3,5 @@ salesforce.StaticResource SBQQ__AngularDnD {
   contentType = "text/javascript"
   fullName = "SBQQ__AngularDnD"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__AngularDnD.resource")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__AngularDnD"
 }

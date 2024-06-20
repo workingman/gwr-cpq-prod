@@ -1,8 +1,8 @@
 salesforce.ListView SocialPersona_AllSocialPersonas {
   fullName = "SocialPersona.AllSocialPersonas"
   columns = [
-    "Name",
-    "Provider",
+    salesforce.SocialPersona.field.Name,
+    salesforce.SocialPersona.field.Provider,
     "Parent",
   ]
   filterScope = "Everything"

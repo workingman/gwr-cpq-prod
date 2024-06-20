@@ -82,11 +82,11 @@ salesforce.AppMenu AppSwitcher {
       type = "CustomApplication"
     },
     {
-      name = salesforce.CustomApplication.instance.standard__Commerce
+      name = salesforce.CustomApplication.instance.standard__DataManager
       type = "CustomApplication"
     },
     {
-      name = salesforce.CustomApplication.instance.standard__DataManager
+      name = salesforce.CustomApplication.instance.standard__FlowsApp
       type = "CustomApplication"
     },
   ]

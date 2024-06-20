@@ -8,10 +8,5 @@ salesforce.ValidationRule OrderItem_SBQQ__Validate_billing_frequency {
   _parent = [
     salesforce.OrderItem,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "OrderItem.SBQQ__Validate_billing_frequency"
 }

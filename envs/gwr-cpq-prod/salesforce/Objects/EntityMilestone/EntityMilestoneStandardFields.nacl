@@ -2,9 +2,6 @@ type salesforce.EntityMilestone {
   salesforce.Lookup BusinessHoursId {
     apiName = "EntityMilestone.BusinessHoursId"
     relationshipName = "BusinessHours"
-    referenceTo = [
-      "BusinessHours",
-    ]
     label = "Business Hours ID"
     createable = false
     updateable = false
@@ -76,10 +73,6 @@ type salesforce.EntityMilestone {
   salesforce.Lookup ParentEntityId {
     apiName = "EntityMilestone.ParentEntityId"
     relationshipName = "ParentEntity"
-    referenceTo = [
-      salesforce.Incident,
-      salesforce.WorkOrder,
-    ]
     _required = true
     label = " ID"
     createable = false
@@ -90,9 +83,6 @@ type salesforce.EntityMilestone {
   salesforce.Lookup SlaProcessId {
     apiName = "EntityMilestone.SlaProcessId"
     relationshipName = "SlaProcess"
-    referenceTo = [
-      "SlaProcess",
-    ]
     label = "Entitlement Process ID"
     createable = false
     updateable = false
@@ -250,9 +240,6 @@ type salesforce.EntityMilestone {
   salesforce.Lookup CreatedById {
     apiName = "EntityMilestone.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -270,9 +257,6 @@ type salesforce.EntityMilestone {
   salesforce.Lookup LastModifiedById {
     apiName = "EntityMilestone.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -290,9 +274,6 @@ type salesforce.EntityMilestone {
   salesforce.Lookup MilestoneTypeId {
     apiName = "EntityMilestone.MilestoneTypeId"
     relationshipName = "MilestoneType"
-    referenceTo = [
-      salesforce.MilestoneType,
-    ]
     label = "Milestone Type ID"
     createable = false
     updateable = false

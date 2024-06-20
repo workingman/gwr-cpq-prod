@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__CostHelp {
   label = "Cost Help"
   fullName = "SBQQ__CostHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__CostHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Cost Help (SBQQ)"
 }

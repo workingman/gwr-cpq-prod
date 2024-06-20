@@ -25,10 +25,5 @@ salesforce.GlobalValueSet SBQQ__SubscriptionType {
   description = "Subscription type options"
   masterLabel = "Subscription Type"
   sorted = false
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SubscriptionType"
 }

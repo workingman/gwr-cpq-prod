@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__quoteDocumentOptions {
   label = "Quote Document Options"
   fullName = "SBQQ__quoteDocumentOptions"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Quote Document Options (SBQQ)"
 }

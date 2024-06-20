@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__multiSegmentLineItems {
   label = "Multi Segment Line Items"
   fullName = "SBQQ__multiSegmentLineItems"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Multi Segment Line Items (SBQQ)"
 }

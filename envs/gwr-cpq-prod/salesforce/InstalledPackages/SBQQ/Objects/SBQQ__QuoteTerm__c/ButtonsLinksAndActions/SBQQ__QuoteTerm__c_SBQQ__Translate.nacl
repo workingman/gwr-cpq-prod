@@ -12,10 +12,5 @@ salesforce.WebLink SBQQ__QuoteTerm__c_SBQQ__Translate {
   _parent = [
     salesforce.SBQQ__QuoteTerm__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteTerm__c.SBQQ__Translate"
 }

@@ -35,10 +35,5 @@ salesforce.QuickAction SBQQ__NewCase {
   standardLabel = "New"
   targetObject = salesforce.Case
   type = "Create"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__NewCase"
 }

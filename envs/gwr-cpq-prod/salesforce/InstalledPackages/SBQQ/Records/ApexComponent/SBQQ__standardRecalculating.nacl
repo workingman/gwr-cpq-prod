@@ -3,10 +3,5 @@ salesforce.ApexComponent SBQQ__standardRecalculating {
   label = "standardRecalculating"
   fullName = "SBQQ__standardRecalculating"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "standardRecalculating (SBQQ)"
 }

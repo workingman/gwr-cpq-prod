@@ -274,10 +274,5 @@ type salesforce.SBQQ__BlockPrice__c {
   topicsForObjects = {
     enableTopics = false
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Block Price (SBQQ)"
 }

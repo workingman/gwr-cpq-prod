@@ -16,9 +16,6 @@ type salesforce.Product2 {
   }
   salesforce.Lookup ExternalDataSourceId {
     apiName = "Product2.ExternalDataSourceId"
-    referenceTo = [
-      salesforce.ExternalDataSource,
-    ]
     label = "External Data Source ID"
     createable = true
     updateable = true
@@ -74,14 +71,6 @@ type salesforce.Product2 {
   }
   salesforce.Picklist QuantityUnitOfMeasure {
     apiName = "Product2.QuantityUnitOfMeasure"
-    valueSet = [
-      {
-        fullName = "Each"
-        isActive = true
-        label = "Each"
-        default = false
-      },
-    ]
     restricted = false
     label = "Quantity Unit Of Measure"
     createable = true
@@ -123,9 +112,6 @@ type salesforce.Product2 {
   salesforce.Lookup CreatedById {
     apiName = "Product2.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -143,9 +129,6 @@ type salesforce.Product2 {
   salesforce.Lookup LastModifiedById {
     apiName = "Product2.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

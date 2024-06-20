@@ -22,56 +22,6 @@ type salesforce.Lead {
   }
   salesforce.Picklist CleanStatus {
     apiName = "Lead.CleanStatus"
-    valueSet = [
-      {
-        fullName = "Matched"
-        isActive = true
-        label = "In Sync"
-        default = false
-      },
-      {
-        fullName = "Different"
-        isActive = true
-        label = "Different"
-        default = false
-      },
-      {
-        fullName = "Acknowledged"
-        isActive = true
-        label = "Reviewed"
-        default = false
-      },
-      {
-        fullName = "NotFound"
-        isActive = true
-        label = "Not Found"
-        default = false
-      },
-      {
-        fullName = "Inactive"
-        isActive = true
-        label = "Inactive"
-        default = false
-      },
-      {
-        fullName = "Pending"
-        isActive = true
-        label = "Not Compared"
-        default = false
-      },
-      {
-        fullName = "SelectMatch"
-        isActive = true
-        label = "Select Match"
-        default = false
-      },
-      {
-        fullName = "Skipped"
-        isActive = true
-        label = "Skipped"
-        default = false
-      },
-    ]
     restricted = true
     label = "Clean Status"
     createable = true
@@ -102,9 +52,6 @@ type salesforce.Lead {
   salesforce.Lookup DandbCompanyId {
     apiName = "Lead.DandbCompanyId"
     relationshipName = "DandbCompany"
-    referenceTo = [
-      salesforce.DandBCompany,
-    ]
     label = "D&B Company ID"
     createable = true
     updateable = true
@@ -152,9 +99,6 @@ type salesforce.Lead {
   salesforce.Lookup IndividualId {
     apiName = "Lead.IndividualId"
     relationshipName = "Individual"
-    referenceTo = [
-      salesforce.Individual,
-    ]
     label = "Individual ID"
     createable = true
     updateable = true
@@ -221,10 +165,6 @@ type salesforce.Lead {
   salesforce.Lookup OwnerId {
     apiName = "Lead.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -296,9 +236,6 @@ type salesforce.Lead {
   salesforce.Lookup MasterRecordId {
     apiName = "Lead.MasterRecordId"
     relationshipName = "MasterRecord"
-    referenceTo = [
-      salesforce.Lead,
-    ]
     label = "Master Record ID"
     createable = false
     updateable = false
@@ -332,9 +269,6 @@ type salesforce.Lead {
   salesforce.Lookup ConvertedAccountId {
     apiName = "Lead.ConvertedAccountId"
     relationshipName = "ConvertedAccount"
-    referenceTo = [
-      salesforce.Account,
-    ]
     label = "Converted Account ID"
     createable = false
     updateable = false
@@ -344,9 +278,6 @@ type salesforce.Lead {
   salesforce.Lookup ConvertedContactId {
     apiName = "Lead.ConvertedContactId"
     relationshipName = "ConvertedContact"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     label = "Converted Contact ID"
     createable = false
     updateable = false
@@ -356,9 +287,6 @@ type salesforce.Lead {
   salesforce.Lookup ConvertedOpportunityId {
     apiName = "Lead.ConvertedOpportunityId"
     relationshipName = "ConvertedOpportunity"
-    referenceTo = [
-      salesforce.Opportunity,
-    ]
     label = "Converted Opportunity ID"
     createable = false
     updateable = false
@@ -384,9 +312,6 @@ type salesforce.Lead {
   salesforce.Lookup CreatedById {
     apiName = "Lead.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -404,9 +329,6 @@ type salesforce.Lead {
   salesforce.Lookup LastModifiedById {
     apiName = "Lead.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

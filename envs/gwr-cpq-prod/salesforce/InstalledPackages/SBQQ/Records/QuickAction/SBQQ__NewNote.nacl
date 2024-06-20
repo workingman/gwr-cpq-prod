@@ -30,10 +30,5 @@ salesforce.QuickAction SBQQ__NewNote {
   standardLabel = "New"
   targetObject = "Note"
   type = "Create"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__NewNote"
 }

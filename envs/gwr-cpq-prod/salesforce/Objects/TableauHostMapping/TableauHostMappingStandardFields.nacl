@@ -8,10 +8,6 @@ type salesforce.TableauHostMapping {
   salesforce.Lookup OwnerId {
     apiName = "TableauHostMapping.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -46,9 +42,6 @@ type salesforce.TableauHostMapping {
   salesforce.Lookup CreatedById {
     apiName = "TableauHostMapping.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -66,9 +59,6 @@ type salesforce.TableauHostMapping {
   salesforce.Lookup LastModifiedById {
     apiName = "TableauHostMapping.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -107,20 +97,6 @@ type salesforce.TableauHostMapping {
   }
   salesforce.Picklist HostType {
     apiName = "TableauHostMapping.HostType"
-    valueSet = [
-      {
-        fullName = "Tableau Cloud"
-        isActive = true
-        label = "Tableau Cloud"
-        default = false
-      },
-      {
-        fullName = "Tableau Server"
-        isActive = true
-        label = "Tableau Server"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Tableau host type"

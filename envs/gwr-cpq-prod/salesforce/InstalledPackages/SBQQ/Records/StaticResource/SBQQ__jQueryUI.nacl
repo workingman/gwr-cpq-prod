@@ -4,10 +4,5 @@ salesforce.StaticResource SBQQ__jQueryUI {
   description = "jQuery UI framework."
   fullName = "SBQQ__jQueryUI"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__jQueryUI.resource")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__jQueryUI"
 }

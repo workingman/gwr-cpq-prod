@@ -441,10 +441,5 @@ salesforce.Layout Contract_SBQQ__CPQ_Contract_Layout@buuss {
   _parent = [
     salesforce.Contract,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Contract-SBQQ__CPQ Contract Layout"
 }

@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__assetLookup {
   label = "assetLookup"
   fullName = "SBQQ__assetLookup"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "assetLookup (SBQQ)"
 }

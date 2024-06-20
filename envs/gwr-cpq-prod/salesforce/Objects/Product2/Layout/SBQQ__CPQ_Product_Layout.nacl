@@ -544,10 +544,5 @@ salesforce.Layout Product2_SBQQ__CPQ_Product_Layout@buuss {
   _parent = [
     salesforce.Product2,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Product2-SBQQ__CPQ Product Layout"
 }

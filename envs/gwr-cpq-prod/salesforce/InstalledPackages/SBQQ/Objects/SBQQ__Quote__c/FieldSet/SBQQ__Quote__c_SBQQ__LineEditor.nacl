@@ -204,10 +204,5 @@ salesforce.FieldSet SBQQ__Quote__c_SBQQ__LineEditor {
   _parent = [
     salesforce.SBQQ__Quote__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Line Editor (SBQQ)"
 }

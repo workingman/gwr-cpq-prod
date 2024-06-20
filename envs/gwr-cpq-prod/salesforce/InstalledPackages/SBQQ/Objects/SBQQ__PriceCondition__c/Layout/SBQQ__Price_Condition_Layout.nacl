@@ -131,10 +131,5 @@ salesforce.Layout SBQQ__PriceCondition__c_SBQQ__Price_Condition_Layout@uuuubuuss
   _parent = [
     salesforce.SBQQ__PriceCondition__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__PriceCondition__c-SBQQ__Price Condition Layout"
 }

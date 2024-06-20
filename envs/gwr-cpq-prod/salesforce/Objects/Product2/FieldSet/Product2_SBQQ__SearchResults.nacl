@@ -94,10 +94,5 @@ salesforce.FieldSet Product2_SBQQ__SearchResults {
   _parent = [
     salesforce.Product2,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Search Results (SBQQ)"
 }

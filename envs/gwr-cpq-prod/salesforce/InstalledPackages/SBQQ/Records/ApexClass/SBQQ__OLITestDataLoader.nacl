@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__OLITestDataLoader {
   status = "Active"
   fullName = "SBQQ__OLITestDataLoader"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__OLITestDataLoader.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__OLITestDataLoader"
 }

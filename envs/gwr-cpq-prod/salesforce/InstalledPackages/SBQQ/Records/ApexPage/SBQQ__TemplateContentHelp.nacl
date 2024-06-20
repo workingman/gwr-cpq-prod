@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__TemplateContentHelp {
   label = "Template Content Help"
   fullName = "SBQQ__TemplateContentHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__TemplateContentHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Template Content Help (SBQQ)"
 }

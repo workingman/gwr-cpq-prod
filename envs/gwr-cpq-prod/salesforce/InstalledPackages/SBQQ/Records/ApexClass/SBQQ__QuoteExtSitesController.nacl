@@ -3,10 +3,5 @@ salesforce.ApexClass SBQQ__QuoteExtSitesController {
   status = "Active"
   fullName = "SBQQ__QuoteExtSitesController"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__QuoteExtSitesController.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteExtSitesController"
 }

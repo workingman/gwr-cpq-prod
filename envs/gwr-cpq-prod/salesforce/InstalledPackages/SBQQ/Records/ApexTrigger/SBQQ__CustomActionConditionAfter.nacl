@@ -10,10 +10,5 @@ salesforce.ApexTrigger SBQQ__CustomActionConditionAfter {
   status = "Active"
   fullName = "SBQQ__CustomActionConditionAfter"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__CustomActionConditionAfter"
 }

@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__AssetSelector {
   label = "Asset Selector"
   fullName = "SBQQ__AssetSelector"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__AssetSelector.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Asset Selector (SBQQ)"
 }

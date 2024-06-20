@@ -1,56 +1,6 @@
 type salesforce.PrivacyJobSession {
   salesforce.Picklist JobStatus {
     apiName = "PrivacyJobSession.JobStatus"
-    valueSet = [
-      {
-        fullName = "inactive"
-        isActive = true
-        label = "Inactive"
-        default = false
-      },
-      {
-        fullName = "scheduled"
-        isActive = true
-        label = "Scheduled"
-        default = false
-      },
-      {
-        fullName = "running"
-        isActive = true
-        label = "Running"
-        default = false
-      },
-      {
-        fullName = "running_next"
-        isActive = true
-        label = "Running Waiting"
-        default = false
-      },
-      {
-        fullName = "failures"
-        isActive = true
-        label = "Failures"
-        default = false
-      },
-      {
-        fullName = "cancelled"
-        isActive = true
-        label = "Cancelled"
-        default = false
-      },
-      {
-        fullName = "suspended"
-        isActive = true
-        label = "Suspended"
-        default = false
-      },
-      {
-        fullName = "completed"
-        isActive = true
-        label = "Completed"
-        default = false
-      },
-    ]
     restricted = true
     label = "Job Status"
     createable = false
@@ -82,26 +32,6 @@ type salesforce.PrivacyJobSession {
   }
   salesforce.Picklist PolicyType {
     apiName = "PrivacyJobSession.PolicyType"
-    valueSet = [
-      {
-        fullName = "datamanagement"
-        isActive = true
-        label = "Data Management"
-        default = false
-      },
-      {
-        fullName = "datamask"
-        isActive = true
-        label = "Data Mask"
-        default = false
-      },
-      {
-        fullName = "rtbf"
-        isActive = true
-        label = "Rtbf"
-        default = false
-      },
-    ]
     restricted = true
     label = "Policy Type"
     createable = false
@@ -126,10 +56,6 @@ type salesforce.PrivacyJobSession {
   salesforce.Lookup OwnerId {
     apiName = "PrivacyJobSession.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = false
     updateable = false
@@ -164,9 +90,6 @@ type salesforce.PrivacyJobSession {
   salesforce.Lookup CreatedById {
     apiName = "PrivacyJobSession.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -184,9 +107,6 @@ type salesforce.PrivacyJobSession {
   salesforce.Lookup LastModifiedById {
     apiName = "PrivacyJobSession.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -249,9 +169,6 @@ type salesforce.PrivacyJobSession {
   salesforce.Lookup PrivacyPolicyDefinitionId {
     apiName = "PrivacyJobSession.PrivacyPolicyDefinitionId"
     relationshipName = "PrivacyPolicyDefinition"
-    referenceTo = [
-      "PrivacyPolicyDefinition",
-    ]
     label = "Privacy Policy Definition ID"
     createable = false
     updateable = false
@@ -268,20 +185,6 @@ type salesforce.PrivacyJobSession {
   }
   salesforce.Picklist JobStartType {
     apiName = "PrivacyJobSession.JobStartType"
-    valueSet = [
-      {
-        fullName = "manual"
-        isActive = true
-        label = "Manual"
-        default = false
-      },
-      {
-        fullName = "scheduled"
-        isActive = true
-        label = "Scheduled"
-        default = false
-      },
-    ]
     restricted = true
     label = "Job Start Type"
     createable = false
@@ -316,9 +219,6 @@ type salesforce.PrivacyJobSession {
   salesforce.Lookup PrivacyRtbfRequestId {
     apiName = "PrivacyJobSession.PrivacyRtbfRequestId"
     relationshipName = "PrivacyRtbfRequest"
-    referenceTo = [
-      salesforce.PrivacyRTBFRequest,
-    ]
     label = "Privacy RTBF Request ID"
     createable = false
     updateable = false

@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__QueueableContractOrdersClient {
   status = "Active"
   fullName = "SBQQ__QueueableContractOrdersClient"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QueueableContractOrdersClient"
 }

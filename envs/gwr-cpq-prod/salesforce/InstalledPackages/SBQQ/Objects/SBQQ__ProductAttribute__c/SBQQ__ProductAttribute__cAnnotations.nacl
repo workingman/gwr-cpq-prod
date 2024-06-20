@@ -264,10 +264,5 @@ type salesforce.SBQQ__ProductAttribute__c {
   topicsForObjects = {
     enableTopics = false
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Attribute Item (SBQQ)"
 }

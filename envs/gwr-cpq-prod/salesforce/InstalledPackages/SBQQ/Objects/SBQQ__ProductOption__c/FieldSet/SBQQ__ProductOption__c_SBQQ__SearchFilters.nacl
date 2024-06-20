@@ -22,10 +22,5 @@ salesforce.FieldSet SBQQ__ProductOption__c_SBQQ__SearchFilters {
   _parent = [
     salesforce.SBQQ__ProductOption__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SearchFilters (SBQQ)"
 }

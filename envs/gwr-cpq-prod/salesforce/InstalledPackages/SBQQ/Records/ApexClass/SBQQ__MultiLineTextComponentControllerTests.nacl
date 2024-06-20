@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__MultiLineTextComponentControllerTests {
   status = "Active"
   fullName = "SBQQ__MultiLineTextComponentControllerTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__MultiLineTextComponentControllerTests"
 }

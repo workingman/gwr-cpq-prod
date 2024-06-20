@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__AddAssets {
   label = "AddAssets"
   fullName = "SBQQ__AddAssets"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__AddAssets.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "AddAssets (SBQQ)"
 }

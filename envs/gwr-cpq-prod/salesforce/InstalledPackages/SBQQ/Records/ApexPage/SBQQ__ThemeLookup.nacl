@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__ThemeLookup {
   label = "Theme Lookup"
   fullName = "SBQQ__ThemeLookup"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__ThemeLookup.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Theme Lookup (SBQQ)"
 }

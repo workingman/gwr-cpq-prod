@@ -120,10 +120,5 @@ salesforce.Layout SBQQ__ProductFeature__c_SBQQ__Product_Feature_Layout@uuuubuuss
   _parent = [
     salesforce.SBQQ__ProductFeature__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductFeature__c-SBQQ__Product Feature Layout"
 }

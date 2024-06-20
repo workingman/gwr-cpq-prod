@@ -7,10 +7,5 @@ salesforce.AuraDefinitionBundle SBQQ__SelectContractForQuote {
   controllerContent = "(hidden)"
   helperContent = "(hidden)"
   designContent = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SelectContractForQuote"
 }

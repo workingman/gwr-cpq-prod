@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__NewQuote {
   label = "NewQuote"
   fullName = "SBQQ__NewQuote"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__NewQuote.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "NewQuote (SBQQ)"
 }

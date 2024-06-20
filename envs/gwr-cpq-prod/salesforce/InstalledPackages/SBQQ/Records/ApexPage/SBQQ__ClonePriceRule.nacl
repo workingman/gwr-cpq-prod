@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__ClonePriceRule {
   label = "ClonePriceRule"
   fullName = "SBQQ__ClonePriceRule"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__ClonePriceRule.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "ClonePriceRule (SBQQ)"
 }

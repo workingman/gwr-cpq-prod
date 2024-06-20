@@ -282,10 +282,5 @@ type salesforce.SBQQ__SolutionGroup__c {
   historyTrackedFields = {
     SBQQ__Description__c = salesforce.SBQQ__SolutionGroup__c.field.SBQQ__Description__c
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Solution Group (SBQQ)"
 }

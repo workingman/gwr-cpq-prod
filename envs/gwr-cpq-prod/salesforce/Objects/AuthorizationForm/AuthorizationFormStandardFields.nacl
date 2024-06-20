@@ -2,9 +2,6 @@ type salesforce.AuthorizationForm {
   salesforce.Lookup DefaultAuthFormTextId {
     apiName = "AuthorizationForm.DefaultAuthFormTextId"
     relationshipName = "DefaultAuthFormText"
-    referenceTo = [
-      salesforce.AuthorizationFormText,
-    ]
     label = "Default Authorization Form Text ID"
     createable = true
     updateable = true
@@ -46,10 +43,6 @@ type salesforce.AuthorizationForm {
   salesforce.Lookup OwnerId {
     apiName = "AuthorizationForm.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -92,9 +85,6 @@ type salesforce.AuthorizationForm {
   salesforce.Lookup CreatedById {
     apiName = "AuthorizationForm.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -112,9 +102,6 @@ type salesforce.AuthorizationForm {
   salesforce.Lookup LastModifiedById {
     apiName = "AuthorizationForm.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

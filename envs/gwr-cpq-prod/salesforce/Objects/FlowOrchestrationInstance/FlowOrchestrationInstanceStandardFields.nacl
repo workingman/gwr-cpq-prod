@@ -8,10 +8,6 @@ type salesforce.FlowOrchestrationInstance {
   salesforce.Lookup OwnerId {
     apiName = "FlowOrchestrationInstance.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = false
     updateable = true
@@ -46,9 +42,6 @@ type salesforce.FlowOrchestrationInstance {
   salesforce.Lookup CreatedById {
     apiName = "FlowOrchestrationInstance.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -66,9 +59,6 @@ type salesforce.FlowOrchestrationInstance {
   salesforce.Lookup LastModifiedById {
     apiName = "FlowOrchestrationInstance.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -85,44 +75,6 @@ type salesforce.FlowOrchestrationInstance {
   }
   salesforce.Picklist Status {
     apiName = "FlowOrchestrationInstance.Status"
-    valueSet = [
-      {
-        fullName = "NotStarted"
-        isActive = true
-        label = "Not Started"
-        default = false
-      },
-      {
-        fullName = "InProgress"
-        isActive = true
-        label = "In Progress"
-        default = false
-      },
-      {
-        fullName = "Completed"
-        isActive = true
-        label = "Completed"
-        default = false
-      },
-      {
-        fullName = "Error"
-        isActive = true
-        label = "Error"
-        default = false
-      },
-      {
-        fullName = "Discontinued"
-        isActive = true
-        label = "Discontinued"
-        default = false
-      },
-      {
-        fullName = "Canceled"
-        isActive = true
-        label = "Canceled"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Status"
@@ -133,9 +85,6 @@ type salesforce.FlowOrchestrationInstance {
   salesforce.Lookup InterviewId {
     apiName = "FlowOrchestrationInstance.InterviewId"
     relationshipName = "Interview"
-    referenceTo = [
-      "FlowInterview",
-    ]
     label = "Interview ID"
     createable = false
     updateable = true

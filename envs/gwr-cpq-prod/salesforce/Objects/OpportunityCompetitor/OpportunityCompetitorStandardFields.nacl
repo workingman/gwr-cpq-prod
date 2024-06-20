@@ -15,9 +15,6 @@ type salesforce.OpportunityCompetitor {
   salesforce.Lookup OpportunityId {
     apiName = "OpportunityCompetitor.OpportunityId"
     relationshipName = "Opportunity"
-    referenceTo = [
-      salesforce.Opportunity,
-    ]
     _required = true
     label = "Opportunity ID"
     createable = true
@@ -47,9 +44,6 @@ type salesforce.OpportunityCompetitor {
   salesforce.Lookup CreatedById {
     apiName = "OpportunityCompetitor.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -67,9 +61,6 @@ type salesforce.OpportunityCompetitor {
   salesforce.Lookup LastModifiedById {
     apiName = "OpportunityCompetitor.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

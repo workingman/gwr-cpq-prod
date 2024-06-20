@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__AccessTokenCacheService {
   status = "Active"
   fullName = "SBQQ__AccessTokenCacheService"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__AccessTokenCacheService.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__AccessTokenCacheService"
 }

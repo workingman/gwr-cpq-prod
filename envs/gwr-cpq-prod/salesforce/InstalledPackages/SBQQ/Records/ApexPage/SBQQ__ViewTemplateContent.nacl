@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__ViewTemplateContent {
   label = "ViewTemplateContent"
   fullName = "SBQQ__ViewTemplateContent"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__ViewTemplateContent.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "ViewTemplateContent (SBQQ)"
 }

@@ -13,9 +13,6 @@ type salesforce.AssetStatePeriod {
   salesforce.MasterDetail AssetId {
     apiName = "AssetStatePeriod.AssetId"
     relationshipName = "Asset"
-    referenceTo = [
-      salesforce.Asset,
-    ]
     _required = true
     label = "Asset ID"
     createable = false
@@ -97,9 +94,6 @@ type salesforce.AssetStatePeriod {
   salesforce.Lookup CreatedById {
     apiName = "AssetStatePeriod.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -117,9 +111,6 @@ type salesforce.AssetStatePeriod {
   salesforce.Lookup LastModifiedById {
     apiName = "AssetStatePeriod.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

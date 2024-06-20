@@ -2,10 +2,10 @@ salesforce.ListView IndustryPrice__c_All {
   fullName = "IndustryPrice__c.All"
   columns = [
     "NAME",
-    "IPIndustry__c",
-    "IPProduct__c",
-    "IPSLA__c",
-    "IPPrice__c",
+    salesforce.IndustryPrice__c.field.IPIndustry__c,
+    salesforce.IndustryPrice__c.field.IPProduct__c,
+    salesforce.IndustryPrice__c.field.IPSLA__c,
+    salesforce.IndustryPrice__c.field.IPPrice__c,
   ]
   filterScope = "Everything"
   label = "All"

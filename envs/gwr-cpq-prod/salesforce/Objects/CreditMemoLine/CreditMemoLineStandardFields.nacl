@@ -60,9 +60,6 @@ type salesforce.CreditMemoLine {
   salesforce.MasterDetail CreditMemoId {
     apiName = "CreditMemoLine.CreditMemoId"
     relationshipName = "CreditMemo"
-    referenceTo = [
-      salesforce.CreditMemo,
-    ]
     _required = true
     label = "Credit Memo ID"
     createable = false
@@ -109,9 +106,6 @@ type salesforce.CreditMemoLine {
   salesforce.Lookup Product2Id {
     apiName = "CreditMemoLine.Product2Id"
     relationshipName = "Product2"
-    referenceTo = [
-      salesforce.Product2,
-    ]
     label = "Product ID"
     createable = false
     updateable = true
@@ -120,10 +114,6 @@ type salesforce.CreditMemoLine {
   salesforce.Lookup ReferenceEntityItemId {
     apiName = "CreditMemoLine.ReferenceEntityItemId"
     relationshipName = "ReferenceEntityItem"
-    referenceTo = [
-      salesforce.InvoiceLine,
-      salesforce.OrderItem,
-    ]
     label = "ReferenceEntityItem ID"
     createable = false
     updateable = true
@@ -131,20 +121,6 @@ type salesforce.CreditMemoLine {
   }
   salesforce.Picklist ReferenceEntityItemTypeCode {
     apiName = "CreditMemoLine.ReferenceEntityItemTypeCode"
-    valueSet = [
-      {
-        fullName = "Product"
-        isActive = true
-        label = "Product"
-        default = false
-      },
-      {
-        fullName = "Charge"
-        isActive = true
-        label = "Charge"
-        default = false
-      },
-    ]
     restricted = true
     label = "Reference Entity Item Type Code"
     createable = false
@@ -154,9 +130,6 @@ type salesforce.CreditMemoLine {
   salesforce.Lookup RelatedLineId {
     apiName = "CreditMemoLine.RelatedLineId"
     relationshipName = "RelatedLine"
-    referenceTo = [
-      salesforce.CreditMemoLine,
-    ]
     label = "Credit Memo Line ID"
     createable = false
     updateable = true
@@ -227,26 +200,6 @@ type salesforce.CreditMemoLine {
   }
   salesforce.Picklist Type {
     apiName = "CreditMemoLine.Type"
-    valueSet = [
-      {
-        fullName = "Charge"
-        isActive = true
-        label = "Charge"
-        default = false
-      },
-      {
-        fullName = "Tax"
-        isActive = true
-        label = "Tax"
-        default = false
-      },
-      {
-        fullName = "Adjustment"
-        isActive = true
-        label = "Adjustment"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Type"
@@ -281,9 +234,6 @@ type salesforce.CreditMemoLine {
   salesforce.Lookup CreatedById {
     apiName = "CreditMemoLine.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -301,9 +251,6 @@ type salesforce.CreditMemoLine {
   salesforce.Lookup LastModifiedById {
     apiName = "CreditMemoLine.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -320,26 +267,6 @@ type salesforce.CreditMemoLine {
   }
   salesforce.Picklist ReferenceEntityItemType {
     apiName = "CreditMemoLine.ReferenceEntityItemType"
-    valueSet = [
-      {
-        fullName = "Order Product"
-        isActive = true
-        label = "Order Product"
-        default = false
-      },
-      {
-        fullName = "Delivery Charge"
-        isActive = true
-        label = "Delivery Charge"
-        default = false
-      },
-      {
-        fullName = "Fee"
-        isActive = true
-        label = "Fee"
-        default = false
-      },
-    ]
     restricted = true
     label = "Reference Entity Item Type"
     createable = false

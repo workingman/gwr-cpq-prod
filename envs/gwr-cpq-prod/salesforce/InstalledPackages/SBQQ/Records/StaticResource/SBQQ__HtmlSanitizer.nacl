@@ -4,10 +4,5 @@ salesforce.StaticResource SBQQ__HtmlSanitizer {
   description = "Google HTML Sanitizer library"
   fullName = "SBQQ__HtmlSanitizer"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__HtmlSanitizer.resource")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__HtmlSanitizer"
 }

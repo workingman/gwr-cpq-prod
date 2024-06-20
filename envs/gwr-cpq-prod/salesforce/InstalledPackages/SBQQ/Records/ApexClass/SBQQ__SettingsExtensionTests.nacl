@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__SettingsExtensionTests {
   status = "Active"
   fullName = "SBQQ__SettingsExtensionTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SettingsExtensionTests"
 }

@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__OrderProductDAO {
   status = "Active"
   fullName = "SBQQ__OrderProductDAO"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__OrderProductDAO"
 }

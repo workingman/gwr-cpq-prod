@@ -48,7 +48,7 @@ type salesforce.AIApplication {
         "InvoiceLatePaymentRiskCalculation",
         "KeyAccountIdentification",
         "LeadScoring",
-        "OmOrderRoutingPrediction",
+        "OmOrderRouting",
         "OpportunityPushedOutInsight",
         "OpportunityScoring",
         "Platform",

@@ -8,10 +8,6 @@ type salesforce.PromptError {
   salesforce.Lookup OwnerId {
     apiName = "PromptError.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -49,9 +45,6 @@ type salesforce.PromptError {
   salesforce.Lookup CreatedById {
     apiName = "PromptError.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -69,9 +62,6 @@ type salesforce.PromptError {
   salesforce.Lookup LastModifiedById {
     apiName = "PromptError.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -89,9 +79,6 @@ type salesforce.PromptError {
   salesforce.Lookup PromptActionId {
     apiName = "PromptError.PromptActionId"
     relationshipName = "PromptAction"
-    referenceTo = [
-      salesforce.PromptAction,
-    ]
     _required = true
     label = "Prompt Action ID"
     createable = true
@@ -100,32 +87,6 @@ type salesforce.PromptError {
   }
   salesforce.Picklist Type {
     apiName = "PromptError.Type"
-    valueSet = [
-      {
-        fullName = "Unavailable"
-        isActive = true
-        label = "Unavailable"
-        default = false
-      },
-      {
-        fullName = "NoAccessToPage"
-        isActive = true
-        label = "No Access To Page"
-        default = false
-      },
-      {
-        fullName = "NoAccessToApp"
-        isActive = true
-        label = "No Access To App"
-        default = false
-      },
-      {
-        fullName = "ReferenceElementNotFound"
-        isActive = true
-        label = "Reference Element Not Found"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Error Type"

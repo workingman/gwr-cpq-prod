@@ -10,10 +10,5 @@ NOT(ISNULL(SBQQ__FirstSegmentTermEndDate__c)) && NOT(ISNULL(SBQQ__StartDate__c))
   _parent = [
     salesforce.SBQQ__Quote__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__Quote__c.SBQQ__Invalid_First_Segment_Term_End_Date"
 }

@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__LocalizationHelp {
   label = "LocalizationHelp"
   fullName = "SBQQ__LocalizationHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__LocalizationHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "LocalizationHelp (SBQQ)"
 }

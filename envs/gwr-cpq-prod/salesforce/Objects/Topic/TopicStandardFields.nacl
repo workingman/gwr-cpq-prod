@@ -37,9 +37,6 @@ type salesforce.Topic {
   salesforce.Lookup CreatedById {
     apiName = "Topic.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false

@@ -63,9 +63,6 @@ type salesforce.Pricebook2 {
   salesforce.Lookup CreatedById {
     apiName = "Pricebook2.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -83,9 +80,6 @@ type salesforce.Pricebook2 {
   salesforce.Lookup LastModifiedById {
     apiName = "Pricebook2.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

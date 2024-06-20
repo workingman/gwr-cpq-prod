@@ -28,10 +28,6 @@ type salesforce.WorkPlanTemplate {
   salesforce.Lookup OwnerId {
     apiName = "WorkPlanTemplate.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -74,9 +70,6 @@ type salesforce.WorkPlanTemplate {
   salesforce.Lookup CreatedById {
     apiName = "WorkPlanTemplate.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -94,9 +87,6 @@ type salesforce.WorkPlanTemplate {
   salesforce.Lookup LastModifiedById {
     apiName = "WorkPlanTemplate.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

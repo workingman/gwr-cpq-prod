@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__AdditionalDocumentHelp {
   label = "AddAssets"
   fullName = "SBQQ__AdditionalDocumentHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__AdditionalDocumentHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "AddAssets (SBQQ)"
 }

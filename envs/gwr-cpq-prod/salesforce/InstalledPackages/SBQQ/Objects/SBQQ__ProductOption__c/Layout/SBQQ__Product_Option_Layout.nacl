@@ -246,10 +246,5 @@ salesforce.Layout SBQQ__ProductOption__c_SBQQ__Product_Option_Layout@uuuubuuss {
   _parent = [
     salesforce.SBQQ__ProductOption__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductOption__c-SBQQ__Product Option Layout"
 }

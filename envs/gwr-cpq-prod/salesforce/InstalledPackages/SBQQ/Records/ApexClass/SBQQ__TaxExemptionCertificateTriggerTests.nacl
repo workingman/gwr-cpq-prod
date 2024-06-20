@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__TaxExemptionCertificateTriggerTests {
   status = "Active"
   fullName = "SBQQ__TaxExemptionCertificateTriggerTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__TaxExemptionCertificateTriggerTests"
 }

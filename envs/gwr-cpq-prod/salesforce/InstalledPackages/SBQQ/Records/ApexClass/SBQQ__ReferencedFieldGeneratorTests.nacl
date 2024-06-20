@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ReferencedFieldGeneratorTests {
   status = "Active"
   fullName = "SBQQ__ReferencedFieldGeneratorTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ReferencedFieldGeneratorTests"
 }

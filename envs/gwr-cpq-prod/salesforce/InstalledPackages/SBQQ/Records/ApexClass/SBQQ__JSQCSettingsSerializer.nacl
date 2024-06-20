@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__JSQCSettingsSerializer {
   status = "Active"
   fullName = "SBQQ__JSQCSettingsSerializer"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__JSQCSettingsSerializer"
 }

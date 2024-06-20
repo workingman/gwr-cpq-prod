@@ -282,10 +282,5 @@ salesforce.Layout SBQQ__Subscription__c_SBQQ__Subscription_Layout@uuuubuus {
   _parent = [
     salesforce.SBQQ__Subscription__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__Subscription__c-SBQQ__Subscription Layout"
 }

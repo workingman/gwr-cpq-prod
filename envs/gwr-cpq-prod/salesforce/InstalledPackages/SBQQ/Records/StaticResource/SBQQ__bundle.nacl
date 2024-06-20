@@ -4,10 +4,5 @@ salesforce.StaticResource SBQQ__bundle {
   description = "Salesforce CPQ UI"
   fullName = "SBQQ__bundle"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__bundle.js")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__bundle"
 }

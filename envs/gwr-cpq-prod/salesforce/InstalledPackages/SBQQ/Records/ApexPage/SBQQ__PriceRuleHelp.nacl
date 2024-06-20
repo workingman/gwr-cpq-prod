@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__PriceRuleHelp {
   label = "Price Rule Help"
   fullName = "SBQQ__PriceRuleHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__PriceRuleHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Price Rule Help (SBQQ)"
 }

@@ -8,10 +8,6 @@ type salesforce.SBQQ__SubscribedQuoteLine__c {
   salesforce.Lookup OwnerId {
     apiName = "SBQQ__SubscribedQuoteLine__c.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -46,9 +42,6 @@ type salesforce.SBQQ__SubscribedQuoteLine__c {
   salesforce.Lookup CreatedById {
     apiName = "SBQQ__SubscribedQuoteLine__c.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -66,9 +59,6 @@ type salesforce.SBQQ__SubscribedQuoteLine__c {
   salesforce.Lookup LastModifiedById {
     apiName = "SBQQ__SubscribedQuoteLine__c.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

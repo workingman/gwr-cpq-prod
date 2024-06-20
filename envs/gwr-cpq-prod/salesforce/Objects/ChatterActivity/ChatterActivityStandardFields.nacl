@@ -7,9 +7,6 @@ type salesforce.ChatterActivity {
   }
   salesforce.Lookup ParentId {
     apiName = "ChatterActivity.ParentId"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Parent ID"
     createable = false
     updateable = false

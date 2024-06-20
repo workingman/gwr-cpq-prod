@@ -25,9 +25,6 @@ type salesforce.Contract {
       {
         reference = salesforce.Contract.field.StatusCode
       },
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
     ]
   }
   salesforce.Text SBQQ__AmendmentOpportunityRecordTypeId__c {
@@ -43,11 +40,6 @@ type salesforce.Contract {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__AmendmentOpportunityStage__c {
     apiName = "Contract.SBQQ__AmendmentOpportunityStage__c"
@@ -62,11 +54,6 @@ type salesforce.Contract {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__AmendmentOwner__c {
     apiName = "Contract.SBQQ__AmendmentOwner__c"
@@ -83,11 +70,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__AmendmentPricebookId__c {
     apiName = "Contract.SBQQ__AmendmentPricebookId__c"
@@ -102,11 +84,6 @@ type salesforce.Contract {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__AmendmentRenewalBehavior__c {
     apiName = "Contract.SBQQ__AmendmentRenewalBehavior__c"
@@ -132,11 +109,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Date SBQQ__AmendmentStartDate__c {
     apiName = "Contract.SBQQ__AmendmentStartDate__c"
@@ -148,11 +120,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__DefaultRenewalContactRoles__c {
     apiName = "Contract.SBQQ__DefaultRenewalContactRoles__c"
@@ -165,11 +132,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__DefaultRenewalPartners__c {
     apiName = "Contract.SBQQ__DefaultRenewalPartners__c"
@@ -182,11 +144,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__DisableAmendmentCoTerm__c {
     apiName = "Contract.SBQQ__DisableAmendmentCoTerm__c"
@@ -199,11 +156,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__Evergreen__c {
     apiName = "Contract.SBQQ__Evergreen__c"
@@ -216,11 +168,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.FormulaDate SBQQ__ExpirationDate__c {
     apiName = "Contract.SBQQ__ExpirationDate__c"
@@ -238,9 +185,6 @@ type salesforce.Contract {
     _generated_dependencies = [
       {
         reference = salesforce.Contract.field.EndDate
-      },
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
       },
     ]
   }
@@ -263,11 +207,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__MasterContract__c {
     apiName = "Contract.SBQQ__MasterContract__c"
@@ -280,11 +219,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.FormulaText SBQQ__OpportunityPricebookId__c {
     apiName = "Contract.SBQQ__OpportunityPricebookId__c"
@@ -308,9 +242,6 @@ type salesforce.Contract {
       {
         reference = salesforce.Contract.field.SBQQ__Quote__c
       },
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
     ]
   }
   salesforce.Lookup SBQQ__Opportunity__c {
@@ -329,11 +260,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__Order__c {
     apiName = "Contract.SBQQ__Order__c"
@@ -349,11 +275,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__PreserveBundleStructureUponRenewals__c {
     apiName = "Contract.SBQQ__PreserveBundleStructureUponRenewals__c"
@@ -366,11 +287,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__Quote__c {
     apiName = "Contract.SBQQ__Quote__c"
@@ -388,11 +304,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__RenewalForecast__c {
     apiName = "Contract.SBQQ__RenewalForecast__c"
@@ -405,11 +316,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__RenewalOpportunityRecordTypeId__c {
     apiName = "Contract.SBQQ__RenewalOpportunityRecordTypeId__c"
@@ -424,11 +330,6 @@ type salesforce.Contract {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__RenewalOpportunityStage__c {
     apiName = "Contract.SBQQ__RenewalOpportunityStage__c"
@@ -443,11 +344,6 @@ type salesforce.Contract {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__RenewalOpportunity__c {
     apiName = "Contract.SBQQ__RenewalOpportunity__c"
@@ -465,11 +361,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__RenewalOwner__c {
     apiName = "Contract.SBQQ__RenewalOwner__c"
@@ -486,11 +377,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__RenewalPricebookId__c {
     apiName = "Contract.SBQQ__RenewalPricebookId__c"
@@ -505,11 +391,6 @@ type salesforce.Contract {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__RenewalQuoted__c {
     apiName = "Contract.SBQQ__RenewalQuoted__c"
@@ -522,11 +403,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Number SBQQ__RenewalTerm__c {
     apiName = "Contract.SBQQ__RenewalTerm__c"
@@ -541,11 +417,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Percent SBQQ__RenewalUpliftRate__c {
     apiName = "Contract.SBQQ__RenewalUpliftRate__c"
@@ -559,11 +430,6 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__SubscriptionQuantitiesCombined__c {
     apiName = "Contract.SBQQ__SubscriptionQuantitiesCombined__c"
@@ -576,10 +442,5 @@ type salesforce.Contract {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
 }

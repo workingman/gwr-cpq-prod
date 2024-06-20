@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ElectronicDocumentProcessor {
   status = "Active"
   fullName = "SBQQ__ElectronicDocumentProcessor"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__ElectronicDocumentProcessor.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ElectronicDocumentProcessor"
 }

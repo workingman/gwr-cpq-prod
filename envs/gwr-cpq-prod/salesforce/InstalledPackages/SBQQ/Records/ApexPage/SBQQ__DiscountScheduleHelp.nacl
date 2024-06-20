@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__DiscountScheduleHelp {
   label = "Discount Schedule Help"
   fullName = "SBQQ__DiscountScheduleHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__DiscountScheduleHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Discount Schedule Help (SBQQ)"
 }

@@ -37,10 +37,5 @@ salesforce.FieldSet ConsumptionRate_SBQQ__Rates {
   _parent = [
     salesforce.ConsumptionRate,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Rates (SBQQ)"
 }

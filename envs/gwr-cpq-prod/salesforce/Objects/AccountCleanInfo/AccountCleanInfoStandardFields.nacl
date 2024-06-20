@@ -56,9 +56,6 @@ type salesforce.AccountCleanInfo {
   salesforce.Lookup CreatedById {
     apiName = "AccountCleanInfo.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -76,9 +73,6 @@ type salesforce.AccountCleanInfo {
   salesforce.Lookup LastModifiedById {
     apiName = "AccountCleanInfo.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -96,9 +90,6 @@ type salesforce.AccountCleanInfo {
   salesforce.Lookup AccountId {
     apiName = "AccountCleanInfo.AccountId"
     relationshipName = "Account"
-    referenceTo = [
-      salesforce.Account,
-    ]
     _required = true
     label = "Account ID"
     createable = false
@@ -126,9 +117,6 @@ type salesforce.AccountCleanInfo {
   salesforce.Lookup LastStatusChangedById {
     apiName = "AccountCleanInfo.LastStatusChangedById"
     relationshipName = "LastStatusChangedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "User ID"
     createable = false
     updateable = false
@@ -350,20 +338,6 @@ type salesforce.AccountCleanInfo {
   }
   salesforce.Picklist CompanyStatusDataDotCom {
     apiName = "AccountCleanInfo.CompanyStatusDataDotCom"
-    valueSet = [
-      {
-        fullName = "IsActiveCompanyDataDotCom"
-        isActive = true
-        label = "Company is In Business per Data.com"
-        default = false
-      },
-      {
-        fullName = "IsInactiveCompanyDataDotCom"
-        isActive = true
-        label = "Company is Out of Business per Data.com"
-        default = false
-      },
-    ]
     restricted = true
     label = "Company Status per Data.com"
     createable = false

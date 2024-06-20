@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__OpportunityLineItemDAOTest {
   status = "Active"
   fullName = "SBQQ__OpportunityLineItemDAOTest"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__OpportunityLineItemDAOTest"
 }

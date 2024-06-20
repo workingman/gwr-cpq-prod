@@ -7,10 +7,5 @@ salesforce.ValidationRule SBQQ__PriceCondition__c_SBQQ__Tested_field_or_variable
   _parent = [
     salesforce.SBQQ__PriceCondition__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__PriceCondition__c.SBQQ__Tested_field_or_variable"
 }

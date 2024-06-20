@@ -4,10 +4,5 @@ salesforce.StaticResource SBQQ__EditLinesUI {
   description = "JavaScript UI library backing Edit Lines page."
   fullName = "SBQQ__EditLinesUI"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__EditLinesUI.resource")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__EditLinesUI"
 }

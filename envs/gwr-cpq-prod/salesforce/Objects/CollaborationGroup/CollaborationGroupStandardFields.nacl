@@ -30,9 +30,6 @@ type salesforce.CollaborationGroup {
   salesforce.Lookup OwnerId {
     apiName = "CollaborationGroup.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -41,20 +38,6 @@ type salesforce.CollaborationGroup {
   }
   salesforce.Picklist CollaborationType {
     apiName = "CollaborationGroup.CollaborationType"
-    valueSet = [
-      {
-        fullName = "Public"
-        isActive = true
-        label = "Public"
-        default = false
-      },
-      {
-        fullName = "Private"
-        isActive = true
-        label = "Private"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Access Type"
@@ -81,9 +64,6 @@ type salesforce.CollaborationGroup {
   salesforce.Lookup CreatedById {
     apiName = "CollaborationGroup.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -101,9 +81,6 @@ type salesforce.CollaborationGroup {
   salesforce.Lookup LastModifiedById {
     apiName = "CollaborationGroup.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -205,9 +182,6 @@ type salesforce.CollaborationGroup {
   salesforce.Lookup AnnouncementId {
     apiName = "CollaborationGroup.AnnouncementId"
     relationshipName = "Announcement"
-    referenceTo = [
-      "Announcement",
-    ]
     label = "Announcement ID"
     createable = true
     updateable = true

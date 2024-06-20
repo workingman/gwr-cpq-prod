@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ContractExtController {
   status = "Active"
   fullName = "SBQQ__ContractExtController"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__ContractExtController.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ContractExtController"
 }

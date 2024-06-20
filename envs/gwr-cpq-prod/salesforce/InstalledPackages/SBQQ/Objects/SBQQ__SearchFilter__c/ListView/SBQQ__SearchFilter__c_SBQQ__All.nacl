@@ -2,26 +2,21 @@ salesforce.ListView SBQQ__SearchFilter__c_SBQQ__All {
   fullName = "SBQQ__SearchFilter__c.SBQQ__All"
   columns = [
     "NAME",
-    "SBQQ__DisplayOrder__c",
-    "SBQQ__TargetObject__c",
-    "SBQQ__TargetField__c",
-    "SBQQ__Operator__c",
-    "SBQQ__FilterValue__c",
-    "SBQQ__Hidden__c",
-    "SBQQ__HiddenSourceField__c",
-    "SBQQ__FilterSourceField__c",
-    "SBQQ__Action__c",
+    salesforce.SBQQ__SearchFilter__c.field.SBQQ__DisplayOrder__c,
+    salesforce.SBQQ__SearchFilter__c.field.SBQQ__TargetObject__c,
+    salesforce.SBQQ__SearchFilter__c.field.SBQQ__TargetField__c,
+    salesforce.SBQQ__SearchFilter__c.field.SBQQ__Operator__c,
+    salesforce.SBQQ__SearchFilter__c.field.SBQQ__FilterValue__c,
+    salesforce.SBQQ__SearchFilter__c.field.SBQQ__Hidden__c,
+    salesforce.SBQQ__SearchFilter__c.field.SBQQ__HiddenSourceField__c,
+    salesforce.SBQQ__SearchFilter__c.field.SBQQ__FilterSourceField__c,
+    salesforce.SBQQ__SearchFilter__c.field.SBQQ__Action__c,
   ]
   filterScope = "Everything"
   label = "All"
   language = "en_US"
   _parent = [
     salesforce.SBQQ__SearchFilter__c,
-  ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
   ]
   _alias = "All (SBQQ)"
 }

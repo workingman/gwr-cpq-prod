@@ -266,10 +266,5 @@ type salesforce.SBQQ__PriceCondition__c {
   topicsForObjects = {
     enableTopics = false
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Price Condition (SBQQ)"
 }

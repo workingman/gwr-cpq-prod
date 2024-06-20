@@ -66,10 +66,5 @@ type salesforce.SBQQ__FieldMetadata__c {
   description = "Extra metadata about the field that's not accessible via the API."
   enableFeeds = false
   visibility = "Public"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Field Metadata (SBQQ)"
 }

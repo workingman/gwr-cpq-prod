@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__SecurityUtilsTests {
   status = "Active"
   fullName = "SBQQ__SecurityUtilsTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SecurityUtilsTests"
 }

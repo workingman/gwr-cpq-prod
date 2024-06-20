@@ -2,22 +2,17 @@ salesforce.ListView SBQQ__WebQuote__c_SBQQ__All {
   fullName = "SBQQ__WebQuote__c.SBQQ__All"
   columns = [
     "NAME",
-    "SBQQ__Account__c",
-    "SBQQ__SalesRep__c",
-    "SBQQ__Status__c",
-    "SBQQ__ExpirationDate__c",
-    "SBQQ__ListAmount__c",
-    "SBQQ__NetAmount__c",
+    salesforce.SBQQ__WebQuote__c.field.SBQQ__Account__c,
+    salesforce.SBQQ__WebQuote__c.field.SBQQ__SalesRep__c,
+    salesforce.SBQQ__WebQuote__c.field.SBQQ__Status__c,
+    salesforce.SBQQ__WebQuote__c.field.SBQQ__ExpirationDate__c,
+    salesforce.SBQQ__WebQuote__c.field.SBQQ__ListAmount__c,
+    salesforce.SBQQ__WebQuote__c.field.SBQQ__NetAmount__c,
   ]
   filterScope = "Everything"
   label = "All"
   _parent = [
     salesforce.SBQQ__WebQuote__c,
-  ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
   ]
   _alias = "All (SBQQ)"
 }

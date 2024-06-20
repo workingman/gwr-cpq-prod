@@ -34,10 +34,5 @@ salesforce.GlobalValueSet SBQQ__PaymentTerm {
   ]
   masterLabel = "Payment Term"
   sorted = false
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__PaymentTerm"
 }

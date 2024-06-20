@@ -11,10 +11,5 @@ salesforce.WebLink Account_SBQQ__Amend_Assets {
   _parent = [
     salesforce.Account,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Account.SBQQ__Amend_Assets"
 }

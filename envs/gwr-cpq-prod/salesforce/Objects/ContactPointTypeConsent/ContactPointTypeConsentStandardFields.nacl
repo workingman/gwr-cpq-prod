@@ -2,9 +2,6 @@ type salesforce.ContactPointTypeConsent {
   salesforce.Lookup BusinessBrandId {
     apiName = "ContactPointTypeConsent.BusinessBrandId"
     relationshipName = "BusinessBrand"
-    referenceTo = [
-      salesforce.BusinessBrand,
-    ]
     label = "Business Brand ID"
     createable = true
     updateable = true
@@ -12,50 +9,6 @@ type salesforce.ContactPointTypeConsent {
   }
   salesforce.Picklist CaptureContactPointType {
     apiName = "ContactPointTypeConsent.CaptureContactPointType"
-    valueSet = [
-      {
-        fullName = "Email"
-        isActive = true
-        label = "Email"
-        default = false
-      },
-      {
-        fullName = "Phone"
-        isActive = true
-        label = "Phone"
-        default = false
-      },
-      {
-        fullName = "Web"
-        isActive = true
-        label = "Web"
-        default = false
-      },
-      {
-        fullName = "Social"
-        isActive = true
-        label = "Social"
-        default = false
-      },
-      {
-        fullName = "MailingAddress"
-        isActive = true
-        label = "Mailing Address"
-        default = false
-      },
-      {
-        fullName = "InPerson"
-        isActive = true
-        label = "In Person"
-        default = false
-      },
-      {
-        fullName = "Video"
-        isActive = true
-        label = "Video"
-        default = false
-      },
-    ]
     restricted = true
     label = "Capture Contact Point Type"
     createable = true
@@ -81,50 +34,6 @@ type salesforce.ContactPointTypeConsent {
   }
   salesforce.Picklist ContactPointType {
     apiName = "ContactPointTypeConsent.ContactPointType"
-    valueSet = [
-      {
-        fullName = "Email"
-        isActive = true
-        label = "Email"
-        default = false
-      },
-      {
-        fullName = "Phone"
-        isActive = true
-        label = "Phone"
-        default = false
-      },
-      {
-        fullName = "Web"
-        isActive = true
-        label = "Web"
-        default = false
-      },
-      {
-        fullName = "Social"
-        isActive = true
-        label = "Social"
-        default = false
-      },
-      {
-        fullName = "MailingAddress"
-        isActive = true
-        label = "Mailing Address"
-        default = false
-      },
-      {
-        fullName = "InPerson"
-        isActive = true
-        label = "In Person"
-        default = false
-      },
-      {
-        fullName = "Video"
-        isActive = true
-        label = "Video"
-        default = false
-      },
-    ]
     restricted = true
     label = "Contact Point Type ID"
     createable = true
@@ -134,9 +43,6 @@ type salesforce.ContactPointTypeConsent {
   salesforce.Lookup DataUsePurposeId {
     apiName = "ContactPointTypeConsent.DataUsePurposeId"
     relationshipName = "DataUsePurpose"
-    referenceTo = [
-      salesforce.DataUsePurpose,
-    ]
     label = "Data Use Purpose ID"
     createable = true
     updateable = true
@@ -181,10 +87,6 @@ type salesforce.ContactPointTypeConsent {
   salesforce.Lookup OwnerId {
     apiName = "ContactPointTypeConsent.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -194,9 +96,6 @@ type salesforce.ContactPointTypeConsent {
   salesforce.Lookup PartyId {
     apiName = "ContactPointTypeConsent.PartyId"
     relationshipName = "Party"
-    referenceTo = [
-      salesforce.Individual,
-    ]
     _required = true
     label = "Party ID"
     createable = true
@@ -206,10 +105,6 @@ type salesforce.ContactPointTypeConsent {
   salesforce.Lookup PartyRoleId {
     apiName = "ContactPointTypeConsent.PartyRoleId"
     relationshipName = "PartyRole"
-    referenceTo = [
-      salesforce.Customer,
-      salesforce.Seller,
-    ]
     label = "Party Role ID"
     createable = true
     updateable = true
@@ -217,44 +112,6 @@ type salesforce.ContactPointTypeConsent {
   }
   salesforce.Picklist PrivacyConsentStatus {
     apiName = "ContactPointTypeConsent.PrivacyConsentStatus"
-    valueSet = [
-      {
-        fullName = "NotSeen"
-        isActive = true
-        label = "Not Seen"
-        default = true
-      },
-      {
-        fullName = "Seen"
-        isActive = true
-        label = "Seen"
-        default = false
-      },
-      {
-        fullName = "OptIn"
-        isActive = true
-        label = "Opt In"
-        default = false
-      },
-      {
-        fullName = "OptOut"
-        isActive = true
-        label = "Opt Out"
-        default = false
-      },
-      {
-        fullName = "OptInPending"
-        isActive = true
-        label = "Opt In Pending"
-        default = false
-      },
-      {
-        fullName = "OptOutPending"
-        isActive = true
-        label = "Opt Out Pending"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Privacy Consent Status"
@@ -288,9 +145,6 @@ type salesforce.ContactPointTypeConsent {
   salesforce.Lookup CreatedById {
     apiName = "ContactPointTypeConsent.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -308,9 +162,6 @@ type salesforce.ContactPointTypeConsent {
   salesforce.Lookup LastModifiedById {
     apiName = "ContactPointTypeConsent.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

@@ -3,10 +3,5 @@ salesforce.ApexComponent SBQQ__discountScheduleEditor {
   label = "discountScheduleEditor"
   fullName = "SBQQ__discountScheduleEditor"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "discountScheduleEditor (SBQQ)"
 }

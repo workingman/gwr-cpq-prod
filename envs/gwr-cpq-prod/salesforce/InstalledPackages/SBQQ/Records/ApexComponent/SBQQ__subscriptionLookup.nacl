@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__subscriptionLookup {
   label = "subscriptionLookup"
   fullName = "SBQQ__subscriptionLookup"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "subscriptionLookup (SBQQ)"
 }

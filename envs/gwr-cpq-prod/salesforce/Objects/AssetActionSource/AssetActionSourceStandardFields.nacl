@@ -22,9 +22,6 @@ type salesforce.AssetActionSource {
   salesforce.MasterDetail AssetActionId {
     apiName = "AssetActionSource.AssetActionId"
     relationshipName = "AssetAction"
-    referenceTo = [
-      salesforce.AssetAction,
-    ]
     _required = true
     label = "Asset Action ID"
     createable = false
@@ -96,10 +93,6 @@ type salesforce.AssetActionSource {
   salesforce.Lookup ReferenceEntityItemId {
     apiName = "AssetActionSource.ReferenceEntityItemId"
     relationshipName = "ReferenceEntityItem"
-    referenceTo = [
-      salesforce.OrderItem,
-      salesforce.WorkOrderLineItem,
-    ]
     label = "Reference Entity Item ID"
     createable = false
     updateable = false
@@ -164,9 +157,6 @@ type salesforce.AssetActionSource {
   salesforce.Lookup CreatedById {
     apiName = "AssetActionSource.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -184,9 +174,6 @@ type salesforce.AssetActionSource {
   salesforce.Lookup LastModifiedById {
     apiName = "AssetActionSource.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

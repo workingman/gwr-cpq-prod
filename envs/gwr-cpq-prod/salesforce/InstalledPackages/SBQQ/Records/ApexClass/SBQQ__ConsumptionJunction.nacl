@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ConsumptionJunction {
   status = "Active"
   fullName = "SBQQ__ConsumptionJunction"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ConsumptionJunction"
 }

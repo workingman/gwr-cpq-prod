@@ -36,9 +36,6 @@ type salesforce.Recommendation {
     apiName = "Recommendation.ImageId"
     inlineHelpText = "For best results, use a 1000 px x 380 px image at 72 dpi or one with a similar ratio."
     relationshipName = "Image"
-    referenceTo = [
-      "ContentAsset",
-    ]
     label = "Asset File ID"
     createable = true
     updateable = true
@@ -101,9 +98,6 @@ type salesforce.Recommendation {
   salesforce.Lookup CreatedById {
     apiName = "Recommendation.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -121,9 +115,6 @@ type salesforce.Recommendation {
   salesforce.Lookup LastModifiedById {
     apiName = "Recommendation.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

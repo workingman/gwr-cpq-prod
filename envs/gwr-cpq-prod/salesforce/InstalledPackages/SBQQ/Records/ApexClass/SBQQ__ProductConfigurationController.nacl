@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ProductConfigurationController {
   status = "Active"
   fullName = "SBQQ__ProductConfigurationController"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__ProductConfigurationController.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductConfigurationController"
 }

@@ -10,9 +10,6 @@ type salesforce.PricebookEntry {
   salesforce.Lookup Pricebook2Id {
     apiName = "PricebookEntry.Pricebook2Id"
     relationshipName = "Pricebook2"
-    referenceTo = [
-      salesforce.Pricebook2,
-    ]
     _required = true
     label = "Price Book ID"
     createable = true
@@ -22,9 +19,6 @@ type salesforce.PricebookEntry {
   salesforce.Lookup Product2Id {
     apiName = "PricebookEntry.Product2Id"
     relationshipName = "Product2"
-    referenceTo = [
-      salesforce.Product2,
-    ]
     _required = true
     label = "Product ID"
     createable = true
@@ -92,9 +86,6 @@ type salesforce.PricebookEntry {
   salesforce.Lookup CreatedById {
     apiName = "PricebookEntry.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -112,9 +103,6 @@ type salesforce.PricebookEntry {
   salesforce.Lookup LastModifiedById {
     apiName = "PricebookEntry.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

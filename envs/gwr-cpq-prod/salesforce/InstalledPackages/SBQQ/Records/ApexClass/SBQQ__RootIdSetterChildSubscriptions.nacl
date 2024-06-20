@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__RootIdSetterChildSubscriptions {
   status = "Active"
   fullName = "SBQQ__RootIdSetterChildSubscriptions"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__RootIdSetterChildSubscriptions"
 }

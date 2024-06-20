@@ -2,9 +2,6 @@ type salesforce.Asset {
   salesforce.Lookup AccountId {
     apiName = "Asset.AccountId"
     relationshipName = "Account"
-    referenceTo = [
-      salesforce.Account,
-    ]
     label = "Account ID"
     createable = true
     updateable = true
@@ -32,9 +29,6 @@ type salesforce.Asset {
   salesforce.Lookup AssetProvidedById {
     apiName = "Asset.AssetProvidedById"
     relationshipName = "AssetProvidedBy"
-    referenceTo = [
-      salesforce.Account,
-    ]
     label = "Asset Provided By ID"
     createable = true
     updateable = true
@@ -43,9 +37,6 @@ type salesforce.Asset {
   salesforce.Lookup AssetServicedById {
     apiName = "Asset.AssetServicedById"
     relationshipName = "AssetServicedBy"
-    referenceTo = [
-      salesforce.Account,
-    ]
     label = "Asset Serviced By ID"
     createable = true
     updateable = true
@@ -58,9 +49,6 @@ type salesforce.Asset {
   salesforce.Lookup ContactId {
     apiName = "Asset.ContactId"
     relationshipName = "Contact"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     label = "Contact ID"
     createable = true
     updateable = true
@@ -193,9 +181,6 @@ type salesforce.Asset {
   salesforce.Lookup OwnerId {
     apiName = "Asset.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -205,9 +190,6 @@ type salesforce.Asset {
   salesforce.Lookup ParentId {
     apiName = "Asset.ParentId"
     relationshipName = "Parent"
-    referenceTo = [
-      salesforce.Asset,
-    ]
     label = "Parent Asset ID"
     createable = true
     updateable = true
@@ -225,9 +207,6 @@ type salesforce.Asset {
   salesforce.Lookup Product2Id {
     apiName = "Asset.Product2Id"
     relationshipName = "Product2"
-    referenceTo = [
-      salesforce.Product2,
-    ]
     label = "Product ID"
     createable = true
     updateable = true
@@ -272,9 +251,6 @@ type salesforce.Asset {
   salesforce.Lookup RootAssetId {
     apiName = "Asset.RootAssetId"
     relationshipName = "RootAsset"
-    referenceTo = [
-      salesforce.Asset,
-    ]
     label = "Root Asset ID"
     createable = false
     updateable = false
@@ -355,9 +331,6 @@ type salesforce.Asset {
   salesforce.Lookup CreatedById {
     apiName = "Asset.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -375,9 +348,6 @@ type salesforce.Asset {
   salesforce.Lookup LastModifiedById {
     apiName = "Asset.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

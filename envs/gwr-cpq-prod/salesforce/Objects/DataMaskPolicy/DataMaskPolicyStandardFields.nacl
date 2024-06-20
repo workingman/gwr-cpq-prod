@@ -1,0 +1,26 @@
+type salesforce.DataMaskPolicy {
+  salesforce.Unknown Description {
+    apiName = "DataMaskPolicy.Description"
+    _hidden_value = true
+  }
+  salesforce.Unknown PolicyName {
+    apiName = "DataMaskPolicy.PolicyName"
+    _hidden_value = true
+  }
+  salesforce.Unknown RunFrequency {
+    apiName = "DataMaskPolicy.RunFrequency"
+    _hidden_value = true
+  }
+  salesforce.Unknown ScheduledStart {
+    apiName = "DataMaskPolicy.ScheduledStart"
+    _hidden_value = true
+  }
+  salesforce.Unknown Status {
+    apiName = "DataMaskPolicy.Status"
+    _hidden_value = true
+  }
+  salesforce.Unknown Type {
+    apiName = "DataMaskPolicy.Type"
+    _hidden_value = true
+  }
+}

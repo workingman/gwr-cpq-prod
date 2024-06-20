@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ConfiguratorSearchModel {
   status = "Active"
   fullName = "SBQQ__ConfiguratorSearchModel"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ConfiguratorSearchModel"
 }

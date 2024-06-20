@@ -538,10 +538,5 @@ salesforce.Layout SBQQ__Quote__c_SBQQ__Quote_Layout@uuuubuus {
   _parent = [
     salesforce.SBQQ__Quote__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__Quote__c-SBQQ__Quote Layout"
 }

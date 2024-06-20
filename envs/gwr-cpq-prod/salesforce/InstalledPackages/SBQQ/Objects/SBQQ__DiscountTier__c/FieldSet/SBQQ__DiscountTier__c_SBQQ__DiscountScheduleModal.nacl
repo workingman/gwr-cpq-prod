@@ -37,10 +37,5 @@ salesforce.FieldSet SBQQ__DiscountTier__c_SBQQ__DiscountScheduleModal {
   _parent = [
     salesforce.SBQQ__DiscountTier__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Discount Schedule Modal (SBQQ)"
 }

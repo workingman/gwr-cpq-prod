@@ -2,9 +2,6 @@ type salesforce.PaymentAuthorization {
   salesforce.Lookup AccountId {
     apiName = "PaymentAuthorization.AccountId"
     relationshipName = "Account"
-    referenceTo = [
-      salesforce.Account,
-    ]
     label = "Account ID"
     createable = true
     updateable = true
@@ -145,9 +142,6 @@ type salesforce.PaymentAuthorization {
   salesforce.Lookup PaymentGatewayId {
     apiName = "PaymentAuthorization.PaymentGatewayId"
     relationshipName = "PaymentGateway"
-    referenceTo = [
-      salesforce.PaymentGateway,
-    ]
     label = "Payment Gateway ID"
     createable = true
     updateable = true
@@ -156,9 +150,6 @@ type salesforce.PaymentAuthorization {
   salesforce.Lookup PaymentGroupId {
     apiName = "PaymentAuthorization.PaymentGroupId"
     relationshipName = "PaymentGroup"
-    referenceTo = [
-      salesforce.PaymentGroup,
-    ]
     label = "Payment Group ID"
     createable = true
     updateable = true
@@ -167,9 +158,6 @@ type salesforce.PaymentAuthorization {
   salesforce.Lookup PaymentMethodId {
     apiName = "PaymentAuthorization.PaymentMethodId"
     relationshipName = "PaymentMethod"
-    referenceTo = [
-      salesforce.PaymentMethod,
-    ]
     label = "Payment Method ID"
     createable = true
     updateable = true
@@ -184,20 +172,6 @@ type salesforce.PaymentAuthorization {
   }
   salesforce.Picklist ProcessingMode {
     apiName = "PaymentAuthorization.ProcessingMode"
-    valueSet = [
-      {
-        fullName = "Salesforce"
-        isActive = true
-        label = "Salesforce"
-        default = false
-      },
-      {
-        fullName = "External"
-        isActive = true
-        label = "External"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Processing Mode"
@@ -207,50 +181,6 @@ type salesforce.PaymentAuthorization {
   }
   salesforce.Picklist SfResultCode {
     apiName = "PaymentAuthorization.SfResultCode"
-    valueSet = [
-      {
-        fullName = "Success"
-        isActive = true
-        label = "Success"
-        default = false
-      },
-      {
-        fullName = "PermanentFail"
-        isActive = true
-        label = "Permanent Fail"
-        default = false
-      },
-      {
-        fullName = "Decline"
-        isActive = true
-        label = "Decline"
-        default = false
-      },
-      {
-        fullName = "RequiresReview"
-        isActive = true
-        label = "Requires Review"
-        default = false
-      },
-      {
-        fullName = "Indeterminate"
-        isActive = true
-        label = "Indeterminate"
-        default = false
-      },
-      {
-        fullName = "SystemError"
-        isActive = true
-        label = "System Error"
-        default = false
-      },
-      {
-        fullName = "ValidationError"
-        isActive = true
-        label = "Validation Error"
-        default = false
-      },
-    ]
     restricted = true
     label = "Salesforce Result Code"
     createable = true
@@ -259,38 +189,6 @@ type salesforce.PaymentAuthorization {
   }
   salesforce.Picklist Status {
     apiName = "PaymentAuthorization.Status"
-    valueSet = [
-      {
-        fullName = "Draft"
-        isActive = true
-        label = "Draft"
-        default = false
-      },
-      {
-        fullName = "Processed"
-        isActive = true
-        label = "Processed"
-        default = false
-      },
-      {
-        fullName = "Canceled"
-        isActive = true
-        label = "Canceled"
-        default = false
-      },
-      {
-        fullName = "Pending"
-        isActive = true
-        label = "Pending"
-        default = false
-      },
-      {
-        fullName = "Failed"
-        isActive = true
-        label = "Failed"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Status"
@@ -350,9 +248,6 @@ type salesforce.PaymentAuthorization {
   salesforce.Lookup CreatedById {
     apiName = "PaymentAuthorization.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -370,9 +265,6 @@ type salesforce.PaymentAuthorization {
   salesforce.Lookup LastModifiedById {
     apiName = "PaymentAuthorization.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

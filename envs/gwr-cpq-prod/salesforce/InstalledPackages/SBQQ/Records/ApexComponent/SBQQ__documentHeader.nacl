@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__documentHeader {
   label = "Document Header"
   fullName = "SBQQ__documentHeader"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Document Header (SBQQ)"
 }

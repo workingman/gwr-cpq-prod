@@ -7,10 +7,5 @@ salesforce.ValidationRule SBQQ__ProcessInput__c_SBQQ__ProductFieldAndOperatorSet
   _parent = [
     salesforce.SBQQ__ProcessInput__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProcessInput__c.SBQQ__ProductFieldAndOperatorSet"
 }

@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__EditTemplateContent {
   label = "EditTemplateContent"
   fullName = "SBQQ__EditTemplateContent"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__EditTemplateContent.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "EditTemplateContent (SBQQ)"
 }

@@ -2,9 +2,6 @@ type salesforce.ProductConsumptionSchedule {
   salesforce.Lookup ConsumptionScheduleId {
     apiName = "ProductConsumptionSchedule.ConsumptionScheduleId"
     relationshipName = "ConsumptionSchedule"
-    referenceTo = [
-      salesforce.ConsumptionSchedule,
-    ]
     _required = true
     label = "Consumption Schedule ID"
     createable = true
@@ -14,9 +11,6 @@ type salesforce.ProductConsumptionSchedule {
   salesforce.Lookup ProductId {
     apiName = "ProductConsumptionSchedule.ProductId"
     relationshipName = "Product"
-    referenceTo = [
-      salesforce.Product2,
-    ]
     _required = true
     label = "Product ID"
     createable = true
@@ -49,9 +43,6 @@ type salesforce.ProductConsumptionSchedule {
   salesforce.Lookup CreatedById {
     apiName = "ProductConsumptionSchedule.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -69,9 +60,6 @@ type salesforce.ProductConsumptionSchedule {
   salesforce.Lookup LastModifiedById {
     apiName = "ProductConsumptionSchedule.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

@@ -3,10 +3,5 @@ salesforce.RemoteSiteSetting SBQQ__RestSbJP {
   disableProtocolSecurity = false
   isActive = true
   url = "https://rest-sb-jp.steelbrick.com"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__RestSbJP"
 }

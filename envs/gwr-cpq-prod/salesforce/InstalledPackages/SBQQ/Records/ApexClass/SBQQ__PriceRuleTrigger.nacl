@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__PriceRuleTrigger {
   status = "Active"
   fullName = "SBQQ__PriceRuleTrigger"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__PriceRuleTrigger"
 }

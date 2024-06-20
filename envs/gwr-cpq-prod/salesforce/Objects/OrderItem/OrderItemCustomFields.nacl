@@ -59,11 +59,6 @@ type salesforce.OrderItem {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__Asset__c {
     apiName = "OrderItem.SBQQ__Asset__c"
@@ -81,11 +76,6 @@ type salesforce.OrderItem {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__BillingFrequency__c {
     apiName = "OrderItem.SBQQ__BillingFrequency__c"
@@ -99,11 +89,6 @@ type salesforce.OrderItem {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__BillingType__c {
     apiName = "OrderItem.SBQQ__BillingType__c"
@@ -120,11 +105,6 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__BlockPrice__c {
     apiName = "OrderItem.SBQQ__BlockPrice__c"
@@ -142,11 +122,6 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__BookingsIndicator__c {
     apiName = "OrderItem.SBQQ__BookingsIndicator__c"
@@ -160,11 +135,6 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__BundleRoot__c {
     apiName = "OrderItem.SBQQ__BundleRoot__c"
@@ -182,11 +152,6 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__ChargeType__c {
     apiName = "OrderItem.SBQQ__ChargeType__c"
@@ -200,11 +165,6 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__ContractAction__c {
     apiName = "OrderItem.SBQQ__ContractAction__c"
@@ -218,11 +178,6 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__Contract__c {
     apiName = "OrderItem.SBQQ__Contract__c"
@@ -240,11 +195,6 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Checkbox SBQQ__Contracted__c {
     apiName = "OrderItem.SBQQ__Contracted__c"
@@ -257,11 +207,6 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__ContractingMethod__c {
     apiName = "OrderItem.SBQQ__ContractingMethod__c"
@@ -295,11 +240,6 @@ Controls the contracting behavior of an Order Product. "Inherit" uses the behavi
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Number SBQQ__DefaultSubscriptionTerm__c {
     apiName = "OrderItem.SBQQ__DefaultSubscriptionTerm__c"
@@ -320,11 +260,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__DimensionType__c {
     apiName = "OrderItem.SBQQ__DimensionType__c"
@@ -339,11 +274,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__DiscountSchedule__c {
     apiName = "OrderItem.SBQQ__DiscountSchedule__c"
@@ -361,11 +291,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.FormulaCurrency SBQQ__OrderProductBookings__c {
     apiName = "OrderItem.SBQQ__OrderProductBookings__c"
@@ -383,9 +308,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     queryable = true
     _hidden_value = true
     _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
       {
         reference = salesforce.OrderItem.field.Quantity
       },
@@ -410,11 +332,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__PriceDimension__c {
     apiName = "OrderItem.SBQQ__PriceDimension__c"
@@ -432,11 +349,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__PriceSchedule__c {
     apiName = "OrderItem.SBQQ__PriceSchedule__c"
@@ -454,11 +366,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__PricingMethod__c {
     apiName = "OrderItem.SBQQ__PricingMethod__c"
@@ -499,11 +406,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__ProductSubscriptionType__c {
     apiName = "OrderItem.SBQQ__ProductSubscriptionType__c"
@@ -517,11 +419,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Number SBQQ__ProrateMultiplier__c {
     apiName = "OrderItem.SBQQ__ProrateMultiplier__c"
@@ -536,11 +433,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__QuoteLine__c {
     apiName = "OrderItem.SBQQ__QuoteLine__c"
@@ -558,11 +450,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Currency SBQQ__QuotedListPrice__c {
     apiName = "OrderItem.SBQQ__QuotedListPrice__c"
@@ -576,11 +463,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Number SBQQ__QuotedQuantity__c {
     apiName = "OrderItem.SBQQ__QuotedQuantity__c"
@@ -595,11 +477,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__RequiredBy__c {
     apiName = "OrderItem.SBQQ__RequiredBy__c"
@@ -615,11 +492,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__RevisedOrderProduct__c {
     apiName = "OrderItem.SBQQ__RevisedOrderProduct__c"
@@ -637,11 +509,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Number SBQQ__SegmentIndex__c {
     apiName = "OrderItem.SBQQ__SegmentIndex__c"
@@ -656,11 +523,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__SegmentKey__c {
     apiName = "OrderItem.SBQQ__SegmentKey__c"
@@ -675,11 +537,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__ShippingAccount__c {
     apiName = "OrderItem.SBQQ__ShippingAccount__c"
@@ -695,11 +552,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__Status__c {
     apiName = "OrderItem.SBQQ__Status__c"
@@ -713,11 +565,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__SubscriptionPricing__c {
     apiName = "OrderItem.SBQQ__SubscriptionPricing__c"
@@ -731,11 +578,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Number SBQQ__SubscriptionTerm__c {
     apiName = "OrderItem.SBQQ__SubscriptionTerm__c"
@@ -748,11 +590,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__SubscriptionType__c {
     apiName = "OrderItem.SBQQ__SubscriptionType__c"
@@ -791,11 +628,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__Subscription__c {
     apiName = "OrderItem.SBQQ__Subscription__c"
@@ -813,11 +645,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Currency SBQQ__TaxAmount__c {
     apiName = "OrderItem.SBQQ__TaxAmount__c"
@@ -831,11 +658,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__TaxCode__c {
     apiName = "OrderItem.SBQQ__TaxCode__c"
@@ -850,11 +672,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__TermDiscountSchedule__c {
     apiName = "OrderItem.SBQQ__TermDiscountSchedule__c"
@@ -872,11 +689,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Date SBQQ__TerminatedDate__c {
     apiName = "OrderItem.SBQQ__TerminatedDate__c"
@@ -888,11 +700,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Currency SBQQ__UnproratedNetPrice__c {
     apiName = "OrderItem.SBQQ__UnproratedNetPrice__c"
@@ -906,11 +713,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__UpgradedSubscription__c {
     apiName = "OrderItem.SBQQ__UpgradedSubscription__c"
@@ -928,11 +730,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist System_Voltage__c {
     apiName = "OrderItem.System_Voltage__c"

@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__OpportunitySave {
   label = "OpportunitySave"
   fullName = "SBQQ__OpportunitySave"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__OpportunitySave.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "OpportunitySave (SBQQ)"
 }

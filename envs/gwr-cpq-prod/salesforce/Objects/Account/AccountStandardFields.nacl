@@ -37,56 +37,6 @@ type salesforce.Account {
   }
   salesforce.Picklist CleanStatus {
     apiName = "Account.CleanStatus"
-    valueSet = [
-      {
-        fullName = "Matched"
-        isActive = true
-        label = "In Sync"
-        default = false
-      },
-      {
-        fullName = "Different"
-        isActive = true
-        label = "Different"
-        default = false
-      },
-      {
-        fullName = "Acknowledged"
-        isActive = true
-        label = "Reviewed"
-        default = false
-      },
-      {
-        fullName = "NotFound"
-        isActive = true
-        label = "Not Found"
-        default = false
-      },
-      {
-        fullName = "Inactive"
-        isActive = true
-        label = "Inactive"
-        default = false
-      },
-      {
-        fullName = "Pending"
-        isActive = true
-        label = "Not Compared"
-        default = false
-      },
-      {
-        fullName = "SelectMatch"
-        isActive = true
-        label = "Select Match"
-        default = false
-      },
-      {
-        fullName = "Skipped"
-        isActive = true
-        label = "Skipped"
-        default = false
-      },
-    ]
     restricted = true
     label = "Clean Status"
     createable = true
@@ -96,9 +46,6 @@ type salesforce.Account {
   salesforce.Lookup DandbCompanyId {
     apiName = "Account.DandbCompanyId"
     relationshipName = "DandbCompany"
-    referenceTo = [
-      salesforce.DandBCompany,
-    ]
     label = "D&B Company ID"
     createable = true
     updateable = true
@@ -192,9 +139,6 @@ type salesforce.Account {
   salesforce.Lookup OwnerId {
     apiName = "Account.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -213,9 +157,6 @@ type salesforce.Account {
   salesforce.Hierarchy ParentId {
     apiName = "Account.ParentId"
     relationshipName = "Parent"
-    referenceTo = [
-      salesforce.Account,
-    ]
     label = "Parent Account ID"
     createable = true
     updateable = true
@@ -343,9 +284,6 @@ type salesforce.Account {
   salesforce.Lookup MasterRecordId {
     apiName = "Account.MasterRecordId"
     relationshipName = "MasterRecord"
-    referenceTo = [
-      salesforce.Account,
-    ]
     label = "Master Record ID"
     createable = false
     updateable = false
@@ -371,9 +309,6 @@ type salesforce.Account {
   salesforce.Lookup CreatedById {
     apiName = "Account.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -391,9 +326,6 @@ type salesforce.Account {
   salesforce.Lookup LastModifiedById {
     apiName = "Account.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

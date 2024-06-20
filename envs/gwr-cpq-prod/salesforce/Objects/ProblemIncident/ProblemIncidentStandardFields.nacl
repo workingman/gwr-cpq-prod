@@ -2,10 +2,6 @@ type salesforce.ProblemIncident {
   salesforce.MasterDetail IssueId {
     apiName = "ProblemIncident.IssueId"
     relationshipName = "Issue"
-    referenceTo = [
-      salesforce.Incident,
-      salesforce.Problem,
-    ]
     _required = true
     label = "Issue ID"
     createable = true
@@ -22,20 +18,6 @@ type salesforce.ProblemIncident {
   }
   salesforce.Picklist RelatedEntityType {
     apiName = "ProblemIncident.RelatedEntityType"
-    valueSet = [
-      {
-        fullName = "Incident"
-        isActive = true
-        label = "Incident"
-        default = false
-      },
-      {
-        fullName = "Problem"
-        isActive = true
-        label = "Problem"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Related Issue Type"
@@ -47,10 +29,6 @@ type salesforce.ProblemIncident {
   salesforce.Lookup RelatedIssueId {
     apiName = "ProblemIncident.RelatedIssueId"
     relationshipName = "RelatedIssue"
-    referenceTo = [
-      salesforce.Incident,
-      salesforce.Problem,
-    ]
     _required = true
     label = "Related Issue ID"
     createable = true
@@ -59,20 +37,6 @@ type salesforce.ProblemIncident {
   }
   salesforce.Picklist RelationshipType {
     apiName = "ProblemIncident.RelationshipType"
-    valueSet = [
-      {
-        fullName = "Caused By"
-        isActive = true
-        label = "Caused By"
-        default = true
-      },
-      {
-        fullName = "Similar"
-        isActive = true
-        label = "Similar"
-        default = false
-      },
-    ]
     restricted = false
     _required = true
     label = "Relationship Type"
@@ -106,9 +70,6 @@ type salesforce.ProblemIncident {
   salesforce.Lookup CreatedById {
     apiName = "ProblemIncident.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -126,9 +87,6 @@ type salesforce.ProblemIncident {
   salesforce.Lookup LastModifiedById {
     apiName = "ProblemIncident.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

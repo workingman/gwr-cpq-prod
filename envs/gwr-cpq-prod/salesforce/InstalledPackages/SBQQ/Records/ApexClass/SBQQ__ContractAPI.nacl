@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__ContractAPI {
   status = "Active"
   fullName = "SBQQ__ContractAPI"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__ContractAPI.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ContractAPI"
 }

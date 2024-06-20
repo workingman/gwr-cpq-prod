@@ -52,9 +52,6 @@ type salesforce.PartnerRole {
   salesforce.Lookup CreatedById {
     apiName = "PartnerRole.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -72,9 +69,6 @@ type salesforce.PartnerRole {
   salesforce.Lookup LastModifiedById {
     apiName = "PartnerRole.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

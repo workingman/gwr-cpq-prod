@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__datePicker {
   label = "Date Picker"
   fullName = "SBQQ__datePicker"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Date Picker (SBQQ)"
 }

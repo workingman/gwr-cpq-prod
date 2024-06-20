@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__RuleActionListener {
   status = "Active"
   fullName = "SBQQ__RuleActionListener"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__RuleActionListener.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__RuleActionListener"
 }

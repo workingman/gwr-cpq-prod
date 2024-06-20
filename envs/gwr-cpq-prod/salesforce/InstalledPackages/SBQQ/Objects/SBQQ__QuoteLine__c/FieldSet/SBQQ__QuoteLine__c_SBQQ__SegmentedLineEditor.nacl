@@ -224,10 +224,5 @@ salesforce.FieldSet SBQQ__QuoteLine__c_SBQQ__SegmentedLineEditor {
   _parent = [
     salesforce.SBQQ__QuoteLine__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Segmented Line Editor (SBQQ)"
 }

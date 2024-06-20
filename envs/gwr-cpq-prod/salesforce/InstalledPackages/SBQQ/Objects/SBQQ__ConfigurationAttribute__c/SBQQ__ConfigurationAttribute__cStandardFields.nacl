@@ -8,10 +8,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
   salesforce.Lookup OwnerId {
     apiName = "SBQQ__ConfigurationAttribute__c.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -40,9 +36,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
   salesforce.Lookup RecordTypeId {
     apiName = "SBQQ__ConfigurationAttribute__c.RecordTypeId"
     relationshipName = "RecordType"
-    referenceTo = [
-      salesforce.RecordType,
-    ]
     label = "Record Type ID"
     createable = true
     updateable = true
@@ -60,9 +53,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
   salesforce.Lookup CreatedById {
     apiName = "SBQQ__ConfigurationAttribute__c.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -80,9 +70,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
   salesforce.Lookup LastModifiedById {
     apiName = "SBQQ__ConfigurationAttribute__c.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

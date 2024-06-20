@@ -45,10 +45,5 @@ salesforce.QuickAction SBQQ__NewTask {
   standardLabel = "New"
   targetObject = salesforce.Task
   type = "Create"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__NewTask"
 }

@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__NewTemplateSectionRelatedContent {
   label = "NewTemplateSectionRelatedContent"
   fullName = "SBQQ__NewTemplateSectionRelatedContent"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__NewTemplateSectionRelatedContent.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "NewTemplateSectionRelatedContent (SBQQ)"
 }

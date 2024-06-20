@@ -10,11 +10,6 @@ type salesforce.Order {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__ContractingMethod__c {
     apiName = "Order.SBQQ__ContractingMethod__c"
@@ -28,11 +23,6 @@ type salesforce.Order {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Summary SBQQ__OrderBookings__c {
     apiName = "Order.SBQQ__OrderBookings__c"
@@ -48,11 +38,6 @@ type salesforce.Order {
     updateable = false
     queryable = true
     _hidden_value = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__PaymentTerm__c {
     apiName = "Order.SBQQ__PaymentTerm__c"
@@ -66,11 +51,6 @@ type salesforce.Order {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Text SBQQ__PriceCalcStatusMessage__c {
     apiName = "Order.SBQQ__PriceCalcStatusMessage__c"
@@ -85,11 +65,6 @@ type salesforce.Order {
     updateable = true
     caseSensitive = false
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Picklist SBQQ__PriceCalcStatus__c {
     apiName = "Order.SBQQ__PriceCalcStatus__c"
@@ -103,11 +78,6 @@ type salesforce.Order {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Lookup SBQQ__Quote__c {
     apiName = "Order.SBQQ__Quote__c"
@@ -125,11 +95,6 @@ type salesforce.Order {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Number SBQQ__RenewalTerm__c {
     apiName = "Order.SBQQ__RenewalTerm__c"
@@ -144,11 +109,6 @@ type salesforce.Order {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Percent SBQQ__RenewalUpliftRate__c {
     apiName = "Order.SBQQ__RenewalUpliftRate__c"
@@ -162,11 +122,6 @@ type salesforce.Order {
     createable = true
     updateable = true
     queryable = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
   salesforce.Summary SBQQ__TaxAmount__c {
     apiName = "Order.SBQQ__TaxAmount__c"
@@ -182,10 +137,5 @@ type salesforce.Order {
     updateable = false
     queryable = true
     _hidden_value = true
-    _generated_dependencies = [
-      {
-        reference = salesforce.InstalledPackage.instance.SBQQ
-      },
-    ]
   }
 }

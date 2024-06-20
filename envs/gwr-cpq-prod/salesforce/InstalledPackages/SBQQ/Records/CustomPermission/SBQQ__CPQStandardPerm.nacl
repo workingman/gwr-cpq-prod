@@ -3,10 +3,5 @@ salesforce.CustomPermission SBQQ__CPQStandardPerm {
   isLicensed = false
   label = "CPQStandardPerm"
   fullName = "SBQQ__CPQStandardPerm"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "CPQStandardPerm (SBQQ)"
 }

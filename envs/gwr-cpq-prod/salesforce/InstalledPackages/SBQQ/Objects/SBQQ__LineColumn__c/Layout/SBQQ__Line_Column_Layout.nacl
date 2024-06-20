@@ -222,10 +222,5 @@ salesforce.Layout SBQQ__LineColumn__c_SBQQ__Line_Column_Layout@uuuubuuss {
   _parent = [
     salesforce.SBQQ__LineColumn__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__LineColumn__c-SBQQ__Line Column Layout"
 }

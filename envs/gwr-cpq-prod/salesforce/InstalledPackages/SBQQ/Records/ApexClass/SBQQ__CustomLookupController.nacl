@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__CustomLookupController {
   status = "Active"
   fullName = "SBQQ__CustomLookupController"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__CustomLookupController.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__CustomLookupController"
 }

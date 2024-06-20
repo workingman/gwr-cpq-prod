@@ -75,6 +75,7 @@ type salesforce.AuthProvider {
       enforce_value = false
       values = [
         "Apple",
+        "Bitbucket",
         "Custom",
         "Evergreen",
         "Facebook",

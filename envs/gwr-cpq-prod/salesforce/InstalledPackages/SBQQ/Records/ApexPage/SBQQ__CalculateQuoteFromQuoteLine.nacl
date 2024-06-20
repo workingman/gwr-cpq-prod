@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__CalculateQuoteFromQuoteLine {
   label = "CalculateQuoteFromQuoteLine"
   fullName = "SBQQ__CalculateQuoteFromQuoteLine"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__CalculateQuoteFromQuoteLine.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "CalculateQuoteFromQuoteLine (SBQQ)"
 }

@@ -153,10 +153,5 @@ salesforce.Layout SBQQ__UsageRate__c_SBQQ__Usage_Rate_Layout@uuuubuuss {
   _parent = [
     salesforce.SBQQ__UsageRate__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__UsageRate__c-SBQQ__Usage Rate Layout"
 }

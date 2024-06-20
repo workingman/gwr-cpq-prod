@@ -434,10 +434,5 @@ salesforce.Layout Order_SBQQ__CPQ_Order_Layout@buuss {
   _parent = [
     salesforce.Order,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Order-SBQQ__CPQ Order Layout"
 }

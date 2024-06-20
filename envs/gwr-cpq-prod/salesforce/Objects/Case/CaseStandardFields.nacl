@@ -3,9 +3,6 @@ type salesforce.Case {
     apiName = "Case.AccountId"
     trackTrending = false
     relationshipName = "Account"
-    referenceTo = [
-      salesforce.Account,
-    ]
     label = "Account ID"
     createable = true
     updateable = true
@@ -15,9 +12,6 @@ type salesforce.Case {
     apiName = "Case.AssetId"
     trackTrending = false
     relationshipName = "Asset"
-    referenceTo = [
-      salesforce.Asset,
-    ]
     label = "Asset ID"
     createable = true
     updateable = true
@@ -69,9 +63,6 @@ type salesforce.Case {
     apiName = "Case.ContactId"
     trackTrending = false
     relationshipName = "Contact"
-    referenceTo = [
-      salesforce.Contact,
-    ]
     label = "Contact ID"
     createable = true
     updateable = true
@@ -152,10 +143,6 @@ type salesforce.Case {
     apiName = "Case.OwnerId"
     trackTrending = false
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -166,9 +153,6 @@ type salesforce.Case {
     apiName = "Case.ParentId"
     trackTrending = false
     relationshipName = "Parent"
-    referenceTo = [
-      salesforce.Case,
-    ]
     label = "Parent Case ID"
     createable = true
     updateable = true
@@ -310,9 +294,6 @@ type salesforce.Case {
   salesforce.Lookup MasterRecordId {
     apiName = "Case.MasterRecordId"
     relationshipName = "MasterRecord"
-    referenceTo = [
-      salesforce.Case,
-    ]
     label = "Master Record ID"
     createable = false
     updateable = false
@@ -347,9 +328,6 @@ type salesforce.Case {
   salesforce.Lookup CreatedById {
     apiName = "Case.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -367,9 +345,6 @@ type salesforce.Case {
   salesforce.Lookup LastModifiedById {
     apiName = "Case.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

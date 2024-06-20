@@ -7,10 +7,5 @@ salesforce.ValidationRule SBQQ__PriceCondition__c_SBQQ__Config_attr_tested_objec
   _parent = [
     salesforce.SBQQ__PriceCondition__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__PriceCondition__c.SBQQ__Config_attr_tested_object_with_formula"
 }

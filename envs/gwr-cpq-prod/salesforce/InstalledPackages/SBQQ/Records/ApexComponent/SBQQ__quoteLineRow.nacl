@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__quoteLineRow {
   label = "quoteLineRow"
   fullName = "SBQQ__quoteLineRow"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "quoteLineRow (SBQQ)"
 }

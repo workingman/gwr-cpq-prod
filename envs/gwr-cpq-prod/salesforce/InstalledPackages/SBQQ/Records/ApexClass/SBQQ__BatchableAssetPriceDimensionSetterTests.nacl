@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__BatchableAssetPriceDimensionSetterTests {
   status = "Active"
   fullName = "SBQQ__BatchableAssetPriceDimensionSetterTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__BatchableAssetPriceDimensionSetterTests"
 }

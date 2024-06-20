@@ -4,10 +4,5 @@ salesforce.ApexComponent SBQQ__productLookup {
   label = "productLookup"
   fullName = "SBQQ__productLookup"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "productLookup (SBQQ)"
 }

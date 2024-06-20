@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__ProductOptionHelp {
   label = "ProductOptionHelp"
   fullName = "SBQQ__ProductOptionHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__ProductOptionHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "ProductOptionHelp (SBQQ)"
 }

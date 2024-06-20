@@ -44,6 +44,8 @@ type salesforce.Flow {
       ]
     }
   }
+  salesforce.FlowExitRule exitRules {
+  }
   "List<salesforce.FlowFormula>" formulas {
   }
   string interviewLabel {
@@ -77,7 +79,9 @@ type salesforce.Flow {
         "omnichannel_messaging__MsgRouting",
         "omnichannel_voice__VoiceRouting",
         "opencti__SCV_Basic_Routing_Flow",
+        "runtime_appointmentbooking__AddAttnd",
         "runtime_appointmentbooking__Create_WL",
+        "runtime_appointmentbooking__EnrlAttnd",
         "runtime_appointmentbooking__Flow",
         "runtime_appointmentbooking__Guest_Flow",
         "runtime_appointmentbooking__In_Cancel",
@@ -85,6 +89,7 @@ type salesforce.Flow {
         "runtime_appointmentbooking__In_New",
         "runtime_appointmentbooking__Inv_Book",
         "runtime_appointmentbooking__Inv_Gen",
+        "runtime_appointmentbooking__ModGstAppt",
         "runtime_appointmentbooking__Out_Modify",
         "runtime_appointmentbooking__Rasgn_Appt",
         "runtime_appointmentbooking__send_Invt",
@@ -101,6 +106,8 @@ type salesforce.Flow {
         "setup_service_experience__Reset_Pwd",
         "setup_service_experience__Verify_Cust",
         "setup_service_folmessaging__MSContact",
+        "sfdc_fieldservice__CreateLeadAndOpp",
+        "sfdc_fieldservice__GenPreWorkBrief",
       ]
     }
     foreignKeyDomain = [
@@ -117,6 +124,7 @@ type salesforce.Flow {
         "ActionCadenceFlow",
         "ActionCadenceStepFlow",
         "ActionPlan",
+        "AdvancedApproval",
         "Appointments",
         "AutoLaunchedFlow",
         "CartAsyncFlow",
@@ -191,7 +199,9 @@ type salesforce.Flow {
         "omnichannel_messaging__MsgRouting",
         "omnichannel_voice__VoiceRouting",
         "opencti__SCV_Basic_Routing_Flow",
+        "runtime_appointmentbooking__AddAttnd",
         "runtime_appointmentbooking__Create_WL",
+        "runtime_appointmentbooking__EnrlAttnd",
         "runtime_appointmentbooking__Flow",
         "runtime_appointmentbooking__Guest_Flow",
         "runtime_appointmentbooking__In_Cancel",
@@ -199,6 +209,7 @@ type salesforce.Flow {
         "runtime_appointmentbooking__In_New",
         "runtime_appointmentbooking__Inv_Book",
         "runtime_appointmentbooking__Inv_Gen",
+        "runtime_appointmentbooking__ModGstAppt",
         "runtime_appointmentbooking__Out_Modify",
         "runtime_appointmentbooking__Rasgn_Appt",
         "runtime_appointmentbooking__send_Invt",
@@ -215,6 +226,8 @@ type salesforce.Flow {
         "setup_service_experience__Reset_Pwd",
         "setup_service_experience__Verify_Cust",
         "setup_service_folmessaging__MSContact",
+        "sfdc_fieldservice__CreateLeadAndOpp",
+        "sfdc_fieldservice__GenPreWorkBrief",
       ]
     }
     foreignKeyDomain = [

@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__ConfigurationRuleHelp {
   label = "Configuration Rule Help"
   fullName = "SBQQ__ConfigurationRuleHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__ConfigurationRuleHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Configuration Rule Help (SBQQ)"
 }

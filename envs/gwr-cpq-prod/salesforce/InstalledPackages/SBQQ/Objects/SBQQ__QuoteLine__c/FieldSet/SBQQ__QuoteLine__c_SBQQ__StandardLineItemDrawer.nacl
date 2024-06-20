@@ -244,10 +244,5 @@ salesforce.FieldSet SBQQ__QuoteLine__c_SBQQ__StandardLineItemDrawer {
   _parent = [
     salesforce.SBQQ__QuoteLine__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Standard Line Item Drawer (SBQQ)"
 }

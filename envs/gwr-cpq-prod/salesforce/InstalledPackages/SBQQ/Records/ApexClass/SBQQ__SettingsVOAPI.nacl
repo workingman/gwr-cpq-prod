@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__SettingsVOAPI {
   status = "Active"
   fullName = "SBQQ__SettingsVOAPI"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__SettingsVOAPI.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SettingsVOAPI"
 }

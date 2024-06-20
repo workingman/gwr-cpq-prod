@@ -4,10 +4,5 @@ salesforce.StaticResource SBQQ__JSQCPrecacheWorker {
   description = "JSQCPrecacheWorker"
   fullName = "SBQQ__JSQCPrecacheWorker"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__JSQCPrecacheWorker.resource")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__JSQCPrecacheWorker"
 }

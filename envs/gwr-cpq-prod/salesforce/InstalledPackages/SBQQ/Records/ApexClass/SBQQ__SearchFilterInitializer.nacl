@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__SearchFilterInitializer {
   status = "Active"
   fullName = "SBQQ__SearchFilterInitializer"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__SearchFilterInitializer"
 }

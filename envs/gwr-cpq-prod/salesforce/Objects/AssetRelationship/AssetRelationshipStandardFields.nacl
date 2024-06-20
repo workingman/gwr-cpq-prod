@@ -2,9 +2,6 @@ type salesforce.AssetRelationship {
   salesforce.MasterDetail AssetId {
     apiName = "AssetRelationship.AssetId"
     relationshipName = "Asset"
-    referenceTo = [
-      salesforce.Asset,
-    ]
     _required = true
     label = "Asset ID"
     createable = true
@@ -21,9 +18,6 @@ type salesforce.AssetRelationship {
   salesforce.Lookup RelatedAssetId {
     apiName = "AssetRelationship.RelatedAssetId"
     relationshipName = "RelatedAsset"
-    referenceTo = [
-      salesforce.Asset,
-    ]
     _required = true
     label = "Asset ID"
     createable = true
@@ -32,26 +26,6 @@ type salesforce.AssetRelationship {
   }
   salesforce.Picklist RelationshipType {
     apiName = "AssetRelationship.RelationshipType"
-    valueSet = [
-      {
-        fullName = "Replacement"
-        isActive = true
-        label = "Replacement"
-        default = true
-      },
-      {
-        fullName = "Upgrade"
-        isActive = true
-        label = "Upgrade"
-        default = false
-      },
-      {
-        fullName = "Crossgrade"
-        isActive = true
-        label = "Crossgrade"
-        default = false
-      },
-    ]
     restricted = false
     label = "Relationship Type"
     createable = true
@@ -99,9 +73,6 @@ type salesforce.AssetRelationship {
   salesforce.Lookup CreatedById {
     apiName = "AssetRelationship.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -119,9 +90,6 @@ type salesforce.AssetRelationship {
   salesforce.Lookup LastModifiedById {
     apiName = "AssetRelationship.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

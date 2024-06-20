@@ -23,10 +23,6 @@ type salesforce.CommSubscription {
   salesforce.Lookup OwnerId {
     apiName = "CommSubscription.OwnerId"
     relationshipName = "Owner"
-    referenceTo = [
-      salesforce.Group,
-      salesforce.User,
-    ]
     label = "Owner ID"
     createable = true
     updateable = true
@@ -59,9 +55,6 @@ type salesforce.CommSubscription {
   salesforce.Lookup CreatedById {
     apiName = "CommSubscription.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -79,9 +72,6 @@ type salesforce.CommSubscription {
   salesforce.Lookup LastModifiedById {
     apiName = "CommSubscription.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

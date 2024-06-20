@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__RecordJobServiceTests {
   status = "Active"
   fullName = "SBQQ__RecordJobServiceTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__RecordJobServiceTests"
 }

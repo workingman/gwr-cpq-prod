@@ -5,10 +5,5 @@ salesforce.ApexPage SBQQ__SolutionGroupHelp {
   label = "SolutionGroupHelp"
   fullName = "SBQQ__SolutionGroupHelp"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__SolutionGroupHelp.page")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SolutionGroupHelp (SBQQ)"
 }

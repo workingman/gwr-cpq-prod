@@ -3,10 +3,5 @@ salesforce.StaticResource SBQQ__webcomponents_lite {
   contentType = "text/javascript"
   fullName = "SBQQ__webcomponents_lite"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__webcomponents_lite.resource")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__webcomponents_lite"
 }

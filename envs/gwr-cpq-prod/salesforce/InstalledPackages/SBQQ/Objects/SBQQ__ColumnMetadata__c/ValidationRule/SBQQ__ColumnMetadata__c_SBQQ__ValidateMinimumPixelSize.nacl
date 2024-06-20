@@ -8,10 +8,5 @@ salesforce.ValidationRule SBQQ__ColumnMetadata__c_SBQQ__ValidateMinimumPixelSize
   _parent = [
     salesforce.SBQQ__ColumnMetadata__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ColumnMetadata__c.SBQQ__ValidateMinimumPixelSize"
 }

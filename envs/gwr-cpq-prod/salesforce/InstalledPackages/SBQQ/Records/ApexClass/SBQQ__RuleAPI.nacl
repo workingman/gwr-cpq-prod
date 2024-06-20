@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__RuleAPI {
   status = "Active"
   fullName = "SBQQ__RuleAPI"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__RuleAPI.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__RuleAPI"
 }

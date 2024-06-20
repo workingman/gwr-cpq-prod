@@ -3,10 +3,5 @@ salesforce.StaticResource SBQQ__LessTheme {
   contentType = "text/css"
   fullName = "SBQQ__LessTheme"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__LessTheme.css")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__LessTheme"
 }

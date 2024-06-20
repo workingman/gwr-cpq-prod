@@ -10,10 +10,5 @@ salesforce.ApexTrigger SBQQ__QuoteLineBefore {
   status = "Active"
   fullName = "SBQQ__QuoteLineBefore"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteLineBefore"
 }

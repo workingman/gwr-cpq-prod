@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__QuoteLineEditorControllerTests {
   status = "Active"
   fullName = "SBQQ__QuoteLineEditorControllerTests"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteLineEditorControllerTests"
 }

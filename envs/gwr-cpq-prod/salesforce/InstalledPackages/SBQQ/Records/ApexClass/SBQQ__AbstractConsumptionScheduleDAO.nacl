@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__AbstractConsumptionScheduleDAO {
   status = "Active"
   fullName = "SBQQ__AbstractConsumptionScheduleDAO"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__AbstractConsumptionScheduleDAO"
 }

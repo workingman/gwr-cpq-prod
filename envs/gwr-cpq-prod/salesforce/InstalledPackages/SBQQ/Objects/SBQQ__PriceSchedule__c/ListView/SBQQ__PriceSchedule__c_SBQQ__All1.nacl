@@ -5,10 +5,5 @@ salesforce.ListView SBQQ__PriceSchedule__c_SBQQ__All1 {
   _parent = [
     salesforce.SBQQ__PriceSchedule__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "All (SBQQ)"
 }

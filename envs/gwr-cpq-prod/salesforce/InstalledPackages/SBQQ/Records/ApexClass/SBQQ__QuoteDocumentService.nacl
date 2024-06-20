@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__QuoteDocumentService {
   status = "Active"
   fullName = "SBQQ__QuoteDocumentService"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteDocumentService"
 }

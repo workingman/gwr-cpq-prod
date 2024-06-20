@@ -3,10 +3,5 @@ salesforce.ApexComponent SBQQ__quoteLineActions {
   label = "quoteLineActions"
   fullName = "SBQQ__quoteLineActions"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "quoteLineActions (SBQQ)"
 }

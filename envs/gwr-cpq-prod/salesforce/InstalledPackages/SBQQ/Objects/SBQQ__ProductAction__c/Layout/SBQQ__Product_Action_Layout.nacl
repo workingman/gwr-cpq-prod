@@ -125,10 +125,5 @@ salesforce.Layout SBQQ__ProductAction__c_SBQQ__Product_Action_Layout@uuuubuuss {
   _parent = [
     salesforce.SBQQ__ProductAction__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductAction__c-SBQQ__Product Action Layout"
 }

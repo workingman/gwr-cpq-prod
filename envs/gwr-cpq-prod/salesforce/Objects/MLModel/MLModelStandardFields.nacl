@@ -33,9 +33,6 @@ type salesforce.MLModel {
   salesforce.Lookup CreatedById {
     apiName = "MLModel.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -53,9 +50,6 @@ type salesforce.MLModel {
   salesforce.Lookup LastModifiedById {
     apiName = "MLModel.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false
@@ -73,9 +67,6 @@ type salesforce.MLModel {
   salesforce.Lookup PredictionDefinitionId {
     apiName = "MLModel.PredictionDefinitionId"
     relationshipName = "PredictionDefinition"
-    referenceTo = [
-      salesforce.MLPredictionDefinition,
-    ]
     label = "ML Prediction Definition ID"
     createable = false
     updateable = false
@@ -84,26 +75,6 @@ type salesforce.MLModel {
   }
   salesforce.Picklist ApprovalStatus {
     apiName = "MLModel.ApprovalStatus"
-    valueSet = [
-      {
-        fullName = "Pending"
-        isActive = true
-        label = "Pending"
-        default = true
-      },
-      {
-        fullName = "Approved"
-        isActive = true
-        label = "Approved"
-        default = false
-      },
-      {
-        fullName = "Rejected"
-        isActive = true
-        label = "Rejected"
-        default = false
-      },
-    ]
     restricted = true
     label = "Approval Status"
     createable = false
@@ -113,20 +84,6 @@ type salesforce.MLModel {
   }
   salesforce.Picklist ScoringStatus {
     apiName = "MLModel.ScoringStatus"
-    valueSet = [
-      {
-        fullName = "Enabled"
-        isActive = true
-        label = "Enabled"
-        default = false
-      },
-      {
-        fullName = "Disabled"
-        isActive = true
-        label = "Disabled"
-        default = false
-      },
-    ]
     restricted = true
     _required = true
     label = "Scoring Status"
@@ -137,122 +94,6 @@ type salesforce.MLModel {
   }
   salesforce.Picklist ModelType {
     apiName = "MLModel.ModelType"
-    valueSet = [
-      {
-        fullName = "RandomForest"
-        isActive = true
-        label = "RandomForest"
-        default = false
-      },
-      {
-        fullName = "LogisticRegression"
-        isActive = true
-        label = "LogisticRegression"
-        default = false
-      },
-      {
-        fullName = "LinearRegression"
-        isActive = true
-        label = "LinearRegression"
-        default = false
-      },
-      {
-        fullName = "DecisionTree"
-        isActive = true
-        label = "DecisionTree"
-        default = false
-      },
-      {
-        fullName = "DeepLearningIntent"
-        isActive = true
-        label = "DeepLearningIntent"
-        default = false
-      },
-      {
-        fullName = "DeepLearningNER"
-        isActive = true
-        label = "DeepLearningNER"
-        default = false
-      },
-      {
-        fullName = "GlobalDeepLearningIntent"
-        isActive = true
-        label = "GlobalDeepLearningIntent"
-        default = false
-      },
-      {
-        fullName = "GlobalDeepLearningNER"
-        isActive = true
-        label = "GlobalDeepLearningNER"
-        default = false
-      },
-      {
-        fullName = "GlobalLanguageDetection"
-        isActive = true
-        label = "GlobalLanguageDetection"
-        default = false
-      },
-      {
-        fullName = "BinaryClassification"
-        isActive = true
-        label = "BinaryClassification"
-        default = false
-      },
-      {
-        fullName = "GeneralizedLinearModels"
-        isActive = true
-        label = "GeneralizedLinearModels"
-        default = false
-      },
-      {
-        fullName = "GradientBoostedTrees"
-        isActive = true
-        label = "GradientBoostedTrees"
-        default = false
-      },
-      {
-        fullName = "LinearSupportVectorClassifiers"
-        isActive = true
-        label = "LinearSupportVectorClassifiers"
-        default = false
-      },
-      {
-        fullName = "MulticlassClassification"
-        isActive = true
-        label = "MulticlassClassification"
-        default = false
-      },
-      {
-        fullName = "NaiveBayes"
-        isActive = true
-        label = "NaiveBayes"
-        default = false
-      },
-      {
-        fullName = "Regression"
-        isActive = true
-        label = "Regression"
-        default = false
-      },
-      {
-        fullName = "XGBoost"
-        isActive = true
-        label = "XGBoost"
-        default = false
-      },
-      {
-        fullName = "NeuralNet"
-        isActive = true
-        label = "NeuralNet"
-        default = false
-      },
-      {
-        fullName = "PopularityCount"
-        isActive = true
-        label = "PopularityCount"
-        default = false
-      },
-    ]
     restricted = true
     label = "Model Type"
     createable = false
@@ -290,9 +131,6 @@ type salesforce.MLModel {
   salesforce.Lookup RecommendationDefinitionId {
     apiName = "MLModel.RecommendationDefinitionId"
     relationshipName = "RecommendationDefinition"
-    referenceTo = [
-      salesforce.MLRecommendationDefinition,
-    ]
     label = "ML Recommendation Definition ID"
     createable = false
     updateable = false

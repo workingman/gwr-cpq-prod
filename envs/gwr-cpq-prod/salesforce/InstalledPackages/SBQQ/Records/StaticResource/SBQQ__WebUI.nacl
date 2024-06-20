@@ -3,10 +3,5 @@ salesforce.StaticResource SBQQ__WebUI {
   contentType = "text/javascript"
   fullName = "SBQQ__WebUI"
   content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__WebUI.resource")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__WebUI"
 }

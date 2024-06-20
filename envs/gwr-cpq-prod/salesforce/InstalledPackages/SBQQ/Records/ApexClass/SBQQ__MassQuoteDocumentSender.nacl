@@ -10,10 +10,5 @@ salesforce.ApexClass SBQQ__MassQuoteDocumentSender {
   status = "Active"
   fullName = "SBQQ__MassQuoteDocumentSender"
   content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__MassQuoteDocumentSender.cls")
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__MassQuoteDocumentSender"
 }

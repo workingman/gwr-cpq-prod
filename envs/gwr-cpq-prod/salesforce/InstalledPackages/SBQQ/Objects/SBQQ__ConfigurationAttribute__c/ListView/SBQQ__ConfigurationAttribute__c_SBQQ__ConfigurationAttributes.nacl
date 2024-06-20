@@ -3,8 +3,8 @@ salesforce.ListView SBQQ__ConfigurationAttribute__c_SBQQ__ConfigurationAttribute
   booleanFilter = "1 OR 2"
   columns = [
     "NAME",
-    "SBQQ__Product__c",
-    "SBQQ__TargetField__c",
+    salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__Product__c,
+    salesforce.SBQQ__ConfigurationAttribute__c.field.SBQQ__TargetField__c,
   ]
   filterScope = "Everything"
   filters = [
@@ -22,11 +22,6 @@ salesforce.ListView SBQQ__ConfigurationAttribute__c_SBQQ__ConfigurationAttribute
   language = "en_US"
   _parent = [
     salesforce.SBQQ__ConfigurationAttribute__c,
-  ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
   ]
   _alias = "Configuration Attributes (SBQQ)"
 }

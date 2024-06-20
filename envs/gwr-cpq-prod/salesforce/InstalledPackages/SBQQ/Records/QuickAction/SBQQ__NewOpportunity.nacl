@@ -40,10 +40,5 @@ salesforce.QuickAction SBQQ__NewOpportunity {
   standardLabel = "New"
   targetObject = salesforce.Opportunity
   type = "Create"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__NewOpportunity"
 }

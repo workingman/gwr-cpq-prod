@@ -11,10 +11,5 @@ salesforce.WebLink Order_SBQQ__EditOrderProducts {
   _parent = [
     salesforce.Order,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Order.SBQQ__EditOrderProducts"
 }

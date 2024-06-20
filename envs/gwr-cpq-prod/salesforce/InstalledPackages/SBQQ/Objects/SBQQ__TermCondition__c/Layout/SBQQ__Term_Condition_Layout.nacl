@@ -89,10 +89,5 @@ salesforce.Layout SBQQ__TermCondition__c_SBQQ__Term_Condition_Layout@uuuubuuss {
   _parent = [
     salesforce.SBQQ__TermCondition__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__TermCondition__c-SBQQ__Term Condition Layout"
 }

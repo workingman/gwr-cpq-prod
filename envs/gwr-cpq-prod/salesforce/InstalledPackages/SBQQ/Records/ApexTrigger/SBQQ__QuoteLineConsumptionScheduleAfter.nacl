@@ -10,10 +10,5 @@ salesforce.ApexTrigger SBQQ__QuoteLineConsumptionScheduleAfter {
   status = "Active"
   fullName = "SBQQ__QuoteLineConsumptionScheduleAfter"
   content = "(hidden)"
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteLineConsumptionScheduleAfter"
 }

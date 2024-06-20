@@ -288,10 +288,5 @@ type salesforce.SBQQ__OptionConstraint__c {
   topicsForObjects = {
     enableTopics = false
   }
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "Option Constraint (SBQQ)"
 }

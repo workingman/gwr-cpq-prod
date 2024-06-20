@@ -114,10 +114,5 @@ salesforce.Layout SBQQ__QuoteProcess__c_SBQQ__Quote_Process_Layout@uuuubuuss {
   _parent = [
     salesforce.SBQQ__QuoteProcess__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__QuoteProcess__c-SBQQ__Quote Process Layout"
 }

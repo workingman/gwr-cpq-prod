@@ -7,10 +7,5 @@ salesforce.ValidationRule SBQQ__ProductOption__c_SBQQ__Cannot_Bundle_Evergreen_R
   _parent = [
     salesforce.SBQQ__ProductOption__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__ProductOption__c.SBQQ__Cannot_Bundle_Evergreen_Renewable_SKUs"
 }

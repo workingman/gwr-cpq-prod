@@ -35,9 +35,6 @@ type salesforce.SBQQ__PricingGuidanceTier__c {
   salesforce.Lookup CreatedById {
     apiName = "SBQQ__PricingGuidanceTier__c.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -55,9 +52,6 @@ type salesforce.SBQQ__PricingGuidanceTier__c {
   salesforce.Lookup LastModifiedById {
     apiName = "SBQQ__PricingGuidanceTier__c.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

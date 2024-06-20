@@ -39,9 +39,6 @@ type salesforce.OrderItem {
   salesforce.Lookup OrderId {
     apiName = "OrderItem.OrderId"
     relationshipName = "Order"
-    referenceTo = [
-      salesforce.Order,
-    ]
     _required = true
     label = "Order ID"
     createable = true
@@ -51,9 +48,6 @@ type salesforce.OrderItem {
   salesforce.Lookup OriginalOrderItemId {
     apiName = "OrderItem.OriginalOrderItemId"
     relationshipName = "OriginalOrderItem"
-    referenceTo = [
-      salesforce.OrderItem,
-    ]
     label = "Original Order Item ID"
     createable = true
     updateable = false
@@ -62,9 +56,6 @@ type salesforce.OrderItem {
   salesforce.Lookup Product2Id {
     apiName = "OrderItem.Product2Id"
     relationshipName = "Product2"
-    referenceTo = [
-      salesforce.Product2,
-    ]
     label = "Product ID"
     createable = true
     updateable = false
@@ -91,6 +82,10 @@ type salesforce.OrderItem {
     createable = true
     updateable = true
     queryable = true
+  }
+  salesforce.Unknown SubscriptionTerm {
+    apiName = "OrderItem.SubscriptionTerm"
+    _hidden_value = true
   }
   salesforce.Currency TotalPrice {
     apiName = "OrderItem.TotalPrice"
@@ -129,9 +124,6 @@ type salesforce.OrderItem {
   salesforce.Lookup PricebookEntryId {
     apiName = "OrderItem.PricebookEntryId"
     relationshipName = "PricebookEntry"
-    referenceTo = [
-      salesforce.PricebookEntry,
-    ]
     _required = true
     label = "Price Book Entry ID"
     createable = true
@@ -149,9 +141,6 @@ type salesforce.OrderItem {
   salesforce.Lookup CreatedById {
     apiName = "OrderItem.CreatedById"
     relationshipName = "CreatedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Created By ID"
     createable = false
     updateable = false
@@ -169,9 +158,6 @@ type salesforce.OrderItem {
   salesforce.Lookup LastModifiedById {
     apiName = "OrderItem.LastModifiedById"
     relationshipName = "LastModifiedBy"
-    referenceTo = [
-      salesforce.User,
-    ]
     label = "Last Modified By ID"
     createable = false
     updateable = false

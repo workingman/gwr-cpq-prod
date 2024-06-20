@@ -94,10 +94,5 @@ salesforce.Layout SBQQ__OptionConstraint__c_SBQQ__Option_Constraint_Layout@uuuub
   _parent = [
     salesforce.SBQQ__OptionConstraint__c,
   ]
-  _generated_dependencies = [
-    {
-      reference = salesforce.InstalledPackage.instance.SBQQ
-    },
-  ]
   _alias = "SBQQ__OptionConstraint__c-SBQQ__Option Constraint Layout"
 }
