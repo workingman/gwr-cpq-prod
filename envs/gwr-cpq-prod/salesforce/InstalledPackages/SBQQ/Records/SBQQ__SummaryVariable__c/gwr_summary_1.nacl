@@ -1,4 +1,4 @@
-salesforce.SBQQ__SummaryVariable__c a118c00000EVQOwAAP {
+salesforce.SBQQ__SummaryVariable__c gwr_summary_1@s {
   SBQQ__AggregateField__c = "Quantity"
   SBQQ__AggregateFunction__c = "Count"
   SBQQ__Scope__c = "Quote"

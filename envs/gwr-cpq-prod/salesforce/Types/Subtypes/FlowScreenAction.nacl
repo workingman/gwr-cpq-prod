@@ -133,6 +133,7 @@ type salesforce.FlowScreenAction {
         "createChatSession",
         "createClmContract",
         "createClosePlan",
+        "createCommercePromotions",
         "createConsent",
         "createContract",
         "createContractDocumentVersion",

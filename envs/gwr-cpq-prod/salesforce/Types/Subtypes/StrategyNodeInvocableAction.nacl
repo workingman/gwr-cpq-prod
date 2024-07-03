@@ -141,6 +141,7 @@ type salesforce.StrategyNodeInvocableAction {
         "createChatSession",
         "createClmContract",
         "createClosePlan",
+        "createCommercePromotions",
         "createConsent",
         "createContract",
         "createContractDocumentVersion",

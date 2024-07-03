@@ -135,6 +135,7 @@ type salesforce.StrategyAction {
         "createChatSession",
         "createClmContract",
         "createClosePlan",
+        "createCommercePromotions",
         "createConsent",
         "createContract",
         "createContractDocumentVersion",

@@ -166,6 +166,7 @@ type salesforce.FlowActionCall {
         "createChatSession",
         "createClmContract",
         "createClosePlan",
+        "createCommercePromotions",
         "createConsent",
         "createContract",
         "createContractDocumentVersion",

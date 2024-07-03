@@ -169,6 +169,7 @@ type salesforce.FlowOrchestratedStage {
         "createChatSession",
         "createClmContract",
         "createClosePlan",
+        "createCommercePromotions",
         "createConsent",
         "createContract",
         "createContractDocumentVersion",
