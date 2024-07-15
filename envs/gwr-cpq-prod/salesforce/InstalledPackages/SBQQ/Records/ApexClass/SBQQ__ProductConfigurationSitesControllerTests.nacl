@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__ProductConfigurationSitesControllerTests {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__ProductConfigurationSitesControllerTests"
+  content = "(hidden)"
+  _alias = "SBQQ__ProductConfigurationSitesControllerTests"
+}

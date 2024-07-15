@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__OpportunitySave {
+  apiVersion = 51
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "OpportunitySave"
+  fullName = "SBQQ__OpportunitySave"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__OpportunitySave.page")
+  _alias = "OpportunitySave (SBQQ)"
+}

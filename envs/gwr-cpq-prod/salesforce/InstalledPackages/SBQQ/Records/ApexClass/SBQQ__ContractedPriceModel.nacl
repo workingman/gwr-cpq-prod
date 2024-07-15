@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__ContractedPriceModel {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__ContractedPriceModel"
+  content = "(hidden)"
+  _alias = "SBQQ__ContractedPriceModel"
+}

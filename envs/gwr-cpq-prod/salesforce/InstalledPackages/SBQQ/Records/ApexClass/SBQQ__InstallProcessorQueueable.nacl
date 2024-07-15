@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__InstallProcessorQueueable {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__InstallProcessorQueueable"
+  content = "(hidden)"
+  _alias = "SBQQ__InstallProcessorQueueable"
+}

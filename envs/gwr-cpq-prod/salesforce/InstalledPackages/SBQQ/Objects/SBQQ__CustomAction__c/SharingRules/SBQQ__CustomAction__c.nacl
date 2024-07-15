@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__CustomAction__c {
+  fullName = "SBQQ__CustomAction__c"
+  _parent = [
+    salesforce.SBQQ__CustomAction__c,
+  ]
+  _alias = "SBQQ__CustomAction__c"
+}

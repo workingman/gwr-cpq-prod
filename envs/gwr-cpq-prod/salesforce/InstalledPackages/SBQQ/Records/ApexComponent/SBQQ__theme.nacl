@@ -1,0 +1,8 @@
+salesforce.ApexComponent SBQQ__theme {
+  apiVersion = 51
+  description = "This is a general component used to import themes for Salesforce CPQ if applicable."
+  label = "theme"
+  fullName = "SBQQ__theme"
+  content = "(hidden)"
+  _alias = "theme (SBQQ)"
+}

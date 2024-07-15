@@ -1,0 +1,8 @@
+salesforce.StaticResource SBQQ__CKEditor {
+  cacheControl = "Private"
+  contentType = "application/zip"
+  description = "CKEditor Rich Text Editor"
+  fullName = "SBQQ__CKEditor"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__CKEditor.zip")
+  _alias = "SBQQ__CKEditor"
+}
