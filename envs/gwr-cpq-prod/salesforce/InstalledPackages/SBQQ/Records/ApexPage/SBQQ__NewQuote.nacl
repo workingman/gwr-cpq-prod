@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__NewQuote {
+  apiVersion = 51
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "NewQuote"
+  fullName = "SBQQ__NewQuote"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__NewQuote.page")
+  _alias = "NewQuote (SBQQ)"
+}

@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__CloneProduct {
+  apiVersion = 51
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "CloneProduct"
+  fullName = "SBQQ__CloneProduct"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__CloneProduct.page")
+  _alias = "CloneProduct (SBQQ)"
+}

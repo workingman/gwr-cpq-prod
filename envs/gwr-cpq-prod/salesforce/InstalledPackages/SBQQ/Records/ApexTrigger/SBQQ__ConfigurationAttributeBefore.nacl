@@ -1,0 +1,14 @@
+salesforce.ApexTrigger SBQQ__ConfigurationAttributeBefore {
+  apiVersion = 51
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQ__ConfigurationAttributeBefore"
+  content = "(hidden)"
+  _alias = "SBQQ__ConfigurationAttributeBefore"
+}

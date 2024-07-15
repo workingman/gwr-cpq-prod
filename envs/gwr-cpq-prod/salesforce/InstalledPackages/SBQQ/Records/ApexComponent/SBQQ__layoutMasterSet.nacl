@@ -1,0 +1,8 @@
+salesforce.ApexComponent SBQQ__layoutMasterSet {
+  apiVersion = 51
+  description = "Generates layout-master-set XSL-FO element."
+  label = "Layout Master Set"
+  fullName = "SBQQ__layoutMasterSet"
+  content = "(hidden)"
+  _alias = "Layout Master Set (SBQQ)"
+}
