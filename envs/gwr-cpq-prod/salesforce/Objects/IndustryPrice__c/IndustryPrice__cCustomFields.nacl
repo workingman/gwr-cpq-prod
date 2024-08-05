@@ -1,7 +1,6 @@
 type salesforce.IndustryPrice__c {
   salesforce.Picklist IPIndustry__c {
     apiName = "IndustryPrice__c.IPIndustry__c"
-    externalId = false
     label = "IPIndustry"
     trackTrending = false
     valueSet = [
@@ -24,7 +23,6 @@ type salesforce.IndustryPrice__c {
   }
   salesforce.Currency IPPrice__c {
     apiName = "IndustryPrice__c.IPPrice__c"
-    externalId = false
     label = "IPPrice"
     precision = 18
     scale = 2
@@ -36,7 +34,6 @@ type salesforce.IndustryPrice__c {
   salesforce.Lookup IPProduct__c {
     apiName = "IndustryPrice__c.IPProduct__c"
     deleteConstraint = "SetNull"
-    externalId = false
     label = "IPProduct"
     referenceTo = [
       salesforce.Product2,
@@ -50,7 +47,6 @@ type salesforce.IndustryPrice__c {
   }
   salesforce.Picklist IPSLA__c {
     apiName = "IndustryPrice__c.IPSLA__c"
-    externalId = false
     label = "IPSLA"
     trackTrending = false
     valueSet = [

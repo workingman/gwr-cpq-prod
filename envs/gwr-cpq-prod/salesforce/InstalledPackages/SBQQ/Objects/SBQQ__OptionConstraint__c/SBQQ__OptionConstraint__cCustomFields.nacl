@@ -4,7 +4,6 @@ type salesforce.SBQQ__OptionConstraint__c {
     defaultValue = true
     deprecated = false
     description = "Marks this constraint as active or inactive."
-    externalId = false
     inlineHelpText = "Marks this constraint as active or inactive."
     label = "Active"
     trackTrending = false
@@ -17,7 +16,6 @@ type salesforce.SBQQ__OptionConstraint__c {
     defaultValue = false
     deprecated = false
     description = "Allows you to check on past purchases in the Account."
-    externalId = false
     inlineHelpText = "Check if you want to look up prior purchases of Constraining Option within the Account."
     label = "Check Prior Purchases"
     trackTrending = false
@@ -30,7 +28,6 @@ type salesforce.SBQQ__OptionConstraint__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "SKU which configuration is being constrained."
-    externalId = false
     inlineHelpText = "Product SKU being constrained."
     label = "Configured SKU"
     referenceTo = [
@@ -47,7 +44,6 @@ type salesforce.SBQQ__OptionConstraint__c {
     apiName = "SBQQ__OptionConstraint__c.SBQQ__ConstrainedOption__c"
     deprecated = false
     description = "Option that's being constrained."
-    externalId = false
     inlineHelpText = "Select the option in the bundle that you want applied to this constraint."
     label = "Constrained Option"
     lookupFilter = {
@@ -79,7 +75,6 @@ type salesforce.SBQQ__OptionConstraint__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Option that's constraining another option."
-    externalId = false
     inlineHelpText = "Choose an additional option if the Constrained Option is constraining another option."
     label = "Constraining Option"
     lookupFilter = {
@@ -122,7 +117,6 @@ type salesforce.SBQQ__OptionConstraint__c {
     apiName = "SBQQ__OptionConstraint__c.SBQQ__Type__c"
     deprecated = false
     description = "Determines behavior of this constraint."
-    externalId = false
     inlineHelpText = "Choose the behavior of this constraint: dependency means inclusion is required while exclusion means the option constraint is not selected when the constraining option is or vice versa."
     label = "Type"
     trackTrending = false

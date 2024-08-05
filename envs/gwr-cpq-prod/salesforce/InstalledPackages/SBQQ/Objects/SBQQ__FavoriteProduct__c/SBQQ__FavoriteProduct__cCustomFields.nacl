@@ -2,7 +2,6 @@ type salesforce.SBQQ__FavoriteProduct__c {
   salesforce.LongTextArea SBQQ__ConfigurationAttributes__c {
     apiName = "SBQQ__FavoriteProduct__c.SBQQ__ConfigurationAttributes__c"
     deprecated = false
-    externalId = false
     label = "Configuration Attributes"
     length = 131072
     trackTrending = false
@@ -15,7 +14,6 @@ type salesforce.SBQQ__FavoriteProduct__c {
     apiName = "SBQQ__FavoriteProduct__c.SBQQ__DiscountSchedule__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     label = "Discount Schedule"
     referenceTo = [
       salesforce.SBQQ__DiscountSchedule__c,
@@ -45,7 +43,6 @@ type salesforce.SBQQ__FavoriteProduct__c {
   salesforce.MasterDetail SBQQ__Favorite__c {
     apiName = "SBQQ__FavoriteProduct__c.SBQQ__Favorite__c"
     deprecated = false
-    externalId = false
     label = "Favorite"
     referenceTo = [
       salesforce.SBQQ__Favorite__c,
@@ -64,7 +61,6 @@ type salesforce.SBQQ__FavoriteProduct__c {
     apiName = "SBQQ__FavoriteProduct__c.SBQQ__ProductOption__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     label = "Product Option"
     referenceTo = [
       salesforce.SBQQ__ProductOption__c,
@@ -80,7 +76,6 @@ type salesforce.SBQQ__FavoriteProduct__c {
     apiName = "SBQQ__FavoriteProduct__c.SBQQ__Product__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     label = "Product"
     referenceTo = [
       salesforce.Product2,
@@ -109,7 +104,6 @@ type salesforce.SBQQ__FavoriteProduct__c {
     apiName = "SBQQ__FavoriteProduct__c.SBQQ__RequiredBy__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     label = "Required By"
     referenceTo = [
       salesforce.SBQQ__FavoriteProduct__c,

@@ -3,7 +3,6 @@ type salesforce.SBQQ__ProductOption__c {
     apiName = "SBQQ__ProductOption__c.SBQQ__AppliedImmediatelyContext__c"
     deprecated = false
     description = "'Apply Immediately on Select' applies changes immediately on selection of product, whereas 'Apply Immediately on Quantity Change' does that on change of quantity. 'Always' applies changes both the times, on selection of product and on change of quantity."
-    externalId = false
     inlineHelpText = "'Apply Immediately on Select' applies changes immediately on selection of product, whereas 'Apply Immediately on Quantity Change' does that on change of quantity. 'Always' applies changes both the times, on selection of product and on change of quantity."
     label = "Apply Immediately Context"
     trackTrending = false
@@ -35,7 +34,6 @@ type salesforce.SBQQ__ProductOption__c {
     defaultValue = false
     deprecated = false
     description = "Flag that indicates changes to this option should apply immediately."
-    externalId = false
     inlineHelpText = "Select the checkbox to immediately apply changes to this option. Use sparingly to avoid slow user experience."
     label = "Apply Immediately"
     trackTrending = false
@@ -48,7 +46,6 @@ type salesforce.SBQQ__ProductOption__c {
     defaultValue = false
     deprecated = false
     description = "Indicates that related product is bundled with the main product. Bundled options have fixed quantity and zero price."
-    externalId = false
     inlineHelpText = "Select the checkbox to indicate that the related product is bundled with the main product. Bundled options have fixed quantity and zero price as price is included in the main product. Leave this unchecked if the price should be added to the option."
     label = "Bundled"
     trackTrending = false
@@ -121,7 +118,6 @@ type salesforce.SBQQ__ProductOption__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Product SKU of the bundle that is being configured with this option. If you create the option from the product detail page, this should already be populated."
-    externalId = false
     inlineHelpText = "Product SKU of the bundle that is being configured with this option. If you create the option from the product detail page, this should already be populated."
     label = "Configured SKU"
     referenceTo = [
@@ -137,7 +133,6 @@ type salesforce.SBQQ__ProductOption__c {
   salesforce.Picklist SBQQ__DefaultPricingTable__c {
     apiName = "SBQQ__ProductOption__c.SBQQ__DefaultPricingTable__c"
     deprecated = false
-    externalId = false
     inlineHelpText = "Select the pricing table this product should appear in by default when price dimensions are defined."
     label = "Default Pricing Table"
     trackTrending = false
@@ -163,7 +158,6 @@ type salesforce.SBQQ__ProductOption__c {
     apiName = "SBQQ__ProductOption__c.SBQQ__DiscountAmount__c"
     deprecated = false
     description = "Discount (Amt), based on the field, when the product referenced for this option is offered standalone. But, you'll need to extend a discount if purchased a part of this product bundled."
-    externalId = false
     inlineHelpText = "Discount (Amt), based on the field, when the product referenced for this option is offered standalone. But, you'll need to extend a discount if purchased a part of this product bundled."
     label = "Discount (Amt)"
     precision = 14
@@ -178,7 +172,6 @@ type salesforce.SBQQ__ProductOption__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Discount schedule to be applied to the product selected by this option. This discount schedule overrides the discount schedule selected on the product or feature."
-    externalId = false
     inlineHelpText = "Lookup the discount schedule to be applied to the product selected by this option. This discount schedule overrides the discount schedule selected on the product or feature."
     label = "Discount Schedule"
     referenceTo = [
@@ -195,7 +188,6 @@ type salesforce.SBQQ__ProductOption__c {
     apiName = "SBQQ__ProductOption__c.SBQQ__Discount__c"
     deprecated = false
     description = "Discount (%), based on the field, when the product referenced for this option is offered standalone. But, you'll need to extend a discount if purchased a part of this product bundled."
-    externalId = false
     inlineHelpText = "Enter a Discount (%), based on the field, when the product referenced for this option is offered standalone. But, you'll need to extend a discount if purchased a part of this product bundled."
     label = "Discount (%)"
     precision = 9
@@ -210,7 +202,6 @@ type salesforce.SBQQ__ProductOption__c {
     defaultValue = false
     deprecated = false
     description = "Indicates that quote lines generated from this component should pick up additional discount from the parent package line. Only percentage based discount can be inherited."
-    externalId = false
     inlineHelpText = "Check to automatically apply additional discount from parent package to this component. Only percentage-based discount can be applied."
     label = "Discounted By Package"
     trackTrending = false
@@ -238,7 +229,6 @@ type salesforce.SBQQ__ProductOption__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Feature that selects this option."
-    externalId = false
     inlineHelpText = "Enter or lookup the feature that includes this option. This will be dependent on the Configured SKU."
     label = "Feature"
     lookupFilter = {
@@ -313,7 +303,6 @@ type salesforce.SBQQ__ProductOption__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Product SKU added if this option is selected."
-    externalId = false
     inlineHelpText = "Enter or lookup the product SKU that should be added when this product is selected."
     label = "Optional SKU"
     referenceTo = [
@@ -504,7 +493,6 @@ type salesforce.SBQQ__ProductOption__c {
     defaultValue = false
     deprecated = false
     description = "Flag that determines whether option quantity is editable regardless of Quantity being specified."
-    externalId = false
     inlineHelpText = "Check to allow quantity to be edited even though it's specified on the option."
     label = "Quantity Editable"
     trackTrending = false
@@ -531,7 +519,6 @@ type salesforce.SBQQ__ProductOption__c {
     apiName = "SBQQ__ProductOption__c.SBQQ__QuoteLineVisibility__c"
     deprecated = false
     description = "Determines when quote line generated by this option is visible. If your product bundle components are only used to calculate the price of the bundle, you can hide components from users by using this field."
-    externalId = false
     inlineHelpText = "Configure visibility of quote line generated by this option."
     label = "Quote Line Visibility"
     trackTrending = false
@@ -568,7 +555,6 @@ type salesforce.SBQQ__ProductOption__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Product option that replaces this product option on renewal."
-    externalId = false
     inlineHelpText = "Product option that replaces this product option on renewal. Use this to quote a different SKU when renewing."
     label = "Renewal Product Option"
     referenceTo = [
@@ -586,7 +572,6 @@ type salesforce.SBQQ__ProductOption__c {
     defaultValue = false
     deprecated = false
     description = "Flag that indicates whether this component is required or not."
-    externalId = false
     inlineHelpText = "Select the checkbox if this product is required on the bundle."
     label = "Required"
     trackTrending = false
@@ -599,7 +584,6 @@ type salesforce.SBQQ__ProductOption__c {
     defaultValue = false
     deprecated = false
     description = "Indicates this option should be selected by default."
-    externalId = false
     inlineHelpText = "Select the checkbox if this product option should be automatically selected by default."
     label = "Selected"
     trackTrending = false
@@ -611,7 +595,6 @@ type salesforce.SBQQ__ProductOption__c {
     apiName = "SBQQ__ProductOption__c.SBQQ__SubscriptionScope__c"
     deprecated = false
     description = "Specifies percent of total calculation scope for percent of total priced products added as product options."
-    externalId = false
     inlineHelpText = "Choose how this percent of total product option is calculated. Package is specific to the parent product. Components is specific to sibling components. Both is specific to the parent and sibling components."
     label = "Percent of Total Scope"
     trackTrending = false
@@ -643,7 +626,6 @@ type salesforce.SBQQ__ProductOption__c {
     defaultValue = false
     deprecated = false
     description = "Marks this option as managed by the system which means users can not manually select or deselect."
-    externalId = false
     inlineHelpText = "Select the checkbox to indicate this option is managed by the system which makes it unavailable for user selection."
     label = "System"
     trackTrending = false
@@ -655,7 +637,6 @@ type salesforce.SBQQ__ProductOption__c {
     apiName = "SBQQ__ProductOption__c.SBQQ__Type__c"
     deprecated = false
     description = "Type of this option."
-    externalId = false
     inlineHelpText = "Use \"Component\" if this option, including quantity, is dependent on parent. Use\" Accessory\" if this option is dependent on parent but quantity is independent. Use \"Related Product\" for related but fully independent products."
     label = "Type"
     trackTrending = false
@@ -686,7 +667,6 @@ type salesforce.SBQQ__ProductOption__c {
     apiName = "SBQQ__ProductOption__c.SBQQ__UnitPrice__c"
     deprecated = false
     description = "Unit price for this option. This will override the value from price book."
-    externalId = false
     inlineHelpText = "Unit price for this option. This will override the value from price book."
     label = "Unit Price"
     precision = 14
@@ -701,7 +681,6 @@ type salesforce.SBQQ__ProductOption__c {
     defaultValue = false
     deprecated = false
     description = "Check to automatically apply uplift from parent package to this component. Only applies to components that are multi-segmented products."
-    externalId = false
     inlineHelpText = "Check to automatically apply uplift from parent package to this component. Only applies to components that are multi-segmented products."
     label = "Uplifted By Package"
     trackTrending = false

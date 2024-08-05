@@ -36,7 +36,6 @@ type salesforce.SBQQ__TemplateSection__c {
     defaultValue = false
     deprecated = false
     description = "Flag that determines whether column header is displayed or not. Only applies to sections pointing to template content of type \"Line Items\"."
-    externalId = false
     inlineHelpText = "Select the checkbox to hide the column header. Only applies to sections pointing to template content of type \"Line Items\"."
     label = "Hide Column Header"
     trackTrending = false
@@ -48,7 +47,6 @@ type salesforce.SBQQ__TemplateSection__c {
     apiName = "SBQQ__TemplateSection__c.SBQQ__ConditionalPrintField__c"
     deprecated = false
     description = "Field on quote object that controls whether this section prints on generated PDF documents."
-    externalId = false
     inlineHelpText = "Field on quote object that controls whether this section prints on generated PDF documents."
     label = "Conditional Print Field"
     trackTrending = false
@@ -75,7 +73,6 @@ type salesforce.SBQQ__TemplateSection__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Source of content for this section."
-    externalId = false
     inlineHelpText = "Select the template content to display in this template section."
     label = "Content"
     referenceTo = [
@@ -107,7 +104,6 @@ type salesforce.SBQQ__TemplateSection__c {
     apiName = "SBQQ__TemplateSection__c.SBQQ__FilterField__c"
     deprecated = false
     description = "Field used to filter records rendered by this section."
-    externalId = false
     inlineHelpText = "Field used to filter records rendered by this section."
     label = "Filter Field"
     trackTrending = false
@@ -128,7 +124,6 @@ type salesforce.SBQQ__TemplateSection__c {
     apiName = "SBQQ__TemplateSection__c.SBQQ__FilterOperator__c"
     deprecated = false
     description = "Operator used for filtering records rendered by this section."
-    externalId = false
     inlineHelpText = "Operator used for filtering records rendered by this section."
     label = "Filter Operator"
     trackTrending = false
@@ -204,7 +199,6 @@ type salesforce.SBQQ__TemplateSection__c {
     apiName = "SBQQ__TemplateSection__c.SBQQ__GroupField__c"
     deprecated = false
     description = "Field used in grouping lines rendered by this section. Only applicable to Line Items section."
-    externalId = false
     inlineHelpText = "Specify field used in grouping lines rendered by this section. Only applicable to Line Items section."
     label = "Group Field"
     trackTrending = false
@@ -230,7 +224,6 @@ type salesforce.SBQQ__TemplateSection__c {
     apiName = "SBQQ__TemplateSection__c.SBQQ__KeepTogether__c"
     deprecated = false
     description = "Imposes \"keep-together.within-page\" condition on this block of content."
-    externalId = false
     inlineHelpText = "Specifies whether an attempt should be made to keep contents together on the same page."
     label = "Keep Together"
     trackTrending = false
@@ -256,7 +249,6 @@ type salesforce.SBQQ__TemplateSection__c {
     apiName = "SBQQ__TemplateSection__c.SBQQ__KeepWithNext__c"
     deprecated = false
     description = "Imposes \"keep-with-next.within-page\" condition on this block of content."
-    externalId = false
     inlineHelpText = "Specifies whether an attempt should be made to keep contents together on the same page with next block of content."
     label = "Keep With Next"
     trackTrending = false
@@ -282,7 +274,6 @@ type salesforce.SBQQ__TemplateSection__c {
     apiName = "SBQQ__TemplateSection__c.SBQQ__KeepWithPrevious__c"
     deprecated = false
     description = "Imposes \"keep-with-previous.within-page\" condition on this block of content."
-    externalId = false
     inlineHelpText = "Specifies whether an attempt should be made to keep contents together on the same page with previous block of content."
     label = "Keep With Previous"
     trackTrending = false
@@ -308,7 +299,6 @@ type salesforce.SBQQ__TemplateSection__c {
     apiName = "SBQQ__TemplateSection__c.SBQQ__PageBreak__c"
     deprecated = false
     description = "Specifies page breaking behavior for this content."
-    externalId = false
     inlineHelpText = "Specifies whether page break should be inserted before, after or both before/after this content."
     label = "Page Break"
     trackTrending = false
@@ -340,7 +330,6 @@ type salesforce.SBQQ__TemplateSection__c {
     defaultValue = false
     deprecated = false
     description = "Forces quote totals to print after line items rendered by this section."
-    externalId = false
     inlineHelpText = "Select the checkbox to print quote totals after this section. Only applicable to Line Items sections."
     label = "Print Quote Totals"
     trackTrending = false
@@ -352,7 +341,6 @@ type salesforce.SBQQ__TemplateSection__c {
     apiName = "SBQQ__TemplateSection__c.SBQQ__RollUpField__c"
     deprecated = false
     description = "Field on quote line object that's used to rollup lines."
-    externalId = false
     inlineHelpText = "Quote line field used for roll-up. All lines where this field returns the same value will be rolled up into the first line where the value occurs."
     label = "Roll-Up Field"
     trackTrending = false
@@ -373,7 +361,6 @@ type salesforce.SBQQ__TemplateSection__c {
     apiName = "SBQQ__TemplateSection__c.SBQQ__SummaryDisplay__c"
     deprecated = false
     description = "Specifies how line items rendered by this section are summarized."
-    externalId = false
     inlineHelpText = "Choose \"Always\" to display subtotal, discounts and grand total regardless of any other settings. Choose \"Never\" to never display regardless of other settings. Leaving this field blank will render summary as defined by template fields."
     label = "Summary Display"
     trackTrending = false
@@ -399,7 +386,6 @@ type salesforce.SBQQ__TemplateSection__c {
     apiName = "SBQQ__TemplateSection__c.SBQQ__Template__c"
     deprecated = false
     description = "Quote template that uses this template section."
-    externalId = false
     inlineHelpText = "Quote template that uses this template section."
     label = "Template"
     referenceTo = [

@@ -18,7 +18,6 @@ type salesforce.SBQQ__TermCondition__c {
     apiName = "SBQQ__TermCondition__c.SBQQ__Operator__c"
     deprecated = false
     description = "The operator for this field."
-    externalId = false
     inlineHelpText = "Choose the operator for the field."
     label = "Operator"
     trackTrending = false
@@ -79,7 +78,6 @@ type salesforce.SBQQ__TermCondition__c {
     apiName = "SBQQ__TermCondition__c.SBQQ__QuoteTerm__c"
     deprecated = false
     description = "Parent term for this term."
-    externalId = false
     inlineHelpText = "Parent term for this term."
     label = "Quote Term"
     referenceTo = [
@@ -99,7 +97,6 @@ type salesforce.SBQQ__TermCondition__c {
     apiName = "SBQQ__TermCondition__c.SBQQ__TestedField__c"
     deprecated = false
     description = "Field on quote object used for testing this condition."
-    externalId = false
     inlineHelpText = "Field on quote object used for testing this condition."
     label = "Tested Field"
     trackTrending = false
@@ -146,7 +143,6 @@ type salesforce.SBQQ__TermCondition__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Summary variable used in testing this condition."
-    externalId = false
     inlineHelpText = "Summary variable used in testing this condition."
     label = "Tested Variable"
     referenceTo = [

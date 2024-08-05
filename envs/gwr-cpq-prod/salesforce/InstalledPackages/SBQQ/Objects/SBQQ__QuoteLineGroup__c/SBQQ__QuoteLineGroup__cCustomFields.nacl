@@ -4,7 +4,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Account to which this Quote Line Group references."
-    externalId = false
     inlineHelpText = "Account to which this Quote Line Group references."
     label = "Account"
     referenceTo = [
@@ -21,7 +20,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     apiName = "SBQQ__QuoteLineGroup__c.SBQQ__AdditionalDiscountRate__c"
     deprecated = false
     description = "Default additional discount rate applied to line items in this group."
-    externalId = false
     inlineHelpText = "Default additional discount rate applied to line items in this group."
     label = "Additional  Disc. (%)"
     precision = 5
@@ -35,7 +33,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     apiName = "SBQQ__QuoteLineGroup__c.SBQQ__BillingFrequency__c"
     deprecated = false
     description = "Defines the billing frequency."
-    externalId = false
     inlineHelpText = "Defines the billing frequency."
     label = "Billing Frequency"
     trackTrending = false
@@ -49,7 +46,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     apiName = "SBQQ__QuoteLineGroup__c.SBQQ__CustomerTotal__c"
     deprecated = false
     description = "Total for this group's line items before any partner discounts are applied."
-    externalId = false
     inlineHelpText = "Total for this group's line items before any partner discounts are applied."
     label = "Customer Total"
     precision = 14
@@ -63,7 +59,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     apiName = "SBQQ__QuoteLineGroup__c.SBQQ__Description__c"
     deprecated = false
     description = "Description for this group."
-    externalId = false
     inlineHelpText = "Description for this group."
     label = "Description"
     length = 32000
@@ -77,7 +72,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     apiName = "SBQQ__QuoteLineGroup__c.SBQQ__EndDate__c"
     deprecated = false
     description = "End date for subscriptions in this group."
-    externalId = false
     inlineHelpText = "End date for subscriptions in this group."
     label = "End Date"
     trackTrending = false
@@ -90,7 +84,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Favorite to which this Quote Line Group belongs."
-    externalId = false
     inlineHelpText = "Favorite to which this Quote Line Group belongs."
     label = "Favorite"
     referenceTo = [
@@ -107,7 +100,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     apiName = "SBQQ__QuoteLineGroup__c.SBQQ__ListTotal__c"
     deprecated = false
     description = "Total for this group's line items before any discounts are applied."
-    externalId = false
     inlineHelpText = "Total for this group's line items before any discounts are applied."
     label = "List Total"
     precision = 14
@@ -121,7 +113,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     apiName = "SBQQ__QuoteLineGroup__c.SBQQ__MarkupRate__c"
     deprecated = false
     description = "Default markup rate applied to line items in this group."
-    externalId = false
     inlineHelpText = "Default markup rate applied to line items in this group. This will override the line item level."
     label = "Markup (%)"
     precision = 8
@@ -135,7 +126,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     apiName = "SBQQ__QuoteLineGroup__c.SBQQ__NetTotal__c"
     deprecated = false
     description = "Total for this group's line items after all discounts are applied."
-    externalId = false
     inlineHelpText = "Total for this group's line items after all discounts are applied."
     label = "Net Total"
     precision = 14
@@ -165,7 +155,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     defaultValue = false
     deprecated = false
     description = "Marks the entire group as optional."
-    externalId = false
     inlineHelpText = "Marks the entire group as optional."
     label = "Optional"
     trackTrending = false
@@ -178,7 +167,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Quote process used with this group."
-    externalId = false
     inlineHelpText = "Quote process used with this group. Overrides the quote level field."
     label = "Quote Process"
     referenceTo = [
@@ -195,7 +183,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     apiName = "SBQQ__QuoteLineGroup__c.SBQQ__Quote__c"
     deprecated = false
     description = "Quote to which this group belongs."
-    externalId = false
     inlineHelpText = "Quote to which this group belongs."
     label = "Quote"
     referenceTo = [
@@ -216,7 +203,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     defaultValue = false
     deprecated = false
     description = "Flag that forces a separate contract for this group."
-    externalId = false
     inlineHelpText = "Select the checkbox to generate a separate contract for subscriptions in this group."
     label = "Separate Contract"
     trackTrending = false
@@ -229,7 +215,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Solution group from which this quote group was generated (if any)."
-    externalId = false
     inlineHelpText = "Solution group from which this quote group was generated (if any)."
     label = "Solution Group"
     referenceTo = [
@@ -247,7 +232,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Source of cloned quote line group."
-    externalId = false
     inlineHelpText = "Source of cloned quote line group."
     label = "Source"
     referenceTo = [
@@ -264,7 +248,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     apiName = "SBQQ__QuoteLineGroup__c.SBQQ__StartDate__c"
     deprecated = false
     description = "Start date for subscriptions in this group."
-    externalId = false
     inlineHelpText = "Start date for subscriptions in this group."
     label = "Start Date"
     trackTrending = false
@@ -291,7 +274,6 @@ type salesforce.SBQQ__QuoteLineGroup__c {
     apiName = "SBQQ__QuoteLineGroup__c.SBQQ__TargetCustomerAmount__c"
     deprecated = false
     description = "Customer amount to be targeted in calculating additional discounts."
-    externalId = false
     inlineHelpText = "Enter desired customer amount to automatically calculate additional discount on discountable line items."
     label = "Target Customer Amount"
     precision = 14

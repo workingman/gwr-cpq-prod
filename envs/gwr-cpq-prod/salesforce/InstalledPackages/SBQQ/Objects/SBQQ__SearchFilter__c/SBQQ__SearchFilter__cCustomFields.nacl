@@ -4,7 +4,6 @@ type salesforce.SBQQ__SearchFilter__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Action to which this filter applies. Blank value means the filter is global."
-    externalId = false
     inlineHelpText = "Action to which this filter applies. Blank value means the filter is global."
     label = "Action"
     referenceTo = [
@@ -37,7 +36,6 @@ type salesforce.SBQQ__SearchFilter__c {
     apiName = "SBQQ__SearchFilter__c.SBQQ__FilterSourceField__c"
     deprecated = false
     description = "Field that sources value for use in filtering."
-    externalId = false
     inlineHelpText = "Field that sources value for use in filtering."
     label = "Filter Source Field"
     trackTrending = false
@@ -80,7 +78,6 @@ type salesforce.SBQQ__SearchFilter__c {
     apiName = "SBQQ__SearchFilter__c.SBQQ__FilterSourceObject__c"
     deprecated = false
     description = "Object that sources value for use in filtering."
-    externalId = false
     inlineHelpText = "Object that sources value for use in filtering."
     label = "Filter Source Object"
     trackTrending = false
@@ -116,7 +113,6 @@ type salesforce.SBQQ__SearchFilter__c {
     apiName = "SBQQ__SearchFilter__c.SBQQ__HiddenSourceField__c"
     deprecated = false
     description = "Field that sources value for use in determining whether the filter is hidden."
-    externalId = false
     inlineHelpText = "Specify the field that sources value for use in determining whether the filter is hidden."
     label = "Hidden Source Field"
     trackTrending = false
@@ -148,7 +144,6 @@ type salesforce.SBQQ__SearchFilter__c {
     apiName = "SBQQ__SearchFilter__c.SBQQ__HiddenSourceObject__c"
     deprecated = false
     description = "Object that sources value for use in determining whether the filter is hidden."
-    externalId = false
     inlineHelpText = "Specify object that sources value for use in determining whether the filter is hidden."
     label = "Hidden Source Object"
     trackTrending = false
@@ -170,7 +165,6 @@ type salesforce.SBQQ__SearchFilter__c {
     defaultValue = false
     deprecated = false
     description = "Flag that marks this filter as hidden. Hidden filters do not display in the UI but contribute to search queries."
-    externalId = false
     inlineHelpText = "Select the checkbox to mark this filter as hidden. Hidden filters do not display in the UI but contribute to search queries."
     label = "Hidden"
     trackTrending = false
@@ -182,7 +176,6 @@ type salesforce.SBQQ__SearchFilter__c {
     apiName = "SBQQ__SearchFilter__c.SBQQ__Operator__c"
     deprecated = false
     description = "Operator used by this filter to determine whether filter value is matched."
-    externalId = false
     inlineHelpText = "Specify the operator to use with this filter."
     label = "Operator"
     trackTrending = false
@@ -248,7 +241,6 @@ type salesforce.SBQQ__SearchFilter__c {
     apiName = "SBQQ__SearchFilter__c.SBQQ__TargetField__c"
     deprecated = false
     description = "Field searched by this filter."
-    externalId = false
     inlineHelpText = "Specify the field to search."
     label = "Target Field"
     trackTrending = false
@@ -341,7 +333,6 @@ type salesforce.SBQQ__SearchFilter__c {
     apiName = "SBQQ__SearchFilter__c.SBQQ__TargetObject__c"
     deprecated = false
     description = "Object searched by this filter."
-    externalId = false
     inlineHelpText = "Specify object to search."
     label = "Target Object"
     trackTrending = false

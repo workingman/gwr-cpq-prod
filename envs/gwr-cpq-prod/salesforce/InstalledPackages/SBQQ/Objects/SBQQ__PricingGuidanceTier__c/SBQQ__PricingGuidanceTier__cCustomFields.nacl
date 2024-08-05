@@ -3,7 +3,6 @@ type salesforce.SBQQ__PricingGuidanceTier__c {
     apiName = "SBQQ__PricingGuidanceTier__c.SBQQ__FloorDiscount__c"
     deprecated = false
     description = "High discount for exception pricing based on past sales. If a sales rep wants to use this price, they must discount the quote line manually. This discount may require approvals based on your org's approval settings."
-    externalId = false
     inlineHelpText = "High discount for exception pricing based on past sales. If a sales rep wants to use this price, they must discount the quote line manually. This discount may require approvals based on your org's approval settings."
     label = "Floor Discount (%)"
     precision = 14
@@ -32,7 +31,6 @@ type salesforce.SBQQ__PricingGuidanceTier__c {
     apiName = "SBQQ__PricingGuidanceTier__c.SBQQ__NormDiscount__c"
     deprecated = false
     description = "Middle-range discount based on past sales. If a sales rep wants to use this price, they must discount the quote line manually. This discount may require approvals based on your org's approval settings."
-    externalId = false
     inlineHelpText = "Middle-range discount based on past sales. If a sales rep wants to use this price, they must discount the quote line manually. This discount may require approvals based on your org's approval settings."
     label = "Norm Discount (%)"
     precision = 14
@@ -46,7 +44,6 @@ type salesforce.SBQQ__PricingGuidanceTier__c {
     apiName = "SBQQ__PricingGuidanceTier__c.SBQQ__PricingGuidance__c"
     deprecated = false
     description = "The pricing guidance that contains this tier."
-    externalId = false
     inlineHelpText = "The pricing guidance that contains this tier."
     label = "Pricing Guidance"
     referenceTo = [
@@ -66,7 +63,6 @@ type salesforce.SBQQ__PricingGuidanceTier__c {
     apiName = "SBQQ__PricingGuidanceTier__c.SBQQ__TargetDiscount__c"
     deprecated = false
     description = "Ideal low-range discount based on past sales. If sales reps accept this pricing guidance, Salesforce CPQ applies a discount to reach this price."
-    externalId = false
     inlineHelpText = "Ideal low-range discount based on past sales. If sales reps accept this pricing guidance, Salesforce CPQ applies a discount to reach this price."
     label = "Target Discount (%)"
     precision = 14

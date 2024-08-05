@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___RFID_Fob@ssuuus {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.01t8c00000MGiLRAA1
+  UnitPrice = 10
+  UseStandardPrice = false
+  _alias = "Standard Price Book RFID Fob"
+}

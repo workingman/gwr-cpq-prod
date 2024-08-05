@@ -23,7 +23,6 @@ type salesforce.Lead {
   }
   salesforce.Picklist Primary__c {
     apiName = "Lead.Primary__c"
-    externalId = false
     label = "Primary"
     valueSet = [
       {
@@ -45,7 +44,6 @@ type salesforce.Lead {
   }
   salesforce.Picklist ProductInterest__c {
     apiName = "Lead.ProductInterest__c"
-    externalId = false
     label = "Product Interest"
     valueSet = [
       {

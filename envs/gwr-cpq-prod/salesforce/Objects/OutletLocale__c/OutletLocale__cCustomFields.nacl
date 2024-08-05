@@ -14,7 +14,6 @@ type salesforce.OutletLocale__c {
   salesforce.Lookup OLProduct__c {
     apiName = "OutletLocale__c.OLProduct__c"
     deleteConstraint = "SetNull"
-    externalId = false
     label = "OLProduct"
     referenceTo = [
       salesforce.Product2,
@@ -29,7 +28,6 @@ type salesforce.OutletLocale__c {
   salesforce.Checkbox OLRequired__c {
     apiName = "OutletLocale__c.OLRequired__c"
     defaultValue = false
-    externalId = false
     label = "OLRequired"
     trackTrending = false
     createable = true
@@ -38,7 +36,6 @@ type salesforce.OutletLocale__c {
   }
   salesforce.Picklist OLType__c {
     apiName = "OutletLocale__c.OLType__c"
-    externalId = false
     label = "OLType"
     trackTrending = false
     valueSet = [

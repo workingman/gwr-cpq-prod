@@ -19,7 +19,6 @@ type salesforce.SBQQ__InstallProcessorLog__c {
     apiName = "SBQQ__InstallProcessorLog__c.SBQQ__Time__c"
     deprecated = false
     description = "Timestamp for running the method"
-    externalId = false
     inlineHelpText = "Timestamp for running the method"
     label = "Time"
     _required = true

@@ -3,7 +3,6 @@ type salesforce.SBQQ__TemplateContent__c {
     apiName = "SBQQ__TemplateContent__c.SBQQ__CustomSource__c"
     deprecated = false
     description = "URL to a VisualForce page that generates content when type is set to \"Custom\"."
-    externalId = false
     inlineHelpText = "URL to a VisualForce page that generates content when type is set to \"Custom\"."
     label = "Custom Source"
     trackTrending = false
@@ -15,7 +14,6 @@ type salesforce.SBQQ__TemplateContent__c {
     apiName = "SBQQ__TemplateContent__c.SBQQ__FontFamily__c"
     deprecated = false
     description = "Font family to use when rendering this content in the generated PDF quote document."
-    externalId = false
     inlineHelpText = "Font family to use when rendering this content in the generated PDF quote document."
     label = "Font Family"
     trackTrending = false
@@ -146,7 +144,6 @@ type salesforce.SBQQ__TemplateContent__c {
     apiName = "SBQQ__TemplateContent__c.SBQQ__Markup__c"
     deprecated = false
     description = "Contains the markup if this content is of type \"Markup\"."
-    externalId = false
     inlineHelpText = "Contains the markup if this content is of type \"Markup\"."
     label = "Markup"
     length = 32000
@@ -160,7 +157,6 @@ type salesforce.SBQQ__TemplateContent__c {
     apiName = "SBQQ__TemplateContent__c.SBQQ__RawMarkup__c"
     deprecated = false
     description = "Raw HTML markup. Rich Text field (Markup) strips out many HTML tags so this holds the original version as created by the editor."
-    externalId = false
     inlineHelpText = "Original HTML version of the content in the Markup field."
     label = "Raw Markup"
     length = 32000
@@ -174,7 +170,6 @@ type salesforce.SBQQ__TemplateContent__c {
     apiName = "SBQQ__TemplateContent__c.SBQQ__TableStyle__c"
     deprecated = false
     description = "Style of the table used for line items. Standard (default) = user-defined fields as columns with line items listed vertically."
-    externalId = false
     inlineHelpText = "Style of the table used for line items. Standard (default) = user-defined fields as columns with line items listed vertically."
     label = "Table Style"
     trackTrending = false
@@ -220,7 +215,6 @@ type salesforce.SBQQ__TemplateContent__c {
     apiName = "SBQQ__TemplateContent__c.SBQQ__Type__c"
     deprecated = false
     description = "Type of this content."
-    externalId = false
     inlineHelpText = "Type of this content."
     label = "Type"
     trackTrending = false

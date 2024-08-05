@@ -3,7 +3,6 @@ type salesforce.SBQQ__SummaryVariable__c {
     apiName = "SBQQ__SummaryVariable__c.SBQQ__AggregateField__c"
     deprecated = false
     description = "Quote Line field that's acted upon by the aggregate function."
-    externalId = false
     inlineHelpText = "Quote Line field that's acted upon by the aggregate function."
     label = "Aggregate Field"
     trackTrending = false
@@ -24,7 +23,6 @@ type salesforce.SBQQ__SummaryVariable__c {
     apiName = "SBQQ__SummaryVariable__c.SBQQ__AggregateFunction__c"
     deprecated = false
     description = "Aggregate function used to calculate this variable."
-    externalId = false
     inlineHelpText = "Aggregate function used to calculate this variable."
     label = "Aggregate Function"
     trackTrending = false
@@ -66,7 +64,6 @@ type salesforce.SBQQ__SummaryVariable__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Another variable to compose with this variable to produce the final result."
-    externalId = false
     inlineHelpText = "Another summary variable to compose with this summary variable if your condition is based on both results."
     label = "Variable Element"
     referenceTo = [
@@ -83,7 +80,6 @@ type salesforce.SBQQ__SummaryVariable__c {
     apiName = "SBQQ__SummaryVariable__c.SBQQ__CompositeOperator__c"
     deprecated = false
     description = "Operator to use in composing this variable with another variable or value to produce final result used in rules."
-    externalId = false
     inlineHelpText = "Specify how this variable should be composed with Variable Element or Value Element."
     label = "Composite Operator"
     trackTrending = false
@@ -119,7 +115,6 @@ type salesforce.SBQQ__SummaryVariable__c {
     apiName = "SBQQ__SummaryVariable__c.SBQQ__ConstraintField__c"
     deprecated = false
     description = "The field that will limit records further based on a quote field."
-    externalId = false
     inlineHelpText = "If you want to limit records further based on a quote field, select the field that you want to match against the same field on the quote."
     label = "Constraint Field"
     trackTrending = false
@@ -145,7 +140,6 @@ type salesforce.SBQQ__SummaryVariable__c {
     apiName = "SBQQ__SummaryVariable__c.SBQQ__FilterField__c"
     deprecated = false
     description = "Items that are filtered for inclusion in this summary variable."
-    externalId = false
     inlineHelpText = "Select the field to use when filtering items for inclusion in this summary variable."
     label = "Filter Field"
     trackTrending = false
@@ -196,7 +190,6 @@ type salesforce.SBQQ__SummaryVariable__c {
     apiName = "SBQQ__SummaryVariable__c.SBQQ__Operator__c"
     deprecated = false
     description = "The operator being used in the filter."
-    externalId = false
     inlineHelpText = "Choose the operator to use in your filter."
     label = "Operator"
     trackTrending = false
@@ -257,7 +250,6 @@ type salesforce.SBQQ__SummaryVariable__c {
     apiName = "SBQQ__SummaryVariable__c.SBQQ__Scope__c"
     deprecated = false
     description = "The scope of your summary variable."
-    externalId = false
     inlineHelpText = "Enter the scope of your summary variable."
     label = "Scope"
     trackTrending = false
@@ -283,7 +275,6 @@ type salesforce.SBQQ__SummaryVariable__c {
     apiName = "SBQQ__SummaryVariable__c.SBQQ__TargetObject__c"
     deprecated = false
     description = "Name of object being summarized."
-    externalId = false
     inlineHelpText = "Select the object you want to aggregate."
     label = "Target Object"
     trackTrending = false

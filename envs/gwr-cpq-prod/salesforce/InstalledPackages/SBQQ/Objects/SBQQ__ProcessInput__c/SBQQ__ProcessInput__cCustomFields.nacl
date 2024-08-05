@@ -4,7 +4,6 @@ type salesforce.SBQQ__ProcessInput__c {
     defaultValue = false
     deprecated = false
     description = "Indicates if this process input is active."
-    externalId = false
     inlineHelpText = "Select the checkbox to activate this process input."
     label = "Active"
     trackTrending = false
@@ -15,7 +14,6 @@ type salesforce.SBQQ__ProcessInput__c {
   salesforce.Picklist SBQQ__BinaryChoice__c {
     apiName = "SBQQ__ProcessInput__c.SBQQ__BinaryChoice__c"
     deprecated = false
-    externalId = false
     label = "Binary Choice"
     trackTrending = false
     valueSet = [
@@ -40,7 +38,6 @@ type salesforce.SBQQ__ProcessInput__c {
     apiName = "SBQQ__ProcessInput__c.SBQQ__ConditionsMet__c"
     deprecated = false
     description = "Indicates which Process Input conditions must be met."
-    externalId = false
     inlineHelpText = "Indicate which Process Input conditions must be met."
     label = "Conditions Met"
     trackTrending = false
@@ -66,7 +63,6 @@ type salesforce.SBQQ__ProcessInput__c {
     apiName = "SBQQ__ProcessInput__c.SBQQ__DefaultField__c"
     deprecated = false
     description = "Quote field that sources default value for this input."
-    externalId = false
     inlineHelpText = "Quote field that sources default value for this input."
     label = "Default Field"
     trackTrending = false
@@ -109,7 +105,6 @@ type salesforce.SBQQ__ProcessInput__c {
     apiName = "SBQQ__ProcessInput__c.SBQQ__InputField__c"
     deprecated = false
     description = "The API name for the field that accepts the user entry."
-    externalId = false
     inlineHelpText = "Select the API name for the field that accepts the user entry."
     label = "Input Field"
     trackTrending = false
@@ -164,7 +159,6 @@ type salesforce.SBQQ__ProcessInput__c {
     apiName = "SBQQ__ProcessInput__c.SBQQ__Operator__c"
     deprecated = false
     description = "The operator used when comparing the Input Field entry with the Product Field."
-    externalId = false
     inlineHelpText = "Select the operator to use when comparing the Input Field entry with the Product Field."
     label = "Operator"
     trackTrending = false
@@ -225,7 +219,6 @@ type salesforce.SBQQ__ProcessInput__c {
     apiName = "SBQQ__ProcessInput__c.SBQQ__ProcessInputCondition__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     label = "Process Input Condition"
     referenceTo = [
       salesforce.SBQQ__ProcessInputCondition__c,
@@ -241,7 +234,6 @@ type salesforce.SBQQ__ProcessInput__c {
     apiName = "SBQQ__ProcessInput__c.SBQQ__ProductField__c"
     deprecated = false
     description = "Field on Product object used in filtering products that match this input."
-    externalId = false
     inlineHelpText = "Field on Product object used in filtering products that match this input."
     label = "Product Field"
     trackTrending = false
@@ -272,7 +264,6 @@ type salesforce.SBQQ__ProcessInput__c {
     apiName = "SBQQ__ProcessInput__c.SBQQ__QuoteProcess__c"
     deprecated = false
     description = "Quote process that owns the input."
-    externalId = false
     inlineHelpText = "Quote process that owns the input."
     label = "Quote Process"
     referenceTo = [

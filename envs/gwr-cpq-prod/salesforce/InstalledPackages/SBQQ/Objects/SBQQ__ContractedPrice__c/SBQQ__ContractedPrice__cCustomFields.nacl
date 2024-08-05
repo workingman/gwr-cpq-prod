@@ -3,7 +3,6 @@ type salesforce.SBQQ__ContractedPrice__c {
     apiName = "SBQQ__ContractedPrice__c.SBQQ__Account__c"
     deprecated = false
     description = "Account for which this price was negotiated."
-    externalId = false
     inlineHelpText = "Account for which this price was negotiated."
     label = "Account"
     referenceTo = [
@@ -24,7 +23,6 @@ type salesforce.SBQQ__ContractedPrice__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Sales contract that governs this price."
-    externalId = false
     inlineHelpText = "Sales contract that governs this price."
     label = "Contract"
     referenceTo = [
@@ -41,7 +39,6 @@ type salesforce.SBQQ__ContractedPrice__c {
     apiName = "SBQQ__ContractedPrice__c.SBQQ__Description__c"
     deprecated = false
     description = "Description for the Contracted Price"
-    externalId = false
     inlineHelpText = "Description for this Contracted Price. This will be copied into \"Special Price Description\" of Quote line items using this price."
     label = "Description"
     trackTrending = false
@@ -54,7 +51,6 @@ type salesforce.SBQQ__ContractedPrice__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Volume discount schedule to use for this product with this customer."
-    externalId = false
     inlineHelpText = "Volume discount schedule to use for this product with this customer."
     label = "Discount Schedule"
     referenceTo = [
@@ -71,7 +67,6 @@ type salesforce.SBQQ__ContractedPrice__c {
     apiName = "SBQQ__ContractedPrice__c.SBQQ__Discount__c"
     deprecated = false
     description = "Discount off the list price (percent) represented by this Contracted Price. Either this field or Price should be set but not both."
-    externalId = false
     inlineHelpText = "Discount off the Price Book price (percent) represented by this Contracted Price. Either this field or Price should be set but not both."
     label = "Discount"
     precision = 6
@@ -85,7 +80,6 @@ type salesforce.SBQQ__ContractedPrice__c {
     apiName = "SBQQ__ContractedPrice__c.SBQQ__EffectiveDate__c"
     deprecated = false
     description = "Effective date for this contracted price."
-    externalId = false
     inlineHelpText = "Date this contracted price becomes effective."
     label = "Effective Date"
     trackTrending = false
@@ -97,7 +91,6 @@ type salesforce.SBQQ__ContractedPrice__c {
     apiName = "SBQQ__ContractedPrice__c.SBQQ__ExpirationDate__c"
     deprecated = false
     description = "Expiration date for this contracted price."
-    externalId = false
     inlineHelpText = "Date this contracted price expires."
     label = "Expiration Date"
     trackTrending = false
@@ -109,7 +102,6 @@ type salesforce.SBQQ__ContractedPrice__c {
     apiName = "SBQQ__ContractedPrice__c.SBQQ__FilterField__c"
     deprecated = false
     description = "Quote line field that's evaluated to determine if this contracted price applies."
-    externalId = false
     inlineHelpText = "Select a field to use in a filter, such as Product Family, if you want to apply this price to a set of products. If you are using a custom field, add the API name to the Filter Field as a picklist value."
     label = "Filter Field"
     trackTrending = false
@@ -156,7 +148,6 @@ type salesforce.SBQQ__ContractedPrice__c {
     defaultValue = false
     deprecated = false
     description = "Flag that marks the line covered by this price as non-discountable. Overrides Non Discountable flag on the product."
-    externalId = false
     inlineHelpText = "Select the checkbox to disallow further discounting of this product."
     label = "Non Discountable"
     trackTrending = false
@@ -168,7 +159,6 @@ type salesforce.SBQQ__ContractedPrice__c {
     apiName = "SBQQ__ContractedPrice__c.SBQQ__Operator__c"
     deprecated = false
     description = "Operator used to evaluate Filter Field value against Filter Value."
-    externalId = false
     inlineHelpText = "Select the operate to use when matching the contents of the Filter Field with the Filter Value."
     label = "Operator"
     trackTrending = false
@@ -225,7 +215,6 @@ type salesforce.SBQQ__ContractedPrice__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The Quote Line that originated this Contracted Price."
-    externalId = false
     inlineHelpText = "The Quote Line that originated this Contracted Price."
     label = "Original Quote Line"
     referenceTo = [
@@ -242,7 +231,6 @@ type salesforce.SBQQ__ContractedPrice__c {
     apiName = "SBQQ__ContractedPrice__c.SBQQ__Price__c"
     deprecated = false
     description = "Actual price that was negotiated. This value will override any other price such as the one from a price book or a volume-discounted price."
-    externalId = false
     inlineHelpText = "Enter the price that has been negotiated with the customer. This value will override any other price such as the one from a price book or a volume-discounted price."
     label = "Price"
     precision = 12
@@ -257,7 +245,6 @@ type salesforce.SBQQ__ContractedPrice__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Product for which this price was negotiated."
-    externalId = false
     inlineHelpText = "Select a product from any price book that you want to apply to this discount."
     label = "Product"
     referenceTo = [

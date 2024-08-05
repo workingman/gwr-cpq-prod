@@ -22,4 +22,5 @@ salesforce.MyDomainSettings {
   doesWarnOnForceComRedirect = "false"
   doesWarnOnRedirect = "false"
   instancedUrlRedirectHandling = "NoRedirect"
+  isFirstPartyCookieUseRequired = "false"
 }

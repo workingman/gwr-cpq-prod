@@ -3,7 +3,6 @@ type salesforce.SBQQ__DiscountCategory__c {
     apiName = "SBQQ__DiscountCategory__c.SBQQ__MaxDiscountRate__c"
     deprecated = false
     description = "Maximum allowable discount for this product category."
-    externalId = false
     inlineHelpText = "Enter the maximum allowable discount for this product category."
     label = "Max Discount (%)"
     precision = 6

@@ -4,7 +4,6 @@ type salesforce.Order {
     defaultValue = false
     deprecated = false
     description = "Indicates if the order is contracted."
-    externalId = false
     inlineHelpText = "Indicates if the order is contracted."
     label = "Contracted"
     createable = true
@@ -15,7 +14,6 @@ type salesforce.Order {
     apiName = "Order.SBQQ__ContractingMethod__c"
     deprecated = false
     description = "\"By Subscription End Date\" creates a separate Contract for each unique Subscription End Date, containing only those Subscriptions. \"Single Contract\" creates one Contract containing all Subscriptions, regardless of their End Dates."
-    externalId = false
     inlineHelpText = "\"By Subscription End Date\" creates a separate Contract for each unique Subscription End Date, containing only those Subscriptions. \"Single Contract\" creates one Contract containing all Subscriptions, regardless of their End Dates."
     label = "Contracting Method"
     valueSetName = salesforce.GlobalValueSet.instance.SBQQ__ContractingMethod
@@ -28,7 +26,6 @@ type salesforce.Order {
     apiName = "Order.SBQQ__OrderBookings__c"
     deprecated = false
     description = "Total amount of all order product bookings."
-    externalId = false
     inlineHelpText = "Total amount of all order product bookings."
     label = "Order Bookings"
     summarizedField = "OrderItem.SBQQ__OrderProductBookings__c"
@@ -43,7 +40,6 @@ type salesforce.Order {
     apiName = "Order.SBQQ__PaymentTerm__c"
     deprecated = false
     description = "The payment term for this order."
-    externalId = false
     inlineHelpText = "The payment term for this order."
     label = "Payment Term"
     valueSetName = salesforce.GlobalValueSet.instance.SBQQ__PaymentTerm
@@ -70,7 +66,6 @@ type salesforce.Order {
     apiName = "Order.SBQQ__PriceCalcStatus__c"
     deprecated = false
     description = "The order price calculation  job status.  It is set by the system."
-    externalId = false
     inlineHelpText = "Indicates the order price calculation job status.  It is set by the system."
     label = "Price Calculation Status"
     valueSetName = salesforce.GlobalValueSet.instance.SBQQ__JobStatus
@@ -84,7 +79,6 @@ type salesforce.Order {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The quote where the order is created from."
-    externalId = false
     inlineHelpText = "The quote where the order is created from."
     label = "Quote"
     referenceTo = [
@@ -114,7 +108,6 @@ type salesforce.Order {
     apiName = "Order.SBQQ__RenewalUpliftRate__c"
     deprecated = false
     description = "Rate of renewal price increases."
-    externalId = false
     inlineHelpText = "Rate of renewal price increases."
     label = "Renewal Uplift (%)"
     precision = 11
@@ -127,7 +120,6 @@ type salesforce.Order {
     apiName = "Order.SBQQ__TaxAmount__c"
     deprecated = false
     description = "The estimated tax amount"
-    externalId = false
     inlineHelpText = "The estimated tax amount"
     label = "Estimated Tax"
     summarizedField = "OrderItem.SBQQ__TaxAmount__c"

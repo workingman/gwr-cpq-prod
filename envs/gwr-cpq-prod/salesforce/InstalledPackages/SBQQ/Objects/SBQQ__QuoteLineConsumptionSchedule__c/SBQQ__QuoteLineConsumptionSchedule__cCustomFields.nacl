@@ -2,7 +2,6 @@ type salesforce.SBQQ__QuoteLineConsumptionSchedule__c {
   salesforce.Picklist SBQQ__BillingTermUnit__c {
     apiName = "SBQQ__QuoteLineConsumptionSchedule__c.SBQQ__BillingTermUnit__c"
     deprecated = false
-    externalId = false
     inlineHelpText = "The unit used with the billing term to determine the billing frequency."
     label = "Billing Term Unit"
     _required = true
@@ -48,7 +47,6 @@ type salesforce.SBQQ__QuoteLineConsumptionSchedule__c {
   salesforce.Picklist SBQQ__Category__c {
     apiName = "SBQQ__QuoteLineConsumptionSchedule__c.SBQQ__Category__c"
     deprecated = false
-    externalId = false
     label = "Category"
     _required = true
     trackTrending = false
@@ -69,7 +67,6 @@ type salesforce.SBQQ__QuoteLineConsumptionSchedule__c {
     apiName = "SBQQ__QuoteLineConsumptionSchedule__c.SBQQ__ConsumptionSchedule__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     label = "Consumption Schedule"
     referenceTo = [
       salesforce.ConsumptionSchedule,
@@ -84,7 +81,6 @@ type salesforce.SBQQ__QuoteLineConsumptionSchedule__c {
   salesforce.LongTextArea SBQQ__Description__c {
     apiName = "SBQQ__QuoteLineConsumptionSchedule__c.SBQQ__Description__c"
     deprecated = false
-    externalId = false
     label = "Description"
     length = 32000
     trackTrending = false
@@ -110,7 +106,6 @@ type salesforce.SBQQ__QuoteLineConsumptionSchedule__c {
   salesforce.MasterDetail SBQQ__QuoteLine__c {
     apiName = "SBQQ__QuoteLineConsumptionSchedule__c.SBQQ__QuoteLine__c"
     deprecated = false
-    externalId = false
     label = "Quote Line"
     referenceTo = [
       salesforce.SBQQ__QuoteLine__c,
@@ -128,7 +123,6 @@ type salesforce.SBQQ__QuoteLineConsumptionSchedule__c {
   salesforce.Picklist SBQQ__RatingMethod__c {
     apiName = "SBQQ__QuoteLineConsumptionSchedule__c.SBQQ__RatingMethod__c"
     deprecated = false
-    externalId = false
     inlineHelpText = "Choose a specific use case to rate usage against this schedule. This is a controlling picklist for the Type field."
     label = "Rating Method"
     _required = true
@@ -149,7 +143,6 @@ type salesforce.SBQQ__QuoteLineConsumptionSchedule__c {
   salesforce.Picklist SBQQ__Type__c {
     apiName = "SBQQ__QuoteLineConsumptionSchedule__c.SBQQ__Type__c"
     deprecated = false
-    externalId = false
     inlineHelpText = "Range: The schedule prices only using the tier that applies to the usage quantity. Slab: Usage within a given bound receives pricing equal to its tier's value"
     label = "Type"
     _required = true
@@ -175,7 +168,6 @@ type salesforce.SBQQ__QuoteLineConsumptionSchedule__c {
   salesforce.Picklist SBQQ__UnitOfMeasure__c {
     apiName = "SBQQ__QuoteLineConsumptionSchedule__c.SBQQ__UnitOfMeasure__c"
     deprecated = false
-    externalId = false
     inlineHelpText = "Usage quantities and rates apply to this unit of measurement."
     label = "Unit of Measure"
     trackTrending = false

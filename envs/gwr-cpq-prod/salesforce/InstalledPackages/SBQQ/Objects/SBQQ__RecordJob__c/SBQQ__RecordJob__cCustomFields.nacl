@@ -4,7 +4,6 @@ type salesforce.SBQQ__RecordJob__c {
     defaultValue = false
     deprecated = false
     description = "If true the user has been alerted of the record job's finished status"
-    externalId = false
     inlineHelpText = "If checked the user has been alerted of the record job's finished status."
     label = "Is Read"
     trackTrending = false
@@ -16,7 +15,6 @@ type salesforce.SBQQ__RecordJob__c {
     apiName = "SBQQ__RecordJob__c.SBQQ__JobDetails__c"
     deprecated = false
     description = "The details of the background job performed if no job id was specified."
-    externalId = false
     inlineHelpText = "The details of the background job performed if no job id was specified."
     label = "Job Details"
     length = 4000
@@ -73,7 +71,6 @@ type salesforce.SBQQ__RecordJob__c {
     apiName = "SBQQ__RecordJob__c.SBQQ__RedirectUrl__c"
     deprecated = false
     description = "Url to redirect to once the job finishes."
-    externalId = false
     inlineHelpText = "Url to redirect to once the job finishes."
     label = "Redirect URL"
     length = 2000
@@ -87,7 +84,6 @@ type salesforce.SBQQ__RecordJob__c {
     apiName = "SBQQ__RecordJob__c.SBQQ__Stacktrace__c"
     deprecated = false
     description = "The stacktrace for the error that caused the record job to fail."
-    externalId = false
     inlineHelpText = "The stacktrace of the background job performed if no job id was specified."
     label = "Stacktrace"
     length = 4000

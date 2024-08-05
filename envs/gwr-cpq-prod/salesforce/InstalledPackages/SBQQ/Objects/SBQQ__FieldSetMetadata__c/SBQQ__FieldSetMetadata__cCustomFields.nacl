@@ -4,7 +4,6 @@ type salesforce.SBQQ__FieldSetMetadata__c {
     defaultValue = false
     deprecated = false
     description = "If the user does not have a configuration."
-    externalId = false
     inlineHelpText = "If the user does not have a configuration."
     label = "Default"
     trackTrending = false
@@ -44,7 +43,6 @@ type salesforce.SBQQ__FieldSetMetadata__c {
     apiName = "SBQQ__FieldSetMetadata__c.SBQQ__ObjectType__c"
     deprecated = false
     description = "The Object Type being referred to when using column metadata sizing."
-    externalId = false
     label = "Object Type"
     _required = true
     trackTrending = false

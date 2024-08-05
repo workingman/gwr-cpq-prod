@@ -47,7 +47,6 @@ type salesforce.SBQQ__ColumnMetadata__c {
     apiName = "SBQQ__ColumnMetadata__c.SBQQ__FieldSetMetadata__c"
     deprecated = false
     description = "Master detail to FieldSet Metadata."
-    externalId = false
     inlineHelpText = "FieldSet Metadata relationship."
     label = "FieldSet Metadata"
     referenceTo = [

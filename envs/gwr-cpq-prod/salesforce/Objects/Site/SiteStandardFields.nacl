@@ -220,6 +220,22 @@ type salesforce.Site {
     queryable = true
     _hidden_value = true
   }
+  salesforce.Checkbox OptionsIsSiteGAIntegrationMigratedV2 {
+    apiName = "Site.OptionsIsSiteGAIntegrationMigratedV2"
+    label = "isSiteGAIntegrationMigratedV2"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox OptionsIsSiteDataCloudIntegrationMigrated {
+    apiName = "Site.OptionsIsSiteDataCloudIntegrationMigrated"
+    label = "isSiteDataCloudIntegrationMigrated"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
   salesforce.LongTextArea Description {
     apiName = "Site.Description"
     length = 1000

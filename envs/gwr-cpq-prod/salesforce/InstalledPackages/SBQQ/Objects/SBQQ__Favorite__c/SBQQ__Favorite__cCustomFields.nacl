@@ -2,7 +2,6 @@ type salesforce.SBQQ__Favorite__c {
   salesforce.TextArea SBQQ__Description__c {
     apiName = "SBQQ__Favorite__c.SBQQ__Description__c"
     deprecated = false
-    externalId = false
     label = "Description"
     trackTrending = false
     createable = true

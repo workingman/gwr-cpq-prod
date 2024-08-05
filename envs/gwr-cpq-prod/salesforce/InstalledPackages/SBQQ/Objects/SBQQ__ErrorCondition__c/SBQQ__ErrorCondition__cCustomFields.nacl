@@ -3,7 +3,6 @@ type salesforce.SBQQ__ErrorCondition__c {
     apiName = "SBQQ__ErrorCondition__c.SBQQ__FilterType__c"
     deprecated = false
     description = "Type of filtering used in this condition."
-    externalId = false
     inlineHelpText = "Choose Variable to evaluate this rule against a Summary Variable; otherwise, choose Value."
     label = "Filter Type"
     trackTrending = false
@@ -45,7 +44,6 @@ type salesforce.SBQQ__ErrorCondition__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The selected summary variable this rule evaluates."
-    externalId = false
     inlineHelpText = "Choose the summary variable you want this rule to evaluate."
     label = "Filter Variable"
     referenceTo = [
@@ -77,7 +75,6 @@ type salesforce.SBQQ__ErrorCondition__c {
     apiName = "SBQQ__ErrorCondition__c.SBQQ__Operator__c"
     deprecated = false
     description = "The operator used when evaluating the tested selection."
-    externalId = false
     inlineHelpText = "Choose the operator to use when evaluating your tested selection."
     label = "Operator"
     trackTrending = false
@@ -137,7 +134,6 @@ type salesforce.SBQQ__ErrorCondition__c {
   salesforce.FormulaCheckbox SBQQ__ParentRuleIsActive__c {
     apiName = "SBQQ__ErrorCondition__c.SBQQ__ParentRuleIsActive__c"
     deprecated = false
-    externalId = false
     formula = "SBQQ__Rule__r.SBQQ__Active__c"
     formulaTreatBlanksAs = "BlankAsZero"
     label = "ParentRuleIsActive"
@@ -161,7 +157,6 @@ type salesforce.SBQQ__ErrorCondition__c {
   salesforce.FormulaCheckbox SBQQ__RuleTargetsQuote__c {
     apiName = "SBQQ__ErrorCondition__c.SBQQ__RuleTargetsQuote__c"
     deprecated = false
-    externalId = false
     formula = "ISPICKVAL(SBQQ__Rule__r.SBQQ__Scope__c, 'Quote')"
     formulaTreatBlanksAs = "BlankAsZero"
     label = "RuleTargetsQuote"
@@ -186,7 +181,6 @@ type salesforce.SBQQ__ErrorCondition__c {
     apiName = "SBQQ__ErrorCondition__c.SBQQ__Rule__c"
     deprecated = false
     description = "Parent rule for this condition."
-    externalId = false
     inlineHelpText = "Parent rule for this condition (that runs this condition)."
     label = "Rule"
     referenceTo = [
@@ -207,7 +201,6 @@ type salesforce.SBQQ__ErrorCondition__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Used to identify the specific attribute if the Tested Field is a global Configuration Attribute field."
-    externalId = false
     inlineHelpText = "Used to identify the specific attribute if the Tested Field is a global Configuration Attribute field."
     label = "Tested Attribute"
     lookupFilter = {
@@ -235,7 +228,6 @@ type salesforce.SBQQ__ErrorCondition__c {
     apiName = "SBQQ__ErrorCondition__c.SBQQ__TestedField__c"
     deprecated = false
     description = "Field on the Quote object that should be used in testing this condition."
-    externalId = false
     inlineHelpText = "Field on the Quote object that should be used in testing this condition."
     label = "Tested Field"
     trackTrending = false
@@ -335,7 +327,6 @@ type salesforce.SBQQ__ErrorCondition__c {
     apiName = "SBQQ__ErrorCondition__c.SBQQ__TestedObject__c"
     deprecated = false
     description = "Object that contains the field being tested by this condition."
-    externalId = false
     inlineHelpText = "Specify the object that contains the tested field."
     label = "Tested Object"
     trackTrending = false
@@ -382,7 +373,6 @@ type salesforce.SBQQ__ErrorCondition__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The Summary Variable in which this rule will be evaluated."
-    externalId = false
     inlineHelpText = "Select the Summary Variable you want this rule to evaluate."
     label = "Tested Variable"
     referenceTo = [

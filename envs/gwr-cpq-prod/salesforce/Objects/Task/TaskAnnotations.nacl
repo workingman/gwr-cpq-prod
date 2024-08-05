@@ -130,6 +130,20 @@ type salesforce.Task {
       type = "Default"
     },
     {
+      actionName = "LaunchFlowForManualTask"
+      type = "Default"
+    },
+    {
+      actionName = "LaunchFlowForManualTask"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "LaunchFlowForManualTask"
+      formFactor = "Small"
+      type = "Default"
+    },
+    {
       actionName = "NewTask"
       type = "Default"
     },

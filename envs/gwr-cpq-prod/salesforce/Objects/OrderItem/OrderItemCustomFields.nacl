@@ -1,7 +1,6 @@
 type salesforce.OrderItem {
   salesforce.Picklist Hardware_Color__c {
     apiName = "OrderItem.Hardware_Color__c"
-    externalId = false
     label = "Hardware Color"
     valueSet = [
       {
@@ -28,7 +27,6 @@ type salesforce.OrderItem {
   }
   salesforce.Picklist Measurement_Standard__c {
     apiName = "OrderItem.Measurement_Standard__c"
-    externalId = false
     label = "Measurement Standard"
     valueSet = [
       {
@@ -53,7 +51,6 @@ type salesforce.OrderItem {
     defaultValue = false
     deprecated = false
     description = "Indicates if the order product is activated."
-    externalId = false
     inlineHelpText = "Indicates if the order product is activated."
     label = "Activated"
     createable = true
@@ -65,7 +62,6 @@ type salesforce.OrderItem {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Asset created from this order product"
-    externalId = false
     inlineHelpText = "Asset created from this order product"
     label = "Asset"
     referenceTo = [
@@ -81,7 +77,6 @@ type salesforce.OrderItem {
     apiName = "OrderItem.SBQQ__BillingFrequency__c"
     deprecated = false
     description = "Defines the billing frequency."
-    externalId = false
     inlineHelpText = "Defines the billing frequency."
     label = "Billing Frequency"
     valueSetName = salesforce.GlobalValueSet.instance.SBQQ__BillingFrequency
@@ -97,7 +92,6 @@ type salesforce.OrderItem {
 The billing type that defines when the billing occurs. Billing in advance lets you bill your customers for products or services before you provide them; Billing in arrears lets
             you bill your customers after the products or services are provided.
 '''
-    externalId = false
     inlineHelpText = "The billing type that defines when the billing occurs."
     label = "Billing Type"
     valueSetName = salesforce.GlobalValueSet.instance.SBQQ__BillingType
@@ -111,7 +105,6 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The block price that is applied to this order product at order creation time."
-    externalId = false
     inlineHelpText = "The block price that is applied to this order product at order creation time."
     label = "Block Price"
     referenceTo = [
@@ -127,7 +120,6 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     apiName = "OrderItem.SBQQ__BookingsIndicator__c"
     deprecated = false
     description = "Indicates whether bookings are included."
-    externalId = false
     inlineHelpText = "Indicates whether bookings are included."
     label = "Bookings Indicator"
     valueSetName = salesforce.GlobalValueSet.instance.SBQQ__BookingsIndicator
@@ -141,7 +133,6 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The root bundle parent Order Product of components. This component will be deleted if its bundle root is deleted."
-    externalId = false
     inlineHelpText = "An internally used field that points to the root of its bundle parent."
     label = "Bundle Root"
     referenceTo = [
@@ -157,7 +148,6 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     apiName = "OrderItem.SBQQ__ChargeType__c"
     deprecated = false
     description = "The type of the product charge."
-    externalId = false
     inlineHelpText = "The type of the product charge."
     label = "Charge Type"
     valueSetName = salesforce.GlobalValueSet.instance.SBQQ__ChargeType
@@ -170,7 +160,6 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     apiName = "OrderItem.SBQQ__ContractAction__c"
     deprecated = false
     description = "The contract action where this order product is resulted from."
-    externalId = false
     inlineHelpText = "The contract action where this order product is resulted from."
     label = "Contract Action"
     valueSetName = salesforce.GlobalValueSet.instance.SBQQ__ContractAction
@@ -184,7 +173,6 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The contract of the subscription that is created from this order product."
-    externalId = false
     inlineHelpText = "The contract of the subscription that is created from this order product."
     label = "Contract"
     referenceTo = [
@@ -201,7 +189,6 @@ The billing type that defines when the billing occurs. Billing in advance lets y
     defaultValue = false
     deprecated = false
     description = "Indicates if the order product is contracted."
-    externalId = false
     inlineHelpText = "Indicates if the order product is contracted."
     label = "Contracted"
     createable = true
@@ -215,7 +202,6 @@ The billing type that defines when the billing occurs. Billing in advance lets y
 Controls the contracting behavior of an Order Product. "Inherit" uses the behavior of the parent Order. "Contract Separately" generates a separate Contract for
             the Order Product. "No Contract" skips the Order Product altogether during the contracting process.
 '''
-    externalId = false
     inlineHelpText = "Controls the contracting behavior of an Order Product."
     label = "Contracting Method"
     valueSet = [
@@ -280,7 +266,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Discount schedule applied to this order product."
-    externalId = false
     inlineHelpText = "Discount schedule applied to this order product."
     label = "Discount Schedule"
     referenceTo = [
@@ -296,7 +281,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     apiName = "OrderItem.SBQQ__OrderProductBookings__c"
     deprecated = false
     description = "Amount of the order product’s total price."
-    externalId = false
     formula = "IF( ISPICKVAL(SBQQ__BookingsIndicator__c  , 'Include') , UnitPrice * Quantity , 0)"
     formulaTreatBlanksAs = "BlankAsZero"
     inlineHelpText = "Amount of the order product’s total price."
@@ -338,7 +322,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     deleteConstraint = "SetNull"
     deprecated = false
     description = "References the price dimension applied to this order product."
-    externalId = false
     inlineHelpText = "References the price dimension applied to this order product."
     label = "Price Dimension"
     referenceTo = [
@@ -355,7 +338,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Price schedule applied to this order product."
-    externalId = false
     inlineHelpText = "Price schedule applied to this order product."
     label = "Price Schedule"
     referenceTo = [
@@ -371,7 +353,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     apiName = "OrderItem.SBQQ__PricingMethod__c"
     deprecated = false
     description = "Determines how the price for this line item is set. \"List\" = calculated by subtracting discount from list price. \"Cost\"  = calculated by adding markup to cost."
-    externalId = false
     inlineHelpText = "Indicates how the price for this line item is calculated. \"List\" = subtracting discount from list price. \"Cost\" = adding markup to cost."
     label = "Pricing Method"
     valueSet = [
@@ -411,7 +392,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     apiName = "OrderItem.SBQQ__ProductSubscriptionType__c"
     deprecated = false
     description = "Set the order item's product subscription type."
-    externalId = false
     inlineHelpText = "Set the order item's product subscription type."
     label = "Product Subscription Type"
     valueSetName = salesforce.GlobalValueSet.instance.SBQQ__SubscriptionType
@@ -439,7 +419,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The quote line where this order product is created from."
-    externalId = false
     inlineHelpText = "The quote line where this order product is created from."
     label = "Quote Line"
     referenceTo = [
@@ -455,7 +434,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     apiName = "OrderItem.SBQQ__QuotedListPrice__c"
     deprecated = false
     description = "List unit price for the product quoted by this line item. List Price originates from the price book."
-    externalId = false
     inlineHelpText = "List unit price for the product quoted by this line item. List Price originates from the price book."
     label = "Quoted List Price"
     precision = 14
@@ -482,7 +460,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     apiName = "OrderItem.SBQQ__RequiredBy__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     label = "Required By"
     referenceTo = [
       salesforce.OrderItem,
@@ -498,7 +475,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     deleteConstraint = "SetNull"
     deprecated = false
     description = "References the order product that this order product revises."
-    externalId = false
     inlineHelpText = "References the order product that this order product revises."
     label = "Revised Order Product"
     referenceTo = [
@@ -542,7 +518,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     apiName = "OrderItem.SBQQ__ShippingAccount__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     label = "Shipping Account"
     referenceTo = [
       salesforce.Account,
@@ -557,7 +532,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     apiName = "OrderItem.SBQQ__Status__c"
     deprecated = false
     description = "The current state of the order product."
-    externalId = false
     inlineHelpText = "Indicates the current state of the order product. It is defaulted to Draft when an order is created."
     label = "Activation Status"
     valueSetName = salesforce.GlobalValueSet.instance.SBQQ__OrderProductStatus
@@ -570,7 +544,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     apiName = "OrderItem.SBQQ__SubscriptionPricing__c"
     deprecated = false
     description = "Method of calculating the subscription price. A blank value indicates that the line item isn't a subscription product."
-    externalId = false
     inlineHelpText = "Indicates how the subscription price is calculated. If this is blank, the line items is not a subscription product."
     label = "Subscription Pricing"
     valueSetName = salesforce.GlobalValueSet.instance.SBQQ__SubscriptionPricing
@@ -595,7 +568,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     apiName = "OrderItem.SBQQ__SubscriptionType__c"
     deprecated = false
     description = "Indicates the subscription type to determine contract's pricing."
-    externalId = false
     inlineHelpText = "Indicates the subscription type to determine contract's pricing."
     label = "Subscription Type"
     valueSetName = salesforce.GlobalValueSet.instance.SBQQ__SubscriptionType
@@ -634,7 +606,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Subscription created from this order product"
-    externalId = false
     inlineHelpText = "Subscription created from this order product"
     label = "Subscription"
     referenceTo = [
@@ -650,7 +621,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     apiName = "OrderItem.SBQQ__TaxAmount__c"
     deprecated = false
     description = "Estimated tax amount"
-    externalId = false
     inlineHelpText = "Estimated tax amount"
     label = "Estimated Tax"
     precision = 18
@@ -678,7 +648,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Term Discount Schedule applied to this order product."
-    externalId = false
     inlineHelpText = "Term Discount Schedule applied to this order product."
     label = "Term Discount Schedule"
     referenceTo = [
@@ -694,7 +663,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     apiName = "OrderItem.SBQQ__TerminatedDate__c"
     deprecated = false
     description = "Date that this order product's related subscription was terminated"
-    externalId = false
     inlineHelpText = "Date that this order product's related subscription was terminated"
     label = "Terminated Date"
     createable = true
@@ -705,7 +673,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     apiName = "OrderItem.SBQQ__UnproratedNetPrice__c"
     deprecated = false
     description = "The full-term Net Unit Price."
-    externalId = false
     inlineHelpText = "The full term net price for individual line."
     label = "Full-Term Net Unit Price"
     precision = 16
@@ -719,7 +686,6 @@ Term length of the subscription, which only applies if the product is a subscrip
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Subscription being upgraded by this quote line."
-    externalId = false
     inlineHelpText = "Subscription being upgraded by this quote line. When the quote is contracted this subscription will have its Terminated Date field populated."
     label = "Upgraded Subscription"
     referenceTo = [
@@ -733,7 +699,6 @@ Term length of the subscription, which only applies if the product is a subscrip
   }
   salesforce.Picklist System_Voltage__c {
     apiName = "OrderItem.System_Voltage__c"
-    externalId = false
     label = "System Voltage"
     valueSet = [
       {

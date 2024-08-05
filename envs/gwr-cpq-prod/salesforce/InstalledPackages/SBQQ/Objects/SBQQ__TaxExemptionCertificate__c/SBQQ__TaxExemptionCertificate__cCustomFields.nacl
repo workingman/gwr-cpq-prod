@@ -2,7 +2,6 @@ type salesforce.SBQQ__TaxExemptionCertificate__c {
   salesforce.MasterDetail SBQQ__Account__c {
     apiName = "SBQQ__TaxExemptionCertificate__c.SBQQ__Account__c"
     deprecated = false
-    externalId = false
     label = "Account"
     referenceTo = [
       salesforce.Account,
@@ -22,7 +21,6 @@ type salesforce.SBQQ__TaxExemptionCertificate__c {
     defaultValue = true
     deprecated = false
     description = "An Active Certificate will make set the ‘Tax Exempt?’ field on the Active to true"
-    externalId = false
     inlineHelpText = "An Active Certificate will make set the ‘Tax Exempt?’ field on the Active to true"
     label = "Active"
     trackTrending = false
@@ -74,7 +72,6 @@ type salesforce.SBQQ__TaxExemptionCertificate__c {
   salesforce.Date SBQQ__DateIssued__c {
     apiName = "SBQQ__TaxExemptionCertificate__c.SBQQ__DateIssued__c"
     deprecated = false
-    externalId = false
     label = "Date Issued"
     trackTrending = false
     createable = true
@@ -86,7 +83,6 @@ type salesforce.SBQQ__TaxExemptionCertificate__c {
     defaultValue = false
     deprecated = false
     description = "A certificate can be marked as default only if it is active"
-    externalId = false
     inlineHelpText = "A certificate can be marked as default only if it is active"
     label = "Default"
     trackTrending = false
@@ -112,7 +108,6 @@ type salesforce.SBQQ__TaxExemptionCertificate__c {
   salesforce.Date SBQQ__ExpirationDate__c {
     apiName = "SBQQ__TaxExemptionCertificate__c.SBQQ__ExpirationDate__c"
     deprecated = false
-    externalId = false
     label = "Expiration Date"
     trackTrending = false
     createable = true
@@ -137,7 +132,6 @@ type salesforce.SBQQ__TaxExemptionCertificate__c {
   salesforce.TextArea SBQQ__Notes__c {
     apiName = "SBQQ__TaxExemptionCertificate__c.SBQQ__Notes__c"
     deprecated = false
-    externalId = false
     label = "Notes"
     trackTrending = false
     createable = true

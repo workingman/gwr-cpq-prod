@@ -16,4 +16,5 @@ salesforce.ApexSettings {
   enableRestrictCommunityExecAnon = "false"
   enableSecureNoArgConstructorPref = false
   _alias = "Apex"
+  enableTestSetupSkipTestResults = "false"
 }

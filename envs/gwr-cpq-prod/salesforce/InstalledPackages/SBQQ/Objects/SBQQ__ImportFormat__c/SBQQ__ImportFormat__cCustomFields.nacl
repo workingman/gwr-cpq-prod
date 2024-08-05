@@ -4,7 +4,6 @@ type salesforce.SBQQ__ImportFormat__c {
     defaultValue = false
     deprecated = false
     description = "When activated, the input format becomes available for use."
-    externalId = false
     inlineHelpText = "Select the checkbox to make the input format available for use."
     label = "Active"
     trackTrending = false
@@ -32,7 +31,6 @@ type salesforce.SBQQ__ImportFormat__c {
     apiName = "SBQQ__ImportFormat__c.SBQQ__TargetObject__c"
     deprecated = false
     description = "Target Object to be imported."
-    externalId = false
     inlineHelpText = "Target Object to be imported."
     label = "Target Object"
     trackTrending = false
@@ -53,7 +51,6 @@ type salesforce.SBQQ__ImportFormat__c {
     apiName = "SBQQ__ImportFormat__c.SBQQ__UniqueKeyCount__c"
     deprecated = false
     description = "A count of the unique Keys within the Import Format."
-    externalId = false
     inlineHelpText = "A count of the unique Keys within the Import Format."
     label = "# Unique Key"
     summaryFilterItems = [

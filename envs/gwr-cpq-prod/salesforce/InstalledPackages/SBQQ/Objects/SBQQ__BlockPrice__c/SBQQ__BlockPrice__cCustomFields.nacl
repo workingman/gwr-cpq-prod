@@ -3,7 +3,6 @@ type salesforce.SBQQ__BlockPrice__c {
     apiName = "SBQQ__BlockPrice__c.SBQQ__EffectiveDate__c"
     deprecated = false
     description = "The date when this block price is effective.  The value is taken when a block price snapshot is taken at order creation time."
-    externalId = false
     inlineHelpText = "The date when this block price is effective.  The value is taken when a block price snapshot is taken at order creation time."
     label = "Effective Date"
     trackTrending = false
@@ -31,7 +30,6 @@ type salesforce.SBQQ__BlockPrice__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The order product this Block Price applies to when the order product is created."
-    externalId = false
     inlineHelpText = "The order product this Block Price applies to when the order product is created."
     label = "Order Product"
     referenceTo = [
@@ -49,7 +47,6 @@ type salesforce.SBQQ__BlockPrice__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The original product block price where this block price is snapshotted from."
-    externalId = false
     inlineHelpText = "The original product block price where this block price is snapshotted from."
     label = "Original Block Price"
     referenceTo = [
@@ -67,7 +64,6 @@ type salesforce.SBQQ__BlockPrice__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Price Book to which block pricing applies."
-    externalId = false
     inlineHelpText = "Select the Price Book that should receive block pricing when applicable."
     label = "Price Book"
     referenceTo = [
@@ -84,7 +80,6 @@ type salesforce.SBQQ__BlockPrice__c {
     apiName = "SBQQ__BlockPrice__c.SBQQ__Price__c"
     deprecated = false
     description = "Price for the parent product in specified quantity range."
-    externalId = false
     inlineHelpText = "Price for the parent product in specified quantity range."
     label = "Price"
     precision = 18
@@ -99,7 +94,6 @@ type salesforce.SBQQ__BlockPrice__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Product to which block pricing applies."
-    externalId = false
     inlineHelpText = "Select the product that should receive block pricing when applicable."
     label = "Product"
     referenceTo = [
@@ -117,7 +111,6 @@ type salesforce.SBQQ__BlockPrice__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The quote line where this block price applies to when an order product is created."
-    externalId = false
     inlineHelpText = "The quote line where this block price applies to when an order product is created."
     label = "Quote Line"
     referenceTo = [

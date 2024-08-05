@@ -3,7 +3,6 @@ type salesforce.SBQQ__UsageRateCardAssignment__c {
     apiName = "SBQQ__UsageRateCardAssignment__c.SBQQ__Product__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     inlineHelpText = "The product that this rate card assignment covers"
     label = "Product"
     referenceTo = [
@@ -19,7 +18,6 @@ type salesforce.SBQQ__UsageRateCardAssignment__c {
   salesforce.MasterDetail SBQQ__UsageRateCard__c {
     apiName = "SBQQ__UsageRateCardAssignment__c.SBQQ__UsageRateCard__c"
     deprecated = false
-    externalId = false
     inlineHelpText = "The usage rate card associated with this order product"
     label = "Usage Rate Card"
     referenceTo = [

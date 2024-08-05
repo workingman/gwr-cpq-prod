@@ -3,7 +3,6 @@ type salesforce.SBQQ__ProductAttributeSet__c {
     apiName = "SBQQ__ProductAttributeSet__c.SBQQ__AttributeSet__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     label = "Attribute Sets"
     referenceTo = [
       salesforce.SBQQ__AttributeSet__c,
@@ -78,7 +77,6 @@ type salesforce.SBQQ__ProductAttributeSet__c {
     apiName = "SBQQ__ProductAttributeSet__c.SBQQ__ProductOption__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     label = "Product Option"
     referenceTo = [
       salesforce.SBQQ__ProductOption__c,

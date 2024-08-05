@@ -3,7 +3,6 @@ type salesforce.SBQQ__LineColumn__c {
     apiName = "SBQQ__LineColumn__c.SBQQ__Alignment__c"
     deprecated = false
     description = "Determines how the column label and values are aligned."
-    externalId = false
     inlineHelpText = "Determines how the column label and values are aligned."
     label = "Alignment"
     trackTrending = false
@@ -50,7 +49,6 @@ type salesforce.SBQQ__LineColumn__c {
     apiName = "SBQQ__LineColumn__c.SBQQ__ColumnHeadingField__c"
     deprecated = false
     description = "The API name of the field on quote object that sources value for this column's heading."
-    externalId = false
     inlineHelpText = "The field that sources the dynamic heading for this column."
     label = "Column Heading Field"
     trackTrending = false
@@ -71,7 +69,6 @@ type salesforce.SBQQ__LineColumn__c {
     apiName = "SBQQ__LineColumn__c.SBQQ__ConditionalPrintField__c"
     deprecated = false
     description = "Field on quote object that controls whether this column prints on generated PDF document."
-    externalId = false
     inlineHelpText = "Field on quote object that controls whether this column prints on generated PDF document."
     label = "Conditional Print Field"
     trackTrending = false
@@ -114,7 +111,6 @@ type salesforce.SBQQ__LineColumn__c {
     defaultValue = false
     deprecated = false
     description = "The decimal scale for numbers in the column are set based on the largest precision in the column."
-    externalId = false
     inlineHelpText = "The decimal scale for numbers in the column are set based on the largest precision in the column."
     label = "Dynamic Number Scale"
     trackTrending = false
@@ -142,7 +138,6 @@ type salesforce.SBQQ__LineColumn__c {
     apiName = "SBQQ__LineColumn__c.SBQQ__FontFamily__c"
     deprecated = false
     description = "Font family that should be applied to text in this column."
-    externalId = false
     inlineHelpText = "Select font family to apply to this column. Leaving blank inherits form the template."
     label = "Font Family"
     trackTrending = false
@@ -273,7 +268,6 @@ type salesforce.SBQQ__LineColumn__c {
     apiName = "SBQQ__LineColumn__c.SBQQ__FontWeight__c"
     deprecated = false
     description = "Weight of font applied to this column."
-    externalId = false
     inlineHelpText = "Specify font weight for text in this column. Leaving blank defaults to \"Normal\"."
     label = "Font Weight"
     trackTrending = false
@@ -315,7 +309,6 @@ type salesforce.SBQQ__LineColumn__c {
     defaultValue = false
     deprecated = false
     description = "Hides value in this column if line item is a Product Option."
-    externalId = false
     inlineHelpText = "Hides value in this column if line item is a Product Option."
     label = "Hide On Product Options"
     trackTrending = false
@@ -360,7 +353,6 @@ type salesforce.SBQQ__LineColumn__c {
     defaultValue = false
     deprecated = false
     description = "Indicates whether this field should be rolled up into master line. Only applicable if Roll-Up Field is specified on the template."
-    externalId = false
     inlineHelpText = "Indicates whether this field should be rolled up into master line. Only applicable if Roll-Up Field is specified on the template."
     label = "Roll Up"
     trackTrending = false
@@ -373,7 +365,6 @@ type salesforce.SBQQ__LineColumn__c {
     deleteConstraint = "Restrict"
     deprecated = false
     description = "Section to which this line column applies. No section means the column applies to all sections."
-    externalId = false
     inlineHelpText = "Section to which this line column applies. No section means the column applies to all sections."
     label = "Section"
     lookupFilter = {
@@ -407,7 +398,6 @@ type salesforce.SBQQ__LineColumn__c {
     defaultValue = false
     deprecated = false
     description = "Flag that determines whether this field is printed on its own separate line."
-    externalId = false
     inlineHelpText = "Select the checkbox in order for this field to be printed on its own line. Use for long text fields such as product description."
     label = "Separate Line"
     trackTrending = false
@@ -434,7 +424,6 @@ type salesforce.SBQQ__LineColumn__c {
     apiName = "SBQQ__LineColumn__c.SBQQ__SummaryFontWeight__c"
     deprecated = false
     description = "Weight of font applied to text in the summary row."
-    externalId = false
     inlineHelpText = "Specify font weight for text in the summary row for this column Leaving blank defaults to font weight for the column overall."
     label = "Summary Font Weight"
     trackTrending = false
@@ -460,7 +449,6 @@ type salesforce.SBQQ__LineColumn__c {
     apiName = "SBQQ__LineColumn__c.SBQQ__SummaryFunction__c"
     deprecated = false
     description = "Function used to summarize values in this column."
-    externalId = false
     inlineHelpText = "Function used to summarize values in this column."
     label = "Summary Function"
     trackTrending = false
@@ -496,7 +484,6 @@ type salesforce.SBQQ__LineColumn__c {
     apiName = "SBQQ__LineColumn__c.SBQQ__SummaryLevel__c"
     deprecated = false
     description = "Level this column should be summarized at."
-    externalId = false
     inlineHelpText = "Set the level on which this column should be summarized."
     label = "Summary Level"
     trackTrending = false
@@ -552,7 +539,6 @@ type salesforce.SBQQ__LineColumn__c {
     apiName = "SBQQ__LineColumn__c.SBQQ__Template__c"
     deprecated = false
     description = "Template on which this field is to be displayed."
-    externalId = false
     inlineHelpText = "Template on which this field is to be displayed."
     label = "Template"
     referenceTo = [
@@ -604,7 +590,6 @@ type salesforce.SBQQ__LineColumn__c {
     defaultValue = false
     deprecated = false
     description = "Flag that determines whether width of this column is re-allocated to another column or discarded when the column is dynamically hidden."
-    externalId = false
     inlineHelpText = "Select the checkbox for conditionally displayed column to replace another column(s). Leaving this box unselected will re-allocate width of this column when it's hidden to another column therefore keeping table width unchanged."
     label = "Discard Width When Hidden"
     trackTrending = false

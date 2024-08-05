@@ -3,7 +3,6 @@ type salesforce.SBQQ__QuoteLinePricingGuidance__c {
     apiName = "SBQQ__QuoteLinePricingGuidance__c.SBQQ__Explanation__c"
     deprecated = false
     description = "An explanation of this pricing guidance and recommendations for discounts to provide. Sales reps can view this explanation with the pricing guidance in the quote line editor."
-    externalId = false
     inlineHelpText = "An explanation of this pricing guidance and recommendations for discounts to provide. Sales reps can view this explanation with the pricing guidance in the quote line editor."
     label = "Explanation"
     length = 131072
@@ -17,7 +16,6 @@ type salesforce.SBQQ__QuoteLinePricingGuidance__c {
     apiName = "SBQQ__QuoteLinePricingGuidance__c.SBQQ__Floor__c"
     deprecated = false
     description = "High discount for exception pricing based on past sales. If a sales rep wants to use this price, they must discount the quote line manually. This discount may require approvals based on your org's approval settings."
-    externalId = false
     inlineHelpText = "High discount for exception pricing based on past sales. If a sales rep wants to use this price, they must discount the quote line manually. This discount may require approvals based on your org's approval settings."
     label = "Floor"
     precision = 18
@@ -30,7 +28,6 @@ type salesforce.SBQQ__QuoteLinePricingGuidance__c {
   salesforce.FormulaCheckbox SBQQ__GuidanceUsed__c {
     apiName = "SBQQ__QuoteLinePricingGuidance__c.SBQQ__GuidanceUsed__c"
     deprecated = false
-    externalId = false
     formula = "IF(SBQQ__QuoteLine__r.SBQQ__Discount__c == SBQQ__QuoteLine__r.SBQQ__Guidance__c, true, false)"
     formulaTreatBlanksAs = "BlankAsZero"
     inlineHelpText = "A sales rep has accepted the target discount from this pricing guidance in the quote line editor."
@@ -51,7 +48,6 @@ type salesforce.SBQQ__QuoteLinePricingGuidance__c {
     defaultValue = false
     deprecated = false
     description = "A sales rep has viewed this pricing guidance in the quote line editor."
-    externalId = false
     label = "Viewed"
     trackTrending = false
     createable = true
@@ -62,7 +58,6 @@ type salesforce.SBQQ__QuoteLinePricingGuidance__c {
     apiName = "SBQQ__QuoteLinePricingGuidance__c.SBQQ__Norm__c"
     deprecated = false
     description = "Middle-range discount based on past sales. If a sales rep wants to use this price, they must discount the quote line manually. This discount may require approvals based on your org's approval settings."
-    externalId = false
     inlineHelpText = "Middle-range discount based on past sales. If a sales rep wants to use this price, they must discount the quote line manually. This discount may require approvals based on your org's approval settings."
     label = "Norm"
     precision = 18
@@ -76,7 +71,6 @@ type salesforce.SBQQ__QuoteLinePricingGuidance__c {
     apiName = "SBQQ__QuoteLinePricingGuidance__c.SBQQ__QuoteLine__c"
     deprecated = false
     description = "The quote line related to this pricing guidance."
-    externalId = false
     inlineHelpText = "The quote line related to this pricing guidance."
     label = "Quote Line"
     referenceTo = [
@@ -97,7 +91,6 @@ type salesforce.SBQQ__QuoteLinePricingGuidance__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The quote containing the quote line related to this pricing guidance."
-    externalId = false
     inlineHelpText = "The quote containing the quote line related to this pricing guidance."
     label = "Quote"
     referenceTo = [
@@ -114,7 +107,6 @@ type salesforce.SBQQ__QuoteLinePricingGuidance__c {
     apiName = "SBQQ__QuoteLinePricingGuidance__c.SBQQ__Target__c"
     deprecated = false
     description = "Ideal low-range discount based on past sales. If sales reps accept this pricing guidance, Salesforce CPQ applies a discount to reach this price."
-    externalId = false
     inlineHelpText = "Ideal low-range discount based on past sales. If sales reps accept this pricing guidance, Salesforce CPQ applies a discount to reach this price."
     label = "Target"
     precision = 18

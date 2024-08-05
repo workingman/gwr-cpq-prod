@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Pro_Audio_Boom_Microphone@ssuuusss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.01t8c00000MGiM6AAL
+  UnitPrice = 80
+  UseStandardPrice = false
+  _alias = "Standard Price Book Pro Audio Boom Microphone"
+}

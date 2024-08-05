@@ -2,7 +2,6 @@ type salesforce.SBQQ__QuoteLineConsumptionRate__c {
   salesforce.LongTextArea SBQQ__Description__c {
     apiName = "SBQQ__QuoteLineConsumptionRate__c.SBQQ__Description__c"
     deprecated = false
-    externalId = false
     label = "Description"
     length = 32000
     trackTrending = false
@@ -29,7 +28,6 @@ type salesforce.SBQQ__QuoteLineConsumptionRate__c {
   salesforce.Currency SBQQ__OriginalPrice__c {
     apiName = "SBQQ__QuoteLineConsumptionRate__c.SBQQ__OriginalPrice__c"
     deprecated = false
-    externalId = false
     label = "Original Price"
     precision = 18
     scale = 7
@@ -41,7 +39,6 @@ type salesforce.SBQQ__QuoteLineConsumptionRate__c {
   salesforce.Currency SBQQ__Price__c {
     apiName = "SBQQ__QuoteLineConsumptionRate__c.SBQQ__Price__c"
     deprecated = false
-    externalId = false
     inlineHelpText = "The price for usage that falls within this consumption rate's bounds."
     label = "Price"
     precision = 18
@@ -55,7 +52,6 @@ type salesforce.SBQQ__QuoteLineConsumptionRate__c {
   salesforce.Picklist SBQQ__PricingMethod__c {
     apiName = "SBQQ__QuoteLineConsumptionRate__c.SBQQ__PricingMethod__c"
     deprecated = false
-    externalId = false
     label = "Pricing Method"
     _required = true
     trackTrending = false
@@ -95,7 +91,6 @@ type salesforce.SBQQ__QuoteLineConsumptionRate__c {
   salesforce.MasterDetail SBQQ__QuoteLineConsumptionSchedule__c {
     apiName = "SBQQ__QuoteLineConsumptionRate__c.SBQQ__QuoteLineConsumptionSchedule__c"
     deprecated = false
-    externalId = false
     inlineHelpText = "This rate is a part of of this schedule."
     label = "Quote Line Consumption Schedule"
     referenceTo = [

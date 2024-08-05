@@ -4,7 +4,6 @@ type salesforce.SBQQ__SubscribedQuoteLine__c {
     defaultValue = false
     deprecated = false
     description = "Indicates whether the subscribed asset record is active."
-    externalId = false
     inlineHelpText = "Indicates whether the subscribed asset record is active."
     label = "Active"
     trackTrending = false
@@ -32,7 +31,6 @@ type salesforce.SBQQ__SubscribedQuoteLine__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Asset quote line being covered by a subscription quote line."
-    externalId = false
     inlineHelpText = "Asset quote line being covered by a subscription quote line."
     label = "Asset Quote Line"
     referenceTo = [
@@ -50,7 +48,6 @@ type salesforce.SBQQ__SubscribedQuoteLine__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Identifies the quote for the quoteLines."
-    externalId = false
     inlineHelpText = "Identifies the quote for the quoteLines."
     label = "Quote"
     referenceTo = [
@@ -67,7 +64,6 @@ type salesforce.SBQQ__SubscribedQuoteLine__c {
     apiName = "SBQQ__SubscribedQuoteLine__c.SBQQ__SubscriptionBasePrice__c"
     deprecated = false
     description = "Unit price used in Percent of Total calculation."
-    externalId = false
     inlineHelpText = "Unit price used in Percent of Total calculation."
     label = "Subscription Base Price"
     precision = 14
@@ -81,7 +77,6 @@ type salesforce.SBQQ__SubscribedQuoteLine__c {
     apiName = "SBQQ__SubscribedQuoteLine__c.SBQQ__SubscriptionNetTotal__c"
     deprecated = false
     description = "Net total of the Subscription Quote Line."
-    externalId = false
     inlineHelpText = "Net total of the Subscription Quote Line."
     label = "Subscription Net Total"
     precision = 14
@@ -96,7 +91,6 @@ type salesforce.SBQQ__SubscribedQuoteLine__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Subscription quote line that covers the asset quote line."
-    externalId = false
     inlineHelpText = "Subscription quote line that covers the asset quote line."
     label = "Subscription Quote Line"
     referenceTo = [

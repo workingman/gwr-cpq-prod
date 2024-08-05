@@ -2,7 +2,6 @@ type salesforce.SBQQ__FavoriteShare__c {
   salesforce.MasterDetail SBQQ__Favorite__c {
     apiName = "SBQQ__FavoriteShare__c.SBQQ__Favorite__c"
     deprecated = false
-    externalId = false
     label = "Favorite"
     referenceTo = [
       salesforce.SBQQ__Favorite__c,
@@ -21,7 +20,6 @@ type salesforce.SBQQ__FavoriteShare__c {
     apiName = "SBQQ__FavoriteShare__c.SBQQ__User__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     label = "User"
     referenceTo = [
       salesforce.User,

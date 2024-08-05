@@ -4,7 +4,6 @@ type salesforce.SBQQ__SubscribedAsset__c {
     defaultValue = false
     deprecated = false
     description = "Indicates whether the subscribed asset record is active."
-    externalId = false
     inlineHelpText = "Indicates whether the subscribed asset record is active."
     label = "Active"
     trackTrending = false
@@ -38,7 +37,6 @@ type salesforce.SBQQ__SubscribedAsset__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Asset being covered by a subscription."
-    externalId = false
     inlineHelpText = "Asset being covered by a subscription."
     label = "Asset"
     referenceTo = [
@@ -76,7 +74,6 @@ type salesforce.SBQQ__SubscribedAsset__c {
     apiName = "SBQQ__SubscribedAsset__c.SBQQ__Subscription__c"
     deprecated = false
     description = "Subscription that covers the asset."
-    externalId = false
     inlineHelpText = "Subscription that covers the asset."
     label = "Subscription"
     referenceTo = [
@@ -95,7 +92,6 @@ type salesforce.SBQQ__SubscribedAsset__c {
   salesforce.FormulaDate SBQQ__UsageEndDate__c {
     apiName = "SBQQ__SubscribedAsset__c.SBQQ__UsageEndDate__c"
     deprecated = false
-    externalId = false
     formula = "SBQQ__Asset__r.UsageEndDate"
     formulaTreatBlanksAs = "BlankAsZero"
     label = "Asset Usage End Date"

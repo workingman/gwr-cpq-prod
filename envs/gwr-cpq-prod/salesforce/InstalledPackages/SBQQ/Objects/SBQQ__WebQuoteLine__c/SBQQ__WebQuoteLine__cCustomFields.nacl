@@ -3,7 +3,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__AdditionalDiscountAmount__c"
     deprecated = false
     description = "Additional customer discount extended on this line item in terms of absolute amount."
-    externalId = false
     inlineHelpText = "Additional customer discount extended on this line item in the form of an absolute amount."
     label = "Additional Disc. (Amt)"
     precision = 14
@@ -17,7 +16,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__AdditionalDiscount__c"
     deprecated = false
     description = "Total additional discount extends on this line item. Additional discount is defined as discount extended on top of volume discount or negotiated prices."
-    externalId = false
     formula = "(SBQQ__RegularPrice__c - SBQQ__CustomerPrice__c) *  SBQQ__EffectiveQuantity__c"
     formulaTreatBlanksAs = "BlankAsZero"
     inlineHelpText = "Total additional discounts extended to this line item. Additional discount is defined as discount extended on top of volume discount or negotiated prices."
@@ -76,7 +74,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Block Price record used to price this line item."
-    externalId = false
     inlineHelpText = "Block Price record used to price this line item."
     label = "Block Price"
     referenceTo = [
@@ -94,7 +91,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     defaultValue = false
     deprecated = false
     description = "Indicates this line item represents a package -- meaning it includes other line items in this quote."
-    externalId = false
     inlineHelpText = "Indicates this line item represents a package -- meaning it includes other line items in this quote."
     label = "Package"
     trackTrending = false
@@ -122,7 +118,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     defaultValue = false
     deprecated = false
     description = "Indicates the product on this line item is bundled (included) by another product in this quote. Bundled lines items have a zero price and do not allow price or quantity to be edited."
-    externalId = false
     inlineHelpText = "Indicates the product on this line item is bundled (included) by another product in this quote. Bundled lines items have a zero price and do not allow price or quantity to be edited."
     label = "Bundled"
     trackTrending = false
@@ -134,7 +129,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__ComponentCost__c"
     deprecated = false
     description = "Total cost of components in this package."
-    externalId = false
     inlineHelpText = "Total cost of components in this package."
     label = "Component Cost"
     precision = 16
@@ -149,7 +143,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     defaultValue = false
     deprecated = false
     description = "Fixes additional discount for this component to the parent package discount."
-    externalId = false
     inlineHelpText = "Fixes additional discount for this component to the parent package discount."
     label = "Component Discounted By Package"
     trackTrending = false
@@ -161,7 +154,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__ComponentListTotal__c"
     deprecated = false
     description = "Total list amount of components in this configuration. This field is only populated if this line item references a configurable product."
-    externalId = false
     inlineHelpText = "Total list amount of components in this configuration. This field is only populated if this line item references a configurable product."
     label = "Component List Total"
     precision = 16
@@ -175,7 +167,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__ComponentSubscriptionScope__c"
     deprecated = false
     description = "Subscription scope set at the component level. This field overrides the subscription scope copied from the product."
-    externalId = false
     inlineHelpText = "Subscription scope set at the component level. This field overrides the subscription scope copied from the product."
     label = "Component Subscription Scope"
     trackTrending = false
@@ -206,7 +197,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__ComponentTotal__c"
     deprecated = false
     description = "Sum total amount of components in this configuration. This field is only populated if this line item references a configurable product."
-    externalId = false
     inlineHelpText = "Sum total amount of components in this configuration. This field is only populated if this line item references a configurable product."
     label = "Component Net Total"
     precision = 16
@@ -221,7 +211,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     defaultValue = false
     deprecated = false
     description = "Fixes uplift for this component to the parent package uplift. Uplift only applies to multi-segmented products."
-    externalId = false
     inlineHelpText = "Fixes uplift for this component to the parent package uplift. Uplift only applies to multi-segmented products."
     label = "Component Uplifted By Package"
     trackTrending = false
@@ -254,7 +243,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__CompoundDiscountRate__c"
     deprecated = false
     description = "Discount rate compounded by quantity (historic)."
-    externalId = false
     inlineHelpText = "Discount rate compounded by quantity (historic)."
     label = "Compound Discount (%)"
     precision = 8
@@ -269,7 +257,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     defaultValue = false
     deprecated = false
     description = "Flag that marks this quote line as requiring configuration. Can be used by custom code to request this product be re-configured."
-    externalId = false
     inlineHelpText = "Select the checkbox if the quote line requires configuration. Can be used by custom code to request this product be re-configured."
     label = "Configuration Required"
     trackTrending = false
@@ -282,7 +269,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Contracted price if the product has negotiated pricing for the opportunity's account."
-    externalId = false
     inlineHelpText = "Contracted price if the product has negotiated pricing for the opportunity's account."
     label = "Contracted Price"
     referenceTo = [
@@ -300,7 +286,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     defaultValue = false
     deprecated = false
     description = "Specifies whether cost can be edited on this line item."
-    externalId = false
     inlineHelpText = "Specifies whether cost can be edited on this line item."
     label = "Cost Editable"
     trackTrending = false
@@ -313,7 +298,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Cost record used to cost this line item."
-    externalId = false
     inlineHelpText = "Cost record used to cost this line item."
     label = "Cost"
     referenceTo = [
@@ -330,7 +314,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__CustomerPrice__c"
     deprecated = false
     description = "Customer unit price for the product quoted by this line item. This is the Net Unit Price excluding any partner discounts."
-    externalId = false
     inlineHelpText = "Customer unit price for the product quoted by this line item. This is the Net Unit Price excluding any partner discounts."
     label = "Customer Unit Price"
     precision = 14
@@ -344,7 +327,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__CustomerTotal__c"
     deprecated = false
     description = "Customer total price for this quote line item. This is the Net Total excluding any partner discounts."
-    externalId = false
     formula = "IF(SBQQ__Renewal__c, 0, SBQQ__CustomerPrice__c * SBQQ__EffectiveQuantity__c)"
     inlineHelpText = "Customer total price for this quote line item. This is the Net Total excluding any partner discounts."
     label = "Customer Total"
@@ -386,7 +368,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__Description__c"
     deprecated = false
     description = "Description for this line item."
-    externalId = false
     inlineHelpText = "Description for this line item."
     label = "Description"
     length = 32000
@@ -401,7 +382,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "For MDQ products, this allows each segment to be priced independently."
-    externalId = false
     inlineHelpText = "For MDQ products, each segment will be priced independently."
     label = "Price Dimension"
     referenceTo = [
@@ -418,7 +398,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__DiscountScheduleType__c"
     deprecated = false
     description = "Discount schedule type. Must be a stored value because it's used in formula fields that are rolled up."
-    externalId = false
     inlineHelpText = "Discount schedule type. Copied from Type field in associated discount schedule."
     label = "Discount Schedule Type"
     trackTrending = false
@@ -445,7 +424,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Discount schedule to be used in computing volume unit price. This field is copied from the corresponding product."
-    externalId = false
     inlineHelpText = "Discount schedule to be used in computing volume unit price. This field is copied from the corresponding product."
     label = "Discount Schedule"
     referenceTo = [
@@ -463,7 +441,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Discount tier used by this line item. This field is only populated if a volume discounted was applied and discount schedule is of type \"Range\"."
-    externalId = false
     inlineHelpText = "Discount tier used by this line item. This field is only populated if a volume discounted was applied and discount schedule is of type \"Range\"."
     label = "Discount Tier"
     referenceTo = [
@@ -480,7 +457,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__Discount__c"
     deprecated = false
     description = "Additional customer discount extended for this line item expressed in terms of percentage."
-    externalId = false
     inlineHelpText = "Additional customer discount extended to this line item expressed in form of a percentage."
     label = "Additional Disc. (%)"
     precision = 11
@@ -494,7 +470,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__DistributorDiscount__c"
     deprecated = false
     description = "Distributor discount applied to this line."
-    externalId = false
     inlineHelpText = "Distributor discount applied to this line."
     label = "Distributor Discount"
     precision = 5
@@ -508,7 +483,6 @@ type salesforce.SBQQ__WebQuoteLine__c {
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__EffectiveEndDate__c"
     deprecated = false
     description = "Effective end date for this subscription."
-    externalId = false
     formula = '''
 IF(ISBLANK(SBQQ__EndDate__c),
   SBQQ__Quote__r.SBQQ__EndDate__c,
@@ -578,7 +552,6 @@ CASE(SBQQ__PricingMethod__c,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__EffectiveStartDate__c"
     deprecated = false
     description = "Effective start date for this subscription."
-    externalId = false
     formula = '''
 IF(ISBLANK(SBQQ__StartDate__c),
   SBQQ__Quote__r.SBQQ__StartDate__c,
@@ -606,7 +579,6 @@ IF(ISBLANK(SBQQ__StartDate__c),
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__EndDate__c"
     deprecated = false
     description = "Date the service represented by this line item will end (only applies if product is a subscription)."
-    externalId = false
     inlineHelpText = "Date the service represented by this line item will end (only applies if product is a subscription)."
     label = "End Date"
     trackTrending = false
@@ -619,7 +591,6 @@ IF(ISBLANK(SBQQ__StartDate__c),
     defaultValue = false
     deprecated = false
     description = "Indicates whether customer already owns this product. This is typically used for products with options during add-on quoting. The product is on the quote solely to drive the Configurator."
-    externalId = false
     inlineHelpText = "Select the checkbox if the customer already owns this product. This is typically used for products with options during add-on quoting. The product is on the quote solely to drive the Configurator."
     label = "Existing"
     trackTrending = false
@@ -631,7 +602,6 @@ IF(ISBLANK(SBQQ__StartDate__c),
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__GrossProfit__c"
     deprecated = false
     description = "Gross profit amount on this line item."
-    externalId = false
     inlineHelpText = "Gross profit amount on this line item."
     label = "Gross Profit"
     precision = 16
@@ -646,7 +616,6 @@ IF(ISBLANK(SBQQ__StartDate__c),
     defaultValue = false
     deprecated = false
     description = "Hides this line item from generated PDF."
-    externalId = false
     inlineHelpText = "Select the checkbox to hide this line item from generated PDF."
     label = "Hidden"
     trackTrending = false
@@ -659,7 +628,6 @@ IF(ISBLANK(SBQQ__StartDate__c),
     defaultValue = false
     deprecated = false
     description = "Flag set internally by the application logic when a line is saved to the database that's incomplete. This may happen when price rules are evaluated. Test this field in validation rules to avoid them from firing prematurely. Do NOT add to page layout or otherwise update."
-    externalId = false
     inlineHelpText = "Select the checbox to apply internal application logic, which controls when rules, such as validation rules, trigger. Do NOT add to page layout or otherwise update."
     label = "Incomplete"
     trackTrending = false
@@ -671,7 +639,6 @@ IF(ISBLANK(SBQQ__StartDate__c),
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__ListPrice__c"
     deprecated = false
     description = "List unit price for the product quoted by this line item."
-    externalId = false
     inlineHelpText = "List unit price for the product quoted by this line item."
     label = "List Unit Price"
     precision = 14
@@ -685,7 +652,6 @@ IF(ISBLANK(SBQQ__StartDate__c),
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__ListTotal__c"
     deprecated = false
     description = "List total price for this quote line item."
-    externalId = false
     formula = '''
 IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
   CASE(SBQQ__PricingMethod__c,
@@ -737,7 +703,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__MarkupAmount__c"
     deprecated = false
     description = "Markup on this line item in the form of an absolute amount."
-    externalId = false
     inlineHelpText = "Markup on this line item in the form of an absolute amount."
     label = "Markup (Amt)"
     precision = 16
@@ -751,7 +716,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__MarkupRate__c"
     deprecated = false
     description = "Markup on this line item in the form of a percentage."
-    externalId = false
     inlineHelpText = "Markup on this line item in the form of a percentage."
     label = "Markup (%)"
     precision = 8
@@ -765,7 +729,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__Markup__c"
     deprecated = false
     description = "Markup amount on this item. This value is automatically calculated by applying markup rate or absolute amount, whichever is specified."
-    externalId = false
     formula = "IF(NOT(ISBLANK(SBQQ__MarkupRate__c)), SBQQ__UnitCost__c * SBQQ__MarkupRate__c, SBQQ__UnitCost__c + SBQQ__MarkupAmount__c)"
     formulaTreatBlanksAs = "BlankAsZero"
     inlineHelpText = "Markup amount on this item. This value is automatically calculated by applying markup rate or absolute amount, whichever is specified."
@@ -793,7 +756,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__MaximumPrice__c"
     deprecated = false
     description = "Maximum unit price for this product. Used to enforce price ceiling for products with dynamically calculated prices."
-    externalId = false
     inlineHelpText = "Maximum unit price for this product. Used to enforce price ceiling for products with dynamically calculated prices."
     label = "Maximum Unit Price"
     precision = 16
@@ -807,7 +769,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__MinimumPrice__c"
     deprecated = false
     description = "Minimum unit price for this product. Used to enforce price floor for products with dynamically calculated prices."
-    externalId = false
     inlineHelpText = "Minimum unit price for this product. Used to enforce price floor for products with dynamically calculated prices."
     label = "Minimum Unit Price"
     precision = 16
@@ -821,7 +782,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__NetPrice__c"
     deprecated = false
     description = "List unit price for the product quoted by this line item."
-    externalId = false
     inlineHelpText = "List unit price for the product quoted by this line item."
     label = "Net Unit Price"
     precision = 14
@@ -835,7 +795,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__NetTotal__c"
     deprecated = false
     description = "Net total price for this quote line item."
-    externalId = false
     formula = "IF(SBQQ__Renewal__c, 0, SBQQ__NetPrice__c * SBQQ__EffectiveQuantity__c)"
     inlineHelpText = "Net total price for this quote line item."
     label = "Net Total"
@@ -863,7 +822,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     defaultValue = false
     deprecated = false
     description = "Indicates whether this line item is non-discountable."
-    externalId = false
     inlineHelpText = "Select the checkbox to indicate if discounts are allowed on this line item."
     label = "Non Discountable"
     trackTrending = false
@@ -876,7 +834,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     defaultValue = false
     deprecated = false
     description = "Indicates that this line item is non-discountable for partners."
-    externalId = false
     inlineHelpText = "Select the checkbox to make this line item non-discountable for partners."
     label = "Non Partner Discountable"
     trackTrending = false
@@ -903,7 +860,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__OptionDiscountAmount__c"
     deprecated = false
     description = "Discount extended on this product because it's part of a package."
-    externalId = false
     inlineHelpText = "Discount extended on this product because it's part of a package."
     label = "Option Discount (Amt)"
     precision = 12
@@ -917,7 +873,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__OptionDiscount__c"
     deprecated = false
     description = "If this line is for an optional SKU, this field captures any discount given to the package and extended to the option."
-    externalId = false
     inlineHelpText = "If this line is for an optional SKU, this field captures any discount given to the package and extended to the option."
     label = "Option Discount (%)"
     precision = 5
@@ -946,7 +901,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__OptionType__c"
     deprecated = false
     description = "Option type copied from related Product Option. Determines how quantity is calculated."
-    externalId = false
     inlineHelpText = "Option type copied from related Product Option. Determines how quantity is calculated."
     label = "Option Type"
     trackTrending = false
@@ -973,7 +927,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     defaultValue = false
     deprecated = false
     description = "Marks this line as optional. Optional line items don't contribute to quote totals and are not transferred to the Opportunity."
-    externalId = false
     inlineHelpText = "Select the checkbox to make this line optional. Optional line items don't contribute to quote totals and are not transferred to the Opportunity."
     label = "Optional"
     trackTrending = false
@@ -985,7 +938,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__PackageCost__c"
     deprecated = false
     description = "Total cost for this package including the cost of its components."
-    externalId = false
     formula = "SBQQ__ComponentCost__c + (SBQQ__UnitCost__c * SBQQ__Quantity__c)"
     formulaTreatBlanksAs = "BlankAsZero"
     inlineHelpText = "Total cost for this package including the cost of its components."
@@ -1013,7 +965,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__PackageListTotal__c"
     deprecated = false
     description = "Total list price of this package including its components."
-    externalId = false
     formula = "SBQQ__ComponentListTotal__c +  SBQQ__ListTotal__c"
     formulaTreatBlanksAs = "BlankAsZero"
     inlineHelpText = "Total list price of this package including its components."
@@ -1053,7 +1004,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__PackageTotal__c"
     deprecated = false
     description = "Total price of this package including its components."
-    externalId = false
     formula = "SBQQ__ComponentTotal__c + SBQQ__NetTotal__c"
     formulaTreatBlanksAs = "BlankAsZero"
     inlineHelpText = "Total price of this package including its components."
@@ -1078,7 +1028,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__PartnerDiscount__c"
     deprecated = false
     description = "Partner discounts are applied after all automatic and discretionary discounts. The partner discount is taken into account in the Partner Price."
-    externalId = false
     inlineHelpText = "Partner discounts are applied after all automatic and discretionary discounts. The partner discount is taken into account in the Partner Price."
     label = "Partner Discount"
     precision = 5
@@ -1092,7 +1041,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__PartnerPrice__c"
     deprecated = false
     description = "Partner unit price. Price after partner discount but before distributor discount."
-    externalId = false
     inlineHelpText = "Partner unit price. Price after partner discount but before distributor discount."
     label = "Partner Unit Price"
     precision = 14
@@ -1105,7 +1053,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
   salesforce.FormulaCurrency SBQQ__PartnerTotal__c {
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__PartnerTotal__c"
     deprecated = false
-    externalId = false
     formula = "IF(SBQQ__Renewal__c, 0, SBQQ__PartnerPrice__c * SBQQ__EffectiveQuantity__c)"
     formulaTreatBlanksAs = "BlankAsZero"
     inlineHelpText = "Partner total"
@@ -1134,7 +1081,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     defaultValue = false
     deprecated = false
     description = "Flag indicating if this line item's price is editable."
-    externalId = false
     inlineHelpText = "Select the checkbox to indicate that this line item's price is editable."
     label = "Price Editable"
     trackTrending = false
@@ -1147,7 +1093,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     defaultValue = false
     deprecated = false
     description = "Specifies whether pricing method can be edited on this line item."
-    externalId = false
     inlineHelpText = "Select the checkbox to specify that the pricing method can be edited on this line item."
     label = "Pricing Method Editable"
     trackTrending = false
@@ -1159,7 +1104,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__PricingMethod__c"
     deprecated = false
     description = "Determines how the price for this line item is set. List means it's calculated by subtracting discount from list price. Cost means it's calculated by adding markup to cost."
-    externalId = false
     inlineHelpText = "Indicates how the price for this line item is calculated: List, by subtracting discount from list price or Cost, by adding markup to cost."
     label = "Pricing Method"
     trackTrending = false
@@ -1274,7 +1218,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Product option that generated this line (if any)."
-    externalId = false
     inlineHelpText = "Product option that generated this line (if any)."
     label = "Product Option"
     referenceTo = [
@@ -1292,7 +1235,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Product quoted by this line item."
-    externalId = false
     inlineHelpText = "Product quoted by this line item."
     label = "Product"
     referenceTo = [
@@ -1324,7 +1266,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__ProratedListPrice__c"
     deprecated = false
     description = "Prorated list unit price."
-    externalId = false
     inlineHelpText = "Prorated list unit price."
     label = "Prorated List Price"
     precision = 18
@@ -1338,7 +1279,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__ProratedPrice__c"
     deprecated = false
     description = "Prorated price for the product quoted by this line item. This price will only differ from Special Price if the product is a subscription and the line item is being prorated."
-    externalId = false
     inlineHelpText = "Prorated price for the product quoted by this line item. This price will only differ from Special Price if the product is a subscription and the line item is being prorated."
     label = "Prorated Unit Price"
     precision = 14
@@ -1367,7 +1307,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__Quote__c"
     deprecated = false
     description = "Parent quote record."
-    externalId = false
     inlineHelpText = "Parent quote record."
     label = "Quote"
     referenceTo = [
@@ -1387,7 +1326,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__RegularPrice__c"
     deprecated = false
     description = "Unit price before additional discounts are applied."
-    externalId = false
     inlineHelpText = "Unit price before additional discounts are applied."
     label = "Regular Unit Price"
     precision = 14
@@ -1400,7 +1338,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
   salesforce.FormulaCurrency SBQQ__RegularTotal__c {
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__RegularTotal__c"
     deprecated = false
-    externalId = false
     formula = "IF(SBQQ__Renewal__c, 0, SBQQ__RegularPrice__c * SBQQ__EffectiveQuantity__c)"
     formulaTreatBlanksAs = "BlankAsZero"
     label = "Regular Total"
@@ -1428,7 +1365,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     defaultValue = false
     deprecated = false
     description = "Indicates this line item represents a product being renewed. Only non-subscription products for quote type \"Renewal\" will have this field set to true. Under normal circumstances this field should not be modified via UI."
-    externalId = false
     inlineHelpText = "Indicates this line item represents a product being renewed. This field should not be modified."
     label = "Renewal"
     trackTrending = false
@@ -1441,7 +1377,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Asset being renewed if this line item represents a product renewal."
-    externalId = false
     inlineHelpText = "Asset being renewed if this line item represents a product renewal."
     label = "Renewed Asset"
     referenceTo = [
@@ -1459,7 +1394,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     deleteConstraint = "Restrict"
     deprecated = false
     description = "Subscription being renewed by this quote line."
-    externalId = false
     inlineHelpText = "Subscription being renewed by this quote line."
     label = "Renewed Subscription"
     referenceTo = [
@@ -1477,7 +1411,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Links this line to another line in the same quote whose product requires this line's product."
-    externalId = false
     inlineHelpText = "Indicates which other product on this quote requires it."
     label = "Required By"
     referenceTo = [
@@ -1540,7 +1473,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Source of cloned quote line."
-    externalId = false
     inlineHelpText = "Source quote line item of cloned quote line item, if any."
     label = "Source"
     referenceTo = [
@@ -1572,7 +1504,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__SpecialPriceType__c"
     deprecated = false
     description = "Stores the type of special price offered on this line item. Null value indicates there is no special pricing. Under normal circumstances this field should not be modified via UI."
-    externalId = false
     inlineHelpText = "Type of special pricing extended."
     label = "Special Price Type"
     trackTrending = false
@@ -1608,7 +1539,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__SpecialPrice__c"
     deprecated = false
     description = "Special (volume-discounted or contracted) unit price for the product being quoted by this line item."
-    externalId = false
     inlineHelpText = "Special unit price for this line item, such as volume discount or contracted price."
     label = "Special Price"
     precision = 14
@@ -1622,7 +1552,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__StartDate__c"
     deprecated = false
     description = "Date the service represented by this line item will begin (only applies if product is a subscription)."
-    externalId = false
     inlineHelpText = "The date the subscription for which this product begins."
     label = "Start Date"
     trackTrending = false
@@ -1634,7 +1563,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__SubscribedAssetIds__c"
     deprecated = false
     description = "Comma separated list of asset IDs covered by this subscription line. Only applicable to renewal quotes."
-    externalId = false
     inlineHelpText = "List of assets covered by this subscription line item. Do not update unless instructed."
     label = "Subscribed Asset IDs"
     length = 19000
@@ -1663,7 +1591,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__SubscriptionCategory__c"
     deprecated = false
     description = "Category defined on the product to limit percent-of-total calculations to certain products."
-    externalId = false
     inlineHelpText = "Category defined on the product to limit percent-of-total calculations to certain products."
     label = "Subscription Category"
     trackTrending = false
@@ -1689,7 +1616,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__SubscriptionPercent__c"
     deprecated = false
     description = "Percent of non-subscription product total to be used as the price of this subscription."
-    externalId = false
     inlineHelpText = "Percent of non-subscription product total to be used when calculating this line item price."
     label = "Subscription Percent"
     precision = 7
@@ -1703,7 +1629,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__SubscriptionPricing__c"
     deprecated = false
     description = "Method of calculating the subscription price. A blank value indicates that the line item isn't a subscription product."
-    externalId = false
     inlineHelpText = "Determines how the subscription price is calculated. If this is blank, the line items is not a subscription product."
     label = "Subscription Pricing"
     trackTrending = false
@@ -1729,7 +1654,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__SubscriptionScope__c"
     deprecated = false
     description = "Determines how dynamic subscription prices are calculated. If scope is set to \"Quote\" any non-subscription product is used in calculating every dynamic subscription. If scope is set to \"Group\" only products in the same group as the dynamic subscription are used."
-    externalId = false
     inlineHelpText = "Determines how dynamic subscription prices are calculated: Quote uses all the non-subscription products in the quote while Group uses only non-subscription products in the same group."
     label = "Subscription Scope"
     trackTrending = false
@@ -1755,7 +1679,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__SubscriptionTargetPrice__c"
     deprecated = false
     description = "Price of the subscription target product on which maintenance should calculate."
-    externalId = false
     inlineHelpText = "Price of the subscription target product on which maintenance should calculate."
     label = "Subscription Target Price"
     precision = 14
@@ -1785,7 +1708,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     defaultValue = false
     deprecated = false
     description = "Indicates if the line item is taxable."
-    externalId = false
     inlineHelpText = "Select the checkbox to indicate that the line item is taxable."
     label = "Taxable"
     trackTrending = false
@@ -1798,7 +1720,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Schedule for discounts based on subscription term."
-    externalId = false
     inlineHelpText = "Schedule for discounts based on subscription term."
     label = "Term Discount Schedule"
     referenceTo = [
@@ -1816,7 +1737,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Tier within the term discount schedule used to discount this line item."
-    externalId = false
     inlineHelpText = "Tier within the term discount schedule used to discount this line item."
     label = "Term Discount Tier"
     referenceTo = [
@@ -1833,7 +1753,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__TermDiscount__c"
     deprecated = false
     description = "Discount calculated by applying subscription term against term discount schedule."
-    externalId = false
     inlineHelpText = "Discount calculated by applying subscription term against term discount schedule."
     label = "Term Discount"
     precision = 14
@@ -1847,7 +1766,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__TotalDiscountAmount__c"
     deprecated = false
     description = "Total discount for this line item including volume discount, contracted discount, and additional discount."
-    externalId = false
     formula = "(SBQQ__ProratedListPrice__c - SBQQ__CustomerPrice__c) * SBQQ__EffectiveQuantity__c"
     formulaTreatBlanksAs = "BlankAsZero"
     inlineHelpText = "Total discount for this line item including volume discount, contracted discount, and additional discount."
@@ -1875,7 +1793,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__UnitCost__c"
     deprecated = false
     description = "Cost for one unit of product quoted on this line item."
-    externalId = false
     inlineHelpText = "Cost for one unit of product quoted on this line item."
     label = "Unit Cost"
     precision = 16
@@ -1890,7 +1807,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Asset being upgraded by this quote line. Only populated if this quote line represents an upgrade."
-    externalId = false
     inlineHelpText = "Asset upgraded by this quote line. When the quote is contracted this asset's Usage End Date will be populated to indicate that it's retired."
     label = "Upgraded Asset"
     referenceTo = [
@@ -1908,7 +1824,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Subscription being upgraded by this quote line."
-    externalId = false
     inlineHelpText = "Subscription upgraded by this quote line. When the quote is contracted this subscription's Terminated Date field will be populated."
     label = "Upgraded Subscription"
     referenceTo = [
@@ -1925,7 +1840,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__UpliftAmount__c"
     deprecated = false
     description = "This is measured as a currency amount. This is a system-calculated field and Uplift can only be applied in %."
-    externalId = false
     inlineHelpText = "This is measured as a currency amount."
     label = "Uplift (Amt)"
     precision = 12
@@ -1940,7 +1854,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     defaultValueFormula = "0"
     deprecated = false
     description = "This is measured as a percent."
-    externalId = false
     inlineHelpText = "Enter this as a percent."
     label = "Uplift"
     precision = 4
@@ -1954,7 +1867,6 @@ IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
     apiName = "SBQQ__WebQuoteLine__c.SBQQ__VolumeDiscount__c"
     deprecated = false
     description = "Volume discount in amount of Opportunity's currency applied to this line item."
-    externalId = false
     inlineHelpText = "Volume discount amount applied to this line item."
     label = "Volume Discount"
     precision = 14

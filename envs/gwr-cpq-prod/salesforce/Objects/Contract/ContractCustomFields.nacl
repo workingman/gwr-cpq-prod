@@ -60,7 +60,6 @@ type salesforce.Contract {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Owner of the original opportunity."
-    externalId = false
     inlineHelpText = "Owner of the original opportunity."
     label = "Amendment Owner"
     referenceTo = [
@@ -89,7 +88,6 @@ type salesforce.Contract {
     apiName = "Contract.SBQQ__AmendmentRenewalBehavior__c"
     deprecated = false
     description = "The basis for which a Renewal Start Date and Amendment End Date are calculated."
-    externalId = false
     inlineHelpText = "The basis for which a Renewal Start Date and Amendment End Date are calculated."
     label = "Amendment & Renewal Behavior"
     valueSet = [
@@ -114,7 +112,6 @@ type salesforce.Contract {
     apiName = "Contract.SBQQ__AmendmentStartDate__c"
     deprecated = false
     description = "Start Date of your Amendment. If blank, Amendment will start on today's date."
-    externalId = false
     inlineHelpText = "Start Date of your Amendment. If blank, Amendment will start on today's date."
     label = "Amendment Start Date"
     createable = true
@@ -126,7 +123,6 @@ type salesforce.Contract {
     defaultValue = true
     deprecated = false
     description = "Select to include contact roles from the original opportunity in the renewal opportunity."
-    externalId = false
     inlineHelpText = "Select to include contact roles from the original opportunity in the renewal opportunity."
     label = "Default Renewal Contact Roles"
     createable = true
@@ -138,7 +134,6 @@ type salesforce.Contract {
     defaultValue = true
     deprecated = false
     description = "Select to include the original opportunity partners in renewal opportunity."
-    externalId = false
     inlineHelpText = "Select to include the original opportunity partners in renewal opportunity."
     label = "Default Renewal Partners"
     createable = true
@@ -150,7 +145,6 @@ type salesforce.Contract {
     defaultValue = false
     deprecated = false
     description = "If unchecked, the Amendment Quote End Date will be set according to the Amendment & Renewal Behavior setting. If checked, then no End Date will be set."
-    externalId = false
     inlineHelpText = "If unchecked, the Amendment Quote End Date will be set according to the Amendment & Renewal Behavior setting. If checked, then no End Date will be set."
     label = "Disable Amendment Co-Term"
     createable = true
@@ -162,7 +156,6 @@ type salesforce.Contract {
     defaultValue = false
     deprecated = false
     description = "Indicates whether the contract is evergreen."
-    externalId = false
     inlineHelpText = "Indicates whether the contract is evergreen."
     label = "Evergreen"
     createable = true
@@ -173,7 +166,6 @@ type salesforce.Contract {
     apiName = "Contract.SBQQ__ExpirationDate__c"
     deprecated = false
     description = "Contract end date for use in time-based workflows."
-    externalId = false
     formula = "EndDate"
     formulaTreatBlanksAs = "BlankAsZero"
     inlineHelpText = "Contract end date for use in time-based workflows."
@@ -192,7 +184,6 @@ type salesforce.Contract {
     apiName = "Contract.SBQQ__MDQRenewalBehavior__c"
     deprecated = false
     description = "Defines how segmented subscription products will appear on renewal quotes. De-Segmented will renew as a standard quote line with the last segment’s data."
-    externalId = false
     inlineHelpText = "Defines how segmented subscription products will appear on renewal quotes. De-Segmented will renew as a standard quote line with the last segment's data."
     label = "MDQ Renewal Behavior"
     valueSet = [
@@ -213,7 +204,6 @@ type salesforce.Contract {
     defaultValue = false
     deprecated = false
     description = "Select to designate this contract as the master contract for this account. Upon renewal, all contracts will be rolled into this one."
-    externalId = false
     inlineHelpText = "Select to designate this contract as the master contract for this account. Upon renewal, all contracts will be rolled into this one."
     label = "Master Contract"
     createable = true
@@ -249,7 +239,6 @@ type salesforce.Contract {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The Opportunity from which this Contract was created."
-    externalId = false
     inlineHelpText = "The Opportunity from which this Contract was created."
     label = "Opportunity"
     referenceTo = [
@@ -265,7 +254,6 @@ type salesforce.Contract {
     apiName = "Contract.SBQQ__Order__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     label = "Order"
     referenceTo = [
       salesforce.Order,
@@ -281,7 +269,6 @@ type salesforce.Contract {
     defaultValue = true
     deprecated = false
     description = "Select to maintain bundle hierarchy on renewal quotes."
-    externalId = false
     inlineHelpText = "Select checkbox to maintain bundle hierarchy on renewal quotes."
     label = "Preserve Bundle Structure"
     createable = true
@@ -293,7 +280,6 @@ type salesforce.Contract {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Quote from which this Contract was created."
-    externalId = false
     inlineHelpText = "Quote from which this Contract was created."
     label = "Quote"
     referenceTo = [
@@ -310,7 +296,6 @@ type salesforce.Contract {
     defaultValue = false
     deprecated = false
     description = "Select to trigger the generation of a renewal opportunity for forecasting purposes. Does not automatically generate a renewal quote."
-    externalId = false
     inlineHelpText = "Select to trigger the generation of a renewal opportunity for forecasting purposes. Does not automatically generate a renewal quote."
     label = "Renewal Forecast"
     createable = true
@@ -350,7 +335,6 @@ type salesforce.Contract {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Renewal opportunity generated to track the renewal of this contract."
-    externalId = false
     inlineHelpText = "Renewal opportunity generated to track the renewal of this contract."
     label = "Renewal Opportunity"
     referenceTo = [
@@ -367,7 +351,6 @@ type salesforce.Contract {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Owner of the original opportunity."
-    externalId = false
     inlineHelpText = "Owner of the original opportunity."
     label = "Renewal Owner"
     referenceTo = [
@@ -397,7 +380,6 @@ type salesforce.Contract {
     defaultValue = false
     deprecated = false
     description = "Select this option to automatically generate a renewal quote on renewal opportunities."
-    externalId = false
     inlineHelpText = "Select this option to automatically generate a renewal quote on renewal opportunities."
     label = "Renewal Quoted"
     createable = true
@@ -422,7 +404,6 @@ type salesforce.Contract {
     apiName = "Contract.SBQQ__RenewalUpliftRate__c"
     deprecated = false
     description = "Rate of renewal price increases."
-    externalId = false
     inlineHelpText = "Rate of renewal price increases."
     label = "Renewal Uplift (%)"
     precision = 11
@@ -436,7 +417,6 @@ type salesforce.Contract {
     defaultValue = false
     deprecated = false
     description = "Select to combine quantities of Subscriptions for the same product into one line on Renewal Quotes and Amendments."
-    externalId = false
     inlineHelpText = "Select to combine quantities of Subscriptions for the same product into one line on Renewal Quotes and Amendments."
     label = "Combine Subscription Quantities"
     createable = true

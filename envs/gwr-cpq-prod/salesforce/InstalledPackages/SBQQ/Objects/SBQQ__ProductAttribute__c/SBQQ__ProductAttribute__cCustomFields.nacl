@@ -3,7 +3,6 @@ type salesforce.SBQQ__ProductAttribute__c {
     apiName = "SBQQ__ProductAttribute__c.SBQQ__AppliedImmediately__c"
     deprecated = false
     description = "Flag that indicates changes to this configuration attribute should apply immediately."
-    externalId = false
     inlineHelpText = "Unsupported Field"
     label = "Apply Immediately"
     trackTrending = false
@@ -29,7 +28,6 @@ type salesforce.SBQQ__ProductAttribute__c {
     apiName = "SBQQ__ProductAttribute__c.SBQQ__ApplyToProductOptions__c"
     deprecated = false
     description = "Apply configuration attribute selection to product options."
-    externalId = false
     inlineHelpText = "Unsupported Field"
     label = "Apply To Product Options"
     trackTrending = false
@@ -55,7 +53,6 @@ type salesforce.SBQQ__ProductAttribute__c {
     apiName = "SBQQ__ProductAttribute__c.SBQQ__AttributeSet__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     label = "Attribute Set"
     referenceTo = [
       salesforce.SBQQ__AttributeSet__c,
@@ -71,7 +68,6 @@ type salesforce.SBQQ__ProductAttribute__c {
     apiName = "SBQQ__ProductAttribute__c.SBQQ__Attribute__c"
     deprecated = false
     description = "Configuration Attribute this product attribute inherits."
-    externalId = false
     inlineHelpText = "Configuration Attribute this product attribute inherits."
     label = "Configuration Attribute"
     lookupFilter = {
@@ -103,7 +99,6 @@ type salesforce.SBQQ__ProductAttribute__c {
     apiName = "SBQQ__ProductAttribute__c.SBQQ__AutoSelect__c"
     deprecated = false
     description = "Set the value of this attribute when adding a product from a Dynamic Feature using the value of the added product's matching field."
-    externalId = false
     inlineHelpText = "Unsupported Field"
     label = "Auto-Select"
     trackTrending = false
@@ -129,7 +124,6 @@ type salesforce.SBQQ__ProductAttribute__c {
     apiName = "SBQQ__ProductAttribute__c.SBQQ__HiddenValues__c"
     deprecated = false
     description = "Values from the backing picklist field that should be hidden on this bundle."
-    externalId = false
     inlineHelpText = "Unsupported Field"
     label = "Hidden Values"
     length = 5000
@@ -143,7 +137,6 @@ type salesforce.SBQQ__ProductAttribute__c {
     apiName = "SBQQ__ProductAttribute__c.SBQQ__Hidden__c"
     deprecated = false
     description = "If flagged as hidden, the Configuration Attribute will not appear on the Product Configurator Page."
-    externalId = false
     inlineHelpText = "Unsupported Field"
     label = "Hidden"
     trackTrending = false
@@ -169,7 +162,6 @@ type salesforce.SBQQ__ProductAttribute__c {
     apiName = "SBQQ__ProductAttribute__c.SBQQ__Required__c"
     deprecated = false
     description = "Indicates whether the attributes requires a value."
-    externalId = false
     inlineHelpText = "Unsupported Field"
     label = "Required"
     trackTrending = false
@@ -209,7 +201,6 @@ type salesforce.SBQQ__ProductAttribute__c {
     apiName = "SBQQ__ProductAttribute__c.SBQQ__ShownValues__c"
     deprecated = false
     description = "Values from the backing picklist field that should be shown on this bundle."
-    externalId = false
     inlineHelpText = "Unsupported Field"
     label = "Shown Values"
     length = 5000

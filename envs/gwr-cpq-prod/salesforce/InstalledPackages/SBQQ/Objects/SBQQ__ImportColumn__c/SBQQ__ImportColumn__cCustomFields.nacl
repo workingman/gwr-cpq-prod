@@ -19,7 +19,6 @@ type salesforce.SBQQ__ImportColumn__c {
     apiName = "SBQQ__ImportColumn__c.SBQQ__FieldName__c"
     deprecated = false
     description = "This is the API Name."
-    externalId = false
     inlineHelpText = "Enter the API Name."
     label = "Field Name"
     trackTrending = false
@@ -65,7 +64,6 @@ type salesforce.SBQQ__ImportColumn__c {
     apiName = "SBQQ__ImportColumn__c.SBQQ__ImportFormat__c"
     deprecated = false
     description = "The format in which your records are being imported."
-    externalId = false
     inlineHelpText = "Select the format in which your records will be imported."
     label = "Import Format"
     referenceTo = [
@@ -86,7 +84,6 @@ type salesforce.SBQQ__ImportColumn__c {
     defaultValue = false
     deprecated = false
     description = "This column represents a unique key column."
-    externalId = false
     inlineHelpText = "Select if this column should be a unique key column."
     label = "Key"
     trackTrending = false

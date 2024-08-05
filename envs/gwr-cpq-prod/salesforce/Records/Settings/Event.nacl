@@ -8,4 +8,6 @@ salesforce.EventSettings {
   enableStreamingApi = true
   enableTransactionSecurityPolicies = false
   _alias = "Event"
+  enableLightningLoggerEvents = "false"
+  eventLogRetentionDuration = 0
 }

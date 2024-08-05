@@ -4,7 +4,6 @@ type salesforce.SBQQ__ProcessInputCondition__c {
     defaultValue = false
     deprecated = false
     description = "Flag that indicates whether this rule is active or inactive."
-    externalId = false
     inlineHelpText = "Flag that indicates whether this rule is active or inactive."
     label = "Active"
     trackTrending = false
@@ -17,7 +16,6 @@ type salesforce.SBQQ__ProcessInputCondition__c {
     deleteConstraint = "Restrict"
     deprecated = false
     description = "Values of this process input will determine the visibility of the current input."
-    externalId = false
     inlineHelpText = "Values of this process input will determine the visibility of the current input."
     label = "Master Process Input"
     lookupFilter = {
@@ -46,7 +44,6 @@ type salesforce.SBQQ__ProcessInputCondition__c {
     apiName = "SBQQ__ProcessInputCondition__c.SBQQ__Operator__c"
     deprecated = false
     description = "The operator being used when comparing process input values."
-    externalId = false
     inlineHelpText = "Select the operator to use when comparing process input values."
     label = "Operator"
     trackTrending = false
@@ -107,7 +104,6 @@ type salesforce.SBQQ__ProcessInputCondition__c {
     apiName = "SBQQ__ProcessInputCondition__c.SBQQ__ProcessInput__c"
     deprecated = false
     description = "Process input that owns the condition."
-    externalId = false
     inlineHelpText = "Process input that owns the condition."
     label = "Process Input"
     referenceTo = [

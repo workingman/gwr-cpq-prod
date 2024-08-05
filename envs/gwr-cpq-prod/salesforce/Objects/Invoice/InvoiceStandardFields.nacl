@@ -52,11 +52,6 @@ type salesforce.Invoice {
     updateable = true
     queryable = true
   }
-  salesforce.Unknown InvoiceLockedDateTime {
-    apiName = "Invoice.InvoiceLockedDateTime"
-    inlineHelpText = "The time at which the invoice record was locked."
-    _hidden_value = true
-  }
   salesforce.Text InvoiceNumber {
     apiName = "Invoice.InvoiceNumber"
     length = 10
@@ -66,11 +61,6 @@ type salesforce.Invoice {
     unique = false
     caseSensitive = false
     queryable = true
-  }
-  salesforce.Unknown IsInvoiceLocked {
-    apiName = "Invoice.IsInvoiceLocked"
-    inlineHelpText = "Indicates whether the invoice record is locked or not."
-    _hidden_value = true
   }
   salesforce.Summary NetCreditsApplied {
     apiName = "Invoice.NetCreditsApplied"
@@ -255,6 +245,25 @@ type salesforce.Invoice {
   salesforce.DateTime SystemModstamp {
     apiName = "Invoice.SystemModstamp"
     label = "System Modstamp"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime InvoiceLockedDateTime {
+    apiName = "Invoice.InvoiceLockedDateTime"
+    inlineHelpText = "The time at which the invoice record was locked."
+    label = "Invoice Locked Date Time"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsInvoiceLocked {
+    apiName = "Invoice.IsInvoiceLocked"
+    inlineHelpText = "Indicates whether the invoice record is locked or not."
+    defaultValue = false
+    label = "Invoice Locked"
     createable = false
     updateable = false
     queryable = true

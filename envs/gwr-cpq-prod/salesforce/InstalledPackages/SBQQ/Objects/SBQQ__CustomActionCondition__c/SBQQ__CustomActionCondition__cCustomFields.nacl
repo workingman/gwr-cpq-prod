@@ -3,7 +3,6 @@ type salesforce.SBQQ__CustomActionCondition__c {
     apiName = "SBQQ__CustomActionCondition__c.SBQQ__CustomAction__c"
     deprecated = false
     description = "Custom Action that is running this Condition."
-    externalId = false
     inlineHelpText = "Custom Action that is running this Condition."
     label = "Custom Action"
     referenceTo = [
@@ -23,7 +22,6 @@ type salesforce.SBQQ__CustomActionCondition__c {
     apiName = "SBQQ__CustomActionCondition__c.SBQQ__Field__c"
     deprecated = false
     description = "Field on Quote Line or Product Option object that is evaluated by this condition."
-    externalId = false
     inlineHelpText = "Choose the field that should contain the value you enter in the Value field."
     label = "Field"
     trackTrending = false
@@ -59,7 +57,6 @@ type salesforce.SBQQ__CustomActionCondition__c {
     apiName = "SBQQ__CustomActionCondition__c.SBQQ__Operator__c"
     deprecated = false
     description = "The operator that is applied when comparing the Field with the Value."
-    externalId = false
     inlineHelpText = "Select the operator to apply when comparing the Field with the Value."
     label = "Operator"
     trackTrending = false
@@ -119,7 +116,6 @@ type salesforce.SBQQ__CustomActionCondition__c {
   salesforce.FormulaCheckbox SBQQ__ParentActionIsActive__c {
     apiName = "SBQQ__CustomActionCondition__c.SBQQ__ParentActionIsActive__c"
     deprecated = false
-    externalId = false
     formula = "SBQQ__CustomAction__r.SBQQ__Active__c"
     formulaTreatBlanksAs = "BlankAsZero"
     label = "ParentConditionIsActive"
@@ -144,7 +140,6 @@ type salesforce.SBQQ__CustomActionCondition__c {
     apiName = "SBQQ__CustomActionCondition__c.SBQQ__TargetObject__c"
     deprecated = false
     description = "Object against which the condition is evaluated."
-    externalId = false
     inlineHelpText = "Object against which the condition is evaluated."
     label = "Target Object"
     trackTrending = false

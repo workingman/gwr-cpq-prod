@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___LTE_Hotspot@ssuuus {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.01t8c00000MGiL6AAL
+  UnitPrice = 125
+  UseStandardPrice = false
+  _alias = "Standard Price Book LTE Hotspot"
+}

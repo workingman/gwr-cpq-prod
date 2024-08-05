@@ -2,7 +2,6 @@ type salesforce.SBQQ__UsageRateCard__c {
   salesforce.Picklist SBQQ__AttributeField__c {
     apiName = "SBQQ__UsageRateCard__c.SBQQ__AttributeField__c"
     deprecated = false
-    externalId = false
     inlineHelpText = "Group usage rates by the selected field during document output and billing"
     label = "Attribute Field"
     trackTrending = false
@@ -22,7 +21,6 @@ type salesforce.SBQQ__UsageRateCard__c {
   salesforce.Picklist SBQQ__BillingFrequency__c {
     apiName = "SBQQ__UsageRateCard__c.SBQQ__BillingFrequency__c"
     deprecated = false
-    externalId = false
     label = "Billing Frequency"
     trackTrending = false
     valueSetName = salesforce.GlobalValueSet.instance.SBQQ__BillingFrequency
@@ -34,7 +32,6 @@ type salesforce.SBQQ__UsageRateCard__c {
   salesforce.TextArea SBQQ__Description__c {
     apiName = "SBQQ__UsageRateCard__c.SBQQ__Description__c"
     deprecated = false
-    externalId = false
     label = "Description"
     trackTrending = false
     createable = true
@@ -45,7 +42,6 @@ type salesforce.SBQQ__UsageRateCard__c {
     apiName = "SBQQ__UsageRateCard__c.SBQQ__OriginalUsageRateCard__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     inlineHelpText = "The usage rate card that you cloned to create this usage rate card"
     label = "Original Usage Rate Card"
     referenceTo = [
@@ -62,7 +58,6 @@ type salesforce.SBQQ__UsageRateCard__c {
     apiName = "SBQQ__UsageRateCard__c.SBQQ__QuoteLine__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     inlineHelpText = "The quote line that this usage rate card covers"
     label = "Quote Line"
     referenceTo = [
@@ -79,7 +74,6 @@ type salesforce.SBQQ__UsageRateCard__c {
     apiName = "SBQQ__UsageRateCard__c.SBQQ__Subscription__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     inlineHelpText = "The subscription that this usage rate card covers"
     label = "Subscription"
     referenceTo = [
@@ -96,7 +90,6 @@ type salesforce.SBQQ__UsageRateCard__c {
     apiName = "SBQQ__UsageRateCard__c.SBQQ__TemplateRateCard__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     inlineHelpText = "The usage rate card that you added to the original quote"
     label = "Template Rate Card"
     referenceTo = [
@@ -112,7 +105,6 @@ type salesforce.SBQQ__UsageRateCard__c {
   salesforce.Picklist SBQQ__Type__c {
     apiName = "SBQQ__UsageRateCard__c.SBQQ__Type__c"
     deprecated = false
-    externalId = false
     inlineHelpText = "Choose how Salesforce Billing bills usage rates for this usage rate card. Range bills a single rate while slab bills all applicable usage rates."
     label = "Type"
     trackTrending = false

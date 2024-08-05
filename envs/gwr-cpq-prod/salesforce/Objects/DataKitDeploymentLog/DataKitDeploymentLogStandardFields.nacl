@@ -1,51 +1,87 @@
 type salesforce.DataKitDeploymentLog {
+  salesforce.Text BundleName {
+    apiName = "DataKitDeploymentLog.BundleName"
+    length = 40
+    label = "Bundle Name"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text ComponentName {
+    apiName = "DataKitDeploymentLog.ComponentName"
+    length = 40
+    label = "Component Name"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    queryable = true
+    _hidden_value = true
+  }
   salesforce.Picklist ComponentType {
     apiName = "DataKitDeploymentLog.ComponentType"
     restricted = true
-    label = "Data Kit Deployment Log Component Type"
+    label = "Component Type"
     createable = false
-    updateable = true
+    updateable = false
     queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text DataSpaceName {
+    apiName = "DataKitDeploymentLog.DataSpaceName"
+    length = 40
+    label = "Data Space Name"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    queryable = true
+    _hidden_value = true
   }
   salesforce.Text DeployJob {
     apiName = "DataKitDeploymentLog.DeployJob"
     length = 40
-    label = "Data Kit Deployment Log Deploy Job"
+    label = "Deploy Job"
     createable = false
-    updateable = true
+    updateable = false
     unique = false
     caseSensitive = false
     queryable = true
+    _hidden_value = true
   }
   salesforce.Text Name {
     apiName = "DataKitDeploymentLog.Name"
     length = 255
-    _required = true
-    label = "__MISSING LABEL__ PropertyFile - val Name not found in section udd_DataKitDeploymentLog"
+    label = "Name"
     createable = false
-    updateable = true
+    updateable = false
     unique = false
     caseSensitive = false
     queryable = true
+    _hidden_value = true
   }
   salesforce.Lookup OwnerId {
     apiName = "DataKitDeploymentLog.OwnerId"
     relationshipName = "Owner"
     label = "Owner ID"
     createable = false
-    updateable = true
+    updateable = false
     queryable = true
     _hidden_value = true
   }
   salesforce.Number TemplateVersion {
     apiName = "DataKitDeploymentLog.TemplateVersion"
-    label = "Data Kit Deployment Log TemplateVersion"
+    label = "Template Version"
     precision = 9
     createable = false
-    updateable = true
+    updateable = false
     scale = 0
     unique = false
     queryable = true
+    _hidden_value = true
   }
   serviceid Id {
     apiName = "DataKitDeploymentLog.Id"

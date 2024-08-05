@@ -91,7 +91,6 @@ type salesforce.SBQQ__Quote__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The customer account for this quote. Defaulted to the account for the opportunity when quote is created."
-    externalId = false
     inlineHelpText = "The customer account for this quote. Defaults to the account for the opportunity when creating a quote."
     label = "Account"
     referenceTo = [
@@ -108,7 +107,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__AdditionalDiscountAmount__c"
     deprecated = false
     description = "Amount of additional discount on this quote."
-    externalId = false
     formula = "SBQQ__RegularAmount__c - SBQQ__CustomerAmount__c"
     formulaTreatBlanksAs = "BlankAsZero"
     inlineHelpText = "Enter the amount additionally discounted on this quote."
@@ -133,7 +131,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__AverageCustomerDiscount__c"
     deprecated = false
     description = "Average customer discount (in percent) for this quote."
-    externalId = false
     formula = "IF(SBQQ__ListAmount__c = 0, 0, ((SBQQ__ListAmount__c - SBQQ__CustomerAmount__c) / SBQQ__ListAmount__c))"
     formulaTreatBlanksAs = "BlankAsZero"
     inlineHelpText = "Average customer discount (in percent) for this quote."
@@ -158,7 +155,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__AveragePartnerDiscount__c"
     deprecated = false
     description = "Average partner discount (in percent) for this quote."
-    externalId = false
     formula = "IF(SBQQ__CustomerAmount__c = 0, 0, (SBQQ__CustomerAmount__c -  SBQQ__NetAmount__c) / SBQQ__CustomerAmount__c)"
     formulaTreatBlanksAs = "BlankAsZero"
     inlineHelpText = "Average partner discount (in percent) for this quote."
@@ -213,7 +209,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__BillingFrequency__c"
     deprecated = false
     description = "Defines the billing frequency."
-    externalId = false
     inlineHelpText = "Defines the billing frequency."
     label = "Billing Frequency"
     trackTrending = false
@@ -272,7 +267,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__BillingStreet__c"
     deprecated = false
     description = "Street portion of the billing address for this quote."
-    externalId = false
     inlineHelpText = "Street portion of the billing address for this quote."
     label = "Bill To Street"
     trackTrending = false
@@ -285,7 +279,6 @@ type salesforce.SBQQ__Quote__c {
     defaultValue = false
     deprecated = false
     description = "Read-only indicator to show whether a quote contains overriding consumption rates."
-    externalId = false
     inlineHelpText = "Read-only indicator to show whether a quote contains overriding consumption rates."
     label = "Consumption Rate Override"
     trackTrending = false
@@ -297,7 +290,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__ContractingMethod__c"
     deprecated = false
     description = "\"By Subscription End Date\" creates a separate Contract for each unique Subscription End Date, containing only those Subscriptions. \"Single Contract\" creates one Contract containing all Subscriptions, regardless of their End Dates."
-    externalId = false
     inlineHelpText = "\"By Subscription End Date\" creates a separate Contract for each unique Subscription End Date, containing only those Subscriptions. \"Single Contract\" creates one Contract containing all Subscriptions, regardless of their End Dates."
     label = "Contracting Method"
     trackTrending = false
@@ -323,7 +315,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__CustomerAmount__c"
     deprecated = false
     description = "This is a Roll-Up Summary field."
-    externalId = false
     inlineHelpText = "This is a Roll-Up Summary field."
     label = "Customer Amount"
     summarizedField = "SBQQ__QuoteLine__c.SBQQ__CustomerTotal__c"
@@ -346,7 +337,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__CustomerDiscount__c"
     deprecated = false
     description = "Additional discount extended to customer."
-    externalId = false
     inlineHelpText = "Additional discount extended to the customer on this quote. This value can be overridden at the individual line item level. Any line items that don't have additional discount explicitly specified will default to this value."
     label = "Additional Disc. (%)"
     precision = 5
@@ -386,7 +376,6 @@ type salesforce.SBQQ__Quote__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Template that should be used with this quote. Salesforce CPQ will use this value to default template selection on \"Generate Document\" screen."
-    externalId = false
     inlineHelpText = "Template that should be used with this quote. Salesforce CPQ automatically selects the template specified here when you click \"Generate Document\""
     label = "Default Template"
     referenceTo = [
@@ -403,7 +392,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__DeliveryMethod__c"
     deprecated = false
     description = "Method used to deliver products on this quote."
-    externalId = false
     inlineHelpText = "Method used to deliver products on this quote."
     label = "Delivery Method"
     trackTrending = false
@@ -429,7 +417,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__DistributorDiscount__c"
     deprecated = false
     description = "Distributor discount that applies to this quote unless overridden on line item level."
-    externalId = false
     inlineHelpText = "Distributor discount that applies to this quote unless overridden on line item level."
     label = "Distributor Discount"
     precision = 5
@@ -444,7 +431,6 @@ type salesforce.SBQQ__Quote__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Distributor for this quote. Defaulted from partner on opportunity with role of \"Distributor\"."
-    externalId = false
     inlineHelpText = "Distributor for this quote. Defaulted from partner on opportunity with role of \"Distributor\"."
     label = "Distributor"
     referenceTo = [
@@ -461,7 +447,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__DocumentStatus__c"
     deprecated = false
     description = "Indicates the status of your Document."
-    externalId = false
     inlineHelpText = "Indicates the status of your Document: Pending, Sent, Failed."
     label = "Document Status"
     trackTrending = false
@@ -507,7 +492,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__EndDate__c"
     deprecated = false
     description = "End date for subscriptions in this group."
-    externalId = false
     inlineHelpText = "End date for subscriptions in this group."
     label = "End Date"
     trackTrending = false
@@ -520,7 +504,6 @@ type salesforce.SBQQ__Quote__c {
     defaultValueFormula = "IF(NOT(ISBLANK($Setup.SBQQ__GeneralSettings__c.SBQQ__DefaultQuoteValidity__c)),TODAY() + $Setup.SBQQ__GeneralSettings__c.SBQQ__DefaultQuoteValidity__c, null)"
     deprecated = false
     description = "Date after which the Quote is no longer valid"
-    externalId = false
     inlineHelpText = "Date after which the Quote is no longer valid"
     label = "Expires On"
     trackTrending = false
@@ -532,7 +515,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__FirstSegmentTermEndDate__c"
     deprecated = false
     description = "Used with multi-segment Products to prorate first segment."
-    externalId = false
     inlineHelpText = "For multi-segment Products, enter the end date in order to prorate first segment."
     label = "First Segment Term End Date"
     trackTrending = false
@@ -544,7 +526,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__GenerateContractedPrice__c"
     deprecated = false
     description = "Will generate a contracted price based on all adjusted quote line on quote if flagged."
-    externalId = false
     inlineHelpText = "Will generate a contracted price based on all adjusted quote line on quote if flagged."
     label = "Generate Contracted Price"
     trackTrending = false
@@ -575,7 +556,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__Introduction__c"
     deprecated = false
     description = "Introduction that can be printed on the generated PDF document."
-    externalId = false
     inlineHelpText = "Introduction that can be printed on the generated PDF document."
     label = "Introduction"
     length = 2000
@@ -604,7 +584,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__LastCalculatedOn__c"
     deprecated = false
     description = "The date and time this quote was last calculated."
-    externalId = false
     inlineHelpText = "The date and time this quote was last calculated."
     label = "Last Calculated On"
     trackTrending = false
@@ -616,7 +595,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__LastSavedOn__c"
     deprecated = false
     description = "The date and time this quote was last saved."
-    externalId = false
     inlineHelpText = "The date and time this quote was last saved."
     label = "Last Saved On"
     trackTrending = false
@@ -628,7 +606,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__LineItemCount__c"
     deprecated = false
     description = "Number of line items in this quote."
-    externalId = false
     inlineHelpText = "Number of line items in this quote."
     label = "Line Item Count"
     summaryForeignKey = "SBQQ__QuoteLine__c.SBQQ__Quote__c"
@@ -646,7 +623,6 @@ type salesforce.SBQQ__Quote__c {
     defaultValue = false
     deprecated = false
     description = "Option that allows you to use SolutionGroups(TM) or ad hoc groups to categorize and subtotal quote line items."
-    externalId = false
     inlineHelpText = "Select this option to use SolutionGroups(TM) or add your own groups on the Edit Lines page to categorize and subtotal quote line items."
     label = "Group Line Items"
     trackTrending = false
@@ -659,7 +635,6 @@ type salesforce.SBQQ__Quote__c {
     defaultValue = true
     deprecated = false
     description = "Option which when checked prints individual line items on the PDF document."
-    externalId = false
     inlineHelpText = "Select the checkbox to print individual line items on the generated PDF quote document for group quotes."
     label = "Print Line Items"
     trackTrending = false
@@ -671,7 +646,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__ListAmount__c"
     deprecated = false
     description = "Total List Amount of each non-optional line item in this quote."
-    externalId = false
     inlineHelpText = "Total List Amount of each non-optional line item in this quote."
     label = "List Amount"
     summarizedField = "SBQQ__QuoteLine__c.SBQQ__ListTotal__c"
@@ -694,7 +668,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__MarkupRate__c"
     deprecated = false
     description = "Default markup rate applied to line items on this quote."
-    externalId = false
     inlineHelpText = "Default markup rate applied to line items on this quote. You'll be able to override this value on group and line item level."
     label = "Markup (%)"
     precision = 8
@@ -709,7 +682,6 @@ type salesforce.SBQQ__Quote__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Master contract with which subscription products in this quote are to be co-terminated."
-    externalId = false
     inlineHelpText = "Master contract with which subscription products in this quote are to be co-terminated."
     label = "Master Contract"
     lookupFilter = {
@@ -738,7 +710,6 @@ type salesforce.SBQQ__Quote__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Designate this contract as the master evergreen contract for the quote."
-    externalId = false
     inlineHelpText = "Designate this contract as the master evergreen contract for the quote."
     label = "Master Evergreen Contract"
     lookupFilter = {
@@ -766,7 +737,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__NetAmount__c"
     deprecated = false
     description = "Total Net Amount of each non-optional line item in this quote."
-    externalId = false
     inlineHelpText = "Total Net Amount of each non-optional line item in this quote."
     label = "Net Amount"
     summarizedField = "SBQQ__QuoteLine__c.SBQQ__NetTotal__c"
@@ -789,7 +759,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__Notes__c"
     deprecated = false
     description = "Notes printed on the generated PDF document."
-    externalId = false
     inlineHelpText = "Notes printed on the generated PDF document."
     label = "Notes"
     length = 2000
@@ -804,7 +773,6 @@ type salesforce.SBQQ__Quote__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Opportunity associated with this Quote."
-    externalId = false
     inlineHelpText = "Opportunity associated with this Quote."
     label = "Opportunity"
     referenceTo = [
@@ -822,7 +790,6 @@ type salesforce.SBQQ__Quote__c {
     defaultValue = false
     deprecated = false
     description = "If flagged while setting the Quote to \"Ordered\", an Order will be created for each Quote Line Group with their associated Quote Lines."
-    externalId = false
     inlineHelpText = "If flagged while setting the Quote to \"Ordered\", an Order will be created for each Quote Line Group with their associated Quote Lines."
     label = "Order By Quote Line Group"
     trackTrending = false
@@ -834,7 +801,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__OrderBy__c"
     deprecated = false
     description = "The Quote Line field used to determine order grouping."
-    externalId = false
     inlineHelpText = "The Quote Line field used to determine order grouping."
     label = "Order By"
     trackTrending = false
@@ -871,7 +837,6 @@ type salesforce.SBQQ__Quote__c {
     defaultValue = false
     deprecated = false
     description = "Internal flag to drive automatic order creation."
-    externalId = false
     inlineHelpText = "Select this checkbox to automatically create an order from this quote, if it is a primary quote."
     label = "Ordered"
     trackTrending = false
@@ -884,7 +849,6 @@ type salesforce.SBQQ__Quote__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "If the Quote is an Amend: Re-Quote, this field points to the original quote."
-    externalId = false
     inlineHelpText = "If this Quote record represents an Amend: Re-Quote, use this field to link back to the original quote."
     label = "Original Quote"
     referenceTo = [
@@ -901,7 +865,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__PaperSize__c"
     deprecated = false
     description = "Paper size of this document."
-    externalId = false
     inlineHelpText = "Choose the paper size for this document."
     label = "Paper Size"
     trackTrending = false
@@ -915,7 +878,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__PartnerDiscount__c"
     deprecated = false
     description = "Discount extended to the partner on this opportunity."
-    externalId = false
     inlineHelpText = "Discount extended to the partner on this opportunity."
     label = "Partner Discount"
     precision = 5
@@ -930,7 +892,6 @@ type salesforce.SBQQ__Quote__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Primary partner on this deal (if any). Defaulted to partner marked as primary in Partners related list on the opportunity."
-    externalId = false
     inlineHelpText = "Primary partner on this deal (if any). This field defaults to the partner marked as primary in the Partners related list on the opportunity."
     label = "Partner"
     referenceTo = [
@@ -947,7 +908,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__PaymentTerms__c"
     deprecated = false
     description = "Terms that govern payment of the items in this quote."
-    externalId = false
     inlineHelpText = "Terms that govern payment of the items in this quote."
     label = "Payment Terms"
     trackTrending = false
@@ -994,7 +954,6 @@ type salesforce.SBQQ__Quote__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Price Book associated with this Quote."
-    externalId = false
     inlineHelpText = "Price Book associated with this Quote."
     label = "Price Book"
     referenceTo = [
@@ -1027,7 +986,6 @@ type salesforce.SBQQ__Quote__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Primary contact for the quote. This person's name will appear on generated quote document."
-    externalId = false
     inlineHelpText = "Primary contact for the quote. This person's name will appear on generated quote document."
     label = "Primary Contact"
     referenceTo = [
@@ -1045,7 +1003,6 @@ type salesforce.SBQQ__Quote__c {
     defaultValue = false
     deprecated = false
     description = "Checkbox which if checked designates the quote as the Primary Quote"
-    externalId = false
     inlineHelpText = "Select this checkbox to designate this quote as the primary one on the opportunity and sync quote line items with opportunity line items."
     label = "Primary"
     trackTrending = false
@@ -1057,7 +1014,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__ProrationDayOfMonth__c"
     deprecated = false
     description = "When an order is created from this quote, the value in this field is copied to the order’s Billing Day of Month field."
-    externalId = false
     inlineHelpText = "When an order is created from this quote, the value in this field is copied to the order’s Billing Day of Month field."
     label = "Proration Day Of Month"
     trackTrending = false
@@ -1228,7 +1184,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__QuoteLanguage__c"
     deprecated = false
     description = "Language used for this Quote when mass generating Quote Documents"
-    externalId = false
     inlineHelpText = "Language used for this Quote when mass generating Quote Documents"
     label = "Quote Language"
     trackTrending = false
@@ -1364,7 +1319,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__RegularAmount__c"
     deprecated = false
     description = "Roll up of regular amounts of quote products."
-    externalId = false
     inlineHelpText = "Total amount of non-optional line times before additional discounts are applied."
     label = "Regular Amount"
     summarizedField = "SBQQ__QuoteLine__c.SBQQ__RegularTotal__c"
@@ -1402,7 +1356,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__RenewalUpliftRate__c"
     deprecated = false
     description = "Rate of renewal price increases."
-    externalId = false
     inlineHelpText = "Rate of renewal price increases."
     label = "Renewal Uplift (%)"
     precision = 11
@@ -1417,7 +1370,6 @@ type salesforce.SBQQ__Quote__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Sales rep responsible for this quote if different from the user who owns the quote record."
-    externalId = false
     inlineHelpText = "Sales rep responsible for this quote if different from the user who owns the quote record."
     label = "Sales Rep"
     referenceTo = [
@@ -1508,7 +1460,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__ShippingStreet__c"
     deprecated = false
     description = "Street on the Ship To address for this quote."
-    externalId = false
     inlineHelpText = "Street on the Ship To address for this quote."
     label = "Ship To Street"
     trackTrending = false
@@ -1521,7 +1472,6 @@ type salesforce.SBQQ__Quote__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Source of cloned quote."
-    externalId = false
     inlineHelpText = "Source of cloned quote. If cloned, this references the original quote cloned."
     label = "Source"
     referenceTo = [
@@ -1538,7 +1488,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__StartDate__c"
     deprecated = false
     description = "Start date for subscriptions in this quote."
-    externalId = false
     inlineHelpText = "Start date for subscriptions in this quote."
     label = "Start Date"
     trackTrending = false
@@ -1550,7 +1499,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__Status__c"
     deprecated = false
     description = "Status indicating where quote is in its lifecycle."
-    externalId = false
     inlineHelpText = "Status indicating where quote is in its lifecycle."
     label = "Status"
     trackTrending = false
@@ -1616,7 +1564,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__TargetCustomerAmount__c"
     deprecated = false
     description = "Customer amount to be targeted in calculating additional discounts."
-    externalId = false
     inlineHelpText = "Enter desired customer amount to automatically calculate additional discount on discountable line items."
     label = "Target Customer Amount"
     precision = 14
@@ -1630,7 +1577,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__TotalCustomerDiscountAmount__c"
     deprecated = false
     description = "Total amount of customer discount. This includes any contracted, volume, compound rate and additional discounts."
-    externalId = false
     formula = "SBQQ__ListAmount__c - SBQQ__CustomerAmount__c"
     formulaTreatBlanksAs = "BlankAsZero"
     inlineHelpText = "Total amount of customer discount. This includes any contracted, volume, compound rate and additional discounts."
@@ -1655,7 +1601,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__Type__c"
     deprecated = false
     description = "Indicates the type of quote."
-    externalId = false
     inlineHelpText = "Indicates the type of quote."
     label = "Type"
     trackTrending = false
@@ -1691,7 +1636,6 @@ type salesforce.SBQQ__Quote__c {
     apiName = "SBQQ__Quote__c.SBQQ__Uncalculated__c"
     deprecated = false
     description = "If selected, the quote hasn’t been calculated."
-    externalId = false
     formula = "( NOT( ISNULL( SBQQ__LastCalculatedOn__c ) ) && SBQQ__LastSavedOn__c > SBQQ__LastCalculatedOn__c ) || ( NOT ( ISNULL ( SBQQ__LastSavedOn__c) ) && ISNULL ( SBQQ__LastCalculatedOn__c ) )"
     formulaTreatBlanksAs = "BlankAsZero"
     inlineHelpText = "If selected, the quote hasn’t yet been calculated."
@@ -1715,7 +1659,6 @@ type salesforce.SBQQ__Quote__c {
     defaultValue = false
     deprecated = false
     description = "Indicates whether the quote has ever been opened to determine if it is a new quote."
-    externalId = false
     inlineHelpText = "Indicates whether the quote has ever been opened to determine if it is a new quote."
     label = "Unopened"
     trackTrending = false
@@ -1728,7 +1671,6 @@ type salesforce.SBQQ__Quote__c {
     defaultValue = false
     deprecated = false
     description = "Indicates if the watermark in the Quote Document is displayed."
-    externalId = false
     inlineHelpText = "Select the checkbox to display watermark in the Quote Document."
     label = "Watermark Shown"
     trackTrending = false

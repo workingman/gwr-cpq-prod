@@ -31,7 +31,6 @@ type salesforce.SBQQ__TimingLog__c {
     apiName = "SBQQ__TimingLog__c.SBQQ__Log__c"
     deprecated = false
     description = "Log entry"
-    externalId = false
     inlineHelpText = "Log entry"
     label = "Log"
     length = 32768

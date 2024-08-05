@@ -4,7 +4,6 @@ type salesforce.SBQQ__QuoteTerm__c {
     defaultValue = false
     deprecated = false
     description = "Flag that indicates whether this quote term is available for use."
-    externalId = false
     inlineHelpText = "Indicates that this quote term is available for use."
     label = "Active"
     trackTrending = false
@@ -16,7 +15,6 @@ type salesforce.SBQQ__QuoteTerm__c {
     apiName = "SBQQ__QuoteTerm__c.SBQQ__AdvancedCondition__c"
     deprecated = false
     description = "Can only be entered if the Conditions Met is Custom. Enter a combination of the Term Condition Index #s, AND, OR, and parenthesis (e.g. (123 AND 124) AND 125)."
-    externalId = false
     inlineHelpText = "Can only be entered if the Conditions Met is Custom. Enter a combination of the Term Condition Index #s, AND, OR, and parenthesis (e.g. (123 AND 124) AND 125)."
     label = "Advanced Condition"
     trackTrending = false
@@ -28,7 +26,6 @@ type salesforce.SBQQ__QuoteTerm__c {
     apiName = "SBQQ__QuoteTerm__c.SBQQ__Body__c"
     deprecated = false
     description = "Body containing text of the term."
-    externalId = false
     inlineHelpText = "Text content of this term."
     label = "Body"
     length = 32768
@@ -42,7 +39,6 @@ type salesforce.SBQQ__QuoteTerm__c {
     apiName = "SBQQ__QuoteTerm__c.SBQQ__ConditionsMet__c"
     deprecated = false
     description = "Choose the behavior for your conditions: All is AND, Any is OR, Custom is a combination of AND/OR."
-    externalId = false
     inlineHelpText = "Choose the behavior for your conditions: All is AND, Any is OR, Custom is a combination of AND/OR."
     label = "Conditions Met"
     trackTrending = false
@@ -74,7 +70,6 @@ type salesforce.SBQQ__QuoteTerm__c {
     defaultValue = false
     deprecated = false
     description = "Controls a Quote Term being editable by a user."
-    externalId = false
     inlineHelpText = "Controls a Quote Term being editable by a user."
     label = "Locked"
     trackTrending = false
@@ -87,7 +82,6 @@ type salesforce.SBQQ__QuoteTerm__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Parent term for this term."
-    externalId = false
     inlineHelpText = "Parent term for this term."
     label = "Parent Term"
     referenceTo = [
@@ -121,7 +115,6 @@ type salesforce.SBQQ__QuoteTerm__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Quote to which this term applies."
-    externalId = false
     inlineHelpText = "Quote to which this term applies. Left blank if this is a standard term."
     label = "Quote"
     referenceTo = [
@@ -139,7 +132,6 @@ type salesforce.SBQQ__QuoteTerm__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Specifies the standard term that is being modified."
-    externalId = false
     inlineHelpText = "Specifies the standard term that is being modified."
     label = "Standard Term"
     referenceTo = [
@@ -156,7 +148,6 @@ type salesforce.SBQQ__QuoteTerm__c {
     apiName = "SBQQ__QuoteTerm__c.SBQQ__Status__c"
     deprecated = false
     description = "Status of this quote term."
-    externalId = false
     inlineHelpText = "Status of this quote term."
     label = "Status"
     trackTrending = false
@@ -193,7 +184,6 @@ type salesforce.SBQQ__QuoteTerm__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Template Content to which this term is applied."
-    externalId = false
     inlineHelpText = "Template Content to which this term is applied."
     label = "Template Content"
     lookupFilter = {

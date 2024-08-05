@@ -3,7 +3,6 @@ type salesforce.User {
     apiName = "User.SBQQ__DefaultProductLookupTab__c"
     deprecated = false
     description = "Default tab for this user in Product Lookup page."
-    externalId = false
     inlineHelpText = "Customize default tab in Product Lookup page."
     label = "Default Product Lookup Tab"
     valueSet = [
@@ -29,7 +28,6 @@ type salesforce.User {
     defaultValue = false
     deprecated = false
     description = "Enable to run pricing diagnostics during a Quote Line Editor Calculate."
-    externalId = false
     inlineHelpText = "Use to enable CPQ Diagnostic Tool, only available if org setting is enabled. Contact support to enable this capability."
     label = "Enable Diagnostic Tool"
     createable = true
@@ -41,7 +39,6 @@ type salesforce.User {
     defaultValue = false
     deprecated = false
     description = "Flag that indicates whether this user is allowed to change output format of quote documents."
-    externalId = false
     inlineHelpText = "Check to allow this user to change output format of quote documents."
     label = "Allow Output Format Change"
     createable = true
@@ -52,7 +49,6 @@ type salesforce.User {
     apiName = "User.SBQQ__ProductSortPreference__c"
     deprecated = false
     description = "Product sort preference for this user. Currently only Chatter Follows are supported."
-    externalId = false
     inlineHelpText = "Select \"Followed\" to display products you follow in Chatter before others when adding to quote."
     label = "Product Sort Preference"
     valueSet = [
@@ -73,7 +69,6 @@ type salesforce.User {
     defaultValue = false
     deprecated = false
     description = "Flag that determines whether Product Lookup data (guided selling questions, search filters and search results) are cleared after user selects desired products."
-    externalId = false
     inlineHelpText = "Check to clear search filters and results every time you add products to your quotes. Otherwise, your previous selections are kept."
     label = "Reset Product Lookup"
     createable = true

@@ -69,4 +69,5 @@ salesforce.AnalyticsSettings {
   queryCachingOptOut = "false"
   concurrencyLimitSharing = "false"
   enableSummaryFilterOrgPref = "false"
+  enableReportSubOrgEmailPref = "false"
 }

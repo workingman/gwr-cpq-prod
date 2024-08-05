@@ -2,7 +2,6 @@ type salesforce.SBQQ__PriceAction__c {
   salesforce.Picklist SBQQ__Field__c {
     apiName = "SBQQ__PriceAction__c.SBQQ__Field__c"
     deprecated = false
-    externalId = false
     inlineHelpText = "Select the field you want updated when the conditions are met."
     label = "Target Field"
     trackTrending = false
@@ -58,7 +57,6 @@ type salesforce.SBQQ__PriceAction__c {
     apiName = "SBQQ__PriceAction__c.SBQQ__Formula__c"
     deprecated = false
     description = "You can construct a formula using many of Salesforce's available operators and functions. Refer to Salesforce CPQ documentation for the full list. You can also add in information from the quote or the target object field (i.e., SBQQ__QuoteLine__c.SBQQ__ListPrice__c)."
-    externalId = false
     inlineHelpText = "Enter a formula with operators, functions, and available fields on quote and target object. Not supported on legacy calculator."
     label = "Formula"
     length = 131072
@@ -86,7 +84,6 @@ type salesforce.SBQQ__PriceAction__c {
   salesforce.FormulaCheckbox SBQQ__ParentRuleIsActive__c {
     apiName = "SBQQ__PriceAction__c.SBQQ__ParentRuleIsActive__c"
     deprecated = false
-    externalId = false
     formula = "SBQQ__Rule__r.SBQQ__Active__c"
     formulaTreatBlanksAs = "BlankAsZero"
     label = "ParentRuleIsActive"
@@ -123,7 +120,6 @@ type salesforce.SBQQ__PriceAction__c {
   salesforce.FormulaCheckbox SBQQ__RuleTargetsCalculator__c {
     apiName = "SBQQ__PriceAction__c.SBQQ__RuleTargetsCalculator__c"
     deprecated = false
-    externalId = false
     formula = "ISPICKVAL(SBQQ__Rule__r.SBQQ__TargetObject__c, 'Calculator') || ISPICKVAL(SBQQ__Rule__r.SBQQ__TargetObject__c, 'Quote Line')"
     formulaTreatBlanksAs = "BlankAsZero"
     label = "RuleTargetsCalculator"
@@ -142,7 +138,6 @@ type salesforce.SBQQ__PriceAction__c {
     apiName = "SBQQ__PriceAction__c.SBQQ__Rule__c"
     deprecated = false
     description = "Price rule running this action."
-    externalId = false
     inlineHelpText = "Price rule running this action."
     label = "Rule"
     referenceTo = [
@@ -162,7 +157,6 @@ type salesforce.SBQQ__PriceAction__c {
     apiName = "SBQQ__PriceAction__c.SBQQ__SourceLookupField__c"
     deprecated = false
     description = "API Name of the field to return from the row matching the condition."
-    externalId = false
     inlineHelpText = "API Name of the field to return from the row matching the condition."
     label = "Source Lookup Field"
     trackTrending = false
@@ -189,7 +183,6 @@ type salesforce.SBQQ__PriceAction__c {
     deleteConstraint = "Restrict"
     deprecated = false
     description = "Summary variable that sources value for this action."
-    externalId = false
     inlineHelpText = "Summary variable that sources value for this action."
     label = "Source Variable"
     referenceTo = [
@@ -205,7 +198,6 @@ type salesforce.SBQQ__PriceAction__c {
   salesforce.Picklist SBQQ__TargetObject__c {
     apiName = "SBQQ__PriceAction__c.SBQQ__TargetObject__c"
     deprecated = false
-    externalId = false
     inlineHelpText = "Use Quote or Quote Line where Price Rule Evaluation Scope = Calculation, Use Product Option where Price Rule Evaluation Scope = Configuration"
     label = "Target Object"
     trackTrending = false

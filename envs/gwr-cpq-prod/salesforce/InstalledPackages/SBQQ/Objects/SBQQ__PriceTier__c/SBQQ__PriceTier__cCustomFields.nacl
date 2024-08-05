@@ -3,7 +3,6 @@ type salesforce.SBQQ__PriceTier__c {
     apiName = "SBQQ__PriceTier__c.SBQQ__DiscountAmount__c"
     deprecated = false
     description = "Discount amount applied when quantity falls in this tier."
-    externalId = false
     inlineHelpText = "Discount amount applied when quantity falls in this tier."
     label = "Discount ({0})"
     precision = 14
@@ -17,7 +16,6 @@ type salesforce.SBQQ__PriceTier__c {
     apiName = "SBQQ__PriceTier__c.SBQQ__DiscountPercentage__c"
     deprecated = false
     description = "Discount percentage applied when quantity falls in this tier."
-    externalId = false
     inlineHelpText = "Discount percentage applied when quantity falls in this tier."
     label = "Discount (%)"
     precision = 14
@@ -62,7 +60,6 @@ type salesforce.SBQQ__PriceTier__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The block price where this price tier is originated from."
-    externalId = false
     inlineHelpText = "The block price where this price tier is originated from."
     label = "Original Block Price"
     referenceTo = [
@@ -80,7 +77,6 @@ type salesforce.SBQQ__PriceTier__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The discount tier where this price tier is originated from."
-    externalId = false
     inlineHelpText = "The discount tier where this price tier is originated from."
     label = "Original Discount Tier"
     referenceTo = [
@@ -97,7 +93,6 @@ type salesforce.SBQQ__PriceTier__c {
     apiName = "SBQQ__PriceTier__c.SBQQ__PriceModel__c"
     deprecated = false
     description = "The price model that determines how the prices are calculated."
-    externalId = false
     inlineHelpText = "The price model that determines how the prices are calculated."
     label = "Price Model"
     trackTrending = false
@@ -111,7 +106,6 @@ type salesforce.SBQQ__PriceTier__c {
     apiName = "SBQQ__PriceTier__c.SBQQ__PriceSchedule__c"
     deprecated = false
     description = "Price Schedule to which this tier belongs."
-    externalId = false
     inlineHelpText = "Price Schedule to which this tier belongs."
     label = "Schedule"
     referenceTo = [
@@ -131,7 +125,6 @@ type salesforce.SBQQ__PriceTier__c {
     apiName = "SBQQ__PriceTier__c.SBQQ__Price__c"
     deprecated = false
     description = "The actual price of this Price Tier. This field will be populated when a new set of Price Schedules are created for a new Order record."
-    externalId = false
     inlineHelpText = "The actual price of this Price Tier. This field will be populated when a new set of Price Schedules are created for a new Order record."
     label = "Price"
     precision = 18
@@ -145,7 +138,6 @@ type salesforce.SBQQ__PriceTier__c {
     apiName = "SBQQ__PriceTier__c.SBQQ__TermDiscount__c"
     deprecated = false
     description = "The total term discount taken for this tier."
-    externalId = false
     inlineHelpText = "The total term discount taken for this tier."
     label = "Term Discount"
     precision = 18
@@ -174,7 +166,6 @@ type salesforce.SBQQ__PriceTier__c {
     apiName = "SBQQ__PriceTier__c.SBQQ__VolumnDiscount__c"
     deprecated = false
     description = "The total volume discount taken for this tier."
-    externalId = false
     inlineHelpText = "The total volume discount taken for this tier."
     label = "Volume Discount"
     precision = 18

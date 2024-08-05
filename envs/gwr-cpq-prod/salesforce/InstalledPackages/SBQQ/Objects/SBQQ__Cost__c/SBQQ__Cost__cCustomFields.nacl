@@ -4,7 +4,6 @@ type salesforce.SBQQ__Cost__c {
     defaultValue = true
     deprecated = false
     description = "Flag to indicate whether the cost is active."
-    externalId = false
     inlineHelpText = "Select the checkbox to activate the cost."
     label = "Active"
     trackTrending = false
@@ -17,7 +16,6 @@ type salesforce.SBQQ__Cost__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Product associated with this cost."
-    externalId = false
     inlineHelpText = "Product associated with this cost."
     label = "Product"
     referenceTo = [
@@ -34,7 +32,6 @@ type salesforce.SBQQ__Cost__c {
     apiName = "SBQQ__Cost__c.SBQQ__UnitCost__c"
     deprecated = false
     description = "This field indicates the unit cost."
-    externalId = false
     inlineHelpText = "Enter the unit cost."
     label = "Unit Cost"
     precision = 18

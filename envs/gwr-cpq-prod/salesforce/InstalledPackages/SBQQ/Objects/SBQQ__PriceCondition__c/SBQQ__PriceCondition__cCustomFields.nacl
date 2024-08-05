@@ -3,7 +3,6 @@ type salesforce.SBQQ__PriceCondition__c {
     apiName = "SBQQ__PriceCondition__c.SBQQ__Field__c"
     deprecated = false
     description = "Field on Quote Line or Product Option object that is evaluated by this condition."
-    externalId = false
     inlineHelpText = "Choose the field that should contain the value you enter in the Value field."
     label = "Field"
     trackTrending = false
@@ -34,7 +33,6 @@ type salesforce.SBQQ__PriceCondition__c {
     apiName = "SBQQ__PriceCondition__c.SBQQ__FilterFormula__c"
     deprecated = false
     description = "You can construct a formula using many of Salesforce's available operators and functions. Refer to Salesforce CPQ documentation for the full list. You can also add in information from the quote or the target object field (i.e., SBQQ__QuoteLine__c.SBQQ__ListPrice__c)."
-    externalId = false
     inlineHelpText = "Enter a formula with operators, functions, and available fields on quote and target object. Not supported on legacy calculator."
     label = "Filter Formula"
     length = 131072
@@ -48,7 +46,6 @@ type salesforce.SBQQ__PriceCondition__c {
     apiName = "SBQQ__PriceCondition__c.SBQQ__FilterType__c"
     deprecated = false
     description = "Type of filtering used in this condition."
-    externalId = false
     inlineHelpText = "Choose Variable to evaluate this condition against a Summary Variable; otherwise, choose Value."
     label = "Filter Type"
     trackTrending = false
@@ -80,7 +77,6 @@ type salesforce.SBQQ__PriceCondition__c {
     deleteConstraint = "Restrict"
     deprecated = false
     description = "Summary variable that filters this condition."
-    externalId = false
     inlineHelpText = "Select the Summary Variable you want this condition to use as a filter."
     label = "Filter Variable"
     referenceTo = [
@@ -112,7 +108,6 @@ type salesforce.SBQQ__PriceCondition__c {
     apiName = "SBQQ__PriceCondition__c.SBQQ__Object__c"
     deprecated = false
     description = "Object against which the condition is evaluated."
-    externalId = false
     inlineHelpText = "Object against which the condition is evaluated."
     label = "Object"
     trackTrending = false
@@ -148,7 +143,6 @@ type salesforce.SBQQ__PriceCondition__c {
     apiName = "SBQQ__PriceCondition__c.SBQQ__Operator__c"
     deprecated = false
     description = "The operator that is applied when comparing the Field with the Value."
-    externalId = false
     inlineHelpText = "Select the operator to apply when comparing the Field with the Value."
     label = "Operator"
     trackTrending = false
@@ -208,7 +202,6 @@ type salesforce.SBQQ__PriceCondition__c {
   salesforce.FormulaCheckbox SBQQ__ParentRuleIsActive__c {
     apiName = "SBQQ__PriceCondition__c.SBQQ__ParentRuleIsActive__c"
     deprecated = false
-    externalId = false
     formula = "SBQQ__Rule__r.SBQQ__Active__c"
     formulaTreatBlanksAs = "BlankAsZero"
     label = "ParentRuleIsActive"
@@ -226,7 +219,6 @@ type salesforce.SBQQ__PriceCondition__c {
   salesforce.FormulaCheckbox SBQQ__RuleTargetsCalculator__c {
     apiName = "SBQQ__PriceCondition__c.SBQQ__RuleTargetsCalculator__c"
     deprecated = false
-    externalId = false
     formula = "ISPICKVAL(SBQQ__Rule__r.SBQQ__TargetObject__c, 'Calculator') || ISPICKVAL(SBQQ__Rule__r.SBQQ__TargetObject__c, 'Quote Line')"
     formulaTreatBlanksAs = "BlankAsZero"
     label = "RuleTargetsCalculator"
@@ -245,7 +237,6 @@ type salesforce.SBQQ__PriceCondition__c {
     apiName = "SBQQ__PriceCondition__c.SBQQ__Rule__c"
     deprecated = false
     description = "Price rule running this condition."
-    externalId = false
     inlineHelpText = "Price rule running this condition."
     label = "Price Rule"
     referenceTo = [
@@ -265,7 +256,6 @@ type salesforce.SBQQ__PriceCondition__c {
     apiName = "SBQQ__PriceCondition__c.SBQQ__TestedFormula__c"
     deprecated = false
     description = "You can construct a formula using many of Salesforce's available operators and functions. Refer to Salesforce CPQ documentation for the full list. You can also add in information from the quote or the target object field (i.e., SBQQ__QuoteLine__c.SBQQ__ListPrice__c)."
-    externalId = false
     inlineHelpText = "Enter a formula with operators, functions, and available fields on quote and target object. Not supported on legacy calculator."
     label = "Tested Formula"
     length = 131072
@@ -280,7 +270,6 @@ type salesforce.SBQQ__PriceCondition__c {
     deleteConstraint = "Restrict"
     deprecated = false
     description = "Summary variable tested when evaluating this price condition."
-    externalId = false
     inlineHelpText = "Summary variable tested by this price condition."
     label = "Tested Variable"
     referenceTo = [

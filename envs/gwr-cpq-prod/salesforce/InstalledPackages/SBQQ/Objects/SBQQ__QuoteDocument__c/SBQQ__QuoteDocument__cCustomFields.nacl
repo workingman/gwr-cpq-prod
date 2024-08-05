@@ -18,7 +18,6 @@ type salesforce.SBQQ__QuoteDocument__c {
     apiName = "SBQQ__QuoteDocument__c.SBQQ__CustomerAmount__c"
     deprecated = false
     description = "Customer amount on the quote at the time this document was generated."
-    externalId = false
     inlineHelpText = "Customer amount on the quote at the time this document was generated."
     label = "Customer Amount"
     precision = 18
@@ -48,7 +47,6 @@ type salesforce.SBQQ__QuoteDocument__c {
     defaultValue = false
     deprecated = false
     description = "Indicates this document was generated for electronic signature."
-    externalId = false
     inlineHelpText = "Field for the document to be signed electronically."
     label = "Electronic Signature"
     trackTrending = false
@@ -75,7 +73,6 @@ type salesforce.SBQQ__QuoteDocument__c {
     apiName = "SBQQ__QuoteDocument__c.SBQQ__ListAmount__c"
     deprecated = false
     description = "List amount of the quote at the time this document was generated."
-    externalId = false
     inlineHelpText = "List amount of the quote at the time this document was generated."
     label = "List Amount"
     precision = 18
@@ -89,7 +86,6 @@ type salesforce.SBQQ__QuoteDocument__c {
     apiName = "SBQQ__QuoteDocument__c.SBQQ__NetAmount__c"
     deprecated = false
     description = "Net amount on the quote at the time this document was generated."
-    externalId = false
     inlineHelpText = "Net amount on the quote at the time this document was generated."
     label = "Net Amount"
     precision = 18
@@ -104,7 +100,6 @@ type salesforce.SBQQ__QuoteDocument__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Lookup to the Opportunity that parents the Quote for this document. References the opportunity on the quote for this document, allowing the Opportunity Quote Documents Related List to reside on the Opportunity as well as the Quote."
-    externalId = false
     inlineHelpText = "Choose the Opportunity that parents the Quote for this document."
     label = "Opportunity"
     referenceTo = [
@@ -121,7 +116,6 @@ type salesforce.SBQQ__QuoteDocument__c {
     apiName = "SBQQ__QuoteDocument__c.SBQQ__OutputFormat__c"
     deprecated = false
     description = "Output format of this document."
-    externalId = false
     inlineHelpText = "Choose the output format for this document."
     label = "Output Format"
     trackTrending = false
@@ -147,7 +141,6 @@ type salesforce.SBQQ__QuoteDocument__c {
     apiName = "SBQQ__QuoteDocument__c.SBQQ__PaperSize__c"
     deprecated = false
     description = "Paper size of this document."
-    externalId = false
     inlineHelpText = "Choose the paper size for this document."
     label = "Paper Size"
     trackTrending = false
@@ -183,7 +176,6 @@ type salesforce.SBQQ__QuoteDocument__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Quote Template that generated this document."
-    externalId = false
     inlineHelpText = "Quote Template that generated this document."
     label = "Quote Template"
     referenceTo = [
@@ -200,7 +192,6 @@ type salesforce.SBQQ__QuoteDocument__c {
     apiName = "SBQQ__QuoteDocument__c.SBQQ__Quote__c"
     deprecated = false
     description = "Quote to which this Quote Document belongs."
-    externalId = false
     inlineHelpText = "Quote to which this Quote Document belongs."
     label = "Quote"
     referenceTo = [
@@ -220,7 +211,6 @@ type salesforce.SBQQ__QuoteDocument__c {
     apiName = "SBQQ__QuoteDocument__c.SBQQ__SignatureStatus__c"
     deprecated = false
     description = "Status of electronic signature."
-    externalId = false
     inlineHelpText = "Status of electronic signature."
     label = "Signature Status"
     trackTrending = false

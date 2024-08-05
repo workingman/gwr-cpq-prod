@@ -4,7 +4,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
     defaultValue = false
     deprecated = false
     description = "Flag that indicates changes to this configuration attribute should apply immediately."
-    externalId = false
     inlineHelpText = "Select the checkbox to immediately apply changes to this option. Use sparingly to avoid slow user experience."
     label = "Apply Immediately"
     trackTrending = false
@@ -17,7 +16,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
     defaultValue = false
     deprecated = false
     description = "Apply configuration attribute selection to product options."
-    externalId = false
     inlineHelpText = "Select the checkbox to apply configuration attribute selection to product options."
     label = "Apply To Product Options"
     trackTrending = false
@@ -30,7 +28,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
     defaultValue = false
     deprecated = false
     description = "Set the value of this attribute when adding a product from a Dynamic Feature using the value of the added product's matching field."
-    externalId = false
     inlineHelpText = "Set the value of this attribute when adding a product from a Dynamic Feature using the value of the added product's matching field."
     label = "Auto-Select"
     trackTrending = false
@@ -42,7 +39,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
     apiName = "SBQQ__ConfigurationAttribute__c.SBQQ__ColumnOrder__c"
     deprecated = false
     description = "Columns are comprised of a picklist (of 1, 2, or 3) for each Configuration Attribute. A maximum of 3 columns is allowed."
-    externalId = false
     inlineHelpText = "Columns are comprised of a picklist (of 1, 2, or 3) for each Configuration Attribute. A maximum of 3 columns is allowed."
     label = "Column Order"
     trackTrending = false
@@ -88,7 +84,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
     apiName = "SBQQ__ConfigurationAttribute__c.SBQQ__DefaultObject__c"
     deprecated = false
     description = "Target object for the default value of the attribute."
-    externalId = false
     inlineHelpText = "Target object for the default value of the attribute."
     label = "Default Object"
     trackTrending = false
@@ -130,7 +125,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Feature in which this attribute should be rendered."
-    externalId = false
     inlineHelpText = "Specify the feature in which this attribute should be entered."
     label = "Feature"
     lookupFilter = {
@@ -158,7 +152,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
     apiName = "SBQQ__ConfigurationAttribute__c.SBQQ__Global__c"
     deprecated = false
     description = "Indicates if this attribute has a global target field."
-    externalId = false
     formula = "CONTAINS(TEXT(SBQQ__TargetField__c), '.')"
     inlineHelpText = "Indicates if this attribute has a global target field."
     label = "Global"
@@ -177,7 +170,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
     apiName = "SBQQ__ConfigurationAttribute__c.SBQQ__HiddenValues__c"
     deprecated = false
     description = "Values from the backing picklist field that should be hidden on this bundle."
-    externalId = false
     inlineHelpText = "Enter values from the corresponding picklist field on Product Option object that you want to be hidden on this bundle."
     label = "Hidden Values"
     length = 5000
@@ -192,7 +184,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
     defaultValue = false
     deprecated = false
     description = "If flagged as hidden, the Configuration Attribute will not appear on the Product Configurator Page."
-    externalId = false
     inlineHelpText = "If flagged as hidden, the Configuration Attribute will not appear on the Product Configurator Page."
     label = "Hidden"
     trackTrending = false
@@ -204,7 +195,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
     apiName = "SBQQ__ConfigurationAttribute__c.SBQQ__Position__c"
     deprecated = false
     description = "Position of the attribute."
-    externalId = false
     inlineHelpText = "Specify position of this attribute. Top renders above the options. Bottom renders below."
     label = "Position"
     trackTrending = false
@@ -231,7 +221,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Product being configured."
-    externalId = false
     inlineHelpText = "Specify product on which you are creating the attribute."
     label = "Product"
     referenceTo = [
@@ -249,7 +238,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
     defaultValue = false
     deprecated = false
     description = "Indicates whether the attributes requires a value."
-    externalId = false
     inlineHelpText = "Specify whether this attribute requires a value."
     label = "Required"
     trackTrending = false
@@ -261,7 +249,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
     apiName = "SBQQ__ConfigurationAttribute__c.SBQQ__ShownValues__c"
     deprecated = false
     description = "Values from the backing picklist field that should be shown on this bundle."
-    externalId = false
     inlineHelpText = "Enter values from the corresponding picklist field on Product Option object that you want to be shown on this bundle."
     label = "Shown Values"
     length = 5000
@@ -275,7 +262,6 @@ type salesforce.SBQQ__ConfigurationAttribute__c {
     apiName = "SBQQ__ConfigurationAttribute__c.SBQQ__TargetField__c"
     deprecated = false
     description = "Field on the Product Option that sources remaining metadata and holds the value."
-    externalId = false
     inlineHelpText = "Specify field on Product Option that will hold this attribute's value."
     label = "Target Field"
     trackTrending = false

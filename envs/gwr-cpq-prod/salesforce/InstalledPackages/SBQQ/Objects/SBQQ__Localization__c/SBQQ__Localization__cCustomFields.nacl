@@ -64,7 +64,6 @@ type salesforce.SBQQ__Localization__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The line column related to this content."
-    externalId = false
     inlineHelpText = "The line column related to this content."
     label = "Line Column"
     referenceTo = [
@@ -81,7 +80,6 @@ type salesforce.SBQQ__Localization__c {
     apiName = "SBQQ__Localization__c.SBQQ__LongTextArea__c"
     deprecated = false
     description = "This field stores translations for Long Text fields."
-    externalId = false
     inlineHelpText = "This field stores translations for Long Text fields."
     label = "Long Text Area"
     length = 32768
@@ -96,7 +94,6 @@ type salesforce.SBQQ__Localization__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The Dimension related to this content."
-    externalId = false
     inlineHelpText = "The Dimension related to this content."
     label = "Price Dimension"
     referenceTo = [
@@ -114,7 +111,6 @@ type salesforce.SBQQ__Localization__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The product feature related to this content."
-    externalId = false
     inlineHelpText = "The product feature related to this content."
     label = "Product Feature"
     referenceTo = [
@@ -132,7 +128,6 @@ type salesforce.SBQQ__Localization__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The product option that generated this line."
-    externalId = false
     inlineHelpText = "The product option that generated this line."
     label = "Product Option"
     referenceTo = [
@@ -150,7 +145,6 @@ type salesforce.SBQQ__Localization__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The product related to this content."
-    externalId = false
     inlineHelpText = "The product related to this content."
     label = "Product"
     referenceTo = [
@@ -168,7 +162,6 @@ type salesforce.SBQQ__Localization__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The template to use for this content."
-    externalId = false
     inlineHelpText = "The template to use for this content."
     label = "Quote Template"
     referenceTo = [
@@ -186,7 +179,6 @@ type salesforce.SBQQ__Localization__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The parent term for this term."
-    externalId = false
     inlineHelpText = "The parent term for this term."
     label = "Quote Term"
     referenceTo = [
@@ -203,7 +195,6 @@ type salesforce.SBQQ__Localization__c {
     apiName = "SBQQ__Localization__c.SBQQ__RichTextArea__c"
     deprecated = false
     description = "This field stores translations for Rich Text fields."
-    externalId = false
     inlineHelpText = "This field stores translations for Rich Text fields."
     label = "Rich Text Area"
     length = 32768
@@ -218,7 +209,6 @@ type salesforce.SBQQ__Localization__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The template content to use for this content."
-    externalId = false
     inlineHelpText = "The template content to use for this content."
     label = "Template Content"
     referenceTo = [
@@ -235,7 +225,6 @@ type salesforce.SBQQ__Localization__c {
     apiName = "SBQQ__Localization__c.SBQQ__TextArea__c"
     deprecated = false
     description = "This field stores translations for Text Area fields."
-    externalId = false
     inlineHelpText = "This field stores translations for Text Area fields."
     label = "Text Area"
     trackTrending = false
@@ -263,7 +252,6 @@ type salesforce.SBQQ__Localization__c {
     defaultValue = false
     deprecated = false
     description = "To indicate whether this field is user-defined or not."
-    externalId = false
     inlineHelpText = "To indicate whether this field is user-defined or not."
     label = "User Defined"
     trackTrending = false

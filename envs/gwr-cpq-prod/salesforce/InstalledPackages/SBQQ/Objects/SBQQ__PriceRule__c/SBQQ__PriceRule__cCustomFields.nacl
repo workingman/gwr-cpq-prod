@@ -4,7 +4,6 @@ type salesforce.SBQQ__PriceRule__c {
     defaultValue = false
     deprecated = false
     description = "Indicates whether this rule is active or not."
-    externalId = false
     inlineHelpText = "Indicates whether this rule is active or not."
     label = "Active"
     trackTrending = false
@@ -16,7 +15,6 @@ type salesforce.SBQQ__PriceRule__c {
     apiName = "SBQQ__PriceRule__c.SBQQ__AdvancedCondition__c"
     deprecated = false
     description = "Can only be entered if the Conditions Met is Custom. Enter a combination of the Price Condition Index #s, AND, OR, and parenthesis (e.g. (123 AND 124) AND 125)."
-    externalId = false
     inlineHelpText = "Can only be entered if the Conditions Met is Custom. Enter a combination of the Price Condition Index #s, AND, OR, and parenthesis (e.g. (123 AND 124) AND 125)."
     label = "Advanced Condition"
     trackTrending = false
@@ -28,7 +26,6 @@ type salesforce.SBQQ__PriceRule__c {
     apiName = "SBQQ__PriceRule__c.SBQQ__ConditionsMet__c"
     deprecated = false
     description = "Choose the behavior for your conditions: All is AND, Any is OR, Custom is a combination of AND/OR."
-    externalId = false
     inlineHelpText = "Choose the behavior for your conditions: All is AND, Any is OR, Custom is a combination of AND/OR."
     label = "Conditions Met"
     trackTrending = false
@@ -59,7 +56,6 @@ type salesforce.SBQQ__PriceRule__c {
     apiName = "SBQQ__PriceRule__c.SBQQ__ConfiguratorEvaluationEvent__c"
     deprecated = false
     description = "Event that specifies when Price Rules should be fired."
-    externalId = false
     inlineHelpText = "When None or Save is selected, the Configurator scoped price rules will fire on save.  When Edit is selected, the Configurator scoped price rules will fire on edit and save."
     label = "Configurator Evaluation Event"
     trackTrending = false
@@ -85,7 +81,6 @@ type salesforce.SBQQ__PriceRule__c {
     apiName = "SBQQ__PriceRule__c.SBQQ__EvaluationEvent__c"
     deprecated = false
     description = "Event that causes this rule to be evaluated."
-    externalId = false
     inlineHelpText = "Specify when this rule should be evaluated. Only to be used when targeting Quote Line and not supported on legacy calculator."
     label = "Calculator Evaluation Event"
     trackTrending = false
@@ -137,7 +132,6 @@ type salesforce.SBQQ__PriceRule__c {
     apiName = "SBQQ__PriceRule__c.SBQQ__LookupObject__c"
     deprecated = false
     description = "API Name of the Custom Object that stores the lookup data."
-    externalId = false
     inlineHelpText = "API Name of the Custom Object that stores the lookup data."
     label = "Lookup Object"
     trackTrending = false
@@ -164,7 +158,6 @@ type salesforce.SBQQ__PriceRule__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Optional field that makes this rule specific to the product."
-    externalId = false
     inlineHelpText = "Choose a product to associate to this rule."
     label = "Product"
     referenceTo = [
@@ -181,7 +174,6 @@ type salesforce.SBQQ__PriceRule__c {
     apiName = "SBQQ__PriceRule__c.SBQQ__TargetObject__c"
     deprecated = false
     description = "Object that’s the target of the field update."
-    externalId = false
     inlineHelpText = "Event during which this rule is evaluated."
     label = "Evaluation Scope"
     trackTrending = false

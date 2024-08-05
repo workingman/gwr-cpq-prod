@@ -13,7 +13,6 @@ type salesforce.Opportunity {
   }
   salesforce.Picklist DeliveryInstallationStatus__c {
     apiName = "Opportunity.DeliveryInstallationStatus__c"
-    externalId = false
     label = "Delivery/Installation Status"
     trackTrending = false
     valueSet = [
@@ -68,7 +67,6 @@ type salesforce.Opportunity {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Indicates the relationship to your Amended Contract."
-    externalId = false
     inlineHelpText = "Lookup to your Amended Contract."
     label = "Amended Contract"
     referenceTo = [
@@ -86,7 +84,6 @@ type salesforce.Opportunity {
     defaultValue = false
     deprecated = false
     description = "Internal flag used to kick off automatic asset and subscription conversion."
-    externalId = false
     inlineHelpText = "Salesforce CPQ uses this field to automatically convert assets and subscriptions."
     label = "Contracted"
     trackTrending = false
@@ -99,7 +96,6 @@ type salesforce.Opportunity {
     defaultValue = false
     deprecated = false
     description = "Select this checkbox to create Contracted Prices without creating a Contract."
-    externalId = false
     inlineHelpText = "Select this checkbox to create Contracted Prices without creating a Contract."
     label = "Create Contracted Prices"
     trackTrending = false
@@ -127,7 +123,6 @@ type salesforce.Opportunity {
     defaultValue = false
     deprecated = false
     description = "Internal flag that drives automatic order creation."
-    externalId = false
     inlineHelpText = "Select this checkbox to automatically create an order from the primary quote."
     label = "Ordered"
     trackTrending = false
@@ -140,7 +135,6 @@ type salesforce.Opportunity {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Points to primary quote on this opportunity."
-    externalId = false
     inlineHelpText = "Salesforce CPQ uses this to point to the primary quote on this opportunity."
     label = "Primary Quote"
     lookupFilter = {
@@ -183,7 +177,6 @@ type salesforce.Opportunity {
     defaultValue = false
     deprecated = false
     description = "Indicates this opportunity is a renewal opportunity."
-    externalId = false
     inlineHelpText = "Indicates this opportunity is a renewal opportunity."
     label = "Renewal"
     trackTrending = false
@@ -196,7 +189,6 @@ type salesforce.Opportunity {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Contract being renewed by this renewal opportunity. In case opportunity rolls up several contracts this points at the master contract."
-    externalId = false
     inlineHelpText = "Contract being renewed by this renewal opportunity. If the several contracts roll up to this opportunity, this points at the master contract."
     label = "Renewed Contract"
     referenceTo = [

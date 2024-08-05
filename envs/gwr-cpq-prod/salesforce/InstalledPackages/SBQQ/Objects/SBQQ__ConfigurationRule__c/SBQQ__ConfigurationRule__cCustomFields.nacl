@@ -4,7 +4,6 @@ type salesforce.SBQQ__ConfigurationRule__c {
     defaultValue = false
     deprecated = false
     description = "Indicates whether this rule should be used in validating configurations."
-    externalId = false
     inlineHelpText = "Indicates whether this rule should be used in validating configurations."
     label = "Active"
     trackTrending = false
@@ -16,7 +15,6 @@ type salesforce.SBQQ__ConfigurationRule__c {
     apiName = "SBQQ__ConfigurationRule__c.SBQQ__AscendingNestedLevel__c"
     deprecated = false
     description = "Include parent bundle configuration with the specified level when evaluating this rule's conditions in the configurator for alert, validation and selection rules."
-    externalId = false
     inlineHelpText = "Include parent bundle configuration with the specified level when evaluating this rule's conditions in the configurator for alert, validation and selection rules."
     label = "Parent Bundle Condition Level"
     trackTrending = false
@@ -37,7 +35,6 @@ type salesforce.SBQQ__ConfigurationRule__c {
     apiName = "SBQQ__ConfigurationRule__c.SBQQ__DescendingActionNesting__c"
     deprecated = false
     description = "Allow child bundle configurations up to the specified level to be targeted by this rule's actions when executing in the configurator for selection rules only."
-    externalId = false
     inlineHelpText = "Allow child bundle configurations up to the specified level to be targeted by this rule's actions when executing in the configurator for selection rules only."
     label = "Child Bundle Action Level"
     trackTrending = false
@@ -58,7 +55,6 @@ type salesforce.SBQQ__ConfigurationRule__c {
     apiName = "SBQQ__ConfigurationRule__c.SBQQ__DescendingNestedLevel__c"
     deprecated = false
     description = "Include child bundle configurations to the specified level when evaluating this rule's conditions in the configurator for alert, validation and selection rules."
-    externalId = false
     inlineHelpText = "Include child bundle configurations to the specified level when evaluating this rule's conditions in the configurator for alert, validation and selection rules."
     label = "Child Bundle Condition Level"
     trackTrending = false
@@ -80,7 +76,6 @@ type salesforce.SBQQ__ConfigurationRule__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Product feature validated by this rule."
-    externalId = false
     inlineHelpText = "Select the product feature you want this rule to validate."
     label = "Product Feature"
     lookupFilter = {
@@ -108,7 +103,6 @@ type salesforce.SBQQ__ConfigurationRule__c {
     apiName = "SBQQ__ConfigurationRule__c.SBQQ__ProductRule__c"
     deprecated = false
     description = "The actual rule that defines logic used to validate product configuration."
-    externalId = false
     inlineHelpText = "Select the product rule that contains the logic to validate your product configurations."
     label = "Product Rule"
     lookupFilter = {
@@ -140,7 +134,6 @@ type salesforce.SBQQ__ConfigurationRule__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Configured product to be validated by this rule."
-    externalId = false
     inlineHelpText = "Select the configured product you want this rule to validate."
     label = "Product"
     referenceTo = [

@@ -39,10 +39,6 @@ type salesforce.Contact {
     updateable = true
     queryable = true
   }
-  salesforce.Unknown ContactSource {
-    apiName = "Contact.ContactSource"
-    _hidden_value = true
-  }
   salesforce.Text Department {
     apiName = "Contact.Department"
     length = 80

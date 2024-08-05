@@ -15,7 +15,6 @@ type salesforce.SBQQ__LookupData__c {
   salesforce.TextArea SBQQ__Message__c {
     apiName = "SBQQ__LookupData__c.SBQQ__Message__c"
     deprecated = false
-    externalId = false
     label = "Message"
     trackTrending = false
     createable = true
@@ -27,7 +26,6 @@ type salesforce.SBQQ__LookupData__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "For use with Product Selection Rules, represents the Product to which the Product Action applies."
-    externalId = false
     inlineHelpText = "For use with Product Selection Rules, represents the Product to which the Product Action applies."
     label = "Product"
     referenceTo = [
@@ -45,7 +43,6 @@ type salesforce.SBQQ__LookupData__c {
     defaultValue = false
     deprecated = false
     description = "For Product Selection Rules, indicates that the action is required."
-    externalId = false
     inlineHelpText = "For Product Selection Rules, indicates that the action is required."
     label = "Required"
     trackTrending = false
@@ -57,7 +54,6 @@ type salesforce.SBQQ__LookupData__c {
     apiName = "SBQQ__LookupData__c.SBQQ__Type__c"
     deprecated = false
     description = "For use with Product Selection Rules, specifies the type of action to be performed on the Product."
-    externalId = false
     inlineHelpText = "For use with Product Selection Rules, specifies the type of action to be performed on the Product."
     label = "Type"
     trackTrending = false

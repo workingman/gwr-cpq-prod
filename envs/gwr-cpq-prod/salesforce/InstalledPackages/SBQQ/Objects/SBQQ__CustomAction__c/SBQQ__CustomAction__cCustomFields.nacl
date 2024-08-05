@@ -3,7 +3,6 @@ type salesforce.SBQQ__CustomAction__c {
     apiName = "SBQQ__CustomAction__c.SBQQ__Action__c"
     deprecated = false
     description = "Action that this custom action performs."
-    externalId = false
     inlineHelpText = "Action that this custom action performs."
     label = "Action"
     trackTrending = false
@@ -514,7 +513,6 @@ type salesforce.SBQQ__CustomAction__c {
     defaultValue = false
     deprecated = false
     description = "Flag that determines whether this action is used."
-    externalId = false
     inlineHelpText = "Select the checkbox to make this action available for use."
     label = "Active"
     trackTrending = false
@@ -527,7 +525,6 @@ type salesforce.SBQQ__CustomAction__c {
     defaultValue = false
     deprecated = false
     description = "Indicates this Custom Action is a Brand Button. Affects styling of un-nested Actions only."
-    externalId = false
     inlineHelpText = "Indicates this Custom Action is a Brand Button. Affects styling of un-nested Actions only."
     label = "Brand Button"
     trackTrending = false
@@ -554,7 +551,6 @@ type salesforce.SBQQ__CustomAction__c {
     apiName = "SBQQ__CustomAction__c.SBQQ__ConditionsMet__c"
     deprecated = false
     description = "Choose the behavior for your conditions: All is AND; Any is OR."
-    externalId = false
     inlineHelpText = "Choose the behavior for your conditions: All is AND; Any is OR."
     label = "Conditions Met"
     trackTrending = false
@@ -581,7 +577,6 @@ type salesforce.SBQQ__CustomAction__c {
     defaultValue = false
     deprecated = false
     description = "Sets action to be the default overriding action."
-    externalId = false
     inlineHelpText = "Select checkbox to set action as the default overriding action."
     label = "Default"
     trackTrending = false
@@ -593,7 +588,6 @@ type salesforce.SBQQ__CustomAction__c {
     apiName = "SBQQ__CustomAction__c.SBQQ__Description__c"
     deprecated = false
     description = "Description of the Custom Action which will appear when users hover over the button."
-    externalId = false
     inlineHelpText = "Enter the value for what you want to appear when a user hovers over the Custom Action button."
     label = "Description"
     trackTrending = false
@@ -651,7 +645,6 @@ type salesforce.SBQQ__CustomAction__c {
     apiName = "SBQQ__CustomAction__c.SBQQ__Icon__c"
     deprecated = false
     description = "Icon for this custom action"
-    externalId = false
     inlineHelpText = "Icon for this custom action"
     label = "Icon"
     trackTrending = false
@@ -1517,7 +1510,6 @@ type salesforce.SBQQ__CustomAction__c {
     apiName = "SBQQ__CustomAction__c.SBQQ__Label__c"
     deprecated = false
     description = "Label displayed for this action in the UI."
-    externalId = false
     inlineHelpText = "Label displayed for this action in the UI."
     label = "Label"
     trackTrending = false
@@ -1743,7 +1735,6 @@ type salesforce.SBQQ__CustomAction__c {
     apiName = "SBQQ__CustomAction__c.SBQQ__Location__c"
     deprecated = false
     description = "Location of this action on the page."
-    externalId = false
     inlineHelpText = "Location of this action on the page."
     label = "Location"
     trackTrending = false
@@ -1900,7 +1891,6 @@ type salesforce.SBQQ__CustomAction__c {
     apiName = "SBQQ__CustomAction__c.SBQQ__Page__c"
     deprecated = false
     description = "The page of which to add the custom action."
-    externalId = false
     inlineHelpText = "The page of which to add the custom action."
     label = "Page"
     trackTrending = false
@@ -1957,7 +1947,6 @@ type salesforce.SBQQ__CustomAction__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Reference to the parent custom action that this action is grouped under."
-    externalId = false
     inlineHelpText = "Reference to the parent custom action that this action is grouped under."
     label = "Parent Custom Action"
     lookupFilter = {
@@ -1985,7 +1974,6 @@ type salesforce.SBQQ__CustomAction__c {
     apiName = "SBQQ__CustomAction__c.SBQQ__ReturnURL__c"
     deprecated = false
     description = "URL to return to after successful execution. Not applicable to all actions."
-    externalId = false
     inlineHelpText = "URL to return to after successful execution. Not applicable to all actions."
     label = "Return URL"
     length = 2000
@@ -1999,7 +1987,6 @@ type salesforce.SBQQ__CustomAction__c {
     apiName = "SBQQ__CustomAction__c.SBQQ__TargetObject__c"
     deprecated = false
     description = "Object targeted by this action."
-    externalId = false
     inlineHelpText = "Object targeted by this action."
     label = "Target Object"
     trackTrending = false
@@ -2035,7 +2022,6 @@ type salesforce.SBQQ__CustomAction__c {
     apiName = "SBQQ__CustomAction__c.SBQQ__Type__c"
     deprecated = false
     description = "UI element that this custom action is rendered as."
-    externalId = false
     inlineHelpText = "UI element that this custom action is rendered as."
     label = "Type"
     trackTrending = false
@@ -2066,7 +2052,6 @@ type salesforce.SBQQ__CustomAction__c {
     apiName = "SBQQ__CustomAction__c.SBQQ__URLTarget__c"
     deprecated = false
     description = "Method of navigating to the URL."
-    externalId = false
     inlineHelpText = "Method of navigating to the URL."
     label = "URL Target"
     trackTrending = false
@@ -2092,7 +2077,6 @@ type salesforce.SBQQ__CustomAction__c {
     apiName = "SBQQ__CustomAction__c.SBQQ__URL__c"
     deprecated = false
     description = "URL to visit 'URL' is selected as the Target Object."
-    externalId = false
     inlineHelpText = "Specify URL to navigate to. You have access to Line, Group, and Quote record fields dependent on selected location. Examples: http://www.salesforce.com, http://www.yoursite.com/{!Id}, or /{!SBQQ__Quote__c.Name}/{!SBQQ__YourCustomVar__c}"
     label = "URL"
     length = 2000

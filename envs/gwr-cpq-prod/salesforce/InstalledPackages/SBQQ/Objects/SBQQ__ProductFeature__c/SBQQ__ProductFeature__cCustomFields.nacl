@@ -15,7 +15,6 @@ type salesforce.SBQQ__ProductFeature__c {
     apiName = "SBQQ__ProductFeature__c.SBQQ__Category__c"
     deprecated = false
     description = "Category of options in this feature. Allows for another level of grouping."
-    externalId = false
     inlineHelpText = "Assign this feature to a category such that multiple features with related options are grouped together."
     label = "Category"
     trackTrending = false
@@ -41,7 +40,6 @@ type salesforce.SBQQ__ProductFeature__c {
     apiName = "SBQQ__ProductFeature__c.SBQQ__ConfigurationFieldSet__c"
     deprecated = false
     description = "The API name of the field set that will be used for this feature during configuration."
-    externalId = false
     inlineHelpText = "The API name of the field set that will be used for this feature during configuration."
     label = "Configuration Field Set"
     trackTrending = false
@@ -63,7 +61,6 @@ type salesforce.SBQQ__ProductFeature__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The product bundle that includes this feature. If you created the feature from the product detail page, this should already be populated."
-    externalId = false
     inlineHelpText = "The product bundle that includes this feature. If you created the feature from the product detail page, this should already be populated."
     label = "Configured SKU"
     referenceTo = [
@@ -81,7 +78,6 @@ type salesforce.SBQQ__ProductFeature__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Discount schedule to be applied to the product selected by all options in this feature."
-    externalId = false
     inlineHelpText = "Discount schedule to be applied to the product selected by all options in this feature. This overrides discount schedule selected on the product."
     label = "Discount Schedule"
     referenceTo = [
@@ -98,7 +94,6 @@ type salesforce.SBQQ__ProductFeature__c {
     apiName = "SBQQ__ProductFeature__c.SBQQ__DynamicProductFilterFieldSet__c"
     deprecated = false
     description = "The API name of the field set that will be used when filtering dynamic options for this feature during configuration."
-    externalId = false
     inlineHelpText = "The API name of the field set that will be used when filtering dynamic options for this feature during configuration."
     label = "Dynamic Option Filter Field Set"
     trackTrending = false
@@ -119,7 +114,6 @@ type salesforce.SBQQ__ProductFeature__c {
     apiName = "SBQQ__ProductFeature__c.SBQQ__DynamicProductLookupFieldSet__c"
     deprecated = false
     description = "The API name of the field set that will be used when viewing dynamic options for this feature during configuration."
-    externalId = false
     inlineHelpText = "The API name of the field set that will be used when viewing dynamic options for this feature during configuration."
     label = "Dynamic Option Lookup Field Set"
     trackTrending = false
@@ -188,7 +182,6 @@ type salesforce.SBQQ__ProductFeature__c {
     apiName = "SBQQ__ProductFeature__c.SBQQ__OptionSelectionMethod__c"
     deprecated = false
     description = "Determines how user selects options attached to this product. \"Click\" method presents options with checkboxes next to them. \"Add\" renders a button which brings up predefined options. \"Dynamic\" renders a button which brings up all active products."
-    externalId = false
     inlineHelpText = "Determines how user selects options attached to this product. \"Click\" method presents options with checkboxes next to them. \"Add\" renders a button which brings up predefined options. \"Dynamic\" renders a button which brings up all active products."
     label = "Option Selection Method"
     trackTrending = false

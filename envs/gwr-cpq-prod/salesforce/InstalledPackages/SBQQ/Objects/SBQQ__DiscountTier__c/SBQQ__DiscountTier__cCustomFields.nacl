@@ -3,7 +3,6 @@ type salesforce.SBQQ__DiscountTier__c {
     apiName = "SBQQ__DiscountTier__c.SBQQ__DiscountAmount__c"
     deprecated = false
     description = "Discount amount applied when quantity falls in this tier."
-    externalId = false
     inlineHelpText = "Discount amount applied when quantity falls in this tier."
     label = "Discount ({0})"
     precision = 14
@@ -17,7 +16,6 @@ type salesforce.SBQQ__DiscountTier__c {
     apiName = "SBQQ__DiscountTier__c.SBQQ__Discount__c"
     deprecated = false
     description = "Discount percentage applied when quantity falls in this tier."
-    externalId = false
     inlineHelpText = "Discount percentage applied when quantity falls in this tier."
     label = "Discount (%)"
     precision = 14
@@ -61,7 +59,6 @@ type salesforce.SBQQ__DiscountTier__c {
     apiName = "SBQQ__DiscountTier__c.SBQQ__Price__c"
     deprecated = false
     description = "The actual price of this discount tier. This field will be populated when a new set of discount schedules are created for a new Order record."
-    externalId = false
     inlineHelpText = "The actual price of this discount tier. This field will be populated when a new set of discount schedules are created for a new Order record."
     label = "Price"
     precision = 18
@@ -75,7 +72,6 @@ type salesforce.SBQQ__DiscountTier__c {
     apiName = "SBQQ__DiscountTier__c.SBQQ__Schedule__c"
     deprecated = false
     description = "Discount Schedule to which this tier belongs."
-    externalId = false
     inlineHelpText = "Discount Schedule to which this tier belongs."
     label = "Schedule"
     referenceTo = [

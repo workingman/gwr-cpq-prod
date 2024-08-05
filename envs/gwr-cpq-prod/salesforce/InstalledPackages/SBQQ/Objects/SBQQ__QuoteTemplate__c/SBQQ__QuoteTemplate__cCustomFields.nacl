@@ -4,7 +4,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     defaultValue = false
     deprecated = false
     description = "Flag that determines whether all package products are printed on quote documents or only ones that are non-zero."
-    externalId = false
     inlineHelpText = "Select the checkbox if all package products should be printed on quote documents; otherwise, only ones that are non-zero are printed."
     label = "Show All Package Product"
     trackTrending = false
@@ -66,7 +65,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     defaultValue = false
     deprecated = false
     description = "Determines if quote line items with the Bundled checkbox selected are displayed on quote documents generated from this template."
-    externalId = false
     inlineHelpText = "Select the checkbox if quote line items with Bundled enabled are displayed on quote documents generated from this template."
     label = "Show Bundled Products"
     trackTrending = false
@@ -121,7 +119,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__CompanyFax__c"
     deprecated = false
     description = "Company FAX displayed on quote documents."
-    externalId = false
     inlineHelpText = "Company FAX displayed on quote documents."
     label = "Company Fax"
     trackTrending = false
@@ -148,7 +145,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__CompanyPhone__c"
     deprecated = false
     description = "Company phone displayed on quote documents."
-    externalId = false
     inlineHelpText = "Company phone displayed on quote documents."
     label = "Company Phone"
     trackTrending = false
@@ -221,7 +217,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     defaultValue = false
     deprecated = false
     description = "Flag that determines whether component products are printed on quote documents, as indicated by the Component checkbox on the product"
-    externalId = false
     inlineHelpText = "Select the checkbox if component products with the Component enabled should not be printed on quote documents."
     label = "Hide Component Products"
     trackTrending = false
@@ -233,7 +228,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__CustomerDiscountField__c"
     deprecated = false
     description = "Field on the Quote object that computes the customer discount."
-    externalId = false
     inlineHelpText = "Field on the Quote object that computes the customer discount."
     label = "Customer Discount Field"
     trackTrending = false
@@ -271,7 +265,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     defaultValue = false
     deprecated = false
     description = "Determines if quote-level customer discount is displayed in the quote totals."
-    externalId = false
     inlineHelpText = "Select the checkbox if you want quote-level customer discount displayed in the quote totals."
     label = "Show Customer Discount"
     trackTrending = false
@@ -284,7 +277,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     defaultValue = false
     deprecated = false
     description = "Checkbox that marks the template as default, when selected."
-    externalId = false
     inlineHelpText = "Select this checkbox to mark this template as default."
     label = "Default"
     trackTrending = false
@@ -296,7 +288,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__DeploymentStatus__c"
     deprecated = false
     description = "Deployment status of this template. \"In Development\" templates are only visible to users with Customize Application permission."
-    externalId = false
     inlineHelpText = "Deployment status of this template. Change to \"Deployed\" to make this template visible to non-admin users."
     label = "Deployment Status"
     trackTrending = false
@@ -322,7 +313,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__DiscountScheduleShown__c"
     deprecated = false
     description = "Determines if product discount schedule is displayed under the quote-lines."
-    externalId = false
     inlineHelpText = "Choose how to display discount schedules on the quote document. Per Quote Line will show the discount schedule and Tiers right-aligned under each Quote Line."
     label = "Show Discount Schedule"
     trackTrending = false
@@ -343,7 +333,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__ExcludeHeaderFooter__c"
     deprecated = false
     description = "Excludes template header and footer for First Page, Last Page, or both the First and Last Page."
-    externalId = false
     inlineHelpText = "Excludes template header and footer for First Page, Last Page, or both the First and Last Page."
     label = "Exclude Header & Footer"
     trackTrending = false
@@ -374,7 +363,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__ExcludedPages__c"
     deprecated = false
     description = "Excludes page numbering for All Pages, First Page, Second Page, and/or both the First and Second Page."
-    externalId = false
     inlineHelpText = "Excludes page numbering for All Pages, First Page, Second Page, and/or both the First and Second Page."
     label = "Exclude Page Numbers"
     trackTrending = false
@@ -410,7 +398,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__FontFamily__c"
     deprecated = false
     description = "Family of the font that should be applied to text in this template."
-    externalId = false
     inlineHelpText = "Family of the font that should be applied to text in this template."
     label = "Font Family"
     trackTrending = false
@@ -543,7 +530,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Template content that should be rendered in the footer."
-    externalId = false
     inlineHelpText = "Template content that should be rendered in the footer."
     label = "Footer Content"
     referenceTo = [
@@ -606,7 +592,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__GroupField__c"
     deprecated = false
     description = "Contains the values you want to use when grouping and subtotaling line items."
-    externalId = false
     inlineHelpText = "Select the field that has the values you want to use when grouping and subtotaling line items."
     label = "Group Field"
     trackTrending = false
@@ -627,7 +612,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__GroupFontFamily__c"
     deprecated = false
     description = "Family of the font that should be applied to Group title text in this template."
-    externalId = false
     inlineHelpText = "Family of the font that should be applied to Group title text in this template."
     label = "Group Font Family"
     trackTrending = false
@@ -759,7 +743,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__GroupFontStyle__c"
     deprecated = false
     description = "Font style for Group titles. Default is normal if left blank."
-    externalId = false
     inlineHelpText = "Font style for Group titles. Default is normal if left blank."
     label = "Group Font Style"
     trackTrending = false
@@ -827,7 +810,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__GroupTextAlignment__c"
     deprecated = false
     description = "Specifies the alignment of Group title and Group Description. Defaults to Left if left blank."
-    externalId = false
     inlineHelpText = "Specifies the alignment of Group title and Group Description. Defaults to Left if left blank."
     label = "Group Text Alignment"
     trackTrending = false
@@ -875,7 +857,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "References template content that should be rendered in the header."
-    externalId = false
     inlineHelpText = "References template content that should be rendered in the header."
     label = "Header Content"
     referenceTo = [
@@ -908,7 +889,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     defaultValue = false
     deprecated = false
     description = "Hides group subtotals on documents generated from this template."
-    externalId = false
     inlineHelpText = "Select the checkbox if you want to hide group subtotals on documents generated from this template."
     label = "Hide Group Subtotals"
     trackTrending = false
@@ -952,7 +932,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__LineNumbering__c"
     deprecated = false
     description = "Specifies how line items are numbered on generated document."
-    externalId = false
     inlineHelpText = "Specify how to number line items on generated documents. \"Start at quote\" numbers all lines sequentially across groups (if any). \"Start at group\" resets numbers within each group."
     label = "Line Numbering"
     trackTrending = false
@@ -978,7 +957,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__LineSortField__c"
     deprecated = false
     description = "Field on Quote Line used to sort line items on document generated by this template."
-    externalId = false
     inlineHelpText = "Specify the field used in sorting line items on the document."
     label = "Line Sort Field"
     trackTrending = false
@@ -1045,7 +1023,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__PageNumberAlignment__c"
     deprecated = false
     description = "Specifies the page number alignment for the document."
-    externalId = false
     inlineHelpText = "Specify the page number alignment for the document. Defaults to Center if the field is blank."
     label = "Page Number Alignment"
     trackTrending = false
@@ -1076,7 +1053,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__PageNumberPosition__c"
     deprecated = false
     description = "Specifies where the page numbers are displayed in the document."
-    externalId = false
     inlineHelpText = "Specify where the page numbers are displayed in the document. Defaults to Footer if the field is blank."
     label = "Page Number Position"
     trackTrending = false
@@ -1118,7 +1094,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__PageOrientation__c"
     deprecated = false
     description = "Page orientation of PDF documents generated with this template."
-    externalId = false
     inlineHelpText = "Page orientation of PDF documents generated with this template."
     label = "Page Orientation"
     trackTrending = false
@@ -1177,7 +1152,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     defaultValue = false
     deprecated = false
     description = "Determines if the quote-level partner discount is displayed in the quote totals."
-    externalId = false
     inlineHelpText = "Select the checkbox if you want quote-level partner discount displayed in the quote totals."
     label = "Show Partner Discount"
     trackTrending = false
@@ -1190,7 +1164,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     defaultValue = true
     deprecated = false
     description = "Determines if renewed products are shown on Renewal quotes generated from this template."
-    externalId = false
     inlineHelpText = "Select the checkbox if renewed products should be shown on Renewal quotes generated from this template."
     label = "Show Renewed Products"
     trackTrending = false
@@ -1219,7 +1192,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__RollUpField__c"
     deprecated = false
     description = "Field on quote line object that's used to rollup lines."
-    externalId = false
     inlineHelpText = "Quote line field used for roll-up. All lines where this field returns the same value will be rolled up into the first line where the value occurs."
     label = "Roll-Up Field"
     trackTrending = false
@@ -1272,7 +1244,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__SubGroupField__c"
     deprecated = false
     description = "Field used to sub group line items."
-    externalId = false
     inlineHelpText = "Field used to sub group line items."
     label = "Sub Group Field"
     trackTrending = false
@@ -1293,7 +1264,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__SubtotalField__c"
     deprecated = false
     description = "Field to sum and display as group/quote subtotal."
-    externalId = false
     inlineHelpText = "Select a Field to sum and display as group/quote subtotal."
     label = "Subtotal Field"
     trackTrending = false
@@ -1376,7 +1346,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__TermsConditions__c"
     deprecated = false
     description = "Terms & Conditions printed on every document generated with this template."
-    externalId = false
     inlineHelpText = "Terms & Conditions printed on every document generated with this template."
     label = "Terms & Conditions"
     length = 32000
@@ -1391,7 +1360,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     defaultValue = false
     deprecated = false
     description = "Determines whether quote terms rendered by this template are numbered."
-    externalId = false
     inlineHelpText = "Select the checkbox if the quote terms rendered by this template should be numbered."
     label = "Number Terms"
     trackTrending = false
@@ -1435,7 +1403,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     apiName = "SBQQ__QuoteTemplate__c.SBQQ__TotalField__c"
     deprecated = false
     description = "Field to sum and display as group/quote total."
-    externalId = false
     inlineHelpText = "Select the Field to sum and display as group/quote total."
     label = "Total Field"
     trackTrending = false
@@ -1482,7 +1449,6 @@ type salesforce.SBQQ__QuoteTemplate__c {
     defaultValue = false
     deprecated = false
     description = "Flag that indicates whether quote totals should be printed on the quote document."
-    externalId = false
     inlineHelpText = "Select the checkbox to hide quote totals on the quote document."
     label = "Hide Totals"
     trackTrending = false

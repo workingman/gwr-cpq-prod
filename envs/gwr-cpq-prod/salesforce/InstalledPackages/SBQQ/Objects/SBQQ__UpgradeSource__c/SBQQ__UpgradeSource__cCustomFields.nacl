@@ -4,7 +4,6 @@ type salesforce.SBQQ__UpgradeSource__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Product being upgraded."
-    externalId = false
     inlineHelpText = "Specify product to upgrade from."
     label = "Source Product"
     referenceTo = [
@@ -37,7 +36,6 @@ type salesforce.SBQQ__UpgradeSource__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Upgrade product."
-    externalId = false
     inlineHelpText = "Specify the product to upgrade to."
     label = "Upgrade Product"
     referenceTo = [

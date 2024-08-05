@@ -4,7 +4,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Account that this discount schedule applies to. Only used in combination with Discount Schedule Override on Quote Line Editor UI."
-    externalId = false
     inlineHelpText = "Account that this discount schedule applies to. Only used in combination with Discount Schedule Override on Quote Line Editor UI."
     label = "Account"
     referenceTo = [
@@ -21,7 +20,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     apiName = "SBQQ__DiscountSchedule__c.SBQQ__AggregationScope__c"
     deprecated = false
     description = "Indicates whether quote lines referencing this schedule should be aggregated within quote, group or not at all for the purposes of volume discount calculation."
-    externalId = false
     inlineHelpText = "Specify how to aggregate quantities of quote lines for products using this schedule. By default quantity of each line (even for the same product) is considered independently."
     label = "Aggregation Scope"
     trackTrending = false
@@ -47,7 +45,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     apiName = "SBQQ__DiscountSchedule__c.SBQQ__ConstraintField__c"
     deprecated = false
     description = "For cross-order schedules, if you want to limit which subscriptions and assets are used to calculate your volume discounts, select the field that you want to match against the same field on the quote."
-    externalId = false
     inlineHelpText = "Select the field that you want to match against the same field on the quote."
     label = "Constraint Field"
     trackTrending = false
@@ -69,7 +66,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     defaultValue = false
     deprecated = false
     description = "Specifies whether volume discount should be applied on combined quantities across prior orders."
-    externalId = false
     inlineHelpText = "Select the checkbox if you want to extend volume discounts on total volume owned by customer (i.e. quantity quoted plus prior purchases)."
     label = "Cross Orders"
     trackTrending = false
@@ -82,7 +78,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     defaultValue = false
     deprecated = false
     description = "Flag that indicates whether volume discount calculations should aggregate quantities of all products using this schedule."
-    externalId = false
     inlineHelpText = "Select the checkbox to aggregate quantities of all products using this schedule for the purpose of volume discount calculation. Slab discounts cannot be used for Cross Product discounts."
     label = "Cross Products"
     trackTrending = false
@@ -94,7 +89,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     apiName = "SBQQ__DiscountSchedule__c.SBQQ__Description__c"
     deprecated = false
     description = "Description for this Discount Schedule."
-    externalId = false
     inlineHelpText = "Description for this Discount Schedule."
     label = "Description"
     length = 5000
@@ -108,7 +102,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     apiName = "SBQQ__DiscountSchedule__c.SBQQ__DiscountUnit__c"
     deprecated = false
     description = "This is the Discount Unit for the Discount Schedule."
-    externalId = false
     inlineHelpText = "Specify the Discount Unit: Amount or Percent."
     label = "Discount Unit"
     trackTrending = false
@@ -139,7 +132,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     apiName = "SBQQ__DiscountSchedule__c.SBQQ__ExcludedPricebookIds__c"
     deprecated = false
     description = "Comma-seperated list of price book IDs for which this discount schedule should not apply."
-    externalId = false
     inlineHelpText = "Enter a list of price book IDs separated by commas that should not be applied to this discount schedule."
     label = "Excluded Pricebook IDs"
     trackTrending = false
@@ -152,7 +144,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     defaultValue = false
     deprecated = false
     description = "If checked, the Quantities of Bundled Product Options will be included in the Aggregation Scope"
-    externalId = false
     inlineHelpText = "If checked, the Quantities of Bundled Product Options will be included in the Aggregation Scope"
     label = "Include Bundled Quantities"
     trackTrending = false
@@ -165,7 +156,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Order product that this discount schedule applies to."
-    externalId = false
     inlineHelpText = "Order product that this discount schedule applies to."
     label = "Order Product"
     lookupFilter = {
@@ -195,7 +185,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Order that this discount schedule applies to."
-    externalId = false
     inlineHelpText = "Order that this discount schedule applies to."
     label = "Order"
     referenceTo = [
@@ -213,7 +202,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The original Discount Schedule that was overridden to create this Discount Schedule."
-    externalId = false
     inlineHelpText = "The original Discount Schedule that was overridden to create this Discount Schedule."
     label = "Original Discount Schedule"
     referenceTo = [
@@ -230,7 +218,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     apiName = "SBQQ__DiscountSchedule__c.SBQQ__OverrideBehavior__c"
     deprecated = false
     description = "Determines if the current Discount Tier that the product falls within is editable, if all Discount Tiers are editable, or none."
-    externalId = false
     inlineHelpText = "Determines if the current Discount Tier that the product falls within is editable, if all Discount Tiers are editable, or none."
     label = "Override Behavior"
     trackTrending = false
@@ -273,7 +260,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Price book that this discount schedule applies to. Only used in combination with Product lookup to assign product/price book specific schedule."
-    externalId = false
     inlineHelpText = "Price book that this discount schedule applies to. Only used in combination with Product lookup to assign product/price book specific schedule."
     label = "Price Book"
     referenceTo = [
@@ -291,7 +277,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Product that this discount schedule applies to. Only used in combination with Price Book lookup to assign product/price book specific schedule."
-    externalId = false
     inlineHelpText = "Product that this discount schedule applies to. Only used in combination with Price Book lookup to assign product/price book specific schedule."
     label = "Product"
     referenceTo = [
@@ -308,7 +293,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     apiName = "SBQQ__DiscountSchedule__c.SBQQ__QuoteLineQuantityField__c"
     deprecated = false
     description = "Field used to calculate discount schedule pricing."
-    externalId = false
     inlineHelpText = "Field used to calculate discount schedule pricing."
     label = "Quote Line Quantity Field"
     trackTrending = false
@@ -330,7 +314,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Quote Line that this discount schedule applies to. Only used in combination with Discount Schedule Override on Quote Line Editor UI."
-    externalId = false
     inlineHelpText = "Quote Line that this discount schedule applies to. Only used in combination with Discount Schedule Override on Quote Line Editor UI."
     label = "Quote Line"
     referenceTo = [
@@ -348,7 +331,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Quote that this discount schedule applies to. Only used in combination with Discount Schedule Override on Quote Line Editor UI."
-    externalId = false
     inlineHelpText = "Quote that this discount schedule applies to. Only used in combination with Discount Schedule Override on Quote Line Editor UI."
     label = "Quote"
     referenceTo = [
@@ -365,7 +347,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     apiName = "SBQQ__DiscountSchedule__c.SBQQ__Type__c"
     deprecated = false
     description = "The type of discount schedule determines how the discount is calculated."
-    externalId = false
     inlineHelpText = "Choose the type of discount that determines how the amount or percentages will be subtracted from price."
     label = "Type"
     trackTrending = false
@@ -392,7 +373,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     defaultValue = false
     deprecated = false
     description = "If checked, the user defined Discount Schedule's Discount Unit will be set to Price."
-    externalId = false
     inlineHelpText = "If checked, the user defined Discount Schedule's Discount Unit will be set to Price."
     label = "Use Price For Amount"
     trackTrending = false
@@ -405,7 +385,6 @@ type salesforce.SBQQ__DiscountSchedule__c {
     defaultValue = false
     deprecated = false
     description = "Identifies whether this schedule was created by an end user or an admin."
-    externalId = false
     inlineHelpText = "Identifies whether this schedule was created by an end user or an admin."
     label = "User Defined"
     trackTrending = false

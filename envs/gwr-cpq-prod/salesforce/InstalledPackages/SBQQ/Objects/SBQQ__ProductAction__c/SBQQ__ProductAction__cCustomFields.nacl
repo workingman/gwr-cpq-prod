@@ -3,7 +3,6 @@ type salesforce.SBQQ__ProductAction__c {
     apiName = "SBQQ__ProductAction__c.SBQQ__FilterField__c"
     deprecated = false
     description = "The field that is updated when the rule is triggered."
-    externalId = false
     inlineHelpText = "Choose the field to update when the rule is triggered."
     label = "Filter Field"
     trackTrending = false
@@ -49,7 +48,6 @@ type salesforce.SBQQ__ProductAction__c {
     apiName = "SBQQ__ProductAction__c.SBQQ__Operator__c"
     deprecated = false
     description = "The operator that determines how the Filter Field will be applied to the Filter Value."
-    externalId = false
     inlineHelpText = "Choose the operator that determines how the Filter Field will apply to the Filter Value."
     label = "Operator"
     trackTrending = false
@@ -84,7 +82,6 @@ type salesforce.SBQQ__ProductAction__c {
   salesforce.FormulaCheckbox SBQQ__ParentRuleIsActive__c {
     apiName = "SBQQ__ProductAction__c.SBQQ__ParentRuleIsActive__c"
     deprecated = false
-    externalId = false
     formula = "SBQQ__Rule__r.SBQQ__Active__c"
     formulaTreatBlanksAs = "BlankAsZero"
     label = "ParentRuleIsActive"
@@ -104,7 +101,6 @@ type salesforce.SBQQ__ProductAction__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "The product that is automatically selected on the quote."
-    externalId = false
     inlineHelpText = "Choose the product to be automatically selected on the quote. Note: The product rule Type must be set to \"Selection\"."
     label = "Product"
     referenceTo = [
@@ -122,7 +118,6 @@ type salesforce.SBQQ__ProductAction__c {
     defaultValue = false
     deprecated = false
     description = "Determines whether the product in the Product Lookup field will be selected on the quote."
-    externalId = false
     inlineHelpText = "Select if you want the product in the Product Lookup field to be selected on the quote."
     label = "Required"
     trackTrending = false
@@ -134,7 +129,6 @@ type salesforce.SBQQ__ProductAction__c {
     apiName = "SBQQ__ProductAction__c.SBQQ__Rule__c"
     deprecated = false
     description = "Rule that runs this product action."
-    externalId = false
     inlineHelpText = "Rule that runs this product action."
     label = "Rule"
     referenceTo = [
@@ -154,7 +148,6 @@ type salesforce.SBQQ__ProductAction__c {
     apiName = "SBQQ__ProductAction__c.SBQQ__Type__c"
     deprecated = false
     description = "Type of action."
-    externalId = false
     inlineHelpText = "Specify the type of action."
     label = "Type"
     trackTrending = false
@@ -231,7 +224,6 @@ type salesforce.SBQQ__ProductAction__c {
     deleteConstraint = "SetNull"
     deprecated = false
     description = "Used to identify the specific attribute if the Value Field is a global Configuration Attribute field."
-    externalId = false
     inlineHelpText = "Used to identify the specific attribute if the Value Field is a global Configuration Attribute field."
     label = "Value Attribute"
     lookupFilter = {
@@ -259,7 +251,6 @@ type salesforce.SBQQ__ProductAction__c {
     apiName = "SBQQ__ProductAction__c.SBQQ__ValueField__c"
     deprecated = false
     description = "This field will be used instead of the Filter Value when compared with the Filter Field."
-    externalId = false
     inlineHelpText = "Compares the Filter Field with this field instead of the Filter Value."
     label = "Value Field"
     trackTrending = false
@@ -280,7 +271,6 @@ type salesforce.SBQQ__ProductAction__c {
     apiName = "SBQQ__ProductAction__c.SBQQ__ValueObject__c"
     deprecated = false
     description = "The Salesforce Object that holds the Value Field,"
-    externalId = false
     inlineHelpText = "Select the Salesforce Object where the Value Field is defined."
     label = "Value Object"
     trackTrending = false

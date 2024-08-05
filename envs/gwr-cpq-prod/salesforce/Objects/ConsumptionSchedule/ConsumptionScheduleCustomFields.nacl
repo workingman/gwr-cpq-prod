@@ -2,7 +2,6 @@ type salesforce.ConsumptionSchedule {
   salesforce.Picklist SBQQ__Category__c {
     apiName = "ConsumptionSchedule.SBQQ__Category__c"
     deprecated = false
-    externalId = false
     label = "Category"
     _required = true
     valueSet = [

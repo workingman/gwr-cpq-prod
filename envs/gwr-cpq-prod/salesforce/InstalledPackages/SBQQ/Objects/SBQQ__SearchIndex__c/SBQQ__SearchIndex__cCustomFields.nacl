@@ -3,7 +3,6 @@ type salesforce.SBQQ__SearchIndex__c {
     apiName = "SBQQ__SearchIndex__c.SBQQ__Localization__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     label = "Localization"
     referenceTo = [
       salesforce.SBQQ__Localization__c,
@@ -18,7 +17,6 @@ type salesforce.SBQQ__SearchIndex__c {
   salesforce.LongTextArea SBQQ__Value__c {
     apiName = "SBQQ__SearchIndex__c.SBQQ__Value__c"
     deprecated = false
-    externalId = false
     label = "Value"
     length = 130000
     trackTrending = false

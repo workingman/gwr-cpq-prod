@@ -6,4 +6,5 @@ salesforce.EncryptionKeySettings {
   _alias = "EncryptionKey"
   dataCloudEncryption = "false"
   enableBringYourOwnkms = "false"
+  tenantLevelEncryption = "false"
 }

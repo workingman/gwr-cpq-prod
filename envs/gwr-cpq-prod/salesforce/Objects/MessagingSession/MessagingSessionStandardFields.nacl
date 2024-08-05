@@ -104,10 +104,6 @@ type salesforce.MessagingSession {
     queryable = true
     _hidden_value = true
   }
-  salesforce.Unknown EndedByType {
-    apiName = "MessagingSession.EndedByType"
-    _hidden_value = true
-  }
   salesforce.Unknown ErrorReason {
     apiName = "MessagingSession.ErrorReason"
     _hidden_value = true
@@ -319,5 +315,13 @@ type salesforce.MessagingSession {
     updateable = false
     queryable = true
     _hidden_value = true
+  }
+  salesforce.Picklist EndedByType {
+    apiName = "MessagingSession.EndedByType"
+    restricted = true
+    label = "Ended By Type"
+    createable = true
+    updateable = false
+    queryable = true
   }
 }

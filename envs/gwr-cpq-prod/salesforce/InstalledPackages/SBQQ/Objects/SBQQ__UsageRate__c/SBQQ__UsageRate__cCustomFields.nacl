@@ -2,7 +2,6 @@ type salesforce.SBQQ__UsageRate__c {
   salesforce.TextArea SBQQ__Description__c {
     apiName = "SBQQ__UsageRate__c.SBQQ__Description__c"
     deprecated = false
-    externalId = false
     label = "Description"
     trackTrending = false
     createable = true
@@ -27,7 +26,6 @@ type salesforce.SBQQ__UsageRate__c {
     apiName = "SBQQ__UsageRate__c.SBQQ__PriceBook__c"
     deleteConstraint = "SetNull"
     deprecated = false
-    externalId = false
     inlineHelpText = "Choose a price book for this usage rate to reference"
     label = "Price Book"
     referenceTo = [
@@ -43,7 +41,6 @@ type salesforce.SBQQ__UsageRate__c {
   salesforce.Picklist SBQQ__PriceType__c {
     apiName = "SBQQ__UsageRate__c.SBQQ__PriceType__c"
     deprecated = false
-    externalId = false
     label = "Price Type"
     trackTrending = false
     valueSet = [
@@ -67,7 +64,6 @@ type salesforce.SBQQ__UsageRate__c {
   salesforce.Currency SBQQ__Price__c {
     apiName = "SBQQ__UsageRate__c.SBQQ__Price__c"
     deprecated = false
-    externalId = false
     inlineHelpText = "Price for the active currency. Use this field in multi-currency orgs."
     label = "Price"
     precision = 14
@@ -94,7 +90,6 @@ type salesforce.SBQQ__UsageRate__c {
   salesforce.Picklist SBQQ__UsagePriceMethod__c {
     apiName = "SBQQ__UsageRate__c.SBQQ__UsagePriceMethod__c"
     deprecated = false
-    externalId = false
     label = "Usage Price Method"
     _required = true
     trackTrending = false
@@ -153,7 +148,6 @@ type salesforce.SBQQ__UsageRate__c {
   salesforce.MasterDetail SBQQ__UsageRateCard__c {
     apiName = "SBQQ__UsageRate__c.SBQQ__UsageRateCard__c"
     deprecated = false
-    externalId = false
     inlineHelpText = "Parent usage rate card for this usage rate"
     label = "Usage Rate Card"
     referenceTo = [

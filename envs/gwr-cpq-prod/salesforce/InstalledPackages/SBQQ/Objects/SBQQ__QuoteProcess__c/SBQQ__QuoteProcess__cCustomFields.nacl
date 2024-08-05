@@ -4,7 +4,6 @@ type salesforce.SBQQ__QuoteProcess__c {
     defaultValue = false
     deprecated = false
     description = "Marks this quote process as default."
-    externalId = false
     inlineHelpText = "Select the checkbox to default the quote process selector to this process in Line Editor. This only applies when quote process selector is rendered as a picklist."
     label = "Default"
     trackTrending = false
@@ -17,7 +16,6 @@ type salesforce.SBQQ__QuoteProcess__c {
     defaultValue = false
     deprecated = false
     description = "Flag that controls whether quotes covered by this process force guided product selection or allow for ad-hoc filtering."
-    externalId = false
     inlineHelpText = "Select the checkbox if you want quotes covered by this process forced into guided product selection; otherwise, this defaults to ad-hoc filtering."
     label = "Guided Only"
     trackTrending = false
@@ -30,7 +28,6 @@ type salesforce.SBQQ__QuoteProcess__c {
     defaultValue = false
     deprecated = false
     description = "Flag that determines if product is auto selected if it's the only one returned by a search."
-    externalId = false
     inlineHelpText = "Select the checkbox to determine whether the product is auto selected if it's the only one returned by a search."
     label = "Auto Select Product?"
     trackTrending = false
