@@ -167,7 +167,7 @@ type salesforce.ExternalDataSource {
         "Payments",
         "Perms",
         "Pliny",
-        "Privacy Center or Archive Data Store",
+        "PrivacyCenterOrArchiveDataStore",
         "PromoRuleTempDS",
         "QLIAttribute",
         "RecentFieldChange",

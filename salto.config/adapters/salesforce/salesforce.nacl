@@ -97,6 +97,10 @@ salesforce {
         "sbaa__Approver__c",
         "sbaa__EmailTemplate__c",
         "sbaa__TrackedField__c",
+        "Product2",
+        "Pricebook2",
+        "PricebookEntry",
+
       ]
       excludeObjects = [
         "SBQQ__ContractedPrice__c",
@@ -120,9 +124,6 @@ salesforce {
         "SBQQ__ProductFeature__c",
       ]
       allowReferenceTo = [
-        "Product2",
-        "Pricebook2",
-        "PricebookEntry",
       ]
       saltoIDSettings = {
         defaultIdFields = [
