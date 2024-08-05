@@ -1,0 +1,14 @@
+salesforce.ApexTrigger SBQQ__QuoteLineConsumptionScheduleBefore {
+  apiVersion = 51
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQ__QuoteLineConsumptionScheduleBefore"
+  content = "(hidden)"
+  _alias = "SBQQ__QuoteLineConsumptionScheduleBefore"
+}

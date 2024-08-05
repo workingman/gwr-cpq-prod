@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__QuoteProcessHelp {
+  apiVersion = 51
+  availableInTouch = false
+  confirmationTokenRequired = false
+  label = "Quote Process Help"
+  fullName = "SBQQ__QuoteProcessHelp"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__QuoteProcessHelp.page")
+  _alias = "Quote Process Help (SBQQ)"
+}

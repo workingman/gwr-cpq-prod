@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__ColumnSizingClientModel {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__ColumnSizingClientModel"
+  content = "(hidden)"
+  _alias = "SBQQ__ColumnSizingClientModel"
+}

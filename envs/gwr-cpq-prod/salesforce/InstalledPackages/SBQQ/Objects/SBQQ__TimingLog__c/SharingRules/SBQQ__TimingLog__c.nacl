@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__TimingLog__c {
+  fullName = "SBQQ__TimingLog__c"
+  _parent = [
+    salesforce.SBQQ__TimingLog__c,
+  ]
+  _alias = "SBQQ__TimingLog__c"
+}

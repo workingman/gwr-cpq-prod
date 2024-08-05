@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__RefreshMultipleWebQuotePrices {
+  apiVersion = 51
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "RefreshMultipleWebQuotePrices"
+  fullName = "SBQQ__RefreshMultipleWebQuotePrices"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__RefreshMultipleWebQuotePrices.page")
+  _alias = "RefreshMultipleWebQuotePrices (SBQQ)"
+}

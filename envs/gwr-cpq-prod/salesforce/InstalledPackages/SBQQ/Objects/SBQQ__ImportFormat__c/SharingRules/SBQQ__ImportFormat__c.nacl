@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__ImportFormat__c {
+  fullName = "SBQQ__ImportFormat__c"
+  _parent = [
+    salesforce.SBQQ__ImportFormat__c,
+  ]
+  _alias = "SBQQ__ImportFormat__c"
+}

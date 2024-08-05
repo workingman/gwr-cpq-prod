@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__PermissionSetsService {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__PermissionSetsService"
+  content = "(hidden)"
+  _alias = "SBQQ__PermissionSetsService"
+}

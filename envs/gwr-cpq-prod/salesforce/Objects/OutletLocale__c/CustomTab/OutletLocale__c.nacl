@@ -1,0 +1,9 @@
+salesforce.CustomTab OutletLocale__c {
+  fullName = "OutletLocale__c"
+  customObject = true
+  motif = "Custom9: Lightning"
+  _parent = [
+    salesforce.OutletLocale__c,
+  ]
+  _alias = "OutletLocale__c"
+}
