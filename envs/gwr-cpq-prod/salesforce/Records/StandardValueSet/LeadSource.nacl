@@ -27,6 +27,11 @@ salesforce.StandardValueSet LeadSource {
       default = false
       label = "Other"
     },
+    {
+      fullName = "GWR Lead"
+      default = false
+      label = "GWR Lead"
+    },
   ]
   _alias = "LeadSource"
 }
