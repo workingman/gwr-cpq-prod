@@ -1,0 +1,15 @@
+salesforce.ApexClass MetadataServiceExamples {
+  apiVersion = 42
+  status = "Active"
+  fullName = "MetadataServiceExamples"
+  content = file("salesforce/Records/ApexClass/MetadataServiceExamples.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.MetadataService
+    },
+  ]
+  _alias = "MetadataServiceExamples"
+}

@@ -1,0 +1,7 @@
+salesforce.ApexClass MetadataServicePatcher {
+  apiVersion = 42
+  status = "Active"
+  fullName = "MetadataServicePatcher"
+  content = file("salesforce/Records/ApexClass/MetadataServicePatcher.cls")
+  _alias = "MetadataServicePatcher"
+}

@@ -1,0 +1,15 @@
+salesforce.ApexClass ToolingAPIWSDLTest {
+  apiVersion = 36
+  status = "Active"
+  fullName = "ToolingAPIWSDLTest"
+  content = file("salesforce/Records/ApexClass/ToolingAPIWSDLTest.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.ToolingAPIWSDL
+    },
+    {
+      reference = salesforce.ApexClass.instance.ToolingAPIWSDLMock
+    },
+  ]
+  _alias = "ToolingAPIWSDLTest"
+}

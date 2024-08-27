@@ -1,0 +1,15 @@
+salesforce.ApexClass MetadataDataController {
+  apiVersion = 42
+  status = "Active"
+  fullName = "MetadataDataController"
+  content = file("salesforce/Records/ApexClass/MetadataDataController.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.MetadataService
+    },
+    {
+      reference = salesforce.ApexClass.instance.MetadataServiceExamples
+    },
+  ]
+  _alias = "MetadataDataController"
+}

@@ -1,0 +1,12 @@
+salesforce.ApexClass MetadataRetrieveController {
+  apiVersion = 42
+  status = "Active"
+  fullName = "MetadataRetrieveController"
+  content = file("salesforce/Records/ApexClass/MetadataRetrieveController.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.MetadataService
+    },
+  ]
+  _alias = "MetadataRetrieveController"
+}

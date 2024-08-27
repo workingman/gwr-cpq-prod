@@ -1,0 +1,18 @@
+salesforce.ApexClass SaltoExternalIdService {
+  apiVersion = 60
+  status = "Active"
+  fullName = "SaltoExternalIdService"
+  content = file("salesforce/Records/ApexClass/SaltoExternalIdService.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.MetadataService
+    },
+    {
+      reference = salesforce.ApexClass.instance.ToolingAPI
+    },
+    {
+      reference = salesforce.ApexClass.instance.ToolingAPIWSDL
+    },
+  ]
+  _alias = "SaltoExternalIdService"
+}

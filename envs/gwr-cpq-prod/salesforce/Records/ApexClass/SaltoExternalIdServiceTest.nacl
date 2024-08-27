@@ -1,0 +1,24 @@
+salesforce.ApexClass SaltoExternalIdServiceTest {
+  apiVersion = 60
+  status = "Active"
+  fullName = "SaltoExternalIdServiceTest"
+  content = file("salesforce/Records/ApexClass/SaltoExternalIdServiceTest.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.MetadataService
+    },
+    {
+      reference = salesforce.ApexClass.instance.SaltoExternalIdService
+    },
+    {
+      reference = salesforce.ApexClass.instance.ToolingAPIWSDL
+    },
+    {
+      reference = salesforce.TestSaltoExternalId__c
+    },
+    {
+      reference = salesforce.TestSaltoExternalId__c.field.SaltoId__c
+    },
+  ]
+  _alias = "SaltoExternalIdServiceTest"
+}
