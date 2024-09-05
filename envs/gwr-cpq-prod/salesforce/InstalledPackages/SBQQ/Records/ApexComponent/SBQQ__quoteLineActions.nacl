@@ -1,0 +1,7 @@
+salesforce.ApexComponent SBQQ__quoteLineActions {
+  apiVersion = 51
+  label = "quoteLineActions"
+  fullName = "SBQQ__quoteLineActions"
+  content = "(hidden)"
+  _alias = "quoteLineActions (SBQQ)"
+}

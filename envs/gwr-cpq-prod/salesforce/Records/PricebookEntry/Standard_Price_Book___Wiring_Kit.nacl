@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Wiring_Kit@ssuuus {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Wiring_Kit___WIRINGKIT___Hardware@suuuuuu
+  UnitPrice = 2500
+  UseStandardPrice = false
+  _alias = "Standard Price Book Wiring Kit"
+}

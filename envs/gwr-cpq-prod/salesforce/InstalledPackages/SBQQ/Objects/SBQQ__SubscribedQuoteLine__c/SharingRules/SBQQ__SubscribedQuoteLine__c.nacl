@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__SubscribedQuoteLine__c {
+  fullName = "SBQQ__SubscribedQuoteLine__c"
+  _parent = [
+    salesforce.SBQQ__SubscribedQuoteLine__c,
+  ]
+  _alias = "SBQQ__SubscribedQuoteLine__c"
+}

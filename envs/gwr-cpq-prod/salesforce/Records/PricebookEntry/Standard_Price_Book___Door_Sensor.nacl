@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Door_Sensor@ssuuus {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Door_Sensor___DOORSENSOR___Hardware@suuuuuu
+  UnitPrice = 40
+  UseStandardPrice = false
+  _alias = "Standard Price Book Door Sensor"
+}

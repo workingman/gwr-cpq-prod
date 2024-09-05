@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Keyboard_UK_Layout@ssuuuss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Keyboard_UK_Layout___KEYBOARDUK___Hardware@ssuuuuuu
+  UnitPrice = 50
+  UseStandardPrice = false
+  _alias = "Standard Price Book Keyboard UK Layout"
+}

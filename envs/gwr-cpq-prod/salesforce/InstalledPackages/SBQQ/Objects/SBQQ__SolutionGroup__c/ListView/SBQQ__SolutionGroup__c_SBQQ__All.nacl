@@ -1,0 +1,15 @@
+salesforce.ListView SBQQ__SolutionGroup__c_SBQQ__All {
+  fullName = "SBQQ__SolutionGroup__c.SBQQ__All"
+  columns = [
+    "NAME",
+    salesforce.SBQQ__SolutionGroup__c.field.SBQQ__Description__c,
+    "CREATEDBY_USER",
+    "UPDATEDBY_USER",
+  ]
+  filterScope = "Everything"
+  label = "All"
+  _parent = [
+    salesforce.SBQQ__SolutionGroup__c,
+  ]
+  _alias = "All (SBQQ)"
+}

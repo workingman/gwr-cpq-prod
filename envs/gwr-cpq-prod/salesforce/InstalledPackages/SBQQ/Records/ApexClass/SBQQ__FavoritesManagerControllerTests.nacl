@@ -1,0 +1,14 @@
+salesforce.ApexClass SBQQ__FavoritesManagerControllerTests {
+  apiVersion = 51
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQ__FavoritesManagerControllerTests"
+  content = "(hidden)"
+  _alias = "SBQQ__FavoritesManagerControllerTests"
+}

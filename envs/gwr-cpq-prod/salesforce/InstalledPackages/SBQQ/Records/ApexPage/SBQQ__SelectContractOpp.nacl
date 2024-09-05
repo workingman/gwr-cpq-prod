@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__SelectContractOpp {
+  apiVersion = 51
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "QueryRenewalModel"
+  fullName = "SBQQ__SelectContractOpp"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__SelectContractOpp.page")
+  _alias = "QueryRenewalModel (SBQQ)"
+}
