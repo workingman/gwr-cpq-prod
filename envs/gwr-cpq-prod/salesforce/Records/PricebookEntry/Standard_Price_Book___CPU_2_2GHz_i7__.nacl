@@ -1,8 +1,0 @@
-salesforce.PricebookEntry Standard_Price_Book___CPU_2_2GHz_i7__@ssuuusvsuu {
-  IsActive = true
-  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
-  Product2Id = salesforce.Product2.instance.CPU_2_2GHz_i7_____CPU22GHZI7___Hardware@svsuuuuuuuu
-  UnitPrice = 125
-  UseStandardPrice = false
-  _alias = "Standard Price Book CPU 2.2GHz i7__"
-}

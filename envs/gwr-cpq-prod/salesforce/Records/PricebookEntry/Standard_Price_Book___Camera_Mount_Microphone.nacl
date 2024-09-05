@@ -1,8 +1,0 @@
-salesforce.PricebookEntry Standard_Price_Book___Camera_Mount_Microphone@ssuuuss {
-  IsActive = true
-  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
-  Product2Id = salesforce.Product2.instance.Camera_Mount_Microphone___CAMERAMIC___Hardware@ssuuuuuu
-  UnitPrice = 75
-  UseStandardPrice = false
-  _alias = "Standard Price Book Camera Mount Microphone"
-}

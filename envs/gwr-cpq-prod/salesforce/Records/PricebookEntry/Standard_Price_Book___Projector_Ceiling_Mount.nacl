@@ -1,8 +1,0 @@
-salesforce.PricebookEntry Standard_Price_Book___Projector_Ceiling_Mount@ssuuuss {
-  IsActive = true
-  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
-  Product2Id = salesforce.Product2.instance.01t8c00000MGiLFAA1
-  UnitPrice = 100
-  UseStandardPrice = false
-  _alias = "Standard Price Book Projector Ceiling Mount"
-}

@@ -1,8 +1,0 @@
-salesforce.PricebookEntry Standard_Price_Book___SD_Card_256GB@ssuuuss {
-  IsActive = true
-  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
-  Product2Id = salesforce.Product2.instance.01t8c00000MGiLdAAL
-  UnitPrice = 85
-  UseStandardPrice = false
-  _alias = "Standard Price Book SD Card 256GB"
-}

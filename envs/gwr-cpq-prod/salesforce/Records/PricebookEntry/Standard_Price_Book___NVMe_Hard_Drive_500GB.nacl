@@ -1,8 +1,0 @@
-salesforce.PricebookEntry Standard_Price_Book___NVMe_Hard_Drive_500GB@ssuuusss {
-  IsActive = true
-  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
-  Product2Id = salesforce.Product2.instance.01t8c00000MGiLYAA1
-  UnitPrice = 200
-  UseStandardPrice = false
-  _alias = "Standard Price Book NVMe Hard Drive 500GB"
-}

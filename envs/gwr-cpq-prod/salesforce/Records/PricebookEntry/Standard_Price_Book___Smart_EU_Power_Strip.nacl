@@ -1,8 +1,0 @@
-salesforce.PricebookEntry Standard_Price_Book___Smart_EU_Power_Strip@ssuuusss {
-  IsActive = true
-  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
-  Product2Id = salesforce.Product2.instance.01t8c00000MGiMKAA1
-  UnitPrice = 25
-  UseStandardPrice = false
-  _alias = "Standard Price Book Smart EU Power Strip"
-}

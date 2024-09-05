@@ -1,8 +1,0 @@
-salesforce.PricebookEntry Standard_Price_Book___Smartphone_Charger@ssuuus {
-  IsActive = true
-  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
-  Product2Id = salesforce.Product2.instance.01t8c00000MGiLBAA1
-  UnitPrice = 15
-  UseStandardPrice = false
-  _alias = "Standard Price Book Smartphone Charger"
-}

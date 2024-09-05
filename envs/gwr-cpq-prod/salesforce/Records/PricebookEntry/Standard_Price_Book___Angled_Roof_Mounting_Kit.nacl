@@ -1,8 +1,0 @@
-salesforce.PricebookEntry Standard_Price_Book___Angled_Roof_Mounting_Kit@ssuuusss {
-  IsActive = true
-  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
-  Product2Id = salesforce.Product2.instance.Angled_Roof_Mounting_Kit___ANGLEDROOFMOUNTINGKIT___Hardware@sssuuuuuu
-  UnitPrice = 1500
-  UseStandardPrice = false
-  _alias = "Standard Price Book Angled Roof Mounting Kit"
-}

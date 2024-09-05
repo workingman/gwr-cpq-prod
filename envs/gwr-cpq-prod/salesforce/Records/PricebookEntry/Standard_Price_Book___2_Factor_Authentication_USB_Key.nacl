@@ -1,8 +1,0 @@
-salesforce.PricebookEntry Standard_Price_Book___2_Factor_Authentication_USB_Key@ssuuussss {
-  IsActive = true
-  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
-  Product2Id = salesforce.Product2.instance.2_Factor_Authentication_USB_Key___2FAUSBKEY___Miscellaneous@ssssuuuuuu
-  UnitPrice = 40
-  UseStandardPrice = false
-  _alias = "Standard Price Book 2 Factor Authentication USB Key"
-}

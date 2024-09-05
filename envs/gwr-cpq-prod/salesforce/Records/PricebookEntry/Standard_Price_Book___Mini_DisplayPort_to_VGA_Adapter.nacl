@@ -1,8 +1,0 @@
-salesforce.PricebookEntry Standard_Price_Book___Mini_DisplayPort_to_VGA_Adapter@ssuuussss {
-  IsActive = true
-  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
-  Product2Id = salesforce.Product2.instance.01t8c00000MGiL4AAL
-  UnitPrice = 30
-  UseStandardPrice = false
-  _alias = "Standard Price Book Mini DisplayPort to VGA Adapter"
-}

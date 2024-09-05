@@ -1,8 +1,0 @@
-salesforce.PricebookEntry Standard_Price_Book___Softphone_License@ssuuus {
-  IsActive = true
-  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
-  Product2Id = salesforce.Product2.instance.Softphone_License___SOFTPHONE___Service@suuuuuu
-  UnitPrice = 25
-  UseStandardPrice = false
-  _alias = "Standard Price Book Softphone License"
-}

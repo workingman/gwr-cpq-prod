@@ -1,9 +1,0 @@
-salesforce.SBQQ__SummaryVariable__c gwr_summary_1@s {
-  SBQQ__AggregateField__c = "Quantity"
-  SBQQ__AggregateFunction__c = "Count"
-  SBQQ__Scope__c = "Quote"
-  SBQQ__TargetObject__c = "Quote Line"
-  Name = "gwr summary 1"
-  _alias = "gwr summary 1"
-  ExtId__c = "a118c00000ERwMhAAL"
-}

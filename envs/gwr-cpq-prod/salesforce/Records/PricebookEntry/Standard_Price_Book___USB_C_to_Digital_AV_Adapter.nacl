@@ -1,8 +1,0 @@
-salesforce.PricebookEntry Standard_Price_Book___USB_C_to_Digital_AV_Adapter@ssuuubssss {
-  IsActive = true
-  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
-  Product2Id = salesforce.Product2.instance.01t8c00000MGiKtAAL
-  UnitPrice = 80
-  UseStandardPrice = false
-  _alias = "Standard Price Book USB-C to Digital AV Adapter"
-}

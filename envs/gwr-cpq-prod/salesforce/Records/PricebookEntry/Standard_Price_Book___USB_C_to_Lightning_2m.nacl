@@ -1,8 +1,0 @@
-salesforce.PricebookEntry Standard_Price_Book___USB_C_to_Lightning_2m@ssuuubsss {
-  IsActive = true
-  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
-  Product2Id = salesforce.Product2.instance.01t8c00000MGiL5AAL
-  UnitPrice = 35
-  UseStandardPrice = false
-  _alias = "Standard Price Book USB-C to Lightning 2m"
-}

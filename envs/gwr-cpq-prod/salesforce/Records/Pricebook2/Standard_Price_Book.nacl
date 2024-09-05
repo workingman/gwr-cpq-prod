@@ -1,7 +1,0 @@
-salesforce.Pricebook2 Standard_Price_Book@s {
-  IsActive = true
-  Name = "Standard Price Book"
-  _alias = "Standard Price Book"
-  ExtId__c = "01s8c000005eeP4AAI"
-  Description = "GWR20230119"
-}
