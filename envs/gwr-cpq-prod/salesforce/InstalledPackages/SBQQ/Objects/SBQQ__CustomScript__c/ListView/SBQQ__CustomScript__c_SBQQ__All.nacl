@@ -1,9 +1,0 @@
-salesforce.ListView SBQQ__CustomScript__c_SBQQ__All {
-  fullName = "SBQQ__CustomScript__c.SBQQ__All"
-  filterScope = "Everything"
-  label = "All"
-  _parent = [
-    salesforce.SBQQ__CustomScript__c,
-  ]
-  _alias = "All (SBQQ)"
-}

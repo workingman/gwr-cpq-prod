@@ -332,12 +332,7 @@ salesforce {
               "Name",
             ]
           },
-          {
-            objectsRegex = "Product2"
-            idFields = [
-              "ExtId__c",
-            ]
-          },
+ 
           {
             objectsRegex = "SBQQ__Cost__c"
             idFields = [
