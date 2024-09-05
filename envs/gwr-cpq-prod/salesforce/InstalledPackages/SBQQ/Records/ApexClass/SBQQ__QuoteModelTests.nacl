@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__QuoteModelTests {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__QuoteModelTests"
+  content = "(hidden)"
+  _alias = "SBQQ__QuoteModelTests"
+}

@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___4K_Video_Camera@ssuuuss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.4K_Video_Camera___4KVIDEOCAM___Hardware@ssuuuuuu
+  UnitPrice = 500
+  UseStandardPrice = false
+  _alias = "Standard Price Book 4K Video Camera"
+}

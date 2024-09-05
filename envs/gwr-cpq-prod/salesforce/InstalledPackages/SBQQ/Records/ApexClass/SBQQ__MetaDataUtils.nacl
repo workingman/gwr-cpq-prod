@@ -1,0 +1,14 @@
+salesforce.ApexClass SBQQ__MetaDataUtils {
+  apiVersion = 51
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQ__MetaDataUtils"
+  content = "(hidden)"
+  _alias = "SBQQ__MetaDataUtils"
+}

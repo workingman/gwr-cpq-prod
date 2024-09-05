@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__QuoteRelatedContentControllerTests {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__QuoteRelatedContentControllerTests"
+  content = "(hidden)"
+  _alias = "SBQQ__QuoteRelatedContentControllerTests"
+}

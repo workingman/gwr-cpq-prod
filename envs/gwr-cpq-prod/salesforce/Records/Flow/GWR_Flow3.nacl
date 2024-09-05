@@ -1,0 +1,77 @@
+salesforce.Flow GWR_Flow3 {
+  fullName = "GWR_Flow3"
+  apiVersion = 55
+  environments = "Default"
+  interviewLabel = "GWR_Flow3 {!$Flow.CurrentDateTime}"
+  label = "GWR_Flow3"
+  processMetadataValues = [
+    {
+      name = "BuilderType"
+      value = {
+        stringValue = "LightningFlowBuilder"
+      }
+    },
+    {
+      name = "CanvasMode"
+      value = {
+        stringValue = "AUTO_LAYOUT_CANVAS"
+      }
+    },
+    {
+      name = "OriginBuilderType"
+      value = {
+        stringValue = "LightningFlowBuilder"
+      }
+    },
+  ]
+  processType = "AutoLaunchedFlow"
+  recordUpdates = [
+    {
+      name = "GWR_flow_action1"
+      label = "GWR_flow_action1"
+      locationX = 176
+      locationY = 311
+      inputAssignments = [
+        {
+          field = "Description"
+          value = {
+            stringValue = "test"
+          }
+        },
+        {
+          field = "GWR_checkbokx2__c"
+          value = {
+            booleanValue = false
+          }
+        },
+        {
+          field = "SLA__c"
+          value = {
+            stringValue = "Copper"
+          }
+        },
+      ]
+      inputReference = "$Record"
+    },
+  ]
+  start = {
+    locationX = 50
+    locationY = 0
+    connector = {
+      targetReference = "GWR_flow_action1"
+    }
+    object = salesforce.Account
+    recordTriggerType = "Create"
+    triggerType = "RecordBeforeSave"
+  }
+  status = "Draft"
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account.field.GWR_checkbokx2__c
+    },
+    {
+      reference = salesforce.Account.field.SLA__c
+    },
+  ]
+  _alias = "GWR_Flow3"
+}

@@ -1,0 +1,13 @@
+type salesforce.Pricebook2 {
+  salesforce.Text ExtId__c {
+    apiName = "Pricebook2.ExtId__c"
+    caseSensitive = false
+    externalId = false
+    label = "Salto External Id"
+    length = 18
+    unique = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
+}

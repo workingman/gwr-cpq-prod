@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__FieldValueUpdater {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__FieldValueUpdater"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__FieldValueUpdater.cls")
+  _alias = "SBQQ__FieldValueUpdater"
+}

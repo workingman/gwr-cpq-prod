@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__QuoteSettingsModel {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__QuoteSettingsModel"
+  content = "(hidden)"
+  _alias = "SBQQ__QuoteSettingsModel"
+}
