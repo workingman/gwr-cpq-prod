@@ -36,4 +36,5 @@ salesforce.Product2 Solar_Controller_Hub___SOLARCONTROLLERHUB___Hardware@ssuuuuu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SOLARCONTROLLERHUB Hardware Solar Controller Hub"
+  ExtId__c = "01t8c00000MGiMfAAL"
 }

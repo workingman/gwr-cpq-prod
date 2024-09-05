@@ -15,4 +15,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19wXAAQ {
   SBQQ__Type__c = "Button"
   Name = "Clone Line"
   _alias = "Clone Line"
+  ExtId__c = "a098c00000s19wXAAQ"
 }

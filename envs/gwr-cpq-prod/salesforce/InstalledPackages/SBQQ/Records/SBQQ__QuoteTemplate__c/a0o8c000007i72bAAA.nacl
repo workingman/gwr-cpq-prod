@@ -49,4 +49,5 @@ salesforce.SBQQ__QuoteTemplate__c a0o8c000007i72bAAA {
   SBQQ__TotalsHidden__c = false
   Name = "Training Sample"
   _alias = "Training Sample"
+  ExtId__c = "a0o8c000007i72bAAA"
 }

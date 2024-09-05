@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiL5AAL" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "USBCTOLIGHT2M Miscellaneous USB-C to Lightning 2m"
+  ExtId__c = "01t8c00000MGiL5AAL"
 }

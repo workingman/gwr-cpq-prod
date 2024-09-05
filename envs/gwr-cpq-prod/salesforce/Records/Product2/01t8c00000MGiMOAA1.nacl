@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiMOAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SMARTWATCHBAND Hardware Smartwatch Band"
+  ExtId__c = "01t8c00000MGiMOAA1"
 }

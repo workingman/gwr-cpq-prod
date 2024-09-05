@@ -38,4 +38,5 @@ salesforce.Product2 "01t8c00000MGiKoAAL" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "CLOUDSTORAGE Software Cloud Storage 1GB"
+  ExtId__c = "01t8c00000MGiKoAAL"
 }

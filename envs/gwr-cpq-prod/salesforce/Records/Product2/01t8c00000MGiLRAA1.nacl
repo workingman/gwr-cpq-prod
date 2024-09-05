@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiLRAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "RFIDFOB Consumable RFID Fob"
+  ExtId__c = "01t8c00000MGiLRAA1"
 }

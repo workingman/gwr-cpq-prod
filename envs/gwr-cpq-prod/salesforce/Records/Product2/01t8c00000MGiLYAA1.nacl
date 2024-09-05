@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiLYAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "NVME500 Hardware NVMe Hard Drive 500GB"
+  ExtId__c = "01t8c00000MGiLYAA1"
 }

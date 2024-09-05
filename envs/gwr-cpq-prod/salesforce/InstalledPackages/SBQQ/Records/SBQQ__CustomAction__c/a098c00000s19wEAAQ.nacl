@@ -14,4 +14,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19wEAAQ {
   SBQQ__Type__c = "Button"
   Name = "Amend Subscriptions"
   _alias = "Amend Subscriptions"
+  ExtId__c = "a098c00000s19wEAAQ"
 }

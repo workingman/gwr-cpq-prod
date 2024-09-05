@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiKrAAL" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "KEYBOARDUS Hardware Keyboard US Layout"
+  ExtId__c = "01t8c00000MGiKrAAL"
 }

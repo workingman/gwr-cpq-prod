@@ -15,4 +15,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19wVAAQ {
   SBQQ__Type__c = "Button"
   Name = "Reconfigure Line"
   _alias = "Reconfigure Line"
+  ExtId__c = "a098c00000s19wVAAQ"
 }

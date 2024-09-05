@@ -15,4 +15,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19wbAAA {
   SBQQ__Type__c = "Button"
   Name = "View Discount Schedule"
   _alias = "View Discount Schedule"
+  ExtId__c = "a098c00000s19wbAAA"
 }

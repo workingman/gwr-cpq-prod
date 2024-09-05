@@ -13,4 +13,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19wIAAQ {
   SBQQ__Type__c = "Menu"
   Name = "Add Group"
   _alias = "Add Group"
+  ExtId__c = "a098c00000s19wIAAQ"
 }

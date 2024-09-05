@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiMBAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "USBWEBCAMMIC Miscellaneous USB Webcam w/ Integrated Microphone"
+  ExtId__c = "01t8c00000MGiMBAA1"
 }

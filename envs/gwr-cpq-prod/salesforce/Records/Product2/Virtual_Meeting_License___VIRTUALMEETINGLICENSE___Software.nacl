@@ -36,4 +36,5 @@ salesforce.Product2 Virtual_Meeting_License___VIRTUALMEETINGLICENSE___Software@s
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "VIRTUALMEETINGLICENSE Software Virtual Meeting License"
+  ExtId__c = "01t8c00000MGiMuAAL"
 }

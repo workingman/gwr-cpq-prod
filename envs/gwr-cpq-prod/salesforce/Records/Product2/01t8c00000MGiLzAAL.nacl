@@ -38,4 +38,5 @@ salesforce.Product2 "01t8c00000MGiLzAAL" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "4KVIDEOCAM Hardware 4K Video Camera"
+  ExtId__c = "01t8c00000MGiLzAAL"
 }

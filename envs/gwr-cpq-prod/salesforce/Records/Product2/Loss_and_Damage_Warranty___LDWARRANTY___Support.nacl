@@ -36,4 +36,5 @@ salesforce.Product2 Loss_and_Damage_Warranty___LDWARRANTY___Support@sssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "LDWARRANTY Support Loss and Damage Warranty"
+  ExtId__c = "01t8c00000MGiMbAAL"
 }

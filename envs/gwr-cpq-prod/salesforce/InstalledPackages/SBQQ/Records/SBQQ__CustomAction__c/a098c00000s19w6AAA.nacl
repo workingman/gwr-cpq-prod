@@ -14,4 +14,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19w6AAA {
   SBQQ__Type__c = "Button"
   Name = "Clone Group"
   _alias = "Clone Group"
+  ExtId__c = "a098c00000s19w6AAA"
 }

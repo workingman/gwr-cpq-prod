@@ -15,4 +15,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19wfAAA {
   SBQQ__Type__c = "Button"
   Name = "View Pricing Guidance"
   _alias = "View Pricing Guidance"
+  ExtId__c = "a098c00000s19wfAAA"
 }

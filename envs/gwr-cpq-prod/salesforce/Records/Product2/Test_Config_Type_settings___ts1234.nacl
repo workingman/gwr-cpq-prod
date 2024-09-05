@@ -38,4 +38,5 @@ salesforce.Product2 Test_Config_Type_settings___ts1234@sssuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "ts1234 Test Config Type settings"
+  ExtId__c = "01t8c00000PV9p0AAD"
 }

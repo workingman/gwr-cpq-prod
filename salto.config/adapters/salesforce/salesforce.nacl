@@ -100,7 +100,6 @@ salesforce {
         "Product2",
         "Pricebook2",
         "PricebookEntry",
-
       ]
       excludeObjects = [
         "SBQQ__ContractedPrice__c",
@@ -122,6 +121,8 @@ salesforce {
         "SBQQ__RecordJob__c",
         "SBQQ__TimingLog__c",
         "SBQQ__ProductFeature__c",
+        "SBQQ__PriceAction__c",
+        "SBQQ__PriceCondition__c",
       ]
       allowReferenceTo = [
       ]

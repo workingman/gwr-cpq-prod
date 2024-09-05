@@ -15,4 +15,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19waAAA {
   SBQQ__Type__c = "Button"
   Name = "Resegment Line"
   _alias = "Resegment Line"
+  ExtId__c = "a098c00000s19waAAA"
 }

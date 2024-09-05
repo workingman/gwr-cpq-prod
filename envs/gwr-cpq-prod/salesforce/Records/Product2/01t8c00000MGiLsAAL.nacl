@@ -38,4 +38,5 @@ salesforce.Product2 "01t8c00000MGiLsAAL" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "OFFSITEVIDEOSTORAGE1GB Service Offsite Video Storage 1GB"
+  ExtId__c = "01t8c00000MGiLsAAL"
 }

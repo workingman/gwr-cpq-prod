@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiMGAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SMARTUKPOWEROUTLET Hardware Smart UK Power Outlet"
+  ExtId__c = "01t8c00000MGiMGAA1"
 }

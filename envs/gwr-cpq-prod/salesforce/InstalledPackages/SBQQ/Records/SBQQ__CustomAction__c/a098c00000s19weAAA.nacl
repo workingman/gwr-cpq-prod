@@ -15,4 +15,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19weAAA {
   SBQQ__Type__c = "Button"
   Name = "View Consumption Schedule"
   _alias = "View Consumption Schedule"
+  ExtId__c = "a098c00000s19weAAA"
 }

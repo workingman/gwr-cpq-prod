@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiMMAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "VIDEOEDITOREDU Software Video Editor License (Educational)"
+  ExtId__c = "01t8c00000MGiMMAA1"
 }

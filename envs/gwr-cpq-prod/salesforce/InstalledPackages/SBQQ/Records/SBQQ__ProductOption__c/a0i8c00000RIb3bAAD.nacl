@@ -12,4 +12,5 @@ salesforce.SBQQ__ProductOption__c a0i8c00000RIb3bAAD {
   SBQQ__Type__c = "Component"
   SBQQ__UpliftedByPackage__c = false
   _alias = "PO-000081"
+  ExtId__c = "a0i8c00000RIb3bAAD"
 }

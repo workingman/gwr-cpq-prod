@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiMIAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "ELECTRICALINSTALLATION Service Electrical Installation"
+  ExtId__c = "01t8c00000MGiMIAA1"
 }

@@ -36,4 +36,5 @@ salesforce.Product2 GWR_Created_in_CPQ2___GWR0002___Hardware@sssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "GWR0002 Hardware GWR Created in CPQ2"
+  ExtId__c = "01t8c00000J60EMAAZ"
 }

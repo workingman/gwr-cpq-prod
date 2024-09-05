@@ -36,4 +36,5 @@ salesforce.Product2 CPU_2_5GHz_i7___CPU25GHZI7___Hardware@svsuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "CPU25GHZI7 Hardware CPU 2.5GHz i7"
+  ExtId__c = "01t8c00000MGiKxAAL"
 }

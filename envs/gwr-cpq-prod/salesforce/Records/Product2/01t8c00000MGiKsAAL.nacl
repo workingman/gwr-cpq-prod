@@ -38,4 +38,5 @@ salesforce.Product2 "01t8c00000MGiKsAAL" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "PRODUCTIVITYSUITE Software Productivity Suite"
+  ExtId__c = "01t8c00000MGiKsAAL"
 }

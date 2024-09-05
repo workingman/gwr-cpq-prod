@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiLSAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "EXTERIORKEYPAD Hardware Exterior Keypad"
+  ExtId__c = "01t8c00000MGiLSAA1"
 }

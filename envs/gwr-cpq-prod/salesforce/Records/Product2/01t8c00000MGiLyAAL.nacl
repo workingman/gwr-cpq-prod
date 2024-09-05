@@ -38,4 +38,5 @@ salesforce.Product2 "01t8c00000MGiLyAAL" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "HOMEAUTOMATIONHUB Hardware Home Automation Hub"
+  ExtId__c = "01t8c00000MGiLyAAL"
 }

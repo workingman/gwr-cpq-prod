@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiKuAAL" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "MDPTODVI Miscellaneous Mini DisplayPort to DVI Adapter"
+  ExtId__c = "01t8c00000MGiKuAAL"
 }

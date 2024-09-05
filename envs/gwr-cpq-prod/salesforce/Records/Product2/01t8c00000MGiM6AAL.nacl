@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiM6AAL" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "PROAUDIOBOOMMIC Miscellaneous Pro Audio Boom Microphone"
+  ExtId__c = "01t8c00000MGiM6AAL"
 }

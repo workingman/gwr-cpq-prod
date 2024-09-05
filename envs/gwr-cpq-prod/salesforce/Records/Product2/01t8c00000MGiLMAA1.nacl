@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiLMAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "PRINTERPAPERTRAY Hardware Printer Paper Tray"
+  ExtId__c = "01t8c00000MGiLMAA1"
 }

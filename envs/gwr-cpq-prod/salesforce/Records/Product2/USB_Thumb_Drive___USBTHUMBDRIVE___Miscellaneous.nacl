@@ -36,4 +36,5 @@ salesforce.Product2 USB_Thumb_Drive___USBTHUMBDRIVE___Miscellaneous@ssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "USBTHUMBDRIVE Miscellaneous USB Thumb Drive"
+  ExtId__c = "01t8c00000MGiMxAAL"
 }

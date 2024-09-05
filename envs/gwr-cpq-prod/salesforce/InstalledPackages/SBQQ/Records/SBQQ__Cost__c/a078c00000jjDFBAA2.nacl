@@ -2,4 +2,5 @@ salesforce.SBQQ__Cost__c a078c00000jjDFBAA2 {
   SBQQ__Active__c = true
   SBQQ__UnitCost__c = 150
   _alias = "COST-000025"
+  ExtId__c = "a078c00000jjDFBAA2"
 }

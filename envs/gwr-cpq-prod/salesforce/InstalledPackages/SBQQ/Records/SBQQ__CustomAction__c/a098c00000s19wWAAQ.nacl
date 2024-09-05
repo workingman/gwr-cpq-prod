@@ -15,4 +15,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19wWAAQ {
   SBQQ__Type__c = "Button"
   Name = "Remove From Favorites"
   _alias = "Remove From Favorites"
+  ExtId__c = "a098c00000s19wWAAQ"
 }

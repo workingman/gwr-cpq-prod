@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiKXAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SSD128 Hardware SSD Hard Drive 128GB"
+  ExtId__c = "01t8c00000MGiKXAA1"
 }

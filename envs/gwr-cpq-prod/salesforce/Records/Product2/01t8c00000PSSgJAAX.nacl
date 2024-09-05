@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000PSSgJAAX" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "TABLET10 Hardware 10\" Tablet"
+  ExtId__c = "01t8c00000PSSgJAAX"
 }

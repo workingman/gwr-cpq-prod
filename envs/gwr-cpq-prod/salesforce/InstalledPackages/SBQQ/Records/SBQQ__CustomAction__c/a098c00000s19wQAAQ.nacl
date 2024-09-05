@@ -13,4 +13,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19wQAAQ {
   SBQQ__Type__c = "Button"
   Name = "Calculate"
   _alias = "Calculate"
+  ExtId__c = "a098c00000s19wQAAQ"
 }

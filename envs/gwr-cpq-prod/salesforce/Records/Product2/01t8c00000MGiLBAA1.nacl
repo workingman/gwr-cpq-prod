@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiLBAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SMARTPHONECHARGER Miscellaneous Smartphone Charger"
+  ExtId__c = "01t8c00000MGiLBAA1"
 }

@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiMQAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "ACTOUSBCADAPTER Miscellaneous AC to USB-C Wall Adapter"
+  ExtId__c = "01t8c00000MGiMQAA1"
 }

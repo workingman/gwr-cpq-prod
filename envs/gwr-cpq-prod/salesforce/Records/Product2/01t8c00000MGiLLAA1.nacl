@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiLLAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "COPYPAPERLETTER Consumable Copy Paper Letter"
+  ExtId__c = "01t8c00000MGiLLAA1"
 }

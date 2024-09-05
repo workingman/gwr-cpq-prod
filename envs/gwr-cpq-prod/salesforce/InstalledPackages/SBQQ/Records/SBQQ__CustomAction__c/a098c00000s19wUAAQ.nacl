@@ -15,4 +15,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19wUAAQ {
   SBQQ__Type__c = "Button"
   Name = "Add To Favorites"
   _alias = "Add To Favorites"
+  ExtId__c = "a098c00000s19wUAAQ"
 }

@@ -15,4 +15,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19wZAAQ {
   SBQQ__Type__c = "Button"
   Name = "Desegment Line"
   _alias = "Desegment Line"
+  ExtId__c = "a098c00000s19wZAAQ"
 }

@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiKWAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "RAM8GB Hardware RAM 8GB"
+  ExtId__c = "01t8c00000MGiKWAA1"
 }

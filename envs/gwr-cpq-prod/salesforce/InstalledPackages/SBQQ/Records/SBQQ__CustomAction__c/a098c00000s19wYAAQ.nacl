@@ -15,4 +15,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19wYAAQ {
   SBQQ__Type__c = "Button"
   Name = "Delete Line"
   _alias = "Delete Line"
+  ExtId__c = "a098c00000s19wYAAQ"
 }

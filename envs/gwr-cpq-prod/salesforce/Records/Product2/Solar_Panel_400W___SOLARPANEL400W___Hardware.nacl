@@ -36,4 +36,5 @@ salesforce.Product2 Solar_Panel_400W___SOLARPANEL400W___Hardware@ssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SOLARPANEL400W Hardware Solar Panel 400W"
+  ExtId__c = "01t8c00000MGiMiAAL"
 }

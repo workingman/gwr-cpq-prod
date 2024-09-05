@@ -15,4 +15,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19wLAAQ {
   SBQQ__Type__c = "Button"
   Name = "Reset Discounts - Quote"
   _alias = "Reset Discounts - Quote"
+  ExtId__c = "a098c00000s19wLAAQ"
 }

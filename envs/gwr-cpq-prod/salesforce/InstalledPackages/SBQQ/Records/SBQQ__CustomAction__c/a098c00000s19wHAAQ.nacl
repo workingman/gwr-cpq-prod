@@ -11,4 +11,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19wHAAQ {
   SBQQ__Type__c = "Separator"
   Name = "Separator"
   _alias = "Separator"
+  ExtId__c = "a098c00000s19wHAAQ"
 }

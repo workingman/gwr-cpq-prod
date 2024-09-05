@@ -36,4 +36,5 @@ salesforce.Product2 SD_Card_512GB___SDCARD512GB___Miscellaneous@ssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SDCARD512GB Miscellaneous SD Card 512GB"
+  ExtId__c = "01t8c00000MGiMwAAL"
 }

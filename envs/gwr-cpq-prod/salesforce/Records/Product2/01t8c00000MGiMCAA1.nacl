@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiMCAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "USBMIC Miscellaneous USB Microphone"
+  ExtId__c = "01t8c00000MGiMCAA1"
 }

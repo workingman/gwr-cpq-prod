@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiLJAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "PROJECTORSCREEN Hardware Projector Screen"
+  ExtId__c = "01t8c00000MGiLJAA1"
 }

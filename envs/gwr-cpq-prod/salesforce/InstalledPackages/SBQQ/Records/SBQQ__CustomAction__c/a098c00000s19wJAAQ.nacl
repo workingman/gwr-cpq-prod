@@ -13,4 +13,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19wJAAQ {
   SBQQ__Type__c = "Button"
   Name = "Ungroup"
   _alias = "Ungroup"
+  ExtId__c = "a098c00000s19wJAAQ"
 }

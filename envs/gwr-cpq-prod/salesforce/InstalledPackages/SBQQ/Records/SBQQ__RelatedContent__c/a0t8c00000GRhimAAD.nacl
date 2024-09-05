@@ -4,4 +4,5 @@ salesforce.SBQQ__RelatedContent__c a0t8c00000GRhimAAD {
   SBQQ__Required__c = false
   Name = "Productivity Suite Data Sheet"
   _alias = "Productivity Suite Data Sheet"
+  ExtId__c = "a0t8c00000GRhimAAD"
 }

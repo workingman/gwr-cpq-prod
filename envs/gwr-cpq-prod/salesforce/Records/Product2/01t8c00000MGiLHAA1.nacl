@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiLHAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "COPYBINDINGMODULE Hardware Copy Binding Module"
+  ExtId__c = "01t8c00000MGiLHAA1"
 }

@@ -12,4 +12,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19wcAAA {
   SBQQ__URL__c = "{!$Setup.GeneralSettings__c.ExternalConfigurationURL__c}"
   Name = "Launch External"
   _alias = "Launch External"
+  ExtId__c = "a098c00000s19wcAAA"
 }

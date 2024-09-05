@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiM3AAL" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "USBCCHARGE1M Miscellaneous USB-C Charge Cable 1m"
+  ExtId__c = "01t8c00000MGiM3AAL"
 }

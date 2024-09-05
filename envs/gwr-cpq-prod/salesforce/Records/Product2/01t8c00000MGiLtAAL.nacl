@@ -38,4 +38,5 @@ salesforce.Product2 "01t8c00000MGiLtAAL" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "MOBILEMONITORINGAPP Service Mobile Monitoring App"
+  ExtId__c = "01t8c00000MGiLtAAL"
 }

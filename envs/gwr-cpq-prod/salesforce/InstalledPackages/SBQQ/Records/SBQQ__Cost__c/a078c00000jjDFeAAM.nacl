@@ -3,4 +3,5 @@ salesforce.SBQQ__Cost__c a078c00000jjDFeAAM {
   SBQQ__Product__c = salesforce.Product2.instance.01t8c00000MGiLNAA1
   SBQQ__UnitCost__c = 750
   _alias = "COST-000054"
+  ExtId__c = "a078c00000jjDFeAAM"
 }

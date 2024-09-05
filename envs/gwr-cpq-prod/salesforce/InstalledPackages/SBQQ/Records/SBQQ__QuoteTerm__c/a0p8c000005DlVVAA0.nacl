@@ -6,4 +6,5 @@ salesforce.SBQQ__QuoteTerm__c a0p8c000005DlVVAA0 {
   SBQQ__PrintOrder__c = 21
   SBQQ__Status__c = "Draft"
   _alias = "QT-0001"
+  ExtId__c = "a0p8c000005DlVVAA0"
 }

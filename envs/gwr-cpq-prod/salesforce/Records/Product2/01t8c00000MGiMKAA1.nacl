@@ -36,4 +36,5 @@ salesforce.Product2 "01t8c00000MGiMKAA1" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SMARTEUPOWERSTRIP Hardware Smart EU Power Strip"
+  ExtId__c = "01t8c00000MGiMKAA1"
 }

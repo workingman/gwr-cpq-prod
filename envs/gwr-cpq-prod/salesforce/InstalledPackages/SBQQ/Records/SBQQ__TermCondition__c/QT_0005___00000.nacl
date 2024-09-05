@@ -5,4 +5,5 @@ salesforce.SBQQ__TermCondition__c QT_0005___00000@buuu {
   SBQQ__TestedVariable__c = salesforce.SBQQ__SummaryVariable__c.instance.gwr_summary_1@s
   SBQQ__Value__c = "1"
   _alias = "QT-0006 00000"
+  ExtId__c = "a158c00000NNaUoAAL"
 }

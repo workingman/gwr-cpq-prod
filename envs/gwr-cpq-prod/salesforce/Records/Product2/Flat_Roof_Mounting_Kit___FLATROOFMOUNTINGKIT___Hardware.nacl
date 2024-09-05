@@ -36,4 +36,5 @@ salesforce.Product2 Flat_Roof_Mounting_Kit___FLATROOFMOUNTINGKIT___Hardware@sssu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "FLATROOFMOUNTINGKIT Hardware Flat Roof Mounting Kit"
+  ExtId__c = "01t8c00000MGiMgAAL"
 }

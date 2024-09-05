@@ -13,4 +13,5 @@ salesforce.SBQQ__CustomAction__c a098c00000s19wPAAQ {
   SBQQ__Type__c = "Button"
   Name = "Quick Save"
   _alias = "Quick Save"
+  ExtId__c = "a098c00000s19wPAAQ"
 }

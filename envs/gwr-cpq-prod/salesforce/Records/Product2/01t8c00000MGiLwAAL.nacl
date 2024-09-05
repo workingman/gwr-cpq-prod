@@ -38,4 +38,5 @@ salesforce.Product2 "01t8c00000MGiLwAAL" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "WARRANTY Support Warranty"
+  ExtId__c = "01t8c00000MGiLwAAL"
 }
