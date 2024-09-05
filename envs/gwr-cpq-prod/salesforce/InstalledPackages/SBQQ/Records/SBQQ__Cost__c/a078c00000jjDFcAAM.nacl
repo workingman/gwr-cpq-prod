@@ -1,7 +1,0 @@
-salesforce.SBQQ__Cost__c a078c00000jjDFcAAM {
-  SBQQ__Active__c = true
-  SBQQ__Product__c = salesforce.Product2.instance.Copy_Paper_Letter@s
-  SBQQ__UnitCost__c = 50
-  _alias = "COST-000052"
-  ExtId__c = "a078c00000jjDFcAAM"
-}

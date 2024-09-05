@@ -1,7 +1,0 @@
-salesforce.SBQQ__Cost__c a078c00000jjDFGAA2 {
-  SBQQ__Active__c = true
-  SBQQ__Product__c = salesforce.Product2.instance.Printer_Paper_A4@s
-  SBQQ__UnitCost__c = 5
-  _alias = "COST-000030"
-  ExtId__c = "a078c00000jjDFGAA2"
-}

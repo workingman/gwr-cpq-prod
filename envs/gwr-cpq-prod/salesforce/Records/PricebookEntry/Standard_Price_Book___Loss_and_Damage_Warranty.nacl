@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Loss_and_Damage_Warranty@ssuuusss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Loss_and_Damage_Warranty___LDWARRANTY___Support@sssuuuuuu
+  UnitPrice = 0
+  UseStandardPrice = false
+  _alias = "Standard Price Book Loss and Damage Warranty"
+}

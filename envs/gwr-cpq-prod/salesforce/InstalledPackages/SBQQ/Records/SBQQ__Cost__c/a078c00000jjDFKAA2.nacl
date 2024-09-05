@@ -1,7 +1,0 @@
-salesforce.SBQQ__Cost__c a078c00000jjDFKAA2 {
-  SBQQ__Active__c = true
-  SBQQ__Product__c = salesforce.Product2.instance.USB_C_to_Lightning_2m@bsss
-  SBQQ__UnitCost__c = 20
-  _alias = "COST-000034"
-  ExtId__c = "a078c00000jjDFKAA2"
-}

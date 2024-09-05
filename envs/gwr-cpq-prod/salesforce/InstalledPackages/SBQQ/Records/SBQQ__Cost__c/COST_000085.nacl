@@ -1,0 +1,7 @@
+salesforce.SBQQ__Cost__c COST_000085@b {
+  ExtId__c = "a078c00000jjDG9AAM"
+  SBQQ__Active__c = true
+  SBQQ__Product__c = salesforce.Product2.instance.Home_Security_Monitoring___HOMESECURITYMONITORING___Service@ssuuuuuu
+  SBQQ__UnitCost__c = 30
+  _alias = "COST-000085"
+}

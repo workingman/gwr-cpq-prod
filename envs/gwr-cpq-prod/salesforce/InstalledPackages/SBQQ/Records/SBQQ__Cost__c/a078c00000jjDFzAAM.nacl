@@ -1,7 +1,0 @@
-salesforce.SBQQ__Cost__c a078c00000jjDFzAAM {
-  SBQQ__Active__c = true
-  SBQQ__Product__c = salesforce.Product2.instance.Smartphone_Heavy_Duty_Case@s
-  SBQQ__UnitCost__c = 10
-  _alias = "COST-000075"
-  ExtId__c = "a078c00000jjDFzAAM"
-}

@@ -100,6 +100,7 @@ salesforce {
         "Product2",
         "Pricebook2",
         "PricebookEntry",
+
       ]
       excludeObjects = [
         "SBQQ__ContractedPrice__c",
@@ -121,59 +122,6 @@ salesforce {
         "SBQQ__RecordJob__c",
         "SBQQ__TimingLog__c",
         "SBQQ__ProductFeature__c",
-        "SBQQ__ErrorCondition__c",
-        "SBQQ__PriceCondition__c",
-        "SBQQ__LineColumn__c",
-        "SBQQ__TermCondition__c",
-        "SBQQ__PriceAction__c",
-        "SBQQ__SearchFilter__c",
-        "SBQQ__UpgradeSource__c",
-        "SBQQ__LookupData__c",
-        "SBQQ__ColumnMetadata__c",
-        "SBQQ__PriceTier__c",
-        "SBQQ__PricingGuidanceTier__c",
-        "SBQQ__ProcessInput__c",
-        "SBQQ__QuoteProcess__c",
-        "SBQQ__DiscountTier__c",
-        "SBQQ__FavoriteProduct__c",
-        "SBQQ__BlockPrice__c",
-        "SBQQ__LookupQuery__c",
-        "SBQQ__Dimension__c",
-        "SBQQ__TemplateContent__c",
-        "SBQQ__FavoriteShare__c",
-        "SBQQ__SolutionGroup__c",
-        "PricebookEntry",
-        "SBQQ__ImportFormat__c",
-        "SBQQ__SearchIndex__c",
-        "SBQQ__Localization__c",
-        "SBQQ__OrderItemConsumptionSchedule__c",
-        "SBQQ__AttributeValue__c",
-        "SBQQ__QuoteLinePricingGuidance__c",
-        "SBQQ__FieldSetMetadata__c",
-        "SBQQ__AttributeSet__c",
-        "SBQQ__UsageRate__c",
-        "SBQQ__PriceSchedule__c",
-        "SBQQ__Favorite__c",
-        "SBQQ__FieldMetadata__c",
-        "SBQQ__Theme__c",
-        "SBQQ__UsageRateCardAssignment__c",
-        "SBQQ__ProductAttribute__c",
-        "SBQQ__ProductAttributeSet__c",
-        "SBQQ__CustomScript__c",
-        "SBQQ__ConfigurationRule__c",
-        "SBQQ__DiscountCategory__c",
-        "SBQQ__TemplateSection__c",
-        "SBQQ__OrderItemConsumptionRate__c",
-        "SBQQ__ConfigurationAttribute__c",
-        "SBQQ__UsageRateCard__c",
-        "SBQQ__PricingGuidance__c",
-        "SBQQ__CustomActionCondition__c",
-        "SBQQ__OptionConstraint__c",
-        "SBQQ__ProcessInputCondition__c",
-        "SBQQ__ImportColumn__c",
-        "SBQQ__TaxExemptionCertificate__c",
-        "SBQQ__PriceRule__c",
-        "SBQQ__ProductAction__c",
       ]
       allowReferenceTo = [
       ]
@@ -186,85 +134,10 @@ salesforce {
           {
             objectsRegex = "SBQQ__CustomAction__c"
             idFields = [
-              "ExtId__c",
-            ]
-          },
-          {
-            objectsRegex = "SBQQ__PriceCondition__c"
-            idFields = [
-              "ExtId__c",
-            ]
-          },
-          {
-            objectsRegex = "SBQQ__PriceRule__c"
-            idFields = [
-              "ExtId__c",
-            ]
-          },
-          {
-            objectsRegex = "SBQQ__ProductAction__c"
-            idFields = [
-              "ExtId__c",
-            ]
-          },
-          {
-            objectsRegex = "SBQQ__ProductOption__c"
-            idFields = [
-              "ExtId__c",
-            ]
-          },
-          {
-            objectsRegex = "SBQQ__ProductRule__c"
-            idFields = [
-              "ExtId__c",
-            ]
-          },
-          {
-            objectsRegex = "SBQQ__QuoteTemplate__c"
-            idFields = [
-              "ExtId__c",
-            ]
-          },
-          {
-            objectsRegex = "SBQQ__TermCondition__c"
-            idFields = [
-              "ExtId__c",
-            ]
-          },
-          {
-            objectsRegex = "SBQQ__QuoteTerm__c"
-            idFields = [
-              "ExtId__c",
-            ]
-          },
-          {
-            objectsRegex = "SBQQ__DiscountSchedule__c"
-            idFields = [
-              "ExtId__c",
-            ]
-          },
-          {
-            objectsRegex = "SBQQ__RelatedContent__c"
-            idFields = [
-              "ExtId__c",
-            ]
-          },
-          {
-            objectsRegex = "SBQQ__SummaryVariable__c"
-            idFields = [
-              "ExtId__c",
-            ]
-          },
-          {
-            objectsRegex = "SBQQ__PriceAction__c"
-            idFields = [
-              "ExtId__c",
-            ]
-          },
-          {
-            objectsRegex = "SBQQ__ErrorCondition__c"
-            idFields = [
-              "ExtId__c",
+              "SBQQ__Location__c",
+              "SBQQ__DisplayOrder__c",
+              "SBQQ__Type__c",
+              "Name",
             ]
           },
           {
@@ -298,7 +171,9 @@ salesforce {
           {
             objectsRegex = "SBQQ__LineColumn__c"
             idFields = [
-              "ExtId__c",
+              "##allMasterDetailFields##",
+              "SBQQ__FieldName__c",
+              "Name",
             ]
           },
           {
@@ -332,17 +207,12 @@ salesforce {
               "Name",
             ]
           },
- 
           {
-            objectsRegex = "SBQQ__Cost__c"
+            objectsRegex = "Product2"
             idFields = [
-              "ExtId__c",
-            ]
-          },
-          {
-            objectsRegex = "Pricebook2"
-            idFields = [
-              "ExtId__c",
+              "Name",
+              "ProductCode",
+              "Family",
             ]
           },
           {

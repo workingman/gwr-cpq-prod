@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Cloud_Storage_1GB@ssuuuss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Cloud_Storage_1GB___CLOUDSTORAGE___Software@ssuuuuuu
+  UnitPrice = 20
+  UseStandardPrice = false
+  _alias = "Standard Price Book Cloud Storage 1GB"
+}

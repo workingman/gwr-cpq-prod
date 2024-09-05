@@ -1,7 +1,0 @@
-salesforce.SBQQ__Cost__c a078c00000jjDEqAAM {
-  SBQQ__Active__c = true
-  SBQQ__Product__c = salesforce.Product2.instance.13__Laptop@rs
-  SBQQ__UnitCost__c = 1200
-  _alias = "COST-000003"
-  ExtId__c = "a078c00000jjDEqAAM"
-}
