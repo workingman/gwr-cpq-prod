@@ -1,6 +1,6 @@
 salesforce.SBQQ__PriceRule__c GWR_adv_conditions@s {
   SBQQ__Active__c = true
-  SBQQ__AdvancedCondition__c = "${ salesforce.SBQQ__PriceCondition__c.instance.GWR_adv_conditions___6@ssuuu } and (${ salesforce.SBQQ__PriceCondition__c.instance.GWR_adv_conditions___7@ssuuu } or ${ salesforce.SBQQ__PriceCondition__c.instance.GWR_adv_conditions___8@ssuuu })"
+  SBQQ__AdvancedCondition__c = "1 and (2 or 3)"
   SBQQ__ConditionsMet__c = "Custom"
   SBQQ__EvaluationEvent__c = "On Calculate;After Calculate"
   SBQQ__TargetObject__c = "Calculator"
