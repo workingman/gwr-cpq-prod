@@ -7,5 +7,5 @@ salesforce.SBQQ__PriceCondition__c GWR_adv_conditions___3@ssuuu {
   SBQQ__Operator__c = "equals"
   SBQQ__Rule__c = salesforce.SBQQ__PriceRule__c.instance.GWR_adv_conditions@s
   SBQQ__Value__c = "xyz"
-  _alias = "GWR adv conditions 3"
+  _alias = "GWR adv conditions 10"
 }
