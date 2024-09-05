@@ -1,6 +1,6 @@
 salesforce.Product2 "13__Laptop___LAPTOP13___Hardware@rsuuuuuu" {
   Description = "13\" Laptop"
-  ExtId__c = "01t8c00000MGiKUAA1"
+  ExtId__c = "01t8c00000MGNl0AAH"
   Extras__c = false
   Family = "Hardware"
   IsActive = true

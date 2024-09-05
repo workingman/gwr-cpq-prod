@@ -1,5 +1,5 @@
 salesforce.SBQQ__CustomAction__c Quote___915___Button___Cancel {
-  ExtId__c = "a098c00000s19wSAAQ"
+  ExtId__c = "a098c00000sBYRqAAO"
   SBQQ__Action__c = "Cancel"
   SBQQ__Active__c = true
   SBQQ__BrandButton__c = false

@@ -1,5 +1,5 @@
 salesforce.SBQQ__Cost__c COST_000092@b {
-  ExtId__c = "a078c00000jjDGGAA2"
+  ExtId__c = "a078c00000kRpeSAAS"
   SBQQ__Active__c = true
   SBQQ__Product__c = salesforce.Product2.instance.Warranty___WARRANTY___Support
   SBQQ__UnitCost__c = 1

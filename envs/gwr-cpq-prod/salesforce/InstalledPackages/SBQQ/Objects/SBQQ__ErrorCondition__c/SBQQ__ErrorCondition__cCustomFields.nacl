@@ -279,6 +279,11 @@ type salesforce.SBQQ__ErrorCondition__c {
         default = false
         label = "OpportunityType__c"
       },
+      {
+        fullName = "ABC_GWR"
+        default = false
+        label = "ABC_GWR"
+      },
     ]
     sorted = false
     restricted = false
@@ -307,6 +312,15 @@ type salesforce.SBQQ__ErrorCondition__c {
           valueName = "OpportunityType__c"
           controllingFieldValue = [
             "Quote",
+          ]
+        },
+        {
+          valueName = "ABC_GWR"
+          controllingFieldValue = [
+            "Quote",
+            "Quote Line",
+            "Quote Line Group",
+            "Product Option",
           ]
         },
         {

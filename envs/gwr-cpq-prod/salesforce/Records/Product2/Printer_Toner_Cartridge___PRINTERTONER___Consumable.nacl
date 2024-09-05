@@ -1,5 +1,5 @@
 salesforce.Product2 Printer_Toner_Cartridge___PRINTERTONER___Consumable@ssuuuuuu {
-  ExtId__c = "01t8c00000MGiKmAAL"
+  ExtId__c = "01t8c00000MGNlIAAX"
   Extras__c = false
   Family = "Consumable"
   IsActive = true

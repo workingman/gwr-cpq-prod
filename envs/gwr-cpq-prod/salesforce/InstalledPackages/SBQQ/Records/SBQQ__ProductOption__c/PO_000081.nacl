@@ -1,11 +1,10 @@
 salesforce.SBQQ__ProductOption__c PO_000081@b {
-  ExtId__c = "a0i8c00000RIb3bAAD"
+  ExtId__c = "a0i8c00000O4rlsAAB"
   SBQQ__AppliedImmediately__c = false
   SBQQ__Bundled__c = false
-  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.RAM_16GB___RAM16GB___Hardware@suuuuuu
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.13__Laptop___LAPTOP13___Hardware@rsuuuuuu
   SBQQ__DiscountedByPackage__c = false
   SBQQ__Number__c = 1
-  SBQQ__OptionalSKU__c = salesforce.Product2.instance.5kWh_Battery___5KWHBATTERY___Hardware@suuuuuu
   SBQQ__QuantityEditable__c = false
   SBQQ__Required__c = false
   SBQQ__Selected__c = false

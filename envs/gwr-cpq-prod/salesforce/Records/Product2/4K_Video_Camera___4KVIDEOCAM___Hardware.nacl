@@ -1,5 +1,5 @@
 salesforce.Product2 "4K_Video_Camera___4KVIDEOCAM___Hardware@ssuuuuuu" {
-  ExtId__c = "01t8c00000MGiLzAAL"
+  ExtId__c = "01t8c00000MGNmVAAX"
   Extras__c = false
   Family = "Hardware"
   IsActive = true

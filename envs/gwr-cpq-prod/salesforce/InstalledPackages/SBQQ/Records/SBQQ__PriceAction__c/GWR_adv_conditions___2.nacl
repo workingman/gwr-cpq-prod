@@ -1,9 +1,0 @@
-salesforce.SBQQ__PriceAction__c GWR_adv_conditions___2@ssuuu {
-  ExtId__c = "a0W8c00000KLDrfEAH"
-  SBQQ__Field__c = "Markup (%)"
-  SBQQ__Formula__c = "SBQQ__CustomerPrice__c * (1-SBQQ__PartnerDiscount__c)"
-  SBQQ__Rule__c = salesforce.SBQQ__PriceRule__c.instance.GWR_adv_conditions@s
-  SBQQ__TargetObject__c = "Quote Line"
-  SBQQ__Value__c = "10"
-  _alias = "GWR adv conditions 2"
-}

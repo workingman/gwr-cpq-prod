@@ -1,5 +1,5 @@
 salesforce.Product2 Printer_Paper_A4___PRINTERPAPERA4___Consumable@ssuuuuuu {
-  ExtId__c = "01t8c00000MGiL2AAL"
+  ExtId__c = "01t8c00000MGNlYAAX"
   Extras__c = false
   Family = "Consumable"
   IsActive = true

@@ -1,5 +1,5 @@
 salesforce.SBQQ__Cost__c COST_000069@b {
-  ExtId__c = "a078c00000jjDFtAAM"
+  ExtId__c = "a078c00000kRpe5AAC"
   SBQQ__Active__c = true
   SBQQ__Product__c = salesforce.Product2.instance.RAM_32GB___RAM32GB___Hardware@suuuuuu
   SBQQ__UnitCost__c = 250

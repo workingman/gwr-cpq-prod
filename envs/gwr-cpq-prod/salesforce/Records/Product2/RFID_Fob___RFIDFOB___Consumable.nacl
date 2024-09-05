@@ -1,5 +1,5 @@
 salesforce.Product2 RFID_Fob___RFIDFOB___Consumable@suuuuuu {
-  ExtId__c = "01t8c00000MGiLRAA1"
+  ExtId__c = "01t8c00000MGNlxAAH"
   Extras__c = false
   Family = "Consumable"
   IsActive = true

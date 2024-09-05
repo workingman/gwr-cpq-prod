@@ -1,5 +1,5 @@
 salesforce.SBQQ__CustomAction__c Quote___906___Button___Ungroup {
-  ExtId__c = "a098c00000s19wJAAQ"
+  ExtId__c = "a098c00000sBYRhAAO"
   SBQQ__Action__c = "Ungroup"
   SBQQ__Active__c = true
   SBQQ__BrandButton__c = false

@@ -297,4 +297,16 @@ type salesforce.SBQQ__ProductAction__c {
     updateable = true
     queryable = true
   }
+  salesforce.Text ExtId__c {
+    apiName = "SBQQ__ProductAction__c.ExtId__c"
+    caseSensitive = false
+    externalId = false
+    label = "Salto External Id"
+    length = 18
+    trackTrending = false
+    unique = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
 }

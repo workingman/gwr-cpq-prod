@@ -1,5 +1,5 @@
 salesforce.Product2 Printer_Paper_Tray___PRINTERPAPERTRAY___Hardware@ssuuuuuu {
-  ExtId__c = "01t8c00000MGiLMAA1"
+  ExtId__c = "01t8c00000MGNlsAAH"
   Extras__c = false
   Family = "Hardware"
   IsActive = true

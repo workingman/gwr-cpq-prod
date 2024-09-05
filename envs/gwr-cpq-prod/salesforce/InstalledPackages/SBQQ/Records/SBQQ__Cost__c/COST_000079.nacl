@@ -1,5 +1,5 @@
 salesforce.SBQQ__Cost__c COST_000079@b {
-  ExtId__c = "a078c00000jjDG3AAM"
+  ExtId__c = "a078c00000kRpeFAAS"
   SBQQ__Active__c = true
   SBQQ__Product__c = salesforce.Product2.instance.Desktop_Computer___DESKTOPCOMPUTER___Hardware@suuuuuu
   SBQQ__UnitCost__c = 500

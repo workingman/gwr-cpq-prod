@@ -1,9 +1,0 @@
-salesforce.SBQQ__TermCondition__c QT_0006___00000@buuu {
-  ExtId__c = "a158c00000NNaUoAAL"
-  SBQQ__Index__c = 1
-  SBQQ__Operator__c = "equals"
-  SBQQ__QuoteTerm__c = salesforce.SBQQ__QuoteTerm__c.instance.QT_0006@b
-  SBQQ__TestedVariable__c = salesforce.SBQQ__SummaryVariable__c.instance.gwr_summary_1@s
-  SBQQ__Value__c = "1"
-  _alias = "QT-0006 00000"
-}

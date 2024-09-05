@@ -1,5 +1,5 @@
 salesforce.Product2 Printer_Maintenance_Kit___PRINTERMAINTKIT___Consumable@ssuuuuuu {
-  ExtId__c = "01t8c00000MGiL3AAL"
+  ExtId__c = "01t8c00000MGNlZAAX"
   Extras__c = false
   Family = "Consumable"
   IsActive = true

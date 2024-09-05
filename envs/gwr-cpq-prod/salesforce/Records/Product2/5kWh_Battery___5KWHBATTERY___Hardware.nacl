@@ -1,5 +1,5 @@
 salesforce.Product2 "5kWh_Battery___5KWHBATTERY___Hardware@suuuuuu" {
-  ExtId__c = "01t8c00000MGiMrAAL"
+  ExtId__c = "01t8c00000MGNnNAAX"
   Extras__c = false
   Family = "Hardware"
   IsActive = true

@@ -1,5 +1,5 @@
 salesforce.Product2 Warranty___WARRANTY___Support {
-  ExtId__c = "01t8c00000MGiLwAAL"
+  ExtId__c = "01t8c00000MGNmSAAX"
   Extras__c = false
   Family = "Support"
   IsActive = true

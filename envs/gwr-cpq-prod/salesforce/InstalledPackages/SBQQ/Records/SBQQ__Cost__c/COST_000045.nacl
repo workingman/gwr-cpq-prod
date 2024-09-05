@@ -1,5 +1,5 @@
 salesforce.SBQQ__Cost__c COST_000045@b {
-  ExtId__c = "a078c00000jjDFVAA2"
+  ExtId__c = "a078c00000kRpdhAAC"
   SBQQ__Active__c = true
   SBQQ__Product__c = salesforce.Product2.instance.Projector_Bulb___PROJECTORBULB___Consumable@suuuuuu
   SBQQ__UnitCost__c = 70

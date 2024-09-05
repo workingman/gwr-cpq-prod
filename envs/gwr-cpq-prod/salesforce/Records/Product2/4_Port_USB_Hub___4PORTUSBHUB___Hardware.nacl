@@ -1,5 +1,5 @@
 salesforce.Product2 "4_Port_USB_Hub___4PORTUSBHUB___Hardware@sssuuuuuu" {
-  ExtId__c = "01t8c00000MGiM4AAL"
+  ExtId__c = "01t8c00000MGNmaAAH"
   Extras__c = false
   Family = "Hardware"
   IsActive = true

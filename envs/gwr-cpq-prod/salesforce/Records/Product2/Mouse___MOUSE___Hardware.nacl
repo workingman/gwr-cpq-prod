@@ -1,5 +1,5 @@
 salesforce.Product2 Mouse___MOUSE___Hardware {
-  ExtId__c = "01t8c00000MGiKkAAL"
+  ExtId__c = "01t8c00000MGNlGAAX"
   Extras__c = false
   Family = "Hardware"
   IsActive = true

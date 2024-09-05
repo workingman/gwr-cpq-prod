@@ -1,5 +1,5 @@
 salesforce.SBQQ__Cost__c COST_000082@b {
-  ExtId__c = "a078c00000jjDG6AAM"
+  ExtId__c = "a078c00000kRpeIAAS"
   SBQQ__Active__c = true
   SBQQ__Product__c = salesforce.Product2.instance.Doorbell_Camera___DOORBELLCAMERA___Hardware@suuuuuu
   SBQQ__UnitCost__c = 70

@@ -1,5 +1,5 @@
 salesforce.Product2 Smartwatch___SMARTWATCH___Hardware {
-  ExtId__c = "01t8c00000MGiM0AAL"
+  ExtId__c = "01t8c00000MGNmWAAX"
   Extras__c = false
   Family = "Hardware"
   IsActive = true

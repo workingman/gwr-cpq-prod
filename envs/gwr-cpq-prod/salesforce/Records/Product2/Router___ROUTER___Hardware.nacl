@@ -1,5 +1,5 @@
 salesforce.Product2 Router___ROUTER___Hardware {
-  ExtId__c = "01t8c00000MGiKyAAL"
+  ExtId__c = "01t8c00000MGNlUAAX"
   Extras__c = false
   Family = "Hardware"
   IsActive = true

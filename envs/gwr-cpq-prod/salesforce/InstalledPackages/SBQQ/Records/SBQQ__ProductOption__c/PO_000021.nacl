@@ -1,5 +1,5 @@
 salesforce.SBQQ__ProductOption__c PO_000021@b {
-  ExtId__c = "a0i8c00000NzhSIAAZ"
+  ExtId__c = "a0i8c00000O4r4hAAB"
   SBQQ__AppliedImmediately__c = false
   SBQQ__Bundled__c = false
   SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.Security_Console___SECURITYCONSOLE___Hardware@suuuuuu

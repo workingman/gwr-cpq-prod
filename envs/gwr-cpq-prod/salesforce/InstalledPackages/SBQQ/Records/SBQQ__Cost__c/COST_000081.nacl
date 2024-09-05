@@ -1,5 +1,5 @@
 salesforce.SBQQ__Cost__c COST_000081@b {
-  ExtId__c = "a078c00000jjDG5AAM"
+  ExtId__c = "a078c00000kRpeHAAS"
   SBQQ__Active__c = true
   SBQQ__Product__c = salesforce.Product2.instance.Deterrent_Window_Decal___DETERRENTWINDOWDECAL___Miscellaneous@ssuuuuuu
   SBQQ__UnitCost__c = 0

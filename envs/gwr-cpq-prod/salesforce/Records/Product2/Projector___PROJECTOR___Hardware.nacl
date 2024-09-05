@@ -1,5 +1,5 @@
 salesforce.Product2 Projector___PROJECTOR___Hardware {
-  ExtId__c = "01t8c00000MGiL1AAL"
+  ExtId__c = "01t8c00000MGNlXAAX"
   Extras__c = false
   Family = "Hardware"
   IsActive = true

@@ -1,5 +1,5 @@
 salesforce.SBQQ__Cost__c COST_000022@b {
-  ExtId__c = "a078c00000jjDF9AAM"
+  ExtId__c = "a078c00000kRpdLAAS"
   SBQQ__Active__c = true
   SBQQ__Product__c = salesforce.Product2.instance.USB_C_Charge_Cable_2m___USBCCHARGE2M___Miscellaneous@bsssuuuuuu
   SBQQ__UnitCost__c = 10

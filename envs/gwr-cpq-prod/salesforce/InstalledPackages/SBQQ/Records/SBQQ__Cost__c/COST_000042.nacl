@@ -1,5 +1,5 @@
 salesforce.SBQQ__Cost__c COST_000042@b {
-  ExtId__c = "a078c00000jjDFTAA2"
+  ExtId__c = "a078c00000kRpdfAAC"
   SBQQ__Active__c = true
   SBQQ__Product__c = salesforce.Product2.instance.Tablet_Charger___TABLETCHARGER___Miscellaneous@suuuuuu
   SBQQ__UnitCost__c = 5

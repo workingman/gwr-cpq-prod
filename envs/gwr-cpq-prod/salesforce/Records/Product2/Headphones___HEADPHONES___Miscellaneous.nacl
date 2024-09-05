@@ -1,5 +1,5 @@
 salesforce.Product2 Headphones___HEADPHONES___Miscellaneous {
-  ExtId__c = "01t8c00000MGiM7AAL"
+  ExtId__c = "01t8c00000MGNmdAAH"
   Extras__c = false
   Family = "Miscellaneous"
   IsActive = true

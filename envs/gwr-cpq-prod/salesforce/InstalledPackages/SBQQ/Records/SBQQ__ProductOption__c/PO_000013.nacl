@@ -1,5 +1,5 @@
 salesforce.SBQQ__ProductOption__c PO_000013@b {
-  ExtId__c = "a0i8c00000NzhS9AAJ"
+  ExtId__c = "a0i8c00000O4r4YAAR"
   SBQQ__AppliedImmediately__c = false
   SBQQ__Bundled__c = false
   SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.Laser_Printer___LASERPRINTER___Hardware@suuuuuu

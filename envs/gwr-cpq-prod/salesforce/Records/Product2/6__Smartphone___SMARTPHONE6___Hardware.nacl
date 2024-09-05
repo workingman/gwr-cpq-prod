@@ -1,5 +1,5 @@
 salesforce.Product2 "6__Smartphone___SMARTPHONE6___Hardware@rsuuuuuu" {
-  ExtId__c = "01t8c00000MGiL9AAL"
+  ExtId__c = "01t8c00000MGNlfAAH"
   Extras__c = false
   Family = "Hardware"
   IsActive = true

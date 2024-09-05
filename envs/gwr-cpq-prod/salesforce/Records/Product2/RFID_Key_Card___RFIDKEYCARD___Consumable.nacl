@@ -1,5 +1,5 @@
 salesforce.Product2 RFID_Key_Card___RFIDKEYCARD___Consumable@ssuuuuuu {
-  ExtId__c = "01t8c00000MGiKSAA1"
+  ExtId__c = "01t8c00000MGNkyAAH"
   Extras__c = false
   Family = "Consumable"
   IsActive = true

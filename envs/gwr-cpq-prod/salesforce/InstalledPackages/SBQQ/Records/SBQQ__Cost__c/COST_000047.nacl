@@ -1,5 +1,5 @@
 salesforce.SBQQ__Cost__c COST_000047@b {
-  ExtId__c = "a078c00000jjDFZAA2"
+  ExtId__c = "a078c00000kRpdlAAC"
   SBQQ__Active__c = true
   SBQQ__Product__c = salesforce.Product2.instance.Projector_Cart___PROJECTORCART___Hardware@suuuuuu
   SBQQ__UnitCost__c = 120

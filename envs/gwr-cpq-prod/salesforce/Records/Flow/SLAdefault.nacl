@@ -53,6 +53,14 @@ salesforce.Flow SLAdefault {
     object = salesforce.Account
     recordTriggerType = "Create"
     triggerType = "RecordAfterSave"
+    filterLogic = "and"
+    filters = {
+      field = "BillingCity"
+      operator = "Contains"
+      value = {
+        stringValue = "def"
+      }
+    }
   }
   status = "Draft"
   _generated_dependencies = [
