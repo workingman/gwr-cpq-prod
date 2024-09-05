@@ -62,7 +62,7 @@ type salesforce.SBQQ__DiscountSchedule__c {
     trackTrending = false
     valueSet = [
       {
-        fullName = "Account__c"
+        fullName = salesforce.SBQQ__Quote__c.field.SBQQ__Account__c
         default = false
         label = "Account__c"
       },

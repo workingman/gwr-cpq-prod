@@ -154,12 +154,12 @@ type salesforce.SBQQ__ProductRule__c {
     trackTrending = false
     valueSet = [
       {
-        fullName = "SBQQ__LookupData__c"
+        fullName = salesforce.SBQQ__LookupData__c
         default = false
         label = "SBQQ__LookupData__c"
       },
       {
-        fullName = "OutletLocale__c"
+        fullName = salesforce.OutletLocale__c
         default = false
         label = "OutletLocale__c"
       },
