@@ -1,6 +1,6 @@
 salesforce.SBQQ__Cost__c a078c00000jjDExAAM {
   SBQQ__Active__c = true
-  SBQQ__Product__c = salesforce.Product2.instance.01t8c00000MGiKbAAL
+  SBQQ__Product__c = salesforce.Product2.instance.CPU_2_8GHz_i7@svs
   SBQQ__UnitCost__c = 225
   _alias = "COST-000009"
   ExtId__c = "a078c00000jjDExAAM"

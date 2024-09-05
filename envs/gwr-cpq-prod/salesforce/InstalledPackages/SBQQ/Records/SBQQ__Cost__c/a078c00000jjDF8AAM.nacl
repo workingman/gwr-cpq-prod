@@ -1,6 +1,6 @@
 salesforce.SBQQ__Cost__c a078c00000jjDF8AAM {
   SBQQ__Active__c = true
-  SBQQ__Product__c = salesforce.Product2.instance.01t8c00000MGiKuAAL
+  SBQQ__Product__c = salesforce.Product2.instance.Mini_DisplayPort_to_DVI_Adapter@s
   SBQQ__UnitCost__c = 20
   _alias = "COST-000021"
   ExtId__c = "a078c00000jjDF8AAM"

@@ -1,6 +1,6 @@
 salesforce.SBQQ__Cost__c a078c00000jjDF5AAM {
   SBQQ__Active__c = true
-  SBQQ__Product__c = salesforce.Product2.instance.01t8c00000MGiKrAAL
+  SBQQ__Product__c = salesforce.Product2.instance.Keyboard_US_Layout@s
   SBQQ__UnitCost__c = 35
   _alias = "COST-000018"
   ExtId__c = "a078c00000jjDF5AAM"

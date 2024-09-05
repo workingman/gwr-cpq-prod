@@ -1,6 +1,6 @@
 salesforce.SBQQ__Cost__c a078c00000jjDFqAAM {
   SBQQ__Active__c = true
-  SBQQ__Product__c = salesforce.Product2.instance.01t8c00000MGiLYAA1
+  SBQQ__Product__c = salesforce.Product2.instance.NVMe_Hard_Drive_500GB@s
   SBQQ__UnitCost__c = 140
   _alias = "COST-000066"
   ExtId__c = "a078c00000jjDFqAAM"

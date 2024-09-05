@@ -1,10 +1,10 @@
 salesforce.SBQQ__ProductOption__c a0i8c00000NzhSBAAZ {
   SBQQ__AppliedImmediately__c = false
   SBQQ__Bundled__c = false
-  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.01t8c00000MGiLNAA1
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.Security_Console@s
   SBQQ__DiscountedByPackage__c = false
   SBQQ__Number__c = 20
-  SBQQ__OptionalSKU__c = salesforce.Product2.instance.01t8c00000MGiLPAA1
+  SBQQ__OptionalSKU__c = salesforce.Product2.instance.Exterior_Badge_Reader@s
   SBQQ__QuantityEditable__c = true
   SBQQ__Quantity__c = 1
   SBQQ__Required__c = false

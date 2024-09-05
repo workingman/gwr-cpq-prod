@@ -1,6 +1,6 @@
 salesforce.SBQQ__Cost__c a078c00000jjDFXAA2 {
   SBQQ__Active__c = true
-  SBQQ__Product__c = salesforce.Product2.instance.01t8c00000MGiLGAA1
+  SBQQ__Product__c = salesforce.Product2.instance.Copy_Machine@s
   SBQQ__UnitCost__c = 1600
   _alias = "COST-000049"
   ExtId__c = "a078c00000jjDFXAA2"

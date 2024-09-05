@@ -1,6 +1,6 @@
 salesforce.SBQQ__Cost__c a078c00000jjDF3AAM {
   SBQQ__Active__c = true
-  SBQQ__Product__c = salesforce.Product2.instance.01t8c00000MGiKXAA1
+  SBQQ__Product__c = salesforce.Product2.instance.SSD_Hard_Drive_128GB@s
   SBQQ__UnitCost__c = 30
   _alias = "COST-000016"
   ExtId__c = "a078c00000jjDF3AAM"
