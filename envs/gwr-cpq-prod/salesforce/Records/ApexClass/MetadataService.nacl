@@ -1,7 +1,0 @@
-salesforce.ApexClass MetadataService {
-  apiVersion = 42
-  status = "Active"
-  fullName = "MetadataService"
-  content = file("salesforce/Records/ApexClass/MetadataService.cls")
-  _alias = "MetadataService"
-}

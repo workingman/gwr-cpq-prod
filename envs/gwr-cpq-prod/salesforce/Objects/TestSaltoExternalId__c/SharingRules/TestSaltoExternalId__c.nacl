@@ -1,7 +1,0 @@
-salesforce.SharingRules TestSaltoExternalId__c {
-  fullName = "TestSaltoExternalId__c"
-  _parent = [
-    salesforce.TestSaltoExternalId__c,
-  ]
-  _alias = "TestSaltoExternalId__c"
-}

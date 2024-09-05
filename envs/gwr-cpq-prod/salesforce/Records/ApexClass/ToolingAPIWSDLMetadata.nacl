@@ -1,7 +1,0 @@
-salesforce.ApexClass ToolingAPIWSDLMetadata {
-  apiVersion = 31
-  status = "Active"
-  fullName = "ToolingAPIWSDLMetadata"
-  content = file("salesforce/Records/ApexClass/ToolingAPIWSDLMetadata.cls")
-  _alias = "ToolingAPIWSDLMetadata"
-}
