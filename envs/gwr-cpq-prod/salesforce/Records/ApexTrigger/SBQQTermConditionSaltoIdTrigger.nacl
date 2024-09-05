@@ -1,0 +1,22 @@
+salesforce.ApexTrigger SBQQTermConditionSaltoIdTrigger {
+  apiVersion = 60
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQTermConditionSaltoIdTrigger"
+  content = file("salesforce/Records/ApexTrigger/SBQQTermConditionSaltoIdTrigger.trigger")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.SaltoExternalIdService
+    },
+    {
+      reference = salesforce.SBQQ__TermCondition__c
+    },
+  ]
+  _alias = "SBQQTermConditionSaltoIdTrigger"
+}

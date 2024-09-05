@@ -1,0 +1,22 @@
+salesforce.ApexTrigger SBQQErrorConditionSaltoIdTrigger {
+  apiVersion = 60
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQErrorConditionSaltoIdTrigger"
+  content = file("salesforce/Records/ApexTrigger/SBQQErrorConditionSaltoIdTrigger.trigger")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.SaltoExternalIdService
+    },
+    {
+      reference = salesforce.SBQQ__ErrorCondition__c
+    },
+  ]
+  _alias = "SBQQErrorConditionSaltoIdTrigger"
+}

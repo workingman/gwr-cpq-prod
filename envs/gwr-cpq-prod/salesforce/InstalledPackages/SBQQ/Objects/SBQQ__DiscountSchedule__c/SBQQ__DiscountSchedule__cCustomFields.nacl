@@ -1,4 +1,16 @@
 type salesforce.SBQQ__DiscountSchedule__c {
+  salesforce.Text ExtId__c {
+    apiName = "SBQQ__DiscountSchedule__c.ExtId__c"
+    caseSensitive = false
+    externalId = false
+    label = "Salto External Id"
+    length = 18
+    trackTrending = false
+    unique = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
   salesforce.Lookup SBQQ__Account__c {
     apiName = "SBQQ__DiscountSchedule__c.SBQQ__Account__c"
     deleteConstraint = "SetNull"
@@ -50,7 +62,7 @@ type salesforce.SBQQ__DiscountSchedule__c {
     trackTrending = false
     valueSet = [
       {
-        fullName = salesforce.SBQQ__Quote__c.field.SBQQ__Account__c
+        fullName = "Account__c"
         default = false
         label = "Account__c"
       },

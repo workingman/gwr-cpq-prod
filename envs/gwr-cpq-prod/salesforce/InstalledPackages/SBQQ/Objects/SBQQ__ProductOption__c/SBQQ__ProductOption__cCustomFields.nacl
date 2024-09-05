@@ -1,4 +1,16 @@
 type salesforce.SBQQ__ProductOption__c {
+  salesforce.Text ExtId__c {
+    apiName = "SBQQ__ProductOption__c.ExtId__c"
+    caseSensitive = false
+    externalId = false
+    label = "Salto External Id"
+    length = 18
+    trackTrending = false
+    unique = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
   salesforce.Picklist SBQQ__AppliedImmediatelyContext__c {
     apiName = "SBQQ__ProductOption__c.SBQQ__AppliedImmediatelyContext__c"
     deprecated = false

@@ -1,0 +1,15 @@
+salesforce.ApexTrigger Pricebook2SaltoIdTrigger {
+  apiVersion = 60
+  status = "Active"
+  fullName = "Pricebook2SaltoIdTrigger"
+  content = file("salesforce/Records/ApexTrigger/Pricebook2SaltoIdTrigger.trigger")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.SaltoExternalIdService
+    },
+    {
+      reference = salesforce.Pricebook2
+    },
+  ]
+  _alias = "Pricebook2SaltoIdTrigger"
+}

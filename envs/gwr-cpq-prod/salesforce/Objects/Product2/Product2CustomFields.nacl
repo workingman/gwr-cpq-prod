@@ -1,4 +1,15 @@
 type salesforce.Product2 {
+  salesforce.Text ExtId__c {
+    apiName = "Product2.ExtId__c"
+    caseSensitive = false
+    externalId = false
+    label = "Salto External Id"
+    length = 18
+    unique = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
   salesforce.Checkbox Extras__c {
     apiName = "Product2.Extras__c"
     defaultValue = false

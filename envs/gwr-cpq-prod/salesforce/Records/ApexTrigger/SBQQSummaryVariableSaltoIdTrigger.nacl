@@ -1,0 +1,22 @@
+salesforce.ApexTrigger SBQQSummaryVariableSaltoIdTrigger {
+  apiVersion = 60
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQSummaryVariableSaltoIdTrigger"
+  content = file("salesforce/Records/ApexTrigger/SBQQSummaryVariableSaltoIdTrigger.trigger")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.SaltoExternalIdService
+    },
+    {
+      reference = salesforce.SBQQ__SummaryVariable__c
+    },
+  ]
+  _alias = "SBQQSummaryVariableSaltoIdTrigger"
+}

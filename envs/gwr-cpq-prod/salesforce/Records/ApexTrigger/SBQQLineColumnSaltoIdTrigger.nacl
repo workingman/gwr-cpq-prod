@@ -1,0 +1,22 @@
+salesforce.ApexTrigger SBQQLineColumnSaltoIdTrigger {
+  apiVersion = 60
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQLineColumnSaltoIdTrigger"
+  content = file("salesforce/Records/ApexTrigger/SBQQLineColumnSaltoIdTrigger.trigger")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.SaltoExternalIdService
+    },
+    {
+      reference = salesforce.SBQQ__LineColumn__c
+    },
+  ]
+  _alias = "SBQQLineColumnSaltoIdTrigger"
+}

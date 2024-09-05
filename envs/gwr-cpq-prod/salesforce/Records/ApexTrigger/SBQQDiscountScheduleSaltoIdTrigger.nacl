@@ -1,0 +1,22 @@
+salesforce.ApexTrigger SBQQDiscountScheduleSaltoIdTrigger {
+  apiVersion = 60
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQDiscountScheduleSaltoIdTrigger"
+  content = file("salesforce/Records/ApexTrigger/SBQQDiscountScheduleSaltoIdTrigger.trigger")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.SaltoExternalIdService
+    },
+    {
+      reference = salesforce.SBQQ__DiscountSchedule__c
+    },
+  ]
+  _alias = "SBQQDiscountScheduleSaltoIdTrigger"
+}

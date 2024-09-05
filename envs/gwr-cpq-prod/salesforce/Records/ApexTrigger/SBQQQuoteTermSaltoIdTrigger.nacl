@@ -1,0 +1,22 @@
+salesforce.ApexTrigger SBQQQuoteTermSaltoIdTrigger {
+  apiVersion = 60
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQQuoteTermSaltoIdTrigger"
+  content = file("salesforce/Records/ApexTrigger/SBQQQuoteTermSaltoIdTrigger.trigger")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.SaltoExternalIdService
+    },
+    {
+      reference = salesforce.SBQQ__QuoteTerm__c
+    },
+  ]
+  _alias = "SBQQQuoteTermSaltoIdTrigger"
+}

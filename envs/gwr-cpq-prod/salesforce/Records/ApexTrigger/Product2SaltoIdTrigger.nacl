@@ -1,0 +1,15 @@
+salesforce.ApexTrigger Product2SaltoIdTrigger {
+  apiVersion = 60
+  status = "Active"
+  fullName = "Product2SaltoIdTrigger"
+  content = file("salesforce/Records/ApexTrigger/Product2SaltoIdTrigger.trigger")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.SaltoExternalIdService
+    },
+    {
+      reference = salesforce.Product2
+    },
+  ]
+  _alias = "Product2SaltoIdTrigger"
+}

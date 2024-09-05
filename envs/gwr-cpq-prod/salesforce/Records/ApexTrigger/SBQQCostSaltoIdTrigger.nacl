@@ -1,0 +1,22 @@
+salesforce.ApexTrigger SBQQCostSaltoIdTrigger {
+  apiVersion = 60
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQCostSaltoIdTrigger"
+  content = file("salesforce/Records/ApexTrigger/SBQQCostSaltoIdTrigger.trigger")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.SaltoExternalIdService
+    },
+    {
+      reference = salesforce.SBQQ__Cost__c
+    },
+  ]
+  _alias = "SBQQCostSaltoIdTrigger"
+}

@@ -1,4 +1,16 @@
 type salesforce.SBQQ__Cost__c {
+  salesforce.Text ExtId__c {
+    apiName = "SBQQ__Cost__c.ExtId__c"
+    caseSensitive = false
+    externalId = false
+    label = "Salto External Id"
+    length = 18
+    trackTrending = false
+    unique = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
   salesforce.Checkbox SBQQ__Active__c {
     apiName = "SBQQ__Cost__c.SBQQ__Active__c"
     defaultValue = true

@@ -1,4 +1,16 @@
 type salesforce.SBQQ__ProductRule__c {
+  salesforce.Text ExtId__c {
+    apiName = "SBQQ__ProductRule__c.ExtId__c"
+    caseSensitive = false
+    externalId = false
+    label = "Salto External Id"
+    length = 18
+    trackTrending = false
+    unique = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
   salesforce.Checkbox SBQQ__Active__c {
     apiName = "SBQQ__ProductRule__c.SBQQ__Active__c"
     defaultValue = false
@@ -142,12 +154,12 @@ type salesforce.SBQQ__ProductRule__c {
     trackTrending = false
     valueSet = [
       {
-        fullName = salesforce.SBQQ__LookupData__c
+        fullName = "SBQQ__LookupData__c"
         default = false
         label = "SBQQ__LookupData__c"
       },
       {
-        fullName = salesforce.OutletLocale__c
+        fullName = "OutletLocale__c"
         default = false
         label = "OutletLocale__c"
       },
