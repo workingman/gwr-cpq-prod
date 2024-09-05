@@ -1,7 +1,0 @@
-salesforce.SBQQ__PriceAction__c GWR_Price_Rule_5___2@sssuuu {
-  SBQQ__Field__c = "Markup (Amt)"
-  SBQQ__Rule__c = salesforce.SBQQ__PriceRule__c.instance.GWR_Price_Rule_5@s
-  SBQQ__TargetObject__c = "Quote Line"
-  ExtId__c = "a0W8c00000Q8AtsEAF"
-  _alias = "GWR Price Rule 5 5"
-}
