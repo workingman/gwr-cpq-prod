@@ -36,5 +36,5 @@ salesforce.Product2 NetbookPro___NETBOOKPRO___Hardware {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "NETBOOKPRO Hardware NetbookPro"
-  ExtId__c = "01t8c00000MGiMZAA1"
+  ExtId__c = "01t8c00000MGNn5AAH"
 }

@@ -36,5 +36,5 @@ salesforce.Product2 Headphone_Extension_Cable___HEADPHONEEXT___Miscellaneous@ssu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "HEADPHONEEXT Miscellaneous Headphone Extension Cable"
-  ExtId__c = "01t8c00000MGiMyAAL"
+  ExtId__c = "01t8c00000MGNnUAAX"
 }

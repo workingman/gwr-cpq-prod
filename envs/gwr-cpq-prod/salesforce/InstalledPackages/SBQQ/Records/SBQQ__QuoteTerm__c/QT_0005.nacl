@@ -5,6 +5,6 @@ salesforce.SBQQ__QuoteTerm__c QT_0005@b {
   SBQQ__Locked__c = true
   SBQQ__PrintOrder__c = 60
   SBQQ__Status__c = "Draft"
-  _alias = "QT-0006"
-  ExtId__c = "a0p8c00000CJwKVAA1"
+  _alias = "QT-0005"
+  ExtId__c = "a0p8c000005SHd3AAG"
 }

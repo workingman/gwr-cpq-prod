@@ -36,5 +36,5 @@ salesforce.Product2 "4K_Monitor___MONITOR4K___Hardware@suuuuuu" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "MONITOR4K Hardware 4K Monitor"
-  ExtId__c = "01t8c00000MGiMVAA1"
+  ExtId__c = "01t8c00000MGNn1AAH"
 }

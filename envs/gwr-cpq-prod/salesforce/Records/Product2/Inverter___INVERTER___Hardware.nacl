@@ -36,5 +36,5 @@ salesforce.Product2 Inverter___INVERTER___Hardware {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "INVERTER Hardware Inverter"
-  ExtId__c = "01t8c00000MGiMhAAL"
+  ExtId__c = "01t8c00000MGNnDAAX"
 }

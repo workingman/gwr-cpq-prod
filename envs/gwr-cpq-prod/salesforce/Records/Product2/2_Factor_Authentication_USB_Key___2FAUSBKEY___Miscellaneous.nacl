@@ -36,5 +36,5 @@ salesforce.Product2 "2_Factor_Authentication_USB_Key___2FAUSBKEY___Miscellaneous
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "2FAUSBKEY Miscellaneous 2 Factor Authentication USB Key"
-  ExtId__c = "01t8c00000MGiMWAA1"
+  ExtId__c = "01t8c00000MGNn2AAH"
 }

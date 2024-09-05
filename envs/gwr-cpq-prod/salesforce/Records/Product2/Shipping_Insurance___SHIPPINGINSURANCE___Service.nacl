@@ -36,5 +36,5 @@ salesforce.Product2 Shipping_Insurance___SHIPPINGINSURANCE___Service@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SHIPPINGINSURANCE Service Shipping Insurance"
-  ExtId__c = "01t8c00000MGiMeAAL"
+  ExtId__c = "01t8c00000MGNnAAAX"
 }
