@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__Upgrade {
+  apiVersion = 51
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "Upgrade"
+  fullName = "SBQQ__Upgrade"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__Upgrade.page")
+  _alias = "Upgrade (SBQQ)"
+}

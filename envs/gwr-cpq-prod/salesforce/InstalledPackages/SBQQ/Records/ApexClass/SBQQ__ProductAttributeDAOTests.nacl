@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__ProductAttributeDAOTests {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__ProductAttributeDAOTests"
+  content = "(hidden)"
+  _alias = "SBQQ__ProductAttributeDAOTests"
+}

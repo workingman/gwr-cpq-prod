@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__TreeSet {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__TreeSet"
+  content = "(hidden)"
+  _alias = "SBQQ__TreeSet"
+}

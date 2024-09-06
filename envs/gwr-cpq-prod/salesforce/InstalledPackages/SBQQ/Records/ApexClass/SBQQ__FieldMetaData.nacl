@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__FieldMetaData {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__FieldMetaData"
+  content = "(hidden)"
+  _alias = "SBQQ__FieldMetaData"
+}

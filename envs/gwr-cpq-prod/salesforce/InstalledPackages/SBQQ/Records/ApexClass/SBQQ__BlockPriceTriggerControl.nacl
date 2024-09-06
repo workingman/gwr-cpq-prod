@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__BlockPriceTriggerControl {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__BlockPriceTriggerControl"
+  content = "(hidden)"
+  _alias = "SBQQ__BlockPriceTriggerControl"
+}

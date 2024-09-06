@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__PslUserCsv {
+  apiVersion = 51
+  availableInTouch = false
+  confirmationTokenRequired = false
+  label = "AccessError"
+  fullName = "SBQQ__PslUserCsv"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__PslUserCsv.page")
+  _alias = "AccessError (SBQQ)"
+}

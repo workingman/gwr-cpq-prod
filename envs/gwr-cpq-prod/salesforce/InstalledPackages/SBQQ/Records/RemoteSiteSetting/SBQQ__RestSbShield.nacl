@@ -1,0 +1,7 @@
+salesforce.RemoteSiteSetting SBQQ__RestSbShield {
+  fullName = "SBQQ__RestSbShield"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://rest-sb-shield.steelbrick.com"
+  _alias = "SBQQ__RestSbShield"
+}

@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___4K_Monitor@ssuuus {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.4K_Monitor___MONITOR4K___Hardware@suuuuuu
+  UnitPrice = 400
+  UseStandardPrice = false
+  _alias = "Standard Price Book 4K Monitor"
+}

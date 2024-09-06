@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__InstallProcessorAssignPS {
+  apiVersion = 41
+  status = "Active"
+  fullName = "SBQQ__InstallProcessorAssignPS"
+  content = "(hidden)"
+  _alias = "SBQQ__InstallProcessorAssignPS"
+}
