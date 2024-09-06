@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Smartphone_Heavy_Duty_Case@ssuuusss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Smartphone_Heavy_Duty_Case___SMARTPHONEHEAVYDUTYCASE___Miscellaneous@sssuuuuuu
+  UnitPrice = 35
+  UseStandardPrice = false
+  _alias = "Standard Price Book Smartphone Heavy Duty Case"
+}

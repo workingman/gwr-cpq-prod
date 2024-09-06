@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__ProcessInputValue__c {
+  fullName = "SBQQ__ProcessInputValue__c"
+  _parent = [
+    salesforce.SBQQ__ProcessInputValue__c,
+  ]
+  _alias = "SBQQ__ProcessInputValue__c"
+}

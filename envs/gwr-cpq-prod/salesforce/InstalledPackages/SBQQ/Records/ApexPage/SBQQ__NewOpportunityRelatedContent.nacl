@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__NewOpportunityRelatedContent {
+  apiVersion = 51
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "NewOpportunityRelatedContent"
+  fullName = "SBQQ__NewOpportunityRelatedContent"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__NewOpportunityRelatedContent.page")
+  _alias = "NewOpportunityRelatedContent (SBQQ)"
+}

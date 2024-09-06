@@ -1,0 +1,18 @@
+salesforce.ListView SBQQ__SummaryVariable__c_SBQQ__All {
+  fullName = "SBQQ__SummaryVariable__c.SBQQ__All"
+  columns = [
+    "NAME",
+    salesforce.SBQQ__SummaryVariable__c.field.SBQQ__Scope__c,
+    salesforce.SBQQ__SummaryVariable__c.field.SBQQ__AggregateField__c,
+    salesforce.SBQQ__SummaryVariable__c.field.SBQQ__AggregateFunction__c,
+    salesforce.SBQQ__SummaryVariable__c.field.SBQQ__Operator__c,
+    salesforce.SBQQ__SummaryVariable__c.field.SBQQ__FilterField__c,
+    salesforce.SBQQ__SummaryVariable__c.field.SBQQ__FilterValue__c,
+  ]
+  filterScope = "Everything"
+  label = "All"
+  _parent = [
+    salesforce.SBQQ__SummaryVariable__c,
+  ]
+  _alias = "All (SBQQ)"
+}

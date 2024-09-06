@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__CollectionUtilsTests {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__CollectionUtilsTests"
+  content = "(hidden)"
+  _alias = "SBQQ__CollectionUtilsTests"
+}

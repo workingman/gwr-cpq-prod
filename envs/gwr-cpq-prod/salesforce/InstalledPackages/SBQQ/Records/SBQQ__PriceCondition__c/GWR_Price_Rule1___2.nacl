@@ -1,0 +1,10 @@
+salesforce.SBQQ__PriceCondition__c GWR_Price_Rule1___2@ssuuu {
+  ExtId__c = "a0X8c00000WLzqXEAT"
+  SBQQ__Field__c = "Product Code"
+  SBQQ__FilterType__c = "Value"
+  SBQQ__Object__c = "Quote"
+  SBQQ__Operator__c = "equals"
+  SBQQ__Rule__c = salesforce.SBQQ__PriceRule__c.instance.GWR_Price_Rule1@s
+  SBQQ__Value__c = "abc"
+  _alias = "GWR Price Rule1 13"
+}

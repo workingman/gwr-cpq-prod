@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__ServiceLoader {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__ServiceLoader"
+  content = "(hidden)"
+  _alias = "SBQQ__ServiceLoader"
+}
