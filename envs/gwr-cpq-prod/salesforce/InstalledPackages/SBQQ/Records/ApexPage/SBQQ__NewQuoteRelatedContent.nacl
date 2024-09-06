@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__NewQuoteRelatedContent {
+  apiVersion = 51
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "NewQuoteRelatedContent"
+  fullName = "SBQQ__NewQuoteRelatedContent"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__NewQuoteRelatedContent.page")
+  _alias = "NewQuoteRelatedContent (SBQQ)"
+}

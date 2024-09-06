@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___High_Capacity_Toner_Cartridge@ssuuusss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.High_Capacity_Toner_Cartridge___HIGHCAPACITYTONER___Consumable@sssuuuuuu
+  UnitPrice = 250
+  UseStandardPrice = false
+  _alias = "Standard Price Book High Capacity Toner Cartridge"
+}

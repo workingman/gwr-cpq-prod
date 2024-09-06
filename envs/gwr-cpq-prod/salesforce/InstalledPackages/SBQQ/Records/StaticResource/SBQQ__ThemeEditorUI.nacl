@@ -1,0 +1,7 @@
+salesforce.StaticResource SBQQ__ThemeEditorUI {
+  cacheControl = "Private"
+  contentType = "text/javascript"
+  fullName = "SBQQ__ThemeEditorUI"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__ThemeEditorUI.resource")
+  _alias = "SBQQ__ThemeEditorUI"
+}

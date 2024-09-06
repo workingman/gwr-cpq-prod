@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__RecordInfo {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__RecordInfo"
+  content = "(hidden)"
+  _alias = "SBQQ__RecordInfo"
+}

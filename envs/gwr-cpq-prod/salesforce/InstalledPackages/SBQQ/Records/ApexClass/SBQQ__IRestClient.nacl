@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__IRestClient {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__IRestClient"
+  content = "(hidden)"
+  _alias = "SBQQ__IRestClient"
+}

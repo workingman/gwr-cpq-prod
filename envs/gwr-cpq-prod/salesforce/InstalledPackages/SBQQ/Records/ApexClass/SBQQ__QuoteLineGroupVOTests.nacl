@@ -1,0 +1,14 @@
+salesforce.ApexClass SBQQ__QuoteLineGroupVOTests {
+  apiVersion = 51
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQ__QuoteLineGroupVOTests"
+  content = "(hidden)"
+  _alias = "SBQQ__QuoteLineGroupVOTests"
+}

@@ -1,0 +1,7 @@
+salesforce.ApexComponent SBQQ__productRuleAlert {
+  apiVersion = 51
+  label = "Product Rule Alert"
+  fullName = "SBQQ__productRuleAlert"
+  content = "(hidden)"
+  _alias = "Product Rule Alert (SBQQ)"
+}

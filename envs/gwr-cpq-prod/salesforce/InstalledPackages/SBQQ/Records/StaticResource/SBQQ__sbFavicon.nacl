@@ -1,0 +1,7 @@
+salesforce.StaticResource SBQQ__sbFavicon {
+  cacheControl = "Public"
+  contentType = "text/css"
+  fullName = "SBQQ__sbFavicon"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__sbFavicon.css")
+  _alias = "SBQQ__sbFavicon"
+}
