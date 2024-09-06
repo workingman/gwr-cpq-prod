@@ -1,0 +1,7 @@
+salesforce.ApexComponent SBQQ__discountScheduleEditor {
+  apiVersion = 51
+  label = "discountScheduleEditor"
+  fullName = "SBQQ__discountScheduleEditor"
+  content = "(hidden)"
+  _alias = "discountScheduleEditor (SBQQ)"
+}

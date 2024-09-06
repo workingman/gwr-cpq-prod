@@ -1,0 +1,7 @@
+salesforce.RemoteSiteSetting SBQQ__ProposalsShield {
+  fullName = "SBQQ__ProposalsShield"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://proposals-shield.steelbrick.com"
+  _alias = "SBQQ__ProposalsShield"
+}

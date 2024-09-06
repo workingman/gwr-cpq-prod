@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__DiscountTierHelp {
+  apiVersion = 51
+  availableInTouch = false
+  confirmationTokenRequired = false
+  label = "DiscountTierHelp"
+  fullName = "SBQQ__DiscountTierHelp"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__DiscountTierHelp.page")
+  _alias = "DiscountTierHelp (SBQQ)"
+}

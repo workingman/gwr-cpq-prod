@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__QuoteLineGroupHelp {
+  apiVersion = 51
+  availableInTouch = false
+  confirmationTokenRequired = false
+  label = "QuoteLineGroupHelp"
+  fullName = "SBQQ__QuoteLineGroupHelp"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__QuoteLineGroupHelp.page")
+  _alias = "QuoteLineGroupHelp (SBQQ)"
+}

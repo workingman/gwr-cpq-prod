@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__AttributeSet__c {
+  fullName = "SBQQ__AttributeSet__c"
+  _parent = [
+    salesforce.SBQQ__AttributeSet__c,
+  ]
+  _alias = "SBQQ__AttributeSet__c"
+}

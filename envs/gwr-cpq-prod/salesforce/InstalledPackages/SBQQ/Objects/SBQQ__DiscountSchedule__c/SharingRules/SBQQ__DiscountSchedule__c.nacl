@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__DiscountSchedule__c {
+  fullName = "SBQQ__DiscountSchedule__c"
+  _parent = [
+    salesforce.SBQQ__DiscountSchedule__c,
+  ]
+  _alias = "SBQQ__DiscountSchedule__c"
+}

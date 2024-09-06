@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___USB_C_Charge_Cable_1m@ssuuubsss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.USB_C_Charge_Cable_1m___USBCCHARGE1M___Miscellaneous@bsssuuuuuu
+  UnitPrice = 20
+  UseStandardPrice = false
+  _alias = "Standard Price Book USB-C Charge Cable 1m"
+}
