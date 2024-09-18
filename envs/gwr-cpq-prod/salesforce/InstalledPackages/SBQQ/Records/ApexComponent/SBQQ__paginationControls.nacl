@@ -1,0 +1,8 @@
+salesforce.ApexComponent SBQQ__paginationControls {
+  apiVersion = 51
+  description = "Renders pagination controls on list views."
+  label = "paginationControls"
+  fullName = "SBQQ__paginationControls"
+  content = "(hidden)"
+  _alias = "paginationControls (SBQQ)"
+}

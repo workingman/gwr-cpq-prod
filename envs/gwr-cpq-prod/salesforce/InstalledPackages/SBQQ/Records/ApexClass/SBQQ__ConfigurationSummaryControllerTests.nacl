@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__ConfigurationSummaryControllerTests {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__ConfigurationSummaryControllerTests"
+  content = "(hidden)"
+  _alias = "SBQQ__ConfigurationSummaryControllerTests"
+}

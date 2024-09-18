@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__ProductFeature__c {
+  fullName = "SBQQ__ProductFeature__c"
+  _parent = [
+    salesforce.SBQQ__ProductFeature__c,
+  ]
+  _alias = "SBQQ__ProductFeature__c"
+}

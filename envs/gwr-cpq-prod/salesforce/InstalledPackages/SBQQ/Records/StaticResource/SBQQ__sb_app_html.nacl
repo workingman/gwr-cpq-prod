@@ -1,0 +1,8 @@
+salesforce.StaticResource SBQQ__sb_app_html {
+  cacheControl = "Public"
+  contentType = "text/html"
+  description = "Salesforce CPQ HTML"
+  fullName = "SBQQ__sb_app_html"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__sb_app_html.html")
+  _alias = "SBQQ__sb_app_html"
+}

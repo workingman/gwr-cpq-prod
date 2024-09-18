@@ -1,0 +1,7 @@
+salesforce.CustomPermission SBQQ__CPQStandardPerm {
+  description = "Allow users with CPQ PSL to access CPQ key features"
+  isLicensed = false
+  label = "CPQStandardPerm"
+  fullName = "SBQQ__CPQStandardPerm"
+  _alias = "CPQStandardPerm (SBQQ)"
+}

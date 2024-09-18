@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Solar_Controller_Hub@ssuuuss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Solar_Controller_Hub___SOLARCONTROLLERHUB___Hardware@ssuuuuuu
+  UnitPrice = 125
+  UseStandardPrice = false
+  _alias = "Standard Price Book Solar Controller Hub"
+}

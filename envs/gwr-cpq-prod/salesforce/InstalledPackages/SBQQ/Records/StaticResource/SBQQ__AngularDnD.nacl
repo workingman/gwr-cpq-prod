@@ -1,0 +1,7 @@
+salesforce.StaticResource SBQQ__AngularDnD {
+  cacheControl = "Private"
+  contentType = "text/javascript"
+  fullName = "SBQQ__AngularDnD"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__AngularDnD.resource")
+  _alias = "SBQQ__AngularDnD"
+}

@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Solar_Panel_400W@ssuuuss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Solar_Panel_400W___SOLARPANEL400W___Hardware@ssuuuuuu
+  UnitPrice = 250
+  UseStandardPrice = false
+  _alias = "Standard Price Book Solar Panel 400W"
+}
