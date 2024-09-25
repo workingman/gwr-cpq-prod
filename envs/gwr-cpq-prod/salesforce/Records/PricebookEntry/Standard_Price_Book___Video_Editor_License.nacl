@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Video_Editor_License@ssuuuss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Video_Editor_License___VIDEOEDITOR___Software@ssuuuuuu
+  UnitPrice = 1200
+  UseStandardPrice = false
+  _alias = "Standard Price Book Video Editor License"
+}

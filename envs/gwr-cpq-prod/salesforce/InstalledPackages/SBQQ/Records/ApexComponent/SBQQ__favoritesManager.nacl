@@ -1,0 +1,7 @@
+salesforce.ApexComponent SBQQ__favoritesManager {
+  apiVersion = 51
+  label = "favoritesManager"
+  fullName = "SBQQ__favoritesManager"
+  content = "(hidden)"
+  _alias = "favoritesManager (SBQQ)"
+}

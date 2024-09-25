@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__ViewDocument {
+  apiVersion = 51
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "ViewDocument"
+  fullName = "SBQQ__ViewDocument"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__ViewDocument.page")
+  _alias = "ViewDocument (SBQQ)"
+}

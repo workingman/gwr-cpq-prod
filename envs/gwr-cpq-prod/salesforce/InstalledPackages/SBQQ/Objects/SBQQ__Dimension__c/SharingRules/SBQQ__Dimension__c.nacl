@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__Dimension__c {
+  fullName = "SBQQ__Dimension__c"
+  _parent = [
+    salesforce.SBQQ__Dimension__c,
+  ]
+  _alias = "SBQQ__Dimension__c"
+}

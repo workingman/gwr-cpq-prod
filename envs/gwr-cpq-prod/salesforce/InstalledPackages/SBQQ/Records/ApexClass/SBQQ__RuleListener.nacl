@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__RuleListener {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__RuleListener"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__RuleListener.cls")
+  _alias = "SBQQ__RuleListener"
+}

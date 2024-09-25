@@ -1,0 +1,7 @@
+salesforce.ApexComponent SBQQ__themeStyles {
+  apiVersion = 37
+  label = "themeStyles"
+  fullName = "SBQQ__themeStyles"
+  content = "(hidden)"
+  _alias = "themeStyles (SBQQ)"
+}

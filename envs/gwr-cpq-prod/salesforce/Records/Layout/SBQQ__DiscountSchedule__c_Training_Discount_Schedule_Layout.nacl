@@ -1,0 +1,389 @@
+salesforce.Layout SBQQ__DiscountSchedule__c_Training_Discount_Schedule_Layout@uuuubsss {
+  customButtons = [
+    "SBQQ__EditTiers",
+  ]
+  excludeButtons = [
+    "Submit",
+  ]
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.Name
+            },
+            {
+              behavior = "Required"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__Type__c
+            },
+            {
+              behavior = "Required"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__DiscountUnit__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__Description__c
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__AggregationScope__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__CrossProducts__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__CrossOrders__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__IncludeBundledProducts__c
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = true
+      detailHeading = true
+      editHeading = true
+      label = "Advanced Settings"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__OverrideBehavior__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__UserDefined__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__UsePriceForAmount__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__Account__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__Quote__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__QuoteLine__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__OriginalDiscountSchedule__c
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__ConstraintField__c
+            },
+            {
+              emptySpace = true
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__PriceScale__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__QuoteLineQuantityField__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__ExcludedPricebookIds__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__Product__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.SBQQ__Pricebook__c
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.CreatedById
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.OwnerId
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.SBQQ__DiscountSchedule__c.field.LastModifiedById
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = false
+      label = "Description Information"
+      layoutColumns = [
+        {
+        },
+      ]
+      style = "OneColumn"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Custom Links"
+      style = "CustomLinks"
+    },
+  ]
+  platformActionList = {
+    actionListContext = "Record"
+    platformActionListItems = [
+      {
+        actionName = "Edit"
+        actionType = "StandardButton"
+        sortOrder = 0
+      },
+      {
+        actionName = "SBQQ__EditTiers"
+        actionType = "CustomButton"
+        sortOrder = 1
+      },
+      {
+        actionName = "FeedItem.TextPost"
+        actionType = "QuickAction"
+        sortOrder = 2
+      },
+      {
+        actionName = "FeedItem.ContentPost"
+        actionType = "QuickAction"
+        sortOrder = 3
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewEvent
+        actionType = "QuickAction"
+        sortOrder = 4
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewTask
+        actionType = "QuickAction"
+        sortOrder = 5
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewContact
+        actionType = "QuickAction"
+        sortOrder = 6
+      },
+      {
+        actionName = salesforce.QuickAction.instance.LogACall
+        actionType = "QuickAction"
+        sortOrder = 7
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewOpportunity
+        actionType = "QuickAction"
+        sortOrder = 8
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewCase
+        actionType = "QuickAction"
+        sortOrder = 9
+      },
+      {
+        actionName = salesforce.QuickAction.instance.NewLead
+        actionType = "QuickAction"
+        sortOrder = 10
+      },
+      {
+        actionName = "FeedItem.LinkPost"
+        actionType = "QuickAction"
+        sortOrder = 11
+      },
+      {
+        actionName = "FeedItem.PollPost"
+        actionType = "QuickAction"
+        sortOrder = 12
+      },
+      {
+        actionName = "FeedItem.QuestionPost"
+        actionType = "QuickAction"
+        sortOrder = 13
+      },
+      {
+        actionName = salesforce.QuickAction.instance.SendEmail
+        actionType = "QuickAction"
+        sortOrder = 14
+      },
+      {
+        actionName = "Delete"
+        actionType = "StandardButton"
+        sortOrder = 15
+      },
+      {
+        actionName = "Submit"
+        actionType = "StandardButton"
+        sortOrder = 16
+      },
+      {
+        actionName = "Clone"
+        actionType = "StandardButton"
+        sortOrder = 17
+      },
+      {
+        actionName = "ChangeOwnerOne"
+        actionType = "StandardButton"
+        sortOrder = 18
+      },
+      {
+        actionName = "ChangeRecordType"
+        actionType = "StandardButton"
+        sortOrder = 19
+      },
+      {
+        actionName = "Share"
+        actionType = "StandardButton"
+        sortOrder = 20
+      },
+    ]
+  }
+  relatedLists = [
+    {
+      excludeButtons = [
+        "New",
+      ]
+      fields = [
+        "NAME",
+        "SBQQ__Number__c",
+        "SBQQ__LowerBound__c",
+        "SBQQ__UpperBound__c",
+        "SBQQ__Discount__c",
+        "SBQQ__DiscountAmount__c",
+      ]
+      relatedList = salesforce.SBQQ__DiscountTier__c.field.SBQQ__Schedule__c
+      sortField = "SBQQ__Number__c"
+      sortOrder = "Asc"
+    },
+    {
+      fields = [
+        "PRODUCT2.NAME",
+        "PRODUCT2.CUSTOMER_PRODUCT_ID",
+        "PRODUCT2.DESCRIPTION",
+      ]
+      relatedList = salesforce.Product2.field.SBQQ__DiscountSchedule__c
+    },
+    {
+      fields = [
+        "PRODUCT2.NAME",
+        "PRODUCT2.CUSTOMER_PRODUCT_ID",
+        "PRODUCT2.DESCRIPTION",
+      ]
+      relatedList = salesforce.Product2.field.SBQQ__TermDiscountSchedule__c
+    },
+    {
+      excludeButtons = [
+        "New",
+      ]
+      fields = [
+        "NAME",
+        "SBQQ__Number__c",
+        "SBQQ__ConfiguredSKU__c",
+        "SBQQ__MinOptionCount__c",
+        "SBQQ__MaxOptionCount__c",
+      ]
+      relatedList = salesforce.SBQQ__ProductFeature__c.field.SBQQ__DiscountSchedule__c
+    },
+    {
+      excludeButtons = [
+        "New",
+      ]
+      fields = [
+        "NAME",
+        "SBQQ__ConfiguredSKU__c",
+        "SBQQ__OptionalSKU__c",
+        "SBQQ__Quantity__c",
+        "SBQQ__Feature__c",
+        "SBQQ__Type__c",
+      ]
+      relatedList = salesforce.SBQQ__ProductOption__c.field.SBQQ__DiscountSchedule__c
+    },
+    {
+      fields = [
+        "NAME",
+        "SBQQ__Product__c",
+        "SBQQ__Type__c",
+      ]
+      relatedList = salesforce.SBQQ__Dimension__c.field.SBQQ__DiscountSchedule__c
+    },
+    {
+      fields = [
+        "NAME",
+        "SBQQ__Product__c",
+        "SBQQ__Type__c",
+      ]
+      relatedList = salesforce.SBQQ__Dimension__c.field.SBQQ__TermDiscountSchedule__c
+    },
+    {
+      fields = [
+        "PRODUCT2.NAME",
+        "PRODUCT2.CUSTOMER_PRODUCT_ID",
+        "PRODUCT2.DESCRIPTION",
+      ]
+      relatedList = salesforce.Product2.field.SBQQ__CostSchedule__c
+    },
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = true
+  showInteractionLogPanel = true
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  summaryLayout = {
+    masterLabel = "00h1H00000awDjR"
+    sizeX = 3
+    sizeY = 0
+    summaryLayoutStyle = "Default"
+  }
+  fullName = "SBQQ__DiscountSchedule__c-Training Discount Schedule Layout"
+  _parent = [
+    salesforce.SBQQ__DiscountSchedule__c,
+  ]
+  _alias = "SBQQ__DiscountSchedule__c-Training Discount Schedule Layout"
+}
