@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Exterior_Keypad@ssuuus {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Exterior_Keypad___EXTERIORKEYPAD___Hardware@suuuuuu
+  UnitPrice = 95
+  UseStandardPrice = false
+  _alias = "Standard Price Book Exterior Keypad"
+}

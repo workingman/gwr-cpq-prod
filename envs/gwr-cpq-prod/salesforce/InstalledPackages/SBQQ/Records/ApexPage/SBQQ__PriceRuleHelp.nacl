@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__PriceRuleHelp {
+  apiVersion = 51
+  availableInTouch = false
+  confirmationTokenRequired = false
+  label = "Price Rule Help"
+  fullName = "SBQQ__PriceRuleHelp"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__PriceRuleHelp.page")
+  _alias = "Price Rule Help (SBQQ)"
+}

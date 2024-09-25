@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__CustomScriptSave {
+  apiVersion = 51
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "CustomScriptSave"
+  fullName = "SBQQ__CustomScriptSave"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__CustomScriptSave.page")
+  _alias = "CustomScriptSave (SBQQ)"
+}

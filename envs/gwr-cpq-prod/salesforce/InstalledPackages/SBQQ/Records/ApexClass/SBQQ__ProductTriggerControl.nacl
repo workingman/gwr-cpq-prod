@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__ProductTriggerControl {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__ProductTriggerControl"
+  content = "(hidden)"
+  _alias = "SBQQ__ProductTriggerControl"
+}

@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__SiteCloneQuote {
+  apiVersion = 51
+  availableInTouch = false
+  confirmationTokenRequired = false
+  label = "SiteCloneQuote"
+  fullName = "SBQQ__SiteCloneQuote"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__SiteCloneQuote.page")
+  _alias = "SiteCloneQuote (SBQQ)"
+}

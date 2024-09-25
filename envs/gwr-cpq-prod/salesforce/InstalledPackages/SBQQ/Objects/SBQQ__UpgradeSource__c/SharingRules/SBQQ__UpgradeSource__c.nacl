@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__UpgradeSource__c {
+  fullName = "SBQQ__UpgradeSource__c"
+  _parent = [
+    salesforce.SBQQ__UpgradeSource__c,
+  ]
+  _alias = "SBQQ__UpgradeSource__c"
+}

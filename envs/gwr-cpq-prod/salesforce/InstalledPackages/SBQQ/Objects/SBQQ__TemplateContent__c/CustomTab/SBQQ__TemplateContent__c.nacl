@@ -1,0 +1,10 @@
+salesforce.CustomTab SBQQ__TemplateContent__c {
+  fullName = "SBQQ__TemplateContent__c"
+  customObject = true
+  description = "Tab for viewing and managing Template Content records."
+  motif = "Custom57: Building Block"
+  _parent = [
+    salesforce.SBQQ__TemplateContent__c,
+  ]
+  _alias = "SBQQ__TemplateContent__c"
+}
