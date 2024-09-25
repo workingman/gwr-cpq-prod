@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__EditSettings {
+  apiVersion = 51
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "EditSettings"
+  fullName = "SBQQ__EditSettings"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__EditSettings.page")
+  _alias = "EditSettings (SBQQ)"
+}

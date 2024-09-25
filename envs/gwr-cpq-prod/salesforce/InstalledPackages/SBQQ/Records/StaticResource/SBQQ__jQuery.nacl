@@ -1,0 +1,8 @@
+salesforce.StaticResource SBQQ__jQuery {
+  cacheControl = "Private"
+  contentType = "text/javascript"
+  description = "Core jQuery framework."
+  fullName = "SBQQ__jQuery"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__jQuery.resource")
+  _alias = "SBQQ__jQuery"
+}

@@ -1,0 +1,14 @@
+salesforce.ApexClass SBQQ__DocumentGeneratorController {
+  apiVersion = 51
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQ__DocumentGeneratorController"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__DocumentGeneratorController.cls")
+  _alias = "SBQQ__DocumentGeneratorController"
+}

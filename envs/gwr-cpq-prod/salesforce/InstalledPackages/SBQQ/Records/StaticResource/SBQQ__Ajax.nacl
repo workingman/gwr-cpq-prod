@@ -1,0 +1,8 @@
+salesforce.StaticResource SBQQ__Ajax {
+  cacheControl = "Public"
+  contentType = "text/javascript"
+  description = "Ajax"
+  fullName = "SBQQ__Ajax"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__Ajax.resource")
+  _alias = "SBQQ__Ajax"
+}

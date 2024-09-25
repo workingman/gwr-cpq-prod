@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Laptop_Charging_Cart@ssuuuss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Laptop_Charging_Cart___LAPTOPCART___Miscellaneous@ssuuuuuu
+  UnitPrice = 1100
+  UseStandardPrice = false
+  _alias = "Standard Price Book Laptop Charging Cart"
+}

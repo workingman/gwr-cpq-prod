@@ -1,0 +1,10 @@
+salesforce.CustomTab SBQQ__CustomAction__c {
+  fullName = "SBQQ__CustomAction__c"
+  customObject = true
+  description = "Tab for managing custom actions."
+  motif = "Custom38: Camera"
+  _parent = [
+    salesforce.SBQQ__CustomAction__c,
+  ]
+  _alias = "SBQQ__CustomAction__c"
+}

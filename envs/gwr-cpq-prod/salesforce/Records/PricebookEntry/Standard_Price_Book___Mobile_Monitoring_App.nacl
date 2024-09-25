@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Mobile_Monitoring_App@ssuuuss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Mobile_Monitoring_App___MOBILEMONITORINGAPP___Service@ssuuuuuu
+  UnitPrice = 2
+  UseStandardPrice = false
+  _alias = "Standard Price Book Mobile Monitoring App"
+}

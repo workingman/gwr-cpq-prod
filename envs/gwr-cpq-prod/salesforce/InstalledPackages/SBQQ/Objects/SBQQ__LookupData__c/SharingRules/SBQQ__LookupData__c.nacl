@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__LookupData__c {
+  fullName = "SBQQ__LookupData__c"
+  _parent = [
+    salesforce.SBQQ__LookupData__c,
+  ]
+  _alias = "SBQQ__LookupData__c"
+}

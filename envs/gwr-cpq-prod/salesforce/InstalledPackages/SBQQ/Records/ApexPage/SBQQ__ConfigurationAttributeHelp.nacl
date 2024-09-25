@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__ConfigurationAttributeHelp {
+  apiVersion = 51
+  availableInTouch = false
+  confirmationTokenRequired = false
+  label = "Configuration Attribute Help"
+  fullName = "SBQQ__ConfigurationAttributeHelp"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__ConfigurationAttributeHelp.page")
+  _alias = "Configuration Attribute Help (SBQQ)"
+}

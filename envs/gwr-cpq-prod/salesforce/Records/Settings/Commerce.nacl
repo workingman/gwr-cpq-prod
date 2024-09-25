@@ -1,0 +1,6 @@
+salesforce.CommerceSettings {
+  fullName = "Commerce"
+  commerceEnabled = "false"
+  _alias = "Commerce"
+  commerceAppEnabled = "false"
+}
