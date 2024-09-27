@@ -1,5 +1,4 @@
 salesforce.Product2 GWR_20240118_produ___gr20240118@ssuuu {
-  Description = "20240118"
   ExtId__c = "01t8c00000Oo8vuAAB"
   Extras__c = false
   IsActive = true
@@ -10,8 +9,6 @@ salesforce.Product2 GWR_20240118_produ___gr20240118@ssuuu {
   SBQQ__AssetConversion__c = "One per quote line"
   SBQQ__BlockPricingField__c = "Quantity"
   SBQQ__Component__c = false
-  SBQQ__ConfigurationEvent__c = "Always"
-  SBQQ__ConfigurationType__c = "Required"
   SBQQ__CostEditable__c = false
   SBQQ__CustomConfigurationRequired__c = false
   SBQQ__DefaultQuantity__c = 1
@@ -39,6 +36,5 @@ salesforce.Product2 GWR_20240118_produ___gr20240118@ssuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   gwr_exclpart__c = false
-  gwr_exclude__c = "test"
   _alias = "gr20240118 GWR 20240118 produ"
 }

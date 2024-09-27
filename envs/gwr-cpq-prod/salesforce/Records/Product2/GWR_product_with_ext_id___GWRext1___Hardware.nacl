@@ -10,8 +10,6 @@ salesforce.Product2 GWR_product_with_ext_id___GWRext1___Hardware@ssssuuuuuu {
   SBQQ__AssetConversion__c = "One per quote line"
   SBQQ__BlockPricingField__c = "Quantity"
   SBQQ__Component__c = false
-  SBQQ__ConfigurationEvent__c = "Add"
-  SBQQ__ConfigurationType__c = "Allowed"
   SBQQ__CostEditable__c = false
   SBQQ__CustomConfigurationRequired__c = false
   SBQQ__DefaultQuantity__c = 1
@@ -28,7 +26,6 @@ salesforce.Product2 GWR_product_with_ext_id___GWRext1___Hardware@ssssuuuuuu {
   SBQQ__NewQuoteGroup__c = false
   SBQQ__NonDiscountable__c = false
   SBQQ__NonPartnerDiscountable__c = false
-  SBQQ__OptionLayout__c = "Sections"
   SBQQ__OptionSelectionMethod__c = "Click"
   SBQQ__Optional__c = false
   SBQQ__PriceEditable__c = false
@@ -40,6 +37,5 @@ salesforce.Product2 GWR_product_with_ext_id___GWRext1___Hardware@ssssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   gwr_exclpart__c = false
-  gwr_exclude__c = "abc"
   _alias = "GWRext1 Hardware GWR product with ext id"
 }
