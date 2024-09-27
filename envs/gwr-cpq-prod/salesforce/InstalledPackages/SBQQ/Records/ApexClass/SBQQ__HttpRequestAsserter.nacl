@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__HttpRequestAsserter {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__HttpRequestAsserter"
+  content = "(hidden)"
+  _alias = "SBQQ__HttpRequestAsserter"
+}

@@ -1,0 +1,7 @@
+salesforce.ApexComponent SBQQ__quoteTermsEditor {
+  apiVersion = 51
+  label = "quoteTermsEditor"
+  fullName = "SBQQ__quoteTermsEditor"
+  content = "(hidden)"
+  _alias = "quoteTermsEditor (SBQQ)"
+}

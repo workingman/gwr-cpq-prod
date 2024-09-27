@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___RAM_16GB@ssuuus {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.RAM_16GB___RAM16GB___Hardware@suuuuuu
+  UnitPrice = 175
+  UseStandardPrice = false
+  _alias = "Standard Price Book RAM 16GB"
+}

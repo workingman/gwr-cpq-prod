@@ -1,0 +1,8 @@
+salesforce.StaticResource SBQQ__HtmlSanitizer {
+  cacheControl = "Private"
+  contentType = "text/javascript"
+  description = "Google HTML Sanitizer library"
+  fullName = "SBQQ__HtmlSanitizer"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__HtmlSanitizer.resource")
+  _alias = "SBQQ__HtmlSanitizer"
+}

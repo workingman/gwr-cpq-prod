@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__QuoteProcess__c {
+  fullName = "SBQQ__QuoteProcess__c"
+  _parent = [
+    salesforce.SBQQ__QuoteProcess__c,
+  ]
+  _alias = "SBQQ__QuoteProcess__c"
+}

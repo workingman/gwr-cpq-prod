@@ -1,0 +1,7 @@
+salesforce.ApexComponent SBQQ__polymer1Page {
+  apiVersion = 51
+  label = "oldui"
+  fullName = "SBQQ__polymer1Page"
+  content = "(hidden)"
+  _alias = "oldui (SBQQ)"
+}

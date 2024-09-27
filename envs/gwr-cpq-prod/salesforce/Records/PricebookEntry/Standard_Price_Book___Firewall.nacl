@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Firewall@ssuuu {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Firewall___FIREWALL___Hardware
+  UnitPrice = 2400
+  UseStandardPrice = false
+  _alias = "Standard Price Book Firewall"
+}
