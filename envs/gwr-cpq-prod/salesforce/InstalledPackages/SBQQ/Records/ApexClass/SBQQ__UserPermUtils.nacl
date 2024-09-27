@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__UserPermUtils {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__UserPermUtils"
+  content = "(hidden)"
+  _alias = "SBQQ__UserPermUtils"
+}

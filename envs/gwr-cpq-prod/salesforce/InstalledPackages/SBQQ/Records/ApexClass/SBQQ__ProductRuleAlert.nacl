@@ -1,0 +1,14 @@
+salesforce.ApexClass SBQQ__ProductRuleAlert {
+  apiVersion = 51
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQ__ProductRuleAlert"
+  content = "(hidden)"
+  _alias = "SBQQ__ProductRuleAlert"
+}

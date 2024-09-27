@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Inverter@ssuuu {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Inverter___INVERTER___Hardware
+  UnitPrice = 1300
+  UseStandardPrice = false
+  _alias = "Standard Price Book Inverter"
+}

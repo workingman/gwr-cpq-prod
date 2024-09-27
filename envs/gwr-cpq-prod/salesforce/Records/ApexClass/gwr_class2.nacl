@@ -1,0 +1,7 @@
+salesforce.ApexClass gwr_class2 {
+  apiVersion = 58
+  status = "Active"
+  fullName = "gwr_class2"
+  content = file("salesforce/Records/ApexClass/gwr_class2.cls")
+  _alias = "gwr_class2"
+}

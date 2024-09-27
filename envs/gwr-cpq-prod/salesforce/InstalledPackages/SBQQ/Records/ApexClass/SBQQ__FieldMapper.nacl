@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__FieldMapper {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__FieldMapper"
+  content = "(hidden)"
+  _alias = "SBQQ__FieldMapper"
+}

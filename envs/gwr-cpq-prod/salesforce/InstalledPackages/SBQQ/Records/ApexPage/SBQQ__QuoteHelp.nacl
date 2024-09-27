@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__QuoteHelp {
+  apiVersion = 51
+  availableInTouch = false
+  confirmationTokenRequired = false
+  label = "QuoteHelp"
+  fullName = "SBQQ__QuoteHelp"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__QuoteHelp.page")
+  _alias = "QuoteHelp (SBQQ)"
+}

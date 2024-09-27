@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Marketing_Platform_License@ssuuuss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Marketing_Platform_License___MARKETINGPLATFORMLICENSE___Software@ssuuuuuu
+  UnitPrice = 150
+  UseStandardPrice = false
+  _alias = "Standard Price Book Marketing Platform License"
+}

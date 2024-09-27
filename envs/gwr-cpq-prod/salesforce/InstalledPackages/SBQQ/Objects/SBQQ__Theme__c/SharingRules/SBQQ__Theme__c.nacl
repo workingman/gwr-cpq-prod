@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__Theme__c {
+  fullName = "SBQQ__Theme__c"
+  _parent = [
+    salesforce.SBQQ__Theme__c,
+  ]
+  _alias = "SBQQ__Theme__c"
+}

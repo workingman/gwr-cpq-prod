@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__RichTextToFOConverter {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__RichTextToFOConverter"
+  content = "(hidden)"
+  _alias = "SBQQ__RichTextToFOConverter"
+}

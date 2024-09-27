@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__ConsumptionTriggerControl {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__ConsumptionTriggerControl"
+  content = "(hidden)"
+  _alias = "SBQQ__ConsumptionTriggerControl"
+}

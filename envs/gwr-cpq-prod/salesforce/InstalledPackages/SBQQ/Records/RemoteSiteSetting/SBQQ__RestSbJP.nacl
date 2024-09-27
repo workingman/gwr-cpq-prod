@@ -1,0 +1,7 @@
+salesforce.RemoteSiteSetting SBQQ__RestSbJP {
+  fullName = "SBQQ__RestSbJP"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://rest-sb-jp.steelbrick.com"
+  _alias = "SBQQ__RestSbJP"
+}
