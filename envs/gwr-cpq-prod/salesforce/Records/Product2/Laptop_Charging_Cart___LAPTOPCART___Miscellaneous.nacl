@@ -37,4 +37,5 @@ salesforce.Product2 Laptop_Charging_Cart___LAPTOPCART___Miscellaneous@ssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "LAPTOPCART Miscellaneous Laptop Charging Cart"
+  gwr_exclpart__c = false
 }

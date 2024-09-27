@@ -37,4 +37,5 @@ salesforce.Product2 Exterior_Camera___EXTERIORCAMERA___Hardware@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "EXTERIORCAMERA Hardware Exterior Camera"
+  gwr_exclpart__c = false
 }

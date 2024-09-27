@@ -39,4 +39,5 @@ salesforce.Product2 Mobile_Control_Center_App___MOBILECONTROLCENTER___Service@ss
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "MOBILECONTROLCENTER Service Mobile Control Center App"
+  gwr_exclpart__c = false
 }

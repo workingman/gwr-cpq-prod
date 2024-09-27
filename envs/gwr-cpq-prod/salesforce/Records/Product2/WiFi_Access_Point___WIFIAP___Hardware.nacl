@@ -37,4 +37,5 @@ salesforce.Product2 WiFi_Access_Point___WIFIAP___Hardware@ssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "WIFIAP Hardware WiFi Access Point"
+  gwr_exclpart__c = false
 }

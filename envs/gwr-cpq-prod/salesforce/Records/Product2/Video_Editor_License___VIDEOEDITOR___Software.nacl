@@ -37,4 +37,5 @@ salesforce.Product2 Video_Editor_License___VIDEOEDITOR___Software@ssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "VIDEOEDITOR Software Video Editor License"
+  gwr_exclpart__c = false
 }

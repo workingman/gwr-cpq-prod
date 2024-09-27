@@ -37,4 +37,5 @@ salesforce.Product2 Projector_Ceiling_Mount___PROJECTORCEILINGMOUNT___Hardware@s
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "PROJECTORCEILINGMOUNT Hardware Projector Ceiling Mount"
+  gwr_exclpart__c = false
 }

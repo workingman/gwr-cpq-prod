@@ -37,4 +37,5 @@ salesforce.Product2 Copy_Paper_Letter___COPYPAPERLETTER___Consumable@ssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "COPYPAPERLETTER Consumable Copy Paper Letter"
+  gwr_exclpart__c = false
 }

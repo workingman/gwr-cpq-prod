@@ -37,4 +37,5 @@ salesforce.Product2 Home_Security_Console___HOMESECURITYCONSOLE___Hardware@ssuuu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "HOMESECURITYCONSOLE Hardware Home Security Console"
+  gwr_exclpart__c = false
 }

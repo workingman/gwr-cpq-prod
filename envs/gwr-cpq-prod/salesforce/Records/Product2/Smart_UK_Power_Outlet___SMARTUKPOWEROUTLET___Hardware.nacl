@@ -37,4 +37,5 @@ salesforce.Product2 Smart_UK_Power_Outlet___SMARTUKPOWEROUTLET___Hardware@sssuuu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SMARTUKPOWEROUTLET Hardware Smart UK Power Outlet"
+  gwr_exclpart__c = false
 }

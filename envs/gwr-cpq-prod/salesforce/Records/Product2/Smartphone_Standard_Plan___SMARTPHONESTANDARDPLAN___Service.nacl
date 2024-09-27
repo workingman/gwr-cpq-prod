@@ -42,4 +42,5 @@ salesforce.Product2 Smartphone_Standard_Plan___SMARTPHONESTANDARDPLAN___Service@
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SMARTPHONESTANDARDPLAN Service Smartphone Standard Plan"
+  gwr_exclpart__c = false
 }

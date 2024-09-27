@@ -37,4 +37,5 @@ salesforce.Product2 Keyboard_UK_Layout___KEYBOARDUK___Hardware@ssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "KEYBOARDUK Hardware Keyboard UK Layout"
+  gwr_exclpart__c = false
 }

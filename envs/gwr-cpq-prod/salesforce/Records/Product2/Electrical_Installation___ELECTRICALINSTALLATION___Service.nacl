@@ -37,4 +37,5 @@ salesforce.Product2 Electrical_Installation___ELECTRICALINSTALLATION___Service@s
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "ELECTRICALINSTALLATION Service Electrical Installation"
+  gwr_exclpart__c = false
 }

@@ -37,4 +37,5 @@ salesforce.Product2 Smartphone_Activation___SMARTPHONEACTIVATION___Service@suuuu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SMARTPHONEACTIVATION Service Smartphone Activation"
+  gwr_exclpart__c = false
 }

@@ -37,4 +37,5 @@ salesforce.Product2 Printer_Toner_Cartridge___PRINTERTONER___Consumable@ssuuuuuu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "PRINTERTONER Consumable Printer Toner Cartridge"
+  gwr_exclpart__c = false
 }

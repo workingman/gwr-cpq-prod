@@ -37,4 +37,5 @@ salesforce.Product2 USB_Webcam_w__Integrated_Microphone___USBWEBCAMMIC___Miscell
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "USBWEBCAMMIC Miscellaneous USB Webcam w/ Integrated Microphone"
+  gwr_exclpart__c = false
 }

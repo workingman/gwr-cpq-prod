@@ -37,4 +37,5 @@ salesforce.Product2 Interior_Keypad___INTERIORKEYPAD___Hardware@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "INTERIORKEYPAD Hardware Interior Keypad"
+  gwr_exclpart__c = false
 }

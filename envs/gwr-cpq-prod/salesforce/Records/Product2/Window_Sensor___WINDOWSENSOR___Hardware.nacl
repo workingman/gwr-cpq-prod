@@ -37,4 +37,5 @@ salesforce.Product2 Window_Sensor___WINDOWSENSOR___Hardware@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "WINDOWSENSOR Hardware Window Sensor"
+  gwr_exclpart__c = false
 }

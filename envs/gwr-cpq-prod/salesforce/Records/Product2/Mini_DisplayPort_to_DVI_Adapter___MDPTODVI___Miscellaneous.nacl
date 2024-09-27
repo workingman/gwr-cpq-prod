@@ -37,4 +37,5 @@ salesforce.Product2 Mini_DisplayPort_to_DVI_Adapter___MDPTODVI___Miscellaneous@s
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "MDPTODVI Miscellaneous Mini DisplayPort to DVI Adapter"
+  gwr_exclpart__c = false
 }

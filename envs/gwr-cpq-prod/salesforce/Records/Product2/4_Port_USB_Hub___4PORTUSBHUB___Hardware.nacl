@@ -37,4 +37,5 @@ salesforce.Product2 "4_Port_USB_Hub___4PORTUSBHUB___Hardware@sssuuuuuu" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "4PORTUSBHUB Hardware 4 Port USB Hub"
+  gwr_exclpart__c = false
 }

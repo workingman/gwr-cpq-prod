@@ -37,4 +37,5 @@ salesforce.Product2 USB_C_to_Digital_AV_Adapter___USBCTODAV___Miscellaneous@bsss
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "USBCTODAV Miscellaneous USB-C to Digital AV Adapter"
+  gwr_exclpart__c = false
 }

@@ -37,4 +37,5 @@ salesforce.Product2 Mouse___MOUSE___Hardware {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "MOUSE Hardware Mouse"
+  gwr_exclpart__c = false
 }

@@ -37,4 +37,5 @@ salesforce.Product2 USB_Webcam___USBWEBCAM___Miscellaneous@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "USBWEBCAM Miscellaneous USB Webcam"
+  gwr_exclpart__c = false
 }

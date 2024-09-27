@@ -39,4 +39,5 @@ salesforce.Product2 Security_Console___SECURITYCONSOLE___Hardware@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SECURITYCONSOLE Hardware Security Console"
+  gwr_exclpart__c = false
 }

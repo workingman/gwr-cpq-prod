@@ -39,4 +39,5 @@ salesforce.Product2 Marketing_Platform_License___MARKETINGPLATFORMLICENSE___Soft
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "MARKETINGPLATFORMLICENSE Software Marketing Platform License"
+  gwr_exclpart__c = false
 }

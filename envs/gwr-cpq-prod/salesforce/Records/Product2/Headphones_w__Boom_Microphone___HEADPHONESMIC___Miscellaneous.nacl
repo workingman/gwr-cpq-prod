@@ -37,4 +37,5 @@ salesforce.Product2 Headphones_w__Boom_Microphone___HEADPHONESMIC___Miscellaneou
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "HEADPHONESMIC Miscellaneous Headphones w/ Boom Microphone"
+  gwr_exclpart__c = false
 }

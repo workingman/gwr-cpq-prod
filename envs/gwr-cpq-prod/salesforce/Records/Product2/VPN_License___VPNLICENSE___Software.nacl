@@ -39,4 +39,5 @@ salesforce.Product2 VPN_License___VPNLICENSE___Software@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "VPNLICENSE Software VPN License"
+  gwr_exclpart__c = false
 }

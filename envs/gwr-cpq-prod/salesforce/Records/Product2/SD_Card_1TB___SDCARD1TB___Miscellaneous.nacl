@@ -37,4 +37,5 @@ salesforce.Product2 SD_Card_1TB___SDCARD1TB___Miscellaneous@ssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SDCARD1TB Miscellaneous SD Card 1TB"
+  gwr_exclpart__c = false
 }

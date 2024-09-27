@@ -37,4 +37,5 @@ salesforce.Product2 RFID_Key_Card___RFIDKEYCARD___Consumable@ssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "RFIDKEYCARD Consumable RFID Key Card"
+  gwr_exclpart__c = false
 }

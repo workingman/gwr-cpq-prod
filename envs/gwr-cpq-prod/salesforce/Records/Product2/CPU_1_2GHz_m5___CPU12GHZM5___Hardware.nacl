@@ -37,4 +37,5 @@ salesforce.Product2 CPU_1_2GHz_m5___CPU12GHZM5___Hardware@svsuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "CPU12GHZM5 Hardware CPU 1.2GHz m5"
+  gwr_exclpart__c = false
 }

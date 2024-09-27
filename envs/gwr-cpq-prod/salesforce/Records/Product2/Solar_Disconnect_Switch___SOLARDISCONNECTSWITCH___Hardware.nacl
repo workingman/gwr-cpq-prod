@@ -37,4 +37,5 @@ salesforce.Product2 Solar_Disconnect_Switch___SOLARDISCONNECTSWITCH___Hardware@s
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SOLARDISCONNECTSWITCH Hardware Solar Disconnect Switch"
+  gwr_exclpart__c = false
 }

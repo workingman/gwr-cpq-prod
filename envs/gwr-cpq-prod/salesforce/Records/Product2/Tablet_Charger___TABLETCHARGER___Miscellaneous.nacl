@@ -37,4 +37,5 @@ salesforce.Product2 Tablet_Charger___TABLETCHARGER___Miscellaneous@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "TABLETCHARGER Miscellaneous Tablet Charger"
+  gwr_exclpart__c = false
 }

@@ -39,4 +39,5 @@ salesforce.Product2 Creativity_Suite_License___CREATIVITYSUITE___Software@ssuuuu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "CREATIVITYSUITE Software Creativity Suite License"
+  gwr_exclpart__c = false
 }

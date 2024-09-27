@@ -37,4 +37,5 @@ salesforce.Product2 Smartphone_Heavy_Duty_Case___SMARTPHONEHEAVYDUTYCASE___Misce
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SMARTPHONEHEAVYDUTYCASE Miscellaneous Smartphone Heavy Duty Case"
+  gwr_exclpart__c = false
 }

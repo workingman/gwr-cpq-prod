@@ -37,4 +37,5 @@ salesforce.Product2 USB_C_to_USB_Adapter___USBCTOUSB___Miscellaneous@bsssuuuuuu 
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "USBCTOUSB Miscellaneous USB-C to USB Adapter"
+  gwr_exclpart__c = false
 }

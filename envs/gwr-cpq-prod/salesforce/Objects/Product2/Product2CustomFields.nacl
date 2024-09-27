@@ -1225,4 +1225,12 @@ type salesforce.Product2 {
     caseSensitive = false
     queryable = true
   }
+  salesforce.Checkbox gwr_exclpart__c {
+    apiName = "Product2.gwr_exclpart__c"
+    defaultValue = false
+    label = "gwr_exclpart"
+    createable = true
+    updateable = true
+    queryable = true
+  }
 }

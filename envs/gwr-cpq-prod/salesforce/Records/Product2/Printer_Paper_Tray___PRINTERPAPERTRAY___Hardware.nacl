@@ -37,4 +37,5 @@ salesforce.Product2 Printer_Paper_Tray___PRINTERPAPERTRAY___Hardware@ssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "PRINTERPAPERTRAY Hardware Printer Paper Tray"
+  gwr_exclpart__c = false
 }

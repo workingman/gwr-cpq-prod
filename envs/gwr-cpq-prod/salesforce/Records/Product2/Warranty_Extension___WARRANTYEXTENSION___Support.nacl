@@ -39,4 +39,5 @@ salesforce.Product2 Warranty_Extension___WARRANTYEXTENSION___Support@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "WARRANTYEXTENSION Support Warranty Extension"
+  gwr_exclpart__c = false
 }

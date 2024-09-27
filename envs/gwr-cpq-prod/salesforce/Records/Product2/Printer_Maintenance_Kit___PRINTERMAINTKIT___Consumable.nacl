@@ -37,4 +37,5 @@ salesforce.Product2 Printer_Maintenance_Kit___PRINTERMAINTKIT___Consumable@ssuuu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "PRINTERMAINTKIT Consumable Printer Maintenance Kit"
+  gwr_exclpart__c = false
 }

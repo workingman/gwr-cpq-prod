@@ -39,4 +39,5 @@ salesforce.Product2 "1GWR_Product1___GWR_P1___Hardware@suuuuuuu" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "GWR_P1 Hardware 1GWR Product1"
+  gwr_exclpart__c = false
 }

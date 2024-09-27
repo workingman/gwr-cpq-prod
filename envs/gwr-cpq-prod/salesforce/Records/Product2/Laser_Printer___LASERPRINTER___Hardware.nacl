@@ -39,4 +39,5 @@ salesforce.Product2 Laser_Printer___LASERPRINTER___Hardware@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "LASERPRINTER Hardware Laser Printer"
+  gwr_exclpart__c = false
 }

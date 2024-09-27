@@ -39,4 +39,5 @@ salesforce.Product2 Offsite_Video_Storage_1GB___OFFSITEVIDEOSTORAGE1GB___Service
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "OFFSITEVIDEOSTORAGE1GB Service Offsite Video Storage 1GB"
+  gwr_exclpart__c = false
 }

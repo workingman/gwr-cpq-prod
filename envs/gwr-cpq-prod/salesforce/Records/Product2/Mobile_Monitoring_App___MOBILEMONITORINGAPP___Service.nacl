@@ -39,4 +39,5 @@ salesforce.Product2 Mobile_Monitoring_App___MOBILEMONITORINGAPP___Service@ssuuuu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "MOBILEMONITORINGAPP Service Mobile Monitoring App"
+  gwr_exclpart__c = false
 }

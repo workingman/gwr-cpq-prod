@@ -37,4 +37,5 @@ salesforce.Product2 Smartphone_Wireless_Charger___SMARTPHONEWIRELESSCHARGER___Mi
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SMARTPHONEWIRELESSCHARGER Miscellaneous Smartphone Wireless Charger"
+  gwr_exclpart__c = false
 }

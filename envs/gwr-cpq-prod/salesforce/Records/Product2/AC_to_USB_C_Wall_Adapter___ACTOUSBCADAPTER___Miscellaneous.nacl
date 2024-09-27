@@ -37,4 +37,5 @@ salesforce.Product2 AC_to_USB_C_Wall_Adapter___ACTOUSBCADAPTER___Miscellaneous@s
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "ACTOUSBCADAPTER Miscellaneous AC to USB-C Wall Adapter"
+  gwr_exclpart__c = false
 }

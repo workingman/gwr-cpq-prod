@@ -37,4 +37,5 @@ salesforce.Product2 Home_Security_Installation___HOMESECURITYINSTALLATION___Serv
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "HOMESECURITYINSTALLATION Service Home Security Installation"
+  gwr_exclpart__c = false
 }

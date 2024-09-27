@@ -37,4 +37,5 @@ salesforce.Product2 Smartphone_Case___SMARTPHONECASE___Miscellaneous@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SMARTPHONECASE Miscellaneous Smartphone Case"
+  gwr_exclpart__c = false
 }
