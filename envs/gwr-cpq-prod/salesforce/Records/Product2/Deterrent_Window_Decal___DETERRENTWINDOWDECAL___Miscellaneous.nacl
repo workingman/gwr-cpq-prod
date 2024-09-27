@@ -36,4 +36,5 @@ salesforce.Product2 Deterrent_Window_Decal___DETERRENTWINDOWDECAL___Miscellaneou
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "DETERRENTWINDOWDECAL Miscellaneous Deterrent Window Decal"
+  gwr_exclpart__c = false
 }

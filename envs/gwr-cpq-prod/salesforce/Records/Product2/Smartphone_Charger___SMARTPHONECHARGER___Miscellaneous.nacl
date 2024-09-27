@@ -37,4 +37,5 @@ salesforce.Product2 Smartphone_Charger___SMARTPHONECHARGER___Miscellaneous@suuuu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SMARTPHONECHARGER Miscellaneous Smartphone Charger"
+  gwr_exclpart__c = false
 }

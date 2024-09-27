@@ -39,4 +39,5 @@ salesforce.Product2 "4K_Video_Camera___4KVIDEOCAM___Hardware@ssuuuuuu" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "4KVIDEOCAM Hardware 4K Video Camera"
+  gwr_exclpart__c = false
 }

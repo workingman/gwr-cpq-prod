@@ -37,4 +37,5 @@ salesforce.Product2 RFID_Fob___RFIDFOB___Consumable@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "RFIDFOB Consumable RFID Fob"
+  gwr_exclpart__c = false
 }

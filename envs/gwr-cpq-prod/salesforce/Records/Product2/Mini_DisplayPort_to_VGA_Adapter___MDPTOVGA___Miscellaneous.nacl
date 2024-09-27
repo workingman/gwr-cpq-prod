@@ -37,4 +37,5 @@ salesforce.Product2 Mini_DisplayPort_to_VGA_Adapter___MDPTOVGA___Miscellaneous@s
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "MDPTOVGA Miscellaneous Mini DisplayPort to VGA Adapter"
+  gwr_exclpart__c = false
 }

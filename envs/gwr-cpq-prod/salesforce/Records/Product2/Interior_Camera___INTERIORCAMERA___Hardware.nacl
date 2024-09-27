@@ -37,4 +37,5 @@ salesforce.Product2 Interior_Camera___INTERIORCAMERA___Hardware@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "INTERIORCAMERA Hardware Interior Camera"
+  gwr_exclpart__c = false
 }

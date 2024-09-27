@@ -1,15 +1,17 @@
-salesforce.Product2 GWR_Created_in_CPQ2___GWR0002___Hardware@sssuuuuuu {
-  ExtId__c = "01t8c00000J60EMAAZ"
+salesforce.Product2 GWR_config_type_test___cst1234@sssuuu {
+  Description = "gwr descr 20240118"
+  ExtId__c = "01t8c00000Oo8vpAAB"
   Extras__c = false
-  Family = "Hardware"
-  IsActive = false
-  Name = "GWR Created in CPQ2"
-  PS_Approval_Requred__c = false
-  ProductCode = "GWR0002"
+  IsActive = true
+  Name = "GWR config type test"
+  PS_Approval_Requred__c = true
+  ProductCode = "cst1234"
   SBQQ__AssetAmendmentBehavior__c = "Default"
   SBQQ__AssetConversion__c = "One per quote line"
   SBQQ__BlockPricingField__c = "Quantity"
   SBQQ__Component__c = false
+  SBQQ__ConfigurationEvent__c = "Always"
+  SBQQ__ConfigurationType__c = "Required"
   SBQQ__CostEditable__c = false
   SBQQ__CustomConfigurationRequired__c = false
   SBQQ__DefaultQuantity__c = 1
@@ -36,5 +38,7 @@ salesforce.Product2 GWR_Created_in_CPQ2___GWR0002___Hardware@sssuuuuuu {
   SBQQ__SubscriptionBase__c = "List"
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
-  _alias = "GWR0002 Hardware GWR Created in CPQ2"
+  gwr_exclpart__c = false
+  gwr_exclude__c = "gwr_prtnrx"
+  _alias = "cst1234 GWR config type test"
 }

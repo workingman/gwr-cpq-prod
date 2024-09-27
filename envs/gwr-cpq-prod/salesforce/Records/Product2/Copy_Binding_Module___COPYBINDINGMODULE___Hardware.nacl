@@ -37,4 +37,5 @@ salesforce.Product2 Copy_Binding_Module___COPYBINDINGMODULE___Hardware@ssuuuuuu 
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "COPYBINDINGMODULE Hardware Copy Binding Module"
+  gwr_exclpart__c = false
 }

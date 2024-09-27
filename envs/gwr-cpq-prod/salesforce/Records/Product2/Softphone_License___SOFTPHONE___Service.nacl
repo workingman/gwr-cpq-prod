@@ -39,4 +39,5 @@ salesforce.Product2 Softphone_License___SOFTPHONE___Service@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SOFTPHONE Service Softphone License"
+  gwr_exclpart__c = false
 }

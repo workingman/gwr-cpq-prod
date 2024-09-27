@@ -37,4 +37,5 @@ salesforce.Product2 USB_C_Wireless_Charging_Pad___USBCWIRELESSCHARGINGPAD___Misc
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "USBCWIRELESSCHARGINGPAD Miscellaneous USB-C Wireless Charging Pad"
+  gwr_exclpart__c = false
 }

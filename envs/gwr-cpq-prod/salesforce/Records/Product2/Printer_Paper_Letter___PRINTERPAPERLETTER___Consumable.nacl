@@ -37,4 +37,5 @@ salesforce.Product2 Printer_Paper_Letter___PRINTERPAPERLETTER___Consumable@ssuuu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "PRINTERPAPERLETTER Consumable Printer Paper Letter"
+  gwr_exclpart__c = false
 }

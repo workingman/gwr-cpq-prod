@@ -37,4 +37,5 @@ salesforce.Product2 NVMe_Hard_Drive_500GB___NVME500___Hardware@sssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "NVME500 Hardware NVMe Hard Drive 500GB"
+  gwr_exclpart__c = false
 }

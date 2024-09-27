@@ -37,4 +37,5 @@ salesforce.Product2 Smartphone_Screen_Protector___SMARTPHONESCREENPROTECTOR___Mi
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SMARTPHONESCREENPROTECTOR Miscellaneous Smartphone Screen Protector"
+  gwr_exclpart__c = false
 }

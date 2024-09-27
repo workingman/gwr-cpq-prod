@@ -37,4 +37,5 @@ salesforce.Product2 Motion_Sensor___MOTIONSENSOR___Hardware@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "MOTIONSENSOR Hardware Motion Sensor"
+  gwr_exclpart__c = false
 }

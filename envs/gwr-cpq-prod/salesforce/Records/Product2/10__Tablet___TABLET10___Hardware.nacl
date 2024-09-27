@@ -37,4 +37,5 @@ salesforce.Product2 "10__Tablet___TABLET10___Hardware@rsuuuuuu" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "TABLET10 Hardware 10\" Tablet"
+  gwr_exclpart__c = false
 }

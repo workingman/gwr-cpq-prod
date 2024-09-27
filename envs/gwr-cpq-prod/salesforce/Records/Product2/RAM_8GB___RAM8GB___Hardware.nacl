@@ -37,4 +37,5 @@ salesforce.Product2 RAM_8GB___RAM8GB___Hardware@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "RAM8GB Hardware RAM 8GB"
+  gwr_exclpart__c = false
 }

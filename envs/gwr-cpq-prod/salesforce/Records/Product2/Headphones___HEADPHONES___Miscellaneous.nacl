@@ -37,4 +37,5 @@ salesforce.Product2 Headphones___HEADPHONES___Miscellaneous {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "HEADPHONES Miscellaneous Headphones"
+  gwr_exclpart__c = false
 }

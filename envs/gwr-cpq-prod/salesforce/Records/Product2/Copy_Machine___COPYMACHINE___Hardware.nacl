@@ -39,4 +39,5 @@ salesforce.Product2 Copy_Machine___COPYMACHINE___Hardware@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "COPYMACHINE Hardware Copy Machine"
+  gwr_exclpart__c = false
 }

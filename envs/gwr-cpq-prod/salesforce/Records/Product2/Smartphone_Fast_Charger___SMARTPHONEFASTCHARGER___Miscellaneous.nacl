@@ -37,4 +37,5 @@ salesforce.Product2 Smartphone_Fast_Charger___SMARTPHONEFASTCHARGER___Miscellane
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SMARTPHONEFASTCHARGER Miscellaneous Smartphone Fast Charger"
+  gwr_exclpart__c = false
 }

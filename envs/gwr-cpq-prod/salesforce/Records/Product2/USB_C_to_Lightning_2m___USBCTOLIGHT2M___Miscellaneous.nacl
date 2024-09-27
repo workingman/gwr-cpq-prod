@@ -37,4 +37,5 @@ salesforce.Product2 USB_C_to_Lightning_2m___USBCTOLIGHT2M___Miscellaneous@bsssuu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "USBCTOLIGHT2M Miscellaneous USB-C to Lightning 2m"
+  gwr_exclpart__c = false
 }

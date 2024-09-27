@@ -37,4 +37,5 @@ salesforce.Product2 High_Capacity_Toner_Cartridge___HIGHCAPACITYTONER___Consumab
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "HIGHCAPACITYTONER Consumable High Capacity Toner Cartridge"
+  gwr_exclpart__c = false
 }

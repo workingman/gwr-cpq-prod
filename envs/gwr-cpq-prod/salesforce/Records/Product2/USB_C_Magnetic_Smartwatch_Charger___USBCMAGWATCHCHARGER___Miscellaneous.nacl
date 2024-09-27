@@ -37,4 +37,5 @@ salesforce.Product2 USB_C_Magnetic_Smartwatch_Charger___USBCMAGWATCHCHARGER___Mi
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "USBCMAGWATCHCHARGER Miscellaneous USB-C Magnetic Smartwatch Charger"
+  gwr_exclpart__c = false
 }

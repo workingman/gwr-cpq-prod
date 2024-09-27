@@ -37,4 +37,5 @@ salesforce.Product2 Printer_Manual___PRINTERMANUAL___Miscellaneous@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "PRINTERMANUAL Miscellaneous Printer Manual"
+  gwr_exclpart__c = false
 }

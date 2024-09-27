@@ -37,4 +37,5 @@ salesforce.Product2 Electric_Door_Lock___ELECTRICDOORLOCK___Hardware@ssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "ELECTRICDOORLOCK Hardware Electric Door Lock"
+  gwr_exclpart__c = false
 }

@@ -37,4 +37,5 @@ salesforce.Product2 "5kWh_Battery___5KWHBATTERY___Hardware@suuuuuu" {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "5KWHBATTERY Hardware 5kWh Battery"
+  gwr_exclpart__c = false
 }

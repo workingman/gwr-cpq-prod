@@ -37,4 +37,5 @@ salesforce.Product2 Pro_Audio_Boom_Microphone___PROAUDIOBOOMMIC___Miscellaneous@
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "PROAUDIOBOOMMIC Miscellaneous Pro Audio Boom Microphone"
+  gwr_exclpart__c = false
 }

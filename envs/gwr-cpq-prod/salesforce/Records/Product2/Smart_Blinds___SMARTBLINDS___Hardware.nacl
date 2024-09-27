@@ -37,4 +37,5 @@ salesforce.Product2 Smart_Blinds___SMARTBLINDS___Hardware@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SMARTBLINDS Hardware Smart Blinds"
+  gwr_exclpart__c = false
 }

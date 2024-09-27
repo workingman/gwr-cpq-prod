@@ -37,4 +37,5 @@ salesforce.Product2 Door_Sensor___DOORSENSOR___Hardware@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "DOORSENSOR Hardware Door Sensor"
+  gwr_exclpart__c = false
 }

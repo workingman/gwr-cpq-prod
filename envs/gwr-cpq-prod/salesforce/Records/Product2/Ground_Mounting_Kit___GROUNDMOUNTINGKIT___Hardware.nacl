@@ -37,4 +37,5 @@ salesforce.Product2 Ground_Mounting_Kit___GROUNDMOUNTINGKIT___Hardware@ssuuuuuu 
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "GROUNDMOUNTINGKIT Hardware Ground Mounting Kit"
+  gwr_exclpart__c = false
 }

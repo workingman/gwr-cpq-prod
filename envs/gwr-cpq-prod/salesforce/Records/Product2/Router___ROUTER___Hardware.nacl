@@ -37,4 +37,5 @@ salesforce.Product2 Router___ROUTER___Hardware {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "ROUTER Hardware Router"
+  gwr_exclpart__c = false
 }

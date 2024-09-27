@@ -37,4 +37,5 @@ salesforce.Product2 WiFi_Installation___WIFIINSTALL___Service@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "WIFIINSTALL Service WiFi Installation"
+  gwr_exclpart__c = false
 }

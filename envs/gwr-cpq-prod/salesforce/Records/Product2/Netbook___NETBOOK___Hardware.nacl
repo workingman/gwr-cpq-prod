@@ -37,4 +37,5 @@ salesforce.Product2 Netbook___NETBOOK___Hardware {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "NETBOOK Hardware Netbook"
+  gwr_exclpart__c = false
 }

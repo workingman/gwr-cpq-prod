@@ -37,4 +37,5 @@ salesforce.Product2 Smartwatch_Band___SMARTWATCHBAND___Hardware@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SMARTWATCHBAND Hardware Smartwatch Band"
+  gwr_exclpart__c = false
 }

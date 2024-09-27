@@ -37,4 +37,5 @@ salesforce.Product2 Smart_US_Power_Strip___SMARTUSPOWERSTRIP___Hardware@sssuuuuu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "SMARTUSPOWERSTRIP Hardware Smart US Power Strip"
+  gwr_exclpart__c = false
 }

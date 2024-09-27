@@ -1214,6 +1214,14 @@ type salesforce.Product2 {
     updateable = true
     queryable = true
   }
+  salesforce.Checkbox gwr_exclpart__c {
+    apiName = "Product2.gwr_exclpart__c"
+    defaultValue = false
+    label = "gwr_exclpart"
+    createable = true
+    updateable = true
+    queryable = true
+  }
   salesforce.Text gwr_exclude__c {
     apiName = "Product2.gwr_exclude__c"
     externalId = false

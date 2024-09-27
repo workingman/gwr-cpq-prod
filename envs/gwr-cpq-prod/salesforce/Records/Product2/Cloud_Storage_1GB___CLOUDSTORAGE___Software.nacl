@@ -39,4 +39,5 @@ salesforce.Product2 Cloud_Storage_1GB___CLOUDSTORAGE___Software@ssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "CLOUDSTORAGE Software Cloud Storage 1GB"
+  gwr_exclpart__c = false
 }

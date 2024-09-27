@@ -39,4 +39,5 @@ salesforce.Product2 Home_Security_Monitoring___HOMESECURITYMONITORING___Service@
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "HOMESECURITYMONITORING Service Home Security Monitoring"
+  gwr_exclpart__c = false
 }

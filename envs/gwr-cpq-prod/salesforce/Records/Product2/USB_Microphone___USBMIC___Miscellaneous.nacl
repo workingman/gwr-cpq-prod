@@ -37,4 +37,5 @@ salesforce.Product2 USB_Microphone___USBMIC___Miscellaneous@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "USBMIC Miscellaneous USB Microphone"
+  gwr_exclpart__c = false
 }

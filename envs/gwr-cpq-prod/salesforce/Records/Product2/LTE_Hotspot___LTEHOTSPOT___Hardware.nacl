@@ -38,4 +38,5 @@ salesforce.Product2 LTE_Hotspot___LTEHOTSPOT___Hardware@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "LTEHOTSPOT Hardware LTE Hotspot"
+  gwr_exclpart__c = false
 }

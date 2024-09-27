@@ -37,4 +37,5 @@ salesforce.Product2 RFID_Key_Card_Printer___RFIDKEYCARDPRINTER___Hardware@sssuuu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "RFIDKEYCARDPRINTER Hardware RFID Key Card Printer"
+  gwr_exclpart__c = false
 }

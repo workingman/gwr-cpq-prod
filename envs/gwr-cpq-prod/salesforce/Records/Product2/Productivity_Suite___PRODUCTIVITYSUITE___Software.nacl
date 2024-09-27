@@ -39,4 +39,5 @@ salesforce.Product2 Productivity_Suite___PRODUCTIVITYSUITE___Software@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "PRODUCTIVITYSUITE Software Productivity Suite"
+  gwr_exclpart__c = false
 }

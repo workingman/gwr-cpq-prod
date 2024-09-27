@@ -39,4 +39,5 @@ salesforce.Product2 Desktop_Computer___DESKTOPCOMPUTER___Hardware@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "DESKTOPCOMPUTER Hardware Desktop Computer"
+  gwr_exclpart__c = false
 }

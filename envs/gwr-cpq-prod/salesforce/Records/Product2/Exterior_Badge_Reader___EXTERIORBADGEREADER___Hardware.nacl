@@ -37,4 +37,5 @@ salesforce.Product2 Exterior_Badge_Reader___EXTERIORBADGEREADER___Hardware@ssuuu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "EXTERIORBADGEREADER Hardware Exterior Badge Reader"
+  gwr_exclpart__c = false
 }

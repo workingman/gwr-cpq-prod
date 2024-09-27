@@ -37,4 +37,5 @@ salesforce.Product2 Optical_Drive___OPTICALDRIVE___Hardware@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "OPTICALDRIVE Hardware Optical Drive"
+  gwr_exclpart__c = false
 }

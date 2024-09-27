@@ -37,4 +37,5 @@ salesforce.Product2 Admin_Hour___ADMINHOUR___Support@suuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "ADMINHOUR Support Admin Hour"
+  gwr_exclpart__c = false
 }

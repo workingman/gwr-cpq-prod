@@ -37,4 +37,5 @@ salesforce.Product2 Grid_Disconnect_Switch___GRIDDISCONNECTSWITCH___Hardware@ssu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "GRIDDISCONNECTSWITCH Hardware Grid Disconnect Switch"
+  gwr_exclpart__c = false
 }

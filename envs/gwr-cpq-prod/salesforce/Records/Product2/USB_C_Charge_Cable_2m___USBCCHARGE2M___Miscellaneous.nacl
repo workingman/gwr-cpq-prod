@@ -37,4 +37,5 @@ salesforce.Product2 USB_C_Charge_Cable_2m___USBCCHARGE2M___Miscellaneous@bsssuuu
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "USBCCHARGE2M Miscellaneous USB-C Charge Cable 2m"
+  gwr_exclpart__c = false
 }

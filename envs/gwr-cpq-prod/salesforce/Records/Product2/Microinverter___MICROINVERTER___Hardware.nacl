@@ -37,4 +37,5 @@ salesforce.Product2 Microinverter___MICROINVERTER___Hardware {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "MICROINVERTER Hardware Microinverter"
+  gwr_exclpart__c = false
 }

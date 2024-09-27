@@ -37,4 +37,5 @@ salesforce.Product2 Hard_Drive_4TB___HDD4TB___Hardware@ssuuuuuu {
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "HDD4TB Hardware Hard Drive 4TB"
+  gwr_exclpart__c = false
 }

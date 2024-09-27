@@ -37,4 +37,5 @@ salesforce.Product2 Printer_High_Capacity_Tray___PRINTERHIGHCAPACITYTRAY___Hardw
   SBQQ__SubscriptionType__c = "Renewable"
   SBQQ__Taxable__c = false
   _alias = "PRINTERHIGHCAPACITYTRAY Hardware Printer High Capacity Tray"
+  gwr_exclpart__c = false
 }
