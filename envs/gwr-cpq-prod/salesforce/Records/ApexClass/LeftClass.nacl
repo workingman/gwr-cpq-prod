@@ -5,6 +5,12 @@ salesforce.ApexClass LeftClass {
   content = file("salesforce/Records/ApexClass/LeftClass.cls")
   _generated_dependencies = [
     {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.Account.field.SLA__c
+    },
+    {
       reference = salesforce.ApexClass.instance.LeftAClass
     },
     {
