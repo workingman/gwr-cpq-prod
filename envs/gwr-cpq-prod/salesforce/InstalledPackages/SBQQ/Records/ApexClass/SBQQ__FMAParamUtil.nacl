@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__FMAParamUtil {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__FMAParamUtil"
+  content = "(hidden)"
+  _alias = "SBQQ__FMAParamUtil"
+}

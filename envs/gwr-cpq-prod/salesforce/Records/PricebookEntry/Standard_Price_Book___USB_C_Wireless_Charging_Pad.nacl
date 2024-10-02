@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___USB_C_Wireless_Charging_Pad@ssuuubsss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.USB_C_Wireless_Charging_Pad___USBCWIRELESSCHARGINGPAD___Miscellaneous@bsssuuuuuu
+  UnitPrice = 35
+  UseStandardPrice = false
+  _alias = "Standard Price Book USB-C Wireless Charging Pad"
+}

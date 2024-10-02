@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__ConfigurationAttribute__c {
+  fullName = "SBQQ__ConfigurationAttribute__c"
+  _parent = [
+    salesforce.SBQQ__ConfigurationAttribute__c,
+  ]
+  _alias = "SBQQ__ConfigurationAttribute__c"
+}

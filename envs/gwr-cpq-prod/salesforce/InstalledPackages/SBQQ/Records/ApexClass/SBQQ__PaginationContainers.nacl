@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__PaginationContainers {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__PaginationContainers"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__PaginationContainers.cls")
+  _alias = "SBQQ__PaginationContainers"
+}

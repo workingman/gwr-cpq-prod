@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__BillingPlugin {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__BillingPlugin"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__BillingPlugin.cls")
+  _alias = "SBQQ__BillingPlugin"
+}

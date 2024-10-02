@@ -1,0 +1,14 @@
+salesforce.ApexClass SBQQ__ProductServiceTests {
+  apiVersion = 51
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQ__ProductServiceTests"
+  content = "(hidden)"
+  _alias = "SBQQ__ProductServiceTests"
+}

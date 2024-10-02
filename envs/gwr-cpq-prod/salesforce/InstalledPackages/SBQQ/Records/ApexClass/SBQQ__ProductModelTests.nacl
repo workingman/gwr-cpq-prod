@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__ProductModelTests {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__ProductModelTests"
+  content = "(hidden)"
+  _alias = "SBQQ__ProductModelTests"
+}

@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__QuoteExtSitesController {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__QuoteExtSitesController"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__QuoteExtSitesController.cls")
+  _alias = "SBQQ__QuoteExtSitesController"
+}

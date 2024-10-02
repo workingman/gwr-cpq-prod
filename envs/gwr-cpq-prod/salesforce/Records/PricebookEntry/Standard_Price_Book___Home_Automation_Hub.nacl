@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Home_Automation_Hub@ssuuuss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Home_Automation_Hub___HOMEAUTOMATIONHUB___Hardware@ssuuuuuu
+  UnitPrice = 200
+  UseStandardPrice = false
+  _alias = "Standard Price Book Home Automation Hub"
+}
