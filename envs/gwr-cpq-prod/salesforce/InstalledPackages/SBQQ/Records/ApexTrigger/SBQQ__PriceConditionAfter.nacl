@@ -1,0 +1,14 @@
+salesforce.ApexTrigger SBQQ__PriceConditionAfter {
+  apiVersion = 51
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQ__PriceConditionAfter"
+  content = "(hidden)"
+  _alias = "SBQQ__PriceConditionAfter"
+}

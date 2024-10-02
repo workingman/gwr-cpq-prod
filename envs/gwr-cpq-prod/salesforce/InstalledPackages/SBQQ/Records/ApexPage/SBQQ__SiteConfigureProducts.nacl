@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__SiteConfigureProducts {
+  apiVersion = 51
+  availableInTouch = false
+  confirmationTokenRequired = false
+  label = "SiteConfigureProducts"
+  fullName = "SBQQ__SiteConfigureProducts"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__SiteConfigureProducts.page")
+  _alias = "SiteConfigureProducts (SBQQ)"
+}

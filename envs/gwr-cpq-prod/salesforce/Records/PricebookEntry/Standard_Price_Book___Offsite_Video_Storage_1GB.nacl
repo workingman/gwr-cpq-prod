@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Offsite_Video_Storage_1GB@ssuuusss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Offsite_Video_Storage_1GB___OFFSITEVIDEOSTORAGE1GB___Service@sssuuuuuu
+  UnitPrice = 1
+  UseStandardPrice = false
+  _alias = "Standard Price Book Offsite Video Storage 1GB"
+}

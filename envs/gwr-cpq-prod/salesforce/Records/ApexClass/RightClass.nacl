@@ -1,0 +1,7 @@
+salesforce.ApexClass RightClass {
+  apiVersion = 51
+  status = "Active"
+  fullName = "RightClass"
+  content = file("salesforce/Records/ApexClass/RightClass.cls")
+  _alias = "RightClass"
+}

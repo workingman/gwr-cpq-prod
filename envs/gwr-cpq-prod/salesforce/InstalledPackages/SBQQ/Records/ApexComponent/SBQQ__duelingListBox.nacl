@@ -1,0 +1,7 @@
+salesforce.ApexComponent SBQQ__duelingListBox {
+  apiVersion = 51
+  label = "duelingListBox"
+  fullName = "SBQQ__duelingListBox"
+  content = "(hidden)"
+  _alias = "duelingListBox (SBQQ)"
+}

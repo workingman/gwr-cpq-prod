@@ -1,0 +1,8 @@
+salesforce.ApexComponent SBQQ__documentSection {
+  apiVersion = 51
+  description = "Renders specific template section on quote documents."
+  label = "Document Section"
+  fullName = "SBQQ__documentSection"
+  content = "(hidden)"
+  _alias = "Document Section (SBQQ)"
+}

@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Hard_Drive_4TB@ssuuuss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Hard_Drive_4TB___HDD4TB___Hardware@ssuuuuuu
+  UnitPrice = 150
+  UseStandardPrice = false
+  _alias = "Standard Price Book Hard Drive 4TB"
+}

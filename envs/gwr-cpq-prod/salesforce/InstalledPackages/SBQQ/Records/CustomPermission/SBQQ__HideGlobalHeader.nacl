@@ -1,0 +1,7 @@
+salesforce.CustomPermission SBQQ__HideGlobalHeader {
+  description = "Hide the global header and navigation when viewing Salesforce CPQ pages"
+  isLicensed = false
+  label = "Hide Global Header"
+  fullName = "SBQQ__HideGlobalHeader"
+  _alias = "Hide Global Header (SBQQ)"
+}

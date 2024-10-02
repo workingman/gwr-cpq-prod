@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__DocumentStorePlugin {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__DocumentStorePlugin"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__DocumentStorePlugin.cls")
+  _alias = "SBQQ__DocumentStorePlugin"
+}
