@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__FindAndAmendContract {
+  apiVersion = 51
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "FindAndAmendContract"
+  fullName = "SBQQ__FindAndAmendContract"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__FindAndAmendContract.page")
+  _alias = "FindAndAmendContract (SBQQ)"
+}

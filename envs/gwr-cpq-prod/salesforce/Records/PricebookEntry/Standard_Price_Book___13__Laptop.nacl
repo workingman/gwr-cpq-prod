@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___13__Laptop@ssuuurs {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.13__Laptop___LAPTOP13___Hardware@rsuuuuuu
+  UnitPrice = 1300
+  UseStandardPrice = false
+  _alias = "Standard Price Book 13\" Laptop"
+}

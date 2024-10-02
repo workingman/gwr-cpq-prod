@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__SolutionGroup__c {
+  fullName = "SBQQ__SolutionGroup__c"
+  _parent = [
+    salesforce.SBQQ__SolutionGroup__c,
+  ]
+  _alias = "SBQQ__SolutionGroup__c"
+}

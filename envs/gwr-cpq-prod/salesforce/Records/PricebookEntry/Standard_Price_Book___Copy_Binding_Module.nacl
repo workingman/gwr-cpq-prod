@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Copy_Binding_Module@ssuuuss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Copy_Binding_Module___COPYBINDINGMODULE___Hardware@ssuuuuuu
+  UnitPrice = 350
+  UseStandardPrice = false
+  _alias = "Standard Price Book Copy Binding Module"
+}

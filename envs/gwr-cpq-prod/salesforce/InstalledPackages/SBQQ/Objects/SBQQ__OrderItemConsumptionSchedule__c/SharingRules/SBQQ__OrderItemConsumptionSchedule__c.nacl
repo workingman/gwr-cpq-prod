@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__OrderItemConsumptionSchedule__c {
+  fullName = "SBQQ__OrderItemConsumptionSchedule__c"
+  _parent = [
+    salesforce.SBQQ__OrderItemConsumptionSchedule__c,
+  ]
+  _alias = "SBQQ__OrderItemConsumptionSchedule__c"
+}

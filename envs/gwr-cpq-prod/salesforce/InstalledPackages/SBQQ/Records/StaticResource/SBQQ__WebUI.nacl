@@ -1,0 +1,7 @@
+salesforce.StaticResource SBQQ__WebUI {
+  cacheControl = "Private"
+  contentType = "text/javascript"
+  fullName = "SBQQ__WebUI"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__WebUI.resource")
+  _alias = "SBQQ__WebUI"
+}

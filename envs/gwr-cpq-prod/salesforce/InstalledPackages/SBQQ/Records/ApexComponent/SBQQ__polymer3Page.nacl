@@ -1,0 +1,7 @@
+salesforce.ApexComponent SBQQ__polymer3Page {
+  apiVersion = 51
+  label = "newui"
+  fullName = "SBQQ__polymer3Page"
+  content = "(hidden)"
+  _alias = "newui (SBQQ)"
+}

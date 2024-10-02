@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Electrical_Installation@ssuuus {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Electrical_Installation___ELECTRICALINSTALLATION___Service@suuuuuu
+  UnitPrice = 95
+  UseStandardPrice = false
+  _alias = "Standard Price Book Electrical Installation"
+}

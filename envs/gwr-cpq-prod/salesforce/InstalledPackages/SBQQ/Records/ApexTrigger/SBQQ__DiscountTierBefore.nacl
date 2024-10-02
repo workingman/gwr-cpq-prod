@@ -1,0 +1,14 @@
+salesforce.ApexTrigger SBQQ__DiscountTierBefore {
+  apiVersion = 51
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQ__DiscountTierBefore"
+  content = "(hidden)"
+  _alias = "SBQQ__DiscountTierBefore"
+}

@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__PriceRule__c {
+  fullName = "SBQQ__PriceRule__c"
+  _parent = [
+    salesforce.SBQQ__PriceRule__c,
+  ]
+  _alias = "SBQQ__PriceRule__c"
+}
