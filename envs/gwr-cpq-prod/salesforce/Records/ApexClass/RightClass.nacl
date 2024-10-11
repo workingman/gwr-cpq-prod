@@ -4,4 +4,12 @@ salesforce.ApexClass RightClass {
   fullName = "RightClass"
   content = file("salesforce/Records/ApexClass/RightClass.cls")
   _alias = "RightClass"
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.RightAClass
+    },
+    {
+      reference = salesforce.ApexClass.instance.RightBClass
+    },
+  ]
 }
