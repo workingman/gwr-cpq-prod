@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__ProductFeatureHelp {
+  apiVersion = 51
+  availableInTouch = false
+  confirmationTokenRequired = false
+  label = "ProductFeatureHelp"
+  fullName = "SBQQ__ProductFeatureHelp"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__ProductFeatureHelp.page")
+  _alias = "ProductFeatureHelp (SBQQ)"
+}

@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__EditWebQuoteLines {
+  apiVersion = 51
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "EditWebQuoteLines"
+  fullName = "SBQQ__EditWebQuoteLines"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__EditWebQuoteLines.page")
+  _alias = "EditWebQuoteLines (SBQQ)"
+}

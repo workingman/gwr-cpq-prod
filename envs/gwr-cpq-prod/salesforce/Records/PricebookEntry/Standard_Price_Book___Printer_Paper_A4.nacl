@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___Printer_Paper_A4@ssuuuss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.Printer_Paper_A4___PRINTERPAPERA4___Consumable@ssuuuuuu
+  UnitPrice = 10
+  UseStandardPrice = false
+  _alias = "Standard Price Book Printer Paper A4"
+}

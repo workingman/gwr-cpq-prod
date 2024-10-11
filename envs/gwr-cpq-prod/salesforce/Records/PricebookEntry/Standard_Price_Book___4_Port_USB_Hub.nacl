@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___4_Port_USB_Hub@ssuuusss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.4_Port_USB_Hub___4PORTUSBHUB___Hardware@sssuuuuuu
+  UnitPrice = 30
+  UseStandardPrice = false
+  _alias = "Standard Price Book 4 Port USB Hub"
+}

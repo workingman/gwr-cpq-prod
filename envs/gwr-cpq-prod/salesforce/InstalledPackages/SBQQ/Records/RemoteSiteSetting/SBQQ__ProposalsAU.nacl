@@ -1,0 +1,7 @@
+salesforce.RemoteSiteSetting SBQQ__ProposalsAU {
+  fullName = "SBQQ__ProposalsAU"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://proposals-au.steelbrick.com"
+  _alias = "SBQQ__ProposalsAU"
+}

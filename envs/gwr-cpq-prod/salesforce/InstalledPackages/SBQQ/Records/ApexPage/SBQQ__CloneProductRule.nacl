@@ -1,0 +1,9 @@
+salesforce.ApexPage SBQQ__CloneProductRule {
+  apiVersion = 51
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "CloneProductRule"
+  fullName = "SBQQ__CloneProductRule"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexPage/SBQQ__CloneProductRule.page")
+  _alias = "CloneProductRule (SBQQ)"
+}

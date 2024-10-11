@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__SearchFilter__c {
+  fullName = "SBQQ__SearchFilter__c"
+  _parent = [
+    salesforce.SBQQ__SearchFilter__c,
+  ]
+  _alias = "SBQQ__SearchFilter__c"
+}
