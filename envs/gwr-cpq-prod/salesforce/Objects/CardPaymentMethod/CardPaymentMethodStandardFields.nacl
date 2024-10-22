@@ -195,7 +195,7 @@ type salesforce.CardPaymentMethod {
   }
   salesforce.EncryptedText GatewayTokenEncrypted {
     apiName = "CardPaymentMethod.GatewayTokenEncrypted"
-    length = 255
+    length = 1000
     label = "Gateway Token Encrypted"
     createable = true
     updateable = true

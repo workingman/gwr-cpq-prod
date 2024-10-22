@@ -193,13 +193,11 @@ type salesforce.AssetAction {
     customTabListAdditionalFields = [
       "Asset",
       "Type",
-      "Category",
       "CategoryEnum",
     ]
     searchResultsAdditionalFields = [
       "Asset",
       "Type",
-      "Category",
       "CategoryEnum",
     ]
   }

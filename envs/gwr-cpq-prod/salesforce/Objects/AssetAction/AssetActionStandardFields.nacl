@@ -48,7 +48,6 @@ type salesforce.AssetAction {
   salesforce.Picklist Category {
     apiName = "AssetAction.Category"
     restricted = false
-    _required = true
     label = "Category (Deprecated)"
     createable = false
     updateable = false
@@ -58,6 +57,7 @@ type salesforce.AssetAction {
   salesforce.Picklist CategoryEnum {
     apiName = "AssetAction.CategoryEnum"
     restricted = true
+    _required = true
     label = "Business Category"
     createable = false
     updateable = false

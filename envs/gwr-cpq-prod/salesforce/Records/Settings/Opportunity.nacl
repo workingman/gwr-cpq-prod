@@ -15,4 +15,5 @@ salesforce.OpportunitySettings {
   simpleOppCreateFromEvent = "false"
   _alias = "Opportunity"
   enableOpportunityInsightsInMobile = false
+  enableServiceCaseInsights = "false"
 }

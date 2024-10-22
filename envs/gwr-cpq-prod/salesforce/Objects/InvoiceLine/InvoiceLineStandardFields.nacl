@@ -302,4 +302,12 @@ type salesforce.InvoiceLine {
     updateable = true
     queryable = true
   }
+  salesforce.Picklist TaxProcessingStatus {
+    apiName = "InvoiceLine.TaxProcessingStatus"
+    restricted = true
+    label = "Tax Processing Status"
+    createable = false
+    updateable = true
+    queryable = true
+  }
 }

@@ -19,6 +19,10 @@ type salesforce.CommSubscriptionChannelType {
     updateable = true
     queryable = true
   }
+  salesforce.Lookup MessagingChannelUsageId {
+    apiName = "CommSubscriptionChannelType.MessagingChannelUsageId"
+    _hidden_value = true
+  }
   salesforce.Text Name {
     apiName = "CommSubscriptionChannelType.Name"
     length = 255

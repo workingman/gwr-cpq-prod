@@ -1,4 +1,4 @@
-type salesforce.Task {
+type salesforce.DataMaskCustomValueLibrary {
   annotations {
     serviceid apiName {
     }
@@ -55,9 +55,9 @@ type salesforce.Task {
     hidden_string internalId {
     }
   }
-  apiName = "Task"
+  apiName = "DataMaskCustomValueLibrary"
   metadataType = "CustomObject"
-  label = "Task"
+  label = "DataMaskCustomValueLibrary"
   actionOverrides = [
     {
       actionName = "CancelEdit"
@@ -74,16 +74,16 @@ type salesforce.Task {
       type = "Default"
     },
     {
-      actionName = "Close"
+      actionName = "Clone"
       type = "Default"
     },
     {
-      actionName = "Close"
+      actionName = "Clone"
       formFactor = "Large"
       type = "Default"
     },
     {
-      actionName = "Close"
+      actionName = "Clone"
       formFactor = "Small"
       type = "Default"
     },
@@ -102,20 +102,6 @@ type salesforce.Task {
       type = "Default"
     },
     {
-      actionName = "DeleteSeries"
-      type = "Default"
-    },
-    {
-      actionName = "DeleteSeries"
-      formFactor = "Large"
-      type = "Default"
-    },
-    {
-      actionName = "DeleteSeries"
-      formFactor = "Small"
-      type = "Default"
-    },
-    {
       actionName = "Edit"
       type = "Default"
     },
@@ -130,44 +116,30 @@ type salesforce.Task {
       type = "Default"
     },
     {
-      actionName = "LaunchFlowForManualTask"
+      actionName = "List"
       type = "Default"
     },
     {
-      actionName = "LaunchFlowForManualTask"
+      actionName = "List"
       formFactor = "Large"
       type = "Default"
     },
     {
-      actionName = "LaunchFlowForManualTask"
+      actionName = "List"
       formFactor = "Small"
       type = "Default"
     },
     {
-      actionName = "LaunchOmniForManualTask"
+      actionName = "New"
       type = "Default"
     },
     {
-      actionName = "LaunchOmniForManualTask"
+      actionName = "New"
       formFactor = "Large"
       type = "Default"
     },
     {
-      actionName = "LaunchOmniForManualTask"
-      formFactor = "Small"
-      type = "Default"
-    },
-    {
-      actionName = "NewTask"
-      type = "Default"
-    },
-    {
-      actionName = "NewTask"
-      formFactor = "Large"
-      type = "Default"
-    },
-    {
-      actionName = "NewTask"
+      actionName = "New"
       formFactor = "Small"
       type = "Default"
     },
@@ -182,6 +154,20 @@ type salesforce.Task {
     },
     {
       actionName = "SaveEdit"
+      formFactor = "Small"
+      type = "Default"
+    },
+    {
+      actionName = "Tab"
+      type = "Default"
+    },
+    {
+      actionName = "Tab"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "Tab"
       formFactor = "Small"
       type = "Default"
     },
@@ -202,12 +188,44 @@ type salesforce.Task {
   ]
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
+  externalSharingModel = "Private"
   searchLayouts = {
+    customTabListAdditionalFields = [
+      "Description",
+      "Values",
+      "Type",
+      "ContentType",
+      "IsActive",
+      "LastModifiedDate",
+      "LastModifiedBy",
+    ]
+    lookupDialogsAdditionalFields = [
+      "Description",
+      "Values",
+      "Type",
+      "ContentType",
+      "IsActive",
+      "LastModifiedDate",
+      "LastModifiedBy",
+    ]
+    lookupPhoneDialogsAdditionalFields = [
+      "Description",
+      "Values",
+      "Type",
+      "ContentType",
+      "IsActive",
+      "LastModifiedDate",
+      "LastModifiedBy",
+    ]
+    searchResultsAdditionalFields = [
+      "Description",
+      "Values",
+      "Type",
+      "ContentType",
+      "IsActive",
+      "LastModifiedDate",
+      "LastModifiedBy",
+    ]
   }
-  topicsForObjects = {
-    enableTopics = true
-  }
-  historyTrackedFields = {
-  }
-  _alias = "Task"
+  _alias = "DataMaskCustomValueLibrary"
 }

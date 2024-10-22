@@ -1,4 +1,4 @@
-type salesforce.PrivacyPolicy {
+type salesforce.AiEvalTestCaseResult {
   annotations {
     serviceid apiName {
     }
@@ -55,69 +55,10 @@ type salesforce.PrivacyPolicy {
     hidden_string internalId {
     }
   }
-  apiName = "PrivacyPolicy"
+  apiName = "AiEvalTestCaseResult"
   metadataType = "CustomObject"
-  label = "Privacy Policy"
-  actionOverrides = [
-    {
-      actionName = "CancelEdit"
-      type = "Default"
-    },
-    {
-      actionName = "CancelEdit"
-      formFactor = "Large"
-      type = "Default"
-    },
-    {
-      actionName = "CancelEdit"
-      formFactor = "Small"
-      type = "Default"
-    },
-    {
-      actionName = "List"
-      type = "Default"
-    },
-    {
-      actionName = "List"
-      formFactor = "Large"
-      type = "Default"
-    },
-    {
-      actionName = "List"
-      formFactor = "Small"
-      type = "Default"
-    },
-    {
-      actionName = "SaveEdit"
-      type = "Default"
-    },
-    {
-      actionName = "SaveEdit"
-      formFactor = "Large"
-      type = "Default"
-    },
-    {
-      actionName = "SaveEdit"
-      formFactor = "Small"
-      type = "Default"
-    },
-    {
-      actionName = "Tab"
-      type = "Default"
-    },
-    {
-      actionName = "Tab"
-      formFactor = "Large"
-      type = "Default"
-    },
-    {
-      actionName = "Tab"
-      formFactor = "Small"
-      type = "Default"
-    },
-  ]
-  compactLayoutAssignment = "SYSTEM"
+  label = "AiEvalTestCaseResult"
   enableFeeds = false
-  externalSharingModel = "ReadWrite"
-  _alias = "Privacy Policy"
+  externalSharingModel = "ControlledByParent"
+  _alias = "AiEvalTestCaseResult"
 }

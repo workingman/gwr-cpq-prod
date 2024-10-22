@@ -49,7 +49,7 @@ salesforce.Layout AssetAction_Asset_Action_Layout@bss {
               field = salesforce.AssetAction.field.AssetId
             },
             {
-              behavior = "Required"
+              behavior = "Readonly"
               field = salesforce.AssetAction.field.Category
             },
             {

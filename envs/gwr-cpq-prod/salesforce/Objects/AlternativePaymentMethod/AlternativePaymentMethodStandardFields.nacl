@@ -15,6 +15,14 @@ type salesforce.AlternativePaymentMethod {
     unique = false
     queryable = true
   }
+  salesforce.Unknown BankAccountHolderType {
+    apiName = "AlternativePaymentMethod.BankAccountHolderType"
+    _hidden_value = true
+  }
+  salesforce.Unknown BankAccountType {
+    apiName = "AlternativePaymentMethod.BankAccountType"
+    _hidden_value = true
+  }
   salesforce.Text BillingFirstName {
     apiName = "AlternativePaymentMethod.BillingFirstName"
     length = 255
@@ -73,7 +81,7 @@ type salesforce.AlternativePaymentMethod {
   }
   salesforce.EncryptedText GatewayToken {
     apiName = "AlternativePaymentMethod.GatewayToken"
-    length = 255
+    length = 1000
     label = "Gateway Token"
     createable = true
     updateable = true
@@ -185,6 +193,10 @@ type salesforce.AlternativePaymentMethod {
     createable = true
     updateable = false
     queryable = true
+  }
+  salesforce.Unknown StandardEntryClassCode {
+    apiName = "AlternativePaymentMethod.StandardEntryClassCode"
+    _hidden_value = true
   }
   salesforce.Picklist Status {
     apiName = "AlternativePaymentMethod.Status"

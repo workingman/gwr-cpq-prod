@@ -71,7 +71,7 @@ type salesforce.DigitalWallet {
   }
   salesforce.EncryptedText GatewayTokenEncrypted {
     apiName = "DigitalWallet.GatewayTokenEncrypted"
-    length = 255
+    length = 1000
     label = "Gateway Token Encrypted"
     createable = true
     updateable = true
