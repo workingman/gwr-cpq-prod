@@ -38,10 +38,6 @@ salesforce.Layout Account_SBQQ__CPQ_Account_Layout@buuss {
             },
             {
               behavior = "Edit"
-              field = salesforce.Account.field.gwr_Status__c
-            },
-            {
-              behavior = "Edit"
               field = salesforce.Account.field.CPQ1_Dev__c
             },
           ]

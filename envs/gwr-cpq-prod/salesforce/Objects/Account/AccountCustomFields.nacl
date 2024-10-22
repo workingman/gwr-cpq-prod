@@ -366,30 +366,9 @@ type salesforce.Account {
     updateable = true
     queryable = true
   }
-  salesforce.Text gwr_Status__c {
-    apiName = "Account.gwr_Status__c"
-    externalId = false
-    label = "_gwr_Status"
-    length = 100
-    unique = false
-    createable = true
-    updateable = true
-    caseSensitive = false
-    queryable = true
-    
-    description = "gwr status 20230918-155404"
-  }
   salesforce.Checkbox GWR_new_checkbox__c {
     apiName = "Account.GWR_new_checkbox__c"
     label = "GWR new checkbox"
-    defaultValue = false
-    createable = true
-    updateable = true
-    queryable = true
-  }
-  salesforce.Checkbox GWR_checkbokx2__c {
-    apiName = "Account.GWR_checkbokx2__c"
-    label = "__GWR checkbokx2"
     defaultValue = false
     createable = true
     updateable = true

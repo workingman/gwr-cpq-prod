@@ -37,10 +37,6 @@ salesforce.Layout Account_Account__28Marketing_29_Layout@bspps {
             },
             {
               behavior = "Edit"
-              field = salesforce.Account.field.gwr_Status__c
-            },
-            {
-              behavior = "Edit"
               field = salesforce.Account.field.CPQ1_Dev__c
             },
           ]
