@@ -374,4 +374,12 @@ type salesforce.Account {
     updateable = true
     queryable = true
   }
+  salesforce.Checkbox GWR_checkbokx2__c {
+    apiName = "Account.GWR_checkbokx2__c"
+    label = "__GWR checkbokx2"
+    defaultValue = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
 }
