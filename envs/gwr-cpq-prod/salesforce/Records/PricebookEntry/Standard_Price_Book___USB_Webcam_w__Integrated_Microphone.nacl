@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___USB_Webcam_w__Integrated_Microphone@ssuuussdss {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.USB_Webcam_w__Integrated_Microphone___USBWEBCAMMIC___Miscellaneous@ssdssuuuuuu
+  UnitPrice = 35
+  UseStandardPrice = false
+  _alias = "Standard Price Book USB Webcam w/ Integrated Microphone"
+}

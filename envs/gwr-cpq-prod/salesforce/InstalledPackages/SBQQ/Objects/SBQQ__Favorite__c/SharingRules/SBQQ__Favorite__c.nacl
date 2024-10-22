@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__Favorite__c {
+  fullName = "SBQQ__Favorite__c"
+  _parent = [
+    salesforce.SBQQ__Favorite__c,
+  ]
+  _alias = "SBQQ__Favorite__c"
+}

@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__QuoteRestEndpoint {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__QuoteRestEndpoint"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__QuoteRestEndpoint.cls")
+  _alias = "SBQQ__QuoteRestEndpoint"
+}

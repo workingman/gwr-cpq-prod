@@ -1,0 +1,7 @@
+salesforce.StaticResource SBQQ__CustomLookupUI {
+  cacheControl = "Private"
+  contentType = "text/javascript"
+  fullName = "SBQQ__CustomLookupUI"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/StaticResource/SBQQ__CustomLookupUI.resource")
+  _alias = "SBQQ__CustomLookupUI"
+}

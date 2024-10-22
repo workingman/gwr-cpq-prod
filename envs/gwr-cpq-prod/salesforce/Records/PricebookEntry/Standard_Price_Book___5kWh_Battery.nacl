@@ -1,0 +1,8 @@
+salesforce.PricebookEntry Standard_Price_Book___5kWh_Battery@ssuuus {
+  IsActive = true
+  Pricebook2Id = salesforce.Pricebook2.instance.Standard_Price_Book@s
+  Product2Id = salesforce.Product2.instance.5kWh_Battery___5KWHBATTERY___Hardware@suuuuuu
+  UnitPrice = 2700
+  UseStandardPrice = false
+  _alias = "Standard Price Book 5kWh Battery"
+}

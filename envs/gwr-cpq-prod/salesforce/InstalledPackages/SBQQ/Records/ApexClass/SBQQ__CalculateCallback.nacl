@@ -1,0 +1,7 @@
+salesforce.ApexClass SBQQ__CalculateCallback {
+  apiVersion = 51
+  status = "Active"
+  fullName = "SBQQ__CalculateCallback"
+  content = file("salesforce/InstalledPackages/SBQQ/Records/ApexClass/SBQQ__CalculateCallback.cls")
+  _alias = "SBQQ__CalculateCallback"
+}

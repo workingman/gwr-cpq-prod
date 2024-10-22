@@ -1,0 +1,17 @@
+salesforce.ListView SBQQ__QuoteTerm__c_SBQQ__All {
+  fullName = "SBQQ__QuoteTerm__c.SBQQ__All"
+  columns = [
+    "NAME",
+    salesforce.SBQQ__QuoteTerm__c.field.SBQQ__PrintOrder__c,
+    salesforce.SBQQ__QuoteTerm__c.field.SBQQ__Active__c,
+    salesforce.SBQQ__QuoteTerm__c.field.SBQQ__Status__c,
+    salesforce.SBQQ__QuoteTerm__c.field.SBQQ__Type__c,
+    salesforce.SBQQ__QuoteTerm__c.field.SBQQ__Body__c,
+  ]
+  filterScope = "Everything"
+  label = "All"
+  _parent = [
+    salesforce.SBQQ__QuoteTerm__c,
+  ]
+  _alias = "All (SBQQ)"
+}

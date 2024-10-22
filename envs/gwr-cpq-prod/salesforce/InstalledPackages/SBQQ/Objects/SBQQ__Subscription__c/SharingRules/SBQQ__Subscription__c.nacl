@@ -1,0 +1,7 @@
+salesforce.SharingRules SBQQ__Subscription__c {
+  fullName = "SBQQ__Subscription__c"
+  _parent = [
+    salesforce.SBQQ__Subscription__c,
+  ]
+  _alias = "SBQQ__Subscription__c"
+}

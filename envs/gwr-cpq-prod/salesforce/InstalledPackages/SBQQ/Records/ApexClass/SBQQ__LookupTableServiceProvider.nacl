@@ -1,0 +1,14 @@
+salesforce.ApexClass SBQQ__LookupTableServiceProvider {
+  apiVersion = 51
+  packageVersions = [
+    {
+      majorNumber = 232
+      minorNumber = 4
+      namespace = "SBQQ"
+    },
+  ]
+  status = "Active"
+  fullName = "SBQQ__LookupTableServiceProvider"
+  content = "(hidden)"
+  _alias = "SBQQ__LookupTableServiceProvider"
+}
